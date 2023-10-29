@@ -250,7 +250,9 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
               '--episode-accumulated-size': episodeData.accumulatedSize * -1,
             }"
             @mouseenter="hoveredEpisode = { season, episode }"
+            @focus="hoveredEpisode = { season, episode }"
             @mouseleave="hoveredEpisode = null"
+            @blur="hoveredEpisode = null"
           >
             <template
               v-for="speaker of getSpeakersWithAccumulatedSize(
@@ -450,6 +452,10 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
         aspect-ratio: 2;
         left: calc(var(--episode-accumulated-size) * 100cqw);
         transition: opacity 0.3s;
+
+        &:focus {
+          outline: none;
+        }
 
         &:hover {
           z-index: 10;

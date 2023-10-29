@@ -48,6 +48,10 @@ defineProps({
     translate: -2rem 0;
     z-index: 1;
 
+    &:focus {
+      outline: none;
+    }
+
     &:not(:nth-child(4)) {
       color: #000;
     }
