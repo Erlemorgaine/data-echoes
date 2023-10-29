@@ -11,6 +11,8 @@ import goodEpisodes from '../assets/data/7-nostalgia/good_episodes.json'
 import sumBy from 'lodash/sumBy'
 import { computed, onMounted, ref } from 'vue'
 
+import NostalgiaLegend from './NostalgiaLegend.vue'
+
 // Types
 type Speaker = {
   speaker: string
@@ -263,13 +265,15 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
                   'nostalgia-page__season__episode__speaker',
                   {
                     inactive:
-                      hoveredSeasonSpeaker &&
-                      hoveredSeasonSpeaker.season === season &&
-                      hoveredSeasonSpeaker.speaker !== speaker.speaker,
+                      (hoveredSeasonSpeaker &&
+                        hoveredSeasonSpeaker.season === season &&
+                        hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
+                      (hoveredSpeaker && hoveredSpeaker !== speaker.speaker),
                     active:
-                      hoveredSeasonSpeaker &&
-                      hoveredSeasonSpeaker.season === season &&
-                      hoveredSeasonSpeaker.speaker === speaker.speaker,
+                      (hoveredSeasonSpeaker &&
+                        hoveredSeasonSpeaker.season === season &&
+                        hoveredSeasonSpeaker.speaker === speaker.speaker) ||
+                      (hoveredSpeaker && hoveredSpeaker === speaker.speaker),
                   },
                 ]"
                 :style="{
@@ -308,6 +312,8 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           </div>
         </div>
       </div>
+
+      <NostalgiaLegend :keySpeakers="keySpeakers" @onSpeakerHover="hoveredSpeaker = $event" />
     </section>
   </div>
 </template>
@@ -315,6 +321,9 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 <style>
 .nostalgia-page {
   --off-white: #eeeeee;
+  --off-white-50: #eeeeee55;
+  --off-white-30: #eeeeee33;
+  --off-white-10: #eeeeee11;
 
   --professor: #484848;
   --professor-50: #48484855;
@@ -465,7 +474,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           aspect-ratio: 1;
           border-radius: 50%;
           z-index: var(--speaker-z-index);
-          transition: opacity 0.3s;
+          transition: opacity 0.7s;
 
           &__size {
             position: absolute;

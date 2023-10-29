@@ -28,8 +28,6 @@ const themes = {
   padding: 0rem 2.5em;
   overflow: hidden;
   position: relative;
-  transform: translate(0, 0);
-  position: relative;
 
   &__theme {
     font-size: 1.5rem;
