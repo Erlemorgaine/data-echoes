@@ -1,0 +1,5058 @@
+{
+  "1": {
+    "1.1": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 292
+      },
+      {
+        "speaker": "mayor",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 11
+      },
+      {
+        "speaker": "blossom",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 139
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 5
+      },
+      {
+        "speaker": "professor",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 71
+      },
+      {
+        "speaker": "narrator",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 169
+      }
+    ],
+    "1.2": [
+      {
+        "speaker": "sedusa",
+        "episode": "mommy fearest",
+        "word_count_for_line": 325
+      },
+      {
+        "speaker": "mayor",
+        "episode": "mommy fearest",
+        "word_count_for_line": 47
+      },
+      {
+        "speaker": "blossom",
+        "episode": "mommy fearest",
+        "word_count_for_line": 120
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "mommy fearest",
+        "word_count_for_line": 74
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "mommy fearest",
+        "word_count_for_line": 70
+      },
+      {
+        "speaker": "professor",
+        "episode": "mommy fearest",
+        "word_count_for_line": 193
+      },
+      {
+        "speaker": "narrator",
+        "episode": "mommy fearest",
+        "word_count_for_line": 160
+      }
+    ],
+    "2.2": [
+      {
+        "speaker": "mayor",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 278
+      },
+      {
+        "speaker": "253",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 251
+      },
+      {
+        "speaker": "ms. bellum",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 126
+      },
+      {
+        "speaker": "blossom",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 156
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 18
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 65
+      },
+      {
+        "speaker": "narrator",
+        "episode": "powerpuff bluff",
+        "word_count_for_line": 115
+      }
+    ],
+    "3.1": [
+      {
+        "speaker": "him",
+        "episode": "octi evil",
+        "word_count_for_line": 181
+      },
+      {
+        "speaker": "octi",
+        "episode": "octi evil",
+        "word_count_for_line": 140
+      },
+      {
+        "speaker": "mayor",
+        "episode": "octi evil",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "episode": "octi evil",
+        "word_count_for_line": 134
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "octi evil",
+        "word_count_for_line": 138
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "octi evil",
+        "word_count_for_line": 97
+      },
+      {
+        "speaker": "professor",
+        "episode": "octi evil",
+        "word_count_for_line": 31
+      },
+      {
+        "speaker": "narrator",
+        "episode": "octi evil",
+        "word_count_for_line": 135
+      }
+    ],
+    "7.1": [
+      {
+        "speaker": "mayor",
+        "episode": "major competition",
+        "word_count_for_line": 155
+      },
+      {
+        "speaker": "major man",
+        "episode": "major competition",
+        "word_count_for_line": 104
+      },
+      {
+        "speaker": "male chorus",
+        "episode": "major competition",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "blossom",
+        "episode": "major competition",
+        "word_count_for_line": 164
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "major competition",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "major competition",
+        "word_count_for_line": 49
+      },
+      {
+        "speaker": "professor",
+        "episode": "major competition",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "narrator",
+        "episode": "major competition",
+        "word_count_for_line": 127
+      }
+    ],
+    "7.2": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 431
+      },
+      {
+        "speaker": "blossom",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "professor",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 285
+      },
+      {
+        "speaker": "narrator",
+        "episode": "mr. mojo's rising",
+        "word_count_for_line": 121
+      }
+    ],
+    "8.1": [
+      {
+        "speaker": "ms. keane",
+        "episode": "paste makes waste",
+        "word_count_for_line": 169
+      },
+      {
+        "speaker": "blossom",
+        "episode": "paste makes waste",
+        "word_count_for_line": 91
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "paste makes waste",
+        "word_count_for_line": 26
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "paste makes waste",
+        "word_count_for_line": 194
+      },
+      {
+        "speaker": "narrator",
+        "episode": "paste makes waste",
+        "word_count_for_line": 88
+      }
+    ],
+    "8.2": [
+      {
+        "speaker": "ms. keane",
+        "episode": "ice sore",
+        "word_count_for_line": 81
+      },
+      {
+        "speaker": "mayor",
+        "episode": "ice sore",
+        "word_count_for_line": 59
+      },
+      {
+        "speaker": "ms. bellum",
+        "episode": "ice sore",
+        "word_count_for_line": 22
+      },
+      {
+        "speaker": "blossom",
+        "episode": "ice sore",
+        "word_count_for_line": 181
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "ice sore",
+        "word_count_for_line": 96
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "ice sore",
+        "word_count_for_line": 203
+      },
+      {
+        "speaker": "professor",
+        "episode": "ice sore",
+        "word_count_for_line": 131
+      },
+      {
+        "speaker": "narrator",
+        "episode": "ice sore",
+        "word_count_for_line": 100
+      }
+    ],
+    "9.1": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "bubblevicious",
+        "word_count_for_line": 113
+      },
+      {
+        "speaker": "mayor",
+        "episode": "bubblevicious",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "blossom",
+        "episode": "bubblevicious",
+        "word_count_for_line": 128
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "bubblevicious",
+        "word_count_for_line": 308
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "bubblevicious",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "professor",
+        "episode": "bubblevicious",
+        "word_count_for_line": 126
+      },
+      {
+        "speaker": "narrator",
+        "episode": "bubblevicious",
+        "word_count_for_line": 57
+      }
+    ],
+    "9.2": [
+      {
+        "speaker": "mayor",
+        "episode": "the bare facts",
+        "word_count_for_line": 359
+      },
+      {
+        "speaker": "mojo jojo",
+        "episode": "the bare facts",
+        "word_count_for_line": 103
+      },
+      {
+        "speaker": "ms. bellum",
+        "episode": "the bare facts",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "blossom",
+        "episode": "the bare facts",
+        "word_count_for_line": 462
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "the bare facts",
+        "word_count_for_line": 375
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "the bare facts",
+        "word_count_for_line": 266
+      },
+      {
+        "speaker": "narrator",
+        "episode": "the bare facts",
+        "word_count_for_line": 44
+      }
+    ],
+    "10.1": [
+      {
+        "speaker": "blossom",
+        "episode": "cat man do",
+        "word_count_for_line": 62
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "cat man do",
+        "word_count_for_line": 168
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "cat man do",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "professor",
+        "episode": "cat man do",
+        "word_count_for_line": 174
+      },
+      {
+        "speaker": "narrator",
+        "episode": "cat man do",
+        "word_count_for_line": 78
+      }
+    ],
+    "10.2": [
+      {
+        "speaker": "mayor",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 256
+      },
+      {
+        "speaker": "fuzzy",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 132
+      },
+      {
+        "speaker": "ms. bellum",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 99
+      },
+      {
+        "speaker": "blossom",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 83
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 16
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "professor",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 9
+      },
+      {
+        "speaker": "narrator",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 57
+      }
+    ],
+    "11.1": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 790
+      },
+      {
+        "speaker": "blossom",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 38
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 37
+      },
+      {
+        "speaker": "narrator",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 141
+      }
+    ],
+    "11.2": [
+      {
+        "speaker": "rainbow",
+        "episode": "mime for a change",
+        "word_count_for_line": 144
+      },
+      {
+        "speaker": "blossom",
+        "episode": "mime for a change",
+        "word_count_for_line": 71
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "mime for a change",
+        "word_count_for_line": 331
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "mime for a change",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "narrator",
+        "episode": "mime for a change",
+        "word_count_for_line": 96
+      }
+    ],
+    "12": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 359
+      },
+      {
+        "speaker": "ms. bellum",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "mayor",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 62
+      },
+      {
+        "speaker": "blossom",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 101
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 80
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 72
+      },
+      {
+        "speaker": "professor",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "narrator",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 90
+      }
+    ],
+    "13": [
+      {
+        "speaker": "mayor",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "blossom",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 88
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 20
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 65
+      },
+      {
+        "speaker": "professor",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 175
+      },
+      {
+        "speaker": "narrator",
+        "episode": "uh oh dynamo",
+        "word_count_for_line": 200
+      }
+    ]
+  },
+  "2": {
+    "1.1": [
+      {
+        "speaker": "princess morbucks",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 545
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 60
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 226
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 61
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 92
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 125
+      }
+    ],
+    "1.2": [
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 438
+      },
+      {
+        "speaker": "wednesday",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 184
+      },
+      {
+        "speaker": "ace",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 179
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 58
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 18
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 35
+      }
+    ],
+    "2.1": [
+      {
+        "speaker": "lenny",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 268
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 144
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 34
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 70
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 166
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "collect her",
+        "word_count_for_line": 73
+      }
+    ],
+    "2.2": [
+      {
+        "speaker": "marianne",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 203
+      },
+      {
+        "speaker": "harold",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 188
+      },
+      {
+        "speaker": "whitfield",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 186
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 9
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 88
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "supper villain",
+        "word_count_for_line": 50
+      }
+    ],
+    "3.1": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 180
+      },
+      {
+        "speaker": "bossman",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 144
+      },
+      {
+        "speaker": "princess morbucks",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 103
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 7
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 70
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 39
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "birthday bash",
+        "word_count_for_line": 78
+      }
+    ],
+    "3.2": [
+      {
+        "speaker": "man",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 255
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 2
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 147
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 66
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 12
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "too pooped to puff",
+        "word_count_for_line": 44
+      }
+    ],
+    "4.1": [
+      {
+        "speaker": "ruler",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 151
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 122
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 106
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "beat your greens",
+        "word_count_for_line": 277
+      }
+    ],
+    "4.2": [
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 75
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 47
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 55
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 187
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 17
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "down 'n dirty",
+        "word_count_for_line": 40
+      }
+    ],
+    "5.1": [
+      {
+        "speaker": "sandman",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 302
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "dream scheme",
+        "word_count_for_line": 635
+      }
+    ],
+    "5.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 287
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 209
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 83
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 91
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 60
+      }
+    ],
+    "6.1": [
+      {
+        "speaker": "billy",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 273
+      },
+      {
+        "speaker": "ace",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 119
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 26
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 161
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 24
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 26
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "slave the day",
+        "word_count_for_line": 132
+      }
+    ],
+    "6.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 316
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 177
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 248
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 130
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "los dos mojos",
+        "word_count_for_line": 142
+      }
+    ],
+    "7.1": [
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 180
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 261
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 123
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 433
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "a very special blossom",
+        "word_count_for_line": 99
+      }
+    ],
+    "7.2": [
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 130
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 98
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 218
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "daylight savings",
+        "word_count_for_line": 187
+      }
+    ],
+    "8.1": [
+      {
+        "speaker": "princess morbucks",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 257
+      },
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 201
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 87
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 31
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 36
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "mo job",
+        "word_count_for_line": 60
+      }
+    ],
+    "8.2": [
+      {
+        "speaker": "ms. bellum",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 69
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 73
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 42
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 295
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "pet feud",
+        "word_count_for_line": 166
+      }
+    ],
+    "9.1": [
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 314
+      },
+      {
+        "speaker": "mike",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 146
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 100
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 167
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 108
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "imaginary fiend",
+        "word_count_for_line": 72
+      }
+    ],
+    "9.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 169
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 108
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 44
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "cootie gras",
+        "word_count_for_line": 66
+      }
+    ],
+    "10.1": [
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 37
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 523
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 371
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 278
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 84
+      }
+    ],
+    "10.2": [
+      {
+        "speaker": "marianne",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 304
+      },
+      {
+        "speaker": "harold",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 185
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 11
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 15
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "just desserts",
+        "word_count_for_line": 128
+      }
+    ],
+    "11.1": [
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "twisted sister",
+        "word_count_for_line": 241
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "twisted sister",
+        "word_count_for_line": 98
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "twisted sister",
+        "word_count_for_line": 105
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "twisted sister",
+        "word_count_for_line": 62
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "twisted sister",
+        "word_count_for_line": 131
+      }
+    ],
+    "11.2": [
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "cover up",
+        "word_count_for_line": 174
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "cover up",
+        "word_count_for_line": 35
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "cover up",
+        "word_count_for_line": 164
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "cover up",
+        "word_count_for_line": 40
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "cover up",
+        "word_count_for_line": 86
+      }
+    ],
+    "12.1": [
+      {
+        "speaker": "ms. keane",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 211
+      },
+      {
+        "speaker": "him",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 101
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 2
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 73
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 100
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "speed demon",
+        "word_count_for_line": 69
+      }
+    ],
+    "12.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 207
+      },
+      {
+        "speaker": "mary",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 121
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 17
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 33
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "mojo jonesin",
+        "word_count_for_line": 86
+      }
+    ],
+    "13.1": [
+      {
+        "speaker": "ms. bellum",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 263
+      },
+      {
+        "speaker": "mayor",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 248
+      },
+      {
+        "speaker": "sedusa",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 146
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 224
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 55
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 90
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "something's a ms.",
+        "word_count_for_line": 56
+      }
+    ],
+    "13.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 120
+      },
+      {
+        "speaker": "blossom",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 59
+      },
+      {
+        "speaker": "bubbles",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 39
+      },
+      {
+        "speaker": "buttercup",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 42
+      },
+      {
+        "speaker": "professor",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 44
+      },
+      {
+        "speaker": "narrator",
+        "season": 2,
+        "episode": "slumbering with the enemy",
+        "word_count_for_line": 46
+      }
+    ]
+  },
+  "3": {
+    "1.1": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 179
+      },
+      {
+        "speaker": "mastermind",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 144
+      },
+      {
+        "speaker": "captain",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 135
+      },
+      {
+        "speaker": "lefty",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 125
+      },
+      {
+        "speaker": "announcer",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 117
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 22
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "fallen arches",
+        "word_count_for_line": 52
+      }
+    ],
+    "1.2": [
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "the mane event",
+        "word_count_for_line": 255
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "the mane event",
+        "word_count_for_line": 73
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "the mane event",
+        "word_count_for_line": 93
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "the mane event",
+        "word_count_for_line": 86
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "the mane event",
+        "word_count_for_line": 60
+      }
+    ],
+    "2.1": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 183
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 260
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 38
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 39
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "town and out",
+        "word_count_for_line": 17
+      }
+    ],
+    "2.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 315
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 32
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 83
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 58
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 76
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 44
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "child fearing",
+        "word_count_for_line": 47
+      }
+    ],
+    "3": [
+      {
+        "speaker": "ms. bellum",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 249
+      },
+      {
+        "speaker": "mojo jojo",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 164
+      },
+      {
+        "speaker": "woman",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 157
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 112
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 270
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 125
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 337
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 379
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 40
+      }
+    ],
+    "4.1": [
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "bubblevision",
+        "word_count_for_line": 170
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "bubblevision",
+        "word_count_for_line": 227
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "bubblevision",
+        "word_count_for_line": 61
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "bubblevision",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "bubblevision",
+        "word_count_for_line": 94
+      }
+    ],
+    "4.2": [
+      {
+        "speaker": "princess morbucks",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 555
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 12
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 143
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 86
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 80
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 90
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "bought and scold",
+        "word_count_for_line": 107
+      }
+    ],
+    "5.1": [
+      {
+        "speaker": "mitch",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 134
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 69
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 112
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 48
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "gettin' twiggy with it",
+        "word_count_for_line": 52
+      }
+    ],
+    "5.2": [
+      {
+        "speaker": "brick",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 275
+      },
+      {
+        "speaker": "chief of police",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 141
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 4
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 101
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 22
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "cop out",
+        "word_count_for_line": 112
+      }
+    ],
+    "6.1": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "three girls and a monster",
+        "word_count_for_line": 3
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "three girls and a monster",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "three girls and a monster",
+        "word_count_for_line": 76
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "three girls and a monster",
+        "word_count_for_line": 234
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "three girls and a monster",
+        "word_count_for_line": 18
+      }
+    ],
+    "6.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 3,
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 564
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 80
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 10
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 26
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 128
+      }
+    ],
+    "7.1": [
+      {
+        "speaker": "thief",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 245
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 99
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 48
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 29
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "jewel of the aisle",
+        "word_count_for_line": 90
+      }
+    ],
+    "7.2": [
+      {
+        "speaker": "harmony bunny",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 141
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 193
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 219
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 207
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "super zeroes",
+        "word_count_for_line": 34
+      }
+    ],
+    "8.1": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "candy is dandy",
+        "word_count_for_line": 286
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "candy is dandy",
+        "word_count_for_line": 200
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "candy is dandy",
+        "word_count_for_line": 80
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "candy is dandy",
+        "word_count_for_line": 85
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "candy is dandy",
+        "word_count_for_line": 30
+      }
+    ],
+    "8.2": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "catastrophe",
+        "word_count_for_line": 69
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "catastrophe",
+        "word_count_for_line": 153
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "catastrophe",
+        "word_count_for_line": 31
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "catastrophe",
+        "word_count_for_line": 52
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "catastrophe",
+        "word_count_for_line": 81
+      }
+    ],
+    "9.1": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 568
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 88
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 20
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 73
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "hot air buffoon",
+        "word_count_for_line": 62
+      }
+    ],
+    "9.2": [
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 82
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 231
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 114
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 86
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "ploys r' us",
+        "word_count_for_line": 43
+      }
+    ],
+    "10.2": [
+      {
+        "speaker": "femme fatale",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 350
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 107
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 67
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 45
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 280
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 84
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 81
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 58
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "equal fights",
+        "word_count_for_line": 94
+      }
+    ],
+    "11": [
+      {
+        "speaker": "mojo jojo",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 122
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 4
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 79
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 48
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 426
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "powerprof.",
+        "word_count_for_line": 122
+      }
+    ],
+    "12.1": [
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "moral decay",
+        "word_count_for_line": 131
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "moral decay",
+        "word_count_for_line": 172
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "moral decay",
+        "word_count_for_line": 253
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "moral decay",
+        "word_count_for_line": 176
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "moral decay",
+        "word_count_for_line": 47
+      }
+    ],
+    "12.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 366
+      },
+      {
+        "speaker": "announcer",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 191
+      },
+      {
+        "speaker": "him",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 151
+      },
+      {
+        "speaker": "princess morbucks",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 132
+      },
+      {
+        "speaker": "fuzzy",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 106
+      },
+      {
+        "speaker": "mayor",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 123
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 20
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 169
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 40
+      }
+    ],
+    "13.1": [
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "helter shelter",
+        "word_count_for_line": 150
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "helter shelter",
+        "word_count_for_line": 256
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "helter shelter",
+        "word_count_for_line": 85
+      },
+      {
+        "speaker": "professor",
+        "season": 3,
+        "episode": "helter shelter",
+        "word_count_for_line": 379
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "helter shelter",
+        "word_count_for_line": 55
+      }
+    ],
+    "13.2": [
+      {
+        "speaker": "ace",
+        "season": 3,
+        "episode": "power lunch",
+        "word_count_for_line": 181
+      },
+      {
+        "speaker": "blossom",
+        "season": 3,
+        "episode": "power lunch",
+        "word_count_for_line": 98
+      },
+      {
+        "speaker": "bubbles",
+        "season": 3,
+        "episode": "power lunch",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "buttercup",
+        "season": 3,
+        "episode": "power lunch",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "narrator",
+        "season": 3,
+        "episode": "power lunch",
+        "word_count_for_line": 164
+      }
+    ]
+  },
+  "4": {
+    "1": [
+      {
+        "speaker": "bernie",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 915
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 111
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 163
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 59
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 83
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 403
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "film flam",
+        "word_count_for_line": 131
+      }
+    ],
+    "2": [
+      {
+        "speaker": "him",
+        "season": 4,
+        "episode": "all chalked up",
+        "word_count_for_line": 289
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "all chalked up",
+        "word_count_for_line": 111
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "all chalked up",
+        "word_count_for_line": 260
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "all chalked up",
+        "word_count_for_line": 243
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "all chalked up",
+        "word_count_for_line": 51
+      }
+    ],
+    "3": [
+      {
+        "speaker": "mojo jojo",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 368
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 252
+      },
+      {
+        "speaker": "teacher",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 232
+      },
+      {
+        "speaker": "announcer",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 144
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 9
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 61
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 756
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "get back, jojo",
+        "word_count_for_line": 38
+      }
+    ],
+    "4": [
+      {
+        "speaker": "him",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 517
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 93
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 431
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 100
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 170
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 30
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "him diddle riddle",
+        "word_count_for_line": 5
+      }
+    ],
+    "5": [
+      {
+        "speaker": "major glory",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 630
+      },
+      {
+        "speaker": "shaquille",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 163
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 260
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 143
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 109
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 222
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "members only",
+        "word_count_for_line": 110
+      }
+    ],
+    "6": [
+      {
+        "speaker": "dick",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 802
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 215
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 98
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 335
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "knock it off",
+        "word_count_for_line": 31
+      }
+    ],
+    "7": [
+      {
+        "speaker": "princess morbucks",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 661
+      },
+      {
+        "speaker": "robin",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 285
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 59
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 27
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 9
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 336
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 313
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 125
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 75
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "superfriends",
+        "word_count_for_line": 49
+      }
+    ],
+    "8": [
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "nano of the north",
+        "word_count_for_line": 173
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "nano of the north",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "nano of the north",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "nano of the north",
+        "word_count_for_line": 541
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "nano of the north",
+        "word_count_for_line": 410
+      }
+    ],
+    "9": [
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 8
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 271
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 178
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 174
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 162
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "stray bullet",
+        "word_count_for_line": 72
+      }
+    ],
+    "10": [
+      {
+        "speaker": "mojo jojo",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 789
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 284
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 108
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 140
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "forced kin",
+        "word_count_for_line": 43
+      }
+    ],
+    "11.1": [
+      {
+        "speaker": "ms. keane",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 347
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 63
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 16
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 81
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 82
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 355
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "keen on keane",
+        "word_count_for_line": 16
+      }
+    ],
+    "11.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 270
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 251
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 113
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 190
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 141
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "not so awesome blossom",
+        "word_count_for_line": 40
+      }
+    ],
+    "12": [
+      {
+        "speaker": "ms. keane",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 271
+      },
+      {
+        "speaker": "him",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 210
+      },
+      {
+        "speaker": "mayor",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 377
+      },
+      {
+        "speaker": "bubbles",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 153
+      },
+      {
+        "speaker": "buttercup",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 229
+      },
+      {
+        "speaker": "professor",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 71
+      },
+      {
+        "speaker": "narrator",
+        "season": 4,
+        "episode": "power-noia",
+        "word_count_for_line": 147
+      }
+    ]
+  },
+  "5": {
+    "1.1": [
+      {
+        "speaker": "monster",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 203
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 165
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 248
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 34
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 35
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "monstra-city",
+        "word_count_for_line": 28
+      }
+    ],
+    "1.2": [
+      {
+        "speaker": "talking dog",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 647
+      },
+      {
+        "speaker": "agent",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 179
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 47
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 242
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 133
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 137
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 63
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "shut the pup up",
+        "word_count_for_line": 33
+      }
+    ],
+    "2.1": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 273
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 18
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 92
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 14
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 30
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 263
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "toast of the town",
+        "word_count_for_line": 69
+      }
+    ],
+    "2.2": [
+      {
+        "speaker": "bossman",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 262
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 38
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 84
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 159
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "divide and conquer",
+        "word_count_for_line": 34
+      }
+    ],
+    "3.1": [
+      {
+        "speaker": "burglar",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 240
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 216
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 120
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 113
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 5
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "burglar alarmed",
+        "word_count_for_line": 164
+      }
+    ],
+    "3.2": [
+      {
+        "speaker": "fuzzy",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 163
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 37
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 26
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 493
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 20
+      }
+    ],
+    "4.1": [
+      {
+        "speaker": "mojo jojo",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 272
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 96
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 172
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 22
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 14
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "save mojo",
+        "word_count_for_line": 77
+      }
+    ],
+    "4.2": [
+      {
+        "speaker": "mr. green",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 324
+      },
+      {
+        "speaker": "kids",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 103
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 15
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 131
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 84
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "substitute creature",
+        "word_count_for_line": 43
+      }
+    ],
+    "5": [
+      {
+        "speaker": "him",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 517
+      },
+      {
+        "speaker": "brick",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 422
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 341
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 147
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 272
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "the boys are back in town",
+        "word_count_for_line": 153
+      }
+    ],
+    "6.1": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 73
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 66
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 216
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 127
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 109
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 152
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "pee pee g's",
+        "word_count_for_line": 130
+      }
+    ],
+    "6.2": [
+      {
+        "speaker": "princess morbucks",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 579
+      },
+      {
+        "speaker": "brick",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 116
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 49
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 57
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "boy toys",
+        "word_count_for_line": 45
+      }
+    ],
+    "7": [
+      {
+        "speaker": "gnome",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 362
+      },
+      {
+        "speaker": "powerpuff girls",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 212
+      },
+      {
+        "speaker": "man",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 123
+      },
+      {
+        "speaker": "townspeople",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 121
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 183
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 190
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 93
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 12
+      }
+    ],
+    "8.1": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "guide",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 10
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 36
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "seed no evil",
+        "word_count_for_line": 88
+      }
+    ],
+    "8.2": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 93
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 15
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 173
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 95
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 109
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "city of clipsville",
+        "word_count_for_line": 61
+      }
+    ],
+    "9.1": [
+      {
+        "speaker": "brian",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 1041
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 37
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 16
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 11
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 10
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "a documentary",
+        "word_count_for_line": 5
+      }
+    ],
+    "9.2": [
+      {
+        "speaker": "stanley",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 103
+      },
+      {
+        "speaker": "sandra",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 102
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 195
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 32
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 58
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "girls gone mild",
+        "word_count_for_line": 16
+      }
+    ],
+    "11.1": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 17
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 249
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 150
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 135
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 316
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "lying around the house",
+        "word_count_for_line": 70
+      }
+    ],
+    "11.2": [
+      {
+        "speaker": "brick",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 368
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 125
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 185
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 150
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 87
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "bubble boy",
+        "word_count_for_line": 32
+      }
+    ],
+    "13.1": [
+      {
+        "speaker": "host",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 107
+      },
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 48
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 298
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 181
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 213
+      },
+      {
+        "speaker": "professor",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 218
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "curses",
+        "word_count_for_line": 43
+      }
+    ],
+    "13.2": [
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "bang for your buck",
+        "word_count_for_line": 44
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "bang for your buck",
+        "word_count_for_line": 16
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "bang for your buck",
+        "word_count_for_line": 23
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "bang for your buck",
+        "word_count_for_line": 4
+      }
+    ],
+    "14.2": [
+      {
+        "speaker": "mayor",
+        "season": 5,
+        "episode": "sweet 'n sour",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "blossom",
+        "season": 5,
+        "episode": "sweet 'n sour",
+        "word_count_for_line": 156
+      },
+      {
+        "speaker": "bubbles",
+        "season": 5,
+        "episode": "sweet 'n sour",
+        "word_count_for_line": 169
+      },
+      {
+        "speaker": "buttercup",
+        "season": 5,
+        "episode": "sweet 'n sour",
+        "word_count_for_line": 97
+      },
+      {
+        "speaker": "narrator",
+        "season": 5,
+        "episode": "sweet 'n sour",
+        "word_count_for_line": 27
+      }
+    ]
+  },
+  "6": {
+    "1.1": [
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "prime mates",
+        "word_count_for_line": 33
+      }
+    ],
+    "1.2": [
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "coupe d'etat",
+        "word_count_for_line": 47
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "coupe d'etat",
+        "word_count_for_line": 2
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "coupe d'etat",
+        "word_count_for_line": 7
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "coupe d'etat",
+        "word_count_for_line": 65
+      }
+    ],
+    "2.1": [
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "makes zen to me",
+        "word_count_for_line": 97
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "makes zen to me",
+        "word_count_for_line": 36
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "makes zen to me",
+        "word_count_for_line": 173
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "makes zen to me",
+        "word_count_for_line": 11
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "makes zen to me",
+        "word_count_for_line": 3
+      }
+    ],
+    "2.2": [
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 133
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 62
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 77
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 241
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "say uncle",
+        "word_count_for_line": 47
+      }
+    ],
+    "3.1": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 54
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 7
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 5
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 187
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 129
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 111
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "reeking havoc",
+        "word_count_for_line": 88
+      }
+    ],
+    "3.2": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "live and let dynamo",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "live and let dynamo",
+        "word_count_for_line": 130
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "live and let dynamo",
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "live and let dynamo",
+        "word_count_for_line": 180
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "live and let dynamo",
+        "word_count_for_line": 64
+      }
+    ],
+    "4.1": [
+      {
+        "speaker": "mojo jojo",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 542
+      },
+      {
+        "speaker": "farouk",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 116
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 66
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 108
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 94
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 87
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "mo' linguish",
+        "word_count_for_line": 119
+      }
+    ],
+    "4.2": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 87
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 18
+      },
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 14
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 64
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 58
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 447
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "oops, i did it again",
+        "word_count_for_line": 108
+      }
+    ],
+    "5": [
+      {
+        "speaker": "mask scara",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 129
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 54
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 241
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 92
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 98
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 239
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "a made up story",
+        "word_count_for_line": 354
+      }
+    ],
+    "6.1": [
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 24
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 19
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 269
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 163
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 111
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 448
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "little miss interprets",
+        "word_count_for_line": 58
+      }
+    ],
+    "7.1": [
+      {
+        "speaker": "mojo jojo",
+        "season": 6,
+        "episode": "custody battle",
+        "word_count_for_line": 372
+      },
+      {
+        "speaker": "him",
+        "season": 6,
+        "episode": "custody battle",
+        "word_count_for_line": 230
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "custody battle",
+        "word_count_for_line": 74
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "custody battle",
+        "word_count_for_line": 8
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "custody battle",
+        "word_count_for_line": 44
+      }
+    ],
+    "7.2": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 147
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 157
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 20
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 149
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 71
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "city of nutsville",
+        "word_count_for_line": 39
+      }
+    ],
+    "8": [
+      {
+        "speaker": "sedusa",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 346
+      },
+      {
+        "speaker": "ace",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 133
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 42
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 17
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 229
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 104
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 182
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "aspirations",
+        "word_count_for_line": 97
+      }
+    ],
+    "9.1": [
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 82
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 273
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 240
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 203
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "that's not my baby",
+        "word_count_for_line": 34
+      }
+    ],
+    "9.2": [
+      {
+        "speaker": "mojo jojo",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 551
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 33
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 69
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 30
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 61
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 132
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "simian says",
+        "word_count_for_line": 51
+      }
+    ],
+    "10.1": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 39
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 174
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 72
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 91
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 169
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "sun scream",
+        "word_count_for_line": 40
+      }
+    ],
+    "10.2": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 29
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 63
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 34
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 143
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "city of frownsville",
+        "word_count_for_line": 267
+      }
+    ],
+    "11": [
+      {
+        "speaker": "mojo jojo",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 192
+      },
+      {
+        "speaker": "governor",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 162
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 145
+      },
+      {
+        "speaker": "ace",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 116
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 53
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 24
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 65
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "west in pieces",
+        "word_count_for_line": 125
+      }
+    ],
+    "12.1": [
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 21
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 1
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 22
+      }
+    ],
+    "12.2": [
+      {
+        "speaker": "crack",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 174
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 29
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 28
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 19
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "mizzen in action",
+        "word_count_for_line": 151
+      }
+    ],
+    "13.2": [
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "what's the big idea?",
+        "word_count_for_line": 130
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "what's the big idea?",
+        "word_count_for_line": 52
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "what's the big idea?",
+        "word_count_for_line": 36
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "what's the big idea?",
+        "word_count_for_line": 43
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "what's the big idea?",
+        "word_count_for_line": 39
+      }
+    ],
+    "14.1": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 25
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 5
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 95
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 111
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 204
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "nuthin' special",
+        "word_count_for_line": 72
+      }
+    ],
+    "14.2": [
+      {
+        "speaker": "mr. willy",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 118
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 13
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 76
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 83
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 57
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "neighbor hood",
+        "word_count_for_line": 41
+      }
+    ],
+    "15.1": [
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 153
+      },
+      {
+        "speaker": "ma",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 145
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 20
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 113
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 81
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 51
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 1015
+      }
+    ],
+    "15.2": [
+      {
+        "speaker": "ms. keane",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 41
+      },
+      {
+        "speaker": "mayor",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 30
+      },
+      {
+        "speaker": "ms. bellum",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 9
+      },
+      {
+        "speaker": "blossom",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "bubbles",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 343
+      },
+      {
+        "speaker": "buttercup",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 66
+      },
+      {
+        "speaker": "professor",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 245
+      },
+      {
+        "speaker": "narrator",
+        "season": 6,
+        "episode": "octi gone",
+        "word_count_for_line": 51
+      }
+    ]
+  }
+}

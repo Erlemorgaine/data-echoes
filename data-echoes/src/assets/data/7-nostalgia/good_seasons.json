@@ -1,0 +1,122 @@
+{
+  "1": {
+    "speakers": {
+      "253": 251,
+      "blossom": 2112,
+      "mojo jojo": 2088,
+      "narrator": 1778,
+      "bubbles": 1772,
+      "buttercup": 1365,
+      "mayor": 1292,
+      "professor": 1271,
+      "ms. bellum": 336,
+      "sedusa": 325,
+      "ms. keane": 250
+    },
+    "total": 12840
+  },
+  "2": {
+    "speakers": {
+      "blossom": 3554,
+      "narrator": 3027,
+      "buttercup": 2134,
+      "bubbles": 1891,
+      "professor": 1849,
+      "mojo jojo": 1524,
+      "ms. keane": 1222,
+      "mayor": 1013,
+      "princess morbucks": 905,
+      "marianne": 507,
+      "ms. bellum": 421,
+      "harold": 373,
+      "man": 335,
+      "whitfield": 334,
+      "sandman": 302,
+      "ace": 298,
+      "powerpuff girls": 294,
+      "billy": 288,
+      "lenny": 268
+    },
+    "total": 20539
+  },
+  "3": {
+    "speakers": {
+      "blossom": 3683,
+      "professor": 2470,
+      "buttercup": 2096,
+      "bubbles": 1892,
+      "mayor": 1731,
+      "mojo jojo": 1675,
+      "narrator": 1537,
+      "princess morbucks": 687,
+      "ms. bellum": 465,
+      "femme fatale": 350,
+      "announcer": 315,
+      "woman": 280,
+      "brick": 275,
+      "man": 266,
+      "ms. keane": 126
+    },
+    "total": 17848
+  },
+  "4": {
+    "speakers": {
+      "professor": 3091,
+      "blossom": 3071,
+      "bubbles": 1698,
+      "buttercup": 1697,
+      "mojo jojo": 1489,
+      "narrator": 1143,
+      "him": 1016,
+      "bernie": 915,
+      "ms. keane": 904,
+      "dick": 802,
+      "princess morbucks": 661,
+      "major glory": 630,
+      "mayor": 428,
+      "robin": 285,
+      "ms. bellum": 75
+    },
+    "total": 17905
+  },
+  "5": {
+    "speakers": {
+      "blossom": 3380,
+      "buttercup": 2066,
+      "bubbles": 1908,
+      "professor": 1871,
+      "narrator": 1149,
+      "mayor": 1145,
+      "brian": 1041,
+      "brick": 915,
+      "talking dog": 683,
+      "princess morbucks": 608,
+      "him": 542,
+      "mojo jojo": 446,
+      "gnome": 362,
+      "mr. green": 324,
+      "powerpuff girls": 316,
+      "man": 314,
+      "bossman": 273,
+      "ms. keane": 271,
+      "ms. bellum": 44
+    },
+    "total": 17658
+  },
+  "6": {
+    "speakers": {
+      "blossom": 2826,
+      "narrator": 2789,
+      "professor": 2619,
+      "buttercup": 2094,
+      "mojo jojo": 1958,
+      "bubbles": 1940,
+      "mayor": 1064,
+      "sedusa": 346,
+      "ace": 257,
+      "ms. keane": 219,
+      "ms. bellum": 180
+    },
+    "total": 16292
+  }
+}
