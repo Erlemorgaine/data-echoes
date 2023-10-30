@@ -81,12 +81,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-button {
+button,
+a {
   background-color: initial;
   border: none;
   display: inline-block;
   font-size: inherit;
   font-family: inherit;
+  color: inherit;
+  text-decoration: none;
 }
 
 button:hover,

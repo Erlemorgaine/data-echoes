@@ -13,6 +13,10 @@ import { computed, onMounted, ref } from 'vue'
 
 import NostalgiaLegend from './NostalgiaLegend.vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
+import NostalgiaVillainsSeason from './NostalgiaVillainsSeason.vue'
+import { groupBy } from 'lodash'
+
+import '../assets/scss/nostalgia.scss'
 
 // Types
 type Speaker = {
@@ -121,9 +125,15 @@ onMounted(() => {
         ),
       }
     })
+
+    goodEpisodes[season as SeasonKey] = getEpisodesWithAccumulatedSize(
+      seasonData as Episode,
+      season,
+    )
   })
 
   seasonsWithEpisodes.value = goodEpisodes as unknown as Season
+
   totalSum.value = sumBy(
     goodAll.filter((good) => keySpeakers.includes(good.speaker)),
     'word_count_for_line',
@@ -132,8 +142,8 @@ onMounted(() => {
 
   // seasonsWithEpisodes.value = groupBy(goodEpisodes, 'season')
 
-  // Object.keys(seasonsWithEpisodes.value).forEach((season) => {
-  //   seasonsWithEpisodes.value[season] = groupBy(seasonsWithEpisodes.value[season], 'episode_nr')
+  // Object.keys(villainEpisodes).forEach((season) => {
+  //   villainEpisodes[season] = groupBy(villainEpisodes[season], 'episode_nr')
   // })
 
   // Object.keys(seasonsWithEpisodes.value).forEach((season) => {
@@ -231,11 +241,9 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           '--season-color': `var(--season-${season})`,
         }"
       >
-        <h3 class="nostalgia-page__season-wrapper__title">S{{ season }}</h3>
-
         <div class="nostalgia-page__season">
           <NostalgiaBubble
-            :episodes="getEpisodesWithAccumulatedSize(episodes, season)"
+            :episodes="episodes"
             :season="season"
             :keySpeakers="keySpeakers"
             :getSpeakersWithAccumulatedSize="getSpeakersWithAccumulatedSize"
@@ -247,6 +255,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
         </div>
 
         <div class="nostalgia-page__season__total-chart">
+          <h3 class="nostalgia-page__season__total-chart__title">S{{ season }}</h3>
           <div
             class="nostalgia-page__season__total-chart__speaker"
             v-for="speaker of seasonChartSpeakers[season]"
@@ -257,7 +266,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
               '--text-color': speaker.speaker === 'professor' ? '#fff' : '#000',
             }"
             @mouseenter="hoveredSeasonSpeaker = { season, speaker: speaker.speaker }"
-            @mouseleave="hoveredSeasonSpeaker = ''"
+            @mouseleave="hoveredSeasonSpeaker = null"
           >
             <span class="nostalgia-page__season__total-chart__speaker__text">
               {{ speaker.speaker }}
@@ -265,6 +274,11 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
             </span>
           </div>
         </div>
+
+        <NostalgiaVillainsSeason
+          :allEpisodes="episodes"
+          :villainsPerEpisode="villainEpisodes[season]"
+        />
       </div>
 
       <NostalgiaLegend :keySpeakers="keySpeakers" @onSpeakerHover="hoveredSpeaker = $event" />
@@ -274,11 +288,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 
 <style>
 .nostalgia-page {
-  --off-white: #eeeeee;
-  --off-white-50: #eeeeee55;
-  --off-white-30: #eeeeee33;
-  --off-white-10: #eeeeee11;
-
+  /* Good guys */
   --professor: #484848;
   --professor-50: #48484855;
   --buttercup: #63d540;
@@ -295,6 +305,27 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   --bunny-50: #b487c455;
   --blossom-orange: #e57033;
   --blossom-orange-50: #e5703355;
+  --ms-keane: #fcbb64;
+  --mayor: #8467a7;
+  --ms-bellum: #dd0d0c;
+
+  /* Villains */
+  --mojo-jojo: #b4dd19;
+  --him: #fe3300;
+  --fuzzy: #f0649d;
+  --princess-morbucks: #ffff00;
+  --brick: #b43026;
+  --butch: #40854e;
+  --boomer: #3f65b1;
+  --amoeba-1: #8fe4dd;
+  --amoeba-2: #158e98;
+  --amoeba-3: #0c0709;
+  --sedusa: #8b1429;
+  --gangreen-1: #bdd93e;
+  --gangreen-2: #1d7f51;
+  --gangreen-3: #18429b;
+  --gangreen-4: #96459b;
+  --gangreen-5: #871a41;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);
@@ -335,37 +366,18 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
       letter-spacing: 0.05em;
     }
   }
-  &__content {
-  }
+
   &__season-wrapper {
     --season-total-width: 150%;
     --season-width: calc(var(--season-total-width) * var(--season-size));
+    --chart-width: calc(
+      var(--season-width) * 0.53
+    ); // TODO: Understand how to better calculate this size (has to do with episodes shift)
 
     position: relative;
     margin-bottom: 1rem;
     padding-left: 1rem;
     // transform: translateX(calc(var(--season-index) * 4%));
-
-    &__title {
-      position: absolute;
-      font-family: VinaSans;
-      color: var(--off-white);
-      padding-top: 1rem;
-      bottom: -0.25rem;
-      left: -1rem;
-      font-size: 1.2rem;
-      letter-spacing: 0.05em;
-
-      // &:after {
-      //   content: '';
-      //   background-color: var(--off-white);
-      //   width: 1px;
-      //   height: 2rem;
-      //   position: absolute;
-      //   top: 100%;
-      //   left: 1.75rem;
-      // }
-    }
   }
 
   &__season {
@@ -394,12 +406,33 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
     }
 
     &__total-chart {
-      width: calc(var(--season-width) * 0.53);
+      position: relative;
+      width: var(--chart-width);
       display: flex;
       font-size: 0.9rem;
       // font-weight: bold;
       text-transform: uppercase;
       line-height: 120%;
+
+      &__title {
+        position: absolute;
+        font-family: VinaSans;
+        color: var(--off-white);
+        top: -0.1rem;
+        left: -2rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.05em;
+
+        // &:after {
+        //   content: '';
+        //   background-color: var(--off-white);
+        //   width: 1px;
+        //   height: 2rem;
+        //   position: absolute;
+        //   top: 100%;
+        //   left: 1.75rem;
+        // }
+      }
 
       &__speaker {
         font-family: VinaSans;
