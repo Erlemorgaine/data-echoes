@@ -12,6 +12,7 @@ import sumBy from 'lodash/sumBy'
 import { computed, onMounted, ref } from 'vue'
 
 import NostalgiaLegend from './NostalgiaLegend.vue'
+import NostalgiaBubble from './NostalgiaBubble.vue'
 
 // Types
 type Speaker = {
@@ -233,65 +234,16 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
         <h3 class="nostalgia-page__season-wrapper__title">S{{ season }}</h3>
 
         <div class="nostalgia-page__season">
-          <button
-            v-for="(episodeData, episode) of getEpisodesWithAccumulatedSize(episodes, season)"
-            :key="'episode' + episode"
-            :class="[
-              'nostalgia-page__season__episode',
-              {
-                inactive:
-                  hoveredEpisode &&
-                  hoveredEpisode.season === season &&
-                  hoveredEpisode.episode !== episode,
-              },
-            ]"
-            :style="{
-              '--episode-size': episodeData.size,
-              '--episode-accumulated-size': episodeData.accumulatedSize * -1,
-            }"
-            @mouseenter="hoveredEpisode = { season, episode }"
-            @focus="hoveredEpisode = { season, episode }"
-            @mouseleave="hoveredEpisode = null"
-            @blur="hoveredEpisode = null"
-          >
-            <template
-              v-for="speaker of getSpeakersWithAccumulatedSize(
-                episodeData.speakers,
-                episodeData.sum,
-              )"
-            >
-              <div
-                v-if="keySpeakers.includes(speaker.speaker)"
-                :key="speaker.speaker"
-                :class="[
-                  'nostalgia-page__season__episode__speaker',
-                  {
-                    inactive:
-                      (hoveredSeasonSpeaker &&
-                        hoveredSeasonSpeaker.season === season &&
-                        hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
-                      (hoveredSpeaker && hoveredSpeaker !== speaker.speaker),
-                    active:
-                      (hoveredSeasonSpeaker &&
-                        hoveredSeasonSpeaker.season === season &&
-                        hoveredSeasonSpeaker.speaker === speaker.speaker) ||
-                      (hoveredSpeaker && hoveredSpeaker === speaker.speaker),
-                  },
-                ]"
-                :style="{
-                  '--speaker-size': speaker.accumulatedSize,
-                  '--speaker-children-size': speaker.childrenPercentage,
-                  '--speaker-color': `var(--${speaker.speaker})`,
-                  '--speaker-color-50': `var(--${speaker.speaker}-50)`,
-                  '--speaker-z-index': keySpeakers.indexOf(speaker.speaker),
-                }"
-              >
-                <span class="nostalgia-page__season__episode__speaker__size">
-                  {{ speaker.size + '%' }}
-                </span>
-              </div>
-            </template>
-          </button>
+          <NostalgiaBubble
+            :episodes="getEpisodesWithAccumulatedSize(episodes, season)"
+            :season="season"
+            :keySpeakers="keySpeakers"
+            :getSpeakersWithAccumulatedSize="getSpeakersWithAccumulatedSize"
+            :hoveredEpisode="hoveredEpisode"
+            :hoveredSpeaker="hoveredSpeaker"
+            :hoveredSeasonSpeaker="hoveredSeasonSpeaker"
+            @onEpisodeHover="hoveredEpisode = $event"
+          />
         </div>
 
         <div class="nostalgia-page__season__total-chart">
@@ -439,74 +391,6 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
       width: 100vw;
       height: calc(100% + 2.2rem);
       // background-image: linear-gradient(90deg, transparent 30%, var(--season-color));
-    }
-
-    @container season (width > 1px) {
-      &__episode {
-        font-family: VinaSans;
-        color: var(--off-white);
-        position: relative;
-        width: calc(100% * var(--episode-size));
-
-        aspect-ratio: 1;
-        aspect-ratio: 2;
-        left: calc(var(--episode-accumulated-size) * 100cqw);
-        transition: opacity 0.3s;
-
-        &:focus {
-          outline: none;
-        }
-
-        &:hover {
-          z-index: 10;
-        }
-
-        &.inactive {
-          opacity: 0.2;
-        }
-
-        &__speaker {
-          position: absolute;
-          top: 50%;
-          top: 100%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          // background-color: var(--speaker-color);
-          background-image: radial-gradient(
-            transparent 0% var(--speaker-children-size),
-            var(--speaker-color) var(--speaker-children-size) 100%
-          );
-          width: calc(100% * var(--speaker-size));
-          aspect-ratio: 1;
-          border-radius: 50%;
-          z-index: var(--speaker-z-index);
-          transition: opacity 0.7s;
-
-          &__size {
-            position: absolute;
-            bottom: calc(100% + 0.2rem);
-            transform: translateX(-35%);
-            opacity: 0;
-          }
-
-          &.inactive {
-            opacity: 0;
-          }
-
-          &.active {
-            background-image: radial-gradient(
-              transparent 5% var(--speaker-children-size),
-              var(--speaker-color-50) var(--speaker-children-size),
-              var(--speaker-color),
-              var(--off-white)
-            );
-
-            .nostalgia-page__season__episode__speaker__size {
-              opacity: 1;
-            }
-          }
-        }
-      }
     }
 
     &__total-chart {
