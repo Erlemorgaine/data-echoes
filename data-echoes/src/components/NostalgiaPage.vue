@@ -134,6 +134,8 @@ onMounted(() => {
 
   seasonsWithEpisodes.value = goodEpisodes as unknown as Season
 
+  console.log(seasonsWithEpisodes.value)
+
   totalSum.value = sumBy(
     goodAll.filter((good) => keySpeakers.includes(good.speaker)),
     'word_count_for_line',
@@ -278,6 +280,9 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
         <NostalgiaVillainsSeason
           :allEpisodes="episodes"
           :villainsPerEpisode="villainEpisodes[season]"
+          :hoveredEpisode="
+            hoveredEpisode && hoveredEpisode.season == season ? hoveredEpisode : null
+          "
         />
       </div>
 
@@ -311,21 +316,37 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 
   /* Villains */
   --mojo-jojo: #b4dd19;
+  --mojo-jojo-30: #b4dd1933;
   --him: #fe3300;
+  --him-30: #fe330033;
   --fuzzy: #f0649d;
+  --fuzzy-30: #f0649d33;
   --princess-morbucks: #ffff00;
+  --princess-morbucks-30: #ffff0033;
   --brick: #b43026;
+  --brick-30: #b4302633;
   --butch: #40854e;
+  --butch-30: #40854e33;
   --boomer: #3f65b1;
+  --boomer-30: #3f65b133;
   --amoeba-1: #8fe4dd;
+  --amoeba-1-30: #8fe4dd33;
   --amoeba-2: #158e98;
+  --amoeba-2-30: #158e9833;
   --amoeba-3: #0c0709;
+  --amoeba-3-30: #0c070933;
   --sedusa: #8b1429;
+  --sedusa-30: #8b142933;
   --gangreen-1: #bdd93e;
+  --gangreen-1-30: #bdd93e33;
   --gangreen-2: #1d7f51;
+  --gangreen-2-30: #1d7f5133;
   --gangreen-3: #18429b;
+  --gangreen-3-30: #18429b33;
   --gangreen-4: #96459b;
+  --gangreen-4-30: #96459b33;
   --gangreen-5: #871a41;
+  --gangreen-5-30: #871a4133;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);
@@ -343,6 +364,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 
 <style scoped lang="scss">
 .nostalgia-page {
+  padding-bottom: 2rem;
   // background-image: radial-gradient(var(--bg-1) 33%, var(--bg-2) 33% 67%, var(--bg-3) 67% 100%);
 
   &__title {

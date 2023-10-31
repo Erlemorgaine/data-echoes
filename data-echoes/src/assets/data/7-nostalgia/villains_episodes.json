@@ -63,6 +63,13 @@
     ],
     "10.2": [
       {
+        "villain": "fuzzy",
+        "season": 1.0,
+        "episode_nr": 10.2,
+        "episode": "impeach fuzz",
+        "word_count_for_line": 132
+      },
+      {
         "villain": "talking dog",
         "episode": "impeach fuzz",
         "word_count_for_line": 5
@@ -75,7 +82,7 @@
         "word_count_for_line": 790
       }
     ],
-    "12": [
+    "12.": [
       {
         "villain": "mojo jojo",
         "episode": "the rowdyruff boys",
@@ -92,7 +99,7 @@
         "word_count_for_line": 6
       }
     ],
-    "13": [
+    "13.": [
       {
         "villain": "talking dog",
         "episode": "uh oh dynamo",
@@ -259,7 +266,7 @@
         "word_count_for_line": 315
       }
     ],
-    "3": [
+    "3.": [
       {
         "villain": "mojo jojo",
         "episode": "criss cross crisis",
@@ -269,6 +276,13 @@
         "villain": "rowdyruff boys",
         "episode": "criss cross crisis",
         "word_count_for_line": 26
+      },
+      {
+        "villain": "fuzzy",
+        "season": 3.0,
+        "episode_nr": 3.0,
+        "episode": "criss cross crisis",
+        "word_count_for_line": 18
       }
     ],
     "4.2": [
@@ -306,7 +320,7 @@
         "word_count_for_line": 350
       }
     ],
-    "11": [
+    "11.": [
       {
         "villain": "mojo jojo",
         "episode": "powerprof.",
@@ -321,6 +335,13 @@
       },
       {
         "villain": "him",
+        "episode": "moral decay",
+        "word_count_for_line": 1
+      },
+      {
+        "villain": "fuzzy",
+        "season": 3.0,
+        "episode_nr": 12.1,
         "episode": "moral decay",
         "word_count_for_line": 1
       }
@@ -340,6 +361,13 @@
         "villain": "princess morbucks",
         "episode": "meet the beat-alls",
         "word_count_for_line": 132
+      },
+      {
+        "villain": "fuzzy",
+        "season": 3.0,
+        "episode_nr": 12.2,
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 106
       }
     ],
     "13.2": [
@@ -351,7 +379,7 @@
     ]
   },
   "4": {
-    "1": [
+    "1.": [
       {
         "villain": "bernie",
         "episode": "film flam",
@@ -368,14 +396,14 @@
         "word_count_for_line": 3
       }
     ],
-    "2": [
+    "2.": [
       {
         "villain": "him",
         "episode": "all chalked up",
         "word_count_for_line": 289
       }
     ],
-    "3": [
+    "3.": [
       {
         "villain": "mojo jojo",
         "episode": "get back, jojo",
@@ -387,35 +415,35 @@
         "word_count_for_line": 11
       }
     ],
-    "4": [
+    "4.": [
       {
         "villain": "him",
         "episode": "him diddle riddle",
         "word_count_for_line": 517
       }
     ],
-    "6": [
+    "6.": [
       {
         "villain": "dick",
         "episode": "knock it off",
         "word_count_for_line": 802
       }
     ],
-    "7": [
+    "7.": [
       {
         "villain": "princess morbucks",
         "episode": "superfriends",
         "word_count_for_line": 661
       }
     ],
-    "9": [
+    "9.": [
       {
         "villain": "mojo jojo",
         "episode": "stray bullet",
         "word_count_for_line": 62
       }
     ],
-    "10": [
+    "10.": [
       {
         "villain": "mojo jojo",
         "episode": "forced kin",
@@ -429,7 +457,7 @@
         "word_count_for_line": 270
       }
     ],
-    "12": [
+    "12.": [
       {
         "villain": "him",
         "episode": "power-noia",
@@ -438,7 +466,44 @@
     ]
   },
   "5": {
-    "5": [
+    "1.2": [
+      {
+        "villain": "talking dog",
+        "episode": "shut the pup up",
+        "word_count_for_line": 647
+      }
+    ],
+    "2.2": [
+      {
+        "villain": "amoeba boys",
+        "episode": "divide and conquer",
+        "word_count_for_line": 332
+      }
+    ],
+    "3.2": [
+      {
+        "villain": "fuzzy",
+        "season": 5.0,
+        "episode_nr": 3.2,
+        "episode": "shotgun wedding",
+        "word_count_for_line": 163
+      }
+    ],
+    "4.1": [
+      {
+        "villain": "mojo jojo",
+        "episode": "save mojo",
+        "word_count_for_line": 272
+      }
+    ],
+    "4.2": [
+      {
+        "villain": "smith family",
+        "episode": "substitute creature",
+        "word_count_for_line": 20
+      }
+    ],
+    "5.": [
       {
         "villain": "gangreen gang",
         "episode": "the boys are back in town",
@@ -450,7 +515,26 @@
         "word_count_for_line": 517
       }
     ],
-    "7": [
+    "6.1": [
+      {
+        "villain": "mojo jojo",
+        "episode": "pee pee g's",
+        "word_count_for_line": 50
+      }
+    ],
+    "6.2": [
+      {
+        "villain": "princess morbucks",
+        "episode": "boy toys",
+        "word_count_for_line": 579
+      },
+      {
+        "villain": "gangreen gang",
+        "episode": "boy toys",
+        "word_count_for_line": 162
+      }
+    ],
+    "7.": [
       {
         "villain": "gnome",
         "episode": "see me, feel me, gnomey",
@@ -477,56 +561,16 @@
         "word_count_for_line": 25
       },
       {
+        "villain": "fuzzy",
+        "season": 5.0,
+        "episode_nr": 7.0,
+        "episode": "see me, feel me, gnomey",
+        "word_count_for_line": 14
+      },
+      {
         "villain": "amoeba boys",
         "episode": "see me, feel me, gnomey",
         "word_count_for_line": 11
-      }
-    ],
-    "1.2": [
-      {
-        "villain": "talking dog",
-        "episode": "shut the pup up",
-        "word_count_for_line": 647
-      }
-    ],
-    "2.2": [
-      {
-        "villain": "amoeba boys",
-        "episode": "divide and conquer",
-        "word_count_for_line": 332
-      }
-    ],
-    "4.1": [
-      {
-        "villain": "mojo jojo",
-        "episode": "save mojo",
-        "word_count_for_line": 272
-      }
-    ],
-    "4.2": [
-      {
-        "villain": "smith family",
-        "episode": "substitute creature",
-        "word_count_for_line": 20
-      }
-    ],
-    "6.1": [
-      {
-        "villain": "mojo jojo",
-        "episode": "pee pee g's",
-        "word_count_for_line": 50
-      }
-    ],
-    "6.2": [
-      {
-        "villain": "princess morbucks",
-        "episode": "boy toys",
-        "word_count_for_line": 579
-      },
-      {
-        "villain": "gangreen gang",
-        "episode": "boy toys",
-        "word_count_for_line": 162
       }
     ],
     "8.2": [
@@ -553,6 +597,13 @@
         "word_count_for_line": 24
       },
       {
+        "villain": "fuzzy",
+        "season": 5.0,
+        "episode_nr": 9.1,
+        "episode": "a documentary",
+        "word_count_for_line": 8
+      },
+      {
         "villain": "princess morbucks",
         "episode": "a documentary",
         "word_count_for_line": 3
@@ -574,6 +625,15 @@
     ]
   },
   "6": {
+    "2.1": [
+      {
+        "villain": "fuzzy",
+        "season": 6.0,
+        "episode_nr": 2.1,
+        "episode": "makes zen to me",
+        "word_count_for_line": 4
+      }
+    ],
     "3.2": [
       {
         "villain": "mojo jojo",
@@ -613,7 +673,7 @@
         "word_count_for_line": 38
       }
     ],
-    "5": [
+    "5.": [
       {
         "villain": "him",
         "episode": "a made up story",
@@ -637,7 +697,7 @@
         "word_count_for_line": 88
       }
     ],
-    "8": [
+    "8.": [
       {
         "villain": "sedusa",
         "episode": "aspirations",
@@ -670,7 +730,7 @@
         "word_count_for_line": 7
       }
     ],
-    "11": [
+    "11.": [
       {
         "villain": "mojo jojo",
         "episode": "west in pieces",

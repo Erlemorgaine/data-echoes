@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import groupBy from 'lodash/groupby'
+// import groupBy from 'lodash/groupby'
 
 const props = defineProps({
   villainsPerEpisode: {
@@ -11,30 +11,71 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  hoveredEpisode: Object,
 })
 
 const svgDimensions = {
   width: 1000,
-  height: 100,
+  height: 50,
 }
+const distanceFromGoodies = 5
 
 const orderedEpisodesWithVillains = ref()
 
+const villainGroups = {
+  'mojo-jojo': ['mojo-jojo-30', 'mojo-jojo'],
+  him: ['him-30', 'him'],
+  'princess-morbucks': ['princess-morbucks-30', 'princess-morbucks'],
+  sedusa: ['sedusa-30', 'sedusa'],
+  fuzzy: ['fuzzy-30', 'fuzzy'],
+  'rowdyruff-boys': ['brick', 'butch', 'boomer'],
+  'amoeba-boys': ['amoeba-1', 'amoeba-2', 'amoeba-3'],
+  'gangreen-gang': ['gangreen-1', 'gangreen-2', 'gangreen-3', 'gangreen-4', 'gangreen-5'],
+}
+
 onMounted(() => {
-  let allEpisodes = Object.keys(props.allEpisodes).map((ep) => +ep)
-  allEpisodes.sort((a, b) => a - b)
+  const allEpisodes = Object.keys(props.allEpisodes)
 
   orderedEpisodesWithVillains.value = allEpisodes.map((ep) => ({
-    villains: props.villainsPerEpisode[ep]
-      ? props.villainsPerEpisode[ep].map((villain) => ({
-          ...villain,
-          villain: villain.villain.replaceAll(' ', '-'),
-        }))
-      : [],
+    villains: props.villainsPerEpisode[ep] || [],
     episode: ep,
+    size: props.allEpisodes[ep].size * svgDimensions.width,
+    accumulatedSize: props.allEpisodes[ep].accumulatedSize * svgDimensions.width,
   }))
 
-  console.log(orderedEpisodesWithVillains.value)
+  orderedEpisodesWithVillains.value = orderedEpisodesWithVillains.value.map(
+    (episode, i: number) => ({
+      ...episode,
+      villains: props.villainsPerEpisode[episode.episode]
+        ? props.villainsPerEpisode[episode.episode].map((villain) => {
+            const nextOccurrenceVillainIndex = allEpisodes.findIndex(
+              (e, nextI) =>
+                nextI > i &&
+                props.villainsPerEpisode[e] &&
+                props.villainsPerEpisode[e].find((vill) => vill.villain === villain.villain),
+            )
+
+            const epsBetweenOccurrences =
+              nextOccurrenceVillainIndex < 0
+                ? null
+                : allEpisodes.slice(i, nextOccurrenceVillainIndex)
+
+            const sizeBetweenOccurrences = epsBetweenOccurrences?.reduce(
+              (prev, next) => prev + props.allEpisodes[next].size * svgDimensions.width,
+              0,
+            )
+
+            return {
+              ...villain,
+              villainColorName: villain.villain.replaceAll(' ', '-'),
+              nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
+              sizeBetweenOccurrences: sizeBetweenOccurrences || episode.size,
+              singleOccurrence: !sizeBetweenOccurrences,
+            }
+          })
+        : [],
+    }),
+  )
 })
 </script>
 
@@ -46,17 +87,59 @@ onMounted(() => {
       preserveAspectRatio="none"
     >
       <g>
-        <rect
+        <g
           v-for="(episode, i) of orderedEpisodesWithVillains"
           :key="'ep-' + episode.episode"
-          width="30"
-          height="30"
           y="10"
           :x="i * 40"
-          :fill="`var(--${episode.villains[0]?.villain})`"
-          :opacity="episode.villains[0] ? 1 : 0"
-        />
+        >
+          <!-- <rect
+            v-for="(villain, villainIndex) of episode.villains"
+            :key="villain.villain"
+            :width="episode.size"
+            height="5"
+            :y="15 + villainIndex * 10"
+            :x="i * 40"
+            :fill="`url(#${villain.villain})`"
+            :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
+          /> -->
+
+          <path
+            v-for="(villain, villainIndex) of episode.villains"
+            :key="villain.villain"
+            :width="episode.size"
+            :d="`M ${episode.accumulatedSize} ${distanceFromGoodies}
+                 C ${episode.accumulatedSize} ${
+                   distanceFromGoodies +
+                   5 * (episode.villains.length - villainIndex + 1) +
+                   5 * (villain.nrEpisodesBetweenOccurrences || 0)
+                 }, 
+                 ${episode.accumulatedSize + villain.sizeBetweenOccurrences} ${
+                   distanceFromGoodies +
+                   5 * (episode.villains.length - villainIndex + 1) +
+                   5 * (villain.nrEpisodesBetweenOccurrences || 0)
+                 }, 
+                 ${
+                   episode.accumulatedSize + villain.sizeBetweenOccurrences
+                 } ${distanceFromGoodies}`"
+            fill="transparent"
+            :stroke="`url(#${villain.villainColorName})`"
+            stroke-width="2"
+            :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
+          />
+        </g>
       </g>
+
+      <defs>
+        <linearGradient v-for="(gang, gangName) in villainGroups" :key="gangName" :id="gangName">
+          <stop
+            v-for="(villain, i) in gang"
+            :key="villain"
+            :offset="(gang.length > 1 ? 0 + (100 / (gang.length - 1)) * i : 0) + '%'"
+            :stop-color="`var(--${villain})`"
+          />
+        </linearGradient>
+      </defs>
     </svg>
   </div>
 </template>
@@ -64,5 +147,9 @@ onMounted(() => {
 <style lang="scss" scoped>
 .nostalgia-villains-season {
   width: var(--chart-width);
+
+  svg {
+    overflow: visible;
+  }
 }
 </style>
