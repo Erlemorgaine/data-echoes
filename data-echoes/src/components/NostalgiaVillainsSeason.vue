@@ -35,6 +35,7 @@ const villainGroups = {
 
 onMounted(() => {
   const allEpisodes = Object.keys(props.allEpisodes)
+  const occurredPreviously: { [key: string]: string } = {}
 
   orderedEpisodesWithVillains.value = allEpisodes.map((ep) => ({
     villains: props.villainsPerEpisode[ep] || [],
@@ -44,44 +45,45 @@ onMounted(() => {
   }))
 
   orderedEpisodesWithVillains.value = orderedEpisodesWithVillains.value.map(
-    (episode, i: number) => ({
-      ...episode,
-      villains: props.villainsPerEpisode[episode.episode]
-        ? props.villainsPerEpisode[episode.episode].map((villain) => {
-            const nextOccurrenceVillainIndex = allEpisodes.findIndex(
-              (e, nextI) =>
-                nextI > i &&
-                props.villainsPerEpisode[e] &&
-                props.villainsPerEpisode[e].find((vill) => vill.villain === villain.villain),
-            )
+    (episode, i: number) => {
+      return {
+        ...episode,
+        villains: props.villainsPerEpisode[episode.episode]
+          ? props.villainsPerEpisode[episode.episode].map((villain) => {
+              const nextOccurrenceVillainIndex = allEpisodes.findIndex(
+                (e, nextI) =>
+                  nextI > i &&
+                  props.villainsPerEpisode[e] &&
+                  props.villainsPerEpisode[e].find((vill) => vill.villain === villain.villain),
+              )
 
-            const epsBetweenOccurrences =
-              nextOccurrenceVillainIndex < 0
-                ? null
-                : allEpisodes.slice(i, nextOccurrenceVillainIndex)
+              const epsBetweenOccurrences =
+                nextOccurrenceVillainIndex < 0
+                  ? null
+                  : allEpisodes.slice(i, nextOccurrenceVillainIndex)
 
-            // const sizeBetweenOccurrences = epsBetweenOccurrences?.reduce(
-            //   (prev, next) => prev + props.allEpisodes[next].size * svgDimensions.width,
-            //   0,
-            // )
+              const lastOccurrenceAccumulatedSize = epsBetweenOccurrences
+                ? props.allEpisodes[epsBetweenOccurrences[epsBetweenOccurrences.length - 1]]
+                    .accumulatedSize *
+                    svgDimensions.width -
+                  episode.accumulatedSize
+                : episode.size
 
-            const lastOccurrenceAccumulatedSize = epsBetweenOccurrences
-              ? props.allEpisodes[epsBetweenOccurrences[epsBetweenOccurrences.length - 1]]
-                  .accumulatedSize *
-                  svgDimensions.width -
-                episode.accumulatedSize
-              : episode.size
+              const previousOccurrence = occurredPreviously[villain.villain]
+              occurredPreviously[villain.villain] = episode.episode
 
-            return {
-              ...villain,
-              villainColorName: villain.villain.replaceAll(' ', '-'),
-              nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
-              sizeBetweenOccurrences: lastOccurrenceAccumulatedSize || episode.size,
-              singleOccurrence: !epsBetweenOccurrences,
-            }
-          })
-        : [],
-    }),
+              return {
+                ...villain,
+                villainColorName: villain.villain.replaceAll(' ', '-'),
+                nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
+                sizeBetweenOccurrences: lastOccurrenceAccumulatedSize || episode.size,
+                singleOccurrence: !epsBetweenOccurrences && !previousOccurrence, // TODO: Don't activate if villain was previous occurrent
+                previousOccurrence,
+              }
+            })
+          : [],
+      }
+    },
   )
 })
 </script>
@@ -100,22 +102,24 @@ onMounted(() => {
           y="10"
           :x="i * 40"
         >
-          <!-- <rect
-            v-for="(villain, villainIndex) of episode.villains"
-            :key="villain.villain"
-            :width="episode.size"
-            height="5"
-            :y="15 + villainIndex * 10"
-            :x="i * 40"
-            :fill="`url(#${villain.villain})`"
-            :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
-          /> -->
+          v-for="(villain, villainIndex) of episode.villains" :key="villain.villain"
+          :width="episode.size" height="5" :y="15 + villainIndex * 10" :x="i * 40"
+          :fill="`url(#${villain.villain})`" :opacity="hoveredEpisode && hoveredEpisode.episode !==
+          episode.episode ? 0.3 : 1"
 
-          <path
-            v-for="(villain, villainIndex) of episode.villains"
-            :key="villain.villain"
-            :width="episode.size"
-            :d="`M ${episode.accumulatedSize} ${distanceFromGoodies}
+          <template v-for="(villain, villainIndex) of episode.villains" :key="villain.villain">
+            <!-- TODO: Size of circle based on #words sopken -->
+            <circle
+              v-if="villain.singleOccurrence"
+              :cx="episode.accumulatedSize + episode.size * 0.5"
+              :cy="7"
+              :r="5"
+              :fill="`url(#${villain.villainColorName})`"
+            ></circle>
+            <path
+              v-else
+              :width="episode.size"
+              :d="`M ${episode.accumulatedSize} ${distanceFromGoodies}
                  C ${episode.accumulatedSize} ${
                    distanceFromGoodies +
                    3 * (episode.villains.length - villainIndex + 1) +
@@ -129,11 +133,12 @@ onMounted(() => {
                  ${
                    episode.accumulatedSize + villain.sizeBetweenOccurrences
                  } ${distanceFromGoodies}`"
-            :fill="villain.singleOccurrence ? `url(#${villain.villainColorName})` : 'transparent'"
-            :stroke="`url(#${villain.villainColorName})`"
-            stroke-width="1"
-            :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
-          />
+              :fill="villain.singleOccurrence ? `url(#${villain.villainColorName})` : 'transparent'"
+              :stroke="`url(#${villain.villainColorName})`"
+              stroke-width="1"
+              :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
+            />
+          </template>
         </g>
       </g>
 

@@ -336,8 +336,8 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   --amoeba-1-30: #8fe4dd33;
   --amoeba-2: #158e98;
   --amoeba-2-30: #158e9833;
-  --amoeba-3: #0c0709;
-  --amoeba-3-30: #0c070933;
+  --amoeba-3: #8c999a;
+  --amoeba-3-30: #8c999a33;
   --sedusa: #8b1429;
   --sedusa-30: #8b142933;
   --gangreen-1: #bdd93e;

@@ -4,6 +4,10 @@ defineProps({
     type: Array,
     default: () => [],
   },
+  villains: {
+    type: Array,
+    default: () => [],
+  },
 })
 </script>
 
