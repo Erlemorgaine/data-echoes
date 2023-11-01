@@ -7,14 +7,18 @@ import goodAll from '../assets/data/7-nostalgia/good_all.json'
 import goodSeasons from '../assets/data/7-nostalgia/good_seasons.json'
 import goodEpisodes from '../assets/data/7-nostalgia/good_episodes.json'
 
+import allEpisodes from '../assets/data/7-nostalgia/all_episodes.json'
+import allSeasons from '../assets/data/7-nostalgia/all_seasons.json'
+
 // import groupBy from 'lodash/groupby'
 import sumBy from 'lodash/sumBy'
+import { groupBy } from 'lodash'
 import { computed, onMounted, ref } from 'vue'
 
 import NostalgiaLegend from './NostalgiaLegend.vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import NostalgiaVillainsSeason from './NostalgiaVillainsSeason.vue'
-import { groupBy } from 'lodash'
+import NostalgiaBarChart from './NostalgiaBarChart.vue'
 
 import '../assets/scss/nostalgia.scss'
 
@@ -59,8 +63,25 @@ type SeasonWithSum = {
   [season: string]: SpeakersAndTotal
 }
 
+type SpeakersPerSeason = {
+  [season: string]: { speaker: string; amount: number; size: number }[]
+}
+
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
+const villains = villainsAll.map((v) => v.villain.trim())
+
+const villainGroups = {
+  'mojo-jojo': ['mojo-jojo-30', 'mojo-jojo'],
+  him: ['him-30', 'him'],
+  'princess-morbucks': ['princess-morbucks-30', 'princess-morbucks'],
+  sedusa: ['sedusa-30', 'sedusa'],
+  fuzzy: ['fuzzy-30', 'fuzzy'],
+  'rowdyruff-boys': ['brick', 'butch', 'boomer'],
+  'amoeba-boys': ['amoeba-1', 'amoeba-2', 'amoeba-3'],
+  'gangreen-gang': ['gangreen-1', 'gangreen-2', 'gangreen-3', 'gangreen-4', 'gangreen-5'],
+  'smith-family': ['marianne', 'harold', 'julie', 'bud'],
+}
 
 const seasonsWithEpisodes = ref<Season>({})
 const seasonsWithSum = ref<SeasonWithSum>({})
@@ -70,12 +91,10 @@ const maxSeasonSum = ref<number>(0)
 
 const hoveredEpisode = ref<{ season: number; episode: string } | null>(null)
 const hoveredSeasonSpeaker = ref<{ season: number; speaker: string } | null>(null)
-const hoveredSpeaker = ref<string>()
+const hoveredSpeaker = ref<{speaker: string, isVillain: boolean}>()
 
-const seasonChartSpeakers = computed(() => {
-  const speakersPerSeason: {
-    [season: string]: { speaker: string; amount: number; size: number }[]
-  } = {}
+const seasonChartGoodSpeakers = computed(() => {
+  const speakersPerSeason: SpeakersPerSeason = {}
 
   Object.keys(seasonsWithSum.value).forEach((season) => {
     const total = seasonsWithSum.value[season].totalKeySpeakers || 1
@@ -87,6 +106,33 @@ const seasonChartSpeakers = computed(() => {
     }))
 
     speakersPerSeason[season].sort((a, b) => b.size - a.size)
+  })
+
+  return speakersPerSeason
+})
+
+const seasonChartAllSpeakers = computed(() => {
+  const speakersPerSeason: SpeakersPerSeason = {}
+
+  Object.entries(allSeasons).forEach(([season, total]) => {
+    if (seasonChartGoodSpeakers.value[season]) {
+      speakersPerSeason[season] = [
+        ...keySpeakers.map((speaker) => ({
+          speaker,
+          amount: seasonsWithSum.value[season].speakers[speaker],
+          size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
+        })),
+        ...villains
+          .map((speaker) => ({
+            speaker,
+            amount: villainsSeasons[season][speaker] || 0,
+            size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
+          }))
+          .filter((speaker) => !!speaker.amount),
+      ]
+
+      speakersPerSeason[season].sort((a, b) => b.size - a.size)
+    }
   })
 
   return speakersPerSeason
@@ -259,26 +305,22 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           />
         </div>
 
-        <div class="nostalgia-page__season__total-chart">
-          <h3 class="nostalgia-page__season__total-chart__title">S{{ season }}</h3>
-          <div
-            class="nostalgia-page__season__total-chart__speaker"
-            v-for="speaker of seasonChartSpeakers[season]"
-            :key="speaker.speaker"
-            :style="{
-              '--bar-color': `var(--${speaker.speaker || 'bunny'})`,
-              '--bar-size': speaker.size,
-              '--text-color': speaker.speaker === 'professor' ? '#fff' : '#000',
-            }"
-            @mouseenter="hoveredSeasonSpeaker = { season, speaker: speaker.speaker }"
-            @mouseleave="hoveredSeasonSpeaker = null"
-          >
-            <span class="nostalgia-page__season__total-chart__speaker__text">
-              {{ speaker.speaker }}
-              {{ Math.round(speaker.size * 100) }}%
-            </span>
-          </div>
-        </div>
+        <NostalgiaBarChart
+          :seasonChartSpeakers="seasonChartGoodSpeakers[season]"
+          :title="`S${season}`"
+          :season="season"
+          :hoveredSpeaker="hoveredSpeaker"
+          @setHoveredSeasonSpeaker="hoveredSeasonSpeaker = $event"
+        />
+
+        <!-- TODO: Esthetic of below chart isn't great, maybe work only with borders and white text -->
+
+        <!-- <NostalgiaBarChart
+          class=""
+          :season-chart-speakers="seasonChartAllSpeakers[season]"
+          :season="seasonChartAllSpeakers"
+          leftSkewed
+        /> -->
 
         <NostalgiaVillainsSeason
           :allEpisodes="episodes"
@@ -286,10 +328,17 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           :hoveredEpisode="
             hoveredEpisode && hoveredEpisode.season == season ? hoveredEpisode : null
           "
+          :hovered-speaker="hoveredSpeaker"
+          :villainGroups="villainGroups"
         />
       </div>
 
-      <NostalgiaLegend :keySpeakers="keySpeakers" @onSpeakerHover="hoveredSpeaker = $event" />
+      <NostalgiaLegend
+        :keySpeakers="keySpeakers"
+        :villains="villains"
+        :villainGroups="villainGroups"
+        @onSpeakerHover="hoveredSpeaker = $event"
+      />
     </section>
   </div>
 </template>
@@ -350,6 +399,14 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   --gangreen-4-30: #96459b33;
   --gangreen-5: #871a41;
   --gangreen-5-30: #871a4133;
+  --marianne: #3d4ba0;
+  --marianne-30: #3d4ba033;
+  --harold: #c03021;
+  --harold-30: #c0302133;
+  --julie: #d1b14a;
+  --julie-30: #d1b14a33;
+  --bud: #418124;
+  --bud-30: #41812433;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);
@@ -393,7 +450,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   }
 
   &__season-wrapper {
-    --season-total-width: 150%;
+    --season-total-width: 135%;
     --season-width: calc(var(--season-total-width) * var(--season-size));
     --chart-width: calc(
       var(--season-width) * 0.5 + var(--season-width) * var(--last-episode-size) * 0.5
@@ -428,51 +485,6 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
       width: 100vw;
       height: calc(100% + 2.2rem);
       // background-image: linear-gradient(90deg, transparent 30%, var(--season-color));
-    }
-
-    &__total-chart {
-      position: relative;
-      width: var(--chart-width);
-      display: flex;
-      font-size: 0.9rem;
-      // font-weight: bold;
-      text-transform: uppercase;
-      line-height: 120%;
-
-      &__title {
-        position: absolute;
-        font-family: VinaSans;
-        color: var(--off-white);
-        top: -0.1rem;
-        left: -2rem;
-        font-size: 1.2rem;
-        letter-spacing: 0.05em;
-
-        // &:after {
-        //   content: '';
-        //   background-color: var(--off-white);
-        //   width: 1px;
-        //   height: 2rem;
-        //   position: absolute;
-        //   top: 100%;
-        //   left: 1.75rem;
-        // }
-      }
-
-      &__speaker {
-        font-family: VinaSans;
-        background-color: var(--bar-color);
-        width: calc(100% * var(--bar-size));
-        color: var(--text-color, black);
-        padding: 0 0.5rem 0.1rem 0.5rem;
-        white-space: nowrap;
-        overflow: hidden;
-        transform: skew(-35deg);
-
-        &__text {
-          transform: skew(35deg);
-        }
-      }
     }
   }
 }

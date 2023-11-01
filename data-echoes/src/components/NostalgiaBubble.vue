@@ -1,3 +1,26 @@
+<script setup>
+defineProps({
+  season: {
+    type: String,
+    required: true,
+  },
+  episodes: {
+    type: Object,
+    required: true,
+  },
+  keySpeakers: {
+    type: Array,
+    required: true,
+  },
+  getSpeakersWithAccumulatedSize: Function,
+  hoveredEpisode: { season: String, episode: String },
+  hoveredSpeaker: String,
+  hoveredSeasonSpeaker: { season: String, speaker: String },
+})
+
+defineEmits(['onEpisodeHover'])
+</script>
+
 <template>
   <button
     v-for="(episodeData, episode) of episodes"
@@ -31,12 +54,12 @@
               (hoveredSeasonSpeaker &&
                 hoveredSeasonSpeaker.season === season &&
                 hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
-              (hoveredSpeaker && hoveredSpeaker !== speaker.speaker),
+              (hoveredSpeaker && !hoveredSpeaker.isVillain && hoveredSpeaker.speaker !== speaker.speaker),
             active:
               (hoveredSeasonSpeaker &&
                 hoveredSeasonSpeaker.season === season &&
                 hoveredSeasonSpeaker.speaker === speaker.speaker) ||
-              (hoveredSpeaker && hoveredSpeaker === speaker.speaker),
+              (hoveredSpeaker && !hoveredSpeaker.isVillain && hoveredSpeaker.speaker === speaker.speaker),
           },
         ]"
         :style="{
@@ -55,28 +78,7 @@
   </button>
 </template>
 
-<script setup>
-defineProps({
-  season: {
-    type: String,
-    required: true,
-  },
-  episodes: {
-    type: Object,
-    required: true,
-  },
-  keySpeakers: {
-    type: Array,
-    required: true,
-  },
-  getSpeakersWithAccumulatedSize: Function,
-  hoveredEpisode: { season: String, episode: String },
-  hoveredSpeaker: String,
-  hoveredSeasonSpeaker: { season: String, speaker: String },
-})
 
-defineEmits(['onEpisodeHover'])
-</script>
 
 <style lang="scss" scoped>
 @container season (width > 1px) {

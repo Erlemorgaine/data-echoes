@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   keySpeakers: {
     type: Array,
     default: () => [],
@@ -8,22 +8,54 @@ defineProps({
     type: Array,
     default: () => [],
   },
+  villainGroups: Object,
 })
+
+function getVillainGradient(speaker) {
+  return (
+    props.villainGroups[speaker.replaceAll(' ', '-')].reduce((prev, next, i) => {
+      return prev + `, var(--${next.replace('-30', '')})`
+    }, 'linear-gradient(-90deg, transparent 20%') + ')'
+  )
+}
 </script>
 
 <template>
   <aside class="nostalgia-legend">
     <div
-      class="nostalgia-legend__speaker"
-      v-for="speaker of keySpeakers"
-      :key="'legend-' + speaker"
-      :style="{ '--speaker-color': `var(--${speaker})` }"
-      @mouseenter="$emit('onSpeakerHover', speaker)"
-      @mouseleave="$emit('onSpeakerHover', '')"
+      v-for="(group, i) of [keySpeakers, villains]"
+      :key="'group-' + i"
+      :class="['nostalgia-legend__group', { villains: i == 1 }]"
     >
-      <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
-      {{ speaker }}
+      <div
+        class="nostalgia-legend__speaker"
+        v-for="speaker of group"
+        :key="'legend-' + speaker"
+        :style="{
+          '--speaker-color': `var(--${speaker.replaceAll(' ', '-')})`,
+          ...(i == 1 ? { '--speaker-gradient': getVillainGradient(speaker) } : {}),
+        }"
+        @mouseenter="$emit('onSpeakerHover', {speaker, isVillain: i == 1 })"
+        @mouseleave="$emit('onSpeakerHover', null)"
+      >
+        <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
+        {{ speaker }}
+      </div>
     </div>
+
+    <!-- <div class="nostalgia-legend__group">
+      <div
+        class="nostalgia-legend__speaker"
+        v-for="speaker of villains"
+        :key="'legend-' + speaker"
+        :style="{ '--speaker-color': `var(--${speaker})` }"
+        @mouseenter="$emit('onSpeakerHover', speaker)"
+        @mouseleave="$emit('onSpeakerHover', '')"
+      >
+        <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
+        {{ speaker }}
+      </div>
+    </div> -->
   </aside>
 </template>
 
@@ -33,7 +65,7 @@ defineProps({
   top: 15rem;
   right: 2rem;
   padding: 1rem;
-  padding-right: 1.5rem;
+  padding-right: 0.5rem;
   border-radius: 0.2rem;
   font-family: VinaSans;
   color: var(--off-white);
@@ -42,13 +74,21 @@ defineProps({
   border: 1px solid;
   border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
   filter: drop-shadow(-2px -2px 5px var(--off-white-50));
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+
+  &__group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   &__speaker {
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
-    padding-right: 2rem;
+    // padding-right: 1rem;
     translate: -2rem 0;
     z-index: 1;
 
@@ -60,16 +100,26 @@ defineProps({
       color: #000;
     }
 
+    .villains & {
+      color: var(--off-white);
+    }
+
     &::after {
       content: '';
       position: absolute;
-      width: calc(100% + 0.5rem);
+      width: calc(100%);
       height: 80%;
       top: 10%;
       left: 1.5rem;
       transform: skew(-35deg);
       background-image: linear-gradient(90deg, var(--speaker-color) 25%, transparent);
       z-index: -1;
+
+      .villains & {
+        background: transparent;
+        border: 0.2rem solid;
+        border-image: var(--speaker-gradient) 30;
+      }
     }
 
     &__img {
@@ -77,7 +127,7 @@ defineProps({
       width: 3rem;
       aspect-ratio: 1;
       border: 2px solid var(--speaker-color);
-      margin-right: 1rem;
+      margin-right: 0.5rem;
       flex-shrink: 0;
       position: relative;
       background-color: var(--off-white);
