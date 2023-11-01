@@ -18,7 +18,7 @@ const svgDimensions = {
   width: 1000,
   height: 50,
 }
-const distanceFromGoodies = 5
+const distanceFromGoodies = 2
 
 const orderedEpisodesWithVillains = ref()
 
@@ -60,17 +60,24 @@ onMounted(() => {
                 ? null
                 : allEpisodes.slice(i, nextOccurrenceVillainIndex)
 
-            const sizeBetweenOccurrences = epsBetweenOccurrences?.reduce(
-              (prev, next) => prev + props.allEpisodes[next].size * svgDimensions.width,
-              0,
-            )
+            // const sizeBetweenOccurrences = epsBetweenOccurrences?.reduce(
+            //   (prev, next) => prev + props.allEpisodes[next].size * svgDimensions.width,
+            //   0,
+            // )
+
+            const lastOccurrenceAccumulatedSize = epsBetweenOccurrences
+              ? props.allEpisodes[epsBetweenOccurrences[epsBetweenOccurrences.length - 1]]
+                  .accumulatedSize *
+                  svgDimensions.width -
+                episode.accumulatedSize
+              : episode.size
 
             return {
               ...villain,
               villainColorName: villain.villain.replaceAll(' ', '-'),
               nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
-              sizeBetweenOccurrences: sizeBetweenOccurrences || episode.size,
-              singleOccurrence: !sizeBetweenOccurrences,
+              sizeBetweenOccurrences: lastOccurrenceAccumulatedSize || episode.size,
+              singleOccurrence: !epsBetweenOccurrences,
             }
           })
         : [],
@@ -111,20 +118,20 @@ onMounted(() => {
             :d="`M ${episode.accumulatedSize} ${distanceFromGoodies}
                  C ${episode.accumulatedSize} ${
                    distanceFromGoodies +
-                   5 * (episode.villains.length - villainIndex + 1) +
-                   5 * (villain.nrEpisodesBetweenOccurrences || 0)
+                   3 * (episode.villains.length - villainIndex + 1) +
+                   3 * (villain.nrEpisodesBetweenOccurrences || 0)
                  }, 
                  ${episode.accumulatedSize + villain.sizeBetweenOccurrences} ${
                    distanceFromGoodies +
-                   5 * (episode.villains.length - villainIndex + 1) +
-                   5 * (villain.nrEpisodesBetweenOccurrences || 0)
+                   3 * (episode.villains.length - villainIndex + 1) +
+                   3 * (villain.nrEpisodesBetweenOccurrences || 0)
                  }, 
                  ${
                    episode.accumulatedSize + villain.sizeBetweenOccurrences
                  } ${distanceFromGoodies}`"
-            fill="transparent"
+            :fill="villain.singleOccurrence ? `url(#${villain.villainColorName})` : 'transparent'"
             :stroke="`url(#${villain.villainColorName})`"
-            stroke-width="2"
+            stroke-width="1"
             :opacity="hoveredEpisode && hoveredEpisode.episode !== episode.episode ? 0.3 : 1"
           />
         </g>
@@ -146,7 +153,7 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .nostalgia-villains-season {
-  width: var(--chart-width);
+  width: var(--season-width);
 
   svg {
     overflow: visible;

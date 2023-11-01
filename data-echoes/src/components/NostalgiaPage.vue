@@ -64,6 +64,7 @@ const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
 
 const seasonsWithEpisodes = ref<Season>({})
 const seasonsWithSum = ref<SeasonWithSum>({})
+const seasonsLastEpisode = ref<{ [season: string]: string }>({})
 const totalSum = ref<number>(0)
 const maxSeasonSum = ref<number>(0)
 
@@ -124,6 +125,9 @@ onMounted(() => {
           'word_count_for_line',
         ),
       }
+
+      // Loop towards last episode
+      seasonsLastEpisode.value[season] = episode
     })
 
     goodEpisodes[season as SeasonKey] = getEpisodesWithAccumulatedSize(
@@ -133,8 +137,6 @@ onMounted(() => {
   })
 
   seasonsWithEpisodes.value = goodEpisodes as unknown as Season
-
-  console.log(seasonsWithEpisodes.value)
 
   totalSum.value = sumBy(
     goodAll.filter((good) => keySpeakers.includes(good.speaker)),
@@ -241,6 +243,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
           '--season-size': getSeasonSize(season),
           '--season-index': seasonIndex,
           '--season-color': `var(--season-${season})`,
+          '--last-episode-size': episodes[seasonsLastEpisode[season]].size,
         }"
       >
         <div class="nostalgia-page__season">
@@ -393,7 +396,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
     --season-total-width: 150%;
     --season-width: calc(var(--season-total-width) * var(--season-size));
     --chart-width: calc(
-      var(--season-width) * 0.53
+      var(--season-width) * 0.5 + var(--season-width) * var(--last-episode-size) * 0.5
     ); // TODO: Understand how to better calculate this size (has to do with episodes shift)
 
     position: relative;
