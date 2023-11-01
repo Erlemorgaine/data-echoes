@@ -19,6 +19,7 @@ import NostalgiaLegend from './NostalgiaLegend.vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import NostalgiaVillainsSeason from './NostalgiaVillainsSeason.vue'
 import NostalgiaBarChart from './NostalgiaBarChart.vue'
+import NostalgiaIntro from './NostalgiaIntro.vue'
 
 import '../assets/scss/nostalgia.scss'
 
@@ -88,10 +89,12 @@ const seasonsWithSum = ref<SeasonWithSum>({})
 const seasonsLastEpisode = ref<{ [season: string]: string }>({})
 const totalSum = ref<number>(0)
 const maxSeasonSum = ref<number>(0)
+const titleTransform = ref({ scale: 1, translate: '0rem' })
+const legendShown = ref(false)
 
 const hoveredEpisode = ref<{ season: number; episode: string } | null>(null)
 const hoveredSeasonSpeaker = ref<{ season: number; speaker: string } | null>(null)
-const hoveredSpeaker = ref<{speaker: string, isVillain: boolean}>()
+const hoveredSpeaker = ref<{ speaker: string; isVillain: boolean }>()
 
 const seasonChartGoodSpeakers = computed(() => {
   const speakersPerSeason: SpeakersPerSeason = {}
@@ -139,6 +142,7 @@ const seasonChartAllSpeakers = computed(() => {
 })
 
 onMounted(() => {
+  window.addEventListener('scroll', getTitleTransform)
   seasonsWithSum.value = goodSeasons
 
   // Calculate sum of key speakers for seasons
@@ -271,14 +275,32 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   })
   // return speakerCount / episodeSum
 }
+
+function getTitleTransform(e: Event) {
+  titleTransform.value.scale = Math.max(
+    (window.innerHeight - window.scrollY) / window.innerHeight,
+    0.75,
+  )
+
+  titleTransform.value.translate = (1 - titleTransform.value.scale) * 4 + 'rem'
+  legendShown.value = window.scrollY > 100
+}
 </script>
 
 <template>
   <div class="nostalgia-page">
-    <h2 class="nostalgia-page__title">
+    <h2
+      class="nostalgia-page__title"
+      :style="{
+        '--title-scale': titleTransform.scale,
+        '--title-translate': titleTransform.translate,
+      }"
+    >
       Talk of the Townsville
       <div class="nostalgia-page__title__sub">The Powerpuff girls, 1998 series</div>
     </h2>
+
+    <NostalgiaIntro />
 
     <section class="nostalgia-page__content">
       <div
@@ -334,6 +356,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
       </div>
 
       <NostalgiaLegend
+        :class="{ hide: !legendShown }"
         :keySpeakers="keySpeakers"
         :villains="villains"
         :villainGroups="villainGroups"
@@ -425,6 +448,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 <style scoped lang="scss">
 .nostalgia-page {
   padding-bottom: 2rem;
+  color: var(--off-white);
   // background-image: radial-gradient(var(--bg-1) 33%, var(--bg-2) 33% 67%, var(--bg-3) 67% 100%);
 
   &__title {
@@ -433,8 +457,9 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
     max-width: 30rem;
     line-height: 100%;
     color: var(--blossom);
-    transform: translateX(-0.5rem);
-    position: absolute;
+    transform-origin: right bottom;
+    transform: translate(-0.5rem, var(--title-translate)) scale(var(--title-scale));
+    position: fixed;
     right: 2rem;
     top: 3rem;
     text-align: right;
@@ -486,6 +511,10 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
       height: calc(100% + 2.2rem);
       // background-image: linear-gradient(90deg, transparent 30%, var(--season-color));
     }
+  }
+
+  .hide {
+    opacity: 0;
   }
 }
 </style>

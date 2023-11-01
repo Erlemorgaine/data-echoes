@@ -9,7 +9,7 @@ const activeThemes = ['Nostalgia']
       <h1 class="home-view__content__title">Data echoes</h1>
 
       <div class="home-view__content__intro">
-        <p></p>
+        <p> <span class="capital">Welcome!</span> This is </p>
       </div>
 
       <div class="home-view__content__themes">

@@ -35,7 +35,7 @@ function getVillainGradient(speaker) {
           '--speaker-color': `var(--${speaker.replaceAll(' ', '-')})`,
           ...(i == 1 ? { '--speaker-gradient': getVillainGradient(speaker) } : {}),
         }"
-        @mouseenter="$emit('onSpeakerHover', {speaker, isVillain: i == 1 })"
+        @mouseenter="$emit('onSpeakerHover', { speaker, isVillain: i == 1 })"
         @mouseleave="$emit('onSpeakerHover', null)"
       >
         <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
@@ -77,6 +77,7 @@ function getVillainGradient(speaker) {
   display: flex;
   flex-direction: column;
   gap: 4vh;
+  transition: opacity 0.5s;
 
   &__group {
     display: grid;
