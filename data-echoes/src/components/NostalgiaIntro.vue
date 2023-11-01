@@ -75,6 +75,10 @@
   &__scroll {
     font-family: VinaSans;
     letter-spacing: 0.1rem;
+
+    &:hover {
+      color: var(--blossom);
+    }
   }
 }
 </style>

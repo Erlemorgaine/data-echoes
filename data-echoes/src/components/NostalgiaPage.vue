@@ -297,7 +297,7 @@ function getTitleTransform(e: Event) {
       }"
     >
       Talk of the Townsville
-      <div class="nostalgia-page__title__sub">The Powerpuff girls, 1998 series</div>
+      <div class="nostalgia-page__title__sub">The Powerpuff girls, 1998-2005 series</div>
     </h2>
 
     <NostalgiaIntro />
