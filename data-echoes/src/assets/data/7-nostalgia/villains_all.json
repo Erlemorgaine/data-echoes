@@ -1,10 +1,11 @@
 [
-  { "villain": "mojo jojo", "word_count_for_line": 9180 },
+  { "villain": "mojo jojo", "word_count_for_line": 9316 },
   { "villain": "princess morbucks", "word_count_for_line": 2861 },
-  { "villain": "him", "word_count_for_line": 2334 },
-  { "villain": "gangreen gang", "word_count_for_line": 1833 },
-  { "villain": "rowdyruff boys", "word_count_for_line": 1348 },
+  { "villain": "him", "word_count_for_line": 2684 },
+  { "villain": "rowdyruff boys", "word_count_for_line": 2235 },
+  { "villain": "gangreen gang", "word_count_for_line": 1868 },
   { "villain": "smith family", "word_count_for_line": 970 },
+  { "villain": "amoeba boys", "word_count_for_line": 953 },
   { "villain": "sedusa", "word_count_for_line": 817 },
-  { "villain": "amoeba boys", "word_count_for_line": 652 }
+  { "villain": "fuzzy", "word_count_for_line": 667 }
 ]

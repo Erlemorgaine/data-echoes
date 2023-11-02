@@ -38,7 +38,11 @@ function getVillainGradient(speaker) {
         @mouseenter="$emit('onSpeakerHover', { speaker, isVillain: i == 1 })"
         @mouseleave="$emit('onSpeakerHover', null)"
       >
-        <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
+        <img
+          :src="`/images/${speaker.replaceAll(' ', '-')}.webp`"
+          alt=""
+          class="nostalgia-legend__speaker__img"
+        />
         {{ speaker }}
       </div>
     </div>
@@ -62,10 +66,9 @@ function getVillainGradient(speaker) {
 <style lang="scss" scoped>
 .nostalgia-legend {
   position: fixed;
-  top: 15rem;
+  top: 10.25rem;
   right: 2rem;
-  padding: 1rem;
-  padding-right: 0.5rem;
+  padding: 1rem 0.75rem 0.5rem 0.5rem;
   border-radius: 0.2rem;
   font-family: VinaSans;
   color: var(--off-white);
@@ -76,7 +79,7 @@ function getVillainGradient(speaker) {
   filter: drop-shadow(-2px -2px 5px var(--off-white-50));
   display: flex;
   flex-direction: column;
-  gap: 4vh;
+  gap: 3vh;
   transition: opacity 0.5s;
 
   &__group {
@@ -111,7 +114,7 @@ function getVillainGradient(speaker) {
       width: calc(100%);
       height: 80%;
       top: 10%;
-      left: 1.5rem;
+      left: 1.75rem;
       transform: skew(-35deg);
       background-image: linear-gradient(90deg, var(--speaker-color) 25%, transparent);
       z-index: -1;
@@ -125,7 +128,7 @@ function getVillainGradient(speaker) {
 
     &__img {
       border-radius: 50%;
-      width: 3rem;
+      width: 3.5vw;
       aspect-ratio: 1;
       border: 2px solid var(--speaker-color);
       margin-right: 0.5rem;

@@ -52,24 +52,3 @@ for i in range(1, 4):
 with open('./ppg-seasons-2016.json', 'w') as json_file:
     json.dump(seasons, json_file, indent=4)
 
-
-       # No dialog
-no_dialog = [
-    "Bye Bye, Bellum",
-    "Cheep Thrills",
-    "Horn, Sweet Horn",
-    "Night Mayor",
-    "Once Upon a Townsville",
-    "Sideline Dad",
-    "Silent Treatment",
-    "Small World: Heart to Heartstone",
-    "Strong-Armed",
-    "Take Your Kids to Dooms Day",
-    "The Big Sleep",
-    "The Fog",
-    "The Squashening",
-    "The Stayover",
-    "Total Eclipse of the Kart",
-    "TTG v PPG",
-    "Whoopass Stew",
-    ]

@@ -39,6 +39,7 @@ type EpisodeSpeakers =
 
 type Episode = {
   [episodeNr: string]: {
+    title: string
     speakers: Speaker[]
     sum: number
     size?: Number
@@ -145,6 +146,38 @@ onMounted(() => {
   window.addEventListener('scroll', getTitleTransform)
   seasonsWithSum.value = goodSeasons
 
+  // seasonsWithEpisodes.value = groupBy(goodEpisodes, 'season')
+
+  // Object.keys(seasonsWithEpisodes.value).forEach((season) => {
+  //   seasonsWithEpisodes.value[season] = groupBy(seasonsWithEpisodes.value[season], 'episode_nr')
+  // })
+
+  // Object.keys(seasonsWithEpisodes.value).forEach((season) => {
+  //   Object.keys(seasonsWithEpisodes.value[season]).forEach((episode) => {
+  //     seasonsWithEpisodes.value[season][episode].sort(
+  //       (a, b) => keySpeakers.indexOf(a.speaker) - keySpeakers.indexOf(b.speaker),
+  //     )
+  //   })
+  // })
+
+  // console.log(seasonsWithEpisodes.value)
+
+  // const villains = groupBy(villainEpisodes, 'season')
+
+  // Object.keys(villains).forEach((season) => {
+  //   villains[season] = groupBy(villains[season], 'episode_nr')
+  // })
+
+  // Object.keys(villains).forEach((season) => {
+  //   Object.keys(villains[season]).forEach((episode) => {
+  //     villains[season][episode].sort(
+  //       (a, b) => keySpeakers.indexOf(a.speaker) - keySpeakers.indexOf(b.speaker),
+  //     )
+  //   })
+  // })
+
+  // console.log(villains)
+
   // Calculate sum of key speakers for seasons
   Object.keys(goodSeasons).forEach((season) => {
     type SeasonKey = keyof typeof goodSeasons
@@ -167,6 +200,7 @@ onMounted(() => {
       type EpisodeKey = keyof typeof seasonData
 
       seasonData[episode as EpisodeKey] = {
+        title: seasonData[episode as EpisodeKey][0].episode,
         speakers: seasonData[episode as EpisodeKey] as Speaker[],
         sum: sumBy(
           seasonData[episode as EpisodeKey].filter((good: Speaker) =>
@@ -192,24 +226,6 @@ onMounted(() => {
     goodAll.filter((good) => keySpeakers.includes(good.speaker)),
     'word_count_for_line',
   )
-  // seasonsWithSum.value = getSeasonsSize()
-
-  // seasonsWithEpisodes.value = groupBy(goodEpisodes, 'season')
-
-  // Object.keys(villainEpisodes).forEach((season) => {
-  //   villainEpisodes[season] = groupBy(villainEpisodes[season], 'episode_nr')
-  // })
-
-  // Object.keys(seasonsWithEpisodes.value).forEach((season) => {
-  //   Object.keys(seasonsWithEpisodes.value[season]).forEach((episode) => {
-  //     seasonsWithEpisodes.value[season][episode].sort(
-  //       (a, b) => keySpeakers.indexOf(a.speaker) - keySpeakers.indexOf(b.speaker),
-  //     )
-  //   })
-  // })
-
-  // console.log(seasonsWithSum.value)
-  // console.log(seasonsWithEpisodes.value)
 })
 
 // function getSeasonsSize() {
@@ -276,13 +292,12 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
   // return speakerCount / episodeSum
 }
 
-function getTitleTransform(e: Event) {
-  titleTransform.value.scale = Math.max(
-    (window.innerHeight - window.scrollY) / window.innerHeight,
-    0.75,
-  )
+function getTitleTransform() {
+  titleTransform.value.scale =
+    Math.max(Math.pow((window.innerHeight - window.scrollY) / window.innerHeight, 1.95), 0.75) ||
+    0.75
 
-  titleTransform.value.translate = (1 - titleTransform.value.scale) * 4 + 'rem'
+  titleTransform.value.translate = (1 - titleTransform.value.scale) * -14 + 'rem'
   legendShown.value = window.scrollY > 100
 }
 </script>
@@ -316,8 +331,11 @@ function getTitleTransform(e: Event) {
       >
         <div class="nostalgia-page__season">
           <NostalgiaBubble
-            :episodes="episodes"
+            v-for="(episodeData, episode) of episodes"
+            :key="'episode' + episode"
+            :episodeData="episodeData"
             :season="season"
+            :episode="episode"
             :keySpeakers="keySpeakers"
             :getSpeakersWithAccumulatedSize="getSpeakersWithAccumulatedSize"
             :hoveredEpisode="hoveredEpisode"
@@ -356,7 +374,7 @@ function getTitleTransform(e: Event) {
       </div>
 
       <NostalgiaLegend
-        :class="{ hide: !legendShown }"
+        :class="{ 'legend-hide': !legendShown }"
         :keySpeakers="keySpeakers"
         :villains="villains"
         :villainGroups="villainGroups"
@@ -451,6 +469,10 @@ function getTitleTransform(e: Event) {
   color: var(--off-white);
   // background-image: radial-gradient(var(--bg-1) 33%, var(--bg-2) 33% 67%, var(--bg-3) 67% 100%);
 
+  @media screen and (min-width: 1440px) {
+    padding-left: 3vw;
+  }
+
   &__title {
     font-family: PPG;
     font-size: 3rem;
@@ -475,7 +497,7 @@ function getTitleTransform(e: Event) {
   }
 
   &__season-wrapper {
-    --season-total-width: 135%;
+    --season-total-width: 125%;
     --season-width: calc(var(--season-total-width) * var(--season-size));
     --chart-width: calc(
       var(--season-width) * 0.5 + var(--season-width) * var(--last-episode-size) * 0.5
@@ -513,8 +535,9 @@ function getTitleTransform(e: Event) {
     }
   }
 
-  .hide {
+  .legend-hide {
     opacity: 0;
+    pointer-events: none;
   }
 }
 </style>

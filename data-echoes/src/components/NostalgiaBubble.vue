@@ -1,10 +1,18 @@
 <script setup>
-defineProps({
+import NostalgiaTooltip from './NostalgiaTooltip.vue'
+
+import { computed } from 'vue'
+
+const props = defineProps({
   season: {
     type: String,
     required: true,
   },
-  episodes: {
+  episode: {
+    type: String,
+    required: true,
+  },
+  episodeData: {
     type: Object,
     required: true,
   },
@@ -19,19 +27,25 @@ defineProps({
 })
 
 defineEmits(['onEpisodeHover'])
+
+const inactive = computed(
+  () =>
+    props.hoveredEpisode &&
+    props.hoveredEpisode.season === props.season &&
+    props.hoveredEpisode.episode !== props.episode,
+)
+
+const active = computed(
+  () =>
+    props.hoveredEpisode &&
+    props.hoveredEpisode.season === props.season &&
+    props.hoveredEpisode.episode === props.episode,
+)
 </script>
 
 <template>
   <button
-    v-for="(episodeData, episode) of episodes"
-    :key="'episode' + episode"
-    :class="[
-      'nostalgia-bubble',
-      {
-        inactive:
-          hoveredEpisode && hoveredEpisode.season === season && hoveredEpisode.episode !== episode,
-      },
-    ]"
+    :class="['nostalgia-bubble', { inactive }]"
     :style="{
       '--episode-size': episodeData.size,
       '--episode-accumulated-size': episodeData.accumulatedSize * -1,
@@ -41,6 +55,12 @@ defineEmits(['onEpisodeHover'])
     @mouseleave="$emit('onEpisodeHover', null)"
     @blur="$emit('onEpisodeHover', null)"
   >
+    <NostalgiaTooltip
+      :class="['nostalgia-bubble__tooltip', { show: active }]"
+      :episodeData="episodeData"
+      :episode="episode"
+    />
+
     <template
       v-for="speaker of getSpeakersWithAccumulatedSize(episodeData.speakers, episodeData.sum)"
     >
@@ -54,12 +74,16 @@ defineEmits(['onEpisodeHover'])
               (hoveredSeasonSpeaker &&
                 hoveredSeasonSpeaker.season === season &&
                 hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
-              (hoveredSpeaker && !hoveredSpeaker.isVillain && hoveredSpeaker.speaker !== speaker.speaker),
+              (hoveredSpeaker &&
+                !hoveredSpeaker.isVillain &&
+                hoveredSpeaker.speaker !== speaker.speaker),
             active:
               (hoveredSeasonSpeaker &&
                 hoveredSeasonSpeaker.season === season &&
                 hoveredSeasonSpeaker.speaker === speaker.speaker) ||
-              (hoveredSpeaker && !hoveredSpeaker.isVillain && hoveredSpeaker.speaker === speaker.speaker),
+              (hoveredSpeaker &&
+                !hoveredSpeaker.isVillain &&
+                hoveredSpeaker.speaker === speaker.speaker),
           },
         ]"
         :style="{
@@ -77,8 +101,6 @@ defineEmits(['onEpisodeHover'])
     </template>
   </button>
 </template>
-
-
 
 <style lang="scss" scoped>
 @container season (width > 1px) {
@@ -103,6 +125,13 @@ defineEmits(['onEpisodeHover'])
 
     &.inactive {
       opacity: 0.2;
+    }
+
+    &__tooltip {
+      opacity: 0;
+      &.show {
+        opacity: 1;
+      }
     }
 
     &__speaker {

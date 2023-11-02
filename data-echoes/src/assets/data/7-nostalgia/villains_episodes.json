@@ -4,7 +4,7 @@
       {
         "villain": "mojo jojo",
         "episode": "monkey see, doggie do",
-        "word_count_for_line": 292
+        "word_count_for_line": 325
       }
     ],
     "1.2": [
@@ -21,11 +21,59 @@
         "word_count_for_line": 181
       }
     ],
-    "7.1": [
+    "3.2": [
       {
-        "villain": "talking dog",
-        "episode": "major competition",
+        "villain": "amoeba boys",
+        "episode": "geshundfight",
+        "word_count_for_line": 301
+      },
+      {
+        "villain": "gangreen gang",
+        "episode": "geshundfight",
+        "word_count_for_line": 5
+      }
+    ],
+    "4.1": [
+      {
+        "villain": "rowdyruff boys",
+        "episode": "buttercrush",
+        "word_count_for_line": 495
+      }
+    ],
+    "4.2": [
+      {
+        "villain": "fuzzy",
+        "episode": "fuzzy logic",
+        "word_count_for_line": 214
+      }
+    ],
+    "6.1": [
+      {
+        "villain": "rowdyruff boys",
+        "episode": "telephonies",
+        "word_count_for_line": 236
+      },
+      {
+        "villain": "mojo jojo",
+        "episode": "telephonies",
+        "word_count_for_line": 102
+      },
+      {
+        "villain": "him",
+        "episode": "telephonies",
+        "word_count_for_line": 99
+      },
+      {
+        "villain": "fuzzy",
+        "episode": "telephonies",
         "word_count_for_line": 7
+      }
+    ],
+    "6.2": [
+      {
+        "villain": "him",
+        "episode": "tough love",
+        "word_count_for_line": 251
       }
     ],
     "7.2": [
@@ -47,11 +95,6 @@
         "villain": "mojo jojo",
         "episode": "bubblevicious",
         "word_count_for_line": 113
-      },
-      {
-        "villain": "talking dog",
-        "episode": "bubblevicious",
-        "word_count_for_line": 24
       }
     ],
     "9.2": [
@@ -64,15 +107,8 @@
     "10.2": [
       {
         "villain": "fuzzy",
-        "season": 1.0,
-        "episode_nr": 10.2,
         "episode": "impeach fuzz",
         "word_count_for_line": 132
-      },
-      {
-        "villain": "talking dog",
-        "episode": "impeach fuzz",
-        "word_count_for_line": 5
       }
     ],
     "11.1": [
@@ -91,19 +127,7 @@
       {
         "villain": "gangreen gang",
         "episode": "the rowdyruff boys",
-        "word_count_for_line": 134
-      },
-      {
-        "villain": "talking dog",
-        "episode": "the rowdyruff boys",
-        "word_count_for_line": 6
-      }
-    ],
-    "13.": [
-      {
-        "villain": "talking dog",
-        "episode": "uh oh dynamo",
-        "word_count_for_line": 8
+        "word_count_for_line": 149
       }
     ]
   },
@@ -119,7 +143,7 @@
       {
         "villain": "rowdyruff boys",
         "episode": "schoolhouse rocked",
-        "word_count_for_line": 254
+        "word_count_for_line": 326
       }
     ],
     "2.1": [
@@ -156,6 +180,11 @@
         "villain": "him",
         "episode": "birthday bash",
         "word_count_for_line": 95
+      },
+      {
+        "villain": "gangreen gang",
+        "episode": "birthday bash",
+        "word_count_for_line": 3
       }
     ],
     "5.1": [
@@ -169,19 +198,24 @@
       {
         "villain": "mojo jojo",
         "episode": "you snooze, you lose",
-        "word_count_for_line": 287
+        "word_count_for_line": 288
       },
       {
         "villain": "amoeba boys",
         "episode": "you snooze, you lose",
         "word_count_for_line": 78
+      },
+      {
+        "villain": "gangreen gang",
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 2
       }
     ],
     "6.1": [
       {
         "villain": "rowdyruff boys",
         "episode": "slave the day",
-        "word_count_for_line": 399
+        "word_count_for_line": 433
       }
     ],
     "6.2": [
@@ -189,11 +223,6 @@
         "villain": "mojo jojo",
         "episode": "los dos mojos",
         "word_count_for_line": 316
-      },
-      {
-        "villain": "talking dog",
-        "episode": "los dos mojos",
-        "word_count_for_line": 1
       }
     ],
     "7.1": [
@@ -279,8 +308,6 @@
       },
       {
         "villain": "fuzzy",
-        "season": 3.0,
-        "episode_nr": 3.0,
         "episode": "criss cross crisis",
         "word_count_for_line": 18
       }
@@ -334,14 +361,12 @@
         "word_count_for_line": 68
       },
       {
-        "villain": "him",
+        "villain": "fuzzy",
         "episode": "moral decay",
         "word_count_for_line": 1
       },
       {
-        "villain": "fuzzy",
-        "season": 3.0,
-        "episode_nr": 12.1,
+        "villain": "him",
         "episode": "moral decay",
         "word_count_for_line": 1
       }
@@ -364,8 +389,6 @@
       },
       {
         "villain": "fuzzy",
-        "season": 3.0,
-        "episode_nr": 12.2,
         "episode": "meet the beat-alls",
         "word_count_for_line": 106
       }
@@ -374,7 +397,7 @@
       {
         "villain": "rowdyruff boys",
         "episode": "power lunch",
-        "word_count_for_line": 241
+        "word_count_for_line": 272
       }
     ]
   },
@@ -384,11 +407,6 @@
         "villain": "bernie",
         "episode": "film flam",
         "word_count_for_line": 915
-      },
-      {
-        "villain": "talking dog",
-        "episode": "film flam",
-        "word_count_for_line": 14
       },
       {
         "villain": "rowdyruff boys",
@@ -466,25 +484,21 @@
     ]
   },
   "5": {
-    "1.2": [
-      {
-        "villain": "talking dog",
-        "episode": "shut the pup up",
-        "word_count_for_line": 647
-      }
-    ],
     "2.2": [
       {
         "villain": "amoeba boys",
         "episode": "divide and conquer",
         "word_count_for_line": 332
+      },
+      {
+        "villain": "gangreen gang",
+        "episode": "divide and conquer",
+        "word_count_for_line": 4
       }
     ],
     "3.2": [
       {
         "villain": "fuzzy",
-        "season": 5.0,
-        "episode_nr": 3.2,
         "episode": "shotgun wedding",
         "word_count_for_line": 163
       }
@@ -531,7 +545,7 @@
       {
         "villain": "gangreen gang",
         "episode": "boy toys",
-        "word_count_for_line": 162
+        "word_count_for_line": 164
       }
     ],
     "7.": [
@@ -562,8 +576,6 @@
       },
       {
         "villain": "fuzzy",
-        "season": 5.0,
-        "episode_nr": 7.0,
         "episode": "see me, feel me, gnomey",
         "word_count_for_line": 14
       },
@@ -587,19 +599,12 @@
     ],
     "9.1": [
       {
-        "villain": "talking dog",
-        "episode": "a documentary",
-        "word_count_for_line": 36
-      },
-      {
         "villain": "mojo jojo",
         "episode": "a documentary",
         "word_count_for_line": 24
       },
       {
         "villain": "fuzzy",
-        "season": 5.0,
-        "episode_nr": 9.1,
         "episode": "a documentary",
         "word_count_for_line": 8
       },
@@ -620,7 +625,7 @@
       {
         "villain": "rowdyruff boys",
         "episode": "bang for your buck",
-        "word_count_for_line": 76
+        "word_count_for_line": 81
       }
     ]
   },
@@ -628,8 +633,6 @@
     "2.1": [
       {
         "villain": "fuzzy",
-        "season": 6.0,
-        "episode_nr": 2.1,
         "episode": "makes zen to me",
         "word_count_for_line": 4
       }
@@ -643,7 +646,7 @@
       {
         "villain": "rowdyruff boys",
         "episode": "live and let dynamo",
-        "word_count_for_line": 20
+        "word_count_for_line": 26
       },
       {
         "villain": "gangreen gang",
@@ -666,11 +669,6 @@
         "villain": "mojo jojo",
         "episode": "mo' linguish",
         "word_count_for_line": 542
-      },
-      {
-        "villain": "talking dog",
-        "episode": "mo' linguish",
-        "word_count_for_line": 38
       }
     ],
     "5.": [
@@ -694,7 +692,7 @@
       {
         "villain": "gangreen gang",
         "episode": "custody battle",
-        "word_count_for_line": 88
+        "word_count_for_line": 92
       }
     ],
     "8.": [
@@ -706,7 +704,7 @@
       {
         "villain": "rowdyruff boys",
         "episode": "aspirations",
-        "word_count_for_line": 156
+        "word_count_for_line": 164
       }
     ],
     "9.2": [
@@ -721,13 +719,6 @@
         "villain": "amoeba boys",
         "episode": "sun scream",
         "word_count_for_line": 48
-      }
-    ],
-    "10.2": [
-      {
-        "villain": "talking dog",
-        "episode": "city of frownsville",
-        "word_count_for_line": 7
       }
     ],
     "11.": [

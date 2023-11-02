@@ -27,7 +27,9 @@
       to explore!
     </p>
 
-    <button class="nostalgia-intro__scroll">Scroll down for an explanation of the viz</button>
+    <button class="nostalgia-intro__scroll">
+      &#8681; Scroll down for an explanation of the viz
+    </button>
   </section>
 </template>
 
@@ -75,6 +77,7 @@
   &__scroll {
     font-family: VinaSans;
     letter-spacing: 0.1rem;
+    font-size: 1.1rem;
 
     &:hover {
       color: var(--blossom);

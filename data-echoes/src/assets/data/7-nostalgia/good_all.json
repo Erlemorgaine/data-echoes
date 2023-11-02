@@ -1,10 +1,11 @@
 [
-  { "speaker": "blossom", "word_count_for_line": 18626 },
-  { "speaker": "professor", "word_count_for_line": 13171 },
-  { "speaker": "buttercup", "word_count_for_line": 11452 },
-  { "speaker": "narrator", "word_count_for_line": 11423 },
-  { "speaker": "bubbles", "word_count_for_line": 11101 },
-  { "speaker": "mayor", "word_count_for_line": 6673 },
-  { "speaker": "ms. keane", "word_count_for_line": 2992 },
-  { "speaker": "ms. bellum", "word_count_for_line": 1521 }
+  { "speaker": "blossom", "word_count_for_line": 21325 },
+  { "speaker": "professor", "word_count_for_line": 13874 },
+  { "speaker": "narrator", "word_count_for_line": 12559 },
+  { "speaker": "buttercup", "word_count_for_line": 13485 },
+  { "speaker": "bubbles", "word_count_for_line": 12884 },
+  { "speaker": "mayor", "word_count_for_line": 7408 },
+  { "speaker": "ms. keane", "word_count_for_line": 2996 },
+  { "speaker": "ms. bellum", "word_count_for_line": 1567 },
+  { "speaker": "talking dog", "word_count_for_line": 797 }
 ]
