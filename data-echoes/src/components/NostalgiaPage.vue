@@ -515,7 +515,7 @@ function getTitleTransform() {
     color: var(--professor);
     width: var(--season-total-width);
     display: flex;
-    overflow: hidden;
+    // overflow: hidden;
 
     align-items: center;
     align-items: flex-end;

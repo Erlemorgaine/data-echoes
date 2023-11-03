@@ -61,44 +61,46 @@ const active = computed(
       :episode="episode"
     />
 
-    <template
-      v-for="speaker of getSpeakersWithAccumulatedSize(episodeData.speakers, episodeData.sum)"
-    >
-      <div
-        v-if="keySpeakers.includes(speaker.speaker)"
-        :key="speaker.speaker"
-        :class="[
-          'nostalgia-bubble__speaker',
-          {
-            inactive:
-              (hoveredSeasonSpeaker &&
-                hoveredSeasonSpeaker.season === season &&
-                hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
-              (hoveredSpeaker &&
-                !hoveredSpeaker.isVillain &&
-                hoveredSpeaker.speaker !== speaker.speaker),
-            active:
-              (hoveredSeasonSpeaker &&
-                hoveredSeasonSpeaker.season === season &&
-                hoveredSeasonSpeaker.speaker === speaker.speaker) ||
-              (hoveredSpeaker &&
-                !hoveredSpeaker.isVillain &&
-                hoveredSpeaker.speaker === speaker.speaker),
-          },
-        ]"
-        :style="{
-          '--speaker-size': speaker.accumulatedSize,
-          '--speaker-children-size': speaker.childrenPercentage,
-          '--speaker-color': `var(--${speaker.speaker})`,
-          '--speaker-color-50': `var(--${speaker.speaker}-50)`,
-          '--speaker-z-index': keySpeakers.indexOf(speaker.speaker),
-        }"
+    <div class="nostalgia-bubble__wrapper">
+      <template
+        v-for="speaker of getSpeakersWithAccumulatedSize(episodeData.speakers, episodeData.sum)"
       >
-        <span class="nostalgia-bubble__speaker__size">
-          {{ speaker.size + '%' }}
-        </span>
-      </div>
-    </template>
+        <div
+          v-if="keySpeakers.includes(speaker.speaker)"
+          :key="speaker.speaker"
+          :class="[
+            'nostalgia-bubble__speaker',
+            {
+              inactive:
+                (hoveredSeasonSpeaker &&
+                  hoveredSeasonSpeaker.season === season &&
+                  hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
+                (hoveredSpeaker &&
+                  !hoveredSpeaker.isVillain &&
+                  hoveredSpeaker.speaker !== speaker.speaker),
+              active:
+                (hoveredSeasonSpeaker &&
+                  hoveredSeasonSpeaker.season === season &&
+                  hoveredSeasonSpeaker.speaker === speaker.speaker) ||
+                (hoveredSpeaker &&
+                  !hoveredSpeaker.isVillain &&
+                  hoveredSpeaker.speaker === speaker.speaker),
+            },
+          ]"
+          :style="{
+            '--speaker-size': speaker.accumulatedSize,
+            '--speaker-children-size': speaker.childrenPercentage,
+            '--speaker-color': `var(--${speaker.speaker})`,
+            '--speaker-color-50': `var(--${speaker.speaker}-50)`,
+            '--speaker-z-index': keySpeakers.indexOf(speaker.speaker),
+          }"
+        >
+          <span class="nostalgia-bubble__speaker__size">
+            {{ speaker.size + '%' }}
+          </span>
+        </div>
+      </template>
+    </div>
   </button>
 </template>
 
@@ -132,6 +134,14 @@ const active = computed(
       &.show {
         opacity: 1;
       }
+    }
+
+    &__wrapper {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
 
     &__speaker {
