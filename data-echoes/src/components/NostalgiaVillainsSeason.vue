@@ -21,6 +21,7 @@ const svgDimensions = {
   height: 30,
 }
 const distanceFromGoodies = 2
+const villainStrokeOffset = 2
 
 const orderedEpisodesWithVillains = ref()
 
@@ -28,12 +29,19 @@ onMounted(() => {
   const allEpisodes = Object.keys(props.allEpisodes)
   const occurredPreviously: { [key: string]: string } = {}
 
-  orderedEpisodesWithVillains.value = allEpisodes.map((ep) => ({
-    villains: props.villainsPerEpisode[ep] || [],
-    episode: ep,
-    size: props.allEpisodes[ep].size * svgDimensions.width,
-    accumulatedSize: props.allEpisodes[ep].accumulatedSize * svgDimensions.width,
-  }))
+  orderedEpisodesWithVillains.value = allEpisodes.map((ep) => {
+    const accumulatedSize = props.allEpisodes[ep].accumulatedSize * svgDimensions.width
+    const size = props.allEpisodes[ep].size * svgDimensions.width
+
+    return {
+      villains: props.villainsPerEpisode[ep] || [],
+      episode: ep,
+      size,
+      accumulatedSize,
+      episodeCenter: accumulatedSize + size * 0.5,
+      totalEpisodeSum: props.allEpisodes[ep].totalEpisodeSum,
+    }
+  })
 
   orderedEpisodesWithVillains.value = orderedEpisodesWithVillains.value.map(
     (episode, i: number) => {
@@ -51,25 +59,52 @@ onMounted(() => {
               const epsBetweenOccurrences =
                 nextOccurrenceVillainIndex < 0
                   ? null
-                  : allEpisodes.slice(i, nextOccurrenceVillainIndex)
+                  : allEpisodes.slice(i, nextOccurrenceVillainIndex + 1)
 
-              const lastOccurrenceAccumulatedSize = epsBetweenOccurrences
-                ? props.allEpisodes[epsBetweenOccurrences[epsBetweenOccurrences.length - 1]]
-                    .accumulatedSize *
-                    svgDimensions.width -
+              const nextEpisodeNr = epsBetweenOccurrences
+                ? epsBetweenOccurrences[epsBetweenOccurrences.length - 1]
+                : null
+
+              const nextOccurrenceEpisode = epsBetweenOccurrences
+                ? props.allEpisodes[nextEpisodeNr]
+                : null
+
+              const nextOccurrenceAccumulatedSize = nextOccurrenceEpisode
+                ? nextOccurrenceEpisode.accumulatedSize * svgDimensions.width -
                   episode.accumulatedSize
                 : episode.size
 
               const previousOccurrence = occurredPreviously[villain.villain]
               occurredPreviously[villain.villain] = episode.episode
 
+              const sizeBetweenOccurrences = nextOccurrenceAccumulatedSize || episode.size
+
+              // console.log(villain.word_count_for_line, episode.totalEpisodeSum, episode.size)
+
               return {
                 ...villain,
                 villainColorName: villain.villain.replaceAll(' ', '-'),
                 nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
-                sizeBetweenOccurrences: lastOccurrenceAccumulatedSize || episode.size,
+                sizeBetweenOccurrences,
                 singleOccurrence: !epsBetweenOccurrences && !previousOccurrence, // TODO: Don't activate if villain was previous occurrent
                 previousOccurrence,
+                nextOccurrenceCenter: nextOccurrenceEpisode
+                  ? episode.accumulatedSize +
+                    sizeBetweenOccurrences +
+                    (nextOccurrenceEpisode?.size || 0) * svgDimensions.width * 0.5
+                  : episode.episodeCenter,
+
+                ...(nextOccurrenceEpisode
+                  ? {
+                      nextEpisodeNr,
+                      nextOccurrenceSize: nextOccurrenceEpisode.size,
+                      startWidth:
+                        (villain.word_count_for_line / episode.totalEpisodeSum) * episode.size,
+                      endWidth:
+                        (villain.word_count_for_line / nextOccurrenceEpisode.totalEpisodeSum) *
+                        nextOccurrenceEpisode.size,
+                    }
+                  : {}),
               }
             })
           : [],
@@ -78,11 +113,13 @@ onMounted(() => {
   )
 })
 
-function getVillainOpacity(villain: string, episode: string) {
+function getVillainOpacity(villain: string, episode: string, nextEpisode: string = '') {
   if (props.hoveredEpisode) {
-    return props.hoveredEpisode.episode === episode ? 1 : 0.3
+    return props.hoveredEpisode.episode === episode || props.hoveredEpisode.episode === nextEpisode
+      ? 1
+      : 0
   } else if (props.hoveredSpeaker && props.hoveredSpeaker.isVillain) {
-    return villain === props.hoveredSpeaker.speaker ? 1 : 0.2
+    return villain === props.hoveredSpeaker.speaker ? 1 : 0
   }
 
   return 1
@@ -103,16 +140,11 @@ function getVillainOpacity(villain: string, episode: string) {
           y="10"
           :x="i * 40"
         >
-          v-for="(villain, villainIndex) of episode.villains" :key="villain.villain"
-          :width="episode.size" height="5" :y="15 + villainIndex * 10" :x="i * 40"
-          :fill="`url(#${villain.villain})`" :opacity="hoveredEpisode && hoveredEpisode.episode !==
-          episode.episode ? 0.3 : 1"
-
           <template v-for="(villain, villainIndex) of episode.villains" :key="villain.villain">
             <!-- TODO: Size of circle based on #words spoken -->
             <circle
               v-if="villain.singleOccurrence"
-              :cx="episode.accumulatedSize + episode.size * 0.5"
+              :cx="episode.episodeCenter"
               :cy="7"
               :r="5"
               :fill="`url(#${villain.villainColorName})`"
@@ -121,25 +153,24 @@ function getVillainOpacity(villain: string, episode: string) {
             <path
               v-else
               :width="episode.size"
-              :d="`M ${episode.accumulatedSize} ${distanceFromGoodies}
-                 C ${episode.accumulatedSize} ${
+              :d="`M ${episode.episodeCenter} ${distanceFromGoodies}
+                 C ${episode.episodeCenter} ${
                    distanceFromGoodies +
-                   2 * (episode.villains.length - villainIndex + 1) +
-                   2 * (villain.nrEpisodesBetweenOccurrences || 0)
+                   villainStrokeOffset * (episode.villains.length - villainIndex + 1) +
+                   villainStrokeOffset * (villain.nrEpisodesBetweenOccurrences || 0)
                  }, 
-                 ${episode.accumulatedSize + villain.sizeBetweenOccurrences} ${
+                 ${villain.nextOccurrenceCenter} ${
                    distanceFromGoodies +
-                   2 * (episode.villains.length - villainIndex + 1) +
-                   2 * (villain.nrEpisodesBetweenOccurrences || 0)
+                   villainStrokeOffset * (episode.villains.length - villainIndex + 1) +
+                   villainStrokeOffset * (villain.nrEpisodesBetweenOccurrences || 0)
                  }, 
-                 ${
-                   episode.accumulatedSize + villain.sizeBetweenOccurrences
-                 } ${distanceFromGoodies}`"
+                 ${villain.nextOccurrenceCenter} ${distanceFromGoodies}`"
               :fill="villain.singleOccurrence ? `url(#${villain.villainColorName})` : 'transparent'"
               :stroke="`url(#${villain.villainColorName})`"
-              stroke-width="1"
-              :opacity="getVillainOpacity(villain.villain, episode.episode)"
+              :stroke-width="2"
+              :opacity="getVillainOpacity(villain.villain, episode.episode, villain.nextEpisodeNr)"
             />
+            <!-- :stroke-width="villain.startWidth" -->
           </template>
         </g>
       </g>

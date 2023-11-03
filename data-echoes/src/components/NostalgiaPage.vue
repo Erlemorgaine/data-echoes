@@ -208,6 +208,7 @@ onMounted(() => {
           ),
           'word_count_for_line',
         ),
+        totalEpisodeSum: allEpisodes[season][episode]?.word_count_for_line || 1000, // TODO: All episodes that arent in two parts are missing!! Bring them back,
       }
 
       // Loop towards last episode
