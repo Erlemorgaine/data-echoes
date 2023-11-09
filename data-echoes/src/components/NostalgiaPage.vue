@@ -20,11 +20,12 @@ import NostalgiaBubble from './NostalgiaBubble.vue'
 import NostalgiaVillainsSeason from './NostalgiaVillainsSeason.vue'
 import NostalgiaBarChart from './NostalgiaBarChart.vue'
 import NostalgiaIntro from './NostalgiaIntro.vue'
+import NostalgiaEpisodeModal from './NostalgiaEpisodeModal.vue'
 
 import '../assets/scss/nostalgia.scss'
 
 // Types
-type Speaker = {
+export type Speaker = {
   speaker: string
   episode: string
   word_count_for_line: number
@@ -80,8 +81,8 @@ const villainGroups = {
   sedusa: ['sedusa-30', 'sedusa'],
   fuzzy: ['fuzzy-30', 'fuzzy'],
   'rowdyruff-boys': ['brick', 'butch', 'boomer'],
-  'amoeba-boys': ['amoeba-1', 'amoeba-2', 'amoeba-3'],
-  'gangreen-gang': ['gangreen-1', 'gangreen-2', 'gangreen-3', 'gangreen-4', 'gangreen-5'],
+  'amoeba-boys': ['junior', 'slim', 'bossman'],
+  'gangreen-gang': ['snake', 'billy', 'ace', 'grubber', 'arturo'],
   'smith-family': ['marianne', 'harold', 'julie', 'bud'],
 }
 
@@ -92,6 +93,7 @@ const totalSum = ref<number>(0)
 const maxSeasonSum = ref<number>(0)
 const titleTransform = ref({ scale: 1, translate: '0rem' })
 const legendShown = ref(false)
+const modalData = ref(null)
 
 const hoveredEpisode = ref<{ season: number; episode: string } | null>(null)
 const hoveredSeasonSpeaker = ref<{ season: number; speaker: string } | null>(null)
@@ -208,7 +210,7 @@ onMounted(() => {
           ),
           'word_count_for_line',
         ),
-        totalEpisodeSum: allEpisodes[season][episode]?.word_count_for_line || 1000, // TODO: All episodes that arent in two parts are missing!! Bring them back,
+        totalEpisodeSum: allEpisodes[season][episode]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
       }
 
       // Loop towards last episode
@@ -267,32 +269,6 @@ function getEpisodesWithAccumulatedSize(allEpisodes: Episode, seasonNr: string |
   return episodes
 }
 
-function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: number) {
-  const keySpeakersData = allSpeakers.filter((speaker) => keySpeakers.includes(speaker.speaker))
-
-  return keySpeakersData.map((speaker, i) => {
-    const previousSpeakersAccumulation = keySpeakersData
-      .slice(0, i)
-      .reduce((prev, next) => prev + next.word_count_for_line / episodeSum, 0)
-
-    const nextSpeakersAccumulation = keySpeakersData
-      .slice(i + 1)
-      .reduce((prev, next) => prev + next.word_count_for_line / episodeSum, 0)
-
-    const size = speaker.word_count_for_line / episodeSum
-
-    return {
-      ...speaker,
-      childrenPercentage:
-        // * 70 because we will use it in an radial gradient, and radial gradients calculate the outer circle from the square element's corners instead of its edges
-        Math.round((nextSpeakersAccumulation / (size + nextSpeakersAccumulation)) * 70) + '%',
-      accumulatedSize: 1 - previousSpeakersAccumulation,
-      size: Math.round(size * 100),
-    }
-  })
-  // return speakerCount / episodeSum
-}
-
 function getTitleTransform() {
   titleTransform.value.scale =
     Math.max(Math.pow((window.innerHeight - window.scrollY) / window.innerHeight, 1.95), 0.75) ||
@@ -300,6 +276,18 @@ function getTitleTransform() {
 
   titleTransform.value.translate = (1 - titleTransform.value.scale) * -14 + 'rem'
   legendShown.value = window.scrollY > 100
+}
+
+function setModalData({ season, episode }) {
+  modalData.value = {
+    season,
+    episodeNr: episode,
+    ...allEpisodes[season][episode],
+    goodies: goodEpisodes[season][episode].speakers,
+    villains: villainEpisodes[season][episode],
+    goodiesTalking: goodEpisodes[season][episode].sum,
+    sumEpisode: allEpisodes[season][episode].word_count_for_line,
+  }
 }
 </script>
 
@@ -338,11 +326,12 @@ function getTitleTransform() {
             :season="season"
             :episode="episode"
             :keySpeakers="keySpeakers"
-            :getSpeakersWithAccumulatedSize="getSpeakersWithAccumulatedSize"
             :hoveredEpisode="hoveredEpisode"
             :hoveredSpeaker="hoveredSpeaker"
             :hoveredSeasonSpeaker="hoveredSeasonSpeaker"
             @onEpisodeHover="hoveredEpisode = $event"
+            @openModal="setModalData"
+            halfBubble
           />
         </div>
 
@@ -381,6 +370,8 @@ function getTitleTransform() {
         :villainGroups="villainGroups"
         @onSpeakerHover="hoveredSpeaker = $event"
       />
+
+      <NostalgiaEpisodeModal v-bind="modalData" @closeModal="modalData = null" />
     </section>
   </div>
 </template>
@@ -423,24 +414,24 @@ function getTitleTransform() {
   --butch-30: #40854e33;
   --boomer: #3f65b1;
   --boomer-30: #3f65b133;
-  --amoeba-1: #8fe4dd;
-  --amoeba-1-30: #8fe4dd33;
-  --amoeba-2: #158e98;
-  --amoeba-2-30: #158e9833;
-  --amoeba-3: #8c999a;
-  --amoeba-3-30: #8c999a33;
+  --junior: #8fe4dd;
+  --junior-30: #8fe4dd33;
+  --slim: #158e98;
+  --slim-30: #158e9833;
+  --bossman: #8c999a;
+  --bossman-30: #8c999a33;
   --sedusa: #8b1429;
   --sedusa-30: #8b142933;
-  --gangreen-1: #bdd93e;
-  --gangreen-1-30: #bdd93e33;
-  --gangreen-2: #1d7f51;
-  --gangreen-2-30: #1d7f5133;
-  --gangreen-3: #18429b;
-  --gangreen-3-30: #18429b33;
-  --gangreen-4: #96459b;
-  --gangreen-4-30: #96459b33;
-  --gangreen-5: #871a41;
-  --gangreen-5-30: #871a4133;
+  --snake: #bdd93e;
+  --snake-30: #bdd93e33;
+  --billy: #1d7f51;
+  --billy-30: #1d7f5133;
+  --ace: #18429b;
+  --ace-30: #18429b33;
+  --grubber: #96459b;
+  --grubber-30: #96459b33;
+  --arturo: #871a41;
+  --arturo-30: #871a4133;
   --marianne: #3d4ba0;
   --marianne-30: #3d4ba033;
   --harold: #c03021;

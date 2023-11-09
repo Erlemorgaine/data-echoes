@@ -87,7 +87,7 @@
         "word_count_for_line": 45
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "insect inside",
         "word_count_for_line": 7
       },
@@ -129,7 +129,7 @@
         "word_count_for_line": 251
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "powerpuff bluff",
         "word_count_for_line": 141
       },
@@ -326,7 +326,7 @@
         "word_count_for_line": 257
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "abracadaver",
         "word_count_for_line": 15
       },
@@ -405,12 +405,12 @@
         "word_count_for_line": 23
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "tough love",
         "word_count_for_line": 5
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "tough love",
         "word_count_for_line": 4
       },
@@ -516,7 +516,7 @@
     ],
     "8.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "paste makes waste",
         "word_count_for_line": 169
       },
@@ -543,7 +543,7 @@
     ],
     "8.2": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "ice sore",
         "word_count_for_line": 81
       },
@@ -553,7 +553,7 @@
         "word_count_for_line": 59
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "ice sore",
         "word_count_for_line": 22
       },
@@ -632,7 +632,7 @@
         "word_count_for_line": 103
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "the bare facts",
         "word_count_for_line": 21
       },
@@ -696,7 +696,7 @@
         "word_count_for_line": 132
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "impeach fuzz",
         "word_count_for_line": 99
       },
@@ -787,7 +787,7 @@
         "word_count_for_line": 359
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "the rowdyruff boys",
         "word_count_for_line": 68
       },
@@ -863,7 +863,7 @@
         "word_count_for_line": 545
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "stuck up, up, and away",
         "word_count_for_line": 60
       },
@@ -890,7 +890,7 @@
     ],
     "1.2": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "schoolhouse rocked",
         "word_count_for_line": 438
       },
@@ -1026,7 +1026,7 @@
         "word_count_for_line": 41
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "birthday bash",
         "word_count_for_line": 7
       },
@@ -1068,7 +1068,7 @@
         "word_count_for_line": 102
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "too pooped to puff",
         "word_count_for_line": 2
       },
@@ -1137,7 +1137,7 @@
         "word_count_for_line": 75
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "down 'n dirty",
         "word_count_for_line": 47
       },
@@ -1307,7 +1307,7 @@
         "word_count_for_line": 180
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "a very special blossom",
         "word_count_for_line": 25
       },
@@ -1344,7 +1344,7 @@
         "word_count_for_line": 151
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "daylight savings",
         "word_count_for_line": 130
       },
@@ -1386,7 +1386,7 @@
         "word_count_for_line": 201
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "mo job",
         "word_count_for_line": 13
       },
@@ -1413,7 +1413,7 @@
     ],
     "8.2": [
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "pet feud",
         "word_count_for_line": 69
       },
@@ -1450,7 +1450,7 @@
     ],
     "9.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "imaginary fiend",
         "word_count_for_line": 314
       },
@@ -1637,7 +1637,7 @@
     ],
     "12.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "speed demon",
         "word_count_for_line": 211
       },
@@ -1647,7 +1647,7 @@
         "word_count_for_line": 101
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "speed demon",
         "word_count_for_line": 64
       },
@@ -1721,7 +1721,7 @@
     ],
     "13.1": [
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "something's a ms.",
         "word_count_for_line": 263
       },
@@ -1930,7 +1930,7 @@
     ],
     "3.": [
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "criss cross crisis",
         "word_count_for_line": 249
       },
@@ -2014,7 +2014,7 @@
         "word_count_for_line": 21
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "bought and scold",
         "word_count_for_line": 12
       },
@@ -2051,7 +2051,7 @@
         "word_count_for_line": 134
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "gettin' twiggy with it",
         "word_count_for_line": 69
       },
@@ -2302,7 +2302,7 @@
         "word_count_for_line": 568
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "hot air buffoon",
         "word_count_for_line": 149
       },
@@ -2371,12 +2371,12 @@
         "word_count_for_line": 107
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "equal fights",
         "word_count_for_line": 67
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "equal fights",
         "word_count_for_line": 45
       },
@@ -2583,7 +2583,7 @@
     ]
   },
   "4": {
-    "1..": [
+    "1.": [
       {
         "speaker": "bernie",
         "episode": "film flam",
@@ -2654,7 +2654,7 @@
         "word_count_for_line": 368
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "get back, jojo",
         "word_count_for_line": 252
       },
@@ -2674,7 +2674,7 @@
         "word_count_for_line": 28
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "get back, jojo",
         "word_count_for_line": 9
       },
@@ -2716,7 +2716,7 @@
         "word_count_for_line": 93
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "him diddle riddle",
         "word_count_for_line": 25
       },
@@ -2832,12 +2832,12 @@
         "word_count_for_line": 59
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "superfriends",
         "word_count_for_line": 27
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "superfriends",
         "word_count_for_line": 9
       },
@@ -2938,7 +2938,7 @@
         "word_count_for_line": 53
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "forced kin",
         "word_count_for_line": 23
       },
@@ -2965,7 +2965,7 @@
     ],
     "11.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "keen on keane",
         "word_count_for_line": 347
       },
@@ -2975,7 +2975,7 @@
         "word_count_for_line": 63
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "keen on keane",
         "word_count_for_line": 16
       },
@@ -3039,7 +3039,7 @@
     ],
     "12.": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "power-noia",
         "word_count_for_line": 271
       },
@@ -3162,7 +3162,7 @@
         "word_count_for_line": 273
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "toast of the town",
         "word_count_for_line": 18
       },
@@ -3204,7 +3204,7 @@
         "word_count_for_line": 38
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "divide and conquer",
         "word_count_for_line": 25
       },
@@ -3342,7 +3342,7 @@
         "word_count_for_line": 103
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "substitute creature",
         "word_count_for_line": 15
       },
@@ -3406,7 +3406,7 @@
         "word_count_for_line": 73
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "pee pee g's",
         "word_count_for_line": 66
       },
@@ -3527,12 +3527,12 @@
         "word_count_for_line": 102
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "seed no evil",
         "word_count_for_line": 25
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "seed no evil",
         "word_count_for_line": 10
       },
@@ -3564,7 +3564,7 @@
         "word_count_for_line": 93
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "city of clipsville",
         "word_count_for_line": 15
       },
@@ -3601,7 +3601,7 @@
         "word_count_for_line": 1041
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "a documentary",
         "word_count_for_line": 77
       },
@@ -3611,7 +3611,7 @@
         "word_count_for_line": 37
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "a documentary",
         "word_count_for_line": 16
       },
@@ -3749,7 +3749,7 @@
         "word_count_for_line": 50
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "curses",
         "word_count_for_line": 48
       },
@@ -3930,7 +3930,7 @@
         "word_count_for_line": 108
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "say uncle",
         "word_count_for_line": 53
       },
@@ -3967,12 +3967,12 @@
         "word_count_for_line": 54
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "reeking havoc",
         "word_count_for_line": 7
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "reeking havoc",
         "word_count_for_line": 5
       },
@@ -4073,12 +4073,12 @@
         "word_count_for_line": 87
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "oops, i did it again",
         "word_count_for_line": 18
       },
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "oops, i did it again",
         "word_count_for_line": 14
       },
@@ -4147,7 +4147,7 @@
     ],
     "6.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "little miss interprets",
         "word_count_for_line": 24
       },
@@ -4194,7 +4194,7 @@
         "word_count_for_line": 109
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "night mayor",
         "word_count_for_line": 4
       },
@@ -4241,7 +4241,7 @@
         "word_count_for_line": 74
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "custody battle",
         "word_count_for_line": 8
       },
@@ -4300,7 +4300,7 @@
         "word_count_for_line": 42
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "aspirations",
         "word_count_for_line": 17
       },
@@ -4328,12 +4328,12 @@
 
     "9.1": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "that's not my baby",
         "word_count_for_line": 82
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "that's not my baby",
         "word_count_for_line": 43
       },
@@ -4486,7 +4486,7 @@
         "word_count_for_line": 116
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "west in pieces",
         "word_count_for_line": 53
       },
@@ -4599,7 +4599,7 @@
         "word_count_for_line": 25
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "nuthin' special",
         "word_count_for_line": 5
       },
@@ -4668,7 +4668,7 @@
         "word_count_for_line": 145
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "i see a funny cartoon in your future",
         "word_count_for_line": 20
       },
@@ -4695,7 +4695,7 @@
     ],
     "15.2": [
       {
-        "speaker": "ms. keane",
+        "speaker": "ms keane",
         "episode": "octi gone",
         "word_count_for_line": 41
       },
@@ -4705,7 +4705,7 @@
         "word_count_for_line": 30
       },
       {
-        "speaker": "ms. bellum",
+        "speaker": "ms bellum",
         "episode": "octi gone",
         "word_count_for_line": 9
       },
