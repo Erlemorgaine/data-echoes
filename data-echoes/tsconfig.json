@@ -14,5 +14,6 @@
   "include": [
     // ...other includes
     "src/**/*.json"
-  ]
+  ],
+  "allowJs": true
 }
