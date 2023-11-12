@@ -18,6 +18,7 @@ export type EpisodeSpeakers =
       sum: number
       title?: string
       size?: number
+      totalEpisodeSum?: number
     }
 
 export type EpisodeContent = {

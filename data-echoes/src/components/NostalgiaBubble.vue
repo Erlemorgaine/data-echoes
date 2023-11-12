@@ -31,22 +31,30 @@ const active = computed(
     props.hoveredEpisode.episode === props.episode,
 )
 
-function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: number) {
-  const keySpeakersData = allSpeakers.filter(
-    (speaker) =>
-      props.keySpeakers && speaker.speaker && props.keySpeakers.includes(speaker.speaker),
-  )
+const speakersWithAccumulatedSize = computed(() => {
+  const keySpeakersData = props.keySpeakers
+    ? props.episodeData.speakers.filter(
+        (speaker: Speaker) =>
+          props.keySpeakers && speaker.speaker && props.keySpeakers.includes(speaker.speaker),
+      )
+    : props.episodeData.speakers
 
-  return keySpeakersData.map((speaker, i) => {
+  return keySpeakersData.map((speaker: Speaker, i: number) => {
     const previousSpeakersAccumulation = keySpeakersData
       .slice(0, i)
-      .reduce((prev, next) => prev + next.word_count_for_line / episodeSum, 0)
+      .reduce(
+        (prev: number, next: Speaker) => prev + next.word_count_for_line / props.episodeData.sum,
+        0,
+      )
 
     const nextSpeakersAccumulation = keySpeakersData
       .slice(i + 1)
-      .reduce((prev, next) => prev + next.word_count_for_line / episodeSum, 0)
+      .reduce(
+        (prev: number, next: Speaker) => prev + next.word_count_for_line / props.episodeData.sum,
+        0,
+      )
 
-    const size = speaker.word_count_for_line / episodeSum
+    const size = speaker.word_count_for_line / props.episodeData.sum
 
     return {
       ...speaker,
@@ -58,7 +66,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
     }
   })
   // return speakerCount / episodeSum
-}
+})
 </script>
 
 <template>
@@ -83,7 +91,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
 
     <div class="nostalgia-bubble__wrapper">
       <div
-        v-for="speaker of getSpeakersWithAccumulatedSize(episodeData.speakers, episodeData.sum)"
+        v-for="speaker of speakersWithAccumulatedSize"
         :key="speaker.speaker"
         :class="[
           'nostalgia-bubble__speaker',

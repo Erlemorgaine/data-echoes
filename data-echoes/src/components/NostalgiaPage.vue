@@ -160,13 +160,16 @@ onMounted(() => {
     maxSeasonSum.value = keySpeakerSum > maxSeasonSum.value ? keySpeakerSum : maxSeasonSum.value
   })
 
+  let newSeasons: Season = {}
+
   // Get sum per episode
   Object.keys(goodEpisodes).forEach((season) => {
-    type SeasonKey = keyof typeof goodEpisodes
+    type SeasonKey = keyof typeof goodEpisodes | keyof typeof allEpisodes
     const seasonData: { [key: string]: EpisodeSpeakers } = goodEpisodes[season as SeasonKey]
+    const allEpisodesSeasonData = allEpisodes[season as SeasonKey]
 
     Object.keys(seasonData).forEach((episode) => {
-      type EpisodeKey = keyof typeof seasonData
+      type EpisodeKey = keyof typeof seasonData | keyof typeof allEpisodesSeasonData
 
       const speakers = seasonData[episode as EpisodeKey] as Speaker[]
 
@@ -180,20 +183,17 @@ onMounted(() => {
           'word_count_for_line',
         ),
         size: 0,
-        totalEpisodeSum: allEpisodes[season][episode]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
+        totalEpisodeSum: allEpisodesSeasonData[episode as EpisodeKey]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
       }
 
       // Loop towards last episode
       seasonsLastEpisode.value[season] = episode
     })
 
-    goodEpisodes[season as SeasonKey] = getEpisodesWithAccumulatedSize(
-      seasonData as Episode,
-      season,
-    )
+    newSeasons[season as SeasonKey] = getEpisodesWithAccumulatedSize(seasonData as Episode, season)
   })
 
-  seasonsWithEpisodes.value = goodEpisodes as unknown as Season
+  seasonsWithEpisodes.value = newSeasons
 
   totalSum.value = sumBy(
     goodAll.filter((good) => keySpeakers.includes(good.speaker)),
@@ -224,7 +224,7 @@ function getSeasonSize(seasonNr: string | number) {
   return (seasonsWithSum.value[seasonNr].totalKeySpeakers || 1) / maxSeasonSum.value
 }
 
-function getEpisodesWithAccumulatedSize(allEpisodes: Episode, seasonNr: string | number) {
+function getEpisodesWithAccumulatedSize(allEpisodes: Episode, seasonNr: string | number): Episode {
   const episodes = { ...allEpisodes }
   let previousAccumulation = 0
 
@@ -251,7 +251,7 @@ function getTitleTransform() {
 function setModalData({ season, episode }: { season: string; episode: string }) {
   type SeasonKey = keyof typeof allEpisodes
 
-  const goodEps: Episode = goodEpisodes[season as SeasonKey]
+  const goodEps: Episode = seasonsWithEpisodes.value[season as SeasonKey]
   const villainEps: RawEpisode = villainEpisodes[season as SeasonKey]
   const allEps: DataEpisode = allEpisodes[season as SeasonKey]
 
@@ -332,7 +332,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
 
         <NostalgiaVillainsSeason
           :allEpisodes="episodes"
-          :villainsPerEpisode="villainEpisodes[season]"
+          :villainsPerEpisode="villainEpisodes[season as unknown as keyof typeof villainEpisodes]"
           :hoveredEpisode="
             hoveredEpisode && hoveredEpisode.season == season ? hoveredEpisode : null
           "
