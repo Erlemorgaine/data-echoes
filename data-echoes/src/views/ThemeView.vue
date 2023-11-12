@@ -9,6 +9,8 @@ const route = useRoute()
 const themes = {
   nostalgia: Nostalgia,
 }
+
+type ThemesKey = keyof typeof themes
 </script>
 
 <template>
@@ -16,7 +18,7 @@ const themes = {
     <h1 class="theme-view__theme">{{ route.params.theme }}</h1>
     <Suspense>
       <template #default>
-        <component :is="themes[route.params.theme]" />
+        <component :is="themes[route.params.theme as ThemesKey]" />
       </template>
       <template #fallback> Loading ... </template>
     </Suspense>

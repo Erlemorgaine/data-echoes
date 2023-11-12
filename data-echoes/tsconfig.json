@@ -9,11 +9,14 @@
     }
   ],
   "compilerOptions": {
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "lib": ["es2021"]
   },
   "include": [
     // ...other includes
     "src/**/*.json"
-  ],
-  "allowJs": true
+  ]
 }

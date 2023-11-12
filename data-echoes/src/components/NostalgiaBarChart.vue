@@ -1,17 +1,13 @@
 <script setup lang="ts">
-defineProps({
-  seasonChartSpeakers: {
-    type: Object,
-    required: true,
-  },
-  title: {
-    type: String,
-    required: true,
-  },
-  season: String,
-  leftSkewed: Boolean,
-  hoveredSpeaker: Object,
-})
+import type { HoveredSpeaker } from '../types/types'
+
+defineProps<{
+  seasonChartSpeakers: { speaker: string; amount: number; size: number }[]
+  title: string
+  season: string | number
+  leftSkewed?: boolean
+  hoveredSpeaker?: HoveredSpeaker
+}>()
 </script>
 
 <template>

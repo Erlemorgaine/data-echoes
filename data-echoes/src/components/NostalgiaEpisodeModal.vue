@@ -4,41 +4,38 @@ import { computed, ref, watch } from 'vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import { sumBy } from 'lodash'
 
-const props = defineProps({
-  season: String,
-  episodeNr: String,
-  episode: String,
-  description: String,
+import type { Speaker } from '../types/types'
 
-  goodies: {
-    type: Array,
-    default: () => [],
-  },
-  villains: {
-    type: Array,
-    default: () => [],
-  },
-  goodiesTalking: Number,
-  sumEpisode: {
-    type: Number,
-    required: true,
-  },
-})
+const props = defineProps<{
+  season: string | number
+  episodeNr: string | number
+  episode: string
+  description: string
+
+  goodies: Speaker[]
+  villains: Speaker[]
+  goodiesTalking: number
+  sumEpisode: number
+}>()
 
 const emit = defineEmits(['closeModal'])
 
 const dialogRef = ref()
 
-const speakers = computed(() => {
+const speakers = computed((): Speaker[] => {
   const sumTopSpeakers = sumBy(props.goodies, 'word_count_for_line')
 
   const topSpeakersPlusOthers = [
     ...props.goodies,
-    { speaker: 'others', word_count_for_line: props.sumEpisode - sumTopSpeakers },
+    {
+      speaker: 'others',
+      word_count_for_line: props.sumEpisode - sumTopSpeakers,
+      episode: props.episode,
+    },
   ]
   topSpeakersPlusOthers.sort((a, b) => a.word_count_for_line - b.word_count_for_line)
 
-  console.log(topSpeakersPlusOthers)
+  // console.log(topSpeakersPlusOthers)
 
   return topSpeakersPlusOthers
 })
@@ -48,7 +45,7 @@ watch(
   () => {
     if (props.episode) openModal()
 
-    console.log(props.villains)
+    // console.log(props.villains)
   },
 )
 
@@ -72,7 +69,7 @@ function closeModal() {
           :key="'episode' + episode"
           class="nostalgia-episode-modal__bubble"
           :season="season"
-          :episodeData="{ size: 1, accumulatedSize: 0, speakers, sum: sumEpisode }"
+          :episodeData="{ title: '', size: 1, accumulatedSize: 0, speakers, sum: sumEpisode }"
         />
       </div>
 
@@ -85,7 +82,11 @@ function closeModal() {
             class="nostalgia-episode-modal__content__speakers__speaker"
             v-for="speaker of speakers"
             :key="speaker.speaker"
-            :style="{ '--speaker-color': `var(--${speaker.speaker.replaceAll(' ', '-')})` }"
+            :style="{
+              '--speaker-color': speaker.speaker
+                ? `var(--${speaker.speaker.replaceAll(' ', '-')})`
+                : '',
+            }"
           >
             <span class="marker" />
             {{ speaker.speaker }}

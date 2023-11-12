@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import villainsAll from '../assets/data/7-nostalgia/villains_all.json'
-import villainsSeasons from '../assets/data/7-nostalgia/villains_seasons.json'
+// import villainsSeasons from '../assets/data/7-nostalgia/villains_seasons.json'
 import villainEpisodes from '../assets/data/7-nostalgia/villains_episodes.json'
 
 import goodAll from '../assets/data/7-nostalgia/good_all.json'
@@ -8,11 +8,10 @@ import goodSeasons from '../assets/data/7-nostalgia/good_seasons.json'
 import goodEpisodes from '../assets/data/7-nostalgia/good_episodes.json'
 
 import allEpisodes from '../assets/data/7-nostalgia/all_episodes.json'
-import allSeasons from '../assets/data/7-nostalgia/all_seasons.json'
+// import allSeasons from '../assets/data/7-nostalgia/all_seasons.json'
 
 // import groupBy from 'lodash/groupby'
 import sumBy from 'lodash/sumBy'
-import { groupBy } from 'lodash'
 import { computed, onMounted, ref } from 'vue'
 
 import NostalgiaLegend from './NostalgiaLegend.vue'
@@ -22,59 +21,27 @@ import NostalgiaBarChart from './NostalgiaBarChart.vue'
 import NostalgiaIntro from './NostalgiaIntro.vue'
 import NostalgiaEpisodeModal from './NostalgiaEpisodeModal.vue'
 
+import type {
+  SpeakersPerSeason,
+  Season,
+  SeasonWithSum,
+  Episode,
+  EpisodeSpeakers,
+  RawEpisode,
+  DataEpisode,
+  Speaker,
+  HoveredSpeaker,
+  SpeakerWithSize,
+  ModalData,
+} from '../types/types'
+
 import '../assets/scss/nostalgia.scss'
-
-// Types
-export type Speaker = {
-  speaker: string
-  episode: string
-  word_count_for_line: number
-}
-
-type EpisodeSpeakers =
-  | Speaker[]
-  | {
-      speakers: Speaker[]
-      sum: number
-    }
-
-type Episode = {
-  [episodeNr: string]: {
-    title: string
-    speakers: Speaker[]
-    sum: number
-    size?: Number
-    accumulatedSize?: Number
-  }
-}
-
-type Season = {
-  [season: string]: Episode
-}
-
-type SeasonalSpeakers = {
-  [speaker: string]: number
-}
-
-type SpeakersAndTotal = {
-  speakers: SeasonalSpeakers
-  total: number
-  totalKeySpeakers?: number
-}
-
-type SeasonWithSum = {
-  [season: string]: SpeakersAndTotal
-}
-
-type SpeakersPerSeason = {
-  [season: string]: { speaker: string; amount: number; size: number }[]
-}
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
 const villains = villainsAll.map((v) => v.villain.trim())
 
-const villainGroups = {
+const villainGroups: { [key: string]: string[] } = {
   'mojo-jojo': ['mojo-jojo-30', 'mojo-jojo'],
   him: ['him-30', 'him'],
   'princess-morbucks': ['princess-morbucks-30', 'princess-morbucks'],
@@ -93,11 +60,11 @@ const totalSum = ref<number>(0)
 const maxSeasonSum = ref<number>(0)
 const titleTransform = ref({ scale: 1, translate: '0rem' })
 const legendShown = ref(false)
-const modalData = ref(null)
+const modalData = ref<ModalData>(null)
 
-const hoveredEpisode = ref<{ season: number; episode: string } | null>(null)
-const hoveredSeasonSpeaker = ref<{ season: number; speaker: string } | null>(null)
-const hoveredSpeaker = ref<{ speaker: string; isVillain: boolean }>()
+const hoveredEpisode = ref<{ season: number | string; episode: string | number } | null>(null)
+const hoveredSeasonSpeaker = ref<{ season: number | string; speaker: string } | null>(null)
+const hoveredSpeaker = ref<HoveredSpeaker>()
 
 const seasonChartGoodSpeakers = computed(() => {
   const speakersPerSeason: SpeakersPerSeason = {}
@@ -111,38 +78,38 @@ const seasonChartGoodSpeakers = computed(() => {
       size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
     }))
 
-    speakersPerSeason[season].sort((a, b) => b.size - a.size)
+    speakersPerSeason[season].sort((a: SpeakerWithSize, b: SpeakerWithSize) => b.size - a.size)
   })
 
   return speakersPerSeason
 })
 
-const seasonChartAllSpeakers = computed(() => {
-  const speakersPerSeason: SpeakersPerSeason = {}
+// const seasonChartAllSpeakers = computed(() => {
+//   const speakersPerSeason: SpeakersPerSeason = {}
 
-  Object.entries(allSeasons).forEach(([season, total]) => {
-    if (seasonChartGoodSpeakers.value[season]) {
-      speakersPerSeason[season] = [
-        ...keySpeakers.map((speaker) => ({
-          speaker,
-          amount: seasonsWithSum.value[season].speakers[speaker],
-          size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
-        })),
-        ...villains
-          .map((speaker) => ({
-            speaker,
-            amount: villainsSeasons[season][speaker] || 0,
-            size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
-          }))
-          .filter((speaker) => !!speaker.amount),
-      ]
+//   Object.entries(allSeasons).forEach(([season, total]) => {
+//     if (seasonChartGoodSpeakers.value[season]) {
+//       speakersPerSeason[season] = [
+//         ...keySpeakers.map((speaker) => ({
+//           speaker,
+//           amount: seasonsWithSum.value[season].speakers[speaker],
+//           size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
+//         })),
+//         ...villains
+//           .map((speaker) => ({
+//             speaker,
+//             amount: villainsSeasons[season][speaker] || 0,
+//             size: Math.round((seasonsWithSum.value[season].speakers[speaker] / total) * 100) / 100,
+//           }))
+//           .filter((speaker) => !!speaker.amount),
+//       ]
 
-      speakersPerSeason[season].sort((a, b) => b.size - a.size)
-    }
-  })
+//       speakersPerSeason[season].sort((a, b) => b.size - a.size)
+//     }
+//   })
 
-  return speakersPerSeason
-})
+//   return speakersPerSeason
+// })
 
 onMounted(() => {
   window.addEventListener('scroll', getTitleTransform)
@@ -201,15 +168,18 @@ onMounted(() => {
     Object.keys(seasonData).forEach((episode) => {
       type EpisodeKey = keyof typeof seasonData
 
+      const speakers = seasonData[episode as EpisodeKey] as Speaker[]
+
       seasonData[episode as EpisodeKey] = {
-        title: seasonData[episode as EpisodeKey][0].episode,
-        speakers: seasonData[episode as EpisodeKey] as Speaker[],
+        title: speakers[0].episode,
+        speakers,
         sum: sumBy(
-          seasonData[episode as EpisodeKey].filter((good: Speaker) =>
-            keySpeakers.includes(good.speaker),
+          (seasonData[episode as EpisodeKey] as Speaker[]).filter(
+            (good: Speaker) => good.speaker && keySpeakers.includes(good.speaker),
           ),
           'word_count_for_line',
         ),
+        size: 0,
         totalEpisodeSum: allEpisodes[season][episode]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
       }
 
@@ -278,15 +248,23 @@ function getTitleTransform() {
   legendShown.value = window.scrollY > 100
 }
 
-function setModalData({ season, episode }) {
+function setModalData({ season, episode }: { season: string; episode: string }) {
+  type SeasonKey = keyof typeof allEpisodes
+
+  const goodEps: Episode = goodEpisodes[season as SeasonKey]
+  const villainEps: RawEpisode = villainEpisodes[season as SeasonKey]
+  const allEps: DataEpisode = allEpisodes[season as SeasonKey]
+
+  type EpisodeKey = keyof typeof goodEps | keyof typeof villainEps | keyof typeof allEps
+
   modalData.value = {
     season,
     episodeNr: episode,
-    ...allEpisodes[season][episode],
-    goodies: goodEpisodes[season][episode].speakers,
-    villains: villainEpisodes[season][episode],
-    goodiesTalking: goodEpisodes[season][episode].sum,
-    sumEpisode: allEpisodes[season][episode].word_count_for_line,
+    ...allEps[episode as EpisodeKey],
+    goodies: goodEps[episode as EpisodeKey].speakers,
+    villains: villainEps[episode as EpisodeKey],
+    goodiesTalking: goodEps[episode as EpisodeKey].sum,
+    sumEpisode: allEps[episode as EpisodeKey].word_count_for_line || 0,
   }
 }
 </script>

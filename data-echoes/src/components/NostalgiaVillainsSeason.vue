@@ -2,19 +2,21 @@
 import { onMounted, ref } from 'vue'
 // import groupBy from 'lodash/groupby'
 
-const props = defineProps({
-  villainsPerEpisode: {
-    type: Object,
-    required: true,
-  },
-  allEpisodes: {
-    type: Object,
-    required: true,
-  },
-  hoveredEpisode: Object,
-  hoveredSpeaker: Object,
-  villainGroups: Array,
-})
+import type {
+  Episode,
+  EpisodeContent,
+  VillainsPerEpisode,
+  Villain,
+  HoveredSpeaker,
+} from '../types/types'
+
+const props = defineProps<{
+  villainsPerEpisode: VillainsPerEpisode
+  allEpisodes: Episode
+  hoveredEpisode?: { season: string | number; episode: string | number } | null
+  hoveredSpeaker?: HoveredSpeaker
+  villainGroups: { [key: string]: string[] }
+}>()
 
 const svgDimensions = {
   width: 1000,
@@ -26,87 +28,98 @@ const villainStrokeOffset = 2
 const orderedEpisodesWithVillains = ref()
 
 onMounted(() => {
+  type EpisodeKey = keyof typeof props.allEpisodes
+  type VillainEpisodeKey = keyof typeof props.villainsPerEpisode
+
   const allEpisodes = Object.keys(props.allEpisodes)
   const occurredPreviously: { [key: string]: string } = {}
 
   orderedEpisodesWithVillains.value = allEpisodes.map((ep) => {
-    const accumulatedSize = props.allEpisodes[ep].accumulatedSize * svgDimensions.width
-    const size = props.allEpisodes[ep].size * svgDimensions.width
+    const accumulatedSize =
+      (props.allEpisodes[ep as EpisodeKey].accumulatedSize || 0) * svgDimensions.width
+    const size = (props.allEpisodes[ep as EpisodeKey].size || 0) * svgDimensions.width
 
     return {
-      villains: props.villainsPerEpisode[ep] || [],
+      villains: props.villainsPerEpisode[ep as VillainEpisodeKey] || [],
       episode: ep,
       size,
       accumulatedSize,
       episodeCenter: accumulatedSize + size * 0.5,
-      totalEpisodeSum: props.allEpisodes[ep].totalEpisodeSum,
+      totalEpisodeSum: props.allEpisodes[ep as EpisodeKey].totalEpisodeSum,
     }
   })
 
   orderedEpisodesWithVillains.value = orderedEpisodesWithVillains.value.map(
-    (episode, i: number) => {
+    (episode: EpisodeContent, i: number) => {
       return {
         ...episode,
-        villains: props.villainsPerEpisode[episode.episode]
-          ? props.villainsPerEpisode[episode.episode].map((villain) => {
-              const nextOccurrenceVillainIndex = allEpisodes.findIndex(
-                (e, nextI) =>
-                  nextI > i &&
-                  props.villainsPerEpisode[e] &&
-                  props.villainsPerEpisode[e].find((vill) => vill.villain === villain.villain),
-              )
+        villains: props.villainsPerEpisode[episode.episode as VillainEpisodeKey]
+          ? props.villainsPerEpisode[episode.episode as VillainEpisodeKey].map(
+              (villain: Villain) => {
+                const nextOccurrenceVillainIndex = allEpisodes.findIndex(
+                  (e, nextI) =>
+                    nextI > i &&
+                    props.villainsPerEpisode[e as VillainEpisodeKey] &&
+                    props.villainsPerEpisode[e as VillainEpisodeKey].find(
+                      (vill: Villain) => vill.villain === villain.villain,
+                    ),
+                )
 
-              const epsBetweenOccurrences =
-                nextOccurrenceVillainIndex < 0
-                  ? null
-                  : allEpisodes.slice(i, nextOccurrenceVillainIndex + 1)
+                const epsBetweenOccurrences =
+                  nextOccurrenceVillainIndex < 0
+                    ? null
+                    : allEpisodes.slice(i, nextOccurrenceVillainIndex + 1)
 
-              const nextEpisodeNr = epsBetweenOccurrences
-                ? epsBetweenOccurrences[epsBetweenOccurrences.length - 1]
-                : null
+                const nextEpisodeNr = epsBetweenOccurrences
+                  ? epsBetweenOccurrences[epsBetweenOccurrences.length - 1]
+                  : null
 
-              const nextOccurrenceEpisode = epsBetweenOccurrences
-                ? props.allEpisodes[nextEpisodeNr]
-                : null
+                const nextOccurrenceEpisode: EpisodeContent | null = epsBetweenOccurrences
+                  ? props.allEpisodes[nextEpisodeNr as EpisodeKey]
+                  : null
 
-              const nextOccurrenceAccumulatedSize = nextOccurrenceEpisode
-                ? nextOccurrenceEpisode.accumulatedSize * svgDimensions.width -
-                  episode.accumulatedSize
-                : episode.size
+                const nextOccurrenceAccumulatedSize: number = nextOccurrenceEpisode
+                  ? (nextOccurrenceEpisode.accumulatedSize || 1) * svgDimensions.width -
+                    (episode.accumulatedSize || 0)
+                  : episode.size || 0
 
-              const previousOccurrence = occurredPreviously[villain.villain]
-              occurredPreviously[villain.villain] = episode.episode
+                const previousOccurrence = occurredPreviously[villain.villain]
+                occurredPreviously[villain.villain] = episode.episode as string
 
-              const sizeBetweenOccurrences = nextOccurrenceAccumulatedSize || episode.size
+                const sizeBetweenOccurrences: number =
+                  nextOccurrenceAccumulatedSize || episode.size || 0
 
-              // console.log(villain.word_count_for_line, episode.totalEpisodeSum, episode.size)
+                // console.log(villain.word_count_for_line, episode.totalEpisodeSum, episode.size)
 
-              return {
-                ...villain,
-                villainColorName: villain.villain.replaceAll(' ', '-'),
-                nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
-                sizeBetweenOccurrences,
-                singleOccurrence: !epsBetweenOccurrences && !previousOccurrence, // TODO: Don't activate if villain was previous occurrent
-                previousOccurrence,
-                nextOccurrenceCenter: nextOccurrenceEpisode
-                  ? episode.accumulatedSize +
-                    sizeBetweenOccurrences +
-                    (nextOccurrenceEpisode?.size || 0) * svgDimensions.width * 0.5
-                  : episode.episodeCenter,
+                return {
+                  ...villain,
+                  villainColorName: villain.villain.replaceAll(' ', '-'),
+                  nrEpisodesBetweenOccurrences: epsBetweenOccurrences?.length,
+                  sizeBetweenOccurrences,
+                  singleOccurrence: !epsBetweenOccurrences && !previousOccurrence, // TODO: Don't activate if villain was previous occurrent
+                  previousOccurrence,
+                  nextOccurrenceCenter: nextOccurrenceEpisode
+                    ? (episode.accumulatedSize || 0) +
+                      sizeBetweenOccurrences +
+                      (nextOccurrenceEpisode?.size || 0) * svgDimensions.width * 0.5
+                    : episode.episodeCenter,
 
-                ...(nextOccurrenceEpisode
-                  ? {
-                      nextEpisodeNr,
-                      nextOccurrenceSize: nextOccurrenceEpisode.size,
-                      startWidth:
-                        (villain.word_count_for_line / episode.totalEpisodeSum) * episode.size,
-                      endWidth:
-                        (villain.word_count_for_line / nextOccurrenceEpisode.totalEpisodeSum) *
-                        nextOccurrenceEpisode.size,
-                    }
-                  : {}),
-              }
-            })
+                  ...(nextOccurrenceEpisode
+                    ? {
+                        nextEpisodeNr,
+                        nextOccurrenceSize: nextOccurrenceEpisode.size,
+                        startWidth:
+                          (villain.word_count_for_line / (episode.totalEpisodeSum || 1)) *
+                          (episode.size || 1),
+                        endWidth:
+                          (villain.word_count_for_line /
+                            (nextOccurrenceEpisode.totalEpisodeSum || 1)) *
+                          (nextOccurrenceEpisode.size || 1),
+                      }
+                    : {}),
+                }
+              },
+            )
           : [],
       }
     },
@@ -176,7 +189,11 @@ function getVillainOpacity(villain: string, episode: string, nextEpisode: string
       </g>
 
       <defs>
-        <linearGradient v-for="(gang, gangName) in villainGroups" :key="gangName" :id="gangName">
+        <linearGradient
+          v-for="(gang, gangName) in villainGroups"
+          :key="'gang-' + gangName"
+          :id="gangName.toString()"
+        >
           <stop
             v-for="(villain, i) in gang"
             :key="villain"

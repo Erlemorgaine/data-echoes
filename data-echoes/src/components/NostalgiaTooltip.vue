@@ -1,8 +1,10 @@
-<script setup>
-defineProps({
-  episodeData: Object,
-  episode: String,
-})
+<script setup lang="ts">
+import type { EpisodeContent } from '../types/types'
+
+defineProps<{
+  episodeData: EpisodeContent
+  episode?: string | number
+}>()
 </script>
 
 <template>

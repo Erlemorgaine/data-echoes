@@ -1,30 +1,21 @@
 <script setup lang="ts">
-import type { Speaker } from './NostalgiaPage.vue'
+import type { Speaker, EpisodeContent, HoveredSpeaker } from '../types/types.ts'
 import NostalgiaTooltip from './NostalgiaTooltip.vue'
 
 import { computed } from 'vue'
 
-const props = defineProps({
-  season: {
-    type: String,
-    required: true,
-  },
-  episode: {
-    type: String,
-    required: true,
-  },
-  episodeData: {
-    type: Object,
-    required: true,
-  },
-  keySpeakers: Array,
-  hoveredEpisode: { season: String, episode: String },
-  hoveredSpeaker: String,
-  hoveredSeasonSpeaker: { season: String, speaker: String },
-  halfBubble: Boolean,
-})
+const props = defineProps<{
+  season: string | number
+  episode?: string | number
+  episodeData: EpisodeContent
+  keySpeakers?: string[]
+  hoveredEpisode?: { season: string | number; episode: string | number } | null
+  hoveredSpeaker?: HoveredSpeaker
+  hoveredSeasonSpeaker?: { season: string | number; speaker: string } | null
+  halfBubble?: boolean
+}>()
 
-defineEmits(['onEpisodeHover'])
+defineEmits(['onEpisodeHover', 'openModal'])
 
 const inactive = computed(
   () =>
@@ -41,9 +32,10 @@ const active = computed(
 )
 
 function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: number) {
-  const keySpeakersData = props.keySpeakers
-    ? allSpeakers.filter((speaker) => props.keySpeakers.includes(speaker.speaker))
-    : allSpeakers
+  const keySpeakersData = allSpeakers.filter(
+    (speaker) =>
+      props.keySpeakers && speaker.speaker && props.keySpeakers.includes(speaker.speaker),
+  )
 
   return keySpeakersData.map((speaker, i) => {
     const previousSpeakersAccumulation = keySpeakersData
@@ -74,7 +66,7 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
     :class="['nostalgia-bubble', { inactive }]"
     :style="{
       '--episode-size': episodeData.size,
-      '--episode-accumulated-size': episodeData.accumulatedSize * -1,
+      '--episode-accumulated-size': (episodeData.accumulatedSize || 0) * -1,
     }"
     @mouseenter="$emit('onEpisodeHover', { season, episode })"
     @focus="$emit('onEpisodeHover', { season, episode })"
@@ -116,9 +108,12 @@ function getSpeakersWithAccumulatedSize(allSpeakers: Speaker[], episodeSum: numb
         :style="{
           '--speaker-size': speaker.accumulatedSize,
           '--speaker-children-size': speaker.childrenPercentage,
-          '--speaker-color': `var(--${speaker.speaker.replaceAll(' ', '-')})`,
+          '--speaker-color': speaker.speaker
+            ? `var(--${speaker.speaker.replaceAll(' ', '-')})`
+            : '',
           '--speaker-color-50': `var(--${speaker.speaker}-50)`,
-          '--speaker-z-index': keySpeakers ? keySpeakers.indexOf(speaker.speaker) : 1,
+          '--speaker-z-index':
+            keySpeakers && speaker.speaker ? keySpeakers.indexOf(speaker.speaker) : 1,
         }"
       >
         <span class="nostalgia-bubble__speaker__size">
