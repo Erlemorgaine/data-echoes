@@ -29,6 +29,7 @@ import type {
   EpisodeSpeakers,
   RawEpisode,
   DataEpisode,
+  EpisodeMetaData,
   Speaker,
   HoveredSpeaker,
   SpeakerWithSize,
@@ -166,7 +167,8 @@ onMounted(() => {
   Object.keys(goodEpisodes).forEach((season) => {
     type SeasonKey = keyof typeof goodEpisodes | keyof typeof allEpisodes
     const seasonData: { [key: string]: EpisodeSpeakers } = goodEpisodes[season as SeasonKey]
-    const allEpisodesSeasonData = allEpisodes[season as SeasonKey]
+    const allEpisodesSeasonData: { [key: string]: EpisodeMetaData } =
+      allEpisodes[season as SeasonKey]
 
     Object.keys(seasonData).forEach((episode) => {
       type EpisodeKey = keyof typeof seasonData | keyof typeof allEpisodesSeasonData
@@ -258,7 +260,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
   type EpisodeKey = keyof typeof goodEps | keyof typeof villainEps | keyof typeof allEps
 
   modalData.value = {
-    season,
+    season: season || '',
     episodeNr: episode,
     ...allEps[episode as EpisodeKey],
     goodies: goodEps[episode as EpisodeKey].speakers,
@@ -349,7 +351,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
         @onSpeakerHover="hoveredSpeaker = $event"
       />
 
-      <NostalgiaEpisodeModal v-bind="modalData" @closeModal="modalData = null" />
+      <NostalgiaEpisodeModal :data="modalData" @closeModal="modalData = null" />
     </section>
   </div>
 </template>

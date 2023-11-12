@@ -4,18 +4,10 @@ import { computed, ref, watch } from 'vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import { sumBy } from 'lodash'
 
-import type { Speaker } from '../types/types'
+import type { Speaker, ModalData } from '../types/types'
 
 const props = defineProps<{
-  season: string | number
-  episodeNr: string | number
-  episode: string
-  description: string
-
-  goodies: Speaker[]
-  villains: Speaker[]
-  goodiesTalking: number
-  sumEpisode: number
+  data: ModalData | null
 }>()
 
 const emit = defineEmits(['closeModal'])
@@ -23,27 +15,31 @@ const emit = defineEmits(['closeModal'])
 const dialogRef = ref()
 
 const speakers = computed((): Speaker[] => {
-  const sumTopSpeakers = sumBy(props.goodies, 'word_count_for_line')
+  if (props.data) {
+    const sumTopSpeakers = sumBy(props.data.goodies, 'word_count_for_line')
 
-  const topSpeakersPlusOthers = [
-    ...props.goodies,
-    {
-      speaker: 'others',
-      word_count_for_line: props.sumEpisode - sumTopSpeakers,
-      episode: props.episode,
-    },
-  ]
-  topSpeakersPlusOthers.sort((a, b) => a.word_count_for_line - b.word_count_for_line)
+    const topSpeakersPlusOthers = [
+      ...props.data.goodies,
+      {
+        speaker: 'others',
+        word_count_for_line: props.data.sumEpisode - sumTopSpeakers,
+        episode: props.data.episode,
+      },
+    ]
+    topSpeakersPlusOthers.sort((a, b) => a.word_count_for_line - b.word_count_for_line)
 
-  // console.log(topSpeakersPlusOthers)
+    // console.log(topSpeakersPlusOthers)
 
-  return topSpeakersPlusOthers
+    return topSpeakersPlusOthers
+  }
+
+  return []
 })
 
 watch(
-  () => props.episode,
+  () => props.data,
   () => {
-    if (props.episode) openModal()
+    if (props.data) openModal()
 
     // console.log(props.villains)
   },
@@ -63,19 +59,19 @@ function closeModal() {
   <dialog class="nostalgia-episode-modal" ref="dialogRef" @close="closeModal">
     <button @click="closeModal" class="nostalgia-episode-modal__close-button">X</button>
 
-    <template v-if="episode">
+    <template v-if="data">
       <div class="nostalgia-episode-modal__bubble-wrapper">
         <NostalgiaBubble
-          :key="'episode' + episode"
+          :key="'episode' + data.episode"
           class="nostalgia-episode-modal__bubble"
-          :season="season"
-          :episodeData="{ title: '', size: 1, accumulatedSize: 0, speakers, sum: sumEpisode }"
+          :season="data.season"
+          :episodeData="{ title: '', size: 1, accumulatedSize: 0, speakers, sum: data.sumEpisode }"
         />
       </div>
 
       <div class="nostalgia-episode-modal__content">
-        <h2 class="nostalgia-episode-modal__content__title">{{ episode }}</h2>
-        <p class="nostalgia-episode-modal__content__description">{{ description }}</p>
+        <h2 class="nostalgia-episode-modal__content__title">{{ data.episode }}</h2>
+        <p class="nostalgia-episode-modal__content__description">{{ data.description }}</p>
 
         <ul class="nostalgia-episode-modal__content__speakers">
           <li

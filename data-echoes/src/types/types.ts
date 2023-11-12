@@ -87,6 +87,8 @@ export type HoveredSpeaker = { speaker: string; isVillain: boolean }
 
 export type ModalData = {
   season: string | number
+  episode: string
+  description: string
   episodeNr: string | number
   title?: string
   goodies: Speaker[]
