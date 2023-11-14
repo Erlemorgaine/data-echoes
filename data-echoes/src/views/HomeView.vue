@@ -1,5 +1,10 @@
 <script setup lang="ts">
-const themes = ['Movies', 'Music', 'Nostalgia']
+const themes = [
+  'Nostalgia',
+  // 'Presidents & Royals',
+  // 'Movies',
+  // 'Music',
+]
 const activeThemes = ['Nostalgia']
 </script>
 
@@ -9,7 +14,7 @@ const activeThemes = ['Nostalgia']
       <h1 class="home-view__content__title">Data echoes</h1>
 
       <div class="home-view__content__intro">
-        <p> <span class="capital">Welcome!</span> This is </p>
+        <p><span class="capital">Welcome!</span> This is</p>
       </div>
 
       <div class="home-view__content__themes">
@@ -33,6 +38,9 @@ const activeThemes = ['Nostalgia']
 .home-view {
   z-index: 1;
   color: var(--off-white);
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
 
   &::after {
     @keyframes spin-around {
@@ -77,7 +85,7 @@ const activeThemes = ['Nostalgia']
     border: 1px solid;
     border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
     filter: drop-shadow(-2px -2px 5px var(--off-white-50));
-    padding: 2rem;
+    padding: 2rem 4rem;
 
     &__title {
       font-family: WaitingfortheSunrise;

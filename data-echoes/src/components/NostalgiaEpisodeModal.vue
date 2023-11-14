@@ -41,7 +41,7 @@ watch(
   () => {
     if (props.data) openModal()
 
-    // console.log(props.villains)
+    document.body.style.overflow = props.data ? 'hidden' : 'initial'
   },
 )
 
@@ -56,10 +56,10 @@ function closeModal() {
 </script>
 
 <template>
-  <dialog class="nostalgia-episode-modal" ref="dialogRef" @close="closeModal">
-    <button @click="closeModal" class="nostalgia-episode-modal__close-button">X</button>
+  <dialog class="nostalgia-episode-modal-wrapper" ref="dialogRef" @close="closeModal">
+    <div v-if="data" class="nostalgia-episode-modal">
+      <button @click="closeModal" class="nostalgia-episode-modal__close-button">X</button>
 
-    <template v-if="data">
       <div class="nostalgia-episode-modal__bubble-wrapper">
         <NostalgiaBubble
           :key="'episode' + data.episode"
@@ -89,11 +89,20 @@ function closeModal() {
           </li>
         </ul>
       </div>
-    </template>
+    </div>
   </dialog>
 </template>
 
 <style scoped lang="scss">
+.nostalgia-episode-modal-wrapper {
+  width: fit-content;
+  padding: 0;
+
+  /* Style the backdrop behind the modal */
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
 .nostalgia-episode-modal {
   box-shadow: -2px -1px 5px 1px var(--off-white-30);
   background-color: rgb(25, 25, 25);
@@ -101,7 +110,7 @@ function closeModal() {
   border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
   color: var(--off-white);
   padding: 1.5rem 2rem 1.75rem 2rem;
-  max-width: 65%;
+  max-width: 65vw;
   display: flex;
   align-items: center;
 
@@ -148,11 +157,6 @@ function closeModal() {
         }
       }
     }
-  }
-
-  /* Style the backdrop behind the modal */
-  &::backdrop {
-    background: rgba(0, 0, 0, 0.7);
   }
 }
 </style>
