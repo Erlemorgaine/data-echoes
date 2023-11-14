@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/data-echoes',
+  base: '/data-echoes/',
   plugins: [vue()],
   resolve: {
     alias: {
