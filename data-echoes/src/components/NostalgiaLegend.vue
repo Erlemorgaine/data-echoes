@@ -11,6 +11,8 @@ const props = defineProps({
   villainGroups: Object,
 })
 
+const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.BASE_URL
+
 function getVillainGradient(speaker) {
   return (
     props.villainGroups[speaker.replaceAll(' ', '-')].reduce((prev, next, i) => {
@@ -39,7 +41,7 @@ function getVillainGradient(speaker) {
         @mouseleave="$emit('onSpeakerHover', null)"
       >
         <img
-          :src="`/images/${speaker.replaceAll(' ', '-')}.webp`"
+          :src="`${baseUrl}images/${speaker.replaceAll(' ', '-')}.webp`"
           alt=""
           class="nostalgia-legend__speaker__img"
         />

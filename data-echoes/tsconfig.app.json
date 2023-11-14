@@ -11,6 +11,7 @@
     },
     "allowJs": true,
     "moduleResolution": "node",
+    "module": "es2022",
     "lib": ["es2021", "DOM"]
   }
 }
