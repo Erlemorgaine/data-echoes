@@ -65,7 +65,7 @@ const activeThemes = ['Nostalgia']
   @keyframes grow-up {
     0% {
       opacity: 0;
-      transform: scale(3) translateY(5rem);
+      transform: scale(3) translateY(6rem);
       animation-timing-function: ease-out;
     }
     30% {
@@ -197,7 +197,7 @@ const activeThemes = ['Nostalgia']
         &:hover {
           // color: var(--home-green-light);
           // text-shadow: -0.15rem 0.15rem 0rem hsla(187, 58%, 20%, 0.96);
-          text-shadow: -0.15rem 0.15rem 0.15rem rgba(246, 237, 207, 0.4);
+          text-shadow: -0.15rem 0.15rem 0.1rem rgba(246, 237, 207, 0.4);
         }
       }
     }
