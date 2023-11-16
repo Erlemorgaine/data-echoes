@@ -16,6 +16,7 @@ type ThemesKey = keyof typeof themes
 <template>
   <div class="theme-view">
     <h1 class="theme-view__theme">{{ route.params.theme }}</h1>
+    <RouterLink class="theme-view__back-btn" :to="{ name: 'home' }">home</RouterLink>
     <Suspense>
       <template #default>
         <component :is="themes[route.params.theme as ThemesKey]" />
@@ -39,6 +40,19 @@ type ThemesKey = keyof typeof themes
     text-align: right;
     padding-top: 1rem;
     padding-right: 0rem;
+  }
+
+  &__back-btn {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-weight: 700;
+    transition: color 0.5s;
+
+    &:hover {
+      color: var(--off-white);
+    }
   }
 }
 </style>

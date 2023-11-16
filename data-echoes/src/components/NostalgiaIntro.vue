@@ -41,6 +41,7 @@
   max-width: 55rem;
   padding-bottom: 2rem;
   line-height: 140%;
+  padding-top: 3rem;
 
   p {
     margin-bottom: 0.75rem;
