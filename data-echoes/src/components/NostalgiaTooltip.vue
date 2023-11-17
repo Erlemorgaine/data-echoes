@@ -4,7 +4,7 @@ import type { EpisodeContent } from '../types/types'
 defineProps<{
   episodeData: EpisodeContent
   episode?: string | number
-  hideTitle: Boolean
+  hideTitle?: Boolean
 }>()
 </script>
 

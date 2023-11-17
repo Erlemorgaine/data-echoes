@@ -34,6 +34,7 @@ import type {
   HoveredSpeaker,
   SpeakerWithSize,
   ModalData,
+  Villain,
 } from '../types/types'
 
 import '../assets/scss/nostalgia.scss'
@@ -295,13 +296,13 @@ function setModalDataFromModal(direction: number, season: string, episodeNr: str
   setModalData({ season: nextSeason, episode: nextEpisode })
 }
 
-function getEpisodeVillains(season: string, episode: string) {
+function getEpisodeVillains(season: string | number, episode: string | number) {
   type SeasonKey = keyof typeof villainEpisodes
   const villainSeason = villainEpisodes[season as SeasonKey]
   type EpisodeKey = keyof typeof villainSeason
 
   return villainSeason[episode as EpisodeKey]
-    ? villainSeason[episode as EpisodeKey].map((v) => v.villain)
+    ? (villainSeason[episode as EpisodeKey] as Array<Villain>).map((v: Villain) => v.villain)
     : []
 }
 </script>
