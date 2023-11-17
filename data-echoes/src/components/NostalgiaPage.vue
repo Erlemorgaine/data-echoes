@@ -281,8 +281,6 @@ function setModalDataFromModal(direction: number, season: string, episodeNr: str
   const newEpisodeIndex = episodeIndex + direction
   nextEpisode = seasonEpisodes[newEpisodeIndex]
 
-  console.log(nextSeason, nextEpisode)
-
   if (!nextEpisode) {
     if (newEpisodeIndex == -1) {
       nextSeason = (+season - 1).toString()

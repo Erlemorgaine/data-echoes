@@ -62,6 +62,10 @@ function closeModal() {
       <button @click="closeModal" class="nostalgia-episode-modal__close-button">X</button>
 
       <div class="nostalgia-episode-modal__bubble-wrapper">
+        <div class="nostalgia-episode-modal__bubble-wrapper__season">season {{ data.season }}</div>
+        <div class="nostalgia-episode-modal__bubble-wrapper__episode">
+          episode {{ +data.episodeNr }}
+        </div>
         <NostalgiaBubble
           :key="'episode' + data.episode"
           class="nostalgia-episode-modal__bubble"
@@ -96,16 +100,16 @@ function closeModal() {
         </ul>
       </div>
 
-      <div class="nostalgia-episode-modal__content__footer">
+      <div class="nostalgia-episode-modal__footer">
         <button
-          class="nostalgia-episode-modal__content__footer__nav-btn prev"
-          @click="$emit('navigate', -1, data.season, data.episode)"
+          class="nostalgia-episode-modal__footer__nav-btn prev"
+          @click="$emit('navigate', -1, data.season, data.episodeNr)"
         >
           Previous episode
         </button>
         <button
-          class="nostalgia-episode-modal__content__footer__nav-btn prev"
-          @click="$emit('navigate', 1, data.season, data.episode)"
+          class="nostalgia-episode-modal__footer__nav-btn next"
+          @click="$emit('navigate', 1, data.season, data.episodeNr)"
         >
           Next episode
         </button>
@@ -121,7 +125,8 @@ function closeModal() {
 
   /* Style the backdrop behind the modal */
   &::backdrop {
-    background: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(45deg, #e382a488, #66e1fb88, #63d54088);
+    backdrop-filter: blur(0.5rem);
   }
 }
 .nostalgia-episode-modal {
@@ -130,19 +135,37 @@ function closeModal() {
   border: 1px solid;
   border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
   color: var(--off-white);
-  padding: 1.5rem 2rem 1.75rem 2rem;
+  padding: 1.5rem 2rem 2.5rem 2rem;
   max-width: 65vw;
   display: flex;
-  align-items: center;
 
   &__close-button {
     position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0.25rem;
+    right: 1rem;
+    font-family: PPG;
+
+    &:hover {
+      color: #e382a4;
+    }
   }
 
   &__bubble-wrapper {
     padding: 1rem;
+    position: relative;
+
+    &__season,
+    &__episode {
+      position: absolute;
+      font-family: VinaSans;
+      top: 0.2rem;
+      // font-size: 0.8rem;
+      right: 0rem;
+      letter-spacing: 0.05em;
+    }
+    &__episode {
+      top: 1.2rem;
+    }
   }
 
   &__bubble {
@@ -150,19 +173,24 @@ function closeModal() {
     height: 25vw;
     flex-shrink: 0;
     container: season / inline-size;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
   }
 
   &__content {
     padding-left: 2rem;
+    padding-right: 1rem;
 
     &__title {
       font-family: VinaSans;
-      font-size: 2rem;
+      font-size: 2.4rem;
+      line-height: 1.1;
       margin-bottom: 0.75rem;
 
       .episode-sum {
         opacity: 0.7;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         letter-spacing: 0.03em;
       }
     }
@@ -183,6 +211,68 @@ function closeModal() {
           background-image: linear-gradient(90deg, transparent 10%, var(--speaker-color));
           margin-right: 0.5rem;
           width: 3rem;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-family: VinaSans;
+    // color: var(--off-black);
+
+    &__nav-btn {
+      padding: 0.25rem 0.5rem;
+      position: relative;
+      background-color: rgb(25, 25, 25);
+      transition: transform 0.5s;
+      transform-origin: bottom center;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 0.82rem solid transparent;
+        border-bottom: 0.82rem solid transparent;
+      }
+
+      &.prev {
+        // background-image: linear-gradient(90deg, #e382a4, #66e1fb, transparent);
+        padding-right: 1.5rem;
+        filter: drop-shadow(-4px 1px 3px var(--bubbles));
+
+        &::after {
+          right: 100%;
+          border-right: 0.5rem solid rgb(25, 25, 25);
+        }
+
+        &:hover {
+          // color: var(--bubbles);
+          transform: translateX(-0.25rem) scale(1.08);
+        }
+      }
+
+      &.next {
+        // background-image: linear-gradient(90deg, transparent, #66e1fb, #63d540);
+        padding-left: 1.5rem;
+        filter: drop-shadow(4px 1px 3px var(--buttercup));
+
+        &::after {
+          left: 100%;
+          border-left: 0.5rem solid rgb(25, 25, 25);
+        }
+
+        &:hover {
+          // color: var(--buttercup);
+          transform: translateX(0.25rem) scale(1.08);
         }
       }
     }
