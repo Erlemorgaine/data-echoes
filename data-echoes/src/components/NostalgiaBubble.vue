@@ -9,6 +9,7 @@ const props = defineProps<{
   episode?: string | number
   episodeData: EpisodeContent
   keySpeakers?: string[]
+  episodeVillains?: string[]
   hoveredEpisode?: { season: string | number; episode: string | number } | null
   hoveredSpeaker?: HoveredSpeaker
   hoveredSeasonSpeaker?: { season: string | number; speaker: string } | null
@@ -16,6 +17,13 @@ const props = defineProps<{
 }>()
 
 defineEmits(['onEpisodeHover', 'openModal'])
+
+const episodeVillainHovered = computed(
+  () =>
+    props.hoveredSpeaker &&
+    props.hoveredSpeaker.isVillain &&
+    props.episodeVillains?.includes(props.hoveredSpeaker.speaker),
+)
 
 const inactive = computed(
   () =>
@@ -26,9 +34,10 @@ const inactive = computed(
 
 const active = computed(
   () =>
-    props.hoveredEpisode &&
-    props.hoveredEpisode.season === props.season &&
-    props.hoveredEpisode.episode === props.episode,
+    (props.hoveredEpisode &&
+      props.hoveredEpisode.season === props.season &&
+      props.hoveredEpisode.episode === props.episode) ||
+    episodeVillainHovered.value,
 )
 
 const speakersWithAccumulatedSize = computed(() => {
@@ -67,6 +76,32 @@ const speakersWithAccumulatedSize = computed(() => {
   })
   // return speakerCount / episodeSum
 })
+
+function getBubbleActive(speaker: Speaker) {
+  return (
+    (props.hoveredSeasonSpeaker &&
+      props.hoveredSeasonSpeaker.season === props.season &&
+      props.hoveredSeasonSpeaker.speaker === speaker.speaker) ||
+    (props.hoveredSpeaker &&
+      !props.hoveredSpeaker.isVillain &&
+      props.hoveredSpeaker.speaker === speaker.speaker) ||
+    episodeVillainHovered.value
+  )
+}
+
+function getBubbleInactive(speaker: Speaker) {
+  return (
+    (props.hoveredSeasonSpeaker &&
+      props.hoveredSeasonSpeaker.season === props.season &&
+      props.hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
+    (props.hoveredSpeaker &&
+      !props.hoveredSpeaker.isVillain &&
+      props.hoveredSpeaker.speaker !== speaker.speaker) ||
+    (props.hoveredSpeaker &&
+      props.hoveredSpeaker.isVillain &&
+      !props.episodeVillains?.includes(props.hoveredSpeaker.speaker))
+  )
+}
 </script>
 
 <template>
@@ -87,6 +122,7 @@ const speakersWithAccumulatedSize = computed(() => {
       :class="['nostalgia-bubble__tooltip', { show: active }]"
       :episodeData="episodeData"
       :episode="episode"
+      :hideTitle="hoveredSpeaker && hoveredSpeaker.isVillain"
     />
 
     <div class="nostalgia-bubble__wrapper">
@@ -97,20 +133,9 @@ const speakersWithAccumulatedSize = computed(() => {
           'nostalgia-bubble__speaker',
           {
             'half-bubble': halfBubble,
-            inactive:
-              (hoveredSeasonSpeaker &&
-                hoveredSeasonSpeaker.season === season &&
-                hoveredSeasonSpeaker.speaker !== speaker.speaker) ||
-              (hoveredSpeaker &&
-                !hoveredSpeaker.isVillain &&
-                hoveredSpeaker.speaker !== speaker.speaker),
-            active:
-              (hoveredSeasonSpeaker &&
-                hoveredSeasonSpeaker.season === season &&
-                hoveredSeasonSpeaker.speaker === speaker.speaker) ||
-              (hoveredSpeaker &&
-                !hoveredSpeaker.isVillain &&
-                hoveredSpeaker.speaker === speaker.speaker),
+            inactive: getBubbleInactive(speaker),
+            active: getBubbleActive(speaker),
+            villain: hoveredSpeaker && hoveredSpeaker.isVillain,
           },
         ]"
         :style="{
@@ -205,7 +230,7 @@ const speakersWithAccumulatedSize = computed(() => {
         opacity: 0;
       }
 
-      &.active {
+      &.active:not(.villain) {
         background-image: radial-gradient(
           transparent 5% var(--speaker-children-size),
           var(--speaker-color-50) var(--speaker-children-size),

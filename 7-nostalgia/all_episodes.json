@@ -153,7 +153,20 @@
     "description": "In \"Just Another Manic Mojo\", Mojo Jojo's morning routine is disrupted by the Powerpuff Girls when their ball that they are playing with ends up in his lair. Mojo then uses this opportunity to try and eliminate his nemeses for good. In \"Mime for a Change\", Rainbow the Clown is accidentally transformed by bleach into an evil mime who can eliminate color and sound.",
     "word_count_for_line": 795
   },
-  
+  {
+    "season": 1.0,
+    "episode_nr": 12.0,
+    "episode": "the rowdyruff boys",
+    "description": "Mojo Jojo is so outraged at his constant defeats against the Powerpuff Girls that he decides to beat them at their own games, by creating The Rowdyruff Boys, who prove superior fighters to the girls.",
+    "word_count_for_line": 1086
+  },
+  {
+    "season": 1.0,
+    "episode_nr": 13.0,
+    "episode": "uh oh dynamo",
+    "description": "Worried about his little girls' safety, the Professor creates Powerpuff Dynamo, a state-of-the-art protection system.",
+    "word_count_for_line": 613
+  },
   {
     "season": 2.0,
     "episode_nr": 1.1,
@@ -364,7 +377,13 @@
     "description": "\"Town and Out\" When the Professor gets a new job, the Girls have to move to a new town. They try to make the best of it, but it's just not the same. In fact, it's awful.",
     "word_count_for_line": 828
   },
-  
+  {
+    "season": 3.0,
+    "episode_nr": 3.0,
+    "episode": "criss cross crisis",
+    "description": "A failed experiment on the Professor's part causes everyone in Townsville to switch bodies around. Mojo Jojo, also switched, tries to use the situation to his advantage.",
+    "word_count_for_line": 1961
+  },
   {
     "season": 3.0,
     "episode_nr": 4.1,
@@ -456,7 +475,13 @@
     "description": "\"The Headsucker's Moxy\" There's a mysterious villain in town who's sucking pertinent information from the brains of powerful people and committing crimes. How do the Girls trap this sucker before his next victim is drained?",
     "word_count_for_line": 1255
   },
-  
+  {
+    "season": 3.0,
+    "episode_nr": 11.0,
+    "episode": "powerprof.",
+    "description": "\"Powerprof.\" The Girls are so busy fighting crime that the Professor doesn't get to see them anymore. He creates a super suit for himself so he can fight crime with them. The Girls are having a great time with their dad until he starts cramping their superhero style. (22 Minutes)",
+    "word_count_for_line": 878
+  },
   {
     "season": 3.0,
     "episode_nr": 12.1,
@@ -485,7 +510,76 @@
     "description": "\"Helter Shelter\" Bubbles has a habit of saving helpless animals and the Professor is sick of it. When Bubbles brings a baby whale home, she and her sisters have a whale of a time hiding this new addition.",
     "word_count_for_line": 589
   },
-  
+  {
+    "season": 4.0,
+    "episode_nr": 1.0,
+    "episode": "film flam",
+    "description": "\"Film Flam\" A sleazy director comes to Townsville ready to make a film about the Girls saving the day in their city. But this Hollywood-type wants more from Townsville than an Oscar winning film. (22 Minutes)",
+    "word_count_for_line": 2281
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 2.0,
+    "episode": "all chalked up",
+    "description": "\"All Chalked Up\" Him tricks Bubbles into bringing her chalk drawings to life, who then reek havoc on Townsville. (22 Minutes)",
+    "word_count_for_line": 992
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 3.0,
+    "episode": "get back, jojo",
+    "description": "It is Career Day at Pokey Oaks, and the Professor shows to the class a time machine and explains how he got into science and created the Powerpuff Girls. But Mojo Jojo overhears everything and uses the machine to go back in time to that specific time period in order to prevent him from getting into science at all costs. But the Powerpuff Girls also go back in time and are hot on Mojo's trail.",
+    "word_count_for_line": 2158
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 4.0,
+    "episode": "him diddle riddle",
+    "description": "\"Him Diddle Riddle\" The PPGs must solve a series of riddles by Him to prevent the Professor having to \"pay.\" The entire episode is in real time. (22 Minutes)",
+    "word_count_for_line": 1394
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 5.0,
+    "episode": "members only",
+    "description": "\"Members Only\" When the Girls try to join the all-male superhero organization, they learn that sometimes supermen aren't so super. (22 Minutes)",
+    "word_count_for_line": 2092
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 6.0,
+    "episode": "knock it off",
+    "description": "\"Knock it Off\" When the Professor's college roommate sees his brilliant creations, he decides to cash in on the popularity of the Powerpuffs. (22 Minutes)",
+    "word_count_for_line": 1809
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 7.0,
+    "episode": "superfriends",
+    "description": "\"Super Friends\" The new girl next door learns its hard to be best friends with superheroes and soon starts hanging out with the wrong kind of kid-Princess. (22 Minutes)",
+    "word_count_for_line": 2054
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 8.0,
+    "episode": "nano of the north",
+    "description": "\"Nano of the North\" It's raining in Townsville, but this is more than just rain. These drops are really microscopic robots tearing apart the city and the Girls must fight with these creatures on their own level. (22 Minutes)",
+    "word_count_for_line": 1332
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 9.0,
+    "episode": "stray bullet",
+    "description": "\"Stray Bullet\" In order to save an innocent squirrel, Bubbles gives him a dash of Chemical X, giving him some super squirrel powers. (22 Minutes)",
+    "word_count_for_line": 990
+  },
+  {
+    "season": 4.0,
+    "episode_nr": 10.0,
+    "episode": "forced kin",
+    "description": "\"Forced Kin\" A terrible, evil menace from outer space descends upon Townsville. The Girls must fight evil with evil but to do so they seek the advice of ...Mojo Jojo. (22 Minutes)",
+    "word_count_for_line": 1662
+  },
   {
     "season": 4.0,
     "episode_nr": 11.1,
@@ -500,7 +594,13 @@
     "description": "\"Keen on Keane\" It's Valentine's Day and the Girls notice that Ms. Keane is all alone. Time for a little matchmaking. But who will the lucky fella be?\"",
     "word_count_for_line": 1059
   },
- 
+  {
+    "season": 4.0,
+    "episode_nr": 12.0,
+    "episode": "power-noia",
+    "description": "\"Power-Noia\" (22 minutes) The Girls have become paralyzed by their greatest fears. Who could be behind such an evil trick?",
+    "word_count_for_line": 1595
+  },
   {
     "season": 5.0,
     "episode_nr": 1.1,
@@ -557,7 +657,13 @@
     "description": "\"Save Mojo\" An animal activist group sets out to protect Mojo, ensuring that he can behave like the naturally evil monkey that he is.",
     "word_count_for_line": 970
   },
-  
+  {
+    "season": 5.0,
+    "episode_nr": 5.0,
+    "episode": "the boys are back in town",
+    "description": "\"The Boys are Back in Town\" Him brings the Rowdyruff Boys back, protecting them from the Girls' feminine wiles.",
+    "word_count_for_line": 2031
+  },
   {
     "season": 5.0,
     "episode_nr": 6.1,
@@ -572,7 +678,13 @@
     "description": "\"The Pee Pee G's\" When the Girls wake up to discover their bed is wet, none want to admit that they are the guilty party.",
     "word_count_for_line": 920
   },
-  
+  {
+    "season": 5.0,
+    "episode_nr": 7.0,
+    "episode": "see me, feel me, gnomey",
+    "description": "In this musical, the girls are outmatched by Townsville's villains. They turn to Gnomey to bring peace to Townsville in exchange for their powers, but, when the city falls under the rule of Communism, it's up to the girls to stop him.",
+    "word_count_for_line": 1706
+  },
   {
     "season": 5.0,
     "episode_nr": 8.1,
@@ -699,7 +811,13 @@
     "description": "\"Mo' Linguish\" Mojo is sentenced to do community service for Townsville and begins teaching English at the Learning Annex. Soon everyone is speaking in circles like Mojo and the town comes to a standstill.",
     "word_count_for_line": 1011
   },
-  
+  {
+    "season": 6.0,
+    "episode_nr": 5.0,
+    "episode": "a made up story",
+    "description": "\"A Made Up Story\" Someone is defacing all the posters and statues of Townsville with make-up. Can the Girls stop this makeover takeover or will they get the blush off?",
+    "word_count_for_line": 1232
+  },
   {
     "season": 6.0,
     "episode_nr": 6.1,
@@ -728,7 +846,13 @@
     "description": "\"Custody Battle\" Mojo discovers that the Rowdyruff Boys are back and is determined to show them that he is a more evil dad than Him.",
     "word_count_for_line": 584
   },
-  
+  {
+    "season": 6.0,
+    "episode_nr": 8.0,
+    "episode": "aspirations",
+    "description": "The Gangreen Gang is actually committing brilliant crimes, but, behind every great gang, there has to be a great woman.",
+    "word_count_for_line": 1228
+  },
   {
     "season": 6.0,
     "episode_nr": 9.1,
@@ -757,7 +881,13 @@
     "description": "\"Sun Scream\" The Girls get the ultimate sunburn and must try to fight crime despite their UV damage.",
     "word_count_for_line": 856
   },
-  
+  {
+    "season": 6.0,
+    "episode_nr": 11.0,
+    "episode": "west in pieces",
+    "description": "\"West in Pieces\" It's the old west and Mojo the Kid has robbed the first bank ever and forced the sheriff out of town and it is up to the Steamypuff Girls to save the day at a high-noon showdown.",
+    "word_count_for_line": 1237
+  },
   {
     "season": 6.0,
     "episode_nr": 12.1,
@@ -777,7 +907,7 @@
     "episode_nr": 13.1,
     "episode": "roughing it up",
     "description": "\"Roughing It Up\" The Girls and the Professor set on an old-fashioned vacation to the Townsville Swamp. Trouble is, Fuzzy and his nephews are there too.",
-    "word_count_for_line": 21
+    "word_count_for_line": 910
   },
   {
     "season": 6.0,

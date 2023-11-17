@@ -4,12 +4,14 @@ import type { EpisodeContent } from '../types/types'
 defineProps<{
   episodeData: EpisodeContent
   episode?: string | number
+  hideTitle: Boolean
 }>()
 </script>
 
 <template>
   <div class="nostalgia-tooltip">
-    <span class="nostalgia-tooltip__ep-nr">{{ episode }}</span> {{ episodeData.title }}
+    <span class="nostalgia-tooltip__ep-nr">{{ episode }}</span>
+    <span v-if="!hideTitle">{{ episodeData.title }}</span>
   </div>
 </template>
 

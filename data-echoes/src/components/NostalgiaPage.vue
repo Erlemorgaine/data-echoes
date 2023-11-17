@@ -294,6 +294,16 @@ function setModalDataFromModal(direction: number, season: string, episodeNr: str
 
   setModalData({ season: nextSeason, episode: nextEpisode })
 }
+
+function getEpisodeVillains(season: string, episode: string) {
+  type SeasonKey = keyof typeof villainEpisodes
+  const villainSeason = villainEpisodes[season as SeasonKey]
+  type EpisodeKey = keyof typeof villainSeason
+
+  return villainSeason[episode as EpisodeKey]
+    ? villainSeason[episode as EpisodeKey].map((v) => v.villain)
+    : []
+}
 </script>
 
 <template>
@@ -331,6 +341,7 @@ function setModalDataFromModal(direction: number, season: string, episodeNr: str
             :season="season"
             :episode="episode"
             :keySpeakers="keySpeakers"
+            :episode-villains="getEpisodeVillains(season, episode)"
             :hoveredEpisode="hoveredEpisode"
             :hoveredSpeaker="hoveredSpeaker"
             :hoveredSeasonSpeaker="hoveredSeasonSpeaker"

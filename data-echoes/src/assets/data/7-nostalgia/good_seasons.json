@@ -109,12 +109,12 @@
   },
   "6": {
     "speakers": {
-      "blossom": 2958,
-      "narrator": 2833,
-      "professor": 2687,
-      "buttercup": 2107,
+      "professor": 3123,
+      "blossom": 3026,
+      "narrator": 2887,
+      "buttercup": 2182,
+      "bubbles": 1975,
       "mojo jojo": 1958,
-      "bubbles": 1944,
       "mayor": 1344,
       "sedusa": 346,
       "man": 344,
@@ -122,6 +122,6 @@
       "ms keane": 219,
       "ms bellum": 184
     },
-    "total": 17181
+    "total": 17845
   }
 }

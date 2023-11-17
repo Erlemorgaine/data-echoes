@@ -4565,6 +4565,38 @@
         "word_count_for_line": 151
       }
     ],
+    "13.1": [
+      {
+        "speaker": "professor",
+        "episode": "roughing it up",
+        "word_count_for_line": 436
+      },
+      {
+        "speaker": "fuzzy",
+        "episode": "roughing it up",
+        "word_count_for_line": 132
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "roughing it up",
+        "word_count_for_line": 75
+      },
+      {
+        "speaker": "blossom",
+        "episode": "roughing it up",
+        "word_count_for_line": 68
+      },
+      {
+        "speaker": "narrator",
+        "episode": "roughing it up",
+        "word_count_for_line": 54
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "roughing it up",
+        "word_count_for_line": 31
+      }
+    ],
     "13.2": [
       {
         "speaker": "blossom",
