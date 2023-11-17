@@ -246,7 +246,7 @@ function getTitleTransform() {
     Math.max(Math.pow((window.innerHeight - window.scrollY) / window.innerHeight, 1.95), 0.75) ||
     0.75
 
-  titleTransform.value.translate = (1 - titleTransform.value.scale) * -14 + 'rem'
+  titleTransform.value.translate = (1 - titleTransform.value.scale) * -15 + 'rem'
   legendShown.value = window.scrollY > 100
 }
 

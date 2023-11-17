@@ -26,9 +26,11 @@
       to explore!
     </p>
 
-    <button class="nostalgia-intro__scroll">
+    <!-- <button class="nostalgia-intro__scroll">
       &#8681; Scroll down for an explanation of the viz
-    </button>
+    </button> -->
+
+    <div class="nostalgia-intro__cta">Click on a bubble to known more about the episode</div>
   </section>
 </template>
 
@@ -89,6 +91,13 @@
     &:hover {
       color: var(--blossom);
     }
+  }
+
+  &__cta {
+    // font-family: VinaSans;
+    // letter-spacing: 0.06rem;
+    // font-weight: 700;
+    font-style: italic;
   }
 }
 </style>

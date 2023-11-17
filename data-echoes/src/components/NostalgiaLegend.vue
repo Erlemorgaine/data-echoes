@@ -62,13 +62,15 @@ function getVillainGradient(speaker) {
         {{ speaker }}
       </div>
     </div> -->
+
+    <div class="nostalgia-legend__cta">Click on a character for more information</div>
   </aside>
 </template>
 
 <style lang="scss" scoped>
 .nostalgia-legend {
   position: fixed;
-  top: 10.25rem;
+  top: 9.5rem;
   right: 2rem;
   padding: 1rem 0.75rem 0.5rem 0.5rem;
   border-radius: 0.2rem;
@@ -152,6 +154,27 @@ function getVillainGradient(speaker) {
       object-fit: cover;
       // object-position: 50% 0%;
     }
+  }
+
+  &__cta {
+    position: absolute;
+    right: 0rem;
+    bottom: -1.75rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family:
+      Inter,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      sans-serif;
   }
 }
 </style>
