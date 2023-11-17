@@ -269,6 +269,33 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
     sumEpisode: allEps[episode as EpisodeKey].word_count_for_line || 0,
   }
 }
+
+function setModalDataFromModal(direction: number, season: string, episodeNr: string) {
+  type SeasonKey = keyof typeof allEpisodes
+
+  let nextSeason = season
+  let nextEpisode = episodeNr
+  const seasonEpisodes = Object.keys(allEpisodes[season as SeasonKey])
+
+  const episodeIndex = seasonEpisodes.indexOf(episodeNr)
+  const newEpisodeIndex = episodeIndex + direction
+  nextEpisode = seasonEpisodes[newEpisodeIndex]
+
+  console.log(nextSeason, nextEpisode)
+
+  if (!nextEpisode) {
+    if (newEpisodeIndex == -1) {
+      nextSeason = (+season - 1).toString()
+      const prevSeasonEpisodes = Object.keys(allEpisodes[nextSeason as SeasonKey])
+      nextEpisode = prevSeasonEpisodes[prevSeasonEpisodes.length - 1]
+    } else {
+      nextSeason = (+season + 1).toString()
+      nextEpisode = Object.keys(allEpisodes[nextSeason as SeasonKey])[0]
+    }
+  }
+
+  setModalData({ season: nextSeason, episode: nextEpisode })
+}
 </script>
 
 <template>
@@ -351,7 +378,11 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
         @onSpeakerHover="hoveredSpeaker = $event"
       />
 
-      <NostalgiaEpisodeModal :data="modalData" @closeModal="modalData = null" />
+      <NostalgiaEpisodeModal
+        :data="modalData"
+        @closeModal="modalData = null"
+        @navigate="setModalDataFromModal"
+      />
     </section>
   </div>
 </template>
@@ -466,6 +497,20 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
       padding-top: 0.5rem;
       letter-spacing: 0.05em;
     }
+
+    @include mobile {
+      position: relative;
+      font-size: 2rem;
+      text-align: left;
+      margin: 0 auto;
+      top: 1rem;
+      right: initial;
+      transform: initial;
+
+      &__sub {
+        font-size: 1rem;
+      }
+    }
   }
 
   &__season-wrapper {
@@ -479,6 +524,10 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
     margin-bottom: 1rem;
     padding-left: 1rem;
     // transform: translateX(calc(var(--season-index) * 4%));
+
+    @include mobile {
+      --season-total-width: 200%;
+    }
   }
 
   &__season {

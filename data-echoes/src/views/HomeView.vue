@@ -134,14 +134,24 @@ const activeThemes = ['Nostalgia']
     z-index: -1;
     transform-origin: center;
     animation: spin-around 40s linear infinite;
+
+    @include mobile {
+      width: 120vh;
+      height: 120vh;
+    }
   }
 
   &__content-wrapper {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 4rem;
     left: 50%;
     max-width: 40rem;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+
+    @include mobile {
+      top: 2rem;
+      width: calc(100% - 2rem);
+    }
   }
 
   &__title {
@@ -165,6 +175,14 @@ const activeThemes = ['Nostalgia']
       background-image: linear-gradient(90deg, transparent, var(--off-white), transparent);
       animation: scale-in-out 1s 1.3s both;
     }
+
+    @include mobile {
+      font-size: 2rem;
+
+      &::after {
+        bottom: 0.2rem;
+      }
+    }
   }
 
   &__content {
@@ -175,6 +193,10 @@ const activeThemes = ['Nostalgia']
     filter: drop-shadow(-2px -2px 5px var(--off-white-50));
     padding: 2rem 3rem;
     animation: fade-in 1s 3s ease-out backwards;
+
+    @include mobile {
+      padding: 2rem 1.5rem;
+    }
 
     &__intro {
       p {

@@ -84,9 +84,21 @@ function getVillainGradient(speaker) {
   gap: 3vh;
   transition: opacity 0.5s;
 
+  @include mobile {
+    position: relative;
+    top: initial;
+    right: initial;
+    margin-top: 2rem;
+  }
+
   &__group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   &__speaker {
@@ -130,7 +142,7 @@ function getVillainGradient(speaker) {
 
     &__img {
       border-radius: 50%;
-      width: 3.5vw;
+      width: max(3.5vw, 2.5rem);
       aspect-ratio: 1;
       border: 2px solid var(--speaker-color);
       margin-right: 0.5rem;

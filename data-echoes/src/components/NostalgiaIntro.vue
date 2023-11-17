@@ -43,6 +43,10 @@
   line-height: 140%;
   padding-top: 3rem;
 
+  @include mobile {
+    width: 100%;
+  }
+
   p {
     margin-bottom: 0.75rem;
 

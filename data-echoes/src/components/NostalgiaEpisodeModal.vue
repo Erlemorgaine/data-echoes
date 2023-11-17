@@ -10,7 +10,7 @@ const props = defineProps<{
   data: ModalData | null
 }>()
 
-const emit = defineEmits(['closeModal'])
+const emit = defineEmits(['closeModal', 'navigate'])
 
 const dialogRef = ref()
 
@@ -94,6 +94,21 @@ function closeModal() {
             <span>{{ speaker.speaker }}</span>
           </li>
         </ul>
+      </div>
+
+      <div class="nostalgia-episode-modal__content__footer">
+        <button
+          class="nostalgia-episode-modal__content__footer__nav-btn prev"
+          @click="$emit('navigate', -1, data.season, data.episode)"
+        >
+          Previous episode
+        </button>
+        <button
+          class="nostalgia-episode-modal__content__footer__nav-btn prev"
+          @click="$emit('navigate', 1, data.season, data.episode)"
+        >
+          Next episode
+        </button>
       </div>
     </div>
   </dialog>
