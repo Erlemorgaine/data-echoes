@@ -198,6 +198,7 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
       text-align: center;
       font-family: VinaSans;
       font-size: 2rem;
+      font-weight: 400;
     }
 
     &__img {

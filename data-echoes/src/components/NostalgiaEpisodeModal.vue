@@ -95,6 +95,7 @@ const speakers = computed((): Speaker[] => {
               {{ Math.round((speaker.word_count_for_line / data.sumEpisode) * 1000) / 10 }}%
             </span>
             <span>{{ speaker.speaker }}</span>
+            <span class="word-count">({{ speaker.word_count_for_line }})</span>
           </li>
         </ul>
 
@@ -192,6 +193,7 @@ const speakers = computed((): Speaker[] => {
       font-size: 2.4rem;
       line-height: 1.1;
       margin-bottom: 0.75rem;
+      font-weight: 400;
 
       .episode-sum {
         opacity: 0.7;
@@ -220,6 +222,13 @@ const speakers = computed((): Speaker[] => {
           background-image: linear-gradient(90deg, transparent 10%, var(--speaker-color));
           margin-right: 0.5rem;
           width: 3rem;
+        }
+
+        .word-count {
+          opacity: 0.7;
+          margin-left: 0.4rem;
+          font-size: 0.9rem;
+          letter-spacing: 0.06em;
         }
       }
     }
