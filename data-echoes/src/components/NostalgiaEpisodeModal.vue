@@ -107,7 +107,10 @@ function closeModal() {
 
         <div class="nostalgia-episode-modal__content__sources">
           <div class="nostalgia-episode-modal__content__sources__title">Sources:</div>
-          <a target="__blank" :href="``" class="nostalgia-episode-modal__content__sources__link"
+          <a
+            target="__blank"
+            :href="`https://imdb.com${data.imdbLink}`"
+            class="nostalgia-episode-modal__content__sources__link"
             >IMDb</a
           >
           <a
@@ -243,6 +246,7 @@ function closeModal() {
       gap: 1rem;
       align-items: baseline;
       position: relative;
+      z-index: 1;
 
       &__title {
         font-family: VinaSans;

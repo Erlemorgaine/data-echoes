@@ -269,6 +269,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
     villains: villainEps[episode as EpisodeKey],
     goodiesTalking: goodEps[episode as EpisodeKey].sum,
     sumEpisode: allEps[episode as EpisodeKey].word_count_for_line || 0,
+    imdbLink: allEps[episode as EpisodeKey].imdbLink,
   }
 }
 
