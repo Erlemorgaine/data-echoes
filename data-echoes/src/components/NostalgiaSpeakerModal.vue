@@ -1,27 +1,38 @@
 <script setup lang="ts">
 import NostalgiaBubble from './NostalgiaBubble.vue'
 
-import type { ModalData } from '../types/types'
+import type { SpeakerModalData } from '../types/types'
 import NostalgiaModal from './NostalgiaModal.vue'
 
 defineProps<{
-  data: ModalData | null
+  data: SpeakerModalData | null
 }>()
 
-defineEmits(['closeModal', 'navigate'])
+defineEmits(['closeModal', 'navigate', 'openEpisodeModal'])
 
 const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.BASE_URL
 </script>
 
 <template>
   <NostalgiaModal :show="!!data" @closeModal="$emit('closeModal')">
-    <div v-if="data" class="nostalgia-episode-modal">
+    <div
+      v-if="data"
+      class="nostalgia-episode-modal"
+      :style="{ '--speaker-color': `var(--${data.speaker.replaceAll(' ', '-')})` }"
+    >
       <div class="nostalgia-episode-modal__bubbles">
-        <div
+        <div class="nostalgia-episode-modal__bubbles__title">Top 5</div>
+        <button
           v-for="episode of data.episodes"
           :key="episode.episode"
           class="nostalgia-episode-modal__bubbles__bubble-content"
+          @click="
+            $emit('openEpisodeModal', { season: episode.season, episode: episode.episode_nr })
+          "
         >
+          <span class="nostalgia-episode-modal__bubbles__bubble-content__episode-nr"
+            >s{{ episode.season }} E{{ episode.episode_nr }}</span
+          >
           <NostalgiaBubble
             class="nostalgia-episode-modal__bubble"
             :season="episode.season"
@@ -30,23 +41,23 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
               size: 1,
               accumulatedSize: 0,
               speakers: episode.speakers,
-              sum: episode.sumEpisode,
+              sum: episode.sumEpisode || 0,
             }"
           />
 
           <div class="nostalgia-episode-modal__bubbles__bubble-content__episode">
-            {{ episode.episode }}
+            <span>{{ episode.episode }}</span>
           </div>
           <div class="nostalgia-episode-modal__bubbles__bubble-content__numbers">
-            <span class="nostalgia-episode-modal__bubbles__bubble-content__words">
-              {{ episode.speakerAmount }} ({{ episode.speakerPercentage }}%)
+            <span class="value">
+              {{ episode.speakerAmount }}
             </span>
-            out of
-            <span class="nostalgia-episode-modal__bubbles__bubble-content__words">
+            ({{ episode.speakerPercentage }}%) out of
+            <span class="value">
               {{ episode.sumEpisode }}
             </span>
           </div>
-        </div>
+        </button>
       </div>
 
       <div class="nostalgia-episode-modal__content">
@@ -85,18 +96,57 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
     gap: 1rem;
     font-family: VinaSans;
 
+    &__title {
+      @include powerpuff-line;
+
+      font-size: 1.5rem;
+      position: relative;
+    }
+
     &__bubble-content {
       display: grid;
       gap: 0rem 1rem;
-      grid-template-columns: 3.5rem 1fr;
+      grid-template-columns: 2.75rem 3.5rem 1fr;
       grid-template-areas:
-        'bubble episode'
-        'bubble numbers';
+        'epnr bubble episode'
+        'epnr bubble numbers';
       align-items: center;
+      text-align: left;
+      position: relative;
+      z-index: 1;
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        transform: translateX(-1rem) skew(-20deg);
+        height: 100%;
+        width: 110%;
+        background-image: linear-gradient(
+          90deg,
+          var(--speaker-color) -10%,
+          transparent 20%,
+          transparent 80%,
+          var(--speaker-color) 110%
+        );
+        z-index: -1;
+        opacity: 0;
+      }
+
+      &:hover::after {
+        opacity: 1;
+      }
 
       &__episodes,
       &__numbers {
         width: 10rem;
+      }
+
+      &__episode-nr {
+        opacity: 0.7;
+        font-size: 0.95rem;
+        flex-shrink: 0;
+        grid-area: epnr;
       }
 
       &__episode {
@@ -105,11 +155,19 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
         margin-bottom: 0.25rem;
         align-self: flex-end;
         font-size: 1.1rem;
+        display: flex;
+        align-items: baseline;
+        gap: 0.4rem;
       }
 
       &__numbers {
         grid-area: numbers;
         font-size: 0.8rem;
+        font-family: Poppins;
+
+        .value {
+          font-weight: 900;
+        }
       }
     }
   }
@@ -129,12 +187,12 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
   }
 
   &__content {
-    width: 50%;
+    min-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-right: 1.5rem;
+    padding: 0rem 2.5rem;
 
     &__title {
       text-align: center;

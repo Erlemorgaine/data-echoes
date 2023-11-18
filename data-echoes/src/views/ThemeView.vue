@@ -47,7 +47,7 @@ type ThemesKey = keyof typeof themes
     position: absolute;
     top: 1rem;
     left: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     transition: color 0.5s;
 
     &:hover {

@@ -150,19 +150,7 @@ function getVillainGradient(speaker) {
     bottom: -1.75rem;
     font-size: 0.85rem;
     font-style: italic;
-    font-family:
-      Inter,
-      -apple-system,
-      BlinkMacSystemFont,
-      'Segoe UI',
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
-      sans-serif;
+    font-family: Poppins;
   }
 }
 </style>

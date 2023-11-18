@@ -88,7 +88,7 @@ export type VillainsPerEpisode = {
 export type HoveredSpeaker = { speaker: string; isVillain: boolean }
 
 export type ModalData = {
-  season: string | number
+  season: string
   episode: string
   description: string
   episodeNr: string | number
@@ -99,4 +99,23 @@ export type ModalData = {
   sumEpisode: number
   imdbLink?: string
   fandomLink?: string
+} | null
+
+export type TopEpisode = {
+  season: number | string
+  sumEpisode?: number
+  episode_nr: string
+  word_count_for_line: number
+  episode: string
+}
+
+export type ModalTopEpisode = TopEpisode & {
+  speakerAmount: number
+  speakerPercentage: number
+  speakers: Speaker[]
+}
+
+export type SpeakerModalData = {
+  speaker: string
+  episodes: ModalTopEpisode[]
 } | null

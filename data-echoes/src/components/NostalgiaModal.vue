@@ -12,7 +12,11 @@ const dialogRef = ref()
 watch(
   () => props.show,
   () => {
-    if (props.show) openModal()
+    if (props.show) {
+      openModal()
+    } else {
+      dialogRef.value.close()
+    }
 
     document.body.style.overflow = props.show ? 'hidden' : 'initial'
   },
@@ -56,7 +60,7 @@ function closeModal() {
   border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
   color: var(--off-white);
   padding: 1.5rem 2rem 2.5rem 2rem;
-  max-width: 65vw;
+  max-width: min(65vw, 50rem);
   display: flex;
 
   &__close-button {

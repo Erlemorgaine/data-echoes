@@ -204,7 +204,7 @@ const activeThemes = ['Nostalgia']
       }
 
       .capital {
-        font-weight: 700;
+        font-weight: 600;
 
         &::first-letter {
           font-family: WaitingfortheSunrise;
@@ -214,7 +214,7 @@ const activeThemes = ['Nostalgia']
       }
 
       a {
-        font-weight: 700;
+        font-weight: 600;
 
         &:hover {
           // color: var(--home-green-light);
