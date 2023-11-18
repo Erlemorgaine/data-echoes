@@ -42,15 +42,7 @@
     padding: 0.25rem;
     text-align: center;
 
-    &::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(90deg, var(--blossom), var(--bubbles), var(--buttercup));
-    }
+    @include powerpuff-line;
   }
 
   &__source {

@@ -2,7 +2,8 @@
 import { computed, ref, watch } from 'vue'
 
 import NostalgiaBubble from './NostalgiaBubble.vue'
-import { sumBy } from 'lodash'
+import startCase from 'lodash/startCase'
+import sumBy from 'lodash/sumBy'
 
 import type { Speaker, ModalData } from '../types/types'
 
@@ -13,6 +14,11 @@ const props = defineProps<{
 const emit = defineEmits(['closeModal', 'navigate'])
 
 const dialogRef = ref()
+
+const fandomLink = computed(
+  () =>
+    `https://powerpuffgirls.fandom.com/wiki/${startCase(props.data.episode.replaceAll(' ', '_'))}`,
+)
 
 const speakers = computed((): Speaker[] => {
   if (props.data) {
@@ -98,6 +104,19 @@ function closeModal() {
             <span>{{ speaker.speaker }}</span>
           </li>
         </ul>
+
+        <div class="nostalgia-episode-modal__content__sources">
+          <div class="nostalgia-episode-modal__content__sources__title">Sources:</div>
+          <a target="__blank" :href="``" class="nostalgia-episode-modal__content__sources__link"
+            >IMDb</a
+          >
+          <a
+            target="__blank"
+            :href="fandomLink"
+            class="nostalgia-episode-modal__content__sources__link"
+            >Powerpuff Girls Wiki</a
+          >
+        </div>
       </div>
 
       <div class="nostalgia-episode-modal__footer">
@@ -196,10 +215,14 @@ function closeModal() {
     }
 
     &__speakers {
+      @include powerpuff-line;
+
+      position: relative;
       font-family: VinaSans;
       margin-top: 1.5rem;
       columns: 2;
       column-fill: balance;
+      padding-bottom: 2rem;
 
       &__speaker {
         display: flex;
@@ -211,6 +234,26 @@ function closeModal() {
           background-image: linear-gradient(90deg, transparent 10%, var(--speaker-color));
           margin-right: 0.5rem;
           width: 3rem;
+        }
+      }
+    }
+
+    &__sources {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+      position: relative;
+
+      &__title {
+        font-family: VinaSans;
+      }
+
+      &__link {
+        display: block;
+        font-size: 0.8rem;
+
+        &:hover {
+          color: var(--blossom);
         }
       }
     }

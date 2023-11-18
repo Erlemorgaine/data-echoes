@@ -400,7 +400,7 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .nostalgia-page {
   /* Good guys */
   --professor: #484848;
