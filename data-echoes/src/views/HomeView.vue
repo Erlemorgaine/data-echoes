@@ -17,11 +17,11 @@ const activeThemes = ['Nostalgia']
           <p>
             <span class="capital">Welcome!</span> I'm Erle, mostly-frontend developer and data
             enthusiast, and this is my fan-project-turned-into-personal-website. To be precise, a
-            fan-project based on the book <a href="">Data Sketches</a>, which was born out of a
-            collaboration between <a href="">Shirley Wu</a> and <a href="">Nadieh Bremer</a>, and
-            harbours a collection of data visualizations that are beautiful and immensely inspiring.
-            So inspiring that I decided to take it as a starting point of my own personal journey to
-            get better at data analysis and visualization.
+            fan-project based on the book <a href="https://www.datasketch.es/">Data Sketches</a>, which was born out of a
+            collaboration between <a href="https://shirleywu.studio/">Shirley Wu</a> and
+            <a href="https://www.visualcinnamon.com/">Nadieh Bremer</a>, and harbours a collection of data visualizations that are
+            beautiful and immensely inspiring. So inspiring that I decided to take it as a starting
+            point of my own personal journey to get better at data analysis and visualization.
           </p>
           <p>
             My aim is to follow the twelve categories that Shirley and Nadieh chose for Data

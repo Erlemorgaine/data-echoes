@@ -22,8 +22,10 @@
     </p>
 
     <p>
-      Below you will find the result. It was a lot of fun to make, and hopefully also a lot of fun
-      to explore!
+      Below you will find the result. It focuses on the
+      <span class="color">Five biggest speakers</span> in Townsville, as well as on on the
+      <span class="color">most talkative recurring villains</span>. It was a lot of fun to make, and
+      hopefully also a lot of fun to explore!
     </p>
 
     <!-- <button class="nostalgia-intro__scroll">

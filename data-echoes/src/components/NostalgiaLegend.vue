@@ -36,12 +36,13 @@ function getVillainGradient(speaker) {
         :style="{
           '--speaker-color': `var(--${speaker.replaceAll(' ', '-')})`,
           ...(i == 1 ? { '--speaker-gradient': getVillainGradient(speaker) } : {}),
+          '--bg-color': `var(--${speaker.replaceAll(' ', '-')}-light, var(--julie))`,
         }"
         @mouseenter="$emit('onSpeakerHover', { speaker, isVillain: i == 1 })"
         @mouseleave="$emit('onSpeakerHover', null)"
       >
         <img
-          :src="`${baseUrl}images/${speaker.replaceAll(' ', '-')}.webp`"
+          :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
           alt=""
           class="nostalgia-legend__speaker__img"
         />
@@ -152,7 +153,7 @@ function getVillainGradient(speaker) {
       position: relative;
       background-color: var(--off-white);
       object-fit: cover;
-      // object-position: 50% 0%;
+      background-color: var(--bg-color);
     }
   }
 

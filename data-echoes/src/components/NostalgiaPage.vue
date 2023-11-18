@@ -38,6 +38,7 @@ import type {
 } from '../types/types'
 
 import '../assets/scss/nostalgia.scss'
+import NostalgiaSources from './NostalgiaSources.vue'
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
@@ -393,6 +394,8 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
         @closeModal="modalData = null"
         @navigate="setModalDataFromModal"
       />
+
+      <NostalgiaSources />
     </section>
   </div>
 </template>
@@ -401,12 +404,16 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
 .nostalgia-page {
   /* Good guys */
   --professor: #484848;
+  --professor-light: #e0e0e0;
   --professor-50: #48484855;
   --buttercup: #63d540;
+  --buttercup-light: #e4ffdc;
   --buttercup-50: #63d54055;
   --bubbles: #66e1fb;
+  --bubbles-light: #97e0ef;
   --bubbles-50: #66e1fb55;
   --blossom: #e382a4;
+  --blossom-light: #fae1ea;
   --blossom-50: #e382a455;
   --narrator: #f8f6ed;
   --narrator-50: #f8f6ed55;
@@ -424,10 +431,13 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
   --mojo-jojo: #b4dd19;
   --mojo-jojo-30: #b4dd1933;
   --him: #fe3300;
+  --him-light: #cf8370;
   --him-30: #fe330033;
   --fuzzy: #f0649d;
+  --fuzzy-light: #d5d287;
   --fuzzy-30: #f0649d33;
   --princess-morbucks: #ffff00;
+  --princess-morbucks-light: #ffffbc;
   --princess-morbucks-30: #ffff0033;
   --brick: #b43026;
   --brick-30: #b4302633;
@@ -435,13 +445,18 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
   --butch-30: #40854e33;
   --boomer: #3f65b1;
   --boomer-30: #3f65b133;
+  --rowdyruff-boys: #40854e;
+  --rowdyruff-boys-light: #d6bc8a;
   --junior: #8fe4dd;
   --junior-30: #8fe4dd33;
   --slim: #158e98;
   --slim-30: #158e9833;
   --bossman: #8c999a;
   --bossman-30: #8c999a33;
+  --amoeba-boys: #158e98;
+  --amoeba-boys-light: #b9ede9;
   --sedusa: #8b1429;
+  --sedusa-light: #da9ea9;
   --sedusa-30: #8b142933;
   --snake: #bdd93e;
   --snake-30: #bdd93e33;
@@ -453,6 +468,7 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
   --grubber-30: #96459b33;
   --arturo: #871a41;
   --arturo-30: #871a4133;
+  --gangreen-gang: #96459b;
   --marianne: #3d4ba0;
   --marianne-30: #3d4ba033;
   --harold: #c03021;
@@ -461,6 +477,7 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
   --julie-30: #d1b14a33;
   --bud: #418124;
   --bud-30: #41812433;
+  --smith-family: #d1b14a;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);
