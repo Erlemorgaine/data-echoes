@@ -4,6 +4,7 @@
       "episode": "monkey see, doggie do",
       "description": "In \"Monkey See, Doggie Do\", Mojo Jojo swipes some cursed artifacts from the Townsville Museum and using them, turns all of the people of Townsville and then the whole world into dogs.",
       "imdbLink": "/title/tt1005607/?ref_=ttep_ep1",
+      "fandomLink": "Monkey_See,_Doggie_Do",
       "word_count_for_line": 803
     },
     "1.2": {
@@ -58,6 +59,7 @@
       "episode": "abracadaver",
       "description": "In \"Abracadaver\", a long-dead resident magician, Al Lusion, comes back to life as a zombie, and the girls have some difficulty in trying to stop him.",
       "imdbLink": "/title/tt1005605/?ref_=ttep_ep5",
+      "fandomLink": "Abracadaver_(episode)",
       "word_count_for_line": 530
     },
     "6.1": {
@@ -82,6 +84,7 @@
       "episode": "mr. mojo's rising",
       "description": "",
       "imdbLink": "/title/tt1005606/?ref_=ttep_ep7",
+      "fandomLink": "Mr._Mojo%27s_Rising",
       "word_count_for_line": 981
     },
     "8.1": {
@@ -136,6 +139,7 @@
       "episode": "the rowdyruff boys",
       "description": "Mojo Jojo is so outraged at his constant defeats against the Powerpuff Girls that he decides to beat them at their own games, by creating The Rowdyruff Boys, who prove superior fighters to the girls.",
       "imdbLink": "/title/tt0677599/?ref_=ttep_ep12",
+      "fandomLink": "The_Rowdyruff_Boys_(episode)",
       "word_count_for_line": 1086
     },
     "13.": {
@@ -150,6 +154,7 @@
       "episode": "stuck up, up, and away",
       "description": "\"Stuck Up, Up, and Away\" Bratty little Princess comes to town and wants to be a Powerpuff Girl. When she doesn't get what she wants, the Girls will have to pay.",
       "imdbLink": "/title/tt0789619/?ref_=ttep_ep1",
+      "fandomLink": "Stuck_Up,_Up,_and_Away",
       "word_count_for_line": 1199
     },
     "1.2": {
@@ -180,6 +185,7 @@
       "episode": "too pooped to puff",
       "description": "Fed up with the citizens taking them for granted, the girls decide to go on strike until the townsfolk learn how to do things themselves.",
       "imdbLink": "/title/tt0788759/?ref_=ttep_ep3",
+      "fandomLink": "Too_Pooped_to_Puff",
       "word_count_for_line": 932
     },
     "4.1": {
@@ -192,6 +198,7 @@
       "episode": "down 'n dirty",
       "description": "Buttercup keeps refusing to take a bath, which eventually causes her to get so dirty nobody wants her around anymore. Not even the monsters.",
       "imdbLink": "/title/tt0677580/?ref_=ttep_ep4",
+      "fandomLink": "Down_%27n%27_Dirty",
       "word_count_for_line": 477
     },
     "5.1": {
@@ -204,6 +211,7 @@
       "episode": "you snooze, you lose",
       "description": "Mojo Jojo's plans for destroying the Powerpuff Girls fall into the hands of Townsville's lousiest criminals-- the Amoeba Boys.",
       "imdbLink": "/title/tt0677585/?ref_=ttep_ep5",
+      "fandomLink": "You_Snooze,_You_Lose",
       "word_count_for_line": 833
     },
     "6.1": {
@@ -258,6 +266,7 @@
       "episode": "the powerpuff girls' best rainy day adventure ever",
       "description": "It's raining in Townsville and there is no crime or villainy afoot. So the Girls must stay inside and come up with their very own Powerpuff adventure.",
       "imdbLink": "/title/tt1444198/?ref_=ttep_ep10",
+      "fandomLink": "The_Powerpuff_Girls%27_Best_Rainy_Day_Adventure_Ever",
       "word_count_for_line": 1376
     },
     "10.2": {
@@ -294,6 +303,7 @@
       "episode": "something's a ms.",
       "description": "Miss Bellum is acting very strange lately. And she keeps showing up at crime scenes. It turns out that Sedusa is back, has kidnapped Ms. Bellum and has been impersonating her in order to steal money and jewels.",
       "imdbLink": "/title/tt0677597/?ref_=ttep_ep13",
+      "fandomLink": "Something%27s_a_Ms.",
       "word_count_for_line": 1092
     },
     "13.2": {
@@ -351,6 +361,7 @@
       "episode": "gettin' twiggy with it",
       "description": "Mitch is told to take care of Twiggy, the class hamster for the weekend. But the Girls don't trust him and follow him home. When Mitch flushes Twiggy down the toilet, the Girls are about to attack, but Twiggy emerges bigger and badder than ever.",
       "imdbLink": "/title/tt0677588/?ref_=ttep_ep5",
+      "fandomLink": "Gettin%27_Twiggy_With_It",
       "word_count_for_line": 472
     },
     "5.2": {
@@ -369,6 +380,7 @@
       "episode": "monkey see, doggie two",
       "description": "Mojo decides to repeat past mistakes and brush off his plan from Monkey See, Doggie Do.",
       "imdbLink": "/title/tt1485647/?ref_=ttep_ep6",
+      "fandomLink": "Monkey_See,_Doggy_Two",
       "word_count_for_line": 845
     },
     "7.1": {
@@ -405,11 +417,17 @@
       "episode": "ploys r' us",
       "description": "When the Professor starts sleepwalking and begins stealing toys for the girls, the girls gladly allow him to continue rather than report it.",
       "imdbLink": "/title/tt1485636/?ref_=ttep_ep9",
+      "fandomLink": "Ploys_R%27_Us",
       "word_count_for_line": 803
+    },
+    "10.1": {
+      "episode": "the headsucker's moxy",
+      "description": "There's a mysterious villain in town who's sucking pertinent information from the brains of powerful people and committing crimes. How do the Girls trap this sucker before his next victim is drained?",
+      "word_count_for_line": 652
     },
     "10.2": {
       "episode": "equal fights",
-      "description": "There's a mysterious villain in town who's sucking pertinent information from the brains of powerful people and committing crimes. How do the Girls trap this sucker before his next victim is drained?",
+      "description": "A villainess named Femme Fatale convinces the Powerpuff Girls to hate men so she can steal all of the Susan B. Anthony coins in Townsville.",
       "imdbLink": "/title/tt1392928/?ref_=ttep_ep10",
       "word_count_for_line": 1255
     },
@@ -417,6 +435,7 @@
       "episode": "powerprof.",
       "description": "The Girls are so busy fighting crime that the Professor doesn't get to see them anymore. He creates a super suit for himself so he can fight crime with them. The Girls are having a great time with their dad until he starts cramping their superhero style.",
       "imdbLink": "/title/tt1486132/?ref_=ttep_ep11",
+      "fandomLink": "Powerprof.",
       "word_count_for_line": 878
     },
     "12.1": {
@@ -522,6 +541,7 @@
       "episode": "power-noia",
       "description": "The Girls have become paralyzed by their greatest fears. Who could be behind such an evil trick?",
       "imdbLink": "/title/tt1486131/?ref_=ttep_ep12",
+      "fandomLink": "Power-Noia",
       "word_count_for_line": 1595
     }
   },
@@ -530,6 +550,7 @@
       "episode": "monstra-city",
       "description": "When all the Monsters move from Monster Isle to Townsville it's up to the Girls to keep the peace.",
       "imdbLink": "/title/tt0677596/?ref_=ttep_ep1",
+      "fandomLink": "Monstra-City",
       "word_count_for_line": 1035
     },
     "1.2": {
@@ -585,6 +606,7 @@
       "episode": "pee pee g's",
       "description": "When the Girls wake up to discover their bed is wet, none want to admit that they are the guilty party.",
       "imdbLink": "/title/tt1485644/?ref_=ttep_ep6",
+      "fandomLink": "Pee_Pee_G%27s",
       "word_count_for_line": 1093
     },
     "6.2": {
@@ -597,6 +619,7 @@
       "episode": "see me, feel me, gnomey",
       "description": "In this musical, the girls are outmatched by Townsville's villains. They turn to Gnomey to bring peace to Townsville in exchange for their powers, but, when the city falls under the rule of Communism, it's up to the girls to stop him.",
       "imdbLink": "/title/tt0821359/?ref_=ttep_ep7",
+      "fandomLink": "See_Me,_Feel_Me,_Gnomey",
       "word_count_for_line": 1706
     },
 
@@ -646,7 +669,8 @@
       "episode": "bang for your buck",
       "description": "The girls compete against the Gangreen Gang to see who can save enough money to buy a destructo ray from Mojo's garage sale.",
       "imdbLink": "/title/tt1485633/?ref_=ttep_ep13",
-      "word_count_for_line": 168
+      "fandomLink": "Bang_For_Your_Buck",
+      "word_count_for_line": 1126
     },
     "14.1": {
       "episode": "silent treatment",
@@ -658,6 +682,7 @@
       "episode": "sweet 'n sour",
       "description": "The girls have to fight Townsville's newest criminal gang - a group of cuddly little animals.",
       "imdbLink": "/title/tt1485646/?ref_=ttep_ep14",
+      "fandomLink": "Sweet_%27N_Sour",
       "word_count_for_line": 926
     }
   },
@@ -666,19 +691,21 @@
       "episode": "prime mates",
       "description": "Back when Mojo Jojo tried to take over the world with primates, there was one monkey who didn't get his due-Mopey Popo. Now Mopey is back to try and be evil just as Mojo intended.",
       "imdbLink": "/title/tt1485645/?ref_=ttep_ep1",
-      "word_count_for_line": 32
+      "word_count_for_line": 856
     },
     "1.2": {
       "episode": "coupe d'etat",
       "description": "Professor Utonium upgrades his car, and makes it into a Kinetic Automatic Robotic Roadster, or a 'K.A.R.R.' for short. The girls realize that K.A.R.R is taking the Professor away from them, both figuratively and literally.",
       "imdbLink": "/title/tt1485645/?ref_=ttep_ep1",
-      "word_count_for_line": 228
+      "fandomLink": "Coupe_d%27etat",
+      "word_count_for_line": 729
     },
     "2.1": {
       "episode": "makes zen to me",
       "description": "When Buttercup gets a fortune cookie saying that \"Peace Lies Within\" the most violent of Powerpuffs sets out on a quest for inner peace.",
       "imdbLink": "/title/tt1485640/?ref_=ttep_ep2",
-      "word_count_for_line": 423
+      "fandomLink": "Makes_Zen_to_Me",
+      "word_count_for_line": 865
     },
     "2.2": {
       "episode": "say uncle",
@@ -702,12 +729,14 @@
       "episode": "mo' linguish",
       "description": "Mojo is sentenced to do community service for Townsville and begins teaching English at the Learning Annex. Soon everyone is speaking in circles like Mojo and the town comes to a standstill.",
       "imdbLink": "/title/tt1485641/?ref_=ttep_ep4",
+      "fandomLink": "Mo%27_Linguish",
       "word_count_for_line": 1761
     },
     "4.2": {
       "episode": "oops, i did it again",
       "description": "The Professor dreams he had made three normal little girls after realizing all of his successes are mere accidents.",
       "imdbLink": "/title/tt1485641/?ref_=ttep_ep4",
+      "fandomLink": "Oops,_I_Did_It_Again",
       "word_count_for_line": 1011
     },
     "5.": {
@@ -752,6 +781,7 @@
       "episode": "that's not my baby",
       "description": "The girls try to prove to the Professor that they are capable of having a pet.",
       "imdbLink": "/title/tt1383667/?ref_=ttep_ep9",
+      "fandomLink": "That%27s_Not_My_Baby",
       "word_count_for_line": 1023
     },
     "9.2": {
@@ -782,13 +812,14 @@
       "episode": "crazy mixed up puffs",
       "description": "The girls must literally work as one to try and stop Mojo from destroying Townsville.",
       "imdbLink": "/title/tt1481910/?ref_=ttep_ep12",
-      "word_count_for_line": 113
+      "fandomLink": "Crazy_Mixed-Up_Puffs",
+      "word_count_for_line": 1075
     },
     "12.2": {
       "episode": "mizzen in action",
       "description": "In this episode, Pirate Crack McCraigen and his crew mistake Chemical X for treasure (since 'X' marks the spot) when they are mysteriously transported to the present, leaving the girls to fight these powered pirates to get the professor back and the pirates back into the past. ",
       "imdbLink": "/title/tt1481910/?ref_=ttep_ep12",
-      "word_count_for_line": 545
+      "word_count_for_line": 972
     },
     "13.1": {
       "episode": "roughing it up",
@@ -800,12 +831,14 @@
       "episode": "what's the big idea?",
       "description": "Mojo Jojo makes the girls giants so that they can’t stop his crimes without causing massive collateral damage and it’s up to the Professor to save the day.",
       "imdbLink": "/title/tt1093704/?ref_=ttep_ep13",
+      "fandomLink": "What%27s_the_Big_Idea%3F",
       "word_count_for_line": 463
     },
     "14.1": {
       "episode": "nuthin' special",
       "description": "Frustrated with not knowing what her Special Power is, Buttercup Hunts to discover what makes her special.",
       "imdbLink": "/title/tt1485643/?ref_=ttep_ep14",
+      "fandomLink": "Nuthin%27_Special",
       "word_count_for_line": 588
     },
     "14.2": {
@@ -818,6 +851,7 @@
       "episode": "i see a funny cartoon in your future",
       "description": "The Girls have the rare task of fighting a Medium who is committing petty thefts.",
       "imdbLink": "/title/tt0677589/?ref_=ttep_ep15",
+      "fandomLink": "I_See_A_Funny_Cartoon_in_Your_Future",
       "word_count_for_line": 1673
     },
     "15.2": {

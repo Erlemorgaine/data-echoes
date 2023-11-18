@@ -625,12 +625,29 @@
       {
         "villain": "rowdyruff boys",
         "episode": "bang for your buck",
-        "word_count_for_line": 81
+        "word_count_for_line": 331
+      },
+      {
+        "villain": "mojo jojo",
+        "episode": "bang for your buck",
+        "word_count_for_line": 176
       }
     ]
   },
   "6": {
+    "1.1": [
+      {
+        "villain": "mojo jojo",
+        "episode": "prime mates",
+        "word_count_for_line": 469
+      }
+    ],
     "2.1": [
+      {
+        "villain": "mojo jojo",
+        "episode": "makes zen to me",
+        "word_count_for_line": 210
+      },
       {
         "villain": "fuzzy",
         "episode": "makes zen to me",
@@ -737,7 +754,7 @@
       {
         "villain": "mojo jojo",
         "episode": "crazy mixed up puffs",
-        "word_count_for_line": 69
+        "word_count_for_line": 285
       }
     ],
     "13.1": [

@@ -1,10 +1,11 @@
 {
   "1": {
     "speakers": {
+      "253": 251,
       "blossom": 3215,
       "narrator": 2835,
       "mojo jojo": 2223,
-      "bubbles": 2164,
+      "bubbles": 2162,
       "buttercup": 1871,
       "professor": 1794,
       "mayor": 1747,
@@ -14,10 +15,9 @@
       "fuzzy": 353,
       "sedusa": 325,
       "man": 298,
-      "ms keane": 254,
-      "253": 251
+      "ms keane": 254
     },
-    "total": 18590
+    "total": 18643
   },
   "2": {
     "speakers": {
@@ -45,23 +45,22 @@
   },
   "3": {
     "speakers": {
-      "blossom": 3683,
+      "blossom": 3993,
       "professor": 2470,
-      "buttercup": 2097,
-      "bubbles": 1893,
-      "mayor": 1731,
+      "buttercup": 2189,
+      "bubbles": 1958,
+      "mayor": 1820,
       "mojo jojo": 1675,
-      "narrator": 1537,
+      "narrator": 1601,
       "princess morbucks": 687,
       "ms bellum": 465,
       "femme fatale": 350,
       "announcer": 315,
+      "man": 293,
       "woman": 280,
-      "brick": 275,
-      "man": 272,
-      "ms keane": 126
+      "brick": 275
     },
-    "total": 17856
+    "total": 18382
   },
   "4": {
     "speakers": {
@@ -78,50 +77,47 @@
       "princess morbucks": 661,
       "major glory": 630,
       "mayor": 428,
-      "robin": 285,
-      "ms bellum": 75
+      "robin": 285
     },
-    "total": 17905
+    "total": 17830
   },
   "5": {
     "speakers": {
-      "blossom": 3521,
-      "buttercup": 2256,
-      "professor": 1983,
-      "bubbles": 1973,
-      "narrator": 1184,
-      "mayor": 1145,
+      "blossom": 3670,
+      "buttercup": 2283,
+      "bubbles": 2086,
+      "professor": 2040,
+      "narrator": 1228,
+      "mayor": 1179,
       "brian": 1041,
       "brick": 915,
       "talking dog": 683,
+      "mojo jojo": 622,
       "princess morbucks": 608,
       "him": 542,
-      "mojo jojo": 446,
+      "man": 370,
       "gnome": 362,
-      "man": 354,
-      "powerpuff girls": 335,
+      "powerpuff girls": 336,
       "mr. green": 324,
+      "ace": 301,
       "bossman": 273,
-      "ms keane": 271,
-      "ms bellum": 44
+      "ms keane": 271
     },
-    "total": 18260
+    "total": 19134
   },
   "6": {
     "speakers": {
-      "professor": 3123,
-      "blossom": 3026,
-      "narrator": 2887,
-      "buttercup": 2182,
-      "bubbles": 1975,
-      "mojo jojo": 1958,
-      "mayor": 1344,
+      "professor": 3579,
+      "blossom": 3545,
+      "narrator": 3005,
+      "mojo jojo": 2853,
+      "buttercup": 2433,
+      "bubbles": 2167,
+      "mayor": 1386,
       "sedusa": 346,
       "man": 344,
-      "ace": 257,
-      "ms keane": 219,
-      "ms bellum": 184
+      "ace": 257
     },
-    "total": 17845
+    "total": 19915
   }
 }

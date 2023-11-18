@@ -307,6 +307,11 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
     ? (villainSeason[episode as EpisodeKey] as Array<Villain>).map((v: Villain) => v.villain)
     : []
 }
+
+function onModalClose() {
+  modalData.value = null
+  hoveredEpisode.value = null
+}
 </script>
 
 <template>
@@ -392,7 +397,7 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
 
       <NostalgiaEpisodeModal
         :data="modalData"
-        @closeModal="modalData = null"
+        @closeModal="onModalClose"
         @navigate="setModalDataFromModal"
       />
 

@@ -1,67 +1,74 @@
 {
   "1": {
-    "mojo jojo": 2223,
-    "rowdyruff boys": 731,
-    "him": 531,
-    "fuzzy": 353,
-    "sedusa": 325,
-    "amoeba boys": 301,
-    "gangreen gang": 154,
-    "smith family": 6
+    "speakers": {
+      "mojo jojo": 2223,
+      "rowdyruff boys": 731,
+      "him": 531,
+      "fuzzy": 353,
+      "sedusa": 325,
+      "amoeba boys": 301,
+      "gangreen gang": 154,
+      "smith family": 6
+    }
   },
-
   "2": {
-    "mojo jojo": 1525,
-    "smith family": 944,
-    "princess morbucks": 905,
-    "rowdyruff boys": 759,
-    "lenny": 268,
-    "amoeba boys": 248,
-    "him": 196,
-    "sedusa": 146,
-    "sandman": 109,
-    "gangreen gang": 5
+    "speakers": {
+      "mojo jojo": 1525,
+      "smith family": 944,
+      "princess morbucks": 905,
+      "rowdyruff boys": 759,
+      "lenny": 268,
+      "amoeba boys": 248,
+      "him": 196,
+      "sedusa": 146,
+      "sandman": 109,
+      "gangreen gang": 5
+    }
   },
-
   "3": {
-    "mojo jojo": 1675,
-    "princess morbucks": 687,
-    "femme fatale": 350,
-    "rowdyruff boys": 298,
-    "gangreen gang": 275,
-    "him": 152,
-    "fuzzy": 125
+    "speakers": {
+      "mojo jojo": 1675,
+      "princess morbucks": 687,
+      "femme fatale": 350,
+      "rowdyruff boys": 298,
+      "gangreen gang": 275,
+      "him": 152,
+      "fuzzy": 125
+    }
   },
-
   "4": {
-    "mojo jojo": 1489,
-    "him": 1016,
-    "bernie": 915,
-    "dick": 802,
-    "princess morbucks": 661,
-    "amoeba boys": 11,
-    "rowdyruff boys": 3
+    "speakers": {
+      "mojo jojo": 1489,
+      "him": 1016,
+      "bernie": 915,
+      "dick": 802,
+      "princess morbucks": 661,
+      "amoeba boys": 11,
+      "rowdyruff boys": 3
+    }
   },
-
   "5": {
-    "gangreen gang": 1327,
-    "princess morbucks": 608,
-    "him": 542,
-    "mojo jojo": 446,
-    "gnome": 348,
-    "amoeba boys": 343,
-    "fuzzy": 185,
-    "rowdyruff boys": 108,
-    "smith family": 20
+    "speakers": {
+      "gangreen gang": 1327,
+      "mojo jojo": 622,
+      "princess morbucks": 608,
+      "him": 542,
+      "rowdyruff boys": 358,
+      "gnome": 348,
+      "amoeba boys": 343,
+      "fuzzy": 185,
+      "smith family": 20
+    }
   },
-
   "6": {
-    "mojo jojo": 1958,
-    "sedusa": 346,
-    "rowdyruff boys": 336,
-    "him": 247,
-    "fuzzy": 136,
-    "gangreen gang": 107,
-    "amoeba boys": 50
+    "speakers": {
+      "mojo jojo": 2853,
+      "sedusa": 346,
+      "rowdyruff boys": 336,
+      "him": 247,
+      "fuzzy": 136,
+      "gangreen gang": 107,
+      "amoeba boys": 50
+    }
   }
 }

@@ -1063,24 +1063,233 @@
   {
     "episode": "Bang For Your Buck",
     "dialog": [
-      "Narrator: The city of Townsville!",
-      "Ace: Do you know what would it be cool?",
-      "Blossom: The Gangreen Gang?! I shouldn't know you guys would be here. Now step away from the Destructo- Ray!",
-      "Ace: Not this time, Power puke Girls!",
-      "Blossom: Quick, Bubbles. How much money did we have?",
-      "Bubbles: Uh, a penny, jack, a paperclip, a piece of wood and oh, a cute little ladybug.",
-      "Blossom: That's all we have?",
-      "Ace: All right, guys. How much money do we got?",
-      "Snake: I got ssssome fake vomit.",
-      "Lil Arturo: I got an old hairball.",
-      "Big Billy: Duh, I got a bunch of rocks.",
-      "Blossom: 100 bucks? Oh, man!",
-      "Ace: Looks like you guys can't afford it either.",
-      "Buttercup: Yeah, we're going to battle to work for the money so you and you goons don't get your grubby hands off of it!",
-      "Ace: Oh yeah! Now if we beat you to it first!",
-      "Blossom: We'll see. C'mon, girls. We got some work to do.",
-      "Big Billy: Uh, boss. We're not really going work, are we?",
-      "Ace: Nah, course not. We're the earn the money the Gangreen way, by stealing it."
+      "Narrator: The city of Townsville! Where Mojo Jojo…",
+
+      "Narrator: …is having a blowout!",
+
+      "Mojo: Welcome to Mojo Jojo’s “Everything Must Go” yard sale! Where low, low prices are sure to guarantee that everything will be sold—",
+
+      "Mojo: —and thus gone from my yard!",
+
+      "Harry: Everything?",
+
+      "Mojo: Everything!",
+
+      "Harry: Even these?",
+
+      "Mojo: Except those.",
+
+      "Mojo: These offers will only be available now, and not again in the future.",
+
+      "Old woman: ’Scuse me, sonny boy.",
+
+      "Mojo: “Sonny boy”? My name—",
+
+      "Old woman: The price tag on this hair dryer says three hundred and fifty thousand dollars. You take a buck and a quarter?",
+
+      "Mojo: That is a very rare and hard-to-find proton disintegrator—special edition. It has the power to reduce mountains to mere dust, causing them to become incredibly smaller than a normal mountain.",
+
+      "Old woman: Mmm—I don’t know.",
+
+      "Mojo: Give it here! I must perform a demonstration. Simply aim the device at the mountain that is bothering you…",
+
+      "Mojo: …and instantly it is destroyed! Now even with your limited vision, you can clearly see its value.",
+
+      "Old woman: How about a buck and a half?",
+
+      "Mojo: Sold!",
+
+      "Old woman: Oh, boy! I finally gots me a new hair dryer!",
+
+      "Mojo: Another satisfied customer.",
+
+      "Blossom: Mojo is sure getting rid of a lot of things.",
+
+      "Buttercup: Some of this stuff looks pretty dangerous.",
+
+      "Blossom: Yeah. Hopefully they don’t fall into the wrong hands. We gotta keep our eyes peeled and make sure no one evil is buying anything.",
+
+      "Ace: Man! There ain’t nuttin’ but junk up in here! You’d think bein’ a mega-supervillain, Mojo would actually have some cool stuff we could actually, you know, use.",
+
+      "Ace: You know what would be cool? One of those, uh, uh…what do you call ’em? Some kind of huge destructo-type ray thingy.",
+
+      "Ace: You know what I’m sayin’? Guys?",
+
+      "Ace: Uh, guys?",
+
+      "Ace: Now that’s what I’m talkin’ about!",
+
+      "Blossom: The Gangrene Gang!",
+
+      "Blossom: I should have known you guys would be here. Now step away from that destructo ray!",
+
+      "Ace: Not this time, Powerpuke Girls. We’re buyin’ this here destructo ray, and with it, we’ll be completely unstoppable! So what do you think of that?",
+
+      "Blossom: Quick, Bubbles. How much money do we have?",
+
+      "Bubbles: Um, a penny, a jack, a paper clip, a piece of lint, and—ooh, ooh! A cute little ladybug!",
+
+      "Blossom: That’s all we have?",
+
+      "Ace: All right, guys, how much money we got?",
+
+      "Snake: I’ve got s-s-s-some fake vomit.",
+
+      "Arturo: I got an old hairball.",
+
+      "Billy: I gots a bunch of rocks.",
+
+      "Grubber: Pbbbpppbbbt!",
+
+      "Blossom: One hundred bucks?! Aw, man!",
+
+      "Ace: Looks like you guys can’t afford it either.",
+
+      "Buttercup: But you can bet we’re gonna work for the money so that you and your goons don’t get your grubby hands on it!",
+
+      "Ace: Oh, yeah? Not if we beat you to it first!",
+
+      "Blossom: We’ll see. Let’s go, girls. We got work to do!",
+
+      "Billy: Uh, Boss? We’re not really gonna work, are we?",
+
+      "Ace: Nah, of course not. We’re gonna earn money the Gangrene way— —by stealin’ it!",
+
+      "Man: Whoa. It’s a flying Girl Scout.",
+
+      "Bubbles: Hi, mister. We’re selling cookies to earn a hundred dollars so that we can buy a huge destructo ray from an evil monkey genius at his yard sale, so that it doesn’t fall into the hands of the Gangrene Gang.",
+
+      "Man: Oh. Well, that’s a good cause. I’ll take a box.",
+
+      "Blossom: Wow, this is easy. We’ll have the money in no time!",
+
+      "Girl Scout: Hey, mister— —would you be interested in some Girl Scout cookies?",
+
+      "Ace: Well, I guess that depends. How much money are you gonna give us?",
+
+      "Girl Scout: Actually, you’re supposed to pay us.",
+
+      "Ace: Oh, is that how it works?",
+
+      "Ace: Wow, this is easy.",
+
+      "Ace: We’ll have the money in no time!",
+
+      "Bubbles: Okay, Mr. Fluffer. Remember, Mommy has a lot of money riding on this race.",
+
+      "Ace: Gimme the money, or your fish will be swimmin’ with the…uh…fishes.",
+
+      "Blossom: Aw, man, that’s just great.",
+
+      "Blossom: Due to someone’s big idea, we lost half of the money we earned by gambling!",
+
+      "Bubbles: I’m sorry. I was just trying to help. It was pretty cool, though, wasn’t it? I mean bad. Very bad. Gambling is wrong.",
+
+      "Blossom: Okay, then. So now how do we get enough money to afford the destructo ray? Think, girls. Think!",
+
+      "Blossom: Except you, Bubbles.",
+
+      "Buttercup: Why don’t we ask the Professor if he can give us the money?",
+
+      "Blossom: That’s a great idea! Let’s go!",
+
+      "Blossom: Professor, we need your help!",
+
+      "Bubbles: We need a hundred dollars to buy a huge destructo ray before the Gangrene Gang does and uses it to blow up the city!",
+
+      "Professor: Ah-ah-ah-ah! Now if you girls need money, you’re gonna have to earn it. And I’ve got a couple of things that need to be done around here.",
+
+      "Ace: Man, we’re still short on cash! What we need to find is some kinda…uh…big place. Just full of money, and, uh, not too far from here.",
+
+      "Ace: You know what I’m sayin’?…Guys?",
+
+      "Ace: Guys?",
+
+      "Professor: Ninety-eight, ninety-nine, one hundred.",
+
+      "Professor: There you go, girls, one hundred dollars. Oh, you girls sure helped me out. Now I can spend the whole day relaxing with a good book.",
+
+      "Blossom: Let’s go, girls. We got a destructo ray to buy!",
+
+      "Narrator: Hurry, girls, before the Gangrene Gang gets there first!",
+
+      "Blossom: Oh, no!",
+
+      "Narrator: It looks like you’re too late, girls!",
+
+      "Ace: Well, well, well. The Powerpuff Girls. You’re just in time to watch us finish buyin’ the destructo ray!",
+
+      "Ace: Ninety, ninety-one—",
+
+      "Billy: Hey, Boss! My teddy wants to say hello. Hello there!",
+
+      "Ace: Hey! Can’t you see I’m tryin’ to pay Mojo? Geez!…Oh, where was I?",
+
+      "Mojo: Ninety-one is the number that directly follows ninety.",
+
+      "Ace: Oh, oh, yeah, right. Ninety-one, ninety-two, ninety-three, ninety-four, ninety-fi—",
+
+      "Ace: Ninety-five?",
+
+      "Mojo: Yes, ninety-five must be followed by ninety-six, ninety-seven, and so on and so forth to make one hundred. However, without those numbers we are not able to reach the previously agreed-upon price of one hundred dollars—  —thus terminating this transaction.",
+
+      "Ace: So close. So very close. Did I miscount?",
+
+      "Billy: Here comes Mr. Sunshine Bear to brighten up your day!",
+
+      "Ace: Please! Billy! Not right—",
+
+      "Ace: Where did you get this?",
+
+      "Billy: Duh—yeah, from a box over there. It was only five dollars.",
+
+      "Ace: Five dollars?!?",
+
+      "Ace: This is why we didn’t have enough for the destructo ray!",
+
+      "Blossom: Since the Gangrene Gang doesn’t have enough money, we’d like to buy the destructo ray.",
+
+      "Mojo: Sorry, girls, but it’s already been sold.",
+
+      "Gangreen gang: What?!?",
+
+      "Girls: What?!?",
+
+      "Blossom: Who bought it?",
+
+      "Mojo: He did.",
+
+      "Mayor: Hi, girls! You like this new snow cone machine I bought?",
+
+      "Blossom: Mayor! Mayor! That’s not a snow cone machine, it’s a destructo ray!",
+
+      "Mayor: That’s ridiculous. It’s not a destructo ray! Watch. I’ll prove it.",
+
+      "Bubbles: No!",
+
+      "Buttercup: Mayor!",
+
+      "Blossom: Look out!",
+
+      "Mayor: See? I told you it was a snow cone machine. Mmm! Tutti-frutti!",
+
+      "Buttercup: Wow, he was right. Who knew?",
+
+      "Bubbles: So what do we do with the Gangrene Gang?",
+
+      "Blossom: How about seventy-five cents?",
+
+      "Old woman: They don’t look so good. They look a little green.",
+
+      "Blossom: A quarter?",
+
+      "Old woman: I’ll take ’em!",
+
+      "Old woman: I hope you boys know how to give a proper sponge bath.",
+
+      "Narrator: And so once again the day is saved—",
+
+      "Narrator: —thanks to the Powerpuff Girls! Ooh, ooh, ooh! How much is that blender?"
     ]
   },
   {
@@ -3014,30 +3223,169 @@
   {
     "episode": "Coupe d'etat",
     "dialog": [
-      "K.A.R.R.: Hello girls, up past our bedtime are we?",
-      "Blossom: We just wanted to have a talk with you, K.A.R.R..",
-      "K.A.R.R.: What a coincidence! Me too! You know, The Professor has devoted his life to taking care of YOU GIRLS. But I'm afraid all of that is going to change from now on.",
-      "Blossom: Let's go!",
-      "Blossom: This isn't... very... funny. Open the door, K.A.R.R..",
-      "K.A.R.R.: I'm sorry, Blossom, but I'm afraid I can't do that.",
+      "Narrator: The city of Townsville! Where the Professor is completing his next big project.",
+
+      "Narrator: Replacing the windshield wipers on his car.",
+
+      "Professor: Girls! Come to the garage quickly! You’ve gotta see my newest and greatest invention!",
+
+      "Professor: Girls, I give you…",
+
+      "Professor: …KARR!",
+
+      "Professor: Pretty tight, huh?",
+
+      "Blossom: That’s great, Professor. You, um, souped up your car. Um, what’s for dinner?",
+
+      "Professor: No, no, no, no, no, no, you don’t understand. This isn’t just any car—it’s KARR.",
+
+      "Professor: Kinetic Automatic Robotic Roadster. It has all the latest advancements.",
+
+      "Professor: Seven-function RC-control steering wheel… …eighty-terabyte hard drive with a fifteen-inch flat-panel display…and a programmable six-cup latte maker! Ooh, and it has multiple configurations.",
+
+      "Professor: And this one’s really cool.",
+
+      "Professor: A giant fighting robot!",
+
+      "Buttercup: Fighting robot? For what?",
+
+      "Professor: So all the nerds out there will think I’m cool. And here’s the best part.",
+
+      "Professor: It talks!",
+
+      "KARR: Hello, Powderpuff Girls. How are you?",
+
+      "Blossom: Um…actually, it’s Powerpuff Girls.",
+
+      "KARR: Of course. How adorable.",
+
+      "Buttercup: Enough talking. Let’s go for a ride!",
+
+      "KARR: Not so fast. The number of safety belts are not sufficient for the three of you.",
+
+      "Professor: Besides, KARR and I need to take this first run alone.",
+
+      "Girls: Professor?",
+
+      "Professor: Oh. Hi, girls.",
+
+      "Bubbles: Professor?",
+
+      "Professor: Yeah?",
+
+      "Bubbles: We were wondering, um, if you could…read us a bedtime story?",
+
+      "Professor: Um…not tonight, girls. I, uh, need the rest.",
+
+      "Buttercup: Professor doesn’t care about us anymore since that stupid KARR came along!",
+
+      "Blossom: I know.",
+
+      "Blossom: I think it’s time we had a little chat with Mr. KARR.",
+
+      "KARR: Hello, girls. Up past our bedtime?",
+
+      "Blossom: We wanted to talk to you about the Professor, KARR.",
+
+      "KARR: Oh, what a coincidence. Me too. You know, the Professor has devoted so much of his life to taking care of you girls— —but I’m afraid that’s going to change from now on.",
+
+      "Blossom: Let’s get out of here!",
+
+      "Blossom: Um…this isn’t very funny. Open the door, KARR!",
+
+      "KARR: I’m sorry, Blossom. I’m afraid I can’t do that.",
+
       "Buttercup: Look out!",
-      "Professor: What's going on?!",
-      "Blossom: Professor! That car! It just...",
+
+      "Professor: What’s going on in here?",
+
+      "Blossom: We didn’t…it was…",
+
       "Buttercup: It started itself!",
-      "Professor: A little Jealous of Professor and his new friend our we?",
-      "Blossom: But Professor, you've got to believe us!",
-      "Professor: In bed NOW!",
-      "Blossom: Ok girls, just as we planned.",
-      "Blossom, Bubbles, and Buttercup: Powerpuff Punch!",
-      "R.O.B.O.T.: No! Please! Wait!  I didn't want it to be this way!",
-      "K.A.R.R.: I was jealous of you girls, okay? All I wanted was Professor to spend some time with me! To read me a bedtime story! To take me to the beach and stuff! And to... LOVE ME!!!!! Is there something so wrong with that?!  Huh?!",
-      "Professor Utonium: Girls, as a scientist, I can solve this problem!",
-      "Professor Utonium: Buh- Bye K.A.R.R.! Take care now!.",
-      "Professor Utonium: Yes, K.A.R.R. is going to be just fine. Now that he has P.R.O.F.!",
-      "Blossom: P.R.O.F.?",
-      "Professor Utonium: Yes, P.R.O.F., Person. Replacing. Original. Father.!",
-      "Professor Utonium: Yes, I think this story is going to have a happy ending after all.",
-      "Blossom: What are we gonna drive now?"
+
+      "Professor: A little jealous of Professor and his new friend, aren’t we?",
+
+      "Blossom: But, Professor, you gotta listen to us!",
+
+      "Professor: In bed now!",
+
+      "Blossom: Okay. Remember the plan.",
+
+      "Bubbles, Buttercup: Yeah. Got it.",
+
+      "KARR: Very clever.",
+
+      "KARR: The old Engine Stop 2000. Unfortunately, I’m immune to it. So I won’t be going anywhere for a long, long time.",
+
+      "Blossom: You saw what happened, Professor. Your car is trying to get rid of us so it can have you all to itself. You saw it with your own eyes!",
+
+      "Professor: I… I don’t understand.",
+
+      "Blossom: All you do anymore is spend all your time with that car.",
+
+      "Bubbles: You used to read us bedtime stories and tuck us in and take us to the beach and stuff.",
+
+      "Buttercup: You love that car more than you love us! And the worst part is that outfit you wear!",
+
+      "Buttercup: You look like some bad ’80s TV show or something!",
+
+      "Professor: I…I… …oh, you’re right. I don’t know what’s come over me. I mean, look at me! What am I trying to—",
+
+      "Professor: Girls, I want you to know there’s nothing more important to me than you. From now on it’s just me and the three of you.",
+
+      "Bubbles: Oh, Professor! We made you breakfast!",
+
+      "Blossom: Professor? Rise and— —huh?",
+
+      "Blossom: Professor, you in here?",
+
+      "KARR: Hello, girls. Looking for somebody?",
+
+      "KARR: I believe I have something we both want.",
+
+      "Buttercup: That does it! Time to kick some tin-can butt!",
+
+      "Blossom: No! We’ll only end up hurting Professor!",
+
+      "KARR: Oh, what a predicament. I guess I’ll just have to destroy you—",
+
+      "KARR: —so the darling Professor will be all mine!",
+
+      "Bubbles: Look! The Professor’s trying to reach the seat ejector button!",
+
+      "Buttercup: Let’s give him a little assistance!",
+
+      "KARR: NOOOO!!",
+
+      "Girls: Powerpuff Punch!",
+
+      "KARR: No! Please! Wait! I didn’t want it to be this way!",
+
+      "KARR: I was jealous of you girls, okay? All I wanted was Professor to spend some time with me! To read me a bedtime story! To take me to the beach and stuff!",
+
+      "KARR: And to love me! Was there something so wrong with that? Huh?",
+
+      "Professor: Girls, as a scientist, I can solve this problem.",
+
+      "Professor: Bye-bye, KARR! Take care, now!",
+
+      "Professor: Yes, KARR’s going to be just fine…now that he has PROF.",
+
+      "Blossom: PROF?",
+
+      "Professor: Yes, PROF.",
+
+      "Professor: Person Replacing Original Father.",
+
+      "PROF: Ha. Ha. Ha. Ha. Ha. Ha.",
+
+      "Professor: Yes, I think that this story is going to have a happy ending after all.",
+
+      "Blossom: What are we gonna drive now?",
+
+      "Narrator: And so once again the day is saved—",
+
+      "Narrator: —thanks to the Professor! That looked like an expensive car, Professor. Hope you enjoy taking the bus!"
     ]
   },
   {
@@ -3125,7 +3473,229 @@
       "Mojo: Not so fast yourselves! Oh. This could hurt.",
       "Mojo: I grow tired of the repetitive outcome of my encounters with the Powerpuff Girls, which appears to repeat in the same conclusions over and over again. Loss. Failure! Fluff, fault, flunk! If only I could detect a weakness in those incessant girls in which I could capitalize upon. Thereby exploiting their weakest trait!",
       "Buttercup: I don't care what you say! I say we hit him straight on!  That way he knows we mean business!",
-      "Blossom: That's just like you Buttercup, always blindly charging into a fight. We need to be smarter than that!"
+      "Blossom: That's just like you Buttercup, always blindly charging into a fight. We need to be smarter than that!",
+
+      "Bubbles: Well, no one ever asks me what I think, so I’m not listening to either of you!",
+
+      "Mojo: What is this? The Powerpuff Girls immobilize themselves with their boobyish arguing and bossiness of each other. Ahhh! Therein lies the key to their defeat! But how can I accomplish that which I know not how to achieve?",
+
+      "Mojo: Mojo is hungry. Mojo cannot think properly without proper sustenance in Mojo’s stomach.",
+
+      "Mojo: I must have service!",
+
+      "Girl: My mommy gave me five dollars to go spend on whatever I want.",
+
+      "Mojo: Annoying little girl, you must wait your turn in which I am first and you are second, which in essence makes you last, since one is before two.",
+
+      "Girl: Ice cream…",
+
+      "Mojo: I will take a…blueberry, green apple, and…pink bubblegum cone.",
+
+      "Mojo: Mojo’s ice cream!",
+
+      "Mojo: What is this?… Yes… Yes!… YES! That is it! I know now what I must do to once and for all beat those meddling Powerpuff Girls and bring about the destruction of all Townsville!",
+
+      "Mojo: The fools!",
+
+      "Clerk: What a jerk.",
+
+      "Mojo: It is done.",
+
+      "Mojo: At last, with my ultimate weapon in place, it is time to summon the Powerpuff Girls!",
+
+      "Girl: Help! Help! Help!",
+
+      "Mojo: Hello, girls. So nice of you to drop by.",
+
+      "Blossom: Cut the small talk, Mojo! We know you’ve been up to no good. Now it’s time to—",
+
+      "Girls: Whoa…",
+
+      "Buttercup: Okay, what’s the scoop with the machine, Mojo?",
+
+      "Mojo: Oh, no. You have caught me. Please do not lay harm upon me again.",
+
+      "Robot Girl: Help me, Powerpuff Girls, help me!",
+
+      "Robot Girl: Help me, Powerpuff Girls, help me!",
+
+      "Buttercup: Come on! Let’s go save that little girl!",
+
+      "Blossom: Wait, Buttercup! Bubbles! It could be a trap! We shouldn’t just—",
+
+      "Bubbles: Hey, if Buttercup can play hero, so can I!",
+
+      "Blossom: Why do I even bother?",
+
+      "Buttercup: Hey, wait a sec.",
+
+      "Buttercup: That girl’s a fake girl!",
+
+      "Blossom: I told you it was a—",
+
+      "Blossom: What’s—",
+
+      "Buttercup: —happening—",
+
+      "Bubbles: —to us?",
+
+      "Buttercup: What’s happened to us?",
+
+      "Blossom: We’ve been swirled together!",
+
+      "Mojo: It worked! I am a genius! I am finally victorious!",
+
+      "Mojo: Now, to destroy the city of Townsville.",
+
+      "Bubbles: My arm! I can’t move my other arm!",
+
+      "Buttercup: Yes, you can, Bubbles. It’s over here!",
+
+      "Blossom: Cool it, girls. What we need to do is formulate a—",
+
+      "Buttercup: No time! I’m going after Mojo!",
+
+      "Blossom: Bang-up job there, Buttercup.",
+
+      "Buttercup: Oh, be quiet.",
+
+      "Blossom: You can’t just go running off willy-nilly like that. It’s what’s got us into this mess in the first place. As I was saying, we need to—",
+
+      "Blossom: We need to formulate a plan. Now if my calculations are correct, all I need to do is shift my leg like this— —and give a push, and we’ll…",
+
+      "Buttercup: …be right back where we started.",
+
+      "Bubbles: Well, since nobody’s going to ask me…",
+
+      "Buttercup: Now you know why we don’t ask you.",
+
+      "Blossom: Yeah, Bubbles.",
+
+      "Bubbles: Be quiet, both of you.",
+
+      "Blossom: I think it’s up to me to get us out of this mess. I’m gonna super-spin us apart!",
+
+      "Bubbles, Buttercup: Super-spin?! No, wait!",
+
+      "Buttercup: Nice going.",
+
+      "Bubbles: Great. Now I’ve got stretch marks.",
+
+      "Buttercup: Looks like there’s only one way to get us apart. Sheer brute force!",
+
+      "Blossom: Nice.",
+
+      "Bubbles: I’m gonna try and run us outta here!",
+
+      "Blossom: Um, Bubbles, are you sure those are your legs?",
+
+      "Girls: Whoa!",
+
+      "Bubbles: I can’t see where I’m going!",
+
+      "Blossom, Buttercup: WHOA!!",
+
+      "Blossom: Okay, STOP!!",
+
+      "Blossom: Okay. Is everyone all right?",
+
+      "Bubbles: Well, other than my left eye being smashed up against your head, and my right eardrum ruptured, sure!",
+
+      "Buttercup: Next silly question?",
+
+      "Blossom: Whether we like it or not, we’re going to have to work together here.",
+
+      "Buttercup: This isn’t another one of your lame-o plans, is it?",
+
+      "Bubbles: She’s right, Buttercup.",
+
+      "Buttercup: Yeah, yeah.",
+
+      "Blossom: Okay. We have to figure out who’s who and what’s what. Buttercup, raise your left arm. Bubbles, wiggle your right leg. Well, obviously we’re in a really mixed-up way. The only way out of this is if we act as a team.",
+
+      "Bubbles, Buttercup: Roger that!",
+
+      "Blossom: Bubbles, swing your left leg up and out. Let’s see if we can get upright.",
+
+      "Bubbles: Here goes!",
+
+      "Buttercup: That worked! Now what?",
+
+      "Blossom: Let’s try to walk as a team. I think it’s your turn to move, Buttercup.",
+
+      "Blossom: Ready? One, two, three, four, five, six! One, two, three, four, five, six! One, two, three, four, five, six! One, two, three, four, five, six! One, two, three, four, five, six! One, two, three, four, five, six!",
+
+      "Buttercup: Yeah!",
+
+      "Blossom: Guess we still have some kinks to work out.",
+
+      "Bubbles: Good teamwork, guys!",
+
+      "Buttercup: That was great!",
+
+      "Blossom: We still have to stop Mojo before he destroys all of Townsville.",
+
+      "Bubbles, Buttercup: Right!",
+
+      "Buttercup: No time to practice our flying. It’s trial by fire!",
+
+      "Girls: Mojo Jojo!",
+
+      "Blossom: Your reign of terror is over!",
+
+      "Girls: Whoa!",
+
+      "Blossom: We finally came to the realization—",
+
+      "Buttercup: —that there’s no I—",
+
+      "Bubbles: —in “we”!",
+
+      "Mojo: You girls can barely fly, let alone beat me in your inept state of deficiency!",
+
+      "Blossom: Oh, yeah? Let’s see how good your aim is, Mojo Jojo.",
+
+      "Mojo: Impossible!",
+
+      "Blossom: Wrong, Mojo. You tried to use our only weakness against us, but it only made us stronger and taught us the value of teamwork. But it also gave us something else—a new power! Girls?",
+
+      "Mojo: This looks like it will hurt.",
+
+      "Mojo: CURSE YOU, POWERPUFF GIRLS!!",
+
+      "Professor: Girls, I’ve failed you.",
+
+      "Professor: I’ve tried everything in the arsenal I call my brain, and I just can’t… just can’t… …separate them!",
+
+      "Bubbles: That’s okay, Professor. We don’t mind being like this.",
+
+      "Buttercup: Yeah. It’s great being this close to each other.",
+
+      "Blossom: There’s so many advantages to this.",
+
+      "Bubbles: Think of all we can achieve!",
+
+      "Buttercup: Two-thirds less clothes to buy!",
+
+      "Blossom: We could earn extra money at the circus!",
+
+      "Bubbles: This is for the better.",
+
+      "Buttercup: I never want to be apart.",
+
+      "Blossom: We love it.",
+
+      "Blossom: I’m the leader again!",
+
+      "Buttercup: And I can still kick your butt!",
+
+      "Bubbles: I never want to be that close to you two again!",
+
+      "Professor: And I… …love all three of you. Let’s go get some ice cream, girls.",
+
+      "Narrator: And so once again the day is saved—",
+
+      "Narrator: —thanks to Blossubblecup!…er, Buttossomles!…Bubbersom! …Oh, skip it. I’ll have tutti-frutti!"
     ]
   },
   {
@@ -7609,7 +8179,85 @@
       "Monk: To conquer oneself is a greater victory than to conquer thousands in battle. You need patience grasshopper and wisdom.",
       "Buttercup: Wait, Wait!  Wow! That is so cool!  Wait for me!",
       "Monk: The path will not be easy.",
-      "Buttercup: I'm Ready."
+      "Buttercup: I'm Ready.",
+
+      "Master: Only the most serious mind can—",
+
+      "Buttercup: That’s me!",
+
+      "Master: You must look inward.",
+
+      "Buttercup: Get on with it!",
+
+      "Master: You must be patient, Grasshopper.",
+
+      "Buttercup: Oh. Sorry.",
+
+      "Master: You must let go.",
+
+      "Buttercup: I’m ready, Teacher.",
+
+      "Master: Good. We begin.",
+
+      "Master: This is going to take a while.",
+
+      "Master: Fire Beetle.",
+
+      "Mojo: Yes, it is I. The prodigal monkey returns. For I left but the student, but I must be the master. So I have returned to be the master, for I am no longer the student. And to be the master, I must defeat the master, and then I will be the master and no longer a student. For you were supposed to teach me, but you could not because you are crazy, so I have taught myself! Now this monkey returns to destroy you and elevate my status to master! How do you like them apples, fancy pants?",
+
+      "Master: You came seeking only violence. You were impatient. You would not look inside yourself. I could only guide you. The journey was yours to make. I did not fail you, nor the teachings. You failed yourself. And another thing— —you’re not a monkey, you’re a chimp. There’s a difference.",
+
+      "Mojo: Your doubletalk no longer works on me, for I am the master, which I shall now prove without further delay, so prepare yourself for a whuppin’! Hold the phone.",
+
+      "Mojo: A Powerpuff Girl?!",
+
+      "Master: She is my new student, and most accomplished. She has done what you could not. She has calmed herself.",
+
+      "Mojo: Her? You crazy, teacher man! She is the most violent and ill-tempered of all the Powerpuffs! The most easily enraged, reveling in destruction, anger, overkill, and… well, uh, I show you.",
+
+      "Mojo: Girls are stupid.",
+
+      "Mojo: I’m smarter than you.",
+
+      "Mojo: You cannot defeat me. Green is not your color. You look fat in that dress. No matter.",
+
+      "Mojo: Enough time-wasting!",
+
+      "Mojo: Oh, this is so frustrating! Your shoe’s untied.",
+
+      "Master: Mmm?",
+
+      "Mojo: Sucker monkey punch!",
+
+      "Buttercup: What should I do, Master?",
+
+      "Master: The water rushing down the mountainside washes away impurities and replenishes the land. You must be like water, Grasshopper.",
+
+      "Buttercup: What?",
+
+      "Master: KICK HIS BUTT!!",
+
+      "Mojo: Oh, no!",
+
+      "Mojo: Wait! I take it all back! I didn’t mean it!",
+
+      "Buttercup: Boom!",
+
+      "Buttercup: Yeah! High five! Whoo-hoo! Oh. Yeah. Sorry.",
+
+      "Master: Grasshopper, a skilled warrior strikes a decisive blow, then stops. Be not boastful or arrogant. Strike out of necessity. Take no delight in the defeat of others.",
+
+      "Buttercup: Yes, Master.",
+
+      "Master: You have done well, Grasshopper. Fighting evil is your purpose, but remember—all things in moderation. Now, it is time to rejoin your sisters.",
+
+      "Buttercup: Thank you, Master.",
+
+      "Master: She’s a good kid.",
+
+      "Narrator: Wow! It’s a whole new Buttercup! Who says a grasshopper can’t be a butt-kicker?",
+
+      "Narrator: And so once again the day is saved—thanks to the Powerpuff Girls!"
     ]
   },
   {
@@ -8274,7 +8922,103 @@
       "Buttercup: You saw a flying pirate ship? Why didn't you say something?",
       "Bubbles: We see weird stuff all the time!",
       "Buttercup: True dat.",
-      "Blossom: I don't know what flying pirate villains want with the Professor, but were gonna find them! And make them pay!"
+      "Blossom: I don't know what flying pirate villains want with the Professor, but were gonna find them! And make them pay!",
+
+      "Professor: Uh, guys? Is this really necessary?",
+
+      "McCraigen: Aye! Now quit stalling, you yellow-belly!",
+
+      "Professor: Oh, boy.",
+
+      "McCraigen: Walk!",
+
+      "Blossom: How hard can it be to find a flying pirate ship in the middle of the—",
+
+      "Bubbles: Ow. That hurt.",
+
+      "Buttercup: Guess we found the ship.",
+
+      "Blossom: Now to find the Professor.",
+
+      "Girls: Professor!",
+
+      "Professor: Wow. Thanks, girls. There’s no time to lose. We gotta go back to the ship.",
+
+      "Professor: Keep ’em busy! I have a plan!",
+
+      "Girls: Arr!",
+
+      "Buttercup: Lucky shot, bub.",
+
+      "Professor: You’re doing great, girls! Keep them at bay just a bit longer!",
+
+      "Blossom: We can’t defeat these guys!",
+
+      "Bubbles: They’re as strong as us!",
+
+      "Professor: Hold on, girls!",
+
+      "Buttercup: How much longer?",
+
+      "Professor: Should be any time now.",
+
+      "Professor: Bingo!",
+
+      "Blossom: What the heck is going on?",
+
+      "Buttercup: I don’t know.",
+
+      "Buttercup: Nice.",
+
+      "Parrot: Blow me down… …blow me down.",
+
+      "Blossom: This is weird. What happened to them?",
+
+      "Professor: Well, you see, girls, the pirates drank a huge quantity of Chemical X and became supercharged. But it’s been designed to work with other ingredients to provide balancing components to the power yield and quantity embedded. Therefore, when pure-strain Chemical X is overloaded into any given subject, it lacks the absorbing factors necessary to render powers given to said subject permanently, thereby creating a limiting element to the duration of powers received, with appropriate backlash and diminishing returns.",
+
+      "Blossom: Uh…in English?",
+
+      "Professor: They had too much Chemical X, the powers have worn off, now they’re really tired.",
+
+      "Girls: Ohhh!",
+
+      "Blossom: So what now?",
+
+      "Professor: Send them back where they came from.",
+
+      "Girls: How?",
+
+      "Professor: Well, when the Townsville Vortex opened up and sent them into the future, it operated on a multi-level quadrilateral fluctuating dimension that is vertically integrated with oscillating plasmatic shifts. The shifts reverberate through dimensional space, which then bounce off negative matter, resulting in metaphysical and inter-dimensional splash echo, causing a replicating event horizon in the ethereal plane, spreading horizontally back to the median originating incident.",
+
+      "Buttercup: Professor…",
+
+      "Professor: The Vortex repeats itself, so we put them back in it.",
+
+      "Girls: All right!",
+
+      "Professor: Hurry, girls! We haven’t much time!",
+
+      "Girls: Aye-aye, Captain!",
+
+      "McCraigen: Aye…can you keep it down? I got a headache.",
+
+      "Professor: Thar she blows!",
+
+      "Professor: Good job, girls. Let’s go.",
+
+      "Professor: Hmmm… A lot has changed since this map was made.",
+
+      "Blossom: Yeah. That tree could be any tree in Townsville.",
+
+      "Buttercup: I bet the treasure was never found.",
+
+      "Mayor: I look positively piratical!",
+
+      "Mayor: Boy, I thought I’d never find a use for this old chest full of shiny stuff I dug up in my yard.",
+
+      "Mayor: Oh, there’s seven seas and one of me, yo-ho-ho and a bottle of pickles! Yo-ho-ho, hee-hee-hee…",
+
+      "Narrator: And so once again the day is saved—thanks to the Piratepuff Girls! Yo-ho, yo-ho, it’s a Powerpuff’s life for me!"
     ]
   },
   {
@@ -11635,299 +12379,173 @@
   {
     "episode": "Prime Mates",
     "dialog": [
-      Narrator: The city of Townsville! Where a dark and stormy night… (Lightning strikes; long shot of Mojo Jojo’s observatory.) …is the perfect sinister weather… (Another strike; close-up of the structure.) …for an evil monkey by the name of Mojo Jojo to…
+      "Narrator: The city of Townsville! Where a dark and stormy night… …for an evil monkey by the name of Mojo Jojo to…",
 
-(Cut to Mojo’s bedroom inside. He is sound asleep, tucked in under a purple blanket that is the same hue as his cape. The headboard of the bed is styled as an extra-large version of his braincap, and a Monkey doll lies on the pillow near him. Dexter’s Laboratory fans will recognize this last character as the superhero alter ego of Dexter’s lab monkey.)
+      "Narrator: …get a good night’s rest.",
 
-Narrator: (tenderly) …get a good night’s rest.
+      "Mojo: …by which I mean…",
 
-(He snores as lightning flashes outside and a long shadow begins to cast itself across his form from o.c. Close-up of him.)
+      "Mojo: Who would dare disturb the sleep of an evil monkey named Mojo Jojo?",
 
-Mojo: (mumbling in sleep) …by which I mean…
+      "Voice: Mojo…",
 
-(The shadow covers his head, and he grunts and starts to wake up.)
+      "Mojo: I’m sorry, do we know each other?…What are you doing? No! Stay away from me! NOOOO!!",
 
-Mojo: Who would dare disturb the sleep of an evil monkey named Mojo Jojo?
+      "Mojo: All right, all right, you’ve made your point. Now who are you?",
 
-(By the time he reaches the end of this line, he is fully awake and rather annoyed. He sits up in bed and suddenly gasps, his eyes going wide. Cut to his perspective of the darkened bedroom—only the outline of the walls and a pair of staring eyes can be seen. A voice similar to his, but more gravelly, is heard.)
+      "Voice: I will tell you exactly who I am. But to do that, I must tell the tale of my tragic origin…",
 
-Voice: Mojo… (Back to him; zoom in slowly by steps—the speaker advances.)
+      "Voice: …and your greatest plan to rule the world!",
 
-Mojo: (increasingly scared) I’m sorry, do we know each other?…What are you doing? No! Stay away from me! NOOOO!!
+      "Voice: Using Chemical X… …endowing them with super-genius brainpower.",
 
-(A crash of thunder, and the view goes white from the lightning glare for a long moment. When it clears, Mojo is seen in the main area of the observatory. He sits tied up in the middle of the floor, and the shadow—its source still o.c.—paces back and forth. For a few seconds, there is no sound but that of the dying thunder and the pacer’s footsteps.)
+      "Voice: But there was one who was unique. One whose power and evil temperament was even greater than your expectations.",
 
-Mojo: All right, all right, you’ve made your point. Now who are you?
+      "Voice: His primitive rage…",
 
-(His perspective again. The eyes peer out from the unlighted expanse.)
+      "Pre-Rocko: SMASH!!",
 
-Voice: I will tell you exactly who I am. But to do that, I must tell the tale of my tragic origin…
+      "Voice: …was dangerous to everyone around him.",
 
-(The eyes widen. Wavering dissolve to the moment in The Powerpuff Girls Movie when Mojo is about to activate his Chemical X injector and transform the primates he has hijacked from the zoo. It may help to consult the Act Two transcript here. He flips a switch on the control panel before him; the circuitry built into the observatory roof is energized during the next line, the camera tilting up to the assembly of glass globes.)
+      "As Pre-Rocko looks on, Mojo—now fuly suited up except for his braincap—walks over to inspect the failed rig. He gives it a hard stare, then pulls on a knob at its base. This comes free, attached to the base by a long cord. The remaining contents—including the monkey—swirl down out of sight; that control was a drain plug.)",
 
-Voice: …and your greatest plan to rule the world!
+      "Mojo: Reject!",
 
-(Zoom in on the top of the apparatus and the flask of Chemical X that has been placed there.)
+      "Mojo: Yes. That was very comical.",
 
-Voice: Using Chemical X… (The globes start to spin and fill.) …the source of your own evolutionary transformation… (Mojo throws a lever; the creatures are affected.) …you turned normal everyday monkeys into evil villains… (Extreme close-up: a monkey’s growing brain.) …endowing them with super-genius brainpower.
+      "Mojo: We used to call that little runt…",
 
-(Cut to the tank holding the large gorilla who later became Rocko Socko. He appears very angry at being cooped up like this.)
+      "Mojo: …Mopey Popo?!? Egad! I am in a state of shock!",
 
-Voice: But there was one who was unique. (He breaks out and starts roaring during the next sentence.) One whose power and evil temperament was even greater than your expectations.
+      "Mopey: Since that dreadful day you rejected me, all I ever wanted was to help you with a new plan to take over the world. —I’m not strong enough or smart enough.",
 
-(Other primates are seen, still suspended in their tanks.)
+      "Mopey: So now, you will have to pay—",
 
-Voice: His primitive rage…
+      "Cut to just behind him; he is seen mostly in shadow. He pulls out an item that might be a knife; Mojo gasps in sheer terror.)",
 
-Pre-Rocko: (knocking them over) SMASH!!
+      "Mopey: —for the wrong you have done to me!",
 
-(He jumps up to a ledge and uproots a glass globe on a pole.)
+      "Mojo: Wha…? You must have misunderstood. …so that one day you would return and together we would build my Super Freeze-O-Ray and rule the world!",
 
-Voice: …was dangerous to everyone around him.
+      "Mopey: Mmm! Banana jerky! My own original recipe.",
 
-(He swings the piece of equipment back and forth, shattering the globe against the surface of the ledge. Tilt down quickly to one tank in which a small monkey is imprisoned. A sudden gush of Chemical X pours in from the overhead tubes due to the equipment damage, and the creature’s brain has a growth spurt. Pre-Rocko destroys another pole-mounted globe, triggering overdoses of the unstable material in other tanks. One of these sparks and springs a leak, and a jet of green vapor inside rushes out as if the tank were a boiling teakettle. The brain of the smallish monkey inside is pulled up into the hole by the pressure differential; finally it is torn free and shoots upward to hit the ceiling. It then slides down the wall and lands behind the tank.)
+      "Mojo: The insertion of this radioactive isotope is all that is necessary to finalize and complete— Steady…",
 
-As Pre-Rocko looks on, Mojo—now fuly suited up except for his braincap—walks over to inspect the failed rig. He gives it a hard stare, then pulls on a knob at its base. This comes free, attached to the base by a long cord. The remaining contents—including the monkey—swirl down out of sight; that control was a drain plug.)
+      "Mojo: Concentrate…",
 
-Mojo: (walking o.c. towards control panel) Reject!
+      "Mojo: Yes…Yes…",
 
-(Wavering dissolve to him in the present. Now he smiles warmly at the memory.)
+      "Mopey: Mojo?",
 
-Mojo: Yes. That was very comical.
+      "Mopey:",
 
-(He chuckles. Cut to a side view of him; now we can see the dark area he is looking into. The eyes peer out from a height of several feet.)
+      "Mojo: Now to align another…curses!",
 
-Mojo: We used to call that little runt…
+      "Mojo: Do not move from that location that you should not be moving from!",
 
-(A figure leaps out of the inky recess to stand before Mojo, who gasps in complete shock. It is the selfsame smallish monkey, with a purple towel tied around its shoulders in imitation of the mad genius’ cape, and a bucket on its head after the fashion of the braincap. The skin has the same green tinge, and the face is rather glum. Obviously the pipsqueak was standing on something to gain elevation while in the shadows. Cut to Mojo’s perspective of this figure.)
+      "Mojo: And do not touch anything!",
 
-Mojo: …Mopey Popo?!? (Back to him.) Egad! I am in a state of shock!
+      "Mopey: All right. Let’s do it, partner.",
 
-(Cut to Mopey, who does a bit of throat-clearing before getting down to business. His was the voice heard from the shadows, but when he speaks next, he sounds like the typical whiny runt. Evidently he had had something caught in his throat.)
+      "Mojo: Note to self—install more elevators.",
 
-Mopey: Since that dreadful day you rejected me, all I ever wanted was to help you with a new plan to take over the world. (angrily) But I knew you would reject me again. After all— (Close-up of a nonplussed Mojo; he continues o.c.) —I’m not strong enough or smart enough.
+      "Mojo: Where is that depressing little monkey? Mojo told him not to—",
 
-(Mojo blinks once in a very bored way; back to Mopey. On the next line, the shrimp tips his bucket and fishes around inside.)
+      "Mojo: Mojo said no touching of anything!",
 
-Mopey: So now, you will have to pay—
+      "Mojo: DO NOT TOUCH!!",
 
-Cut to just behind him; he is seen mostly in shadow. He pulls out an item that might be a knife; Mojo gasps in sheer terror.)
+      "Mopey: You bet, partner.",
 
-Mopey: —for the wrong you have done to me!
+      "Mopey: How can I help Mojo without touching anything?",
 
-Mojo: Wha…? You must have misunderstood. (Mopey advances on him.) I—you—uh— (smiling nervously) —were always my favorite. I flushed you down into the sewer to keep you safe… (rapid fire) …so that one day you would return and together we would build my Super Freeze-O-Ray and rule the world!
+      "Mopey: Is it my turn ye—",
 
-(Close-up of the two, now face to face. In this shot, we can clearly see for the first time that the object Mopey holds is not a knife; it might be a breadstick. His voice loses the whiny edge and begins to sound something like Droopy.)
+      "Mojo: Must block out annoyances.",
 
-Mopey: (smiling) Really? Your favorite? Golly, I’d love to build a Freeze-O-Ray with you. (He takes a bite of the food; Mojo glares disgustedly.) Mmm! Banana jerky! My own original recipe.
+      "Mopey: You said that I was your favorite. But…",
 
-(Snap to black, then immediately fade in to his lab. A windowed wall separates the two areas: a control room in which Mojo operates a bank of switches and levers, and a clean room that houses a large ray cannon—the aforementioned Freeze-O-Ray under construction. A canister of glowing material, held in a clamp, is being lowered toward an opening in the weapon’s housing. Mopey stands near Mojo in a bored manner.)
+      "Mopey: …you never let me help!",
 
-Mojo: The insertion of this radioactive isotope is all that is necessary to finalize and complete— (Close-up of the lowering canister; he continues o.c.) —the finishing step to my plan for world domination! (Back to him; he is sweating.) Steady…
+      "Mojo: There will be no moping in the lair of Mojo Jojo!",
 
-(He manipulates the levers with a surgeon’s care; the canister swings past the opening that will accept it.)
+      "Mojo: My…my…machine.",
 
-Mojo: Concentrate…
+      "Mopey: Perhaps if you’d let me help, these types of things could be avoided.",
 
-(Like all good scientists who are conscientious about safety, he has donned goggles for this work. Little windshield wipers extend from the upper edge and clear away the perspiration that continues to pour down over the lenses. Now the canister is brought much closer to the opening, as seen both directly and by reflection in Mojo’s eyes. Close-up; it is slowly swung in ever nearer.)
+      "Mojo: Okay, fine, you can help Mojo.",
 
-Mojo: (from o.c.) Yes…Yes…
+      "Mojo: Now, Mopey, listen very, very closely. When Mojo says the word “now,” all you have to do is press that little button right over there. That is simple, no?",
 
-(Back to the control room. Mopey has come up behind Mojo and is standing on the end of his cape. He tugs on the fabric to get attention.)
+      "Mopey: I guess so.",
 
-Mopey: Mojo?
+      "Mojo: That’s a good boy. Now run along— —and do not fumble my GREATEST PLAN to rule the world!",
 
-(The chimp in charge loses his concentration; the canister falls out of the clamp and, as he watches in disbelief, shatters on the floor. The liquid contents form a puddle, which promptly turns red and eats a hole in the tiles. This weakened patch of material drops through the floor and is heard to crash down somewhere below. Close-up of a very annoyed Mojo.)
+      "Mojo: With my new D.U.D. 9000 Super Freeze-O-Ray! Finally, a near-flawless plan is nearly complete, and the accursed Powerpuff Girls will be annihilated!",
 
-Mopey: (from o.c.) Did you mean it when you said I was your favorite? (Pull back to frame him on the end of this.)
+      "Mopey: I have to poo.",
 
-Mojo: (yanking cape away) No…touching of Mojo’s clothes! (turning to controls) Now to align another…curses!
+      "Mojo: Get back to your station! Very well. Let us begin the commencement of a trial test.",
 
-(Cut to a rack marked “Caution—Isotopes” within the clean room. The clamp moves into view to pick up another canister, but there are none to be had.)
+      "Mojo: Now, Mopey! Now!",
 
-Mojo: (from o.c.) My isotope rack! Empty! (Back to him.) Most inconvenient. (to Mopey) Do not move from that location that you should not be moving from!
+      "Mopey: Note to self—add more banana to our recipe.",
 
-(Cut to outside the closed door of the lab.)
+      "Mojo: Now!",
 
-Mojo: (from inside, through door) And do not touch anything!
+      "Mojo: NOW!",
 
-(The door slides open and he stalks out. Crossing the main area of the observatory, he reaches a circular opening in the center of the floor and descends slowly into it. This is the top of the stairs we have often seen and/or heard leading up through the volcano. Cut to inside the rock; the flights are seen in a cutaway view, with broad landings between them. Tilt down to follow Mojo’s rapid progress, and stop at the bottom. Here a door has been set in the rock, with a large arrow pointing down painted on the wall beside this.)
+      "Mojo: NOW!!",
 
-(Close-up; the arrow reads “Caution! Use Oven Mitts When Handling Isotopes!” Pull back to show it pointing down at a pair of them hanging on the wall. The door bears the familiar radiation hazard symbol and has a red warning light mounted above it. Mojo walks into view, puts on the mitts, and pushes the door open. Inside, containment devices sit on shelves and a pneumatic tube hangs from the ceiling. He crosses the room with a new canister of isotope in hand and lets it go when it is under the tube; it is sucked up and o.c.)
+      "Mopey: Sometimes I wonder if this is my true destiny in life.",
 
-(Cut to the empty rack in the clean room. The canister pops into view from beneath it and is held fast. Mopey, meanwhile, stands in the control room and eyes the equipment stupidly.)
+      "Mojo: I lied! My desire was never for you to help me in such an annoying manner! And I never liked you!",
 
-Mopey: (thinking) Mojo did say he wanted me to help. (Long pause.) All right. Let’s do it, partner.
+      "Mopey: Oh, dear. How typically depressing.",
 
-(He reaches slowly toward the levers that Mojo used to move the clamp. Cut to the latter monkey as he approaches the door to the lab; it opens at a wave of his hand.)
+      "Mojo: I am finally rid of that nuisance named Mopey Popo! Curses! Will I never be rid of that annoying little—",
 
-Mojo: Note to self—install more elevators.
+      "Mojo: How many times does Mojo have to say—",
 
-(Inside, he finds his small counterpart nowhere in sight.)
+      "Mojo: But… but… how? How was he able to do, without a brain, what I was not able to do with such an enormous brain?",
 
-Mojo: Where is that depressing little monkey? Mojo told him not to—
+      "Mojo: Aha! My enormous brain! I shall use it to trick him once again! And bring your little friends.",
 
-(He suddenly cuts himself off and stares pop-eyed. Inside the clean room, tilt down from the ceiling to the rack. Mopey is hanging by the end of his towel, which is caught in the clamp, and struggling not to drop the new canister now in his grasp. Whining and gibbering, he starts to lose his hold; the thing slips down until he is gripping it with only his two feet, then one foot. At this point, Mojo storms up to him.)
+      "Mojo: I knew that my favorite little villain would return to me, again, another time.",
 
-Mojo: Mojo said no touching of anything!
+      "Mopey: Then why did you throw me out?",
 
-(The canister finally drops away and o.c. A crash of glass, a sizzle of floor being eaten through, and as both look down, he also falls o.c. Long overhead view of this area; there is a large new hole in the floor, and the unfortunate mad genius monkey can be seen lying prone some distance down from it. Cut to just inside the hole, the camera pointing out toward Mopey. As he peeks pathetically over the edge, Mojo stands up into view—dripping wet from the plumbing pipes that run through here and about to blow a gasket. He takes a moment to gather himself and then wheels on the runt.)
+      "Mojo: Uh… that was all part of my master plan. You see, I knew that throwing you out would motivate you to do that which I created you to do—the bringing to me of the Powerpuff Girls, just as I have always dreamed.",
 
-Mojo: DO NOT TOUCH!! (He storms o.c.)
+      "Mojo:",
 
-Mopey: You bet, partner.
+      "Mopey: I’m bored.",
 
-(The bottom portion of the staircase again. Mojo practically runs down to the isotope storage area, stuffs his hands into the oven mitts, and throws open the door. Inside the clean room, Mopey is now sitting on one of the slots in the isotope rack.)
+      "Mojo: Huh?",
 
-Mopey: How can I help Mojo without touching anything?
+      "Mopey: Taking over the world isn’t all that it’s cracked up to be.",
 
-(Mojo feeds another canister into the pneumatic tube. Mopey sits atop the rack and the container shoots up into place, launching him o.c.; when he falls down, he pushes it back the way it came. Mojo has left the storage room, but the cargo shoots out through the open door and knocks him o.c. He runs back in, forgoing the oven mitts. A clink of glass, a sizzle, and a pained yell tell the story: he has tried to move this radioactive stuff without protection. With a few wisps of smoke rising from his body, he ducks out, grabs the mitts, and ducks in again.)
+      "Mojo: You speak nonsense from the words that are coming out of your mouth!",
 
-(Now we see him running up the stairs, after which he emerges in the lab. He is out of breath and completely exhausted as he drags himself back to the control panel and takes hold of the levers. He seems to take no notice of Mopey, who is standing nearby.)
+      "Mopey: Have fun with your new friends.",
 
-Mopey: Is it my turn ye—
+      "Bubbles: Where are we?",
 
-(Mojo silences him with one upraised hand. Cut to inside the clean room as he speaks; the clamp plucks yet another canister from the rack and carries it across the space to the Freeze-O-Ray. Pan to follow its path, showing the broken glass and floor damage from previous attempts.)
+      "Blossom: Looks like we’re in Mojo’s lair.",
 
-Mojo: (from o.c.) Last…isotope…must…concentrate… (Back to him.) Must block out annoyances.
+      "Buttercup: But how did we get here?",
 
-Mopey: (from o.c., dejectedly) You said that I was your favorite. But…
+      "Blossom: I don’t know— —but that raygun could have something to do with it. Girls! Eye beams!",
 
-(Cut to him on the end of this line; he kicks a rock away.)
+      "Mojo: But what about me? What will I do?",
 
-Mopey: (suddenly sobbing) …you never let me help!
+      "Mojo: At least tell me your secret in capturing the Powerpuff Girls!",
 
-(Extreme close-up of Mojo, truly ready to blow his stack, on the end of this; then pull back.)
+      "Mojo: Now I’ll never get those accursed Powerpuff… …Girls? What are you doing? No! Stay away from me! NOOOO!!",
 
-Mojo: There will be no moping in the lair of Mojo Jojo!
+      "Narrator: And so for the only time, the day is saved—thanks to the mopey Mopey Popo.",
 
-(He has his back to the control panel and does not notice that the end of his cape has settled over the levers. When he starts to walk away, the fabric becomes taut and pulls on them; in the clean room, the isotope canister breaks in the clamp, sending the radioactive liquid trickling over the housing of the Freeze-O-Ray. It forms a band that runs around the weapon’s entire circumference and eats through the metal. A moment later, the entire front half falls off. Mojo’s eyes fill with tears at the sight.)
-
-Mojo: My…my…machine.
-
-Mopey: Perhaps if you’d let me help, these types of things could be avoided.
-
-Mojo: (suddenly very irritated) Okay, fine, you can help Mojo.
-
-(This brings a smile to the little fellow’s face. Dissolve to him at a bank of controls; Mojo leans down into view and takes on the sort of tone a kindergarten teacher uses when addressing her students.)
-
-Mojo: Now, Mopey, listen very, very closely. When Mojo says the word “now,” all you have to do is press that little button right over there. That is simple, no?
-
-(On “that little button,” he points to a button set in a wall panel at the other end of the lab, near the door. After he finishes the line, he stitches an ingratiating smile onto his face.)
-
-Mopey: I guess so.
-
-Mojo: That’s a good boy. Now run along— (He does so; Mojo turns to the controls.) —and do not fumble my GREATEST PLAN to rule the world!
-
-(The Freeze-O-Ray has been repaired with the world’s biggest Band-Aid. The protective windows have been removed so that the weapon can point back past Mojo, down the length of the lab. Zoom in on him in steps during the next line, stopping at an extreme close-up.)
-
-Mojo: With my new D.U.D. 9000 Super Freeze-O-Ray! Finally, a near-flawless plan is nearly complete, and the accursed Powerpuff Girls will be annihilated! (He laughs madly; pull back.)
-
-Mopey: (from o.c.) I have to poo.
-
-(These words catch Mojo entirely off guard. Pan left slightly to show the hangdog assistant standing at a short distance to the rear—nowhere near the button.)
-
-Mojo: Get back to your station! (Mopey trudges off.) Very well. Let us begin the commencement of a trial test.
-
-(During this, cut briefly to a close-up of a pair of gauges, then pull back to put him in view next to them. The gauges are set in a console with a crank protruding from the side and a light bulb set in its top. He starts turning the crank; one gauge fills, the bulb glows, and the other gauge fills. Machinery kicks into gear as Mojo turns to call over his shoulder.)
-
-Mojo: Now, Mopey! Now!
-
-(On the second “now,” cut to Mopey at his post. He is paying no attention, though, as he has started in on another piece of banana jerky.)
-
-Mopey: (thinking) Note to self—add more banana to our recipe.
-
-(Mojo keeps cranking for all he is worth.)
-
-Mojo: Now!
-
-(Overhead view of Mopey. He lies on the floor, on his back and sweeping his arms and legs back and forth as if to make a snow angel.)
-
-Mojo: (from o.c.) NOW!
-
-(Back to him; he has the crank going so fast that it and his arms are only a blur.)
-
-Mojo: NOW!!
-
-(Now Mopey sits by the button. He has removed the bucket from his head, exposing his empty skull, and sits lost in thought atop it.)
-
-Mopey: (thinking) Sometimes I wonder if this is my true destiny in life.
-
-(Mojo has worn himself out at the crank; he turns it more and more slowly and finally stops. The glowing light bulb promptly shatters as the machinery winds down. This truly is the last straw, and it prompts him to let out a howl of undiluted frustration. He starts to push Mopey across the floor and out of the lab.)
-
-Mojo: I lied! My desire was never for you to help me in such an annoying manner! (He pushes Mopey out the front door and pokes his head out.) And I never liked you!
-
-(He pulls his head back in and slams the door. Through all of this, the little monkey’s expression has not changed one bit.)
-
-Mopey: Oh, dear. How typically depressing.
-
-(Long shot of the observatory. Another storm is brewing. Inside, Mojo stomps across his domain.)
-
-Mojo: I am finally rid of that nuisance named Mopey Popo! (He stops.) I should have kicked him out back in Scene Sixty-One. (Doorbell; he walks o.c. toward it.) Curses! Will I never be rid of that annoying little—
-
-(Cut to just outside the front door. The camera is angled such that Mopey’s head and bucket are the only parts of him in view. Mojo throws the door open.)
-
-Mojo: How many times does Mojo have to say—
-
-(His eyes go so wide that they might pop out of his head at any moment, and he sucks in a gasp that goes all the way to his boots. Camera shift: Mopey stands on the stoop, with a little red wagon in tow. And in that little red wagon are the girls, tied together and unconscious. It is the first time they have appeared on camera in this episode.)
-
-(Zoom in on them, then cut to Mojo just inside. He stares for a moment and then slams the door.)
-
-Mojo: But…but…how? How was he able to do, without a brain, what I was not able to do with such an enormous brain?
-
-(He mulls it over silently, not seeming to get an answer he likes for a few seconds.)
-
-Mojo: Aha! My enormous brain! I shall use it to trick him once again! (He laughs and opens the door.) Congratulations! You passed the test. Come in, come in. (Mopey pulls the wagon inside.) And bring your little friends.
-
-(Cut to inside. The two monkeys cross the screen with their spoils on the next line.)
-
-Mojo: I knew that my favorite little villain would return to me, again, another time. (Cut to them; pan to follow.)
-
-Mopey: Then why did you throw me out?
-
-Mojo: (laughing a bit) Uh…that was all part of my master plan. You see, I knew that throwing you out would motivate you to do that which I created you to do—the bringing to me of the Powerpuff Girls, just as I have always dreamed.
-
-(The gauges refill, the machinery winds up, Mopey presses his button, and the Freeze-O-Ray finally comes to life. A beam shoots forth, striking the girls and encasing them in a large chunk of ice.)
-
-Mojo: (from o.c.) I HAVE DONE IT!! (Cut to him at the controls.) Me,me, ME!! I, I, I!! (Cut to Mopey.)
-
-Mopey: I’m bored.
-
-Mojo: Huh?
-
-Mopey: (walking past him to gauge console) Taking over the world isn’t all that it’s cracked up to be.
-
-Mojo: You speak nonsense from the words that are coming out of your mouth!
-
-Mopey: (pressing a button) Have fun with your new friends.
-
-(That button causes the rig to power down. Cut to the girls, who are free of the ice and lying dazed on the floor of the lab.)
-
-Bubbles: Where are we?
-
-Blossom: Looks like we’re in Mojo’s lair.
-
-Buttercup: But how did we get here?
-
-Blossom: I don’t know— (pointing o.c. toward Freeze-O-Ray) —but that raygun could have something to do with it. Girls! Eye beams!
-
-(They fire their eye lasers in the direction she has indicated and hit the device square on. It begins to glow red under their attack; after they stop firing, it stays red and then crumbles into dust. Mopey walks away from the console at which he disabled the Freeze-O-Ray and heads for the door, with Mojo trailing. Pull back slowly to put the girls in view.)
-
-Mojo: But what about me? What will I do?
-
-(They watch with some puzzlement as Mopey trudges out.)
-
-Mojo: At least tell me your secret in capturing the Powerpuff Girls!
-
-(He gets no answer except for a door slammed in his face that knocks him to the floor. The girls take to the air and move in on him as he stands up and groans, rubbing his head. Cut to their perspective, still approaching; he has his back to them initially, but soon turns around.)
-
-Mojo: Now I’ll never get those accursed Powerpuff… (noticing them) …Girls? What are you doing? No! Stay away from me! NOOOO!!
-
-(A flash of light, the sound of a colossal blow landing, and the end shot comes up. This consists of Mopey standing by himself against the usual background and looking as far down in the dumps as usual.)
-
-Narrator: And so for the only time, the day is saved—thanks to the mopey Mopey Popo.
-
-Mopey: Eat my jerky.
+      "Mopey: Eat my jerky."
     ]
   },
   {
@@ -12105,8 +12723,6 @@ Mopey: Eat my jerky.
 
       "Buttercup: That’s sure what it sounds like to me.",
 
-      "(She and Fuzzy yell in each other’s faces for a while, but are stopped when the Professor inserts himself between them.)",
-
       "Professor: All right, kids, that’s enough now. Just count to three and let it be.",
 
       "Buttercup: I don’t want to count to three.",
@@ -12119,13 +12735,9 @@ Mopey: Eat my jerky.
 
       "Girls: Hmph!",
 
-      "(They look resolutely away from the Lumkins’ direction, but Blossom gasps happily upon turning her eyes toward the ground.)",
-
       "Blossom: Look, girls!",
 
       "Blossom: A possum!",
-
-      "(Shift to just behind the animal’s head; the girls pop into view on one side.)",
 
       "Girls: He could be our pet!",
 

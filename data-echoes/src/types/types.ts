@@ -50,6 +50,7 @@ export type EpisodeMetaData = {
   description: string
   word_count_for_line: number
   imdbLink: string
+  fandomLink?: string
 }
 
 export type Season = {
@@ -97,4 +98,5 @@ export type ModalData = {
   goodiesTalking: number
   sumEpisode: number
   imdbLink: string
+  fandomLink?: string
 } | null

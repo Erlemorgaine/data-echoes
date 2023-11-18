@@ -6,18 +6,31 @@ import startCase from 'lodash/startCase'
 import sumBy from 'lodash/sumBy'
 
 import type { Speaker, ModalData } from '../types/types'
+import NostalgiaModal from './NostalgiaModal.vue'
 
 const props = defineProps<{
   data: ModalData | null
 }>()
 
-const emit = defineEmits(['closeModal', 'navigate'])
-
-const dialogRef = ref()
+defineEmits(['closeModal', 'navigate'])
 
 const fandomLink = computed(
   () =>
-    `https://powerpuffgirls.fandom.com/wiki/${startCase(props.data.episode.replaceAll(' ', '_'))}`,
+    `https://powerpuffgirls.fandom.com/wiki/${
+      props.data?.fandomLink ||
+      startCase(props.data?.episode)
+        .replaceAll(' ', '_')
+        .replaceAll('_A_', '_a_')
+        .replaceAll('_For_', '_for_')
+        .replaceAll('_And_', '_and_')
+        .replaceAll('_The_', '_the_')
+        .replaceAll('_With_', '_with_')
+        .replaceAll('_Is_', '_is_')
+        .replaceAll('_Of_', '_of_')
+        .replaceAll('_On_', '_on_')
+        .replaceAll('_Are_', '_are_')
+        .replaceAll('_In_', '_in_')
+    }`,
 )
 
 const speakers = computed((): Speaker[] => {
@@ -42,31 +55,11 @@ const speakers = computed((): Speaker[] => {
 
   return []
 })
-
-watch(
-  () => props.data,
-  () => {
-    if (props.data) openModal()
-
-    document.body.style.overflow = props.data ? 'hidden' : 'initial'
-  },
-)
-
-function openModal() {
-  dialogRef.value.showModal()
-}
-
-function closeModal() {
-  dialogRef.value.close()
-  emit('closeModal')
-}
 </script>
 
 <template>
-  <dialog class="nostalgia-episode-modal-wrapper" ref="dialogRef" @close="closeModal">
-    <div v-if="data" class="nostalgia-episode-modal">
-      <button @click="closeModal" class="nostalgia-episode-modal__close-button">X</button>
-
+  <NostalgiaModal :show="!!data" @closeModal="$emit('closeModal')">
+    <template v-if="data">
       <div class="nostalgia-episode-modal__bubble-wrapper">
         <div class="nostalgia-episode-modal__bubble-wrapper__season">season {{ data.season }}</div>
         <div class="nostalgia-episode-modal__bubble-wrapper__episode">
@@ -136,30 +129,20 @@ function closeModal() {
           Next episode
         </button>
       </div>
-    </div>
-  </dialog>
+    </template>
+  </NostalgiaModal>
 </template>
 
 <style scoped lang="scss">
-.nostalgia-episode-modal-wrapper {
-  width: fit-content;
-  padding: 0;
-
-  /* Style the backdrop behind the modal */
-  &::backdrop {
-    background-image: linear-gradient(45deg, #e382a488, #66e1fb88, #63d54088);
-    backdrop-filter: blur(0.5rem);
-  }
-}
 .nostalgia-episode-modal {
-  box-shadow: -2px -1px 5px 1px var(--off-white-30);
-  background-color: rgb(25, 25, 25);
-  border: 1px solid;
-  border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
-  color: var(--off-white);
-  padding: 1.5rem 2rem 2.5rem 2rem;
-  max-width: 65vw;
-  display: flex;
+  // box-shadow: -2px -1px 5px 1px var(--off-white-30);
+  // background-color: rgb(25, 25, 25);
+  // border: 1px solid;
+  // border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
+  // color: var(--off-white);
+  // padding: 1.5rem 2rem 2.5rem 2rem;
+  // max-width: 65vw;
+  // display: flex;
 
   &__close-button {
     position: absolute;

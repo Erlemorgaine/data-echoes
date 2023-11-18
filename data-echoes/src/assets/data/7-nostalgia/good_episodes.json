@@ -6,16 +6,15 @@
         "episode": "monkey see, doggie do",
         "word_count_for_line": 325
       },
-
-      {
-        "speaker": "blossom",
-        "episode": "monkey see, doggie do",
-        "word_count_for_line": 101
-      },
       {
         "speaker": "mayor",
         "episode": "monkey see, doggie do",
         "word_count_for_line": 42
+      },
+      {
+        "speaker": "blossom",
+        "episode": "monkey see, doggie do",
+        "word_count_for_line": 101
       },
       {
         "speaker": "bubbles",
@@ -85,11 +84,6 @@
         "speaker": "mayor",
         "episode": "insect inside",
         "word_count_for_line": 45
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "insect inside",
-        "word_count_for_line": 7
       },
       {
         "speaker": "blossom",
@@ -326,11 +320,6 @@
         "word_count_for_line": 257
       },
       {
-        "speaker": "ms bellum",
-        "episode": "abracadaver",
-        "word_count_for_line": 15
-      },
-      {
         "speaker": "blossom",
         "episode": "abracadaver",
         "word_count_for_line": 44
@@ -403,16 +392,6 @@
         "speaker": "mayor",
         "episode": "tough love",
         "word_count_for_line": 23
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "tough love",
-        "word_count_for_line": 5
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "tough love",
-        "word_count_for_line": 4
       },
       {
         "speaker": "blossom",
@@ -543,29 +522,19 @@
     ],
     "8.2": [
       {
-        "speaker": "ms keane",
-        "episode": "ice sore",
-        "word_count_for_line": 81
-      },
-      {
         "speaker": "mayor",
         "episode": "ice sore",
         "word_count_for_line": 59
       },
       {
-        "speaker": "ms bellum",
-        "episode": "ice sore",
-        "word_count_for_line": 22
-      },
-      {
         "speaker": "blossom",
         "episode": "ice sore",
-        "word_count_for_line": 181
+        "word_count_for_line": 179
       },
       {
         "speaker": "bubbles",
         "episode": "ice sore",
-        "word_count_for_line": 98
+        "word_count_for_line": 100
       },
       {
         "speaker": "buttercup",
@@ -632,11 +601,6 @@
         "word_count_for_line": 103
       },
       {
-        "speaker": "ms bellum",
-        "episode": "the bare facts",
-        "word_count_for_line": 21
-      },
-      {
         "speaker": "blossom",
         "episode": "the bare facts",
         "word_count_for_line": 462
@@ -694,11 +658,6 @@
         "speaker": "fuzzy",
         "episode": "impeach fuzz",
         "word_count_for_line": 132
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "impeach fuzz",
-        "word_count_for_line": 99
       },
       {
         "speaker": "blossom",
@@ -787,11 +746,6 @@
         "word_count_for_line": 359
       },
       {
-        "speaker": "ms bellum",
-        "episode": "the rowdyruff boys",
-        "word_count_for_line": 68
-      },
-      {
         "speaker": "mayor",
         "episode": "the rowdyruff boys",
         "word_count_for_line": 62
@@ -861,11 +815,6 @@
         "speaker": "princess morbucks",
         "episode": "stuck up, up, and away",
         "word_count_for_line": 545
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "stuck up, up, and away",
-        "word_count_for_line": 60
       },
       {
         "speaker": "blossom",
@@ -1026,11 +975,6 @@
         "word_count_for_line": 41
       },
       {
-        "speaker": "ms keane",
-        "episode": "birthday bash",
-        "word_count_for_line": 7
-      },
-      {
         "speaker": "blossom",
         "episode": "birthday bash",
         "word_count_for_line": 70
@@ -1066,11 +1010,6 @@
         "speaker": "mayor",
         "episode": "too pooped to puff",
         "word_count_for_line": 102
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "too pooped to puff",
-        "word_count_for_line": 2
       },
       {
         "speaker": "blossom",
@@ -1135,11 +1074,6 @@
         "speaker": "mayor",
         "episode": "down 'n dirty",
         "word_count_for_line": 75
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "down 'n dirty",
-        "word_count_for_line": 47
       },
       {
         "speaker": "blossom",
@@ -1307,11 +1241,6 @@
         "word_count_for_line": 180
       },
       {
-        "speaker": "ms bellum",
-        "episode": "a very special blossom",
-        "word_count_for_line": 25
-      },
-      {
         "speaker": "blossom",
         "episode": "a very special blossom",
         "word_count_for_line": 261
@@ -1386,11 +1315,6 @@
         "word_count_for_line": 201
       },
       {
-        "speaker": "ms keane",
-        "episode": "mo job",
-        "word_count_for_line": 13
-      },
-      {
         "speaker": "blossom",
         "episode": "mo job",
         "word_count_for_line": 87
@@ -1412,11 +1336,6 @@
       }
     ],
     "8.2": [
-      {
-        "speaker": "ms bellum",
-        "episode": "pet feud",
-        "word_count_for_line": 69
-      },
       {
         "speaker": "mayor",
         "episode": "pet feud",
@@ -1645,11 +1564,6 @@
         "speaker": "him",
         "episode": "speed demon",
         "word_count_for_line": 101
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "speed demon",
-        "word_count_for_line": 64
       },
       {
         "speaker": "mayor",
@@ -2014,11 +1928,6 @@
         "word_count_for_line": 21
       },
       {
-        "speaker": "ms keane",
-        "episode": "bought and scold",
-        "word_count_for_line": 12
-      },
-      {
         "speaker": "blossom",
         "episode": "bought and scold",
         "word_count_for_line": 143
@@ -2049,11 +1958,6 @@
         "speaker": "mitch",
         "episode": "gettin' twiggy with it",
         "word_count_for_line": 134
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "gettin' twiggy with it",
-        "word_count_for_line": 69
       },
       {
         "speaker": "blossom",
@@ -2359,6 +2263,33 @@
         "word_count_for_line": 43
       }
     ],
+    "10.1": [
+      {
+        "speaker": "blossom",
+        "episode": "the headsucker's moxy",
+        "word_count_for_line": 310
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "the headsucker's moxy",
+        "word_count_for_line": 92
+      },
+      {
+        "speaker": "mayor",
+        "episode": "the headsucker's moxy",
+        "word_count_for_line": 89
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "the headsucker's moxy",
+        "word_count_for_line": 65
+      },
+      {
+        "speaker": "narrator",
+        "episode": "the headsucker's moxy",
+        "word_count_for_line": 64
+      }
+    ],
     "10.2": [
       {
         "speaker": "femme fatale",
@@ -2369,16 +2300,6 @@
         "speaker": "mayor",
         "episode": "equal fights",
         "word_count_for_line": 107
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "equal fights",
-        "word_count_for_line": 67
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "equal fights",
-        "word_count_for_line": 45
       },
       {
         "speaker": "blossom",
@@ -2674,11 +2595,6 @@
         "word_count_for_line": 28
       },
       {
-        "speaker": "ms bellum",
-        "episode": "get back, jojo",
-        "word_count_for_line": 9
-      },
-      {
         "speaker": "blossom",
         "episode": "get back, jojo",
         "word_count_for_line": 118
@@ -2714,11 +2630,6 @@
         "speaker": "mayor",
         "episode": "him diddle riddle",
         "word_count_for_line": 93
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "him diddle riddle",
-        "word_count_for_line": 25
       },
       {
         "speaker": "blossom",
@@ -2832,16 +2743,6 @@
         "word_count_for_line": 59
       },
       {
-        "speaker": "ms bellum",
-        "episode": "superfriends",
-        "word_count_for_line": 27
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "superfriends",
-        "word_count_for_line": 9
-      },
-      {
         "speaker": "blossom",
         "episode": "superfriends",
         "word_count_for_line": 336
@@ -2938,11 +2839,6 @@
         "word_count_for_line": 53
       },
       {
-        "speaker": "ms bellum",
-        "episode": "forced kin",
-        "word_count_for_line": 23
-      },
-      {
         "speaker": "blossom",
         "episode": "forced kin",
         "word_count_for_line": 284
@@ -2973,11 +2869,6 @@
         "speaker": "mayor",
         "episode": "keen on keane",
         "word_count_for_line": 63
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "keen on keane",
-        "word_count_for_line": 16
       },
       {
         "speaker": "blossom",
@@ -3162,11 +3053,6 @@
         "word_count_for_line": 273
       },
       {
-        "speaker": "ms bellum",
-        "episode": "toast of the town",
-        "word_count_for_line": 18
-      },
-      {
         "speaker": "blossom",
         "episode": "toast of the town",
         "word_count_for_line": 92
@@ -3202,11 +3088,6 @@
         "speaker": "mayor",
         "episode": "divide and conquer",
         "word_count_for_line": 38
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "divide and conquer",
-        "word_count_for_line": 25
       },
       {
         "speaker": "blossom",
@@ -3342,11 +3223,6 @@
         "word_count_for_line": 103
       },
       {
-        "speaker": "ms keane",
-        "episode": "substitute creature",
-        "word_count_for_line": 15
-      },
-      {
         "speaker": "blossom",
         "episode": "substitute creature",
         "word_count_for_line": 131
@@ -3404,11 +3280,6 @@
         "speaker": "mayor",
         "episode": "pee pee g's",
         "word_count_for_line": 73
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "pee pee g's",
-        "word_count_for_line": 66
       },
       {
         "speaker": "blossom",
@@ -3527,16 +3398,6 @@
         "word_count_for_line": 102
       },
       {
-        "speaker": "ms keane",
-        "episode": "seed no evil",
-        "word_count_for_line": 25
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "seed no evil",
-        "word_count_for_line": 10
-      },
-      {
         "speaker": "blossom",
         "episode": "seed no evil",
         "word_count_for_line": 118
@@ -3562,11 +3423,6 @@
         "speaker": "mayor",
         "episode": "city of clipsville",
         "word_count_for_line": 93
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "city of clipsville",
-        "word_count_for_line": 15
       },
       {
         "speaker": "blossom",
@@ -3601,19 +3457,9 @@
         "word_count_for_line": 1041
       },
       {
-        "speaker": "ms keane",
-        "episode": "a documentary",
-        "word_count_for_line": 77
-      },
-      {
         "speaker": "mayor",
         "episode": "a documentary",
         "word_count_for_line": 37
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "a documentary",
-        "word_count_for_line": 16
       },
       {
         "speaker": "blossom",
@@ -3749,11 +3595,6 @@
         "word_count_for_line": 50
       },
       {
-        "speaker": "ms keane",
-        "episode": "curses",
-        "word_count_for_line": 48
-      },
-      {
         "speaker": "blossom",
         "episode": "curses",
         "word_count_for_line": 298
@@ -3781,24 +3622,44 @@
     ],
     "13.2": [
       {
+        "speaker": "ace",
+        "episode": "bang for your buck",
+        "word_count_for_line": 274
+      },
+      {
+        "speaker": "mojo jojo",
+        "episode": "bang for your buck",
+        "word_count_for_line": 176
+      },
+      {
+        "speaker": "mayor",
+        "episode": "bang for your buck",
+        "word_count_for_line": 34
+      },
+      {
         "speaker": "blossom",
         "episode": "bang for your buck",
-        "word_count_for_line": 44
+        "word_count_for_line": 193
       },
       {
         "speaker": "bubbles",
         "episode": "bang for your buck",
-        "word_count_for_line": 16
+        "word_count_for_line": 129
       },
       {
         "speaker": "buttercup",
         "episode": "bang for your buck",
-        "word_count_for_line": 23
+        "word_count_for_line": 50
+      },
+      {
+        "speaker": "professor",
+        "episode": "bang for your buck",
+        "word_count_for_line": 57
       },
       {
         "speaker": "narrator",
         "episode": "bang for your buck",
-        "word_count_for_line": 4
+        "word_count_for_line": 48
       }
     ],
     "14.1": [
@@ -3869,34 +3730,84 @@
   "6": {
     "1.1": [
       {
+        "speaker": "mojo jojo",
+        "episode": "prime mates",
+        "word_count_for_line": 469
+      },
+      {
+        "speaker": "mopey",
+        "episode": "prime mates",
+        "word_count_for_line": 190
+      },
+      {
+        "speaker": "voice",
+        "episode": "prime mates",
+        "word_count_for_line": 125
+      },
+      {
+        "speaker": "blossom",
+        "episode": "prime mates",
+        "word_count_for_line": 22
+      },
+      {
+        "speaker": "bubbles",
+        "episode": "prime mates",
+        "word_count_for_line": 3
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "prime mates",
+        "word_count_for_line": 6
+      },
+      {
         "speaker": "narrator",
         "episode": "prime mates",
-        "word_count_for_line": 32
+        "word_count_for_line": 41
       }
     ],
     "1.2": [
       {
+        "speaker": "karr",
+        "episode": "coupe d'etat",
+        "word_count_for_line": 186
+      },
+      {
         "speaker": "blossom",
         "episode": "coupe d'etat",
-        "word_count_for_line": 47
+        "word_count_for_line": 131
       },
       {
         "speaker": "bubbles",
         "episode": "coupe d'etat",
-        "word_count_for_line": 2
+        "word_count_for_line": 50
       },
       {
         "speaker": "buttercup",
         "episode": "coupe d'etat",
-        "word_count_for_line": 7
+        "word_count_for_line": 74
       },
       {
         "speaker": "professor",
         "episode": "coupe d'etat",
-        "word_count_for_line": 65
+        "word_count_for_line": 234
+      },
+      {
+        "speaker": "narrator",
+        "episode": "coupe d'etat",
+        "word_count_for_line": 45
       }
     ],
     "2.1": [
+      {
+        "speaker": "mojo jojo",
+        "episode": "makes zen to me",
+        "word_count_for_line": 210
+      },
+      {
+        "speaker": "master",
+        "episode": "makes zen to me",
+        "word_count_for_line": 176
+      },
       {
         "speaker": "blossom",
         "episode": "makes zen to me",
@@ -3910,7 +3821,7 @@
       {
         "speaker": "buttercup",
         "episode": "makes zen to me",
-        "word_count_for_line": 173
+        "word_count_for_line": 203
       },
       {
         "speaker": "professor",
@@ -3920,7 +3831,7 @@
       {
         "speaker": "narrator",
         "episode": "makes zen to me",
-        "word_count_for_line": 3
+        "word_count_for_line": 29
       }
     ],
     "2.2": [
@@ -3928,11 +3839,6 @@
         "speaker": "man",
         "episode": "say uncle",
         "word_count_for_line": 108
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "say uncle",
-        "word_count_for_line": 53
       },
       {
         "speaker": "blossom",
@@ -3965,16 +3871,6 @@
         "speaker": "mayor",
         "episode": "reeking havoc",
         "word_count_for_line": 54
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "reeking havoc",
-        "word_count_for_line": 7
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "reeking havoc",
-        "word_count_for_line": 5
       },
       {
         "speaker": "blossom",
@@ -4073,16 +3969,6 @@
         "word_count_for_line": 87
       },
       {
-        "speaker": "ms bellum",
-        "episode": "oops, i did it again",
-        "word_count_for_line": 18
-      },
-      {
-        "speaker": "ms keane",
-        "episode": "oops, i did it again",
-        "word_count_for_line": 14
-      },
-      {
         "speaker": "blossom",
         "episode": "oops, i did it again",
         "word_count_for_line": 64
@@ -4147,11 +4033,6 @@
     ],
     "6.1": [
       {
-        "speaker": "ms keane",
-        "episode": "little miss interprets",
-        "word_count_for_line": 24
-      },
-      {
         "speaker": "mayor",
         "episode": "little miss interprets",
         "word_count_for_line": 19
@@ -4194,11 +4075,6 @@
         "word_count_for_line": 109
       },
       {
-        "speaker": "ms bellum",
-        "episode": "night mayor",
-        "word_count_for_line": 4
-      },
-      {
         "speaker": "blossom",
         "episode": "night mayor",
         "word_count_for_line": 132
@@ -4239,11 +4115,6 @@
         "speaker": "mayor",
         "episode": "custody battle",
         "word_count_for_line": 74
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "custody battle",
-        "word_count_for_line": 8
       },
       {
         "speaker": "narrator",
@@ -4300,11 +4171,6 @@
         "word_count_for_line": 42
       },
       {
-        "speaker": "ms bellum",
-        "episode": "aspirations",
-        "word_count_for_line": 17
-      },
-      {
         "speaker": "blossom",
         "episode": "aspirations",
         "word_count_for_line": 229
@@ -4325,18 +4191,7 @@
         "word_count_for_line": 97
       }
     ],
-
     "9.1": [
-      {
-        "speaker": "ms keane",
-        "episode": "that's not my baby",
-        "word_count_for_line": 82
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "that's not my baby",
-        "word_count_for_line": 43
-      },
       {
         "speaker": "mayor",
         "episode": "that's not my baby",
@@ -4486,11 +4341,6 @@
         "word_count_for_line": 116
       },
       {
-        "speaker": "ms bellum",
-        "episode": "west in pieces",
-        "word_count_for_line": 53
-      },
-      {
         "speaker": "blossom",
         "episode": "west in pieces",
         "word_count_for_line": 53
@@ -4518,19 +4368,34 @@
     ],
     "12.1": [
       {
+        "speaker": "mojo jojo",
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 285
+      },
+      {
         "speaker": "blossom",
         "episode": "crazy mixed up puffs",
-        "word_count_for_line": 21
+        "word_count_for_line": 396
       },
       {
         "speaker": "bubbles",
         "episode": "crazy mixed up puffs",
-        "word_count_for_line": 1
+        "word_count_for_line": 134
       },
       {
         "speaker": "buttercup",
         "episode": "crazy mixed up puffs",
-        "word_count_for_line": 22
+        "word_count_for_line": 168
+      },
+      {
+        "speaker": "professor",
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 36
+      },
+      {
+        "speaker": "narrator",
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 18
       }
     ],
     "12.2": [
@@ -4542,59 +4407,64 @@
       {
         "speaker": "mayor",
         "episode": "mizzen in action",
-        "word_count_for_line": 13
+        "word_count_for_line": 55
       },
       {
         "speaker": "blossom",
         "episode": "mizzen in action",
-        "word_count_for_line": 29
+        "word_count_for_line": 82
       },
       {
         "speaker": "bubbles",
         "episode": "mizzen in action",
-        "word_count_for_line": 28
+        "word_count_for_line": 36
       },
       {
         "speaker": "buttercup",
         "episode": "mizzen in action",
-        "word_count_for_line": 19
+        "word_count_for_line": 42
       },
       {
         "speaker": "professor",
         "episode": "mizzen in action",
-        "word_count_for_line": 151
+        "word_count_for_line": 402
+      },
+      {
+        "speaker": "narrator",
+        "episode": "mizzen in action",
+        "word_count_for_line": 20
       }
     ],
     "13.1": [
-      {
-        "speaker": "professor",
-        "episode": "roughing it up",
-        "word_count_for_line": 436
-      },
       {
         "speaker": "fuzzy",
         "episode": "roughing it up",
         "word_count_for_line": 132
       },
       {
-        "speaker": "buttercup",
-        "episode": "roughing it up",
-        "word_count_for_line": 75
-      },
-      {
         "speaker": "blossom",
         "episode": "roughing it up",
-        "word_count_for_line": 68
-      },
-      {
-        "speaker": "narrator",
-        "episode": "roughing it up",
-        "word_count_for_line": 54
+        "word_count_for_line": 53
       },
       {
         "speaker": "bubbles",
         "episode": "roughing it up",
         "word_count_for_line": 31
+      },
+      {
+        "speaker": "buttercup",
+        "episode": "roughing it up",
+        "word_count_for_line": 54
+      },
+      {
+        "speaker": "professor",
+        "episode": "roughing it up",
+        "word_count_for_line": 436
+      },
+      {
+        "speaker": "narrator",
+        "episode": "roughing it up",
+        "word_count_for_line": 54
       }
     ],
     "13.2": [
@@ -4629,11 +4499,6 @@
         "speaker": "mayor",
         "episode": "nuthin' special",
         "word_count_for_line": 25
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "nuthin' special",
-        "word_count_for_line": 5
       },
       {
         "speaker": "blossom",
@@ -4700,11 +4565,6 @@
         "word_count_for_line": 145
       },
       {
-        "speaker": "ms bellum",
-        "episode": "i see a funny cartoon in your future",
-        "word_count_for_line": 20
-      },
-      {
         "speaker": "blossom",
         "episode": "i see a funny cartoon in your future",
         "word_count_for_line": 113
@@ -4727,19 +4587,9 @@
     ],
     "15.2": [
       {
-        "speaker": "ms keane",
-        "episode": "octi gone",
-        "word_count_for_line": 41
-      },
-      {
         "speaker": "mayor",
         "episode": "octi gone",
         "word_count_for_line": 30
-      },
-      {
-        "speaker": "ms bellum",
-        "episode": "octi gone",
-        "word_count_for_line": 9
       },
       {
         "speaker": "blossom",
