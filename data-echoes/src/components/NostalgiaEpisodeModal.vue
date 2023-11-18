@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed } from 'vue'
 
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import startCase from 'lodash/startCase'

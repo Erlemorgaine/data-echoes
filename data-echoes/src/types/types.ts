@@ -49,7 +49,7 @@ export type EpisodeMetaData = {
   episode: string
   description: string
   word_count_for_line: number
-  imdbLink: string
+  imdbLink?: string
   fandomLink?: string
 }
 
@@ -97,6 +97,6 @@ export type ModalData = {
   villains: Speaker[]
   goodiesTalking: number
   sumEpisode: number
-  imdbLink: string
+  imdbLink?: string
   fandomLink?: string
 } | null

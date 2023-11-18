@@ -29,7 +29,7 @@ function getVillainGradient(speaker) {
       :key="'group-' + i"
       :class="['nostalgia-legend__group', { villains: i == 1 }]"
     >
-      <div
+      <button
         class="nostalgia-legend__speaker"
         v-for="speaker of group"
         :key="'legend-' + speaker"
@@ -40,6 +40,7 @@ function getVillainGradient(speaker) {
         }"
         @mouseenter="$emit('onSpeakerHover', { speaker, isVillain: i == 1 })"
         @mouseleave="$emit('onSpeakerHover', null)"
+        @click="$emit('showSpeakerData', speaker)"
       >
         <img
           :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
@@ -47,22 +48,8 @@ function getVillainGradient(speaker) {
           class="nostalgia-legend__speaker__img"
         />
         {{ speaker }}
-      </div>
+      </button>
     </div>
-
-    <!-- <div class="nostalgia-legend__group">
-      <div
-        class="nostalgia-legend__speaker"
-        v-for="speaker of villains"
-        :key="'legend-' + speaker"
-        :style="{ '--speaker-color': `var(--${speaker})` }"
-        @mouseenter="$emit('onSpeakerHover', speaker)"
-        @mouseleave="$emit('onSpeakerHover', '')"
-      >
-        <img :src="`/images/${speaker}.webp`" alt="" class="nostalgia-legend__speaker__img" />
-        {{ speaker }}
-      </div>
-    </div> -->
 
     <div class="nostalgia-legend__cta">Click on a character for more information</div>
   </aside>

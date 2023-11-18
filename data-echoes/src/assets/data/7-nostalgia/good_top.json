@@ -29,36 +29,6 @@
       "episode_nr": "12.",
       "episode": "power-noia",
       "word_count_for_line": 377
-    },
-    {
-      "season": 5,
-      "episode_nr": "5.",
-      "episode": "the boys are back in town",
-      "word_count_for_line": 341
-    },
-    {
-      "season": 4,
-      "episode_nr": "7.",
-      "episode": "superfriends",
-      "word_count_for_line": 336
-    },
-    {
-      "season": 3,
-      "episode_nr": "10.1",
-      "episode": "the headsucker's moxy",
-      "word_count_for_line": 310
-    },
-    {
-      "season": 5,
-      "episode_nr": "13.1",
-      "episode": "curses",
-      "word_count_for_line": 298
-    },
-    {
-      "season": 4,
-      "episode_nr": "10.",
-      "episode": "forced kin",
-      "word_count_for_line": 284
     }
   ],
   "bubbles": [
@@ -91,36 +61,6 @@
       "episode_nr": "7.",
       "episode": "superfriends",
       "word_count_for_line": 313
-    },
-    {
-      "season": 1,
-      "episode_nr": "9.1",
-      "episode": "bubblevicious",
-      "word_count_for_line": 308
-    },
-    {
-      "season": 4,
-      "episode_nr": "2.",
-      "episode": "all chalked up",
-      "word_count_for_line": 260
-    },
-    {
-      "season": 3,
-      "episode_nr": "13.1",
-      "episode": "helter shelter",
-      "word_count_for_line": 256
-    },
-    {
-      "season": 2,
-      "episode_nr": "6.2",
-      "episode": "los dos mojos",
-      "word_count_for_line": 248
-    },
-    {
-      "season": 6,
-      "episode_nr": "9.1",
-      "episode": "that's not my baby",
-      "word_count_for_line": 240
     }
   ],
   "buttercup": [
@@ -153,36 +93,6 @@
       "episode_nr": "12.1",
       "episode": "moral decay",
       "word_count_for_line": 253
-    },
-    {
-      "season": 4,
-      "episode_nr": "2.",
-      "episode": "all chalked up",
-      "word_count_for_line": 243
-    },
-    {
-      "season": 3,
-      "episode_nr": "6.1",
-      "episode": "three girls and a monster",
-      "word_count_for_line": 234
-    },
-    {
-      "season": 4,
-      "episode_nr": "12.",
-      "episode": "power-noia",
-      "word_count_for_line": 229
-    },
-    {
-      "season": 5,
-      "episode_nr": "13.1",
-      "episode": "curses",
-      "word_count_for_line": 213
-    },
-    {
-      "season": 6,
-      "episode_nr": "14.1",
-      "episode": "nuthin' special",
-      "word_count_for_line": 204
     }
   ],
   "narrator": [
@@ -215,36 +125,6 @@
       "episode_nr": "4.1",
       "episode": "beat your greens",
       "word_count_for_line": 277
-    },
-    {
-      "season": 6,
-      "episode_nr": "10.2",
-      "episode": "city of frownsville",
-      "word_count_for_line": 267
-    },
-    {
-      "season": 1,
-      "episode_nr": "5.1",
-      "episode": "boogie frights",
-      "word_count_for_line": 229
-    },
-    {
-      "season": 1,
-      "episode_nr": "13.",
-      "episode": "uh oh dynamo",
-      "word_count_for_line": 200
-    },
-    {
-      "season": 2,
-      "episode_nr": "7.2",
-      "episode": "daylight savings",
-      "word_count_for_line": 187
-    },
-    {
-      "season": 1,
-      "episode_nr": "4.1",
-      "episode": "buttercrush",
-      "word_count_for_line": 173
     }
   ],
   "professor": [
@@ -277,36 +157,6 @@
       "episode_nr": "4.2",
       "episode": "oops, i did it again",
       "word_count_for_line": 447
-    },
-    {
-      "season": 6,
-      "episode_nr": "13.1",
-      "episode": "roughing it up",
-      "word_count_for_line": 436
-    },
-    {
-      "season": 2,
-      "episode_nr": "7.1",
-      "episode": "a very special blossom",
-      "word_count_for_line": 433
-    },
-    {
-      "season": 3,
-      "episode_nr": "11.",
-      "episode": "powerprof.",
-      "word_count_for_line": 426
-    },
-    {
-      "season": 4,
-      "episode_nr": "1.",
-      "episode": "film flam",
-      "word_count_for_line": 403
-    },
-    {
-      "season": 6,
-      "episode_nr": "12.2",
-      "episode": "mizzen in action",
-      "word_count_for_line": 402
     }
   ]
 }

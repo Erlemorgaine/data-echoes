@@ -29,24 +29,6 @@
       "episode_nr": "10.1",
       "episode": "sun scream",
       "word_count_for_line": 48
-    },
-    {
-      "season": 4,
-      "episode_nr": "3.",
-      "episode": "get back, jojo",
-      "word_count_for_line": 11
-    },
-    {
-      "season": 5,
-      "episode_nr": "7.",
-      "episode": "see me, feel me, gnomey",
-      "word_count_for_line": 11
-    },
-    {
-      "season": 6,
-      "episode_nr": "3.2",
-      "episode": "live and let dynamo",
-      "word_count_for_line": 2
     }
   ],
   "fuzzy": [
@@ -79,36 +61,6 @@
       "episode_nr": "12.2",
       "episode": "meet the beat-alls",
       "word_count_for_line": 106
-    },
-    {
-      "season": 3,
-      "episode_nr": "3.",
-      "episode": "criss cross crisis",
-      "word_count_for_line": 18
-    },
-    {
-      "season": 5,
-      "episode_nr": "7.",
-      "episode": "see me, feel me, gnomey",
-      "word_count_for_line": 14
-    },
-    {
-      "season": 5,
-      "episode_nr": "9.1",
-      "episode": "a documentary",
-      "word_count_for_line": 8
-    },
-    {
-      "season": 1,
-      "episode_nr": "6.1",
-      "episode": "telephonies",
-      "word_count_for_line": 7
-    },
-    {
-      "season": 6,
-      "episode_nr": "2.1",
-      "episode": "makes zen to me",
-      "word_count_for_line": 4
     }
   ],
   "gangreen gang": [
@@ -141,36 +93,6 @@
       "episode_nr": "12.",
       "episode": "the rowdyruff boys",
       "word_count_for_line": 149
-    },
-    {
-      "season": 6,
-      "episode_nr": "7.1",
-      "episode": "custody battle",
-      "word_count_for_line": 92
-    },
-    {
-      "season": 5,
-      "episode_nr": "8.2",
-      "episode": "city of clipsville",
-      "word_count_for_line": 38
-    },
-    {
-      "season": 6,
-      "episode_nr": "3.2",
-      "episode": "live and let dynamo",
-      "word_count_for_line": 15
-    },
-    {
-      "season": 1,
-      "episode_nr": "3.2",
-      "episode": "geshundfight",
-      "word_count_for_line": 5
-    },
-    {
-      "season": 5,
-      "episode_nr": "2.2",
-      "episode": "divide and conquer",
-      "word_count_for_line": 4
     }
   ],
   "him": [
@@ -203,36 +125,6 @@
       "episode_nr": "7.1",
       "episode": "custody battle",
       "word_count_for_line": 230
-    },
-    {
-      "season": 4,
-      "episode_nr": "12.",
-      "episode": "power-noia",
-      "word_count_for_line": 210
-    },
-    {
-      "season": 1,
-      "episode_nr": "3.1",
-      "episode": "octi evil",
-      "word_count_for_line": 181
-    },
-    {
-      "season": 3,
-      "episode_nr": "12.2",
-      "episode": "meet the beat-alls",
-      "word_count_for_line": 151
-    },
-    {
-      "season": 2,
-      "episode_nr": "12.1",
-      "episode": "speed demon",
-      "word_count_for_line": 101
-    },
-    {
-      "season": 1,
-      "episode_nr": "6.1",
-      "episode": "telephonies",
-      "word_count_for_line": 99
     }
   ],
   "mojo jojo": [
@@ -265,36 +157,6 @@
       "episode_nr": "4.1",
       "episode": "mo' linguish",
       "word_count_for_line": 542
-    },
-    {
-      "season": 6,
-      "episode_nr": "1.1",
-      "episode": "prime mates",
-      "word_count_for_line": 469
-    },
-    {
-      "season": 1,
-      "episode_nr": "7.2",
-      "episode": "mr. mojo's rising",
-      "word_count_for_line": 431
-    },
-    {
-      "season": 6,
-      "episode_nr": "7.1",
-      "episode": "custody battle",
-      "word_count_for_line": 372
-    },
-    {
-      "season": 4,
-      "episode_nr": "3.",
-      "episode": "get back, jojo",
-      "word_count_for_line": 368
-    },
-    {
-      "season": 3,
-      "episode_nr": "12.2",
-      "episode": "meet the beat-alls",
-      "word_count_for_line": 366
     }
   ],
   "princess morbucks": [
@@ -327,30 +189,6 @@
       "episode_nr": "8.1",
       "episode": "mo job",
       "word_count_for_line": 257
-    },
-    {
-      "season": 3,
-      "episode_nr": "12.2",
-      "episode": "meet the beat-alls",
-      "word_count_for_line": 132
-    },
-    {
-      "season": 2,
-      "episode_nr": "3.1",
-      "episode": "birthday bash",
-      "word_count_for_line": 103
-    },
-    {
-      "season": 5,
-      "episode_nr": "7.",
-      "episode": "see me, feel me, gnomey",
-      "word_count_for_line": 26
-    },
-    {
-      "season": 5,
-      "episode_nr": "9.1",
-      "episode": "a documentary",
-      "word_count_for_line": 3
     }
   ],
   "rowdyruff boys": [
@@ -383,36 +221,6 @@
       "episode_nr": "13.2",
       "episode": "power lunch",
       "word_count_for_line": 272
-    },
-    {
-      "season": 1,
-      "episode_nr": "6.1",
-      "episode": "telephonies",
-      "word_count_for_line": 236
-    },
-    {
-      "season": 6,
-      "episode_nr": "8.",
-      "episode": "aspirations",
-      "word_count_for_line": 164
-    },
-    {
-      "season": 6,
-      "episode_nr": "11.",
-      "episode": "west in pieces",
-      "word_count_for_line": 146
-    },
-    {
-      "season": 5,
-      "episode_nr": "7.",
-      "episode": "see me, feel me, gnomey",
-      "word_count_for_line": 27
-    },
-    {
-      "season": 3,
-      "episode_nr": "3.",
-      "episode": "criss cross crisis",
-      "word_count_for_line": 26
     }
   ],
   "sedusa": [

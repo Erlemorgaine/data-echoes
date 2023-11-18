@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import villainsAll from '../assets/data/7-nostalgia/villains_all.json'
-// import villainsSeasons from '../assets/data/7-nostalgia/villains_seasons.json'
 import villainEpisodes from '../assets/data/7-nostalgia/villains_episodes.json'
+import villainTop from '../assets/data/7-nostalgia/villains_top.json'
 
 import goodAll from '../assets/data/7-nostalgia/good_all.json'
 import goodSeasons from '../assets/data/7-nostalgia/good_seasons.json'
 import goodEpisodes from '../assets/data/7-nostalgia/good_episodes.json'
+import goodTop from '../assets/data/7-nostalgia/good_top.json'
 
 import allEpisodes from '../assets/data/7-nostalgia/all_episodes.json'
-// import allSeasons from '../assets/data/7-nostalgia/all_seasons.json'
 
 // import groupBy from 'lodash/groupby'
 import sumBy from 'lodash/sumBy'
@@ -39,6 +39,7 @@ import type {
 
 import '../assets/scss/nostalgia.scss'
 import NostalgiaSources from './NostalgiaSources.vue'
+import NostalgiaSpeakerModal from './NostalgiaSpeakerModal.vue'
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
@@ -63,7 +64,8 @@ const totalSum = ref<number>(0)
 const maxSeasonSum = ref<number>(0)
 const titleTransform = ref({ scale: 1, translate: '0rem' })
 const legendShown = ref(false)
-const modalData = ref<ModalData>(null)
+const episodeModalData = ref<ModalData>(null)
+const speakerModalData = ref(null)
 
 const hoveredEpisode = ref<{ season: number | string; episode: string | number } | null>(null)
 const hoveredSeasonSpeaker = ref<{ season: number | string; speaker: string } | null>(null)
@@ -177,21 +179,23 @@ onMounted(() => {
 
       const speakers = seasonData[episode as EpisodeKey] as Speaker[]
 
-      seasonData[episode as EpisodeKey] = {
-        title: speakers[0].episode,
-        speakers,
-        sum: sumBy(
-          (seasonData[episode as EpisodeKey] as Speaker[]).filter(
-            (good: Speaker) => good.speaker && keySpeakers.includes(good.speaker),
+      if (speakers) {
+        seasonData[episode as EpisodeKey] = {
+          title: speakers[0].episode,
+          speakers,
+          sum: sumBy(
+            (seasonData[episode as EpisodeKey] as Speaker[]).filter(
+              (good: Speaker) => good.speaker && keySpeakers.includes(good.speaker),
+            ),
+            'word_count_for_line',
           ),
-          'word_count_for_line',
-        ),
-        size: 0,
-        totalEpisodeSum: allEpisodesSeasonData[episode as EpisodeKey]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
-      }
+          size: 0,
+          totalEpisodeSum: allEpisodesSeasonData[episode as EpisodeKey]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
+        }
 
-      // Loop towards last episode
-      seasonsLastEpisode.value[season] = episode
+        // Loop towards last episode
+        seasonsLastEpisode.value[season] = episode
+      }
     })
 
     newSeasons[season as SeasonKey] = getEpisodesWithAccumulatedSize(seasonData as Episode, season)
@@ -261,7 +265,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
 
   type EpisodeKey = keyof typeof goodEps | keyof typeof villainEps | keyof typeof allEps
 
-  modalData.value = {
+  episodeModalData.value = {
     season: season || '',
     episodeNr: episode,
     ...allEps[episode as EpisodeKey],
@@ -270,6 +274,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
     goodiesTalking: goodEps[episode as EpisodeKey].sum,
     sumEpisode: allEps[episode as EpisodeKey].word_count_for_line || 0,
     imdbLink: allEps[episode as EpisodeKey].imdbLink,
+    fandomLink: allEps[episode as EpisodeKey].fandomLink,
   }
 }
 
@@ -309,8 +314,53 @@ function getEpisodeVillains(season: string | number, episode: string | number) {
 }
 
 function onModalClose() {
-  modalData.value = null
+  episodeModalData.value = null
   hoveredEpisode.value = null
+}
+
+function showSpeakerModal(speaker: string) {
+  type TopKey = keyof typeof goodTop | keyof typeof villainTop
+  type SeasonKey = keyof typeof seasonsWithEpisodes | keyof typeof allEpisodes
+
+  const speakerTopData = goodTop[speaker as TopKey] || villainTop[speaker as TopKey]
+
+  const topDataWithEpisodeSpeakers = speakerTopData.map((ep) => {
+    const season = ep.season
+    const goodEps: Episode = seasonsWithEpisodes.value[season as SeasonKey]
+    const allEps: DataEpisode = allEpisodes[season as SeasonKey]
+
+    type EpisodeKey = keyof typeof goodEps
+
+    const speakers = goodEps[ep.episode_nr as EpisodeKey].speakers
+
+    const sumTopSpeakers = sumBy(speakers, 'word_count_for_line')
+    const othersWordCount = ep.sumEpisode - sumTopSpeakers
+    const topSpeakersPlusOthers = [...speakers].map((s) => ({
+      speaker: s.speaker,
+      word_count_for_line: s.word_count_for_line,
+    }))
+
+    if (othersWordCount) {
+      topSpeakersPlusOthers.push({
+        speaker: 'others',
+        word_count_for_line: othersWordCount,
+      })
+    }
+    topSpeakersPlusOthers.sort((a, b) => a.word_count_for_line - b.word_count_for_line)
+    const speakerAmount =
+      speakers.find((s) => s.speaker == speaker || s.villain == speaker)?.word_count_for_line || 0
+    const sumEpisode = allEps[ep.episode_nr as EpisodeKey].word_count_for_line || 0
+
+    return {
+      ...ep,
+      sumEpisode,
+      speakers,
+      speakerAmount: speakerAmount,
+      speakerPercentage: Math.round((speakerAmount / sumEpisode) * 1000) / 10,
+    }
+  })
+
+  speakerModalData.value = { speaker, episodes: topDataWithEpisodeSpeakers }
 }
 </script>
 
@@ -393,13 +443,16 @@ function onModalClose() {
         :villains="villains"
         :villainGroups="villainGroups"
         @onSpeakerHover="hoveredSpeaker = $event"
+        @showSpeakerData="showSpeakerModal"
       />
 
       <NostalgiaEpisodeModal
-        :data="modalData"
+        :data="episodeModalData"
         @closeModal="onModalClose"
         @navigate="setModalDataFromModal"
       />
+
+      <NostalgiaSpeakerModal :data="speakerModalData" @closeModal="speakerModalData = null" />
 
       <NostalgiaSources />
     </section>
