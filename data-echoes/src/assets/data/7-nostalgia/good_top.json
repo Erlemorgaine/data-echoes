@@ -1,162 +1,177 @@
 {
-  "blossom": [
-    {
-      "season": 2,
-      "episode_nr": "10.1",
-      "episode": "the powerpuff girls' best rainy day adventure ever",
-      "word_count_for_line": 525
-    },
-    {
-      "season": 1,
-      "episode_nr": "9.2",
-      "episode": "the bare facts",
-      "word_count_for_line": 462
-    },
-    {
-      "season": 4,
-      "episode_nr": "4.",
-      "episode": "him diddle riddle",
-      "word_count_for_line": 431
-    },
-    {
-      "season": 6,
-      "episode_nr": "12.1",
-      "episode": "crazy mixed up puffs",
-      "word_count_for_line": 396
-    },
-    {
-      "season": 4,
-      "episode_nr": "12.",
-      "episode": "power-noia",
-      "word_count_for_line": 377
-    }
-  ],
-  "bubbles": [
-    {
-      "season": 1,
-      "episode_nr": "9.2",
-      "episode": "the bare facts",
-      "word_count_for_line": 375
-    },
-    {
-      "season": 2,
-      "episode_nr": "10.1",
-      "episode": "the powerpuff girls' best rainy day adventure ever",
-      "word_count_for_line": 371
-    },
-    {
-      "season": 6,
-      "episode_nr": "15.2",
-      "episode": "octi gone",
-      "word_count_for_line": 343
-    },
-    {
-      "season": 1,
-      "episode_nr": "11.2",
-      "episode": "mime for a change",
-      "word_count_for_line": 331
-    },
-    {
-      "season": 4,
-      "episode_nr": "7.",
-      "episode": "superfriends",
-      "word_count_for_line": 313
-    }
-  ],
-  "buttercup": [
-    {
-      "season": 3,
-      "episode_nr": "3.",
-      "episode": "criss cross crisis",
-      "word_count_for_line": 337
-    },
-    {
-      "season": 2,
-      "episode_nr": "10.1",
-      "episode": "the powerpuff girls' best rainy day adventure ever",
-      "word_count_for_line": 280
-    },
-    {
-      "season": 5,
-      "episode_nr": "5.",
-      "episode": "the boys are back in town",
-      "word_count_for_line": 272
-    },
-    {
-      "season": 1,
-      "episode_nr": "9.2",
-      "episode": "the bare facts",
-      "word_count_for_line": 266
-    },
-    {
-      "season": 3,
-      "episode_nr": "12.1",
-      "episode": "moral decay",
-      "word_count_for_line": 253
-    }
-  ],
-  "narrator": [
-    {
-      "season": 6,
-      "episode_nr": "15.1",
-      "episode": "i see a funny cartoon in your future",
-      "word_count_for_line": 1015
-    },
-    {
-      "season": 2,
-      "episode_nr": "5.1",
-      "episode": "dream scheme",
-      "word_count_for_line": 635
-    },
-    {
-      "season": 4,
-      "episode_nr": "8.",
-      "episode": "nano of the north",
-      "word_count_for_line": 410
-    },
-    {
-      "season": 6,
-      "episode_nr": "5.",
-      "episode": "a made up story",
-      "word_count_for_line": 354
-    },
-    {
-      "season": 2,
-      "episode_nr": "4.1",
-      "episode": "beat your greens",
-      "word_count_for_line": 277
-    }
-  ],
-  "professor": [
-    {
-      "season": 4,
-      "episode_nr": "3.",
-      "episode": "get back, jojo",
-      "word_count_for_line": 756
-    },
-    {
-      "season": 4,
-      "episode_nr": "8.",
-      "episode": "nano of the north",
-      "word_count_for_line": 541
-    },
-    {
-      "season": 5,
-      "episode_nr": "3.2",
-      "episode": "shotgun wedding",
-      "word_count_for_line": 493
-    },
-    {
-      "season": 6,
-      "episode_nr": "6.1",
-      "episode": "little miss interprets",
-      "word_count_for_line": 448
-    },
-    {
-      "season": 6,
-      "episode_nr": "4.2",
-      "episode": "oops, i did it again",
-      "word_count_for_line": 447
-    }
-  ]
+  "blossom": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Blossom_(1998_TV_series)?file=Blossom-pic.png",
+    "topEpisodes": [
+      {
+        "season": 2,
+        "episode_nr": "10.1",
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 525
+      },
+      {
+        "season": 1,
+        "episode_nr": "9.2",
+        "episode": "the bare facts",
+        "word_count_for_line": 462
+      },
+      {
+        "season": 4,
+        "episode_nr": "4.",
+        "episode": "him diddle riddle",
+        "word_count_for_line": 431
+      },
+      {
+        "season": 6,
+        "episode_nr": "12.1",
+        "episode": "crazy mixed up puffs",
+        "word_count_for_line": 396
+      },
+      {
+        "season": 4,
+        "episode_nr": "12.",
+        "episode": "power-noia",
+        "word_count_for_line": 377
+      }
+    ]
+  },
+  "professor": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Professor_Utonium_(1998_TV_series)?file=Utonium.gif",
+    "topEpisodes": [
+      {
+        "season": 4,
+        "episode_nr": "3.",
+        "episode": "get back, jojo",
+        "word_count_for_line": 756
+      },
+      {
+        "season": 4,
+        "episode_nr": "8.",
+        "episode": "nano of the north",
+        "word_count_for_line": 541
+      },
+      {
+        "season": 5,
+        "episode_nr": "3.2",
+        "episode": "shotgun wedding",
+        "word_count_for_line": 493
+      },
+      {
+        "season": 6,
+        "episode_nr": "6.1",
+        "episode": "little miss interprets",
+        "word_count_for_line": 448
+      },
+      {
+        "season": 6,
+        "episode_nr": "4.2",
+        "episode": "oops, i did it again",
+        "word_count_for_line": 447
+      }
+    ]
+  },
+  "narrator": {
+    "imgLink": "",
+    "topEpisodes": [
+      {
+        "season": 6,
+        "episode_nr": "15.1",
+        "episode": "i see a funny cartoon in your future",
+        "word_count_for_line": 1015
+      },
+      {
+        "season": 2,
+        "episode_nr": "5.1",
+        "episode": "dream scheme",
+        "word_count_for_line": 635
+      },
+      {
+        "season": 4,
+        "episode_nr": "8.",
+        "episode": "nano of the north",
+        "word_count_for_line": 410
+      },
+      {
+        "season": 6,
+        "episode_nr": "5.",
+        "episode": "a made up story",
+        "word_count_for_line": 354
+      },
+      {
+        "season": 2,
+        "episode_nr": "4.1",
+        "episode": "beat your greens",
+        "word_count_for_line": 277
+      }
+    ]
+  },
+  "buttercup": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Buttercup_(1998_TV_series)?file=Buttercup-pic.png",
+    "topEpisodes": [
+      {
+        "season": 3,
+        "episode_nr": "3.",
+        "episode": "criss cross crisis",
+        "word_count_for_line": 337
+      },
+      {
+        "season": 2,
+        "episode_nr": "10.1",
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 280
+      },
+      {
+        "season": 5,
+        "episode_nr": "5.",
+        "episode": "the boys are back in town",
+        "word_count_for_line": 272
+      },
+      {
+        "season": 1,
+        "episode_nr": "9.2",
+        "episode": "the bare facts",
+        "word_count_for_line": 266
+      },
+      {
+        "season": 3,
+        "episode_nr": "12.1",
+        "episode": "moral decay",
+        "word_count_for_line": 253
+      }
+    ]
+  },
+  "bubbles": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Bubbles_(1998_TV_series)?file=185px-Bubbles_%28Original%29_Pic.jpg",
+    "topEpisodes": [
+      {
+        "season": 1,
+        "episode_nr": "9.2",
+        "episode": "the bare facts",
+        "word_count_for_line": 375
+      },
+      {
+        "season": 2,
+        "episode_nr": "10.1",
+        "episode": "the powerpuff girls' best rainy day adventure ever",
+        "word_count_for_line": 371
+      },
+      {
+        "season": 6,
+        "episode_nr": "15.2",
+        "episode": "octi gone",
+        "word_count_for_line": 343
+      },
+      {
+        "season": 1,
+        "episode_nr": "11.2",
+        "episode": "mime for a change",
+        "word_count_for_line": 331
+      },
+      {
+        "season": 4,
+        "episode_nr": "7.",
+        "episode": "superfriends",
+        "word_count_for_line": 313
+      }
+    ]
+  }
 }

@@ -1,272 +1,299 @@
 {
-  "amoeba boys": [
-    {
-      "season": 5,
-      "episode_nr": "2.2",
-      "episode": "divide and conquer",
-      "word_count_for_line": 332
-    },
-    {
-      "season": 1,
-      "episode_nr": "3.2",
-      "episode": "geshundfight",
-      "word_count_for_line": 301
-    },
-    {
-      "season": 2,
-      "episode_nr": "3.1",
-      "episode": "birthday bash",
-      "word_count_for_line": 170
-    },
-    {
-      "season": 2,
-      "episode_nr": "5.2",
-      "episode": "you snooze, you lose",
-      "word_count_for_line": 78
-    },
-    {
-      "season": 6,
-      "episode_nr": "10.1",
-      "episode": "sun scream",
-      "word_count_for_line": 48
-    }
-  ],
-  "fuzzy": [
-    {
-      "season": 1,
-      "episode_nr": "4.2",
-      "episode": "fuzzy logic",
-      "word_count_for_line": 214
-    },
-    {
-      "season": 5,
-      "episode_nr": "3.2",
-      "episode": "shotgun wedding",
-      "word_count_for_line": 163
-    },
-    {
-      "season": 1,
-      "episode_nr": "10.2",
-      "episode": "impeach fuzz",
-      "word_count_for_line": 132
-    },
-    {
-      "season": 6,
-      "episode_nr": "13.1",
-      "episode": "roughing it up",
-      "word_count_for_line": 132
-    },
-    {
-      "season": 3,
-      "episode_nr": "12.2",
-      "episode": "meet the beat-alls",
-      "word_count_for_line": 106
-    }
-  ],
-  "gangreen gang": [
-    {
-      "season": 5,
-      "episode_nr": "5.",
-      "episode": "the boys are back in town",
-      "word_count_for_line": 587
-    },
-    {
-      "season": 5,
-      "episode_nr": "11.2",
-      "episode": "bubble boy",
-      "word_count_for_line": 534
-    },
-    {
-      "season": 3,
-      "episode_nr": "5.2",
-      "episode": "cop out",
-      "word_count_for_line": 275
-    },
-    {
-      "season": 5,
-      "episode_nr": "6.2",
-      "episode": "boy toys",
-      "word_count_for_line": 164
-    },
-    {
-      "season": 1,
-      "episode_nr": "12.",
-      "episode": "the rowdyruff boys",
-      "word_count_for_line": 149
-    }
-  ],
-  "him": [
-    {
-      "season": 4,
-      "episode_nr": "4.",
-      "episode": "him diddle riddle",
-      "word_count_for_line": 517
-    },
-    {
-      "season": 5,
-      "episode_nr": "5.",
-      "episode": "the boys are back in town",
-      "word_count_for_line": 517
-    },
-    {
-      "season": 4,
-      "episode_nr": "2.",
-      "episode": "all chalked up",
-      "word_count_for_line": 289
-    },
-    {
-      "season": 1,
-      "episode_nr": "6.2",
-      "episode": "tough love",
-      "word_count_for_line": 251
-    },
-    {
-      "season": 6,
-      "episode_nr": "7.1",
-      "episode": "custody battle",
-      "word_count_for_line": 230
-    }
-  ],
-  "mojo jojo": [
-    {
-      "season": 1,
-      "episode_nr": "11.1",
-      "episode": "just another manic mojo",
-      "word_count_for_line": 790
-    },
-    {
-      "season": 4,
-      "episode_nr": "10.",
-      "episode": "forced kin",
-      "word_count_for_line": 789
-    },
-    {
-      "season": 3,
-      "episode_nr": "6.2",
-      "episode": "monkey see, doggie two",
-      "word_count_for_line": 564
-    },
-    {
-      "season": 6,
-      "episode_nr": "9.2",
-      "episode": "simian says",
-      "word_count_for_line": 551
-    },
-    {
-      "season": 6,
-      "episode_nr": "4.1",
-      "episode": "mo' linguish",
-      "word_count_for_line": 542
-    }
-  ],
-  "princess morbucks": [
-    {
-      "season": 4,
-      "episode_nr": "7.",
-      "episode": "superfriends",
-      "word_count_for_line": 661
-    },
-    {
-      "season": 5,
-      "episode_nr": "6.2",
-      "episode": "boy toys",
-      "word_count_for_line": 579
-    },
-    {
-      "season": 3,
-      "episode_nr": "4.2",
-      "episode": "bought and scold",
-      "word_count_for_line": 555
-    },
-    {
-      "season": 2,
-      "episode_nr": "1.1",
-      "episode": "stuck up, up, and away",
-      "word_count_for_line": 545
-    },
-    {
-      "season": 2,
-      "episode_nr": "8.1",
-      "episode": "mo job",
-      "word_count_for_line": 257
-    }
-  ],
-  "rowdyruff boys": [
-    {
-      "season": 1,
-      "episode_nr": "4.1",
-      "episode": "buttercrush",
-      "word_count_for_line": 495
-    },
-    {
-      "season": 2,
-      "episode_nr": "6.1",
-      "episode": "slave the day",
-      "word_count_for_line": 433
-    },
-    {
-      "season": 5,
-      "episode_nr": "13.2",
-      "episode": "bang for your buck",
-      "word_count_for_line": 331
-    },
-    {
-      "season": 2,
-      "episode_nr": "1.2",
-      "episode": "schoolhouse rocked",
-      "word_count_for_line": 326
-    },
-    {
-      "season": 3,
-      "episode_nr": "13.2",
-      "episode": "power lunch",
-      "word_count_for_line": 272
-    }
-  ],
-  "sedusa": [
-    {
-      "season": 6,
-      "episode_nr": "8.",
-      "episode": "aspirations",
-      "word_count_for_line": 346
-    },
-    {
-      "season": 1,
-      "episode_nr": "1.2",
-      "episode": "mommy fearest",
-      "word_count_for_line": 325
-    },
-    {
-      "season": 2,
-      "episode_nr": "13.1",
-      "episode": "something's a ms.",
-      "word_count_for_line": 146
-    }
-  ],
-  "smith family": [
-    {
-      "season": 2,
-      "episode_nr": "10.2",
-      "episode": "just desserts",
-      "word_count_for_line": 523
-    },
-    {
-      "season": 2,
-      "episode_nr": "2.2",
-      "episode": "supper villain",
-      "word_count_for_line": 421
-    },
-    {
-      "season": 5,
-      "episode_nr": "4.2",
-      "episode": "substitute creature",
-      "word_count_for_line": 20
-    },
-    {
-      "season": 1,
-      "episode_nr": "8.1",
-      "episode": "paste makes waste",
-      "word_count_for_line": 6
-    }
-  ]
+  "mojo jojo": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Mojo_Jojo_(1998_TV_series)?file=Mojo.jpg",
+    "topEpisodes": [
+      {
+        "season": 1,
+        "episode_nr": "11.1",
+        "episode": "just another manic mojo",
+        "word_count_for_line": 790
+      },
+      {
+        "season": 4,
+        "episode_nr": "10.",
+        "episode": "forced kin",
+        "word_count_for_line": 789
+      },
+      {
+        "season": 3,
+        "episode_nr": "6.2",
+        "episode": "monkey see, doggie two",
+        "word_count_for_line": 564
+      },
+      {
+        "season": 6,
+        "episode_nr": "9.2",
+        "episode": "simian says",
+        "word_count_for_line": 551
+      },
+      {
+        "season": 6,
+        "episode_nr": "4.1",
+        "episode": "mo' linguish",
+        "word_count_for_line": 542
+      }
+    ]
+  },
+  "princess morbucks": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Princess_Morbucks_(1998_TV_series)?file=Princess-pic.png",
+    "topEpisodes": [
+      {
+        "season": 4,
+        "episode_nr": "7.",
+        "episode": "superfriends",
+        "word_count_for_line": 661
+      },
+      {
+        "season": 5,
+        "episode_nr": "6.2",
+        "episode": "boy toys",
+        "word_count_for_line": 579
+      },
+      {
+        "season": 3,
+        "episode_nr": "4.2",
+        "episode": "bought and scold",
+        "word_count_for_line": 555
+      },
+      {
+        "season": 2,
+        "episode_nr": "1.1",
+        "episode": "stuck up, up, and away",
+        "word_count_for_line": 545
+      },
+      {
+        "season": 2,
+        "episode_nr": "8.1",
+        "episode": "mo job",
+        "word_count_for_line": 257
+      }
+    ]
+  },
+  "him": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Him_(1998_TV_series)?file=HIMPPG.png",
+    "topEpisodes": [
+      {
+        "season": 4,
+        "episode_nr": "4.",
+        "episode": "him diddle riddle",
+        "word_count_for_line": 517
+      },
+      {
+        "season": 5,
+        "episode_nr": "5.",
+        "episode": "the boys are back in town",
+        "word_count_for_line": 517
+      },
+      {
+        "season": 4,
+        "episode_nr": "2.",
+        "episode": "all chalked up",
+        "word_count_for_line": 289
+      },
+      {
+        "season": 1,
+        "episode_nr": "6.2",
+        "episode": "tough love",
+        "word_count_for_line": 251
+      },
+      {
+        "season": 6,
+        "episode_nr": "7.1",
+        "episode": "custody battle",
+        "word_count_for_line": 230
+      }
+    ]
+  },
+  "rowdyruff boys": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/The_Rowdyruff_Boys_(characters)?file=The_Rowdyruff_Boys_Updated_design.png",
+    "topEpisodes": [
+      {
+        "season": 1,
+        "episode_nr": "4.1",
+        "episode": "buttercrush",
+        "word_count_for_line": 495
+      },
+      {
+        "season": 2,
+        "episode_nr": "6.1",
+        "episode": "slave the day",
+        "word_count_for_line": 433
+      },
+      {
+        "season": 5,
+        "episode_nr": "13.2",
+        "episode": "bang for your buck",
+        "word_count_for_line": 331
+      },
+      {
+        "season": 2,
+        "episode_nr": "1.2",
+        "episode": "schoolhouse rocked",
+        "word_count_for_line": 326
+      },
+      {
+        "season": 3,
+        "episode_nr": "13.2",
+        "episode": "power lunch",
+        "word_count_for_line": 272
+      }
+    ]
+  },
+  "gangreen gang": {
+    "imgLink": "https://blossom.fandom.com/wiki/Gangreen_Gang?file=Gangrene_%281%29.jpg",
+    "topEpisodes": [
+      {
+        "season": 5,
+        "episode_nr": "5.",
+        "episode": "the boys are back in town",
+        "word_count_for_line": 587
+      },
+      {
+        "season": 5,
+        "episode_nr": "11.2",
+        "episode": "bubble boy",
+        "word_count_for_line": 534
+      },
+      {
+        "season": 3,
+        "episode_nr": "5.2",
+        "episode": "cop out",
+        "word_count_for_line": 275
+      },
+      {
+        "season": 5,
+        "episode_nr": "6.2",
+        "episode": "boy toys",
+        "word_count_for_line": 164
+      },
+      {
+        "season": 1,
+        "episode_nr": "12.",
+        "episode": "the rowdyruff boys",
+        "word_count_for_line": 149
+      }
+    ]
+  },
+  "smith family": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/The_Smiths?file=The_smiths.png",
+    "topEpisodes": [
+      {
+        "season": 2,
+        "episode_nr": "10.2",
+        "episode": "just desserts",
+        "word_count_for_line": 523
+      },
+      {
+        "season": 2,
+        "episode_nr": "2.2",
+        "episode": "supper villain",
+        "word_count_for_line": 421
+      },
+      {
+        "season": 5,
+        "episode_nr": "4.2",
+        "episode": "substitute creature",
+        "word_count_for_line": 20
+      },
+      {
+        "season": 1,
+        "episode_nr": "8.1",
+        "episode": "paste makes waste",
+        "word_count_for_line": 6
+      }
+    ]
+  },
+  "amoeba boys": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Amoeba_Boys_(1998_TV_series)?file=Amoeba_boys.png",
+    "topEpisodes": [
+      {
+        "season": 5,
+        "episode_nr": "2.2",
+        "episode": "divide and conquer",
+        "word_count_for_line": 332
+      },
+      {
+        "season": 1,
+        "episode_nr": "3.2",
+        "episode": "geshundfight",
+        "word_count_for_line": 301
+      },
+      {
+        "season": 2,
+        "episode_nr": "3.1",
+        "episode": "birthday bash",
+        "word_count_for_line": 170
+      },
+      {
+        "season": 2,
+        "episode_nr": "5.2",
+        "episode": "you snooze, you lose",
+        "word_count_for_line": 78
+      },
+      {
+        "season": 6,
+        "episode_nr": "10.1",
+        "episode": "sun scream",
+        "word_count_for_line": 48
+      }
+    ]
+  },
+  "sedusa": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Sedusa?file=Sedusa-Improved-from-678020.png",
+    "topEpisodes": [
+      {
+        "season": 6,
+        "episode_nr": "8.",
+        "episode": "aspirations",
+        "word_count_for_line": 346
+      },
+      {
+        "season": 1,
+        "episode_nr": "1.2",
+        "episode": "mommy fearest",
+        "word_count_for_line": 325
+      },
+      {
+        "season": 2,
+        "episode_nr": "13.1",
+        "episode": "something's a ms.",
+        "word_count_for_line": 146
+      }
+    ]
+  },
+  "fuzzy": {
+    "imgLink": "https://powerpuffgirls.fandom.com/wiki/Fuzzy_Lumpkins?file=Fuzzy_Lumpkins.gif",
+    "topEpisodes": [
+      {
+        "season": 1,
+        "episode_nr": "4.2",
+        "episode": "fuzzy logic",
+        "word_count_for_line": 214
+      },
+      {
+        "season": 5,
+        "episode_nr": "3.2",
+        "episode": "shotgun wedding",
+        "word_count_for_line": 163
+      },
+      {
+        "season": 1,
+        "episode_nr": "10.2",
+        "episode": "impeach fuzz",
+        "word_count_for_line": 132
+      },
+      {
+        "season": 6,
+        "episode_nr": "13.1",
+        "episode": "roughing it up",
+        "word_count_for_line": 132
+      },
+      {
+        "season": 3,
+        "episode_nr": "12.2",
+        "episode": "meet the beat-alls",
+        "word_count_for_line": 106
+      }
+    ]
+  }
 }

@@ -61,12 +61,21 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
       </div>
 
       <div class="nostalgia-episode-modal__content">
-        <img
-          :src="`${baseUrl}images/${data.speaker.replaceAll(' ', '-')}.webp`"
-          alt=""
-          class="nostalgia-episode-modal__content__img"
-        />
-        <h2 class="nostalgia-episode-modal__content__title">{{ data.speaker }}</h2>
+        <picture>
+          <img
+            :src="`${baseUrl}images/${data.speaker.replaceAll(' ', '-')}.webp`"
+            alt=""
+            class="nostalgia-episode-modal__content__img"
+          />
+          <caption class="nostalgia-episode-modal__content__source">
+            Source:
+            <a target="__blank" :href="data.imgLink">Powerpuff Wiki</a>
+          </caption>
+        </picture>
+
+        <h2 class="nostalgia-episode-modal__content__title">
+          {{ data.speaker }}
+        </h2>
       </div>
     </div>
   </NostalgiaModal>
@@ -76,6 +85,10 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
 .nostalgia-episode-modal {
   display: flex;
   flex-direction: row-reverse;
+
+  @include mobile {
+    flex-direction: column-reverse;
+  }
 
   &__close-button {
     position: absolute;
@@ -194,6 +207,26 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
     justify-content: center;
     padding: 0rem 2.5rem;
 
+    picture {
+      position: relative;
+    }
+
+    &__source {
+      font-family: VinaSans;
+      width: 100%;
+      position: absolute;
+      top: calc(100% + 3rem);
+
+      a {
+        font-family: Poppins;
+        font-size: 0.8rem;
+
+        &:hover {
+          color: var(--blossom);
+        }
+      }
+    }
+
     &__title {
       text-align: center;
       font-family: VinaSans;
@@ -208,6 +241,11 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
       margin: 0 auto;
       display: block;
       margin-bottom: 1rem;
+
+      @include mobile {
+        width: 100%;
+        max-width: initial;
+      }
     }
   }
 

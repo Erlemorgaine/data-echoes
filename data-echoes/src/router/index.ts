@@ -17,7 +17,7 @@ const router = createRouter({
       component: () => import('../views/ThemeView.vue'),
     },
     {
-      path: '/:pathMatch(.*)*',
+      path: '/:catchAll(.*)',
       redirect: '/',
     },
   ],

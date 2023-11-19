@@ -93,9 +93,7 @@ export type ModalData = {
   description: string
   episodeNr: string | number
   title?: string
-  goodies: Speaker[]
-  villains: Speaker[]
-  goodiesTalking: number
+  topSpeakers: Speaker[]
   sumEpisode: number
   imdbLink?: string
   fandomLink?: string
@@ -117,5 +115,6 @@ export type ModalTopEpisode = TopEpisode & {
 
 export type SpeakerModalData = {
   speaker: string
+  imgLink: string
   episodes: ModalTopEpisode[]
 } | null

@@ -200,9 +200,7 @@ function setModalData({ season, episode }: { season: string; episode: string }) 
     season: season || '',
     episodeNr: episode,
     ...allEps[episode as EpisodeKey],
-    goodies: goodEps[episode as EpisodeKey].speakers,
-    villains: villainEps[episode as EpisodeKey],
-    goodiesTalking: goodEps[episode as EpisodeKey].sum,
+    topSpeakers: goodEps[episode as EpisodeKey].speakers,
     sumEpisode: allEps[episode as EpisodeKey].word_count_for_line || 0,
     imdbLink: allEps[episode as EpisodeKey].imdbLink,
     fandomLink: allEps[episode as EpisodeKey].fandomLink,
@@ -257,7 +255,7 @@ function showSpeakerModal(speaker: string) {
 
   const speakerTopData = goodTop[speaker as GoodTopKey] || villainTop[speaker as VillainTopKey]
 
-  const topDataWithEpisodeSpeakers = speakerTopData.map((ep: TopEpisode) => {
+  const topDataWithEpisodeSpeakers = speakerTopData.topEpisodes.map((ep: TopEpisode) => {
     const season = ep.season
     const goodEps: Episode = seasonsWithEpisodes.value[season as SeasonKey]
     const allEps: DataEpisode = allEpisodes[season as SeasonAllKey]
@@ -293,7 +291,11 @@ function showSpeakerModal(speaker: string) {
     }
   })
 
-  speakerModalData.value = { speaker, episodes: topDataWithEpisodeSpeakers }
+  speakerModalData.value = {
+    speaker,
+    imgLink: speakerTopData.imgLink,
+    episodes: topDataWithEpisodeSpeakers,
+  }
 }
 </script>
 

@@ -35,9 +35,9 @@ const fandomLink = computed(
 
 const speakers = computed((): Speaker[] => {
   if (props.data) {
-    const sumTopSpeakers = sumBy(props.data.goodies, 'word_count_for_line')
+    const sumTopSpeakers = sumBy(props.data.topSpeakers, 'word_count_for_line')
     const othersWordCount = props.data.sumEpisode - sumTopSpeakers
-    const topSpeakersPlusOthers = [...props.data.goodies]
+    const topSpeakersPlusOthers = [...props.data.topSpeakers]
 
     if (othersWordCount) {
       topSpeakersPlusOthers.push({
@@ -70,6 +70,7 @@ const speakers = computed((): Speaker[] => {
           class="nostalgia-episode-modal__bubble"
           :season="data.season"
           :episodeData="{ title: '', size: 1, accumulatedSize: 0, speakers, sum: data.sumEpisode }"
+          disabled
         />
       </div>
 
@@ -136,26 +137,6 @@ const speakers = computed((): Speaker[] => {
 
 <style scoped lang="scss">
 .nostalgia-episode-modal {
-  // box-shadow: -2px -1px 5px 1px var(--off-white-30);
-  // background-color: rgb(25, 25, 25);
-  // border: 1px solid;
-  // border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
-  // color: var(--off-white);
-  // padding: 1.5rem 2rem 2.5rem 2rem;
-  // max-width: 65vw;
-  // display: flex;
-
-  &__close-button {
-    position: absolute;
-    top: 0.25rem;
-    right: 1rem;
-    font-family: PPG;
-
-    &:hover {
-      color: #e382a4;
-    }
-  }
-
   &__bubble-wrapper {
     padding: 1rem;
     position: relative;
@@ -168,9 +149,20 @@ const speakers = computed((): Speaker[] => {
       // font-size: 0.8rem;
       right: 0rem;
       letter-spacing: 0.05em;
+
+      @include mobile {
+        right: initial;
+        left: 0;
+        top: -0.5rem;
+      }
     }
+
     &__episode {
       top: 1.2rem;
+
+      @include mobile {
+        top: 0.7rem;
+      }
     }
   }
 
@@ -182,11 +174,22 @@ const speakers = computed((): Speaker[] => {
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+
+    @include mobile {
+      width: 100%;
+      height: calc(100vw - 7rem);
+      top: initial;
+      transform: initial;
+    }
   }
 
   &__content {
     padding-left: 2rem;
     padding-right: 1rem;
+
+    @include mobile {
+      padding: 0;
+    }
 
     &__title {
       font-family: VinaSans;
@@ -240,6 +243,10 @@ const speakers = computed((): Speaker[] => {
       position: relative;
       z-index: 1;
 
+      @include mobile {
+        padding-bottom: 3rem;
+      }
+
       &__title {
         font-family: VinaSans;
       }
@@ -264,6 +271,7 @@ const speakers = computed((): Speaker[] => {
     justify-content: space-between;
     padding: 1rem 2rem;
     font-family: VinaSans;
+    z-index: 1;
     // color: var(--off-black);
 
     &__nav-btn {

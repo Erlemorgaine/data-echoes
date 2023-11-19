@@ -14,6 +14,7 @@ const props = defineProps<{
   hoveredSpeaker?: HoveredSpeaker
   hoveredSeasonSpeaker?: { season: string | number; speaker: string } | null
   halfBubble?: boolean
+  disabled?: boolean
 }>()
 
 defineEmits(['onEpisodeHover', 'openModal'])
@@ -111,6 +112,7 @@ function getBubbleInactive(speaker: Speaker) {
       '--episode-size': episodeData.size,
       '--episode-accumulated-size': (episodeData.accumulatedSize || 0) * -1,
     }"
+    :disabled="disabled"
     @mouseenter="$emit('onEpisodeHover', { season, episode })"
     @focus="$emit('onEpisodeHover', { season, episode })"
     @mouseleave="$emit('onEpisodeHover', null)"

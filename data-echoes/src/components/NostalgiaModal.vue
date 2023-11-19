@@ -62,12 +62,21 @@ function closeModal() {
   padding: 1.5rem 2rem 2.5rem 2rem;
   max-width: min(65vw, 55rem);
   display: flex;
+  position: relative;
+
+  @include mobile {
+    width: 100%;
+    max-width: initial;
+    padding: 1rem;
+    flex-direction: column;
+  }
 
   &__close-button {
     position: absolute;
     top: 0.25rem;
     right: 1rem;
     font-family: PPG;
+    z-index: 1;
 
     &:hover {
       color: #e382a4;

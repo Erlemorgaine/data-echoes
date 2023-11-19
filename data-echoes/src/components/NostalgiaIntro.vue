@@ -100,6 +100,7 @@
     // letter-spacing: 0.06rem;
     // font-weight: 700;
     font-style: italic;
+    font-size: 0.8rem;
   }
 }
 </style>

@@ -82,8 +82,8 @@ a {
   padding: 0;
 }
 
-button:hover,
-a:hover {
+button:hover:not(:disabled),
+a:hover:not(:disabled) {
   cursor: pointer;
 }
 

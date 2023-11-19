@@ -33,6 +33,11 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 
   &__title {

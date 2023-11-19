@@ -148,7 +148,7 @@ function getVillainGradient(speaker) {
     position: absolute;
     right: 0rem;
     bottom: -1.75rem;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-style: italic;
     font-family: Poppins;
   }
