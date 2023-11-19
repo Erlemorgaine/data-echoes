@@ -58,9 +58,10 @@
       "announcer": 315,
       "man": 293,
       "woman": 280,
-      "brick": 275
+      "brick": 275,
+      "ms keane": 126
     },
-    "total": 18382
+    "total": 18497
   },
   "4": {
     "speakers": {
@@ -77,9 +78,10 @@
       "princess morbucks": 661,
       "major glory": 630,
       "mayor": 428,
-      "robin": 285
+      "robin": 285,
+      "ms bellum": 75
     },
-    "total": 17830
+    "total": 17905
   },
   "5": {
     "speakers": {
@@ -101,9 +103,10 @@
       "mr. green": 324,
       "ace": 301,
       "bossman": 273,
-      "ms keane": 271
+      "ms keane": 271,
+      "ms bellum": 44
     },
-    "total": 19134
+    "total": 19178
   },
   "6": {
     "speakers": {
@@ -116,8 +119,10 @@
       "mayor": 1386,
       "sedusa": 346,
       "man": 344,
-      "ace": 257
+      "ace": 257,
+      "ms keane": 219,
+      "ms bellum": 184
     },
-    "total": 19915
+    "total": 20318
   }
 }
