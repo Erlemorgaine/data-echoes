@@ -2,7 +2,7 @@
 export type Speaker = {
   speaker?: string
   villain?: string
-  episode: string
+  episode?: string
   word_count_for_line: number
 }
 

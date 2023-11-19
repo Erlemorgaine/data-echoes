@@ -76,9 +76,9 @@
     ],
     "2.1": [
       {
-        "speaker": "slob",
+        "speaker": "roach coach",
         "episode": "insect inside",
-        "word_count_for_line": 179
+        "word_count_for_line": 238
       },
       {
         "speaker": "mayor",
@@ -424,11 +424,6 @@
         "speaker": "mayor",
         "episode": "major competition",
         "word_count_for_line": 155
-      },
-      {
-        "speaker": "man",
-        "episode": "major competition",
-        "word_count_for_line": 152
       },
       {
         "speaker": "major man",
@@ -1001,11 +996,6 @@
       }
     ],
     "3.2": [
-      {
-        "speaker": "man",
-        "episode": "too pooped to puff",
-        "word_count_for_line": 255
-      },
       {
         "speaker": "mayor",
         "episode": "too pooped to puff",
@@ -1726,7 +1716,7 @@
         "word_count_for_line": 125
       },
       {
-        "speaker": "announcer",
+        "speaker": "reporter",
         "episode": "fallen arches",
         "word_count_for_line": 117
       },
@@ -1852,11 +1842,6 @@
         "speaker": "mojo jojo",
         "episode": "criss cross crisis",
         "word_count_for_line": 164
-      },
-      {
-        "speaker": "woman",
-        "episode": "criss cross crisis",
-        "word_count_for_line": 157
       },
       {
         "speaker": "mayor",
@@ -2110,11 +2095,6 @@
     ],
     "7.2": [
       {
-        "speaker": "harmony bunny",
-        "episode": "super zeroes",
-        "word_count_for_line": 141
-      },
-      {
         "speaker": "mayor",
         "episode": "super zeroes",
         "word_count_for_line": 53
@@ -2127,7 +2107,7 @@
       {
         "speaker": "bubbles",
         "episode": "super zeroes",
-        "word_count_for_line": 220
+        "word_count_for_line": 361
       },
       {
         "speaker": "buttercup",
@@ -2398,7 +2378,7 @@
         "word_count_for_line": 366
       },
       {
-        "speaker": "announcer",
+        "speaker": "reporter",
         "episode": "meet the beat-alls",
         "word_count_for_line": 191
       },
@@ -2585,7 +2565,7 @@
         "word_count_for_line": 232
       },
       {
-        "speaker": "announcer",
+        "speaker": "reporter",
         "episode": "get back, jojo",
         "word_count_for_line": 144
       },
@@ -3011,7 +2991,7 @@
         "word_count_for_line": 647
       },
       {
-        "speaker": "agent",
+        "speaker": "cop",
         "episode": "shut the pup up",
         "word_count_for_line": 179
       },
@@ -3112,7 +3092,7 @@
     ],
     "3.1": [
       {
-        "speaker": "burglar",
+        "speaker": "thief",
         "episode": "burglar alarmed",
         "word_count_for_line": 240
       },
@@ -3213,14 +3193,9 @@
     ],
     "4.2": [
       {
-        "speaker": "mr. green",
+        "speaker": "mr green",
         "episode": "substitute creature",
         "word_count_for_line": 324
-      },
-      {
-        "speaker": "kid",
-        "episode": "substitute creature",
-        "word_count_for_line": 103
       },
       {
         "speaker": "blossom",
@@ -3349,16 +3324,6 @@
         "speaker": "powerpuff girls",
         "episode": "see me, feel me, gnomey",
         "word_count_for_line": 212
-      },
-      {
-        "speaker": "man",
-        "episode": "see me, feel me, gnomey",
-        "word_count_for_line": 123
-      },
-      {
-        "speaker": "townspeople",
-        "episode": "see me, feel me, gnomey",
-        "word_count_for_line": 121
       },
       {
         "speaker": "blossom",
@@ -3585,7 +3550,7 @@
     ],
     "13.1": [
       {
-        "speaker": "host",
+        "speaker": "reporter",
         "episode": "curses",
         "word_count_for_line": 107
       },
@@ -3695,11 +3660,6 @@
       }
     ],
     "14.2": [
-      {
-        "speaker": "man",
-        "episode": "sweet 'n sour",
-        "word_count_for_line": 104
-      },
       {
         "speaker": "mayor",
         "episode": "sweet 'n sour",
@@ -3835,11 +3795,6 @@
       }
     ],
     "2.2": [
-      {
-        "speaker": "man",
-        "episode": "say uncle",
-        "word_count_for_line": 108
-      },
       {
         "speaker": "blossom",
         "episode": "say uncle",
@@ -4069,11 +4024,7 @@
         "episode": "night mayor",
         "word_count_for_line": 280
       },
-      {
-        "speaker": "man",
-        "episode": "night mayor",
-        "word_count_for_line": 109
-      },
+
       {
         "speaker": "blossom",
         "episode": "night mayor",

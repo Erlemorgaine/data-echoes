@@ -264,8 +264,9 @@ function showSpeakerModal(speaker: string) {
 
     const speakers = goodEps[ep.episode_nr as EpisodeKey].speakers
 
+    const sumEpisode = allEps[ep.episode_nr as EpisodeKey].word_count_for_line || 0
     const sumTopSpeakers = sumBy(speakers, 'word_count_for_line')
-    const othersWordCount = (ep.sumEpisode || 0) - sumTopSpeakers
+    const othersWordCount = sumEpisode - sumTopSpeakers
     const topSpeakersPlusOthers = [...speakers].map((s) => ({
       speaker: s.speaker,
       word_count_for_line: s.word_count_for_line,
@@ -278,16 +279,13 @@ function showSpeakerModal(speaker: string) {
       })
     }
     topSpeakersPlusOthers.sort((a, b) => a.word_count_for_line - b.word_count_for_line)
-    const speakerAmount =
-      speakers.find((s) => s.speaker == speaker || s.villain == speaker)?.word_count_for_line || 0
-    const sumEpisode = allEps[ep.episode_nr as EpisodeKey].word_count_for_line || 0
 
     return {
       ...ep,
       sumEpisode,
-      speakers,
-      speakerAmount: speakerAmount,
-      speakerPercentage: Math.round((speakerAmount / sumEpisode) * 1000) / 10,
+      speakers: topSpeakersPlusOthers,
+      speakerAmount: ep.word_count_for_line,
+      speakerPercentage: Math.round((ep.word_count_for_line / sumEpisode) * 1000) / 10,
     }
   })
 
@@ -476,6 +474,44 @@ function showSpeakerModal(speaker: string) {
   --bud: #418124;
   --bud-30: #41812433;
   --smith-family: #d1b14a;
+
+  --others: #f3b0b2;
+  --roach-coach: #6f4f4b;
+  --253: #ca4328;
+  --octi: #9894ca;
+  --boogie-man: #74849c;
+  --major-man: #f2c588;
+  --rainbow: #dc557e;
+  --wednesday: #dec2b4;
+  --lenny: #fbe1e5;
+  --whitfield: #5b7c9a;
+  --ruler: #386d32;
+  --sandman: #8c96cd;
+  --reporter: #7198bc;
+  --mike: #b87843;
+  --mary: #d086a2;
+  --mastermind: #6e1111;
+  --captain: #3d53ab;
+  --lefty: #a01a17;
+  --mitch: #7e331e;
+  --cop: #0e62b1;
+  --thief: #912222;
+  --femme-fatale: #576595;
+  --bernie: #ceaf30;
+  --teacher: #bd700c;
+  --major-glory: #2f4ba8;
+  --shaquille: #7e321e;
+  --dick: #dbc56b;
+  --robin: #027e98;
+  --monster: #6b9015;
+  --talking-dog: #dadbd6;
+  --mr-green: #b2c14b;
+  --gnome: #f75e61;
+  --guide: #a9f1ff;
+  --brian: #b49a69;
+  --stanley: #7cc790;
+  --sandra: #cb385a;
+  --max: #efe9c4;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);
