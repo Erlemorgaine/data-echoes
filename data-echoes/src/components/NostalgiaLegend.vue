@@ -41,7 +41,7 @@ function getVillainGradient(speaker) {
         @mouseleave="$emit('onSpeakerHover', null)"
         @click="$emit('showSpeakerData', speaker)"
       >
-        <div class="nostalgia-legend__speaker">
+        <div :class="['nostalgia-legend__speaker', speaker]">
           <img
             :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
             alt=""
@@ -100,13 +100,13 @@ function getVillainGradient(speaker) {
     // padding-right: 1rem;
     translate: -2rem 0;
     z-index: 1;
+    color: #000;
 
+    &.professor {
+      color: var(--off-white);
+    }
     &:focus {
       outline: none;
-    }
-
-    &:not(:nth-child(4)) {
-      color: #000;
     }
 
     .villains & {
