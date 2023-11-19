@@ -390,9 +390,9 @@ function showSpeakerModal(speaker: string) {
         @closeModal="speakerModalData = null"
         @openEpisodeModal="setModalData"
       />
-
-      <NostalgiaSources />
     </section>
+
+    <NostalgiaSources />
   </div>
 </template>
 
@@ -512,6 +512,15 @@ function showSpeakerModal(speaker: string) {
   --stanley: #7cc790;
   --sandra: #cb385a;
   --max: #efe9c4;
+  --mopey: #994f99;
+  --karr: #cfecee;
+  --master: #f4bc09;
+  --farouk: #536d82;
+  --mask-scara: #b1a6d4;
+  --governor: #7e3d2c;
+  --crack: #c61624;
+  --mr-willy: #f7992f;
+  --madame-argentina: #fae447;
 
   --season-1: var(--blossom-50);
   --season-2: var(--bubbles-50);

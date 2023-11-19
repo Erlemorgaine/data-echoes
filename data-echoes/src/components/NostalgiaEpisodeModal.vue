@@ -269,7 +269,7 @@ const speakers = computed((): Speaker[] => {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem 1rem 2rem;
     font-family: VinaSans;
     z-index: 1;
     // color: var(--off-black);

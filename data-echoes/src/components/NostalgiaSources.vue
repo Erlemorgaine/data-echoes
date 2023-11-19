@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="nostalgia-sources">
+  <footer class="nostalgia-sources">
     <div id="sources-title" class="nostalgia-sources__title">Sources</div>
     <ul>
       <li
@@ -21,13 +21,19 @@
         <a :href="link">{{ source }}</a>
       </li>
     </ul>
-  </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
 .nostalgia-sources {
   margin-top: 3rem;
   margin-bottom: -1rem;
+  width: 100%;
+
+  @media screen and (min-width: 1440px) {
+    width: calc(100% + 3vw);
+    margin-left: -3vw;
+  }
 
   ul {
     display: flex;

@@ -3697,12 +3697,7 @@
       {
         "speaker": "mopey",
         "episode": "prime mates",
-        "word_count_for_line": 190
-      },
-      {
-        "speaker": "voice",
-        "episode": "prime mates",
-        "word_count_for_line": 125
+        "word_count_for_line": 315
       },
       {
         "speaker": "blossom",
@@ -4474,7 +4469,7 @@
     ],
     "14.2": [
       {
-        "speaker": "mr. willy",
+        "speaker": "mr willy",
         "episode": "neighbor hood",
         "word_count_for_line": 118
       },
@@ -4511,9 +4506,9 @@
         "word_count_for_line": 153
       },
       {
-        "speaker": "ma",
+        "speaker": "madame argentina",
         "episode": "i see a funny cartoon in your future",
-        "word_count_for_line": 145
+        "word_count_for_line": 173
       },
       {
         "speaker": "blossom",
