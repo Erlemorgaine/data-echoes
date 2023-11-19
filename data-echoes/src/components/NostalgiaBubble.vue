@@ -215,7 +215,7 @@ function getBubbleInactive(speaker: Speaker) {
       aspect-ratio: 1;
       border-radius: 50%;
       z-index: var(--speaker-z-index);
-      transition: opacity 0.5s;
+      // transition: opacity 0.5s;
 
       &.half-bubble {
         top: 100%;

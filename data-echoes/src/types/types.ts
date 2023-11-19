@@ -115,6 +115,7 @@ export type ModalTopEpisode = TopEpisode & {
 
 export type SpeakerModalData = {
   speaker: string
+  speakerTotal: number
   imgLink: string
   episodes: ModalTopEpisode[]
 } | null

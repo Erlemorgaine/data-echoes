@@ -11,6 +11,7 @@ defineProps<{
 defineEmits(['closeModal', 'navigate', 'openEpisodeModal'])
 
 const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.BASE_URL
+const seriesTotal = 137275
 </script>
 
 <template>
@@ -61,6 +62,16 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
       </div>
 
       <div class="nostalgia-episode-modal__content">
+        <h2 class="nostalgia-episode-modal__content__title">
+          {{ data.speaker }}
+        </h2>
+        <div class="nostalgia-episode-modal__content__numbers">
+          speaks
+          <span class="value">{{ data.speakerTotal }}</span> words (<span class="value"
+            >{{ Math.round((data.speakerTotal / seriesTotal) * 1000) / 10 }}%</span
+          >) <br />in the entire series
+        </div>
+
         <picture>
           <img
             :src="`${baseUrl}images/${data.speaker.replaceAll(' ', '-')}.webp`"
@@ -72,10 +83,6 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
             <a target="__blank" :href="data.imgLink">Powerpuff Wiki</a>
           </caption>
         </picture>
-
-        <h2 class="nostalgia-episode-modal__content__title">
-          {{ data.speaker }}
-        </h2>
       </div>
     </div>
   </NostalgiaModal>
@@ -102,7 +109,7 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
   }
 
   &__bubbles {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     position: relative;
     display: grid;
     // grid-template-columns: repeat(2, 1fr);
@@ -114,6 +121,7 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
 
       font-size: 1.5rem;
       position: relative;
+      width: 100%;
     }
 
     &__bubble-content {
@@ -204,18 +212,17 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 0rem 2.5rem;
+    justify-content: space-between;
 
     picture {
       position: relative;
+      padding: 0rem 2.5rem;
     }
 
     &__source {
       font-family: VinaSans;
       width: 100%;
-      position: absolute;
-      top: calc(100% + 3rem);
+      display: block;
 
       a {
         font-family: Poppins;
@@ -232,6 +239,18 @@ const baseUrl = import.meta.env.MODE === 'development' ? '/' : import.meta.env.B
       font-family: VinaSans;
       font-size: 2rem;
       font-weight: 400;
+    }
+
+    &__numbers {
+      width: 100%;
+      padding-bottom: 1rem;
+      padding-top: 0.25rem;
+      text-align: center;
+      line-height: 1.1rem;
+
+      .value {
+        font-weight: 700;
+      }
     }
 
     &__img {

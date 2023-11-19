@@ -30,7 +30,6 @@ function getVillainGradient(speaker) {
       :class="['nostalgia-legend__group', { villains: i == 1 }]"
     >
       <button
-        class="nostalgia-legend__speaker"
         v-for="speaker of group"
         :key="'legend-' + speaker"
         :style="{
@@ -42,12 +41,14 @@ function getVillainGradient(speaker) {
         @mouseleave="$emit('onSpeakerHover', null)"
         @click="$emit('showSpeakerData', speaker)"
       >
-        <img
-          :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
-          alt=""
-          class="nostalgia-legend__speaker__img"
-        />
-        {{ speaker }}
+        <div class="nostalgia-legend__speaker">
+          <img
+            :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
+            alt=""
+            class="nostalgia-legend__speaker__img"
+          />
+          {{ speaker }}
+        </div>
       </button>
     </div>
 
@@ -119,7 +120,7 @@ function getVillainGradient(speaker) {
       height: 80%;
       top: 10%;
       left: 1.75rem;
-      transform: skew(-35deg);
+      transform: skew(-30deg);
       background-image: linear-gradient(90deg, var(--speaker-color) 25%, transparent);
       z-index: -1;
 

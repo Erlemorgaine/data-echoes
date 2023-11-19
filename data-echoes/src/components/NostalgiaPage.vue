@@ -45,7 +45,7 @@ import NostalgiaSpeakerModal from './NostalgiaSpeakerModal.vue'
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
-const villains = villainsAll.map((v) => v.villain.trim())
+const villains = Object.keys(villainsAll)
 
 const villainGroups: { [key: string]: string[] } = {
   'mojo-jojo': ['mojo-jojo-30', 'mojo-jojo'],
@@ -134,7 +134,7 @@ onMounted(() =>
               'word_count_for_line',
             ),
             size: 0,
-            totalEpisodeSum: allEpisodesSeasonData[episode as EpisodeKey]?.word_count_for_line, // TODO: All episodes that arent in two parts are missing!! Bring them back,
+            totalEpisodeSum: allEpisodesSeasonData[episode as EpisodeKey]?.word_count_for_line,
           }
 
           // Loop towards last episode
@@ -151,7 +151,7 @@ onMounted(() =>
     seasonsWithEpisodes.value = newSeasons
 
     totalSum.value = sumBy(
-      goodAll.filter((good) => keySpeakers.includes(good.speaker)),
+      Object.keys(goodAll).filter((speaker) => keySpeakers.includes(speaker)),
       'word_count_for_line',
     )
   }),
@@ -252,6 +252,8 @@ function showSpeakerModal(speaker: string) {
   type VillainTopKey = keyof typeof villainTop
   type SeasonKey = keyof typeof seasonsWithEpisodes.value
   type SeasonAllKey = keyof typeof allEpisodes
+  type SpeakerKey = keyof typeof goodAll
+  type VillainKey = keyof typeof villainsAll
 
   const speakerTopData = goodTop[speaker as GoodTopKey] || villainTop[speaker as VillainTopKey]
 
@@ -291,6 +293,7 @@ function showSpeakerModal(speaker: string) {
 
   speakerModalData.value = {
     speaker,
+    speakerTotal: goodAll[speaker as SpeakerKey] || villainsAll[speaker as VillainKey],
     imgLink: speakerTopData.imgLink,
     episodes: topDataWithEpisodeSpeakers,
   }

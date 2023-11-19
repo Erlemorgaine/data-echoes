@@ -45,7 +45,7 @@ onMounted(() => {
       size,
       accumulatedSize,
       episodeCenter: accumulatedSize + size * 0.5,
-      totalEpisodeSum: props.allEpisodes[ep as EpisodeKey].totalEpisodeSum,
+      // totalEpisodeSum: props.allEpisodes[ep as EpisodeKey].totalEpisodeSum,
     }
   })
 
@@ -108,13 +108,13 @@ onMounted(() => {
                     ? {
                         nextEpisodeNr,
                         nextOccurrenceSize: nextOccurrenceEpisode.size,
-                        startWidth:
-                          (villain.word_count_for_line / (episode.totalEpisodeSum || 1)) *
-                          (episode.size || 1),
-                        endWidth:
-                          (villain.word_count_for_line /
-                            (nextOccurrenceEpisode.totalEpisodeSum || 1)) *
-                          (nextOccurrenceEpisode.size || 1),
+                        // startWidth:
+                        //   (villain.word_count_for_line / (episode.totalEpisodeSum || 1)) *
+                        //   (episode.size || 1),
+                        // endWidth:
+                        //   (villain.word_count_for_line /
+                        //     (nextOccurrenceEpisode.totalEpisodeSum || 1)) *
+                        //   (nextOccurrenceEpisode.size || 1),
                       }
                     : {}),
                 }

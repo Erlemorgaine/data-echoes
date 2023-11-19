@@ -32,7 +32,7 @@ function closeModal() {
 }
 </script>
 
-<template>
+ <template>
   <dialog class="nostalgia-modal-wrapper" ref="dialogRef" @close="closeModal">
     <div class="nostalgia-modal">
       <button @click="closeModal" class="nostalgia-modal__close-button">X</button>
