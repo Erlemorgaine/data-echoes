@@ -1,12 +1,25 @@
 <script setup lang="ts">
+import { useMeta } from 'vue-meta'
+
 const themes = [
   'Nostalgia',
   'Music',
-  // 'Presidents & Royals',
-  // 'Movies',
-  
+  'Presidents & Royals',
+  'Movies',
+  'Books',
+  'Travel',
+  'Culture',
+  'Nature',
+  'Myths and Legends',
+  'Community',
+  'Olympics',
+  'Fearless',
 ]
-const activeThemes = ['Nostalgia']
+const activeThemes = ['Nostalgia', 'Music']
+
+useMeta({
+  title: 'Home',
+})
 </script>
 
 <template>
@@ -18,11 +31,13 @@ const activeThemes = ['Nostalgia']
           <p>
             <span class="capital">Welcome!</span> I'm Erle, mostly-frontend developer and data
             enthusiast, and this is my fan-project-turned-into-personal-website. To be precise, a
-            fan-project based on the book <a href="https://www.datasketch.es/">Data Sketches</a>, which was born out of a
-            collaboration between <a href="https://shirleywu.studio/">Shirley Wu</a> and
-            <a href="https://www.visualcinnamon.com/">Nadieh Bremer</a>, and harbours a collection of data visualizations that are
-            beautiful and immensely inspiring. So inspiring that I decided to take it as a starting
-            point of my own personal journey to get better at data analysis and visualization.
+            fan-project based on the book <a href="https://www.datasketch.es/">Data Sketches</a>,
+            which was born out of a collaboration between
+            <a href="https://shirleywu.studio/">Shirley Wu</a> and
+            <a href="https://www.visualcinnamon.com/">Nadieh Bremer</a>, and harbours a collection
+            of data visualizations that are beautiful and immensely inspiring. So inspiring that I
+            decided to take it as a starting point of my own personal journey to get better at data
+            analysis and visualization.
           </p>
           <p>
             My aim is to follow the twelve categories that Shirley and Nadieh chose for Data
@@ -41,9 +56,11 @@ const activeThemes = ['Nostalgia']
           <RouterLink
             v-for="(theme, i) of themes"
             :key="theme"
-            class="home-view__content__themes__link"
+            :class="[
+              'home-view__content__themes__link',
+              { disabled: !activeThemes.includes(theme) },
+            ]"
             :to="{ name: 'theme', params: { theme: theme.toLowerCase() } }"
-            :disabled="!activeThemes.includes(theme)"
           >
             <span>{{ `${i + 1}.` }}</span>
 
@@ -100,7 +117,7 @@ const activeThemes = ['Nostalgia']
 
   z-index: 1;
   color: var(--off-white);
-  max-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 
@@ -144,14 +161,15 @@ const activeThemes = ['Nostalgia']
 
   &__content-wrapper {
     position: relative;
-    top: 4rem;
+    top: 45%;
     left: 50%;
-    max-width: 40rem;
-    transform: translateX(-50%);
+    max-width: 55rem;
+    transform: translate(-50%, -50%);
 
     @include mobile {
       top: 2rem;
       width: calc(100% - 2rem);
+      transform: translateX(-50%);
     }
   }
 
@@ -197,6 +215,8 @@ const activeThemes = ['Nostalgia']
 
     @include mobile {
       padding: 2rem 1.5rem;
+      max-height: calc(100vh - 8rem);
+      overflow: auto;
     }
 
     &__intro {
@@ -226,21 +246,50 @@ const activeThemes = ['Nostalgia']
     }
 
     &__themes {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      columns: 4;
+      column-fill: balance;
       font-weight: bold;
       text-transform: uppercase;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
+      border-top: 0.1rem solid;
+      padding-top: 1.5rem;
+      padding-right: 1rem;
+      border-image: linear-gradient(
+          90deg,
+          transparent 20%,
+          var(--off-white-70) 40%,
+          var(--off-white-70) 60%,
+          transparent 80%
+        )
+        30;
+
+      @include mobile {
+        columns: 2;
+      }
 
       &__link {
         position: relative;
+        display: flex;
+        align-items: baseline;
+        width: fit-content;
+        gap: 0.5rem;
+        line-height: 1.1;
+
+        @include mobile {
+          align-items: center;
+          margin-bottom: 0.15rem;
+
+          &:nth-child(-n + 6) {
+            text-align: right;
+            margin-left: auto;
+            flex-direction: row-reverse;
+          }
+        }
 
         span {
           font-family: WaitingfortheSunrise;
           font-size: 1.5rem;
           line-height: 120%;
-          padding-right: 0.5rem;
           width: 1.25rem;
           letter-spacing: 0.15rem;
         }
@@ -257,8 +306,13 @@ const activeThemes = ['Nostalgia']
           transition: transform 0.5s ease-out;
         }
 
-        &:hover::after {
+        &:hover:not(.disabled)::after {
           transform: scaleX(1);
+        }
+
+        &.disabled {
+          opacity: 0.5;
+          pointer-events: none;
         }
       }
     }

@@ -5,6 +5,8 @@ import p5 from 'p5'
 
 const audioContext = ref<AudioContext | null>(null) // Holds details associated to audio
 const audio = ref<HTMLAudioElement | null>(null) // Contains html audio node
+const analyzerNode = ref(null)
+
 const vizRef = ref(null)
 
 onMounted(() => {
@@ -29,6 +31,9 @@ async function playAudio() {
     // This is for sources that are being streamed
     const source = audioContext.value.createMediaElementSource(audio.value)
     source.connect(audioContext.value.destination) // Wire source to speaker
+
+    analyzerNode.value = audioContext.value.createAnalyzer()
+    analyzerData = new Float32Array(analyzerNode.value.fftSize)
   }
 }
 

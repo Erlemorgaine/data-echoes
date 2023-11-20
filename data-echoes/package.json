@@ -18,6 +18,7 @@
     "lodash": "^4.17.21",
     "p5": "^1.8.0",
     "vue": "^3.3.4",
+    "vue-meta": "^3.0.0-alpha.10",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import { useRoute } from 'vue-router'
 import { defineAsyncComponent } from 'vue'
+import { useMeta } from 'vue-meta'
+import capitalize from 'lodash/capitalize'
 
 const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
 const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
@@ -13,6 +15,10 @@ const themes = {
 }
 
 type ThemesKey = keyof typeof themes
+
+useMeta({
+  title: capitalize(route.params.theme as string),
+})
 </script>
 
 <template>
