@@ -2,24 +2,26 @@
 import { useRoute } from 'vue-router'
 import { defineAsyncComponent } from 'vue'
 
-const Nostalgia = defineAsyncComponent(() => import('../components/NostalgiaPage.vue'))
+const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
+const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
 
 const route = useRoute()
 
 const themes = {
-  nostalgia: Nostalgia,
+  nostalgia: { component: Nostalgia, dark: true },
+  music: { component: Music, dark: false },
 }
 
 type ThemesKey = keyof typeof themes
 </script>
 
 <template>
-  <div class="theme-view">
+  <div :class="['theme-view', { dark: themes[route.params.theme as ThemesKey].dark }]">
     <h1 class="theme-view__theme">{{ route.params.theme }}</h1>
     <RouterLink class="theme-view__back-btn" :to="{ name: 'home' }">home</RouterLink>
     <Suspense>
       <template #default>
-        <component :is="themes[route.params.theme as ThemesKey]" />
+        <component :is="themes[route.params.theme as ThemesKey].component" />
       </template>
       <template #fallback> Loading ... </template>
     </Suspense>
@@ -31,6 +33,14 @@ type ThemesKey = keyof typeof themes
   padding: 0rem 2.5em;
   overflow: hidden;
   position: relative;
+  color: var(--vt-c-black);
+  background-color: var(--vt-c-white-mute);
+  min-height: 100vh;
+
+  &.dark {
+    color: var(--color-text);
+    background: var(--color-background);
+  }
 
   &__theme {
     font-size: 1.5rem;
@@ -49,9 +59,12 @@ type ThemesKey = keyof typeof themes
     left: 1.5rem;
     font-weight: 600;
     transition: color 0.5s;
+    z-index: 2;
 
-    &:hover {
-      color: var(--off-white);
+    .dark & {
+      &:hover {
+        color: var(--off-white);
+      }
     }
   }
 }

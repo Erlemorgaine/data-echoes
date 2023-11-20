@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const themes = [
   'Nostalgia',
+  'Music',
   // 'Presidents & Royals',
   // 'Movies',
-  // 'Music',
+  
 ]
 const activeThemes = ['Nostalgia']
 </script>
