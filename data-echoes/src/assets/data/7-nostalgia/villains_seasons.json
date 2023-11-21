@@ -2,12 +2,12 @@
   "1": {
     "speakers": {
       "mojo jojo": 2223,
-      "rowdyruff boys": 731,
+      "gangreen gang": 731,
       "him": 531,
       "fuzzy": 353,
       "sedusa": 325,
       "amoeba boys": 301,
-      "gangreen gang": 154,
+      "rowdyruff boys": 154,
       "smith family": 6
     }
   },
@@ -16,13 +16,13 @@
       "mojo jojo": 1525,
       "smith family": 944,
       "princess morbucks": 905,
-      "rowdyruff boys": 759,
+      "gangreen gang": 759,
       "lenny": 268,
       "amoeba boys": 248,
       "him": 196,
       "sedusa": 146,
       "sandman": 109,
-      "gangreen gang": 5
+      "rowdyruff boys": 5
     }
   },
   "3": {
@@ -30,8 +30,8 @@
       "mojo jojo": 1675,
       "princess morbucks": 687,
       "femme fatale": 350,
-      "rowdyruff boys": 298,
-      "gangreen gang": 275,
+      "gangreen gang": 298,
+      "rowdyruff boys": 5,
       "him": 152,
       "fuzzy": 125
     }
@@ -44,16 +44,16 @@
       "dick": 802,
       "princess morbucks": 661,
       "amoeba boys": 11,
-      "rowdyruff boys": 3
+      "gangreen gang": 3
     }
   },
   "5": {
     "speakers": {
-      "gangreen gang": 1327,
+      "rowdyruff boys": 1327,
       "mojo jojo": 622,
       "princess morbucks": 608,
       "him": 542,
-      "rowdyruff boys": 358,
+      "gangreen gang": 358,
       "gnome": 348,
       "amoeba boys": 343,
       "fuzzy": 185,
@@ -64,10 +64,10 @@
     "speakers": {
       "mojo jojo": 2853,
       "sedusa": 346,
-      "rowdyruff boys": 336,
+      "gangreen gang": 336,
       "him": 247,
       "fuzzy": 136,
-      "gangreen gang": 107,
+      "rowdyruff boys": 107,
       "amoeba boys": 50
     }
   }

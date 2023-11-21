@@ -2,10 +2,98 @@
 import { onMounted, ref } from 'vue'
 import { baseUrl } from '../../ultilities/globals'
 import p5 from 'p5'
+type P5 = import('p5')
 import sumBy from 'lodash/sumBy'
+
+// Source: https://p5js.org/zh-Hans/examples/simulate-snowflakes.html
+class Snowflake {
+  // Properties
+  private posX: number
+  private posY: number
+  private initialangle: number
+  private size: number
+  private radius: number
+
+  // Constructor
+  constructor(
+    private p: P5,
+    private snowflakes: Snowflake[],
+  ) {
+    // Initialize coordinates
+    this.posX = 0
+    this.posY = p.random(-50, 0)
+    this.initialangle = p.random(0, 2 * p.PI)
+    this.size = p.random(2, 7)
+
+    // Radius of snowflake spiral
+    // Chosen so the snowflakes are uniformly spread out in area
+    this.radius = p.sqrt(p.random(p.pow(p.width * 0.5, 2)))
+  }
+
+  // Methods
+
+  update(time: number): void {
+    // X position follows a circle
+    const w = 0.05 // Angular speed
+    const angle = w * time + this.initialangle
+    this.posX = this.p.width / 2 + this.radius * this.p.sin(angle)
+
+    // Different size snowflakes fall at slightly different Y speeds
+    this.posY += this.p.pow(this.size, 0.5) * 0.75
+
+    // Delete snowflake if past end of screen
+    if (this.posY > this.p.height) {
+      const index = this.snowflakes.indexOf(this)
+      this.snowflakes.splice(index, 1)
+    }
+  }
+
+  display(): void {
+    this.p.ellipse(this.posX, this.posY, this.size)
+  }
+}
+
+class Flower {
+  // Properties
+  private posX: number
+  private posY: number
+  private petalSizes: number[]
+
+  // Constructor
+  constructor(
+    private p: P5,
+    private x: number,
+    private y: number,
+  ) {
+    // Initialize coordinates
+    this.posX = x
+    this.posY = y
+    this.petalSizes = [p.random(2, 7), p.random(2, 7), p.random(2, 7)]
+  }
+
+  // Methods
+
+  update(time: number): void {
+    // TODO: Wave flower? Or no update
+  }
+
+  display(): void {
+    // TODO: leaves
+    // TODO: stem
+    // Petals
+    this.petalSizes.map((size, i) => {
+      this.p.ellipse(this.posX + 20 * (i - 1), this.posY + 20 * Math.abs(i - 1), size)
+    })
+  }
+}
+
+class Tree {}
+
+class Bird {}
 
 const black = '#181818'
 const black50 = '#181818aa'
+const black30 = '#18181833'
 const white = '#f2f2f2'
 const winterDuration = 1000 * 60 * 6
 
@@ -21,11 +109,12 @@ const frequencyBands = [
   { frequency: 1020 /*, color: '#F4CD00'*/ },
 ]
 
-const vizWinterRef = ref(null)
-const vizPreciousRef = ref(null)
+const vizWinterTrailRef = ref<HTMLElement | undefined>(undefined)
+const vizWinterLandscapeRef = ref<HTMLElement | undefined>(undefined)
+const vizPreciousRef = ref<HTMLElement | undefined>(undefined)
 
 const audioContext = ref<AudioContext | null>(null) // Holds details associated to audio
-const audio = ref<HTMLAudioElement | null>(null) // Contains html audio node
+const audio = ref<HTMLAudioElement | undefined>(undefined) // Contains html audio node
 const frequencySignals = ref([])
 
 onMounted(() => {
@@ -35,8 +124,6 @@ onMounted(() => {
 function initializeAudio() {
   audio.value = document.getElementById('music-tori') as HTMLAudioElement
   audioContext.value = new AudioContext()
-
-  audio.value.onstop = () => {}
 }
 
 async function playAudio() {
@@ -54,7 +141,7 @@ async function playAudio() {
 
     // For each frequency we want to isolate, we will create
     // its own analyser and filter nodes
-    frequencySignals.value = frequencyBands.map(({ frequency, color }) => {
+    frequencySignals.value = frequencyBands.map(({ frequency }) => {
       const analyser = audioContext.value.createAnalyser()
       analyser.smoothingTimeConstant = 1 // Smoothes a bit between the data
 
@@ -72,7 +159,6 @@ async function playAudio() {
 
       return {
         analyser,
-        color,
         data,
         filter,
       }
@@ -83,7 +169,8 @@ async function playAudio() {
 
     // source.connect(analyzerNode.value)
 
-    new p5(setupCanvasWinter, vizWinterRef.value)
+    new p5(setupCanvasWinterTrail, vizWinterTrailRef.value)
+    new p5(setupCanvasWinterLandscape, vizWinterLandscapeRef.value)
     new p5(setupCanvasPrecious, vizPreciousRef.value)
   }
 }
@@ -93,8 +180,8 @@ function pauseAudio() {
   audioContext.value?.close() // TODO: Maybe not necessary if only pausing
 }
 
-function setupCanvasWinter(p) {
-  let startTime
+function setupCanvasWinterTrail(p: P5) {
+  let startTime: number
   let odd = false
 
   p.setup = () => {
@@ -105,41 +192,19 @@ function setupCanvasWinter(p) {
   }
 
   p.draw = () => {
-    if (frequencySignals.value.length && !audio.value.paused) {
-      //   p.noFill()
-      //   p.stroke(black)
+    if (frequencySignals.value.length && !audio.value?.paused) {
       p.noStroke()
       p.fill(black50)
-
-      //   analyzerNode.value.getFloatTimeDomainData(analyzerData.value)
-
-      // beginShape to endShape creates a polygon shape
-      //   p.beginShape()
-      //   const dataLength = analyzerData.value.length - 1
-
-      //   analyzerData.value.forEach((amplitude, i) => {
-      // Amplitude goes from -1 to 1
-      // Amplitude for x position: map domain to range
-      // const x = p.map(amplitude, -1, 1, xBoundaries[0], xBoundaries[1])
-
-      // Map each item in the array to a y position
-      // const y = p.map(i, 0, dataLength, window.innerHeight, window.innerHeight * 0.5)
-      // p.vertex(x, y)
-
-      //     if (!(i % 80)) p.circle(x, y, 10)
-      //   })
-
-      //   p.endShape()
 
       const elapsedTime = p.millis() - startTime
       // Amplitude for x position: map domain to range
 
       // Map each item in the array to a y position
 
-      frequencySignals.value.forEach(({ analyser, data, color }, i) => {
+      frequencySignals.value.forEach(({ analyser, data }, i) => {
         analyser.getFloatTimeDomainData(data)
 
-        // p.fill(color)
+        // TODO: Threshold >= 2 for low and high sum values
 
         // These numbers approximate dots walking on the beat (tiny bit too slow though)
         if ((p.frameCount + 23) % 47 === 0 && i == 1) {
@@ -165,8 +230,44 @@ function setupCanvasWinter(p) {
   }
 }
 
-function setupCanvasPrecious(p) {
-  let startTime
+function setupCanvasWinterLandscape(p: P5) {
+  let startTime: number
+  let snowflakes: Snowflake[] = []
+  let ctx
+
+  p.setup = () => {
+    const canvas = p.createCanvas(window.innerWidth * 0.5, window.innerHeight)
+    ctx = canvas.drawingContext
+
+    startTime = p.millis()
+    p.frameRate(60)
+  }
+
+  p.draw = () => {
+    if (frequencySignals.value.length && !audio.value?.paused) {
+      ctx.clearRect(0, 0, p.width, p.height)
+      p.noStroke()
+      p.fill(black30)
+
+      // const elapsedTime = p.millis() - startTime
+
+      let t = p.frameCount / 60
+      const elapsedTime = p.millis() - startTime
+
+      if (elapsedTime < 1000 * 127) {
+        snowflakes.push(new Snowflake(p, snowflakes)) // append snowflake object
+      }
+
+      snowflakes.forEach((flake) => {
+        flake.update(t) // update snowflake position
+        flake.display() // draw snowflake
+      })
+    }
+  }
+}
+
+function setupCanvasPrecious(p: P5) {
+  let startTime: number
 
   p.setup = () => {
     p.createCanvas(window.innerWidth * 0.5, window.innerHeight)
@@ -174,7 +275,22 @@ function setupCanvasPrecious(p) {
     startTime = p.millis()
   }
 
-  p.draw = () => {}
+  p.draw = () => {
+    //   analyzerNode.value.getFloatTimeDomainData(analyzerData.value)
+    // beginShape to endShape creates a polygon shape
+    //   p.beginShape()
+    //   const dataLength = analyzerData.value.length - 1
+    //   analyzerData.value.forEach((amplitude, i) => {
+    // Amplitude goes from -1 to 1
+    // Amplitude for x position: map domain to range
+    // const x = p.map(amplitude, -1, 1, xBoundaries[0], xBoundaries[1])
+    // Map each item in the array to a y position
+    // const y = p.map(i, 0, dataLength, window.innerHeight, window.innerHeight * 0.5)
+    // p.vertex(x, y)
+    //     if (!(i % 80)) p.circle(x, y, 10)
+    //   })
+    //   p.endShape()
+  }
 }
 </script>
 
@@ -183,8 +299,9 @@ function setupCanvasPrecious(p) {
     <button class="music-page__play-btn" @click="playAudio">Start experience</button>
     <audio id="music-tori" :src="`${baseUrl}music/tori-winter.mp3`" />
 
-    <div id="music-viz" class="music-page__viz-winter" ref="vizWinterRef"></div>
-    <div id="music-viz" class="music-page__viz-precious" ref="vizPreciousRef"></div>
+    <div class="music-page__viz-winter" ref="vizWinterTrailRef"></div>
+    <div class="music-page__viz-winter" ref="vizWinterLandscapeRef"></div>
+    <div class="music-page__viz-precious" ref="vizPreciousRef"></div>
   </div>
 </template>
 
