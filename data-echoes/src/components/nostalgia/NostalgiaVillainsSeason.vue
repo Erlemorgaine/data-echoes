@@ -8,7 +8,7 @@ import type {
   VillainsPerEpisode,
   Villain,
   HoveredSpeaker,
-} from '../types/types'
+} from '../../types/types'
 
 const props = defineProps<{
   villainsPerEpisode: VillainsPerEpisode

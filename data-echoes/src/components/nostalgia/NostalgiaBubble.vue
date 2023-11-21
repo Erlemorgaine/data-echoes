@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Speaker, EpisodeContent, HoveredSpeaker } from '../types/types.ts'
+import type { Speaker, EpisodeContent, HoveredSpeaker } from '../../types/types.ts'
 import NostalgiaTooltip from './NostalgiaTooltip.vue'
 
 import { computed } from 'vue'

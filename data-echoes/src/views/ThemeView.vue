@@ -5,13 +5,13 @@ import { useMeta } from 'vue-meta'
 import capitalize from 'lodash/capitalize'
 
 const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
-const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
+// const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
 
 const route = useRoute()
 
 const themes = {
   nostalgia: { component: Nostalgia, dark: true },
-  music: { component: Music, dark: false },
+  // music: { component: Music, dark: false },
 }
 
 type ThemesKey = keyof typeof themes
