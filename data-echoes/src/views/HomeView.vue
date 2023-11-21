@@ -15,7 +15,7 @@ const themes = [
   'Olympics',
   'Fearless',
 ]
-const activeThemes = ['Nostalgia', 'Music']
+const activeThemes = ['Nostalgia']
 
 useMeta({
   title: 'Home',
