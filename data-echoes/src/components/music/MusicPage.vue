@@ -1,4 +1,4 @@
-<!-- <script setup lang="ts">
+<script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { baseUrl } from '../../ultilities/globals'
 import p5 from 'p5'
@@ -57,6 +57,7 @@ class Flower {
   // Properties
   private posX: number
   private posY: number
+  private flowerOpacity: number
   private petalSizes: number[]
 
   // Constructor
@@ -64,11 +65,13 @@ class Flower {
     private p: P5,
     private x: number,
     private y: number,
+    private opacity: number,
   ) {
     // Initialize coordinates
     this.posX = x
     this.posY = y
-    this.petalSizes = [p.random(2, 7), p.random(2, 7), p.random(2, 7)]
+    this.flowerOpacity = opacity
+    this.petalSizes = [p.random(4, 7), p.random(3, 5), p.random(4, 7)]
   }
 
   // Methods
@@ -79,10 +82,15 @@ class Flower {
 
   display(): void {
     // TODO: leaves
-    // TODO: stem
+    // TODO: curved stem
+    this.p.line(this.posX, this.posY, this.posX, this.posY - 30)
+
+    this.p.fill(0, this.flowerOpacity)
+
+    // TODO: More transparent patterns the more they diverge from the road, base eon distance from road x rather than absolute x
     // Petals
     this.petalSizes.map((size, i) => {
-      this.p.ellipse(this.posX + 20 * (i - 1), this.posY + 20 * Math.abs(i - 1), size)
+      this.p.circle(this.posX + 4 * (i - 1), this.posY + 4 * Math.abs(i - 1), size)
     })
   }
 }
@@ -197,33 +205,44 @@ function setupCanvasWinterTrail(p: P5) {
       p.fill(black50)
 
       const elapsedTime = p.millis() - startTime
-      // Amplitude for x position: map domain to range
+      const onSecond = (p.frameCount + 23) % 12 === 0
+
+      if (onSecond) {
+        odd = !odd
+      }
 
       // Map each item in the array to a y position
 
       frequencySignals.value.forEach(({ analyser, data }, i) => {
         analyser.getFloatTimeDomainData(data)
 
-        // TODO: Threshold >= 2 for low and high sum values
+        const roadWidth = p.map(elapsedTime, 0, winterDuration, window.innerWidth * 0.05, 0)
+        const roadCurve = p.map(elapsedTime, 0, winterDuration, 0.000005, 0.0001)
+        const roadRadius = p.map(elapsedTime, 0, winterDuration, window.innerWidth * 0.2, 20)
+        const amplitudeSum = sumBy(data)
+
+        let x = odd ? xBoundaries[0] - roadWidth : xBoundaries[1] + roadWidth
+        x += Math.cos(elapsedTime * roadCurve) * roadRadius - 20
+        const y = p.map(elapsedTime, 0, winterDuration, window.innerHeight, 0)
+
+        // TODO: Figure out why sometimes flower go inside road
+        if (i == 0 && amplitudeSum > 3) {
+          // const rand = p.random(1, 5)
+          const randOffset = (odd ? -40 : 40) * (Math.abs(amplitudeSum) - 3)
+          const flowerX = x + randOffset
+          const flowerY = y // window.innerHeight * 0.5 + amplitudeSum * 20
+          const flower = new Flower(p, flowerX, flowerY, 225 - Math.abs(randOffset))
+
+          flower.display() // draw snowflake
+        }
 
         // These numbers approximate dots walking on the beat (tiny bit too slow though)
-        if ((p.frameCount + 23) % 47 === 0 && i == 1) {
+        if (onSecond && i == 1) {
           // Get the waveform
 
-          const amplitudeSum = sumBy(data)
-
-          const y = p.map(elapsedTime, 0, winterDuration, window.innerHeight, 0)
-          const radius = p.map(Math.abs(amplitudeSum), 0, 15, 2, 30)
-          const roadWidth = p.map(elapsedTime, 0, winterDuration, window.innerWidth * 0.05, 0)
-          const roadCurve = p.map(elapsedTime, 0, winterDuration, 0.000005, 0.0001)
-          const roadRadius = p.map(elapsedTime, 0, winterDuration, window.innerWidth * 0.2, 20)
-
-          let x = odd ? xBoundaries[0] - roadWidth : xBoundaries[1] + roadWidth
-          x += Math.cos(elapsedTime * roadCurve) * roadRadius
-          x -= i * 20
+          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 2, 30)
 
           p.circle(x, y, radius)
-          odd = !odd
         }
       })
     }
@@ -327,4 +346,4 @@ function setupCanvasPrecious(p: P5) {
     left: 50vw;
   }
 }
-</style> -->
+</style>
