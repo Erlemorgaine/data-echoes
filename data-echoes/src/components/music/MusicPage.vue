@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { baseUrl } from '../../ultilities/globals'
 import p5 from 'p5'
@@ -346,4 +346,4 @@ function setupCanvasPrecious(p: P5) {
     left: 50vw;
   }
 }
-</style>
+</style> -->

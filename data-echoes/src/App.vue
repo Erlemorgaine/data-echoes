@@ -29,5 +29,6 @@ main {
 body {
   width: 100vw;
   /* overflow: hidden; */
+  background-color: var(--color-background);
 }
 </style>
