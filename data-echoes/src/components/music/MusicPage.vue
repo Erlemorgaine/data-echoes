@@ -13,7 +13,7 @@ const black = '#181818'
 // const black50 = '#181818aa'
 const black30 = '#18181833'
 const white = '#f2f2f2'
-const winterDuration = 1000 * 60 * 5.25
+const winterDuration = 1000 * 60 * 5.7
 const canvasWidth = window.innerWidth > 1024 ? window.innerWidth * 0.5 : window.innerWidth
 
 const onboardingTexts = {
@@ -140,11 +140,12 @@ function setupCanvasWinterTrail(p: P5) {
   }
 
   p.draw = () => {
-    if (frequencySignals.value.length && !audio.value?.paused) {
+    const elapsedTime = p.millis() - startTime
+
+    if (frequencySignals.value.length && !audio.value?.paused && elapsedTime < winterDuration) {
       p.noStroke()
       p.fill(black)
 
-      const elapsedTime = p.millis() - startTime
       const onSecond = (p.frameCount + 23) % 12 === 0
 
       if (onSecond) {
@@ -186,7 +187,7 @@ function setupCanvasWinterTrail(p: P5) {
         if (onSecond && i == 1) {
           // Get the waveform
 
-          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 1, 30)
+          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 1, 25)
 
           p.circle(x, y, radius)
         }
@@ -210,15 +211,15 @@ function setupCanvasWinterLandscape(p: P5) {
   }
 
   p.draw = () => {
-    if (frequencySignals.value.length && !audio.value?.paused) {
+    // const elapsedTime = p.millis() - startTime
+
+    let t = p.frameCount / 60
+    const elapsedTime = p.millis() - startTime
+
+    if (frequencySignals.value.length && !audio.value?.paused && elapsedTime < winterDuration) {
       ctx.clearRect(0, 0, p.width, p.height)
       p.noStroke()
       p.fill(black30)
-
-      // const elapsedTime = p.millis() - startTime
-
-      let t = p.frameCount / 60
-      const elapsedTime = p.millis() - startTime
 
       if (elapsedTime < 1000 * 127) {
         snowflakes.push(new Snowflake(p, snowflakes)) // append snowflake object
