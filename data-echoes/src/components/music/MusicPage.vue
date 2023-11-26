@@ -186,7 +186,7 @@ function setupCanvasWinterTrail(p: P5) {
         if (onSecond && i == 1) {
           // Get the waveform
 
-          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 2, 30)
+          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 0, 30)
 
           p.circle(x, y, radius)
         }
