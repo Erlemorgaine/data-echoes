@@ -65,18 +65,15 @@ export class Flower {
 
   // Methods
 
-  update(time: number): void {
+  update(): void {
     // TODO: Wave flower? Or no update
   }
 
   display(): void {
-    // TODO: leaves
-    // TODO: curved stem
     this.p.line(this.posX, this.posY, this.posX, this.posY - 30)
 
     this.p.fill(0, this.flowerOpacity)
 
-    // TODO: More transparent patterns the more they diverge from the road, base eon distance from road x rather than absolute x
     // Petals
     this.petalSizes.map((size, i) => {
       this.p.circle(this.posX + 4 * (i - 1), this.posY + 4 * Math.abs(i - 1), size)

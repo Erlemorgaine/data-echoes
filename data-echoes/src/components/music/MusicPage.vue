@@ -10,10 +10,10 @@ import { Flower, Snowflake } from './MusicObjects'
 import type { FrequencySignal, VizTypes } from './types/types'
 
 const black = '#181818'
-const black50 = '#181818aa'
+// const black50 = '#181818aa'
 const black30 = '#18181833'
 const white = '#f2f2f2'
-const winterDuration = 1000 * 60 * 6
+const winterDuration = 1000 * 60 * 5.25
 const canvasWidth = window.innerWidth > 1024 ? window.innerWidth * 0.5 : window.innerWidth
 
 const onboardingTexts = {
@@ -142,7 +142,7 @@ function setupCanvasWinterTrail(p: P5) {
   p.draw = () => {
     if (frequencySignals.value.length && !audio.value?.paused) {
       p.noStroke()
-      p.fill(black50)
+      p.fill(black)
 
       const elapsedTime = p.millis() - startTime
       const onSecond = (p.frameCount + 23) % 12 === 0
@@ -177,7 +177,7 @@ function setupCanvasWinterTrail(p: P5) {
             (odd ? -20 : 20) + (odd ? -40 : 40) * (amplitudeSum - 3) * p.pow(amplitudeSum - 3, 0.7)
           const flowerX = x + randOffset
           const flowerY = y // window.innerHeight * 0.5 + amplitudeSum * 20
-          const flower = new Flower(p, flowerX, flowerY, 225 - Math.abs(randOffset))
+          const flower = new Flower(p, flowerX, flowerY, 200 - Math.abs(randOffset))
 
           flower.display() // draw snowflake
         }
@@ -186,7 +186,7 @@ function setupCanvasWinterTrail(p: P5) {
         if (onSecond && i == 1) {
           // Get the waveform
 
-          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 0, 30)
+          const radius = p.map(Math.abs(amplitudeSum), 0, 25, 1, 30)
 
           p.circle(x, y, radius)
         }
