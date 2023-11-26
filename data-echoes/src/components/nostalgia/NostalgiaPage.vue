@@ -37,7 +37,7 @@ import type {
   SpeakerModalData,
   Villain,
   TopEpisode,
-} from '../../types/types'
+} from './types/types'
 
 import '../../assets/scss/nostalgia.scss'
 import NostalgiaSources from './NostalgiaSources.vue'

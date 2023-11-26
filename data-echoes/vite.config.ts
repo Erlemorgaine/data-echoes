@@ -17,6 +17,7 @@ export default defineConfig({
       scss: {
         additionalData: `
               @import "./src/assets/scss/molecules.scss";
+              @import "./src/assets/scss/vue-animations.scss";
             `,
       },
     },

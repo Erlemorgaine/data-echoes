@@ -64,11 +64,18 @@ useMeta({
     top: 1rem;
     left: 1.5rem;
     font-weight: 600;
-    transition: color 0.5s;
+    transition:
+      color 0.5s,
+      opacity 0.5s;
     z-index: 2;
+
+    &:hover {
+      opacity: 0.6;
+    }
 
     .dark & {
       &:hover {
+        opacity: 1;
         color: var(--off-white);
       }
     }

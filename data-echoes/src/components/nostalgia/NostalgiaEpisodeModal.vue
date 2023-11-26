@@ -5,7 +5,7 @@ import NostalgiaBubble from './NostalgiaBubble.vue'
 import startCase from 'lodash/startCase'
 import sumBy from 'lodash/sumBy'
 
-import type { Speaker, ModalData } from '../../types/types'
+import type { Speaker, ModalData } from './types/types'
 import NostalgiaModal from './NostalgiaModal.vue'
 
 const props = defineProps<{

@@ -268,6 +268,8 @@ useMeta({
       }
 
       &__link {
+        @include underline-hover;
+
         position: relative;
         display: flex;
         align-items: baseline;
@@ -292,22 +294,6 @@ useMeta({
           line-height: 120%;
           width: 1.25rem;
           letter-spacing: 0.15rem;
-        }
-
-        &::after {
-          content: '';
-          position: absolute;
-          top: 90%;
-          left: 0;
-          height: 1px;
-          width: 100%;
-          background-color: var(--off-white);
-          transform: scaleX(0);
-          transition: transform 0.5s ease-out;
-        }
-
-        &:hover:not(.disabled)::after {
-          transform: scaleX(1);
         }
 
         &.disabled {

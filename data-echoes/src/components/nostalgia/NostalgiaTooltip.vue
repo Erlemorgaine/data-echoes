@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { EpisodeContent } from '../../types/types'
+import type { EpisodeContent } from './types/types'
 
 defineProps<{
   episodeData: EpisodeContent

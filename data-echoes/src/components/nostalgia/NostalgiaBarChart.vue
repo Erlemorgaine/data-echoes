@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { HoveredSpeaker } from '../../types/types'
+import type { HoveredSpeaker } from './types/types'
 
 defineProps<{
   seasonChartSpeakers: { speaker: string; amount: number; size: number }[]

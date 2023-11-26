@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import NostalgiaBubble from './NostalgiaBubble.vue'
 
-import type { SpeakerModalData } from '../../types/types'
+import type { SpeakerModalData } from './types/types'
 import NostalgiaModal from './NostalgiaModal.vue'
 
 defineProps<{
