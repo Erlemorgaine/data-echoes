@@ -1,4 +1,4 @@
-# data-echoes
+# Data Echoes
 
 _Data Echoes_ is a personal and ongoing project to create 12 data visualizations, based on 12 topics, and learn about techniques for data cleaning, exploration, analysis, and visualization in the process. It is heavily inspired by the [Data Sketches](https://datasketch.es) project by Shirley Wu and Nadieh Bremer.
 
