@@ -284,8 +284,14 @@ function setupCanvasPrecious(p: P5) {
       <div v-if="!experienceStarted" class="music-page__intro-text">
         <p class="music-page__intro-text__paragraph">
           Here, you will find two visualizations based on the songs "Winter" and "Precious things",
-          from the <a class="link" href=""><em>Little Earthquakes</em></a> album by
-          <a class="link" href="">Tori Amos</a>.
+          from the
+          <a class="link" target="__blank" href="https://en.wikipedia.org/wiki/Little_Earthquakes"
+            ><em>Little Earthquakes</em></a
+          >
+          album by
+          <a class="link" target="__blank" href="https://en.wikipedia.org/wiki/Tori_Amos"
+            >Tori Amos</a
+          >.
         </p>
 
         <p class="music-page__intro-text__paragraph">
