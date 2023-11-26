@@ -96,11 +96,6 @@ async function playAudio(viz: VizTypes) {
       }
     })
 
-    // analyzerNode.value = audioContext.value.createAnalyser()
-    // analyzerData.value = new Float32Array(analyzerNode.value.fftSize)
-
-    // source.connect(analyzerNode.value)
-
     new p5(setupCanvasWinterTrail, vizWinterTrailRef.value)
     new p5(setupCanvasWinterLandscape, vizWinterLandscapeRef.value)
     new p5(setupCanvasPrecious, vizPreciousRef.value)
@@ -279,13 +274,11 @@ function setupCanvasPrecious(p: P5) {
   <div class="music-page">
     <audio id="music-tori" :src="`${baseUrl}music/tori-winter.mp3`" />
 
-    <Transition name="fade">
-      <div v-if="experienceStarted" class="with-delay">
-        <div class="music-page__viz-winter" ref="vizWinterTrailRef"></div>
-        <div class="music-page__viz-winter" ref="vizWinterLandscapeRef"></div>
-        <div class="music-page__viz-precious" ref="vizPreciousRef"></div>
-      </div>
-    </Transition>
+    <div :class="['music-page__canvases', { visible: experienceStarted }]">
+      <div class="music-page__viz-winter" ref="vizWinterTrailRef"></div>
+      <div class="music-page__viz-winter" ref="vizWinterLandscapeRef"></div>
+      <div class="music-page__viz-precious" ref="vizPreciousRef"></div>
+    </div>
 
     <Transition name="fade">
       <div v-if="!experienceStarted" class="music-page__intro-text">
@@ -326,6 +319,15 @@ function setupCanvasPrecious(p: P5) {
 
 <style lang="scss" scoped>
 .music-page {
+  &__canvases {
+    opacity: 0;
+    transition: opacity 0.5s 0.25s;
+
+    &.visible {
+      opacity: 1;
+    }
+  }
+
   &__intro-text {
     @include center;
 
@@ -393,6 +395,7 @@ function setupCanvasPrecious(p: P5) {
     max-width: 38vw;
     top: 10vh;
     z-index: 1;
+    background-color: var(--vt-c-white-mute);
 
     @include mobile {
       max-width: calc(100% - 12vw);
@@ -422,10 +425,6 @@ function setupCanvasPrecious(p: P5) {
     @include mobile {
       display: none; // TODO: This will change later, when the viz is done
     }
-  }
-
-  .with-delay {
-    transition-delay: 0.25s;
   }
 }
 </style>
