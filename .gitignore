@@ -1,4 +1,5 @@
 .data-echoes-env
+.data-echoes
 # Logs
 logs
 *.log
