@@ -1,0 +1,20 @@
+[
+    {"translation": "garlic", "name": "bawang putih", "count": 13869},
+    {"translation": "shallot", "name": "bawang merah", "count": 10302},
+    {"translation": "spring onion", "name": "daun bawang", "count": 3363},
+    {"translation": "onion", "name": "bombay/bombai", "count": 2785},
+    {"translation": "kaffir lime leaf",  "name": "daun jeruk", "count": 3006},
+    {"translation": "chili", "name": "cabe/cabai", "count": 13708},
+    {"translation": "rawit", "name": "rawit", "count": 6040},
+    {"translation": "pepper", "name": "lada/merica", "count": 7492}, 
+    {"translation": "ginger", "name": "jahe", "count": 3858},
+    {"translation": "salam", "name": "salam", "count": 3629},
+    {"translation": "turmeric", "name": "kunyit", "count": 3119},
+    {"translation": "kemiri", "name": "kemiri", "count": 2970},
+    {"translation": "coriander", "name": "ketumbar", "count": 2821},
+    {"translation": "galangal", "name": "lengkuas", "count": 2639},
+    {"translation": "coconut", "name": "santan", "count": 1694},
+    {"translation": "lemongrass", "name": "serai/sereh", "count": 2865},
+    {"translation": "tamarind paste",  "name": "asam", "count": 880},
+    {"translation": "nutmeg", "name": "pala", "count": 811}
+]
