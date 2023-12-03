@@ -115,7 +115,7 @@
 //  --spice-189: rgb(189, 161, 134);
  --spice-turmeric: rgb(225, 123,  10);
 //  --spice-146: rgb(146, 119,  97);
-//  --spice-230: rgb(230, 209, 192);
+ --spice-230: rgb(230, 209, 192);
 //  --spice-73: rgb( 73,  60,  51);
 //  --spice-110: rgb(110,  45,  21);
 //  --spice-12: rgb( 12,  12,  11);
@@ -150,7 +150,7 @@
  // --spice-229: rgb(229, 187, 136);
  // --spice-111: rgb(111,  50,  31);
  // --spice-135: rgb(135, 108, 107);
- --spice-coriander: rgb(205, 152, 102);
+//  --spice-205: rgb(205, 152, 102);
  // --spice-185: rgb(185, 172, 161);
  --spice-237: rgb(237, 226, 204);
 
@@ -200,5 +200,5 @@
 }
 
 .theme-view, .culture-page {
-  background-color: var(--spice-237) !important;
+  background-color: var(--spice-230) !important;
 }

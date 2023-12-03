@@ -100,7 +100,7 @@ onMounted(() => {
       primitive: 'triangle fan',
     })
 
-  let drawn = false
+  let opacity = 0
   reglObj.clear({ color: [0, 0, 0, 0], depth: 1 })
 
   reglObj.frame(({ time }) => {
@@ -113,15 +113,15 @@ onMounted(() => {
       10.0,
     )
 
-    if (!drawn) {
+    if (opacity < 1) {
       allPolygons.forEach((polygon) => {
         drawPolygon(polygon.coordinates)({
           view,
           projection,
-          fillColor: polygon.colors[0]?.length ? polygon.colors[0] : [0, 0, 0, 1],
+          fillColor: polygon.colors[0]?.length ? [...polygon.colors[0], 1] : [0, 0, 0, 1],
         })
       })
-      drawn = true
+      opacity = 1 //time * 0.1
     }
   })
 })
