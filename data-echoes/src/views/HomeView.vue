@@ -4,18 +4,18 @@ import { useMeta } from 'vue-meta'
 const themes = [
   'Nostalgia',
   'Music',
+  'Culture',
   'Presidents & Royals',
   'Movies',
   'Books',
   'Travel',
-  'Culture',
   'Nature',
   'Myths and Legends',
   'Community',
   'Olympics',
   'Fearless',
 ]
-const activeThemes = ['Nostalgia', 'Music']
+const activeThemes = ['Nostalgia', 'Music', 'Culture']
 
 useMeta({
   title: 'Home',

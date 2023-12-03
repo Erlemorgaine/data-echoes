@@ -6,12 +6,14 @@ import capitalize from 'lodash/capitalize'
 
 const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
 const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
+const Culture = defineAsyncComponent(() => import('../components/culture/CulturePage.vue'))
 
 const route = useRoute()
 
 const themes = {
   nostalgia: { component: Nostalgia, dark: true },
   music: { component: Music, dark: false },
+  culture: { component: Culture, dark: false },
 }
 
 type ThemesKey = keyof typeof themes
