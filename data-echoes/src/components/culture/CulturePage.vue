@@ -6,6 +6,8 @@ import regl from 'regl'
 import { create } from 'gl-vec2'
 import { lookAt, perspective } from 'gl-mat4'
 
+import Spice from './Spice.vue'
+
 //  {
 //     "translation": "garlic",
 //     "name": "bawang putih",
@@ -43,10 +45,12 @@ import './culture.scss'
 // mapshaper.com
 
 const allSpices = ref([])
+const allSpicesMidIndex = ref(0)
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 
 onMounted(() => {
   allSpices.value = spices.map((s) => ({ ...s, regions: s.regions.split(', ') }))
+  allSpicesMidIndex.value = Math.round(spices.length * 0.5)
 
   const reglObj = regl({
     canvas: document.getElementById('indonesia-map') as HTMLCanvasElement,
@@ -156,17 +160,35 @@ function latLongToCartesian(polygon) {
     // const y = Math.cos(latRad) * Math.sin(longRad)
     const z = Math.sin(latRad)
 
-    const x = longRad
-    const y = Math.tan(latRad / 2)
+    const y = longRad
+    const x = Math.tan(latRad / 2)
 
     // TODO: Tweak more so that it resembles Indonesia better
-    return [y * scale * 0.5 - scale, x * scale, z]
+    return [x * scale * 0.5 - scale, y * scale + 0.125, z]
   })
 }
 </script>
 
 <template>
   <div class="culture-page">
+    <ul class="culture-page__spices" :style="{ '--amount-cols': allSpicesMidIndex }">
+      <Spice
+        v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
+        :key="spice.name"
+        :name="spice.name"
+        :translation="spice.translation"
+        :count="spice.count"
+      />
+      <Spice
+        v-for="spice of allSpices.slice(allSpicesMidIndex)"
+        :key="spice.name"
+        :name="spice.name"
+        :translation="spice.translation"
+        :count="spice.count"
+        bottom
+      />
+    </ul>
+
     <canvas
       id="indonesia-map"
       class="culture-page__map"
@@ -179,10 +201,25 @@ function latLongToCartesian(polygon) {
 <style scoped lang="scss">
 .culture-page {
   width: 100%;
-  min-height: 100vh;
+  position: fixed;
+  top: 2rem;
+  height: calc(100vh - 5rem);
+  overflow: scroll;
+  position: relative;
 
   &__map {
     width: 100%;
+    transform: translateY(-3rem);
+  }
+
+  &__spices {
+    position: absolute;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(var(--amount-cols), 1fr);
+    gap: calc(100vh - 18rem) 0;
+    width: 100%;
+
   }
 }
 </style>

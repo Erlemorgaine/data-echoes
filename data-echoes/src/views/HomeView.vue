@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { onMounted, ref, nextTick } from 'vue'
 import { useMeta } from 'vue-meta'
 
 const themes = [
@@ -20,10 +21,18 @@ const activeThemes = ['Nostalgia', 'Music', 'Culture']
 useMeta({
   title: 'Home',
 })
+
+const animated = ref(!!sessionStorage.getItem('animation-played'))
+
+onMounted(() =>
+  nextTick(() => {
+    sessionStorage.setItem('animation-played', 'true')
+  }),
+)
 </script>
 
 <template>
-  <main class="home-view">
+  <main :class="['home-view', { animate: !animated }]">
     <div class="home-view__content-wrapper">
       <h1 class="home-view__title">Data echoes</h1>
       <div class="home-view__content">
@@ -151,7 +160,11 @@ useMeta({
       );
     z-index: -1;
     transform-origin: center;
-    animation: spin-around 40s linear infinite;
+
+    .animate & {
+      animation: spin-around 40s linear infinite;
+    }
+    
 
     @include mobile {
       width: 120vh;
@@ -182,7 +195,11 @@ useMeta({
     margin-bottom: 1rem;
     position: relative;
     width: fit-content;
-    animation: grow-up 2.7s 0.5s backwards;
+
+    .animate & {
+      animation: grow-up 2.7s 0.5s backwards;
+    }
+    
 
     &::after {
       content: '';
@@ -211,7 +228,11 @@ useMeta({
     border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
     filter: drop-shadow(-2px -2px 5px var(--off-white-50));
     padding: 2rem 3rem;
-    animation: fade-in 1s 3s ease-out backwards;
+    animation: fade-in 1s ease-out backwards;
+
+    .animate & {
+      animation-delay: 3s;
+    }
 
     @include mobile {
       padding: 2rem 1.5rem;
