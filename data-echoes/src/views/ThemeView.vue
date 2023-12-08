@@ -13,7 +13,7 @@ const route = useRoute()
 const themes = {
   nostalgia: { component: Nostalgia, dark: true },
   music: { component: Music, dark: false },
-  culture: { component: Culture, dark: false },
+  culture: { component: Culture, dark: true },
 }
 
 type ThemesKey = keyof typeof themes

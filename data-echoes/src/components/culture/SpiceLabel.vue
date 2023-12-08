@@ -34,17 +34,19 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
   </li>
 </template>
 
-
-
 <style scoped lang="scss">
 .spice {
+  --img-size: 3rem;
+
   display: flex;
   width: fit-content;
   justify-self: center;
+  position: relative;
 
   &__img {
     width: 3rem;
     border-radius: 50% 0 0 50%;
+    overflow: hidden;
   }
 
   &__details {

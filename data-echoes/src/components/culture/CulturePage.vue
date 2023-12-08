@@ -9,8 +9,6 @@ import type { Spice } from './types/types'
 
 import SpiceLabel from './SpiceLabel.vue'
 
-
-
 // Ginger:
 
 // East Java
@@ -216,7 +214,8 @@ function unpackNestedToCoordinatesArray(coordinates) {
 
   const unpack = (coords) => {
     if (!Array.isArray(coords[0][0])) {
-      // Add final point so that polygon can be closed
+      // TODO: Added final point so that polygon can be closed, but doesnt seem to work well. 
+
       coordinatesFlat.push([...coords, coords[coords.length - 1]])
     } else {
       coords.forEach(unpack)
@@ -287,6 +286,7 @@ function latLongToCartesian(polygon) {
   height: calc(100vh - 5rem);
   overflow: scroll;
   position: relative;
+  color: var(--off-white);
 
   // Hide scrollbar
   -ms-overflow-style: none; /* Internet Explorer 10+ */
