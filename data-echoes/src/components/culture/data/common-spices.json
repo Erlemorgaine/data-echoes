@@ -11,21 +11,21 @@
     "name": "cabe/cabai/rawit",
     "count": 19748,
     "color": [0.6470588235294118, 0.13333333333333333, 0.11372549019607843],
-    "regions": "jawa barat, jawa timur, sumatera utara"
+    "regions": "jawa barat, jawa timur, sumatera utara, sulawesi tenggara, sulawesi utara"
   },
   {
     "translation": "pepper",
     "name": "lada/merica",
     "count": 7492,
     "color": [0.7843137254901961, 0.7215686274509804, 0.6549019607843137],
-    "regions": "lampung, bangka belitung, sumatera utara, kalimantan barat, kalimantan timur"
+    "regions": "lampung, bangka belitung, sumatera utara, kalimantan barat, kalimantan timur, riau, jambi, kalimantan tengah"
   },
   {
     "translation": "ginger",
     "name": "jahe",
     "count": 3858,
     "color": [0.8627450980392157, 0.7254901960784313, 0.23921568627450981],
-    "regions": "jawa barat, sumatra, bali"
+    "regions": "jawa barat, sumatra, bali, riau, jambi, papua, papua pegunungan, papua selatan, papua barat, papua barat daya, kalimantan tengah, sulawesi tenggara, sulawesi utara"
   },
   {
     "translation": "bay leaf",
@@ -39,7 +39,7 @@
     "name": "kunyit",
     "count": 3119,
     "color": [0.8823529411764706, 0.4823529411764706, 0.0392156862745098],
-    "regions": "jawa barat, sumatera, bali"
+    "regions": "jawa barat, sumatera, bali, riau, jambi, kalimantan tengah"
   },
   {
     "translation": "candlenut",
@@ -88,7 +88,7 @@
     "name": "pala",
     "count": 811,
     "color": [0.5568627450980392, 0.3058823529411765, 0.22745098039215686],
-    "regions": "maluku utara, papua, aceh, sulawesi"
+    "regions": "maluku utara, papua, aceh, sulawesi, maluku, sulawesi tenggara"
   },
   {
     "translation": "peanut",

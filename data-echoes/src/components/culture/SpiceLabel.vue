@@ -18,11 +18,7 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
     :class="['spice', { bottom, top: !bottom }]"
     :style="{ '--spice-color': `var(--spice-${spiceKey})` }"
   >
-    <img
-      :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
-      alt=""
-      class="spice__img"
-    />
+    <img :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`" alt="" class="spice__img" />
     <div class="spice__details">
       <div class="spice__details__name-indonesian">
         {{ allNames[0] }}
@@ -37,6 +33,8 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
     </div>
   </li>
 </template>
+
+
 
 <style scoped lang="scss">
 .spice {

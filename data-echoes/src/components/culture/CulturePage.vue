@@ -9,6 +9,86 @@ import type { Spice } from './types/types'
 
 import SpiceLabel from './SpiceLabel.vue'
 
+
+
+// Ginger:
+
+// East Java
+// West Java
+// Lampung
+
+// Bay Leaf:
+
+// West Nusa Tenggara
+// East Java
+// Bali
+
+// Turmeric:
+
+// East Java
+// West Nusa Tenggara
+// Bali
+
+// Candlenut:
+
+// North Sulawesi
+// West Nusa Tenggara
+// East Java
+
+// Coriander:
+
+// East Java
+// Central Java
+// West Java
+
+// Galangal:
+
+// East Java
+// Central Java
+// Bali
+
+// Coconut:
+
+// North Sulawesi
+// North Sumatra
+// West Nusa Tenggara
+
+// Lemongrass:
+
+// West Java
+// Central Java
+// East Java
+
+// Tamarind:
+
+// Central Java
+// West Java
+// East Java
+
+// Nutmeg:
+
+// North Maluku
+// Maluku
+// Papua
+
+// Peanut:
+
+// East Java
+// West Java
+// Central Java
+
+// Kaffir Lime Leaf:
+
+// West Java
+// Bali
+// East Java
+
+// Chili Pepper:
+
+// West Java
+// East Java
+// Central Java
+
 //  {
 //     "translation": "garlic",
 //     "name": "bawang putih",
