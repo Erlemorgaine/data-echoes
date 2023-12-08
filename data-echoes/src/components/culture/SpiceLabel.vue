@@ -10,12 +10,16 @@ const props = defineProps<{
 }>()
 
 const allNames = computed(() => props.name.split('/'))
+const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
 </script>
 
 <template>
-  <li :class="['spice', { bottom, top: !bottom }]">
+  <li
+    :class="['spice', { bottom, top: !bottom }]"
+    :style="{ '--spice-color': `var(--spice-${spiceKey})` }"
+  >
     <img
-      :src="`${baseUrl}images/culture/${translation.replaceAll(' ', '-')}_reduced.webp`"
+      :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
       alt=""
       class="spice__img"
     />
@@ -37,19 +41,18 @@ const allNames = computed(() => props.name.split('/'))
 <style scoped lang="scss">
 .spice {
   display: flex;
-  gap: 0.5rem;
   width: fit-content;
   justify-self: center;
 
-  &.bottom {
-    transform: translateX(100%);
-  }
-
   &__img {
     width: 3rem;
+    border-radius: 50% 0 0 50%;
   }
 
   &__details {
+    padding-left: 0.5rem;
+    border-bottom: 0.3rem solid var(--spice-color);
+
     &__name-indonesian {
       font-weight: 700;
 

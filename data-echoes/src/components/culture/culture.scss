@@ -45,15 +45,15 @@
  // --spice-200: rgb(200, 151,  89);
 
 // // --spice-18: rgb( 18,  37,   8);
- // --spice-104: rgb(104, 152,  96);
- // --spice-224: rgb(224, 197, 165);
- // --spice-93: rgb( 93,  77,  50);
- // --spice-198: rgb(198, 168, 131);
- // --spice-48: rgb( 48,  72,  31);
- // --spice-135: rgb(135, 180, 133);
+ --spice-104: rgb(104, 152,  96);
+ --spice-224: rgb(224, 197, 165);
+ --spice-93: rgb( 93,  77,  50);
+ --spice-198: rgb(198, 168, 131);
+ --spice-48: rgb( 48,  72,  31);
+ --spice-135: rgb(135, 180, 133);
  --spice-kaffir-lime-leaf: rgb( 74, 118,  62);
- // --spice-174: rgb(174, 211, 187);
- // --spice-137: rgb(137, 120,  82);
+ --spice-174: rgb(174, 211, 187);
+ --spice-137: rgb(137, 120,  82);
 
 // // --spice-57: rgb( 57,  29,  25);
  // --spice-196: rgb(196, 148, 106);
@@ -200,5 +200,5 @@
 }
 
 .theme-view, .culture-page {
-  background-color: var(--spice-230) !important;
+  background-color: var(--spice-135) !important;
 }

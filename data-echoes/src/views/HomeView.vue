@@ -29,6 +29,110 @@ onMounted(() =>
     sessionStorage.setItem('animation-played', 'true')
   }),
 )
+
+// Has All of the following!
+const most = [
+  'asem-asem daging sapi',
+  'ayam crispy',
+  'ayam geprek',
+  'ayam goreng',
+  'ayam goreng lengkuas',
+  'ayam goreng mentega',
+  'ayam goreng tepung',
+  'ayam katsu',
+  'ayam kecap',
+  'ayam lada hitam',
+  'ayam rica-rica',
+  'ayam teriyaki',
+  'ayam woku',
+  'bacem tahu tempe',
+  'bakso ayam',
+  'bakso sapi',
+  'bakwan udang',
+  'balado telur',
+  'balado udang',
+  'beef yakiniku',
+  'capcay udang',
+  'daging sapi lada hitam',
+  'gulai kambing',
+  'gurame asam manis',
+  'kari kambing',
+  'kering tempe',
+  'kering tempe teri',
+  'krengsengan kambing',
+  'mangut lele',
+  'martabak tahu',
+  'mendol tempe',
+  'mie ayam',
+  'nasi goreng kambing',
+  'nasi goreng udang',
+  'nasi kebuli',
+  'nugget tempe',
+  'opor ayam',
+  'orak arik telur',
+  'orek tempe',
+  'orek tempe basah',
+  'oseng-oseng tempe',
+  'oseng-oseng tempe kacang panjang',
+  'pepes tahu',
+  'pepes tahu ',
+  'perkedel tahu',
+  'perkedel tempe',
+  'pindang ikan',
+  'pindang telur',
+  'rawon sapi',
+  'rendang daging sapi',
+  'sambal goreng tempe',
+  'sambal goreng udang',
+  'sapi lada hitam',
+  'sapo tahu',
+  'sate goreng',
+  'sate kambing',
+  'sate kambing bumbu kecap',
+  'sate tempe',
+  'sempol ayam',
+  'semur daging sapi',
+  'semur tahu telur',
+  'siomay ayam',
+  'sop ayam',
+  'sop daging sapi',
+  'sop kambing',
+  'soto ayam',
+  'soto daging sapi',
+  'steak tempe',
+  'tahu cabe garam',
+  'tahu fantasi',
+  'tahu gejrot',
+  'tahu isi',
+  'tahu telur',
+  'telur balado',
+  'telur bumbu bali',
+  'telur dadar',
+  'tempe bacem',
+  'tempe goreng',
+  'tempe goreng telur',
+  'tempe goreng tepung',
+  'tempe jeletot',
+  'tempe melet',
+  'tempe mendoan',
+  'tengkleng kambing',
+  'tongkol suwir',
+  'tongseng ayam',
+  'tongseng kambing',
+  'tongseng sapi',
+  'tumis tempe kacang panjang',
+  'tumis udang',
+  'udang asam manis',
+  'udang balado',
+  'udang crispy',
+  'udang goreng mentega',
+  'udang goreng tepung',
+  'udang pedas manis',
+  'udang saus mentega',
+  'udang saus padang',
+  'udang saus tiram',
+  'udang telur asin',
+]
 </script>
 
 <template>
@@ -164,7 +268,6 @@ onMounted(() =>
     .animate & {
       animation: spin-around 40s linear infinite;
     }
-    
 
     @include mobile {
       width: 120vh;
@@ -199,7 +302,6 @@ onMounted(() =>
     .animate & {
       animation: grow-up 2.7s 0.5s backwards;
     }
-    
 
     &::after {
       content: '';

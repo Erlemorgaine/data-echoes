@@ -57,15 +57,15 @@
   },
   {
     "translation": "galangal",
-    "name": "lengkuas",
-    "count": 2639,
+    "name": "lengkuas/laos",
+    "count": 3214,
     "color": [0.9647058823529412, 0.8627450980392157, 0.6549019607843137],
     "regions": "jawa barat, sumatera"
   },
   {
     "translation": "coconut",
-    "name": "santan",
-    "count": 1694,
+    "name": "kelapa/santan",
+    "count": 2939,
     "color": [0.8941176470588236, 0.8588235294117647, 0.8235294117647058],
     "regions": "sumatera selatan, sulawesi selatan, jawa timur, jawa tengah, maluku utara, sulawesi tengah"
   },
@@ -89,5 +89,12 @@
     "count": 811,
     "color": [0.5568627450980392, 0.3058823529411765, 0.22745098039215686],
     "regions": "maluku utara, papua, aceh, sulawesi"
+  },
+  {
+    "translation": "peanut",
+    "name": "kacang",
+    "count": 811,
+    "color": [1, 0, 0],
+    "regions": "jawa timur, nusa tenggara barat, nusa tenggara timur"
   }
 ]

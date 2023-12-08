@@ -5,8 +5,9 @@ import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
 import { create } from 'gl-vec2'
 import { lookAt, perspective } from 'gl-mat4'
+import type { Spice } from './types/types'
 
-import Spice from './Spice.vue'
+import SpiceLabel from './SpiceLabel.vue'
 
 //  {
 //     "translation": "garlic",
@@ -39,12 +40,12 @@ import Spice from './Spice.vue'
 
 import './culture.scss'
 
-//TODO: cinnamon (kayu manis), cloves (cengeh)
 // TODO: https://en.antaranews.com/news/188014/tracing-eastern-indonesian-spice-routes
 // https://www.igismap.com/indonesia-shapefile-download-free-map-country-boundary-line-province-polygon-shapefile/
 // mapshaper.com
+// https://ei-ado.aciar.gov.au/sites/default/files/docs/peanut_comm_brief.pdf
 
-const allSpices = ref([])
+const allSpices = ref<Spice[]>([])
 const allSpicesMidIndex = ref(0)
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 
@@ -131,7 +132,7 @@ onMounted(() => {
 })
 
 function unpackNestedToCoordinatesArray(coordinates) {
-  const coordinatesFlat = []
+  const coordinatesFlat: [number, number][][] = []
 
   const unpack = (coords) => {
     if (!Array.isArray(coords[0][0])) {
@@ -148,7 +149,7 @@ function unpackNestedToCoordinatesArray(coordinates) {
 }
 
 function latLongToCartesian(polygon) {
-  return polygon.map(([lat, long]) => {
+  return polygon.map(([lat, long]: [number, number]) => {
     const scale = 2.75
     // Convert to radians
     const latRad = (lat * Math.PI) / 180
@@ -172,14 +173,14 @@ function latLongToCartesian(polygon) {
 <template>
   <div class="culture-page">
     <ul class="culture-page__spices" :style="{ '--amount-cols': allSpicesMidIndex }">
-      <Spice
+      <SpiceLabel
         v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
         :key="spice.name"
         :name="spice.name"
         :translation="spice.translation"
         :count="spice.count"
       />
-      <Spice
+      <SpiceLabel
         v-for="spice of allSpices.slice(allSpicesMidIndex)"
         :key="spice.name"
         :name="spice.name"
@@ -207,6 +208,14 @@ function latLongToCartesian(polygon) {
   overflow: scroll;
   position: relative;
 
+  // Hide scrollbar
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
   &__map {
     width: 100%;
     transform: translateY(-3rem);
@@ -219,7 +228,6 @@ function latLongToCartesian(polygon) {
     grid-template-columns: repeat(var(--amount-cols), 1fr);
     gap: calc(100vh - 18rem) 0;
     width: 100%;
-
   }
 }
 </style>
