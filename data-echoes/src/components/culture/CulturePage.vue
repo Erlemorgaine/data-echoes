@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import spices from './data/common-spices.json'
+import recipes from './data/recipes.json'
 import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
-import { create } from 'gl-vec2'
 import { lookAt, perspective } from 'gl-mat4'
 import type { Spice } from './types/types'
 
 import SpiceLabel from './SpiceLabel.vue'
+import SunburstViz from './SunburstViz.vue'
 
 // Ginger:
 
@@ -275,6 +276,8 @@ function latLongToCartesian(polygon) {
       :width="canvasSize.width"
       :height="canvasSize.height"
     />
+
+    <SunburstViz :recipes="recipes" />
   </div>
 </template>
 
