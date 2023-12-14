@@ -1,4 +1,9 @@
 .data-echoes-env
+.data-echoes
+
+*/.ipynb_checkpoints/
+
+
 # Logs
 logs
 *.log
