@@ -48,7 +48,7 @@
   {
     "name": "Adrack Humble",
     "allegiance": ["House Humble", "House Greyjoy"],
-    "spouse": ["Rock wife", "Salt wife"],
+    "spouse": null,
     "predecessor": null,
     "successor": null,
     "url": "http://awoiaf.westeros.org/index.php/Adrack_Humble"
@@ -3483,7 +3483,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Elaena_Targaryen"
   },
   {
-    "name": "Elaena Targaryen[1]",
+    "name": "Elaena Targaryen (daughter of Gaemon)",
     "allegiance": ["House Targaryen"],
     "spouse": ["Aegon Targaryen (son of Gaemon)"],
     "father": "Gaemon Targaryen (son of Aenar)",
