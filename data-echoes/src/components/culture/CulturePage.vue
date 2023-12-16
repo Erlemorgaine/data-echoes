@@ -10,6 +10,8 @@ import type { Spice } from './types/types'
 import SpiceLabel from './SpiceLabel.vue'
 import SunburstViz from './SunburstViz.vue'
 
+import './culture.scss'
+
 // Ginger:
 
 // East Java
@@ -117,7 +119,8 @@ import SunburstViz from './SunburstViz.vue'
 //     "regions": ""
 //   },
 
-import './culture.scss'
+// TODO: It seems a bunch of recipes don't have ingredients. Remove.
+// TODO: Squish same ingredients together in recipes
 
 // TODO: https://en.antaranews.com/news/188014/tracing-eastern-indonesian-spice-routes
 // https://www.igismap.com/indonesia-shapefile-download-free-map-country-boundary-line-province-polygon-shapefile/
@@ -215,7 +218,7 @@ function unpackNestedToCoordinatesArray(coordinates) {
 
   const unpack = (coords) => {
     if (!Array.isArray(coords[0][0])) {
-      // TODO: Added final point so that polygon can be closed, but doesnt seem to work well. 
+      // TODO: Added final point so that polygon can be closed, but doesnt seem to work well.
 
       coordinatesFlat.push([...coords, coords[coords.length - 1]])
     } else {

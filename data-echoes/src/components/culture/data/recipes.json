@@ -4,105 +4,108 @@
     "amount": 53,
     "ingredient_counts": {
       "asam": 35,
-      "cabai": 26,
-      "cabe": 58,
+
       "daunjeruk": 8,
       "jahe": 11,
       "kacang": 2,
       "kemiri": 2,
       "kunyit": 8,
-      "lada": 8,
-      "lengkuas": 30,
-      "merica": 3,
+
       "pala": 1,
-      "rawit": 34,
+
       "salam": 39,
-      "santan": 1,
-      "serai": 9,
-      "sereh": 3
+
+      "cabe-cabai-rawit": 118,
+      "lada-merica": 11,
+      "lengkuas-laos": 30,
+      "serai-sereh": 12,
+      "kelapa-santan": 1
     }
   },
   {
     "recipe": "ayam crispy",
     "amount": 3,
-    "ingredient_counts": { "cabai": 1, "cabe": 2, "lada": 1, "rawit": 3 }
+    "ingredient_counts": {
+      "cabe-cabai-rawit": 6,
+      "lada-merica": 1,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
+    }
   },
-  { "recipe": "ayam geprek", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "ayam goreng",
     "amount": 18,
     "ingredient_counts": {
-      "cabe": 1,
       "daunjeruk": 8,
       "jahe": 14,
       "kemiri": 12,
       "ketumbar": 16,
       "kunyit": 16,
-      "lada": 2,
-      "lengkuas": 17,
-      "merica": 5,
+
       "salam": 14,
-      "serai": 12,
-      "sereh": 3
+
+      "cabe-cabai-rawit": 1,
+      "lada-merica": 7,
+      "lengkuas-laos": 17,
+      "serai-sereh": 15,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "ayam goreng lengkuas", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam goreng mentega", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam goreng tepung", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam katsu", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "ayam kecap",
     "amount": 3,
     "ingredient_counts": {
-      "cabe": 3,
       "daunjeruk": 1,
       "jahe": 1,
       "ketumbar": 1,
-      "lada": 5,
-      "lengkuas": 1,
-      "merica": 1,
-      "rawit": 2,
-      "salam": 1
+
+      "salam": 1,
+      "cabe-cabai-rawit": 5,
+      "lada-merica": 6,
+      "lengkuas-laos": 1,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "ayam lada hitam", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam rica-rica", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam teriyaki", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "ayam woku", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "bacem tahu tempe", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "bakso ayam",
     "amount": 6,
-    "ingredient_counts": { "lada": 3, "merica": 2, "pala": 1 }
+    "ingredient_counts": {
+      "pala": 1,
+      "cabe-cabai-rawit": 0,
+      "lada-merica": 5,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
+    }
   },
-  { "recipe": "bakso sapi", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "bakwan udang", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "balado telur",
     "amount": 3,
     "ingredient_counts": {
-      "cabe": 5,
       "jahe": 2,
       "kemiri": 2,
-      "lengkuas": 2,
-      "merica": 2,
-      "rawit": 3
+
+      "cabe-cabai-rawit": 8,
+      "lada-merica": 2,
+      "lengkuas-laos": 2,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "balado udang", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "beef yakiniku", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "capcay udang", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "daging sapi lada hitam",
     "amount": 26,
     "ingredient_counts": {
-      "cabai": 12,
-      "cabe": 11,
       "jahe": 10,
       "ketumbar": 1,
-      "lada": 33,
-      "merica": 3,
-      "rawit": 4
+
+      "cabe-cabai-rawit": 27,
+      "lada-merica": 36,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -110,23 +113,22 @@
     "amount": 94,
     "ingredient_counts": {
       "asam": 13,
-      "cabai": 20,
-      "cabe": 66,
+
       "daunjeruk": 76,
       "jahe": 79,
       "kemiri": 56,
       "ketumbar": 60,
       "kunyit": 81,
-      "lada": 26,
-      "lengkuas": 52,
-      "merica": 33,
+
       "pala": 37,
-      "rawit": 35,
+
       "salam": 65,
-      "santan": 87,
-      "santen": 2,
-      "serai": 38,
-      "sereh": 34
+
+      "cabe-cabai-rawit": 121,
+      "lada-merica": 59,
+      "lengkuas-laos": 52,
+      "serai-sereh": 72,
+      "kelapa-santan": 89
     }
   },
   {
@@ -134,16 +136,17 @@
     "amount": 21,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 6,
-      "cabe": 20,
+
       "daunjeruk": 2,
       "jahe": 5,
-      "lada": 10,
-      "lengkuas": 1,
-      "merica": 9,
-      "rawit": 8,
+
       "salam": 1,
-      "serai": 1
+
+      "cabe-cabai-rawit": 34,
+      "lada-merica": 19,
+      "lengkuas-laos": 1,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
   {
@@ -151,22 +154,22 @@
     "amount": 23,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 3,
-      "cabe": 31,
+
       "daunjeruk": 10,
       "jahe": 18,
       "kemiri": 13,
       "ketumbar": 15,
       "kunyit": 22,
-      "lada": 5,
-      "lengkuas": 11,
-      "merica": 4,
+
       "pala": 7,
-      "rawit": 6,
+
       "salam": 3,
-      "santan": 24,
-      "serai": 6,
-      "sereh": 7
+
+      "cabe-cabai-rawit": 40,
+      "lada-merica": 9,
+      "lengkuas-laos": 11,
+      "serai-sereh": 13,
+      "kelapa-santan": 24
     }
   },
   {
@@ -174,23 +177,23 @@
     "amount": 95,
     "ingredient_counts": {
       "asam": 32,
-      "cabai": 33,
-      "cabe": 100,
+
       "daunjeruk": 37,
       "jahe": 15,
       "kacang": 29,
       "kemiri": 4,
       "ketumbar": 2,
       "kunyit": 1,
-      "lada": 6,
-      "lengkuas": 43,
-      "merica": 4,
+
       "pala": 2,
-      "rawit": 49,
+
       "salam": 50,
-      "santan": 1,
-      "serai": 12,
-      "sereh": 6
+
+      "cabe-cabai-rawit": 182,
+      "lada-merica": 10,
+      "lengkuas-laos": 43,
+      "serai-sereh": 18,
+      "kelapa-santan": 1
     }
   },
   {
@@ -198,16 +201,18 @@
     "amount": 16,
     "ingredient_counts": {
       "asam": 9,
-      "cabai": 6,
-      "cabe": 16,
+
       "daunjeruk": 9,
       "jahe": 1,
       "kacang": 8,
-      "lengkuas": 6,
-      "merica": 2,
-      "rawit": 7,
+
       "salam": 8,
-      "serai": 1
+
+      "cabe-cabai-rawit": 29,
+      "lada-merica": 2,
+      "lengkuas-laos": 6,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
   {
@@ -215,73 +220,74 @@
     "amount": 31,
     "ingredient_counts": {
       "asam": 4,
-      "cabai": 9,
-      "cabe": 31,
+
       "daunjeruk": 13,
       "jahe": 20,
       "kemiri": 6,
       "ketumbar": 3,
       "kunyit": 2,
-      "lada": 6,
-      "lengkuas": 7,
-      "merica": 17,
+
       "pala": 3,
-      "rawit": 15,
+
       "salam": 11,
-      "santan": 1,
-      "serai": 6,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 55,
+      "lada-merica": 23,
+      "lengkuas-laos": 7,
+      "serai-sereh": 8,
+      "kelapa-santan": 1
     }
   },
   {
     "recipe": "mangut lele",
     "amount": 22,
     "ingredient_counts": {
-      "cabai": 5,
-      "cabe": 39,
       "daunjeruk": 17,
       "jahe": 19,
       "kemiri": 18,
       "ketumbar": 15,
       "kunyit": 21,
-      "lada": 2,
-      "lengkuas": 11,
-      "merica": 6,
-      "rawit": 21,
+
       "salam": 16,
-      "santan": 19,
-      "serai": 11,
-      "sereh": 3
+
+      "cabe-cabai-rawit": 65,
+      "lada-merica": 8,
+      "lengkuas-laos": 11,
+      "serai-sereh": 14,
+      "kelapa-santan": 19
     }
   },
   {
     "recipe": "martabak tahu",
     "amount": 39,
     "ingredient_counts": {
-      "cabai": 3,
-      "cabe": 6,
       "kacang": 1,
       "ketumbar": 1,
-      "lada": 15,
-      "merica": 20,
+
       "pala": 1,
-      "rawit": 7
+
+      "cabe-cabai-rawit": 16,
+      "lada-merica": 35,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "mendol tempe",
     "amount": 27,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 28,
       "daunjeruk": 21,
       "jahe": 1,
       "kemiri": 1,
       "ketumbar": 14,
       "kunyit": 3,
-      "lengkuas": 2,
-      "merica": 6,
-      "rawit": 21
+
+      "cabe-cabai-rawit": 53,
+      "lada-merica": 6,
+      "lengkuas-laos": 2,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -289,114 +295,117 @@
     "amount": 42,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 7,
-      "cabe": 18,
+
       "daunjeruk": 19,
       "jahe": 25,
       "kemiri": 24,
       "ketumbar": 16,
       "kunyit": 25,
-      "lada": 16,
-      "lengkuas": 13,
-      "merica": 30,
+
       "pala": 8,
-      "rawit": 17,
+
       "salam": 25,
-      "serai": 8,
-      "sereh": 13
+
+      "cabe-cabai-rawit": 42,
+      "lada-merica": 46,
+      "lengkuas-laos": 13,
+      "serai-sereh": 21,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "nasi goreng kambing",
     "amount": 64,
     "ingredient_counts": {
-      "cabai": 16,
-      "cabe": 60,
       "daunjeruk": 3,
       "jahe": 6,
       "kemiri": 9,
       "ketumbar": 23,
       "kunyit": 17,
-      "lada": 15,
-      "lengkuas": 1,
-      "merica": 24,
+
       "pala": 1,
-      "rawit": 43,
+
       "salam": 11,
-      "santan": 1,
-      "serai": 5,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 119,
+      "lada-merica": 39,
+      "lengkuas-laos": 1,
+      "serai-sereh": 7,
+      "kelapa-santan": 1
     }
   },
   {
     "recipe": "nasi goreng udang",
     "amount": 22,
     "ingredient_counts": {
-      "cabai": 9,
-      "cabe": 17,
       "kemiri": 2,
       "ketumbar": 3,
       "kunyit": 1,
-      "lada": 4,
-      "merica": 4,
-      "rawit": 14
+
+      "cabe-cabai-rawit": 40,
+      "lada-merica": 8,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "nasi kebuli",
     "amount": 92,
     "ingredient_counts": {
-      "cabai": 11,
-      "cabe": 16,
       "daunjeruk": 23,
       "jahe": 36,
       "kacang": 5,
       "ketumbar": 60,
       "kunyit": 39,
-      "lada": 36,
-      "merica": 34,
+
       "pala": 38,
-      "rawit": 8,
+
       "salam": 28,
-      "santan": 45,
-      "serai": 16,
-      "sereh": 17
+
+      "cabe-cabai-rawit": 35,
+      "lada-merica": 70,
+      "lengkuas-laos": 0,
+      "serai-sereh": 33,
+      "kelapa-santan": 45
     }
   },
   {
     "recipe": "nugget tempe",
     "amount": 27,
     "ingredient_counts": {
-      "cabe": 1,
       "kacang": 2,
       "kemiri": 2,
       "ketumbar": 4,
-      "lada": 16,
-      "merica": 7,
+
       "pala": 2,
-      "rawit": 1
+
+      "cabe-cabai-rawit": 2,
+      "lada-merica": 23,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "opor ayam",
     "amount": 76,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 25,
       "daunjeruk": 50,
       "jahe": 57,
       "kemiri": 67,
       "ketumbar": 59,
       "kunyit": 67,
-      "lada": 26,
-      "lengkuas": 51,
-      "merica": 26,
+
       "pala": 1,
-      "rawit": 16,
+
       "salam": 70,
-      "santan": 67,
-      "serai": 24,
-      "sereh": 36
+
+      "cabe-cabai-rawit": 45,
+      "lada-merica": 52,
+      "lengkuas-laos": 51,
+      "serai-sereh": 60,
+      "kelapa-santan": 67
     }
   },
   {
@@ -404,17 +413,18 @@
     "amount": 110,
     "ingredient_counts": {
       "asam": 2,
-      "cabai": 21,
-      "cabe": 67,
+
       "jahe": 2,
       "kacang": 5,
       "kemiri": 4,
-      "lada": 24,
-      "lengkuas": 4,
-      "merica": 40,
-      "rawit": 45,
+
       "salam": 4,
-      "santan": 1
+
+      "cabe-cabai-rawit": 133,
+      "lada-merica": 64,
+      "lengkuas-laos": 4,
+      "serai-sereh": 0,
+      "kelapa-santan": 1
     }
   },
   {
@@ -422,22 +432,23 @@
     "amount": 91,
     "ingredient_counts": {
       "asam": 4,
-      "cabai": 23,
-      "cabe": 115,
+
       "daunjeruk": 24,
       "jahe": 7,
       "kacang": 11,
       "kemiri": 9,
       "ketumbar": 7,
       "kunyit": 1,
-      "lada": 12,
-      "lengkuas": 31,
-      "merica": 11,
+
       "pala": 1,
-      "rawit": 47,
+
       "salam": 32,
-      "serai": 8,
-      "sereh": 4
+
+      "cabe-cabai-rawit": 185,
+      "lada-merica": 23,
+      "lengkuas-laos": 31,
+      "serai-sereh": 12,
+      "kelapa-santan": 0
     }
   },
   {
@@ -445,17 +456,18 @@
     "amount": 23,
     "ingredient_counts": {
       "asam": 2,
-      "cabai": 9,
-      "cabe": 37,
+
       "daunjeruk": 2,
       "kemiri": 13,
       "ketumbar": 12,
-      "lada": 2,
-      "lengkuas": 7,
-      "rawit": 14,
+
       "salam": 12,
-      "santan": 1,
-      "sereh": 3
+
+      "cabe-cabai-rawit": 60,
+      "lada-merica": 2,
+      "lengkuas-laos": 7,
+      "serai-sereh": 3,
+      "kelapa-santan": 1
     }
   },
   {
@@ -463,19 +475,19 @@
     "amount": 86,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 22,
-      "cabe": 111,
+
       "daunjeruk": 9,
       "jahe": 6,
       "kacang": 7,
       "kemiri": 2,
-      "lada": 14,
-      "lengkuas": 25,
-      "merica": 4,
-      "rawit": 60,
+
       "salam": 30,
-      "serai": 4,
-      "sereh": 4
+
+      "cabe-cabai-rawit": 193,
+      "lada-merica": 18,
+      "lengkuas-laos": 25,
+      "serai-sereh": 8,
+      "kelapa-santan": 0
     }
   },
   {
@@ -483,90 +495,89 @@
     "amount": 22,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 2,
-      "cabe": 23,
+
       "daunjeruk": 4,
       "jahe": 1,
       "kacang": 23,
-      "lada": 2,
-      "lengkuas": 7,
-      "merica": 3,
-      "rawit": 7,
+
       "salam": 9,
-      "sereh": 1
+
+      "cabe-cabai-rawit": 32,
+      "lada-merica": 5,
+      "lengkuas-laos": 7,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "pepes tahu",
     "amount": 71,
     "ingredient_counts": {
-      "cabai": 10,
-      "cabe": 90,
       "daunjeruk": 13,
       "jahe": 13,
       "kemiri": 23,
       "ketumbar": 14,
       "kunyit": 26,
-      "lada": 16,
-      "lengkuas": 10,
-      "merica": 18,
-      "rawit": 44,
+
       "salam": 31,
-      "santan": 5,
-      "serai": 11,
-      "sereh": 12
+
+      "cabe-cabai-rawit": 144,
+      "lada-merica": 34,
+      "lengkuas-laos": 10,
+      "serai-sereh": 23,
+      "kelapa-santan": 5
     }
   },
   {
     "recipe": "pepes tahu ",
     "amount": 71,
     "ingredient_counts": {
-      "cabai": 10,
-      "cabe": 90,
       "daunjeruk": 13,
       "jahe": 13,
       "kemiri": 23,
       "ketumbar": 14,
       "kunyit": 26,
-      "lada": 16,
-      "lengkuas": 10,
-      "merica": 18,
-      "rawit": 44,
+
       "salam": 31,
-      "santan": 5,
-      "serai": 11,
-      "sereh": 12
+
+      "cabe-cabai-rawit": 144,
+      "lada-merica": 34,
+      "lengkuas-laos": 10,
+      "serai-sereh": 23,
+      "kelapa-santan": 5
     }
   },
   {
     "recipe": "perkedel tahu",
     "amount": 66,
     "ingredient_counts": {
-      "cabai": 1,
-      "cabe": 11,
       "daunjeruk": 2,
       "kemiri": 1,
       "ketumbar": 13,
       "kunyit": 4,
-      "lada": 23,
-      "merica": 32,
+
       "pala": 3,
-      "rawit": 7
+
+      "cabe-cabai-rawit": 19,
+      "lada-merica": 55,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "perkedel tempe",
     "amount": 27,
     "ingredient_counts": {
-      "cabai": 3,
-      "cabe": 8,
       "daunjeruk": 4,
       "kemiri": 2,
       "ketumbar": 4,
-      "lada": 9,
-      "lengkuas": 2,
-      "merica": 12,
-      "rawit": 5
+
+      "cabe-cabai-rawit": 16,
+      "lada-merica": 21,
+      "lengkuas-laos": 2,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -574,21 +585,21 @@
     "amount": 50,
     "ingredient_counts": {
       "asam": 25,
-      "cabai": 22,
-      "cabe": 51,
+
       "daunjeruk": 29,
       "jahe": 38,
       "kacang": 1,
       "kemiri": 11,
       "ketumbar": 1,
       "kunyit": 41,
-      "lada": 5,
-      "lengkuas": 27,
-      "merica": 5,
-      "rawit": 39,
+
       "salam": 32,
-      "serai": 17,
-      "sereh": 19
+
+      "cabe-cabai-rawit": 112,
+      "lada-merica": 10,
+      "lengkuas-laos": 27,
+      "serai-sereh": 36,
+      "kelapa-santan": 0
     }
   },
   {
@@ -596,20 +607,20 @@
     "amount": 32,
     "ingredient_counts": {
       "asam": 1,
-      "cabe": 8,
+
       "daunjeruk": 6,
       "jahe": 2,
       "kemiri": 3,
       "ketumbar": 4,
       "kunyit": 3,
-      "lada": 4,
-      "lengkuas": 9,
-      "merica": 3,
-      "rawit": 2,
+
       "salam": 23,
-      "santan": 1,
-      "serai": 11,
-      "sereh": 6
+
+      "cabe-cabai-rawit": 10,
+      "lada-merica": 7,
+      "lengkuas-laos": 9,
+      "serai-sereh": 17,
+      "kelapa-santan": 1
     }
   },
   {
@@ -617,22 +628,22 @@
     "amount": 34,
     "ingredient_counts": {
       "asam": 8,
-      "cabai": 5,
-      "cabe": 12,
+
       "daunjeruk": 30,
       "jahe": 25,
       "kemiri": 25,
       "ketumbar": 24,
       "kunyit": 24,
-      "lada": 11,
-      "lengkuas": 18,
-      "merica": 11,
+
       "pala": 4,
-      "rawit": 5,
+
       "salam": 21,
-      "santan": 1,
-      "serai": 13,
-      "sereh": 11
+
+      "cabe-cabai-rawit": 22,
+      "lada-merica": 22,
+      "lengkuas-laos": 18,
+      "serai-sereh": 24,
+      "kelapa-santan": 1
     }
   },
   {
@@ -640,23 +651,23 @@
     "amount": 45,
     "ingredient_counts": {
       "asam": 4,
-      "cabai": 14,
-      "cabe": 47,
+
       "daunjeruk": 39,
       "jahe": 34,
       "kacang": 1,
       "kemiri": 28,
       "ketumbar": 25,
       "kunyit": 43,
-      "lada": 11,
-      "lengkuas": 27,
-      "merica": 16,
+
       "pala": 19,
-      "rawit": 22,
+
       "salam": 37,
-      "santan": 45,
-      "serai": 21,
-      "sereh": 15
+
+      "cabe-cabai-rawit": 83,
+      "lada-merica": 27,
+      "lengkuas-laos": 27,
+      "serai-sereh": 36,
+      "kelapa-santan": 45
     }
   },
   {
@@ -664,17 +675,19 @@
     "amount": 32,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 8,
-      "cabe": 33,
+
       "daunjeruk": 3,
       "kacang": 2,
       "kemiri": 2,
       "ketumbar": 2,
-      "lengkuas": 2,
-      "merica": 4,
-      "rawit": 20,
+
       "salam": 1,
-      "sereh": 1
+
+      "cabe-cabai-rawit": 61,
+      "lada-merica": 4,
+      "lengkuas-laos": 2,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
   {
@@ -682,165 +695,159 @@
     "amount": 47,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 18,
-      "cabe": 66,
+
       "daunjeruk": 20,
       "jahe": 10,
       "kacang": 3,
       "kemiri": 10,
       "ketumbar": 1,
       "kunyit": 6,
-      "lada": 2,
-      "lengkuas": 10,
-      "merica": 1,
-      "rawit": 34,
+
       "salam": 12,
-      "santan": 6,
-      "serai": 6,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 118,
+      "lada-merica": 3,
+      "lengkuas-laos": 10,
+      "serai-sereh": 8,
+      "kelapa-santan": 6
     }
   },
   {
     "recipe": "sapi lada hitam",
     "amount": 85,
     "ingredient_counts": {
-      "cabai": 22,
-      "cabe": 42,
       "daunjeruk": 2,
       "jahe": 16,
       "kemiri": 1,
-      "lada": 99,
-      "lengkuas": 1,
-      "merica": 16,
-      "rawit": 10,
+
       "salam": 3,
-      "santan": 1,
-      "sereh": 1
+
+      "cabe-cabai-rawit": 74,
+      "lada-merica": 115,
+      "lengkuas-laos": 1,
+      "serai-sereh": 1,
+      "kelapa-santan": 1
     }
   },
   {
     "recipe": "sapo tahu",
     "amount": 35,
     "ingredient_counts": {
-      "cabai": 7,
-      "cabe": 6,
       "jahe": 13,
       "kacang": 2,
-      "lada": 13,
-      "lengkuas": 1,
-      "merica": 9,
-      "rawit": 5,
-      "salam": 1
+
+      "salam": 1,
+      "cabe-cabai-rawit": 18,
+      "lada-merica": 22,
+      "lengkuas-laos": 1,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "sate goreng", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "sate kambing",
     "amount": 56,
     "ingredient_counts": {
       "asam": 9,
-      "cabai": 14,
-      "cabe": 40,
+
       "daunjeruk": 13,
       "jahe": 8,
       "kacang": 24,
       "kemiri": 15,
       "ketumbar": 25,
       "kunyit": 2,
-      "lada": 8,
-      "lengkuas": 6,
-      "merica": 20,
-      "rawit": 36,
+
       "salam": 3,
-      "santan": 1,
-      "serai": 3
+
+      "cabe-cabai-rawit": 90,
+      "lada-merica": 28,
+      "lengkuas-laos": 6,
+      "serai-sereh": 3,
+      "kelapa-santan": 1
     }
   },
-  {
-    "recipe": "sate kambing bumbu kecap",
-    "amount": 0,
-    "ingredient_counts": {}
-  },
-  { "recipe": "sate tempe", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "sempol ayam", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "semur daging sapi",
     "amount": 1,
     "ingredient_counts": {
-      "cabe": 1,
       "daunjeruk": 1,
       "kemiri": 1,
-      "lada": 1,
-      "lengkuas": 1,
+
       "pala": 1,
-      "salam": 1
+      "salam": 1,
+      "cabe-cabai-rawit": 1,
+      "lada-merica": 1,
+      "lengkuas-laos": 1,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "semur tahu telur", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "siomay ayam", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "sop ayam",
     "amount": 1,
     "ingredient_counts": {
       "daunjeruk": 1,
       "jahe": 1,
-      "merica": 1,
+
       "salam": 1,
-      "serai": 1
+
+      "cabe-cabai-rawit": 0,
+      "lada-merica": 1,
+      "lengkuas-laos": 0,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
-  { "recipe": "sop daging sapi", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "sop kambing", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "soto ayam",
     "amount": 50,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 11,
       "daunjeruk": 44,
       "jahe": 45,
       "kacang": 1,
       "kemiri": 36,
       "ketumbar": 26,
       "kunyit": 42,
-      "lada": 17,
-      "lengkuas": 31,
-      "merica": 14,
+
       "pala": 5,
-      "rawit": 8,
+
       "salam": 33,
-      "santan": 12,
-      "serai": 18,
-      "sereh": 26
+
+      "cabe-cabai-rawit": 23,
+      "lada-merica": 31,
+      "lengkuas-laos": 31,
+      "serai-sereh": 44,
+      "kelapa-santan": 12
     }
   },
-  { "recipe": "soto daging sapi", "amount": 0, "ingredient_counts": {} },
-  { "recipe": "steak tempe", "amount": 0, "ingredient_counts": {} },
   {
     "recipe": "tahu cabe garam",
     "amount": 50,
     "ingredient_counts": {
       "asam": 2,
-      "cabai": 12,
-      "cabe": 66,
+
       "daunjeruk": 4,
       "jahe": 2,
       "ketumbar": 1,
-      "lada": 7,
-      "merica": 8,
-      "rawit": 35,
-      "serai": 2
+
+      "cabe-cabai-rawit": 113,
+      "lada-merica": 15,
+      "lengkuas-laos": 0,
+      "serai-sereh": 2,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tahu fantasi",
     "amount": 22,
     "ingredient_counts": {
-      "cabe": 2,
       "ketumbar": 1,
-      "lada": 8,
-      "merica": 19,
-      "rawit": 1
+
+      "cabe-cabai-rawit": 3,
+      "lada-merica": 27,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -848,32 +855,36 @@
     "amount": 24,
     "ingredient_counts": {
       "asam": 20,
-      "cabai": 7,
-      "cabe": 22,
+
       "kacang": 1,
       "ketumbar": 1,
-      "rawit": 20
+
+      "cabe-cabai-rawit": 49,
+      "lada-merica": 0,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tahu isi",
     "amount": 61,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 37,
       "daunjeruk": 3,
       "jahe": 3,
       "kemiri": 6,
       "ketumbar": 11,
       "kunyit": 6,
-      "lada": 21,
-      "lengkuas": 1,
-      "merica": 33,
+
       "pala": 1,
-      "rawit": 32,
+
       "salam": 2,
-      "santan": 2,
-      "serai": 2
+
+      "cabe-cabai-rawit": 73,
+      "lada-merica": 54,
+      "lengkuas-laos": 1,
+      "serai-sereh": 2,
+      "kelapa-santan": 2
     }
   },
   {
@@ -881,21 +892,21 @@
     "amount": 37,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 2,
-      "cabe": 35,
+
       "daunjeruk": 1,
       "jahe": 2,
       "kacang": 11,
       "kemiri": 3,
       "ketumbar": 2,
       "kunyit": 2,
-      "lada": 5,
-      "lengkuas": 3,
-      "merica": 14,
-      "rawit": 24,
+
       "salam": 5,
-      "santan": 2,
-      "serai": 2
+
+      "cabe-cabai-rawit": 61,
+      "lada-merica": 19,
+      "lengkuas-laos": 3,
+      "serai-sereh": 2,
+      "kelapa-santan": 2
     }
   },
   {
@@ -903,20 +914,20 @@
     "amount": 103,
     "ingredient_counts": {
       "asam": 5,
-      "cabai": 35,
-      "cabe": 129,
+
       "daunjeruk": 22,
       "jahe": 7,
       "kemiri": 32,
       "ketumbar": 1,
       "kunyit": 3,
-      "lada": 10,
-      "lengkuas": 9,
-      "merica": 1,
-      "rawit": 61,
+
       "salam": 31,
-      "serai": 7,
-      "sereh": 4
+
+      "cabe-cabai-rawit": 225,
+      "lada-merica": 11,
+      "lengkuas-laos": 9,
+      "serai-sereh": 11,
+      "kelapa-santan": 0
     }
   },
   {
@@ -924,21 +935,20 @@
     "amount": 36,
     "ingredient_counts": {
       "asam": 2,
-      "cabai": 10,
-      "cabe": 41,
+
       "daunjeruk": 25,
       "jahe": 19,
       "kemiri": 21,
       "ketumbar": 2,
       "kunyit": 3,
-      "lada": 5,
-      "lengkuas": 11,
-      "merica": 6,
-      "rawit": 20,
+
       "salam": 15,
-      "santan": 3,
-      "serai": 6,
-      "sereh": 1
+
+      "cabe-cabai-rawit": 71,
+      "lada-merica": 11,
+      "lengkuas-laos": 11,
+      "serai-sereh": 7,
+      "kelapa-santan": 3
     }
   },
   {
@@ -946,19 +956,20 @@
     "amount": 119,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 26,
-      "cabe": 78,
+
       "daunjeruk": 4,
       "jahe": 1,
       "kemiri": 8,
       "ketumbar": 7,
       "kunyit": 11,
-      "lada": 30,
-      "merica": 35,
-      "rawit": 46,
+
       "salam": 2,
-      "santan": 2,
-      "serai": 1
+
+      "cabe-cabai-rawit": 150,
+      "lada-merica": 65,
+      "lengkuas-laos": 0,
+      "serai-sereh": 1,
+      "kelapa-santan": 2
     }
   },
   {
@@ -966,23 +977,22 @@
     "amount": 113,
     "ingredient_counts": {
       "asam": 31,
-      "cabai": 2,
-      "cabe": 9,
+
       "daunjeruk": 11,
       "jahe": 21,
       "kemiri": 42,
       "ketumbar": 93,
       "kunyit": 12,
-      "lada": 12,
-      "lengkuas": 68,
-      "merica": 9,
+
       "pala": 1,
-      "rawit": 5,
+
       "salam": 87,
-      "santan": 7,
-      "santen": 2,
-      "serai": 13,
-      "sereh": 23
+
+      "cabe-cabai-rawit": 16,
+      "lada-merica": 21,
+      "lengkuas-laos": 68,
+      "serai-sereh": 36,
+      "kelapa-santan": 9
     }
   },
   {
@@ -993,76 +1003,90 @@
       "kemiri": 1,
       "ketumbar": 13,
       "kunyit": 3,
-      "lada": 10,
-      "merica": 13
+
+      "cabe-cabai-rawit": 0,
+      "lada-merica": 23,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tempe goreng telur",
     "amount": 17,
-    "ingredient_counts": { "lada": 5, "merica": 12 }
+    "ingredient_counts": {
+      "cabe-cabai-rawit": 0,
+      "lada-merica": 17,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
+    }
   },
   {
     "recipe": "tempe goreng tepung",
     "amount": 36,
     "ingredient_counts": {
-      "cabai": 2,
-      "cabe": 11,
       "daunjeruk": 3,
       "kemiri": 1,
       "ketumbar": 22,
       "kunyit": 14,
-      "lada": 7,
-      "merica": 4,
-      "rawit": 6
+
+      "cabe-cabai-rawit": 19,
+      "lada-merica": 11,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tempe jeletot",
     "amount": 23,
     "ingredient_counts": {
-      "cabai": 14,
-      "cabe": 25,
       "daunjeruk": 1,
       "kemiri": 2,
       "ketumbar": 7,
       "kunyit": 3,
-      "lada": 3,
-      "merica": 1,
-      "rawit": 24
+
+      "cabe-cabai-rawit": 63,
+      "lada-merica": 4,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tempe melet",
     "amount": 35,
     "ingredient_counts": {
-      "cabai": 8,
-      "cabe": 47,
       "daunjeruk": 4,
       "kemiri": 4,
       "ketumbar": 18,
       "kunyit": 15,
-      "lada": 4,
-      "merica": 7,
-      "rawit": 28
+
+      "cabe-cabai-rawit": 83,
+      "lada-merica": 11,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "tempe mendoan",
     "amount": 80,
     "ingredient_counts": {
-      "cabai": 5,
-      "cabe": 20,
       "daunjeruk": 11,
       "jahe": 1,
       "kacang": 3,
       "kemiri": 13,
       "ketumbar": 67,
       "kunyit": 39,
-      "lada": 14,
-      "merica": 12,
-      "rawit": 21,
-      "salam": 1
+
+      "salam": 1,
+      "cabe-cabai-rawit": 46,
+      "lada-merica": 26,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -1070,22 +1094,22 @@
     "amount": 31,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 8,
-      "cabe": 29,
+
       "daunjeruk": 27,
       "jahe": 28,
       "kemiri": 23,
       "ketumbar": 21,
       "kunyit": 21,
-      "lada": 5,
-      "lengkuas": 21,
-      "merica": 20,
+
       "pala": 8,
-      "rawit": 25,
+
       "salam": 27,
-      "santan": 14,
-      "serai": 17,
-      "sereh": 10
+
+      "cabe-cabai-rawit": 62,
+      "lada-merica": 25,
+      "lengkuas-laos": 21,
+      "serai-sereh": 27,
+      "kelapa-santan": 14
     }
   },
   {
@@ -1093,41 +1117,38 @@
     "amount": 48,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 13,
-      "cabe": 63,
+
       "daunjeruk": 16,
       "jahe": 13,
       "kemiri": 3,
       "kunyit": 9,
-      "lada": 4,
-      "lengkuas": 14,
-      "merica": 3,
-      "rawit": 32,
+
       "salam": 17,
-      "santan": 1,
-      "serai": 6,
-      "sereh": 5
+
+      "cabe-cabai-rawit": 108,
+      "lada-merica": 7,
+      "lengkuas-laos": 14,
+      "serai-sereh": 11,
+      "kelapa-santan": 1
     }
   },
   {
     "recipe": "tongseng ayam",
     "amount": 26,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 30,
       "daunjeruk": 16,
       "jahe": 15,
       "kemiri": 21,
       "ketumbar": 18,
       "kunyit": 17,
-      "lada": 6,
-      "lengkuas": 7,
-      "merica": 11,
-      "rawit": 19,
+
       "salam": 16,
-      "santan": 17,
-      "serai": 13,
-      "sereh": 8
+
+      "cabe-cabai-rawit": 53,
+      "lada-merica": 17,
+      "lengkuas-laos": 7,
+      "serai-sereh": 21,
+      "kelapa-santan": 17
     }
   },
   {
@@ -1135,66 +1156,63 @@
     "amount": 206,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 63,
-      "cabe": 209,
+
       "daunjeruk": 123,
       "jahe": 159,
       "kemiri": 143,
       "ketumbar": 107,
       "kunyit": 139,
-      "lada": 67,
-      "lengkuas": 112,
-      "merica": 102,
+
       "pala": 25,
-      "rawit": 168,
+
       "salam": 148,
-      "santan": 104,
-      "serai": 85,
-      "sereh": 71
+
+      "cabe-cabai-rawit": 440,
+      "lada-merica": 169,
+      "lengkuas-laos": 112,
+      "serai-sereh": 156,
+      "kelapa-santan": 104
     }
   },
   {
     "recipe": "tongseng sapi",
     "amount": 74,
     "ingredient_counts": {
-      "cabai": 28,
-      "cabe": 78,
       "daunjeruk": 44,
       "jahe": 44,
       "kemiri": 56,
       "ketumbar": 50,
       "kunyit": 52,
-      "lada": 14,
-      "lengkuas": 44,
-      "merica": 47,
+
       "pala": 6,
-      "rawit": 53,
+
       "salam": 54,
-      "santan": 55,
-      "serai": 33,
-      "sereh": 24
+
+      "cabe-cabai-rawit": 159,
+      "lada-merica": 61,
+      "lengkuas-laos": 44,
+      "serai-sereh": 57,
+      "kelapa-santan": 55
     }
   },
   {
     "recipe": "tumis tempe kacang panjang",
     "amount": 50,
     "ingredient_counts": {
-      "cabai": 11,
-      "cabe": 58,
       "daunjeruk": 3,
       "jahe": 2,
       "kacang": 50,
       "kemiri": 5,
       "ketumbar": 3,
       "kunyit": 1,
-      "lada": 8,
-      "lengkuas": 16,
-      "merica": 7,
-      "rawit": 30,
+
       "salam": 20,
-      "santan": 1,
-      "serai": 1,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 99,
+      "lada-merica": 15,
+      "lengkuas-laos": 16,
+      "serai-sereh": 3,
+      "kelapa-santan": 1
     }
   },
   {
@@ -1202,20 +1220,20 @@
     "amount": 41,
     "ingredient_counts": {
       "asam": 3,
-      "cabai": 10,
-      "cabe": 61,
+
       "daunjeruk": 1,
       "jahe": 6,
       "kacang": 3,
       "kemiri": 4,
       "kunyit": 1,
-      "lada": 4,
-      "lengkuas": 7,
-      "merica": 4,
-      "rawit": 27,
+
       "salam": 5,
-      "serai": 1,
-      "sereh": 1
+
+      "cabe-cabai-rawit": 98,
+      "lada-merica": 8,
+      "lengkuas-laos": 7,
+      "serai-sereh": 2,
+      "kelapa-santan": 0
     }
   },
   {
@@ -1223,21 +1241,21 @@
     "amount": 77,
     "ingredient_counts": {
       "asam": 8,
-      "cabai": 24,
-      "cabe": 58,
+
       "daunjeruk": 8,
       "jahe": 21,
       "kacang": 1,
       "kemiri": 3,
       "ketumbar": 2,
       "kunyit": 2,
-      "lada": 15,
-      "lengkuas": 7,
-      "merica": 17,
-      "rawit": 23,
+
       "salam": 5,
-      "serai": 1,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 105,
+      "lada-merica": 32,
+      "lengkuas-laos": 7,
+      "serai-sereh": 3,
+      "kelapa-santan": 0
     }
   },
   {
@@ -1245,48 +1263,49 @@
     "amount": 72,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 31,
-      "cabe": 87,
+
       "daunjeruk": 12,
       "jahe": 5,
       "kacang": 1,
       "kemiri": 12,
-      "lada": 1,
-      "lengkuas": 10,
-      "merica": 5,
-      "rawit": 44,
+
       "salam": 14,
-      "santan": 2,
-      "serai": 2,
-      "sereh": 5
+
+      "cabe-cabai-rawit": 162,
+      "lada-merica": 6,
+      "lengkuas-laos": 10,
+      "serai-sereh": 7,
+      "kelapa-santan": 2
     }
   },
   {
     "recipe": "udang crispy",
     "amount": 33,
     "ingredient_counts": {
-      "cabai": 4,
-      "cabe": 3,
       "ketumbar": 5,
       "kunyit": 2,
-      "lada": 12,
-      "merica": 12,
-      "rawit": 1
+
+      "cabe-cabai-rawit": 8,
+      "lada-merica": 24,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "udang goreng mentega",
     "amount": 20,
     "ingredient_counts": {
-      "cabai": 2,
-      "cabe": 4,
       "daunjeruk": 1,
       "jahe": 1,
       "ketumbar": 1,
       "kunyit": 1,
-      "lada": 10,
-      "merica": 5,
-      "rawit": 1
+
+      "cabe-cabai-rawit": 7,
+      "lada-merica": 15,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -1297,40 +1316,45 @@
       "kemiri": 1,
       "ketumbar": 4,
       "kunyit": 2,
-      "lada": 11,
-      "merica": 12
+
+      "cabe-cabai-rawit": 0,
+      "lada-merica": 23,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "udang pedas manis",
     "amount": 29,
     "ingredient_counts": {
-      "cabai": 14,
-      "cabe": 33,
       "daunjeruk": 2,
       "jahe": 1,
       "kemiri": 3,
       "kunyit": 1,
-      "lada": 6,
-      "lengkuas": 4,
-      "merica": 1,
-      "rawit": 18,
+
       "salam": 2,
-      "serai": 1
+
+      "cabe-cabai-rawit": 65,
+      "lada-merica": 7,
+      "lengkuas-laos": 4,
+      "serai-sereh": 1,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "udang saus mentega",
     "amount": 24,
     "ingredient_counts": {
-      "cabai": 6,
-      "cabe": 6,
       "daunjeruk": 1,
       "jahe": 2,
-      "lada": 6,
-      "merica": 12,
-      "rawit": 8,
-      "salam": 1
+
+      "salam": 1,
+      "cabe-cabai-rawit": 20,
+      "lada-merica": 18,
+      "lengkuas-laos": 0,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   },
   {
@@ -1338,55 +1362,54 @@
     "amount": 46,
     "ingredient_counts": {
       "asam": 1,
-      "cabai": 32,
-      "cabe": 50,
+
       "daunjeruk": 14,
       "jahe": 27,
       "kacang": 1,
       "kemiri": 5,
       "kunyit": 6,
-      "lada": 11,
-      "lengkuas": 3,
-      "merica": 13,
-      "rawit": 38,
+
       "salam": 10,
-      "serai": 1,
-      "sereh": 3
+
+      "cabe-cabai-rawit": 120,
+      "lada-merica": 24,
+      "lengkuas-laos": 3,
+      "serai-sereh": 4,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "udang saus tiram",
     "amount": 67,
     "ingredient_counts": {
-      "cabai": 18,
-      "cabe": 73,
       "daunjeruk": 6,
       "jahe": 10,
       "kacang": 2,
       "kemiri": 2,
       "ketumbar": 2,
-      "lada": 19,
-      "lengkuas": 4,
-      "merica": 11,
-      "rawit": 31,
+
       "salam": 3,
-      "serai": 1,
-      "sereh": 2
+
+      "cabe-cabai-rawit": 122,
+      "lada-merica": 30,
+      "lengkuas-laos": 4,
+      "serai-sereh": 3,
+      "kelapa-santan": 0
     }
   },
   {
     "recipe": "udang telur asin",
     "amount": 38,
     "ingredient_counts": {
-      "cabai": 6,
-      "cabe": 24,
       "daunjeruk": 1,
       "jahe": 2,
-      "lada": 11,
-      "lengkuas": 1,
-      "merica": 18,
-      "rawit": 12,
-      "salam": 1
+
+      "salam": 1,
+      "cabe-cabai-rawit": 42,
+      "lada-merica": 29,
+      "lengkuas-laos": 1,
+      "serai-sereh": 0,
+      "kelapa-santan": 0
     }
   }
 ]
