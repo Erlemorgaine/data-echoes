@@ -20,14 +20,14 @@ useMeta({
 
 <style scoped>
 main {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 </style>
 
 <style>
 body {
-  width: 100vw;
+  width: 100%;
   /* overflow: hidden; */
   background-color: var(--color-background);
 }

@@ -1,29 +1,142 @@
 <script setup lang="ts">
+import { onMounted, ref, nextTick } from 'vue'
 import { useMeta } from 'vue-meta'
 
 const themes = [
   'Nostalgia',
   'Music',
+  'Culture',
   'Presidents & Royals',
   'Movies',
   'Books',
   'Travel',
-  'Culture',
   'Nature',
   'Myths and Legends',
   'Community',
   'Olympics',
   'Fearless',
 ]
-const activeThemes = ['Nostalgia', 'Music']
+const activeThemes = ['Nostalgia', 'Music', 'Culture']
 
 useMeta({
   title: 'Home',
 })
+
+const animated = ref(!!sessionStorage.getItem('animation-played'))
+
+onMounted(() =>
+  nextTick(() => {
+    sessionStorage.setItem('animation-played', 'true')
+  }),
+)
+
+// Has All of the following!
+const most = [
+  'asem-asem daging sapi',
+  'ayam crispy',
+  'ayam geprek',
+  'ayam goreng',
+  'ayam goreng lengkuas',
+  'ayam goreng mentega',
+  'ayam goreng tepung',
+  'ayam katsu',
+  'ayam kecap',
+  'ayam lada hitam',
+  'ayam rica-rica',
+  'ayam teriyaki',
+  'ayam woku',
+  'bacem tahu tempe',
+  'bakso ayam',
+  'bakso sapi',
+  'bakwan udang',
+  'balado telur',
+  'balado udang',
+  'beef yakiniku',
+  'capcay udang',
+  'daging sapi lada hitam',
+  'gulai kambing',
+  'gurame asam manis',
+  'kari kambing',
+  'kering tempe',
+  'kering tempe teri',
+  'krengsengan kambing',
+  'mangut lele',
+  'martabak tahu',
+  'mendol tempe',
+  'mie ayam',
+  'nasi goreng kambing',
+  'nasi goreng udang',
+  'nasi kebuli',
+  'nugget tempe',
+  'opor ayam',
+  'orak arik telur',
+  'orek tempe',
+  'orek tempe basah',
+  'oseng-oseng tempe',
+  'oseng-oseng tempe kacang panjang',
+  'pepes tahu',
+  'pepes tahu ',
+  'perkedel tahu',
+  'perkedel tempe',
+  'pindang ikan',
+  'pindang telur',
+  'rawon sapi',
+  'rendang daging sapi',
+  'sambal goreng tempe',
+  'sambal goreng udang',
+  'sapi lada hitam',
+  'sapo tahu',
+  'sate goreng',
+  'sate kambing',
+  'sate kambing bumbu kecap',
+  'sate tempe',
+  'sempol ayam',
+  'semur daging sapi',
+  'semur tahu telur',
+  'siomay ayam',
+  'sop ayam',
+  'sop daging sapi',
+  'sop kambing',
+  'soto ayam',
+  'soto daging sapi',
+  'steak tempe',
+  'tahu cabe garam',
+  'tahu fantasi',
+  'tahu gejrot',
+  'tahu isi',
+  'tahu telur',
+  'telur balado',
+  'telur bumbu bali',
+  'telur dadar',
+  'tempe bacem',
+  'tempe goreng',
+  'tempe goreng telur',
+  'tempe goreng tepung',
+  'tempe jeletot',
+  'tempe melet',
+  'tempe mendoan',
+  'tengkleng kambing',
+  'tongkol suwir',
+  'tongseng ayam',
+  'tongseng kambing',
+  'tongseng sapi',
+  'tumis tempe kacang panjang',
+  'tumis udang',
+  'udang asam manis',
+  'udang balado',
+  'udang crispy',
+  'udang goreng mentega',
+  'udang goreng tepung',
+  'udang pedas manis',
+  'udang saus mentega',
+  'udang saus padang',
+  'udang saus tiram',
+  'udang telur asin',
+]
 </script>
 
 <template>
-  <main class="home-view">
+  <main :class="['home-view', { animate: !animated }]">
     <div class="home-view__content-wrapper">
       <h1 class="home-view__title">Data echoes</h1>
       <div class="home-view__content">
@@ -151,7 +264,10 @@ useMeta({
       );
     z-index: -1;
     transform-origin: center;
-    animation: spin-around 40s linear infinite;
+
+    .animate & {
+      animation: spin-around 40s linear infinite;
+    }
 
     @include mobile {
       width: 120vh;
@@ -182,7 +298,10 @@ useMeta({
     margin-bottom: 1rem;
     position: relative;
     width: fit-content;
-    animation: grow-up 2.7s 0.5s backwards;
+
+    .animate & {
+      animation: grow-up 2.7s 0.5s backwards;
+    }
 
     &::after {
       content: '';
@@ -211,7 +330,11 @@ useMeta({
     border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
     filter: drop-shadow(-2px -2px 5px var(--off-white-50));
     padding: 2rem 3rem;
-    animation: fade-in 1s 3s ease-out backwards;
+    animation: fade-in 1s ease-out backwards;
+
+    .animate & {
+      animation-delay: 3s;
+    }
 
     @include mobile {
       padding: 2rem 1.5rem;

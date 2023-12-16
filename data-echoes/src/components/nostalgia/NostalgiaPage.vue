@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import villainsAll from '../../assets/data/7-nostalgia/villains_all.json'
-import villainEpisodes from '../../assets/data/7-nostalgia/villains_episodes.json'
-import villainTop from '../../assets/data/7-nostalgia/villains_top.json'
+import villainsAll from './data/villains_all.json'
+import villainEpisodes from './data/villains_episodes.json'
+import villainTop from './data/villains_top.json'
 
-import goodAll from '../../assets/data/7-nostalgia/good_all.json'
-import goodSeasons from '../../assets/data/7-nostalgia/good_seasons.json'
-import goodEpisodes from '../../assets/data/7-nostalgia/good_episodes.json'
-import goodTop from '../../assets/data/7-nostalgia/good_top.json'
+import goodAll from './data/good_all.json'
+import goodSeasons from './data/good_seasons.json'
+import goodEpisodes from './data/good_episodes.json'
+import goodTop from './data/good_top.json'
 
-import allEpisodes from '../../assets/data/7-nostalgia/all_episodes.json'
+import allEpisodes from './data/all_episodes.json'
 
 // import groupBy from 'lodash/groupby'
 import sumBy from 'lodash/sumBy'
@@ -39,9 +39,10 @@ import type {
   TopEpisode,
 } from './types/types'
 
-import '../../assets/scss/nostalgia.scss'
 import NostalgiaSources from './NostalgiaSources.vue'
 import NostalgiaSpeakerModal from './NostalgiaSpeakerModal.vue'
+
+import './nostalgia.scss'
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
@@ -398,146 +399,6 @@ function showSpeakerModal(speaker: string) {
     <NostalgiaSources />
   </div>
 </template>
-
-<style lang="scss">
-.nostalgia-page {
-  /* Good guys */
-  --professor: #484848;
-  --professor-light: #e0e0e0;
-  --professor-50: #48484855;
-  --buttercup: #63d540;
-  --buttercup-light: #e4ffdc;
-  --buttercup-50: #63d54055;
-  --bubbles: #66e1fb;
-  --bubbles-light: #97e0ef;
-  --bubbles-50: #66e1fb55;
-  --blossom: #e382a4;
-  --blossom-light: #fae1ea;
-  --blossom-50: #e382a455;
-  --narrator: #f8f6ed;
-  --narrator-50: #f8f6ed55;
-  --bubbles-yellow: #f6da4a;
-  --bubbles-yellow-50: #f6da4a55;
-  --bunny: #b487c4;
-  --bunny-50: #b487c455;
-  --blossom-orange: #e57033;
-  --blossom-orange-50: #e5703355;
-  --ms-keane: #fcbb64;
-  --mayor: #8467a7;
-  --ms-bellum: #dd0d0c;
-
-  /* Villains */
-  --mojo-jojo: #b4dd19;
-  --mojo-jojo-30: #b4dd1933;
-  --him: #fe3300;
-  --him-light: #cf8370;
-  --him-30: #fe330033;
-  --fuzzy: #f0649d;
-  --fuzzy-light: #d5d287;
-  --fuzzy-30: #f0649d33;
-  --princess-morbucks: #ffff00;
-  --princess-morbucks-light: #ffffbc;
-  --princess-morbucks-30: #ffff0033;
-  --brick: #b43026;
-  --brick-30: #b4302633;
-  --butch: #40854e;
-  --butch-30: #40854e33;
-  --boomer: #3f65b1;
-  --boomer-30: #3f65b133;
-  --rowdyruff-boys: #40854e;
-  --rowdyruff-boys-light: #d6bc8a;
-  --junior: #8fe4dd;
-  --junior-30: #8fe4dd33;
-  --slim: #158e98;
-  --slim-30: #158e9833;
-  --bossman: #8c999a;
-  --bossman-30: #8c999a33;
-  --amoeba-boys: #158e98;
-  --amoeba-boys-light: #b9ede9;
-  --sedusa: #8b1429;
-  --sedusa-light: #da9ea9;
-  --sedusa-30: #8b142933;
-  --snake: #bdd93e;
-  --snake-30: #bdd93e33;
-  --billy: #1d7f51;
-  --billy-30: #1d7f5133;
-  --ace: #18429b;
-  --ace-30: #18429b33;
-  --grubber: #96459b;
-  --grubber-30: #96459b33;
-  --arturo: #871a41;
-  --arturo-30: #871a4133;
-  --gangreen-gang: #96459b;
-  --marianne: #3d4ba0;
-  --marianne-30: #3d4ba033;
-  --harold: #c03021;
-  --harold-30: #c0302133;
-  --julie: #d1b14a;
-  --julie-30: #d1b14a33;
-  --bud: #418124;
-  --bud-30: #41812433;
-  --smith-family: #d1b14a;
-
-  --others: #f3b0b2;
-  --roach-coach: #6f4f4b;
-  --253: #ca4328;
-  --octi: #9894ca;
-  --boogie-man: #74849c;
-  --major-man: #f2c588;
-  --rainbow: #dc557e;
-  --wednesday: #dec2b4;
-  --lenny: #fbe1e5;
-  --whitfield: #5b7c9a;
-  --ruler: #386d32;
-  --sandman: #8c96cd;
-  --reporter: #7198bc;
-  --mike: #b87843;
-  --mary: #d086a2;
-  --mastermind: #6e1111;
-  --captain: #3d53ab;
-  --lefty: #a01a17;
-  --mitch: #7e331e;
-  --cop: #0e62b1;
-  --thief: #912222;
-  --femme-fatale: #576595;
-  --bernie: #ceaf30;
-  --teacher: #bd700c;
-  --major-glory: #2f4ba8;
-  --shaquille: #7e321e;
-  --dick: #dbc56b;
-  --robin: #027e98;
-  --monster: #6b9015;
-  --talking-dog: #dadbd6;
-  --mr-green: #b2c14b;
-  --gnome: #f75e61;
-  --guide: #a9f1ff;
-  --brian: #b49a69;
-  --stanley: #7cc790;
-  --sandra: #cb385a;
-  --max: #efe9c4;
-  --mopey: #994f99;
-  --karr: #cfecee;
-  --master: #f4bc09;
-  --farouk: #536d82;
-  --mask-scara: #b1a6d4;
-  --governor: #7e3d2c;
-  --crack: #c61624;
-  --mr-willy: #f7992f;
-  --madame-argentina: #fae447;
-
-  --season-1: var(--blossom-50);
-  --season-2: var(--bubbles-50);
-  --season-3: var(--buttercup-50);
-  --season-4: var(--bunny-50);
-  --season-5: var(--bubbles-yellow-50);
-  --season-6: var(--blossom-orange-50);
-
-  --bg-1: #ffbfba;
-  --bg-2: #ffd1cf;
-  --bg-3: #ffdde5;
-  /* --bg-4: #fff2b0; */
-}
-</style>
 
 <style scoped lang="scss">
 .nostalgia-page {
