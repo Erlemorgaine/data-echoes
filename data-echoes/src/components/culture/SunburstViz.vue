@@ -5,11 +5,11 @@ import { select } from 'd3-selection'
 import { descending } from 'd3-array'
 import { onMounted } from 'vue'
 
-const startAngle = 0
-const endAngle = Math.PI * 2
-const size = Math.min(window.innerWidth, window.innerHeight) * 0.9
+const startAngle = Math.PI * 0.5
+const endAngle = Math.PI * 2.5
+const size = Math.min(window.innerWidth, window.innerHeight) * 0.5
 const radius = size * 0.3
-const padding = 0
+const padding = 2
 
 const spiceToColor = {
   asam: 'var(--spice-tamarind)',
@@ -20,6 +20,7 @@ const spiceToColor = {
   kunyit: 'var(--spice-turmeric)',
   pala: 'var(--spice-nutmeg)',
   salam: 'var(--spice-bay-leaf)',
+  ketumbar: 'var(--spice-coriander)',
   'cabe-cabai-rawit': 'var(--spice-chili)',
   'lada-merica': 'var(--spice-pepper)',
   'lengkuas-laos': 'var(--spice-galangal)',
@@ -41,6 +42,7 @@ onMounted(() => {
 function dataToParentChildLinks(data) {
   const parentNode = { child: 'root', count: 1 }
   const recipeNodes = data
+    // .slice(0, 50)
     .map((recipe) => {
       // First, create array of (same) spices for each spice count
       const allIngredients = Object.keys(recipe.ingredient_counts)
@@ -83,10 +85,7 @@ function createSunburst(data) {
   root.count()
   root.sort((a, b) => descending(a.data.amountRecipe, b.data.amountRecipe))
 
-  console.log(startAngle, endAngle, radius)
-  console.log(root.descendants())
-
-  // COmpute partition layout
+  // Compute partition layout
   partition().size([endAngle - startAngle, radius])(root)
 
   // Construct an arc generator.
@@ -95,8 +94,8 @@ function createSunburst(data) {
     .endAngle((d) => d.x1 + startAngle)
     .padAngle((d) => Math.min((d.x1 - d.x0) / 2, (2 * padding) / radius))
     .padRadius(radius / 2)
-    .innerRadius((d) => d.y0)
-    .outerRadius((d) => d.y1 - padding)
+    .innerRadius((d) => d.y0 - padding + (d.id === 'root' ? 0 : 40))
+    .outerRadius((d) => d.y1 - padding + 40)
 
   const svg = select('#sunburst-viz-svg')
 
@@ -107,9 +106,6 @@ function createSunburst(data) {
     .attr('d', vizArc)
     .attr('fill', (d) => spiceToColor[d.data.ingredient] || 'transparent')
     .attr('stroke', (d) => spiceToColor[d.data.ingredient] || 'transparent')
-  // TODO: Possibly unnecessary
-  //   .attr("xlink:href", link == null ? null : d => link(d.data, d))
-  //   .attr("target", link == null ? null : linkTarget);
 
   // // Add label
   // cell
@@ -135,13 +131,35 @@ function createSunburst(data) {
   <div class="sunburst-viz">
     <svg
       id="sunburst-viz-svg"
-      :viewBox="`${size / -2} ${size / -2} ${size} ${size}`"
+      class="sunburst-viz__viz"
+      :viewBox="`${size * -0.3} ${size * -0.3} ${size * 0.6} ${size * 0.6}`"
       text-anchor="middle"
     ></svg>
+
+    <div class="sunburst-viz__cta">
+      Hover over a <strong>sun ray</strong> to learn more about the corresponding recipe
+    </div>
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .sunburst-viz {
+  @include center;
+
+  width: 50%;
+  aspect-ratio: 0.9;
+
+  &__viz {
+    overflow: visible;
+    // display: none;
+  }
+
+  &__cta {
+    @include center;
+
+    max-width: 15vw;
+    text-align: center;
+    top: 46%;
+  }
 }
 </style>

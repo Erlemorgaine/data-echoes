@@ -43,6 +43,10 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
   justify-self: center;
   position: relative;
 
+  // .sunburst & {
+  justify-self: flex-start;
+  // }
+
   &__img {
     width: 3rem;
     border-radius: 50% 0 0 50%;

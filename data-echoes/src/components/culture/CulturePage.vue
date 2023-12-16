@@ -305,15 +305,22 @@ function latLongToCartesian(polygon) {
   &__map {
     width: 100%;
     transform: translateY(-3rem);
+    display: none;
   }
 
   &__spices {
     position: absolute;
-    top: 2rem;
+    top: 0rem;
     display: grid;
     grid-template-columns: repeat(var(--amount-cols), 1fr);
     gap: calc(100vh - 18rem) 0;
     width: 100%;
+
+    // .sunburst & {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh 70vw;
+    width: max-content;
+    // }
   }
 }
 </style>
