@@ -151,7 +151,7 @@ function createSunburst(data) {
 
   &__viz {
     overflow: visible;
-    // display: none;
+    display: none;
   }
 
   &__cta {

@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, watch } from 'vue'
 import spices from './data/common-spices.json'
 import recipes from './data/recipes.json'
 import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
 import { lookAt, perspective } from 'gl-mat4'
 import type { Spice } from './types/types'
+import { useScroll } from '@vueuse/core'
 
 import SpiceLabel from './SpiceLabel.vue'
 import SunburstViz from './SunburstViz.vue'
@@ -117,10 +118,10 @@ import './culture.scss'
 //     "count": 2785,
 //     "color": [174, 111, 56, 1],
 //     "regions": ""
+import type { values } from 'lodash'
 //   },
 
-// TODO: It seems a bunch of recipes don't have ingredients. Remove.
-// TODO: Squish same ingredients together in recipes
+// TODO: It seems a bunch of recipes don't have ingredients. Remove, also in notebook.
 
 // TODO: https://en.antaranews.com/news/188014/tracing-eastern-indonesian-spice-routes
 // https://www.igismap.com/indonesia-shapefile-download-free-map-country-boundary-line-province-polygon-shapefile/
@@ -129,7 +130,15 @@ import './culture.scss'
 
 const allSpices = ref<Spice[]>([])
 const allSpicesMidIndex = ref(0)
+const showSunburst = ref(false)
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
+const scrollContainer = ref<HTMLElement | null>(null)
+
+const { x, y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
+
+watch(y, () => {
+  console.log(y.value)
+})
 
 onMounted(() => {
   allSpices.value = spices.map((s) => ({ ...s, regions: s.regions.split(', ') }))
@@ -254,8 +263,11 @@ function latLongToCartesian(polygon) {
 </script>
 
 <template>
-  <div class="culture-page">
+  <div :class="['culture-page', { sunburst: showSunburst }]" ref="scrollContainer">
     <ul class="culture-page__spices" :style="{ '--amount-cols': allSpicesMidIndex }">
+      {{
+        y
+      }}
       <SpiceLabel
         v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
         :key="spice.name"
@@ -286,10 +298,12 @@ function latLongToCartesian(polygon) {
 
 <style scoped lang="scss">
 .culture-page {
+  --top-padding: 5rem;
+
   width: 100%;
-  position: fixed;
-  top: 2rem;
-  height: calc(100vh - 5rem);
+  // position: fixed;
+  // top: 2rem;
+  height: calc(200vh - var(--top-padding));
   overflow: scroll;
   position: relative;
   color: var(--off-white);
@@ -305,22 +319,22 @@ function latLongToCartesian(polygon) {
   &__map {
     width: 100%;
     transform: translateY(-3rem);
-    display: none;
+    // display: none;
   }
 
   &__spices {
-    position: absolute;
-    top: 0rem;
+    position: fixed;
+    top: var(--top-padding);
     display: grid;
     grid-template-columns: repeat(var(--amount-cols), 1fr);
     gap: calc(100vh - 18rem) 0;
     width: 100%;
 
-    // .sunburst & {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5vh 70vw;
-    width: max-content;
-    // }
+    .sunburst & {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5vh 70vw;
+      width: max-content;
+    }
   }
 }
 </style>

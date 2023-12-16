@@ -199,9 +199,15 @@
   //  --spice-38: rgb( 38,  33,  28);
 
   --spice-peanut: rgb(167, 71, 50);
+
+  --bg-1: rgb(81, 104, 99);
+  --bg-2: rgb(15, 60, 48);
 }
 
-.theme-view,
+.theme-view {
+  // background-color: rgb(15, 60, 48) !important;
+  background-image: linear-gradient(0deg, var(--bg-1), var(--bg-2) calc(100% - 6rem)) !important;
+}
 .culture-page {
-  background-color: rgb(15, 60, 48) !important;
+  background-image: linear-gradient(0deg, var(--bg-1), var(--bg-2));
 }
