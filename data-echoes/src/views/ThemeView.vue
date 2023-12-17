@@ -38,7 +38,9 @@ useMeta({
 
 <style lang="scss" scoped>
 .theme-view {
-  padding: 0rem 2.5em;
+  --theme-padding: 2.5rem;
+
+  padding: 0rem var(--theme-padding);
   overflow: hidden;
   position: relative;
   color: var(--vt-c-black);

@@ -15,19 +15,23 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
 
 <template>
   <li
-    :class="['spice', { bottom, top: !bottom }]"
+    :class="['spice-label', { bottom, top: !bottom }]"
     :style="{ '--spice-color': `var(--spice-${spiceKey})` }"
   >
-    <img :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`" alt="" class="spice__img" />
-    <div class="spice__details">
-      <div class="spice__details__name-indonesian">
+    <img
+      :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
+      alt=""
+      class="spice-label__img"
+    />
+    <div class="spice-label__details">
+      <div class="spice-label__details__name-indonesian">
         {{ allNames[0] }}
 
         <span v-if="allNames.length > 1" class="alternatives"
           >({{ allNames.slice(1, allNames.length).join(', ') }})</span
         >
       </div>
-      <div class="spice__details__name-english">
+      <div class="spice-label__details__name-english">
         {{ translation }}
       </div>
     </div>
@@ -35,16 +39,40 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
 </template>
 
 <style scoped lang="scss">
-.spice {
+.spice-label {
   --img-size: 3rem;
 
   display: flex;
   width: fit-content;
   justify-self: center;
   position: relative;
+  transform: translateX(var(--spice-translation));
+
+  &.bottom {
+    transform: translateX(calc(var(--spice-translation) * -1));
+  }
 
   .sunburst & {
     justify-self: flex-start;
+    width: 12rem;
+
+    &.bottom {
+      transform: translate(
+        calc(100vw - var(--theme-padding) * 2 - 100%),
+        calc(var(--sunburst-gap) * (var(--amount-cols) - 1) * -1 - 23.5rem)
+      );
+      flex-direction: row-reverse;
+      text-align: right;
+
+      .spice__img {
+        border-radius: 0 50% 50% 0;
+      }
+
+      .spice__details {
+        padding-left: 0;
+        padding-right: 0.5rem;
+      }
+    }
   }
 
   &__img {
@@ -56,6 +84,10 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
   &__details {
     padding-left: 0.5rem;
     border-bottom: 0.3rem solid var(--spice-color);
+
+    .sunburst & {
+      flex-grow: 1;
+    }
 
     &__name-indonesian {
       font-weight: 700;

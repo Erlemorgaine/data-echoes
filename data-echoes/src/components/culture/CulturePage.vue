@@ -118,7 +118,6 @@ import './culture.scss'
 //     "count": 2785,
 //     "color": [174, 111, 56, 1],
 //     "regions": ""
-import type { values } from 'lodash'
 //   },
 
 // TODO: It seems a bunch of recipes don't have ingredients. Remove, also in notebook.
@@ -130,14 +129,19 @@ import type { values } from 'lodash'
 
 const allSpices = ref<Spice[]>([])
 const allSpicesMidIndex = ref(0)
-const showSunburst = ref(false)
+
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 const scrollContainer = ref<HTMLElement | null>(null)
+
+const breakpoint = window.innerHeight * 0.5
+const showSunburst = ref(false)
+const spiceTranslation = ref(0)
 
 const { x, y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
 
 watch(y, () => {
-  console.log(y.value)
+  showSunburst.value = y.value >= breakpoint
+  spiceTranslation.value = showSunburst.value ? 0 : Math.min(y.value / breakpoint, 1) * 100
 })
 
 onMounted(() => {
@@ -264,10 +268,14 @@ function latLongToCartesian(polygon) {
 
 <template>
   <div :class="['culture-page', { sunburst: showSunburst }]" ref="scrollContainer">
-    <ul class="culture-page__spices" :style="{ '--amount-cols': allSpicesMidIndex }">
-      {{
-        y
-      }}
+    <ul
+      class="culture-page__spices"
+      :style="{
+        '--amount-cols': allSpicesMidIndex,
+        '--spice-translation': spiceTranslation + 'vw',
+      }"
+    >
+      <!-- {{ y }} -->
       <SpiceLabel
         v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
         :key="spice.name"
@@ -292,7 +300,8 @@ function latLongToCartesian(polygon) {
       :height="canvasSize.height"
     />
 
-    <SunburstViz :recipes="recipes" />
+    <SunburstViz class="culture-page__sunburst" :recipes="recipes" />
+    <div class="culture-page__scroll-el" />
   </div>
 </template>
 
@@ -301,12 +310,10 @@ function latLongToCartesian(polygon) {
   --top-padding: 5rem;
 
   width: 100%;
-  // position: fixed;
-  // top: 2rem;
-  height: calc(200vh - var(--top-padding));
-  overflow: scroll;
+  height: calc(100vh - var(--top-padding));
   position: relative;
   color: var(--off-white);
+  overflow: scroll;
 
   // Hide scrollbar
   -ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -316,24 +323,62 @@ function latLongToCartesian(polygon) {
     display: none; /* Safari and Chrome */
   }
 
-  &__map {
+  &__scroll-el {
+    height: calc(200vh - var(--top-padding));
     width: 100%;
-    transform: translateY(-3rem);
-    // display: none;
+    pointer-events: none;
+    position: relative;
+    pointer-events: none;
+  }
+
+  &__map {
+    @include center;
+
+    top: 47.5%;
+    position: fixed;
+    width: 100%;
+    pointer-events: none;
+
+    .sunburst & {
+      display: none;
+    }
   }
 
   &__spices {
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+    }
+
+    --sunburst-gap: 5vh;
+
     position: fixed;
     top: var(--top-padding);
     display: grid;
     grid-template-columns: repeat(var(--amount-cols), 1fr);
     gap: calc(100vh - 18rem) 0;
-    width: 100%;
+    width: calc(100% - var(--theme-padding) * 2);
+    pointer-events: none;
 
     .sunburst & {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 5vh 70vw;
+      top: calc(var(--top-padding) + 4vh);
+      grid-template-columns: none;
+      grid-template-rows: repeat(var(--amount-cols), 1fr);
+      gap: var(--sunburst-gap) 70vw;
       width: max-content;
+      animation: fade-in 0.7s;
+    }
+  }
+
+  &__sunburst {
+    position: fixed;
+    top: 55%;
+    left: 45%;
+    display: none;
+
+    .sunburst & {
+      display: initial;
     }
   }
 }
