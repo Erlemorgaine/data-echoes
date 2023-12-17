@@ -64,11 +64,11 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
       flex-direction: row-reverse;
       text-align: right;
 
-      .spice__img {
+      .spice-label__img {
         border-radius: 0 50% 50% 0;
       }
 
-      .spice__details {
+      .spice-label__details {
         padding-left: 0;
         padding-right: 0.5rem;
       }

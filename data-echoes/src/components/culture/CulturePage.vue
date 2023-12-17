@@ -135,13 +135,18 @@ const scrollContainer = ref<HTMLElement | null>(null)
 
 const breakpoint = window.innerHeight * 0.5
 const showSunburst = ref(false)
-const spiceTranslation = ref(0)
+const mapPercentage = ref(0)
+const sunburstPercentage = ref(0)
 
 const { x, y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
 
 watch(y, () => {
   showSunburst.value = y.value >= breakpoint
-  spiceTranslation.value = showSunburst.value ? 0 : Math.min(y.value / breakpoint, 1) * 100
+  mapPercentage.value = showSunburst.value ? 0 : Math.min(y.value / breakpoint, 1)
+
+  sunburstPercentage.value = showSunburst.value
+    ? Math.min((y.value - breakpoint) / breakpoint, 1)
+    : 0
 })
 
 onMounted(() => {
@@ -272,7 +277,7 @@ function latLongToCartesian(polygon) {
       class="culture-page__spices"
       :style="{
         '--amount-cols': allSpicesMidIndex,
-        '--spice-translation': spiceTranslation + 'vw',
+        '--spice-translation': mapPercentage * 100 + 'vw',
       }"
     >
       <!-- {{ y }} -->
@@ -300,7 +305,13 @@ function latLongToCartesian(polygon) {
       :height="canvasSize.height"
     />
 
-    <SunburstViz class="culture-page__sunburst" :recipes="recipes" />
+    <SunburstViz
+      class="culture-page__sunburst"
+      :style="{
+        '--sunburst-ratio': sunburstPercentage,
+      }"
+      :recipes="recipes"
+    />
     <div class="culture-page__scroll-el" />
   </div>
 </template>

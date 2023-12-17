@@ -9,7 +9,7 @@ const startAngle = Math.PI * 0.5
 const endAngle = Math.PI * 2.5
 const size = Math.min(window.innerWidth, window.innerHeight) * 0.5
 const radius = size * 0.3
-const padding = 2
+const padding = 1
 
 const spiceToColor = {
   asam: 'var(--spice-tamarind)',
@@ -99,13 +99,17 @@ function createSunburst(data) {
 
   const svg = select('#sunburst-viz-svg')
 
-  const cell = svg
+  svg
     .selectAll('path')
     .data(root.descendants())
     .join('path')
     .attr('d', vizArc)
-    .attr('fill', (d) => spiceToColor[d.data.ingredient] || 'transparent')
-    .attr('stroke', (d) => spiceToColor[d.data.ingredient] || 'transparent')
+    .attr('class', 'sunburst-viz__viz__node')
+    .style('--depth', (d) => Math.max(d.depth - 2, 0) / 100)
+    .attr('fill', (d) => {
+      console.log(d)
+      return spiceToColor[d.data.ingredient] || 'transparent'
+    })
 
   // // Add label
   // cell
@@ -151,6 +155,12 @@ function createSunburst(data) {
 
   &__viz {
     overflow: visible;
+
+    :deep(.sunburst-viz__viz__node) {
+      --node-opacity: calc(var(--sunburst-ratio) * 0.35 / var(--depth));
+      // 0.35 is the highest depth
+      opacity: calc(var(--node-opacity) * var(--node-opacity) * var(--node-opacity));
+    }
   }
 
   &__cta {
