@@ -105,11 +105,8 @@ function createSunburst(data) {
     .join('path')
     .attr('d', vizArc)
     .attr('class', 'sunburst-viz__viz__node')
-    .style('--depth', (d) => Math.max(d.depth - 2, 0) / 100)
-    .attr('fill', (d) => {
-      console.log(d)
-      return spiceToColor[d.data.ingredient] || 'transparent'
-    })
+    .style('--depth', (d) => Math.max(d.depth - 1, 0) / 100)
+    .attr('fill', (d) => spiceToColor[d.data.ingredient] || 'transparent')
 
   // // Add label
   // cell
@@ -157,8 +154,9 @@ function createSunburst(data) {
     overflow: visible;
 
     :deep(.sunburst-viz__viz__node) {
-      --node-opacity: calc(var(--sunburst-ratio) * 0.35 / var(--depth));
-      // 0.35 is the highest depth
+      // 0.36 is the observed highest depth
+      --node-opacity: calc(var(--sunburst-ratio) * 0.36 / var(--depth));
+
       opacity: calc(var(--node-opacity) * var(--node-opacity) * var(--node-opacity));
     }
   }

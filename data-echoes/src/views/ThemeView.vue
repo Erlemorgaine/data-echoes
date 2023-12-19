@@ -24,7 +24,7 @@ useMeta({
 </script>
 
 <template>
-  <div :class="['theme-view', { dark: themes[route.params.theme as ThemesKey].dark }]">
+  <article :class="['theme-view', { dark: themes[route.params.theme as ThemesKey].dark }]">
     <h1 class="theme-view__theme">{{ route.params.theme }}</h1>
     <RouterLink class="theme-view__back-btn" :to="{ name: 'home' }">home</RouterLink>
     <Suspense>
@@ -33,7 +33,7 @@ useMeta({
       </template>
       <template #fallback> Loading ... </template>
     </Suspense>
-  </div>
+  </article>
 </template>
 
 <style lang="scss" scoped>

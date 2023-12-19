@@ -10,6 +10,7 @@ import { useScroll } from '@vueuse/core'
 
 import SpiceLabel from './SpiceLabel.vue'
 import SunburstViz from './SunburstViz.vue'
+import IntroText from './IntroText.vue'
 
 import './culture.scss'
 
@@ -133,20 +134,24 @@ const allSpicesMidIndex = ref(0)
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 const scrollContainer = ref<HTMLElement | null>(null)
 
-const breakpoint = window.innerHeight * 0.5
-const showSunburst = ref(false)
+const breakpoint = window.innerHeight * 0.33
+const currentSection = ref('intro')
+const introPercentage = ref(1)
 const mapPercentage = ref(0)
 const sunburstPercentage = ref(0)
 
-const { x, y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
+const { y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
 
 watch(y, () => {
-  showSunburst.value = y.value >= breakpoint
-  mapPercentage.value = showSunburst.value ? 0 : Math.min(y.value / breakpoint, 1)
+  currentSection.value =
+    y.value >= breakpoint * 2 ? 'sunburst' : y.value >= breakpoint ? 'map' : 'intro'
 
-  sunburstPercentage.value = showSunburst.value
-    ? Math.min((y.value - breakpoint) / breakpoint, 1)
-    : 0
+  const isIntro = currentSection.value === 'intro'
+  const isSunburst = currentSection.value === 'sunburst'
+
+  introPercentage.value = isIntro ? Math.min(1 - y.value / breakpoint, 1) : 0
+  mapPercentage.value = isSunburst ? 0 : Math.min((y.value - breakpoint) / breakpoint, 1)
+  sunburstPercentage.value = isSunburst ? Math.min((y.value - breakpoint * 2) / breakpoint, 1) : 0
 })
 
 onMounted(() => {
@@ -186,7 +191,7 @@ onMounted(() => {
     `,
       frag: `
       precision mediump float;
-      uniform vec4 fillColor; 
+      uniform vec4 fillColor;
 
       void main() {
         gl_FragColor = fillColor;
@@ -272,7 +277,19 @@ function latLongToCartesian(polygon) {
 </script>
 
 <template>
-  <div :class="['culture-page', { sunburst: showSunburst }]" ref="scrollContainer">
+  <div
+    :class="['culture-page', currentSection]"
+    ref="scrollContainer"
+    :style="{ '--map-opacity': currentSection === 'intro' ? Math.pow(1 - introPercentage, 2) : 1 }"
+  >
+    <IntroText
+      class="culture-page__intro"
+      :style="{
+        '--intro-opacity': Math.pow(introPercentage, 3),
+        '--intro-scale': Math.cbrt(introPercentage),
+      }"
+    />
+
     <ul
       class="culture-page__spices"
       :style="{
@@ -280,7 +297,6 @@ function latLongToCartesian(polygon) {
         '--spice-translation': mapPercentage * 100 + 'vw',
       }"
     >
-      <!-- {{ y }} -->
       <SpiceLabel
         v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
         :key="spice.name"
@@ -339,7 +355,15 @@ function latLongToCartesian(polygon) {
     width: 100%;
     pointer-events: none;
     position: relative;
-    pointer-events: none;
+    z-index: 100;
+  }
+
+  &__intro {
+    position: sticky;
+    top: 5%;
+    width: 100%;
+    opacity: var(--intro-opacity);
+    transform: scale(var(--intro-scale));
   }
 
   &__map {
@@ -349,6 +373,7 @@ function latLongToCartesian(polygon) {
     position: fixed;
     width: 100%;
     pointer-events: none;
+    opacity: var(--map-opacity);
 
     .sunburst & {
       display: none;
@@ -371,6 +396,7 @@ function latLongToCartesian(polygon) {
     gap: calc(100vh - 18rem) 0;
     width: calc(100% - var(--theme-padding) * 2);
     pointer-events: none;
+    opacity: var(--map-opacity);
 
     .sunburst & {
       top: calc(var(--top-padding) + 4vh);
