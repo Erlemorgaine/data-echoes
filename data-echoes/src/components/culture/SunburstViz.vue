@@ -137,16 +137,14 @@ function createSunburst(data) {
       text-anchor="middle"
     ></svg>
 
-    <div class="sunburst-viz__cta">
-      Hover over a <strong>sun ray</strong> to learn more about the corresponding recipe
-    </div>
+    <h2 class="sunburst-viz__cta">
+      <strong>Top 50 recipes</strong> most commonly found in the dataset
+    </h2>
   </div>
 </template>
 
 <style scoped lang="scss">
 .sunburst-viz {
-  @include center;
-
   width: 50%;
   aspect-ratio: 0.9;
 
@@ -164,9 +162,17 @@ function createSunburst(data) {
   &__cta {
     @include center;
 
-    max-width: 15vw;
+    max-width: 11rem;
     text-align: center;
     top: 46%;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.3;
+
+    strong {
+      display: block;
+      font-size: 1.25rem;
+    }
   }
 }
 </style>

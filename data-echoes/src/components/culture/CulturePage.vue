@@ -131,6 +131,7 @@ import './culture.scss'
 const allSpices = ref<Spice[]>([])
 const allSpicesMidIndex = ref(0)
 
+const windowHeight = window.innerHeight
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 const scrollContainer = ref<HTMLElement | null>(null)
 
@@ -140,7 +141,12 @@ const introPercentage = ref(1)
 const mapPercentage = ref(0)
 const sunburstPercentage = ref(0)
 
-const { y, isScrolling, arrivedState, directions } = useScroll(scrollContainer)
+const ctaTexts = {
+  map: 'Click on a spice label to learn more',
+  sunburst: 'Click on a sun ray to learn more about the recipe',
+}
+
+const { y } = useScroll(scrollContainer)
 
 watch(y, () => {
   currentSection.value =
@@ -280,67 +286,90 @@ function latLongToCartesian(polygon) {
   <div
     :class="['culture-page', currentSection]"
     ref="scrollContainer"
-    :style="{ '--map-opacity': currentSection === 'intro' ? Math.pow(1 - introPercentage, 2) : 1 }"
+    :style="{
+      '--map-opacity': currentSection === 'intro' ? Math.pow(1 - introPercentage, 2) : 1,
+      '--map-scroll-translation': Math.max(0, y - windowHeight * 0.33) + 'px',
+    }"
   >
-    <IntroText
-      class="culture-page__intro"
-      :style="{
-        '--intro-opacity': Math.pow(introPercentage, 3),
-        '--intro-scale': Math.cbrt(introPercentage),
-      }"
-    />
-
-    <ul
-      class="culture-page__spices"
-      :style="{
-        '--amount-cols': allSpicesMidIndex,
-        '--spice-translation': mapPercentage * 100 + 'vw',
-      }"
-    >
-      <SpiceLabel
-        v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
-        :key="spice.name"
-        :name="spice.name"
-        :translation="spice.translation"
-        :count="spice.count"
+    <div :class="['culture-page__content']">
+      <IntroText
+        class="culture-page__content__intro"
+        :style="{
+          '--intro-opacity': Math.pow(introPercentage, 3),
+          '--intro-scale': Math.cbrt(introPercentage),
+        }"
       />
-      <SpiceLabel
-        v-for="spice of allSpices.slice(allSpicesMidIndex)"
-        :key="spice.name"
-        :name="spice.name"
-        :translation="spice.translation"
-        :count="spice.count"
-        bottom
+
+      <ul
+        class="culture-page__content__spices"
+        :style="{
+          '--amount-cols': allSpicesMidIndex,
+          '--spice-translation':
+            (mapPercentage < 0 ? mapPercentage : Math.max(0, mapPercentage - 0.15)) * 100 + 'vw',
+        }"
+      >
+        <SpiceLabel
+          v-for="spice of allSpices.slice(0, allSpicesMidIndex)"
+          :key="spice.name"
+          :name="spice.name"
+          :translation="spice.translation"
+          :count="spice.count"
+        />
+        <SpiceLabel
+          v-for="spice of allSpices.slice(allSpicesMidIndex)"
+          :key="spice.name"
+          :name="spice.name"
+          :translation="spice.translation"
+          :count="spice.count"
+          bottom
+        />
+      </ul>
+
+      <canvas
+        id="indonesia-map"
+        class="culture-page__content__map"
+        :width="canvasSize.width"
+        :height="canvasSize.height"
       />
-    </ul>
 
-    <canvas
-      id="indonesia-map"
-      class="culture-page__map"
-      :width="canvasSize.width"
-      :height="canvasSize.height"
-    />
+      <!-- TODO: Move this + map to other component -->
+      <h2
+        class="culture-page__content__title"
+        :style="{ '--cta-opacity': mapPercentage >= 0 ? 1 : 0 }"
+      >
+        <strong>The 14 most occurring spices</strong> and the top 3 geographical locations where
+        they are cultivated
+      </h2>
 
-    <SunburstViz
-      class="culture-page__sunburst"
-      :style="{
-        '--sunburst-ratio': sunburstPercentage,
-      }"
-      :recipes="recipes"
-    />
-    <div class="culture-page__scroll-el" />
+      <div
+        class="culture-page__content__cta"
+        :style="{ '--cta-opacity': mapPercentage >= 0 ? 1 : 0 }"
+      >
+        {{ ctaTexts[currentSection] || '' }}
+      </div>
+
+      <SunburstViz
+        class="culture-page__content__sunburst"
+        :style="{
+          '--sunburst-ratio': sunburstPercentage,
+        }"
+        :recipes="recipes"
+      />
+    </div>
+
+    <!-- <div class="culture-page__scroll" /> -->
   </div>
 </template>
 
 <style scoped lang="scss">
 .culture-page {
   --top-padding: 5rem;
+  --fixed-viz-top: 75vh;
 
-  width: 100%;
   height: calc(100vh - var(--top-padding));
   position: relative;
   color: var(--off-white);
-  overflow: scroll;
+  overflow: auto;
 
   // Hide scrollbar
   -ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -350,72 +379,142 @@ function latLongToCartesian(polygon) {
     display: none; /* Safari and Chrome */
   }
 
-  &__scroll-el {
+  &__content {
     height: calc(200vh - var(--top-padding));
-    width: 100%;
-    pointer-events: none;
+    width: calc(100vw - var(--theme-padding) * 2);
+    overflow: hidden;
     position: relative;
     z-index: 100;
-  }
 
-  &__intro {
-    position: sticky;
-    top: 5%;
-    width: 100%;
-    opacity: var(--intro-opacity);
-    transform: scale(var(--intro-scale));
-  }
-
-  &__map {
-    @include center;
-
-    top: 47.5%;
-    position: fixed;
-    width: 100%;
-    pointer-events: none;
-    opacity: var(--map-opacity);
-
-    .sunburst & {
-      display: none;
+    > * {
+      pointer-events: none;
     }
-  }
 
-  &__spices {
-    @keyframes fade-in {
-      from {
-        opacity: 0;
+    &__intro {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      opacity: var(--intro-opacity);
+      transform: scale(var(--intro-scale));
+
+      .intro & {
+        pointer-events: initial;
       }
     }
 
-    --sunburst-gap: 5vh;
+    &__map {
+      @include center;
 
-    position: fixed;
-    top: var(--top-padding);
-    display: grid;
-    grid-template-columns: repeat(var(--amount-cols), 1fr);
-    gap: calc(100vh - 18rem) 0;
-    width: calc(100% - var(--theme-padding) * 2);
-    pointer-events: none;
-    opacity: var(--map-opacity);
+      top: var(--fixed-viz-top);
+      position: absolute;
+      width: 100%;
+      opacity: var(--map-opacity);
+      will-change: transform;
+      transform: translate3d(-50%, calc(-50% + var(--map-scroll-translation)), 0);
 
-    .sunburst & {
-      top: calc(var(--top-padding) + 4vh);
-      grid-template-columns: none;
-      grid-template-rows: repeat(var(--amount-cols), 1fr);
-      gap: var(--sunburst-gap) 70vw;
-      width: max-content;
-      animation: fade-in 0.7s;
+      .map & {
+        pointer-events: initial;
+      }
+
+      .sunburst & {
+        display: none;
+      }
     }
-  }
 
-  &__sunburst {
-    position: fixed;
-    top: 55%;
-    left: 45%;
-    display: none;
+    &__spices {
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+      }
 
-    .sunburst & {
-      display: initial;
+      --sunburst-gap: 5vh;
+
+      top: calc(var(--fixed-viz-top) * 0.5);
+      position: absolute;
+      display: grid;
+      grid-template-columns: repeat(var(--amount-cols), 1fr);
+      gap: calc(100vh - 18rem) 0;
+      width: calc(100% - var(--theme-padding) * 2);
+      opacity: var(--map-opacity);
+      will-change: transform;
+      transform: translate3d(0, var(--map-scroll-translation), 0);
+
+      .sunburst & {
+        grid-template-columns: none;
+        grid-template-rows: repeat(var(--amount-cols), 1fr);
+        gap: var(--sunburst-gap) 70vw;
+        width: max-content;
+        animation: fade-in 0.7s;
+      }
+
+      .map &,
+      .sunburst & {
+        pointer-events: initial;
+      }
+    }
+
+    &__cta {
+      position: absolute;
+      width: 10rem;
+      text-align: center;
+      opacity: var(--cta-opacity);
+      transition: opacity 0.5s;
+      font-family: WaitingfortheSunrise;
+      font-size: 1.5rem;
+      font-weight: bold;
+      line-height: 1;
+
+      .map & {
+        top: calc(var(--fixed-viz-top) - 20vh);
+        right: 12.5vw;
+        will-change: transform;
+        transform: translate3d(0, var(--map-scroll-translation), 0) rotate(10deg);
+      }
+
+      .sunburst & {
+        top: calc(var(--fixed-viz-top) - 25vh);
+        right: 20vw;
+        will-change: transform;
+        transform: translate3d(0, var(--map-scroll-translation), 0) rotate(10deg);
+      }
+    }
+
+    // TODO: move to separate component, to also use for sunburst
+    &__title {
+      position: absolute;
+      opacity: var(--cta-opacity);
+      transition: opacity 0.5s;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 1.3;
+      max-width: 20rem;
+
+      strong {
+        display: block;
+        font-size: 1.25rem;
+      }
+
+      .map & {
+        top: calc(var(--fixed-viz-top) + 20vh);
+        left: 0;
+        will-change: transform;
+        transform: translate3d(0, var(--map-scroll-translation), 0);
+      }
+    }
+
+    &__sunburst {
+      position: absolute;
+      top: calc(var(--fixed-viz-top) + 5vh);
+      left: 45%;
+      will-change: transform;
+      transform: translate3d(-50%, calc(-50% + var(--map-scroll-translation)), 0);
+      display: none;
+
+      .sunburst & {
+        display: initial;
+        pointer-events: initial;
+      }
     }
   }
 }

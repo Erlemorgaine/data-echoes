@@ -14,27 +14,26 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
 </script>
 
 <template>
-  <li
-    :class="['spice-label', { bottom, top: !bottom }]"
-    :style="{ '--spice-color': `var(--spice-${spiceKey})` }"
-  >
-    <img
-      :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
-      alt=""
-      class="spice-label__img"
-    />
-    <div class="spice-label__details">
-      <div class="spice-label__details__name-indonesian">
-        {{ allNames[0] }}
+  <li :style="{ '--spice-color': `var(--spice-${spiceKey})` }">
+    <button :class="['spice-label', { bottom, top: !bottom }]">
+      <img
+        :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
+        alt=""
+        class="spice-label__img"
+      />
+      <div class="spice-label__details">
+        <div class="spice-label__details__name-indonesian">
+          {{ allNames[0] }}
 
-        <span v-if="allNames.length > 1" class="alternatives"
-          >({{ allNames.slice(1, allNames.length).join(', ') }})</span
-        >
+          <span v-if="allNames.length > 1" class="alternatives"
+            >({{ allNames.slice(1, allNames.length).join(', ') }})</span
+          >
+        </div>
+        <div class="spice-label__details__name-english">
+          {{ translation }}
+        </div>
       </div>
-      <div class="spice-label__details__name-english">
-        {{ translation }}
-      </div>
-    </div>
+    </button>
   </li>
 </template>
 
@@ -46,6 +45,7 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
   width: fit-content;
   justify-self: center;
   position: relative;
+  text-align: left;
   transform: translateX(var(--spice-translation));
 
   &.bottom {

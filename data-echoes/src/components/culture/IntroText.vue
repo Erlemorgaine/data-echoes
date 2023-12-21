@@ -26,7 +26,7 @@
       since I spend most of my time in Italy, missing Indonesian food, this visualization is an
       <strong>ode to the rich culinary culture of Indonesia</strong>.
     </p>
-    <h2 class="intro-text__title second">The Data</h2>
+    <h2 class="intro-text__title second">The Data Viz</h2>
     <p class="intro-text__paragraph">
       The visualization is made up of two parts. The <strong>first part</strong> is meant to give an
       idea of the spices most commonly used in Indonesian dishes, and in which provinces of
@@ -42,10 +42,6 @@
       >
     </p>
 
-    <button class="intro-text__scroll-btn">
-      Click here or scroll down to see the visualization
-    </button>
-
     <sup class="intro-text__footnote" id="fn1">
       1. It looks like the recipes have been scraped off the Indonesian version of
       <a href="https://cookpad.com/">Cookpad</a>.
@@ -55,6 +51,8 @@
       and American dishes seemed pretty popular, they rarely made it to the top 50, although one of
       the big favorites was "chicken nuggets".
     </sup>
+
+    <p class="intro-text__scroll-btn">Scroll down to see the visualization</p>
   </section>
 </template>
 
@@ -83,7 +81,7 @@
   &__title {
     font-family: WaitingfortheSunrise;
     width: fit-content;
-    margin: 2rem auto 0.5rem auto;
+    margin: 1.5rem auto 0rem auto;
     font-size: 1.75rem;
 
     &.first {
@@ -111,8 +109,18 @@
     }
   }
 
+  &__scroll-btn {
+    font-family: WaitingfortheSunrise;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    // color: var(--spice-galangal);
+  }
+
   &__footnote {
     display: block;
+    font-size: 0.75rem;
   }
 }
 </style>
