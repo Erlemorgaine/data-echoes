@@ -15,7 +15,10 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
 
 <template>
   <li :style="{ '--spice-color': `var(--spice-${spiceKey})` }">
-    <button :class="['spice-label', { bottom, top: !bottom }]">
+    <button
+      :class="['spice-label', { bottom, top: !bottom }]"
+      @click="$emit('showSpiceModal', { name, translation, count })"
+    >
       <img
         :src="`${baseUrl}images/culture/${spiceKey}_reduced.webp`"
         alt=""

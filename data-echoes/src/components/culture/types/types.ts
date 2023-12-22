@@ -5,3 +5,5 @@ export type Spice = {
   count: number
   color: number[]
 }
+
+export type SectionKey = 'sunburst' | 'map' | 'intro'

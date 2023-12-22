@@ -3,7 +3,10 @@ import { partition, stratify } from 'd3-hierarchy'
 import { arc } from 'd3-shape'
 import { select } from 'd3-selection'
 import { descending } from 'd3-array'
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+import VizTitle from './VizTitle.vue'
+
+const props = defineProps<{ recipes: unknown[] }>()
 
 const startAngle = Math.PI * 0.5
 const endAngle = Math.PI * 2.5
@@ -28,7 +31,7 @@ const spiceToColor = {
   'kelapa-santan': 'var(--spice-coconut)',
 }
 
-const props = defineProps<{ recipes: unknown[] }>()
+const modelContent = ref(null)
 
 onMounted(() => {
   const sunburstData = dataToParentChildLinks(props.recipes)
@@ -107,6 +110,7 @@ function createSunburst(data) {
     .attr('class', 'sunburst-viz__viz__node')
     .style('--depth', (d) => Math.max(d.depth - 1, 0) / 100)
     .attr('fill', (d) => spiceToColor[d.data.ingredient] || 'transparent')
+    .on('click', (e, d) => modelContent.value = d)
 
   // // Add label
   // cell
@@ -137,9 +141,11 @@ function createSunburst(data) {
       text-anchor="middle"
     ></svg>
 
-    <h2 class="sunburst-viz__cta">
-      <strong>Top 50 recipes</strong> most commonly found in the dataset
-    </h2>
+    <VizTitle
+      class="sunburst-viz__title"
+      title="Top 50 recipes"
+      subTitle="most commonly found in the dataset"
+    />
   </div>
 </template>
 
@@ -159,20 +165,12 @@ function createSunburst(data) {
     }
   }
 
-  &__cta {
+  &__title {
     @include center;
 
     max-width: 11rem;
     text-align: center;
     top: 46%;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.3;
-
-    strong {
-      display: block;
-      font-size: 1.25rem;
-    }
   }
 }
 </style>

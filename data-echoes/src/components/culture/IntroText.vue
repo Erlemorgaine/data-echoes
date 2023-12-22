@@ -35,11 +35,9 @@
       common" recipes, I used the
       <a href="https://www.kaggle.com/datasets/canggih/indonesian-food-recipes/"
         >Indonesian Food Recipes dataset on Kaggle</a
-      >, a dataset with over 15000 (non-unique) recipes.<sup><a href="#fn1">1</a></sup> To determine
-      the 50 most common recipes out of all recipes that contained the 8 most occurring spices, I
-      considered only the recipes that didn't clearly belong to another country's cuisine.<sup
-        ><a href="#fn2">2</a></sup
-      >
+      >, a dataset with over 15000 (non-unique) recipes.<sup>1</sup> To determine the 50 most common
+      recipes out of all recipes that contained the 8 most occurring spices, I considered only the
+      recipes that didn't clearly belong to another country's cuisine.<sup>2</sup>
     </p>
 
     <sup class="intro-text__footnote" id="fn1">
@@ -60,21 +58,21 @@
 .intro-text {
   padding: 0 10vw;
 
+  a {
+    font-weight: bold;
+    color: var(--spice-galangal);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--spice-lemongrass);
+    }
+  }
+
   &__paragraph {
     margin-bottom: 0.5rem;
 
     strong {
       color: var(--spice-galangal);
-    }
-
-    a {
-      font-weight: bold;
-      color: var(--spice-galangal);
-      text-decoration: underline;
-
-      &:hover {
-        color: var(--spice-lemongrass);
-      }
     }
   }
 
@@ -82,7 +80,8 @@
     font-family: WaitingfortheSunrise;
     width: fit-content;
     margin: 1.5rem auto 0rem auto;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 
     &.first {
       background: -webkit-linear-gradient(

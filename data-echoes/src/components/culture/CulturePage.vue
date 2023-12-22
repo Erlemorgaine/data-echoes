@@ -5,12 +5,14 @@ import recipes from './data/recipes.json'
 import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
 import { lookAt, perspective } from 'gl-mat4'
-import type { Spice } from './types/types'
+import type { SectionKey, Spice } from './types/types'
 import { useScroll } from '@vueuse/core'
 
 import SpiceLabel from './SpiceLabel.vue'
 import SunburstViz from './SunburstViz.vue'
 import IntroText from './IntroText.vue'
+import VizTitle from './VizTitle.vue'
+import SpiceModal from './SpiceModal.vue'
 
 import './culture.scss'
 
@@ -136,12 +138,15 @@ const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0
 const scrollContainer = ref<HTMLElement | null>(null)
 
 const breakpoint = window.innerHeight * 0.33
-const currentSection = ref('intro')
+const currentSection = ref<SectionKey>('intro')
 const introPercentage = ref(1)
 const mapPercentage = ref(0)
 const sunburstPercentage = ref(0)
 
+const spiceModalContent = ref<Spice | null>(null)
+
 const ctaTexts = {
+  intro: '',
   map: 'Click on a spice label to learn more',
   sunburst: 'Click on a sun ray to learn more about the recipe',
 }
@@ -314,6 +319,7 @@ function latLongToCartesian(polygon) {
           :name="spice.name"
           :translation="spice.translation"
           :count="spice.count"
+          @showSpiceModal="spiceModalContent = spice"
         />
         <SpiceLabel
           v-for="spice of allSpices.slice(allSpicesMidIndex)"
@@ -321,6 +327,7 @@ function latLongToCartesian(polygon) {
           :name="spice.name"
           :translation="spice.translation"
           :count="spice.count"
+          @showSpiceModal="spiceModalContent = spice"
           bottom
         />
       </ul>
@@ -333,13 +340,14 @@ function latLongToCartesian(polygon) {
       />
 
       <!-- TODO: Move this + map to other component -->
-      <h2
+
+      <VizTitle
         class="culture-page__content__title"
-        :style="{ '--cta-opacity': mapPercentage >= 0 ? 1 : 0 }"
-      >
-        <strong>The 14 most occurring spices</strong> and the top 3 geographical locations where
-        they are cultivated
-      </h2>
+        :style="{ '--cta-opacity': mapPercentage && mapPercentage >= 0 ? 1 : 0 }"
+        title="The 14 most occurring spices"
+        subTitle="and the top 3 geographical locations where
+        they are cultivated"
+      />
 
       <div
         class="culture-page__content__cta"
@@ -357,7 +365,7 @@ function latLongToCartesian(polygon) {
       />
     </div>
 
-    <!-- <div class="culture-page__scroll" /> -->
+    <SpiceModal :spice="spiceModalContent" @closeModal="spiceModalContent = null" />
   </div>
 </template>
 
@@ -480,20 +488,10 @@ function latLongToCartesian(polygon) {
       }
     }
 
-    // TODO: move to separate component, to also use for sunburst
     &__title {
-      position: absolute;
       opacity: var(--cta-opacity);
       transition: opacity 0.5s;
-      font-weight: normal;
-      font-size: 1rem;
-      line-height: 1.3;
       max-width: 20rem;
-
-      strong {
-        display: block;
-        font-size: 1.25rem;
-      }
 
       .map & {
         top: calc(var(--fixed-viz-top) + 20vh);
