@@ -54,11 +54,12 @@ function closeModal() {
 <style scoped lang="scss">
 .app-modal-wrapper {
   display: block;
-  width: fit-content;
+  position: fixed;
   padding: 0;
   pointer-events: none;
   overflow: visible;
   opacity: 0;
+  border: none;
   transition: opacity var(--animation-time);
 
   // Use before, not backdrop, to make animation work
@@ -75,8 +76,10 @@ function closeModal() {
   }
 
   &[open] {
+    position: absolute;
     pointer-events: inherit;
     opacity: 1;
+    width: fit-content;
 
     &::before {
       opacity: 1;
