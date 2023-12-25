@@ -10,6 +10,8 @@ const props = defineProps<{
 }>()
 
 const spiceKey = computed(() => props.spice?.translation.replaceAll(' ', '-'))
+const spiceName = computed(() => props.spice?.name.split('/')[0])
+const alternativeNames = computed(() => props.spice?.name.split('/').slice(1))
 </script>
 
 <template>
@@ -29,10 +31,31 @@ const spiceKey = computed(() => props.spice?.translation.replaceAll(' ', '-'))
           alt=""
           class="spice-modal__top__img"
         />
-        <h1 class="spice-modal__top__title">{{ spice.name }}</h1>
+        <h1 class="spice-modal__top__title">{{ spiceName }}</h1>
       </div>
 
-      <div class="spice-modal__bottom"></div>
+      <div class="spice-modal__bottom">
+        <dl class="spice-modal__bottom__metadata">
+          <div v-if="alternativeNames?.length">
+            <dt>Also occurs by the name(s)</dt>
+            <dd>{{ alternativeNames.join(', ') }}</dd>
+          </div>
+
+          <div>
+            <dt>English name</dt>
+            <dd>{{ spice.translation }}</dd>
+          </div>
+
+          <div>
+            <dt>Occurs in recipes</dt>
+            <dd>{{ spice.count }} times</dd>
+          </div>
+        </dl>
+
+        <div class="spice-modal__bottom__description">
+            
+        </div>
+      </div>
     </template>
   </AppModal>
 </template>
@@ -113,6 +136,18 @@ const spiceKey = computed(() => props.spice?.translation.replaceAll(' ', '-'))
       background-color: var(--spice-color);
       border-radius: 0 0 var(--half-modal) var(--half-modal);
       height: 50%;
+      padding: 1rem 2rem;
+
+      &__metadata {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+        dt {
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
     }
   }
 }

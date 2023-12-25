@@ -47,7 +47,10 @@ h5,
 h6,
 p,
 ul,
-li {
+li,
+dl,
+dd,
+dt {
   margin: 0;
 }
 

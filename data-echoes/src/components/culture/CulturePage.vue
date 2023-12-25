@@ -142,6 +142,7 @@ const currentSection = ref<SectionKey>('intro')
 const introPercentage = ref(1)
 const mapPercentage = ref(0)
 const sunburstPercentage = ref(0)
+// const scrollELPosition = ref('absolute');
 
 const spiceModalContent = ref<Spice | null>(null)
 
@@ -300,9 +301,16 @@ function latLongToCartesian(polygon) {
       <IntroText
         class="culture-page__content__intro"
         :style="{
-          '--intro-opacity': Math.pow(introPercentage, 3),
-          '--intro-scale': Math.cbrt(introPercentage),
+          '--intro-opacity': Math.pow(introPercentage, 4),
+          '--intro-scale': introPercentage,
         }"
+      />
+
+      <canvas
+        id="indonesia-map"
+        class="culture-page__content__map"
+        :width="canvasSize.width"
+        :height="canvasSize.height"
       />
 
       <ul
@@ -331,13 +339,6 @@ function latLongToCartesian(polygon) {
           bottom
         />
       </ul>
-
-      <canvas
-        id="indonesia-map"
-        class="culture-page__content__map"
-        :width="canvasSize.width"
-        :height="canvasSize.height"
-      />
 
       <!-- TODO: Move this + map to other component -->
 
@@ -443,7 +444,7 @@ function latLongToCartesian(polygon) {
       display: grid;
       grid-template-columns: repeat(var(--amount-cols), 1fr);
       gap: calc(100vh - 18rem) 0;
-      width: calc(100% - var(--theme-padding) * 2);
+      width: 100%;
       opacity: var(--map-opacity);
       will-change: transform;
       transform: translate3d(0, var(--map-scroll-translation), 0);
