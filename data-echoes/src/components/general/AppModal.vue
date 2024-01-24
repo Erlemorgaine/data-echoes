@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// import { onClickOutside } from '@vueuse/core'
 import { ref, watch } from 'vue'
 
 const props = defineProps<{
@@ -9,6 +10,9 @@ const emit = defineEmits(['closeModal'])
 
 const animationDurationMs = 300
 const dialogRef = ref()
+const innerDialogRef = ref()
+
+// onClickOutside(innerDialogRef, () => closeModal())
 
 watch(
   () => props.show,
@@ -43,7 +47,7 @@ function closeModal() {
     :style="{ '--animation-time': animationDurationMs / 1000 + 's' }"
     @close="closeModal"
   >
-    <div class="app-modal">
+    <div class="app-modal" ref="innerDialogRef">
       <button @click="closeModal" class="app-modal__close-button">X</button>
 
       <slot></slot>

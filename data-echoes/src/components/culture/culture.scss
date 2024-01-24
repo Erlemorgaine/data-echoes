@@ -222,8 +222,7 @@
   --bg-2-70: rgba(15, 60, 48, 0.7);
 }
 
-.theme-view {
-  // background-color: rgb(15, 60, 48) !important;
+.theme-view.culture {
   background-image: linear-gradient(0deg, var(--bg-1), var(--bg-2) calc(100% - 5rem)) !important;
 }
 .culture-page {
