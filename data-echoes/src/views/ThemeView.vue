@@ -39,6 +39,7 @@ useMeta({
 <style lang="scss" scoped>
 .theme-view {
   --theme-padding: 2.5rem;
+  --title-height: 3.75rem;
 
   padding: 0rem var(--theme-padding);
   overflow: hidden;
@@ -53,6 +54,8 @@ useMeta({
   }
 
   &__theme {
+
+
     font-size: 1.5rem;
     // text-transform: capitalize;
     padding-bottom: 0.5rem;

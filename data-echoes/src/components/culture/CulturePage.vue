@@ -5,7 +5,7 @@ import recipes from './data/recipes.json'
 import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
 import { lookAt, perspective } from 'gl-mat4'
-import type { SectionKey, Spice } from './types/types'
+import { Sections, type Spice, Position } from './types/types'
 import { useScroll } from '@vueuse/core'
 
 import SpiceLabel from './SpiceLabel.vue'
@@ -133,37 +133,51 @@ import './culture.scss'
 const allSpices = ref<Spice[]>([])
 const allSpicesMidIndex = ref(0)
 
-const windowHeight = window.innerHeight
 const canvasSize = ref({ width: window.innerWidth, height: window.innerWidth * 0.5 })
 const scrollContainer = ref<HTMLElement | null>(null)
 
 const breakpoint = window.innerHeight * 0.33
-const currentSection = ref<SectionKey>('intro')
+const currentSection = ref<Sections>(Sections.intro)
 const introPercentage = ref(1)
 const mapPercentage = ref(0)
 const sunburstPercentage = ref(0)
-// const scrollELPosition = ref('absolute');
+const scrollELPosition = ref(Position.absolute)
+const scrollELAbsoluteOffset = ref(0)
 
 const spiceModalContent = ref<Spice | null>(null)
 
 const ctaTexts = {
-  intro: '',
-  map: 'Click on a spice label to learn more',
-  sunburst: 'Click on a sun ray to learn more about the recipe',
+  [Sections.intro]: '',
+  [Sections.map]: 'Click on a spice label to learn more',
+  [Sections.sunburst]: 'Click on a sun ray to learn more about the recipe',
 }
 
-const { y } = useScroll(scrollContainer)
+const { y, isScrolling } = useScroll(scrollContainer)
 
 watch(y, () => {
   currentSection.value =
-    y.value >= breakpoint * 2 ? 'sunburst' : y.value >= breakpoint ? 'map' : 'intro'
+    y.value >= breakpoint * 2
+      ? Sections.sunburst
+      : y.value >= breakpoint
+      ? Sections.map
+      : Sections.intro
 
-  const isIntro = currentSection.value === 'intro'
-  const isSunburst = currentSection.value === 'sunburst'
+  const isIntro = currentSection.value === Sections.intro
+  const isSunburst = currentSection.value === Sections.sunburst
 
   introPercentage.value = isIntro ? Math.min(1 - y.value / breakpoint, 1) : 0
   mapPercentage.value = isSunburst ? 0 : Math.min((y.value - breakpoint) / breakpoint, 1)
   sunburstPercentage.value = isSunburst ? Math.min((y.value - breakpoint * 2) / breakpoint, 1) : 0
+})
+
+watch(isScrolling, () => {
+  if (isScrolling.value && scrollELPosition.value === Position.absolute) {
+    scrollELPosition.value = Position.fixed
+    scrollELAbsoluteOffset.value = 0
+  } else if (!isScrolling.value && scrollELPosition.value === Position.fixed) {
+    scrollELPosition.value = Position.absolute
+    scrollELAbsoluteOffset.value = y.value
+  }
 })
 
 onMounted(() => {
@@ -293,8 +307,9 @@ function latLongToCartesian(polygon) {
     :class="['culture-page', currentSection]"
     ref="scrollContainer"
     :style="{
-      '--map-opacity': currentSection === 'intro' ? Math.pow(1 - introPercentage, 2) : 1,
-      '--map-scroll-translation': Math.max(0, y - windowHeight * 0.33) + 'px',
+      '--map-opacity': currentSection === Sections.intro ? Math.pow(1 - introPercentage, 2) : 1,
+      '--el-position': scrollELPosition,
+      '--el-absolute-offset': scrollELAbsoluteOffset + 'px',
     }"
   >
     <div :class="['culture-page__content']">
@@ -373,7 +388,9 @@ function latLongToCartesian(polygon) {
 <style scoped lang="scss">
 .culture-page {
   --top-padding: 5rem;
-  --fixed-viz-top: 75vh;
+  --absolute-offset: calc(var(--el-absolute-offset) - var(--title-height));
+  --fixed-viz-top: calc(50vh + max(0px, var(--absolute-offset)));
+  --el-standard-width: calc(100vw - var(--theme-padding) * 2);
 
   height: calc(100vh - var(--top-padding));
   position: relative;
@@ -390,14 +407,14 @@ function latLongToCartesian(polygon) {
 
   &__content {
     height: calc(200vh - var(--top-padding));
-    width: calc(100vw - var(--theme-padding) * 2);
+    width: var(--el-standard-width);
     overflow: hidden;
     position: relative;
     z-index: 100;
 
-    > * {
-      pointer-events: none;
-    }
+    // > * {
+    //   pointer-events: none;
+    // }
 
     &__intro {
       position: absolute;
@@ -415,11 +432,9 @@ function latLongToCartesian(polygon) {
       @include center;
 
       top: var(--fixed-viz-top);
-      position: absolute;
-      width: 100%;
+      position: var(--el-position);
+      width: calc(100vw - var(--theme-padding) * 2);
       opacity: var(--map-opacity);
-      will-change: transform;
-      transform: translate3d(-50%, calc(-50% + var(--map-scroll-translation)), 0);
 
       .map & {
         pointer-events: initial;
@@ -439,21 +454,20 @@ function latLongToCartesian(polygon) {
 
       --sunburst-gap: 5vh;
 
-      top: calc(var(--fixed-viz-top) * 0.5);
-      position: absolute;
+      top: calc(var(--fixed-viz-top) - 35vh);
+      left: 50%;
+      transform: translateX(-50%);
+      position: var(--el-position);
       display: grid;
       grid-template-columns: repeat(var(--amount-cols), 1fr);
       gap: calc(100vh - 18rem) 0;
-      width: 100%;
+      width: var(--el-standard-width);
       opacity: var(--map-opacity);
-      will-change: transform;
-      transform: translate3d(0, var(--map-scroll-translation), 0);
 
       .sunburst & {
         grid-template-columns: none;
         grid-template-rows: repeat(var(--amount-cols), 1fr);
         gap: var(--sunburst-gap) 70vw;
-        width: max-content;
         animation: fade-in 0.7s;
       }
 
@@ -464,50 +478,47 @@ function latLongToCartesian(polygon) {
     }
 
     &__cta {
-      position: absolute;
+      position: var(--el-position);
       width: 10rem;
       text-align: center;
       opacity: var(--cta-opacity);
-      transition: opacity 0.5s;
       font-family: WaitingfortheSunrise;
       font-size: 1.5rem;
       font-weight: bold;
       line-height: 1;
+      transition: opacity 0.5s;
 
       .map & {
         top: calc(var(--fixed-viz-top) - 20vh);
-        right: 12.5vw;
-        will-change: transform;
-        transform: translate3d(0, var(--map-scroll-translation), 0) rotate(10deg);
+        right: calc(50% - 35vw);
+        transform: rotate(10deg);
       }
 
       .sunburst & {
         top: calc(var(--fixed-viz-top) - 25vh);
-        right: 20vw;
-        will-change: transform;
-        transform: translate3d(0, var(--map-scroll-translation), 0) rotate(10deg);
+        right: calc(50% - 25vw);
+        transform: rotate(10deg);
       }
     }
 
     &__title {
+      position: var(--el-position);
       opacity: var(--cta-opacity);
       transition: opacity 0.5s;
       max-width: 20rem;
 
       .map & {
         top: calc(var(--fixed-viz-top) + 20vh);
-        left: 0;
-        will-change: transform;
-        transform: translate3d(0, var(--map-scroll-translation), 0);
+        left: calc(50% - 47vw);
       }
     }
 
     &__sunburst {
-      position: absolute;
+      position: var(--el-position);
       top: calc(var(--fixed-viz-top) + 5vh);
-      left: 45%;
-      will-change: transform;
-      transform: translate3d(-50%, calc(-50% + var(--map-scroll-translation)), 0);
+      left: calc(50% - 5vw);
+      width: calc(50vw - var(--theme-padding) * 2);
+      transform: translate(-50%, -50%);
       display: none;
 
       .sunburst & {

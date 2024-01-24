@@ -6,4 +6,13 @@ export type Spice = {
   color: number[]
 }
 
-export type SectionKey = 'sunburst' | 'map' | 'intro'
+export enum Sections {
+  intro = 'intro',
+  map = 'map',
+  sunburst = 'sunburst',
+}
+
+export enum Position {
+  fixed = 'fixed',
+  absolute = 'absolute',
+}
