@@ -79,6 +79,7 @@ useMeta({
       color 0.5s,
       opacity 0.5s;
     z-index: 2;
+    text-decoration: underline;
 
     &:hover {
       opacity: 0.6;
