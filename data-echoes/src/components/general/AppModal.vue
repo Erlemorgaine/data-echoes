@@ -4,6 +4,7 @@ import { ref, watch } from 'vue'
 
 const props = defineProps<{
   show: boolean
+  closeLabel?: string
 }>()
 
 const emit = defineEmits(['closeModal'])
@@ -48,7 +49,7 @@ function closeModal() {
     @close="closeModal"
   >
     <div class="app-modal" ref="innerDialogRef">
-      <button @click="closeModal" class="app-modal__close-button">X</button>
+      <button @click="closeModal" class="app-modal__close-button">{{ closeLabel || 'X' }}</button>
 
       <slot></slot>
     </div>

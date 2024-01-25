@@ -4,6 +4,7 @@ export type Spice = {
   name: string
   count: number
   color: number[]
+  description?: string
 }
 
 export enum Sections {

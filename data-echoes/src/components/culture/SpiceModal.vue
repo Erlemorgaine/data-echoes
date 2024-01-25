@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { baseUrl } from '../../ultilities/globals'
+import { getTextColorForCssBgColorVar } from '../../ultilities/functions/color'
 
 import AppModal from '../general/AppModal.vue'
 import type { Spice } from './types/types'
@@ -12,16 +13,20 @@ const props = defineProps<{
 const spiceKey = computed(() => props.spice?.translation.replaceAll(' ', '-'))
 const spiceName = computed(() => props.spice?.name.split('/')[0])
 const alternativeNames = computed(() => props.spice?.name.split('/').slice(1))
+const colorVar = computed(() => `--spice-${spiceKey.value}`)
+const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
 </script>
 
 <template>
   <AppModal
     class="spice-modal-wrapper"
     :style="{
-      '--spice-color': `var(--spice-${spiceKey})`,
+      '--spice-color': `var(${colorVar})`,
       '--spice-color-dark': `var(--spice-${spiceKey}-dark)`,
+      '--text-color': textColor,
     }"
     :show="!!spice"
+    closeLabel="Close"
     @closeModal="$emit('closeModal')"
   >
     <template v-if="spice">
@@ -52,9 +57,7 @@ const alternativeNames = computed(() => props.spice?.name.split('/').slice(1))
           </div>
         </dl>
 
-        <div class="spice-modal__bottom__description">
-            
-        </div>
+        <div class="spice-modal__bottom__description"></div>
       </div>
     </template>
   </AppModal>
@@ -75,13 +78,31 @@ const alternativeNames = computed(() => props.spice?.name.split('/').slice(1))
     width: var(--modal-size);
     aspect-ratio: 1;
     border-radius: 50%;
+    border: 0.5rem solid var(--spice-color);
 
     @include mobile {
       flex-direction: column;
     }
 
     .app-modal__close-button {
-      // TODO
+      left: 50%;
+      top: calc(100% - 1rem);
+      transform: translate(-50%, -50%);
+      background-color: var(--off-white-70);
+      width: fit-content;
+      height: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1.5rem;
+      padding: 1rem;
+      font-weight: bold;
+      mix-blend-mode: luminosity;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: var(--off-white);
+      }
     }
   }
 
@@ -134,6 +155,7 @@ const alternativeNames = computed(() => props.spice?.name.split('/').slice(1))
 
     &__bottom {
       background-color: var(--spice-color);
+      color: var(--text-color);
       border-radius: 0 0 var(--half-modal) var(--half-modal);
       height: 50%;
       padding: 1rem 2rem;

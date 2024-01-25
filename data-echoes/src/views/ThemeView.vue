@@ -12,6 +12,7 @@ const route = useRoute()
 
 const themes = {
   nostalgia: { component: Nostalgia, dark: true },
+  
   music: { component: Music, dark: false },
   culture: { component: Culture, dark: true },
 }
@@ -25,6 +26,7 @@ useMeta({
 
 <template>
   <article
+  id="theme-view"
     :class="[
       'theme-view',
       route.params.theme,
