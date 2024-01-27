@@ -57,7 +57,9 @@ const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
           </div>
         </dl>
 
-        <div class="spice-modal__bottom__description"></div>
+        <div class="spice-modal__bottom__description">
+          {{ spice.description }}
+        </div>
       </div>
     </template>
   </AppModal>
@@ -164,11 +166,18 @@ const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
         display: flex;
         justify-content: center;
         gap: 3rem;
+        padding-bottom: 0.75rem;
+        border-bottom: var(--spice-color-dark) 2px solid;
 
         dt {
           font-weight: 700;
           font-size: 0.8rem;
         }
+      }
+
+      &__description {
+        padding-top: 1rem;
+        text-align: center;
       }
     }
   }

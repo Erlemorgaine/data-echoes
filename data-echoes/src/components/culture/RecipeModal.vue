@@ -36,7 +36,7 @@ const ingredientPercentages = computed(() => {
     <template v-if="recipe">
       <div class="recipe-modal__top">
         <img
-          :src="`${baseUrl}images/culture/${recipeKey}.png`"
+          :src="`${baseUrl}images/culture/recipes/${recipeKey}.png`"
           alt=""
           class="recipe-modal__top__img"
         />
