@@ -1,15 +1,7 @@
 .theme-view {
   // Indo food
-  // // --spice-131: rgb(131, 108,  87);
+
   --spice-garlic: rgb(214, 205, 187);
-  // --spice-52: rgb( 52,  33,  22);
-  // --spice-239: rgb(239, 235, 223);
-  // --spice-81: rgb( 81,  60,  45);
-  // --spice-177: rgb(177, 154, 129);
-  // --spice-108: rgb(108,  85,  66);
-  // --spice-26: rgb( 26,  14,   8);
-  // --spice-192: rgb(192, 179, 158);
-  // --spice-150: rgb(150, 131, 111);
 
   --spice-46: rgb(46, 19, 8);
   --spice-183: rgb(183, 126, 102);
@@ -22,198 +14,70 @@
   --spice-103: rgb(103, 47, 32);
   --spice-250: rgb(250, 232, 203);
 
-  // // --spice-30: rgb( 30,  38,  25);
-  // --spice-168: rgb(168, 167, 140);
-  // --spice-84: rgb( 84,  91,  58);
-  // --spice-236: rgb(236, 239, 213);
   --spice-spring-onion: rgb(124, 175, 46);
-  // --spice-63: rgb( 63,  52,  32);
-  // --spice-196: rgb(196, 225, 109);
-  // --spice-122: rgb(122, 124, 100);
-  // --spice-206: rgb(206, 198, 166);
-  // --spice-207: rgb(207, 157, 105);
-
-  // // --spice-156: rgb(156,  70,  25);
-  // --spice-51: rgb( 51,  21,  16);
-  // --spice-221: rgb(221, 184, 130);
-  // --spice-78: rgb( 78,  39,  24);
   --spice-onion: rgb(174, 111, 56);
-  // --spice-21: rgb( 21,   9,  13);
-  // --spice-251: rgb(251, 244, 224);
-  // --spice-133: rgb(133,  86,  49);
-  // --spice-109: rgb(109,  57,  31);
-  // --spice-200: rgb(200, 151,  89);
-
-  // // --spice-18: rgb( 18,  37,   8);
-  // --spice-104: rgb(104, 152, 96);
-  // --spice-224: rgb(224, 197, 165);
-  // --spice-93: rgb(93, 77, 50);
-  // --spice-198: rgb(198, 168, 131);
-  // --spice-174: rgb(174, 211, 187);
-  // --spice-137: rgb(137, 120, 82);
-  // --spice-135: rgb(135, 180, 133);
 
   --spice-kaffir-lime-leaf: rgb(74, 118, 62);
   --spice-kaffir-lime-leaf-dark: rgb(48, 72, 31);
+  --spice-daunjeruk: var(--spice-kaffir-lime-leaf);
 
-  // // --spice-57: rgb( 57,  29,  25);
-  // --spice-196: rgb(196, 148, 106);
-  // --spice-245: rgb(245, 231, 207);
-  // --spice-91: rgb( 91,  56,  42);
-  // --spice-122: rgb(122,  84,  62);
-
-  // --spice-31: rgb( 31,  21,  19);
-  // --spice-225: rgb(225, 188, 145);
-  // --spice-165: rgb(165, 110,  78);
   --spice-chili: rgb(165, 34, 29);
   --spice-chili-dark: rgb(31, 21, 19);
+  --spice-cabe-cabai-rawit: var(--spice-chili);
 
-  // // --spice-29: rgb( 29,  25,  24);
-  // --spice-220: rgb(220, 128, 113);
-  // --spice-122: rgb(122,  81,  66);
-  // --spice-93: rgb( 93,  16,  25);
   --spice-chili-pepper: rgb(215, 42, 49);
-  // --spice-217: rgb(217, 204, 187);
-  // --spice-74: rgb( 74, 129,  45);
-  // --spice-145: rgb(145, 168, 116);
-  // --spice-47: rgb( 47,  58,  35);
-  // --spice-159: rgb(159,  15,  31);
+  --spice-chili-pepper-light: var(--spice-chili-pepper);
 
-  // // --spice-19: rgb( 19,  15,  14);
-
-  // --spice-104: rgb(104,  85,  72);
-  // --spice-218: rgb(218, 205, 188);
-  // --spice-42: rgb( 42,  32,  28);
-  // --spice-132: rgb(132, 110,  95);
-  // --spice-74: rgb( 74,  58,  49);
-  // --spice-180: rgb(180, 161, 144);
-  // --spice-240: rgb(240, 232, 220);
-  // --spice-157: rgb(157, 136, 119);
   --spice-pepper: rgb(200, 184, 167);
   --spice-pepper-dark: rgb(42, 32, 28);
+  --spice-lada-merica: var(--spice-pepper);
 
-  // // --spice-22: rgb( 22,  14,  10);
-
-  // --spice-141: rgb(141, 102,  68);
-  // --spice-82: rgb( 82,  44,  26);
-  // --spice-241: rgb(241, 222, 200);
-  // --spice-178: rgb(178, 125,  35);
-  // --spice-53: rgb( 53,  29,  17);
-  // --spice-214: rgb(214, 185, 137);
-  // --spice-173: rgb(173, 141, 103);
-  // --spice-116: rgb(116,  69,  39);
   --spice-ginger: rgb(220, 185, 61);
   --spice-ginger-dark: rgb(53, 29, 17);
+  --spice-jahe: var(--spice-ginger);
 
-  // // --spice-192: rgb(192, 183, 138);
-  // --spice-72: rgb( 72,  53,  37);
-  // --spice-146: rgb(146, 127,  83);
-  // --spice-10: rgb( 10,  17,  27);
-  // --spice-100: rgb(100,  77,  48);
-  // --spice-39: rgb( 39,  38,  29);
-  // --spice-121: rgb(121, 102,  63);
-  // --spice-168: rgb(168, 154, 108);
-  // --spice-218: rgb(218, 213, 174);
   --spice-bay-leaf: rgb(62, 91, 29);
   --spice-bay-leaf-dark: rgb(39, 38, 29);
+  --spice-salam: var(--spice-bay-leaf);
 
-  // --spice-44: rgb( 44,  31,  25);
-  //  --spice-178: rgb(178,  66,  13);
-  //  --spice-189: rgb(189, 161, 134);
-  //  --spice-146: rgb(146, 119,  97);
   --spice-230: rgb(230, 209, 192);
-  //  --spice-73: rgb( 73,  60,  51);
-  //  --spice-110: rgb(110,  45,  21);
-  //  --spice-12: rgb( 12,  12,  11);
-  //  --spice-109: rgb(109,  87,  72);
+
   --spice-turmeric: rgb(225, 123, 10);
   --spice-turmeric-dark: rgb(73, 60, 51);
+  --spice-kunyit: var(--spice-turmeric);
 
-  // // --spice-9: rgb(  9,   7,   9);
-
-  // --spice-149: rgb(149,  92,  58);
-  // --spice-117: rgb(117,  63,  37);
-  // --spice-252: rgb(252, 240, 211);
-  // --spice-179: rgb(179, 122,  80);
-  // --spice-199: rgb(199, 152, 110);
-  // --spice-244: rgb(244, 214, 173);
-  // --spice-50: rgb( 50,  19,  12);
-  // --spice-86: rgb( 86,  37,  21);
   --spice-candlenut: rgb(224, 184, 138);
   --spice-candlenut-dark: rgb(50, 19, 12);
+  --spice-kemiri: var(--spice-candlenut);
 
-  // --spice-24: rgb( 24,  19,  18);
-  // --spice-94: rgb( 94,  39,  17);
-  // --spice-227: rgb(227, 211, 177);
-  // --spice-86: rgb( 86,  65,  49);
-  // --spice-221: rgb(221, 171, 111);
-  // --spice-170: rgb(170, 145, 115);
-  // --spice-56: rgb( 56,  31,  18);
-  // --spice-134: rgb(134,  78,  42);
-  // --spice-130: rgb(130, 105,  81);
   --spice-coriander: rgb(179, 120, 69);
   --spice-coriander-dark: rgb(56, 31, 18);
+  --spice-ketumbar: var(--spice-coriander);
 
-  // // --spice-243: rgb(243, 241, 234);
-  // --spice-182: rgb(182, 116,  71);
-  // --spice-155: rgb(155,  85,  47);
-  // --spice-229: rgb(229, 187, 136);
-  // --spice-111: rgb(111,  50,  31);
-  // --spice-135: rgb(135, 108, 107);
-  //  --spice-205: rgb(205, 152, 102);
-  // --spice-185: rgb(185, 172, 161);
   --spice-237: rgb(237, 226, 204);
+
   --spice-galangal: rgb(246, 220, 167);
   --spice-galangal-dark: rgb(111, 50, 31);
+  --spice-lengkuas-laos: var(--spice-galangal);
 
-  // // --spice-31: rgb( 31,  24,  19);
-  // --spice-162: rgb(162, 149, 139);
-  // --spice-110: rgb(110,  93,  81);
-  // --spice-80: rgb( 80,  61,  52);
-  // --spice-138: rgb(138, 122, 111);
-  // --spice-208: rgb(208, 196, 187);
-  // --spice-183: rgb(183, 173, 164);
-  // --spice-54: rgb( 54,  37,  30);
-  // --spice-246: rgb(246, 245, 241);
   --spice-coconut: rgb(228, 219, 210);
   --spice-coconut-dark: rgb(54, 37, 30);
+  --spice-kelapa-santan: var(--spice-coconut);
 
-  // // --spice-42: rgb( 42,  69,  35);
-  // --spice-126: rgb(126, 154,  61);
-  // --spice-230: rgb(230, 233, 191);
-  // --spice-5: rgb(  5,   3,  18);
-  // --spice-204: rgb(204, 208, 135);
-  // --spice-152: rgb(152, 100,  48);
-  // --spice-83: rgb( 83, 109,  44);
-  // --spice-79: rgb( 79,  45,  27);
   --spice-lemongrass: rgb(179, 177, 89);
   --spice-lemongrass-dark: rgb(27, 31, 25);
+  --spice-serai-sereh: var(--spice-lemongrass);
 
-  // // --spice-104: rgb(104, 141,   8);
-  // --spice-116: rgb(116,  89,  72);
-  // --spice-90: rgb( 90,  56,  42);
-  // --spice-239: rgb(239, 233, 213);
-  // --spice-224: rgb(224, 189, 141);
-  // --spice-187: rgb(187, 154, 119);
-  // --spice-20: rgb( 20,  13,  19);
-  // --spice-170: rgb(170,  97,  52);
-  // --spice-153: rgb(153, 123,  96);
   --spice-tamarind: rgb(55, 29, 23);
   --spice-tamarind-dark: rgb(20, 13, 19);
+  --spice-asam: var(--spice-tamarind);
 
-  // --spice-246: rgb(246, 238, 231);
-
-  //  --spice-159: rgb(159, 148, 140);
-  //  --spice-195: rgb(195, 179, 168);
-  //  --spice-83: rgb( 83,  80,  75);
-  //  --spice-122: rgb(122, 113, 105);
-  //  --spice-87: rgb( 87,  44,  32);
-  //  --spice-222: rgb(222, 208, 197);
-  //  --spice-192: rgb(192, 129, 103);
   --spice-nutmeg: rgb(142, 78, 58);
   --spice-nutmeg-dark: rgb(38, 33, 28);
+  --spice-pala: var(--spice-nutmeg);
 
   --spice-peanut: rgb(167, 71, 50);
+  --spice-kacang: var(--spice-peanut);
 
   --bg-1: rgb(81, 104, 99);
   --bg-2: rgb(15, 60, 48);

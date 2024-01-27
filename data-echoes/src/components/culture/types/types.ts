@@ -17,3 +17,11 @@ export enum Position {
   fixed = 'fixed',
   absolute = 'absolute',
 }
+
+export type Recipe = {
+  recipe: string
+  amount: number
+  ingredient_counts: { [k: string]: number }
+  description?: string
+  link: string
+}
