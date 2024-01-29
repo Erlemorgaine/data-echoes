@@ -36,7 +36,7 @@ const ingredientPercentages = computed(() => {
     <template v-if="recipe">
       <div class="recipe-modal__top">
         <img
-          :src="`${baseUrl}images/culture/recipes/${recipeKey}.png`"
+          :src="`${baseUrl}images/culture/recipes/${recipeKey}.webp`"
           alt=""
           class="recipe-modal__top__img"
         />
@@ -61,6 +61,22 @@ const ingredientPercentages = computed(() => {
 
         <div class="recipe-modal__bottom__description">
           {{ recipe.description }}
+        </div>
+
+        <div class="recipe-modal__bottom__links">
+          <p class="recipe-modal__bottom__links__text">Check out how to cook this dish at:</p>
+
+          <ul>
+            <li v-for="link of recipe.links" :key="link">
+              <a
+                class="recipe-modal__bottom__links__link"
+                :href="link.link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >{{ link.site }}</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </template>
@@ -113,7 +129,7 @@ const ingredientPercentages = computed(() => {
 
   .recipe-modal {
     &__top {
-      background-color: var(--spice-garlic);
+      background-color: var(--spice-coconut-dark);
       border-radius: var(--half-modal) var(--half-modal) 0 0;
       height: 50%;
       text-align: center;
@@ -123,9 +139,11 @@ const ingredientPercentages = computed(() => {
 
       &__img {
         position: absolute;
-        bottom: -15%;
-        left: 0;
-        width: 100%;
+        bottom: 6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 11rem;
+        z-index: 2;
       }
 
       &__title {
@@ -140,6 +158,7 @@ const ingredientPercentages = computed(() => {
         padding-bottom: 0.5rem;
         z-index: 1;
         font-size: 2rem;
+        line-height: 100%;
 
         &::first-letter {
           text-transform: uppercase;
@@ -166,7 +185,8 @@ const ingredientPercentages = computed(() => {
       color: var(--text-color);
       border-radius: 0 0 var(--half-modal) var(--half-modal);
       height: 50%;
-      padding: 0rem 2rem 1rem 2rem;
+      padding: 1rem 2rem 1rem 2rem;
+      text-align: center;
 
       &__ingredients-chart {
         display: flex;
@@ -175,6 +195,31 @@ const ingredientPercentages = computed(() => {
           width: var(--ingredient-percentage);
           height: 1rem;
           background-color: var(--ingredient-color);
+        }
+      }
+
+      &__description {
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 35ch;
+      }
+
+      &__links {
+        margin-top: 1rem;
+
+        &__text {
+          margin-bottom: 0.5rem;
+        }
+
+        &__link {
+          --line-color: var(--spice-coconut-dark);
+
+          @include underline-hover;
+
+          color: var(--spice-coconut-dark);
+          position: relative;
+          font-weight: 700;
+          transition: color 0.3s;
         }
       }
     }

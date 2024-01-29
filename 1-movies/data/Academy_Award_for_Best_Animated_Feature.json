@@ -1,0 +1,334 @@
+[
+  { "year": 2010, "film": "Toy Story 3", "directorProducer": "Lee Unkrich" },
+  {
+    "year": 2010,
+    "film": "How to Train Your Dragon (2010 film)",
+    "directorProducer": "Chris Sanders & Dean DeBlois"
+  },
+  {
+    "year": 2010,
+    "film": "The Illusionist (2010 film)",
+    "directorProducer": "Sylvain Chomet"
+  },
+  {
+    "year": 2011,
+    "film": "Rango (2011 film)",
+    "directorProducer": "Gore Verbinski"
+  },
+  {
+    "year": 2011,
+    "film": "A Cat in Paris",
+    "directorProducer": "Alain Gagnol & Jean-Loup Felicioli"
+  },
+  {
+    "year": 2011,
+    "film": "Chico and Rita",
+    "directorProducer": "Fernando Trueba & Javier Mariscal"
+  },
+  {
+    "year": 2011,
+    "film": "Kung Fu Panda 2",
+    "directorProducer": "Jennifer Yuh Nelson"
+  },
+  {
+    "year": 2011,
+    "film": "Puss in Boots (2011 film)",
+    "directorProducer": "Chris Miller (animator)"
+  },
+  {
+    "year": 2012,
+    "film": "Brave (2012 film)",
+    "directorProducer": "Mark Andrews & Brenda Chapman"
+  },
+  {
+    "year": 2012,
+    "film": "Frankenweenie (2012 film)",
+    "directorProducer": "Tim Burton"
+  },
+  {
+    "year": 2012,
+    "film": "ParaNorman",
+    "directorProducer": "Sam Fell & Chris Butler"
+  },
+  {
+    "year": 2012,
+    "film": "The Pirates! In an Adventure with Scientists!",
+    "directorProducer": "Peter Lord"
+  },
+  { "year": 2012, "film": "Wreck-It Ralph", "directorProducer": "Rich Moore" },
+  {
+    "year": 2013,
+    "film": "Frozen (2013 film)",
+    "directorProducer": "Chris Buck, Jennifer Lee & Peter Del Vecho"
+  },
+  {
+    "year": 2013,
+    "film": "The Croods",
+    "directorProducer": "Chris Sanders, Kirk DeMicco & Kristine Belson"
+  },
+  {
+    "year": 2013,
+    "film": "Despicable Me 2",
+    "directorProducer": "Chris Renaud, Pierre Coffin & Chris Meledandri"
+  },
+  {
+    "year": 2013,
+    "film": "Ernest & Celestine",
+    "directorProducer": "Benjamin Renner & Didier Brunner"
+  },
+  {
+    "year": 2013,
+    "film": "The Wind Rises",
+    "directorProducer": "Hayao Miyazaki & Toshio Suzuki"
+  },
+  {
+    "year": 2014,
+    "film": "Big Hero 6 (film)",
+    "directorProducer": "Don Hall, Chris Williams & Roy Conli"
+  },
+  {
+    "year": 2014,
+    "film": "The Boxtrolls",
+    "directorProducer": "Anthony Stacchi, Graham Annable & Travis Knight"
+  },
+  {
+    "year": 2014,
+    "film": "How to Train Your Dragon 2",
+    "directorProducer": "Dean DeBlois & Bonnie Arnold"
+  },
+  {
+    "year": 2014,
+    "film": "Song of the Sea (2014 film)",
+    "directorProducer": "Tomm Moore & Paul Young"
+  },
+  {
+    "year": 2014,
+    "film": "The Tale of the Princess Kaguya (film)",
+    "directorProducer": "Isao Takahata & Yoshiaki Nishimura"
+  },
+  {
+    "year": 2015,
+    "film": "Inside Out (2015 film)",
+    "directorProducer": "Pete Docter & Jonas Rivera"
+  },
+  {
+    "year": 2015,
+    "film": "Anomalisa",
+    "directorProducer": "Charlie Kaufman, Duke Johnson & Rosa Tran"
+  },
+  {
+    "year": 2015,
+    "film": "Boy and the World",
+    "directorProducer": "Alê Abreu"
+  },
+  {
+    "year": 2015,
+    "film": "Shaun the Sheep Movie",
+    "directorProducer": "Mark Burton & Richard Starzak"
+  },
+  {
+    "year": 2015,
+    "film": "When Marnie Was There (film)",
+    "directorProducer": "Hiromasa Yonebayashi & Yoshiaki Nishimura"
+  },
+  {
+    "year": 2016,
+    "film": "Zootopia",
+    "directorProducer": "Byron Howard, Rich Moore & Clark Spencer"
+  },
+  {
+    "year": 2016,
+    "film": "Kubo and the Two Strings",
+    "directorProducer": "Travis Knight & Arianne Sutner"
+  },
+  {
+    "year": 2016,
+    "film": "Moana (2016 film)",
+    "directorProducer": "John Musker, Ron Clements & Osnat Shurer"
+  },
+  {
+    "year": 2016,
+    "film": "My Life as a Courgette",
+    "directorProducer": "Claude Barras & Max Karli"
+  },
+  {
+    "year": 2016,
+    "film": "The Red Turtle",
+    "directorProducer": "Michaël Dudok de Wit & Toshio Suzuki"
+  },
+  {
+    "year": 2017,
+    "film": "Coco (2017 film)",
+    "directorProducer": "Lee Unkrich & Darla K. Anderson"
+  },
+  {
+    "year": 2017,
+    "film": "The Boss Baby",
+    "directorProducer": "Tom McGrath & Ramsey Ann Naito"
+  },
+  {
+    "year": 2017,
+    "film": "The Breadwinner (film)",
+    "directorProducer": "Nora Twomey & Anthony Leo"
+  },
+  {
+    "year": 2017,
+    "film": "Ferdinand (film)",
+    "directorProducer": "Carlos Saldanha & Lori Forte"
+  },
+  {
+    "year": 2017,
+    "film": "Loving Vincent",
+    "directorProducer": "Dorota Kobiela, Hugh Welchman & Ivan Mactaggart"
+  },
+  {
+    "year": 2018,
+    "film": "Spider-Man: Into the Spider-Verse",
+    "directorProducer": "Bob Persichetti, Peter Ramsey, Rodney Rothman, Phil Lord and Christopher Miller"
+  },
+  {
+    "year": 2018,
+    "film": "Incredibles 2",
+    "directorProducer": "Brad Bird, John Walker & Nicole Paradis Grindle"
+  },
+  {
+    "year": 2018,
+    "film": "Isle of Dogs (film)",
+    "directorProducer": "Wes Anderson, Scott Rudin, Steven Rales & Jeremy Dawson"
+  },
+  {
+    "year": 2018,
+    "film": "Mirai (film)",
+    "directorProducer": "Mamoru Hosoda & Yuichiro Saito"
+  },
+  {
+    "year": 2018,
+    "film": "Ralph Breaks the Internet",
+    "directorProducer": "Rich Moore, Phil Johnston & Clark Spencer"
+  },
+  {
+    "year": 2019,
+    "film": "Toy Story 4",
+    "directorProducer": "Josh Cooley, Mark Nielsen & Jonas Rivera"
+  },
+  {
+    "year": 2019,
+    "film": "How to Train Your Dragon: The Hidden World",
+    "directorProducer": "Dean DeBlois, Brad Lewis & Bonnie Arnold"
+  },
+  {
+    "year": 2019,
+    "film": "I Lost My Body",
+    "directorProducer": "Jérémy Clapin & Marc du Pontavice"
+  },
+  {
+    "year": 2019,
+    "film": "Klaus (film)",
+    "directorProducer": "Sergio Pablos, Jinko Gotoh & Marisa Román"
+  },
+  {
+    "year": 2019,
+    "film": "Missing Link (2019 film)",
+    "directorProducer": "Chris Butler (filmmaker), Arianne Sutner & Travis Knight"
+  },
+  {
+    "year": 2020,
+    "film": "Soul (2020 film)",
+    "directorProducer": "Pete Docter & Dana Murray"
+  },
+  {
+    "year": 2020,
+    "film": "Onward (film)",
+    "directorProducer": "Dan Scanlon & Kori Rae"
+  },
+  {
+    "year": 2020,
+    "film": "Over the Moon (2020 film)",
+    "directorProducer": "Glen Keane, Gennie Rim & Peilin Chou"
+  },
+  {
+    "year": 2020,
+    "film": "A Shaun the Sheep Movie: Farmageddon",
+    "directorProducer": "Richard Phelan, Will Becher & Paul Kewley"
+  },
+  {
+    "year": 2020,
+    "film": "Wolfwalkers",
+    "directorProducer": "Tomm Moore, Ross Stewart, Paul Young (producer) & Stéphan Roelants"
+  },
+  {
+    "year": 2021,
+    "film": "Encanto",
+    "directorProducer": "Jared Bush, Byron Howard, Yvett Merino & Clark Spencer"
+  },
+  {
+    "year": 2021,
+    "film": "Flee (film)",
+    "directorProducer": "Jonas Poher Rasmussen, Monica Hellström, Signe Byrge Sørensen & Charlotte de la Gournerie"
+  },
+  {
+    "year": 2021,
+    "film": "Luca (2021 film)",
+    "directorProducer": "Enrico Casarosa & Andrea Warren"
+  },
+  {
+    "year": 2021,
+    "film": "The Mitchells vs. the Machines",
+    "directorProducer": "Mike Rianda, Phil Lord and Christopher Miller & Kurt Albrecht"
+  },
+  {
+    "year": 2021,
+    "film": "Raya and the Last Dragon",
+    "directorProducer": "Don Hall (filmmaker), Carlos López Estrada, Osnat Shurer & Peter Del Vecho"
+  },
+  {
+    "year": 2022,
+    "film": "Guillermo del Toro's Pinocchio",
+    "directorProducer": "Guillermo del Toro, Mark Gustafson, Gary Ungar & Alex Bulkley"
+  },
+  {
+    "year": 2022,
+    "film": "Marcel the Shell with Shoes On (2021 film)",
+    "directorProducer": "Dean Fleischer Camp, Elisabeth Holm, Andrew Goldman, Caroline Kaplan & Paul Mezey"
+  },
+  {
+    "year": 2022,
+    "film": "Puss in Boots: The Last Wish",
+    "directorProducer": "Joel Crawford (film director) & Mark Swift"
+  },
+  {
+    "year": 2022,
+    "film": "The Sea Beast (2022 film)",
+    "directorProducer": "Chris Williams (director) & Jed Schlanger"
+  },
+  {
+    "year": 2022,
+    "film": "Turning Red",
+    "directorProducer": "Domee Shi & Lindsey Collins"
+  },
+  {
+    "year": 2023,
+    "film": "The Boy and the Heron",
+    "directorProducer": "Hayao Miyazaki & Toshio Suzuki (producer)"
+  },
+  {
+    "year": 2023,
+    "film": "Elemental (2023 film)",
+    "directorProducer": "Peter Sohn & Denise Ream"
+  },
+  {
+    "year": 2023,
+    "film": "Nimona (film)",
+    "directorProducer": "Nick Bruno, Troy Quane, Karen Ryan & Julie Zackary"
+  },
+  {
+    "year": 2023,
+    "film": "Robot Dreams (film)",
+    "directorProducer": "Pablo Berger, Ibon Cormenzana, Ignasi Estapé & Sandra Tapia Diaz"
+  },
+  {
+    "year": 2023,
+    "film": "Spider-Man: Across the Spider-Verse",
+    "directorProducer": "Kemp Powers, Justin K. Thompson, Phil Lord, Christopher Miller & Amy Pascal"
+  }
+]

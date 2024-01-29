@@ -1,0 +1,140 @@
+[
+  { "year": 2010, "director": "Tom Hooper", "movie": "The King's Speech" },
+  { "year": 2010, "director": "Darren Aronofsky", "movie": "Black Swan" },
+  {
+    "year": 2010,
+    "director": "Joel Coen and Ethan Coen",
+    "movie": "True Grit"
+  },
+  { "year": 2010, "director": "David Fincher", "movie": "The Social Network" },
+  { "year": 2010, "director": "David O. Russell", "movie": "The Fighter" },
+  { "year": 2011, "director": "Michel Hazanavicius", "movie": "The Artist" },
+  { "year": 2011, "director": "Woody Allen", "movie": "Midnight in Paris" },
+  { "year": 2011, "director": "Terrence Malick", "movie": "The Tree of Life" },
+  { "year": 2011, "director": "Alexander Payne", "movie": "The Descendants" },
+  { "year": 2011, "director": "Martin Scorsese", "movie": "Hugo" },
+  { "year": 2012, "director": "Ang Lee", "movie": "Life of Pi" },
+  { "year": 2012, "director": "Michael Haneke", "movie": "Amour" },
+  {
+    "year": 2012,
+    "director": "David O. Russell",
+    "movie": "Silver Linings Playbook"
+  },
+  { "year": 2012, "director": "Steven Spielberg", "movie": "Lincoln" },
+  {
+    "year": 2012,
+    "director": "Benh Zeitlin",
+    "movie": "Beasts of the Southern Wild"
+  },
+  { "year": 2013, "director": "Alfonso Cuarón", "movie": "Gravity" },
+  { "year": 2013, "director": "Steve McQueen", "movie": "12 Years a Slave" },
+  { "year": 2013, "director": "Alexander Payne", "movie": "Nebraska" },
+  { "year": 2013, "director": "David O. Russell", "movie": "American Hustle" },
+  {
+    "year": 2013,
+    "director": "Martin Scorsese",
+    "movie": "The Wolf of Wall Street"
+  },
+  {
+    "year": 2014,
+    "director": "Alejandro González Iñárritu",
+    "movie": "Birdman"
+  },
+  {
+    "year": 2014,
+    "director": "Wes Anderson",
+    "movie": "The Grand Budapest Hotel"
+  },
+  { "year": 2014, "director": "Richard Linklater", "movie": "Boyhood" },
+  { "year": 2014, "director": "Bennett Miller", "movie": "Foxcatcher" },
+  { "year": 2014, "director": "Morten Tyldum", "movie": "The Imitation Game" },
+  {
+    "year": 2015,
+    "director": "Alejandro González Iñárritu",
+    "movie": "The Revenant"
+  },
+  { "year": 2015, "director": "Lenny Abrahamson", "movie": "Room" },
+  { "year": 2015, "director": "Tom McCarthy", "movie": "Spotlight" },
+  { "year": 2015, "director": "Adam McKay", "movie": "The Big Short" },
+  { "year": 2015, "director": "George Miller", "movie": "Mad Max: Fury Road" },
+  { "year": 2016, "director": "Damien Chazelle", "movie": "La La Land" },
+  { "year": 2016, "director": "Mel Gibson", "movie": "Hacksaw Ridge" },
+  { "year": 2016, "director": "Barry Jenkins", "movie": "Moonlight" },
+  {
+    "year": 2016,
+    "director": "Kenneth Lonergan",
+    "movie": "Manchester by the Sea"
+  },
+  { "year": 2016, "director": "Denis Villeneuve", "movie": "Arrival" },
+  {
+    "year": 2017,
+    "director": "Guillermo del Toro",
+    "movie": "The Shape of Water"
+  },
+  {
+    "year": 2017,
+    "director": "Paul Thomas Anderson",
+    "movie": "Phantom Thread"
+  },
+  { "year": 2017, "director": "Greta Gerwig", "movie": "Lady Bird" },
+  { "year": 2017, "director": "Christopher Nolan", "movie": "Dunkirk" },
+  { "year": 2017, "director": "Jordan Peele", "movie": "Get Out" },
+  { "year": 2018, "director": "Alfonso Cuarón", "movie": "Roma" },
+  { "year": 2018, "director": "Yorgos Lanthimos", "movie": "The Favourite" },
+  { "year": 2018, "director": "Spike Lee", "movie": "BlacKkKlansman" },
+  { "year": 2018, "director": "Adam McKay", "movie": "Vice" },
+  { "year": 2018, "director": "Paweł Pawlikowski", "movie": "Cold War" },
+  { "year": 2019, "director": "Bong Joon-ho", "movie": "Parasite" },
+  { "year": 2019, "director": "Sam Mendes", "movie": "1917" },
+  { "year": 2019, "director": "Todd Phillips", "movie": "Joker" },
+  { "year": 2019, "director": "Martin Scorsese", "movie": "The Irishman" },
+  {
+    "year": 2019,
+    "director": "Quentin Tarantino",
+    "movie": "Once Upon a Time in Hollywood"
+  },
+  { "year": 2020, "director": "Chloé Zhao", "movie": "Nomadland" },
+  { "year": 2020, "director": "Lee Isaac Chung", "movie": "Minari" },
+  {
+    "year": 2020,
+    "director": "Emerald Fennell",
+    "movie": "Promising Young Woman"
+  },
+  { "year": 2020, "director": "David Fincher", "movie": "Mank" },
+  { "year": 2020, "director": "Thomas Vinterberg", "movie": "Another Round" },
+  { "year": 2021, "director": "Jane Campion", "movie": "The Power of the Dog" },
+  {
+    "year": 2021,
+    "director": "Paul Thomas Anderson",
+    "movie": "Licorice Pizza"
+  },
+  { "year": 2021, "director": "Kenneth Branagh", "movie": "Belfast" },
+  { "year": 2021, "director": "Ryusuke Hamaguchi", "movie": "Drive My Car" },
+  { "year": 2021, "director": "Steven Spielberg", "movie": "West Side Story" },
+  {
+    "year": 2022,
+    "director": "Daniel Kwan and Daniel Scheinert",
+    "movie": "Everything Everywhere All at Once"
+  },
+  { "year": 2022, "director": "Todd Field", "movie": "Tár" },
+  {
+    "year": 2022,
+    "director": "Martin McDonagh",
+    "movie": "The Banshees of Inisherin"
+  },
+  { "year": 2022, "director": "Ruben Östlund", "movie": "Triangle of Sadness" },
+  { "year": 2022, "director": "Steven Spielberg", "movie": "The Fabelmans" },
+  {
+    "year": 2023,
+    "director": "Jonathan Glazer",
+    "movie": "The Zone of Interest"
+  },
+  { "year": 2023, "director": "Yorgos Lanthimos", "movie": "Poor Things" },
+  { "year": 2023, "director": "Christopher Nolan", "movie": "Oppenheimer" },
+  {
+    "year": 2023,
+    "director": "Martin Scorsese",
+    "movie": "Killers of the Flower Moon"
+  },
+  { "year": 2023, "director": "Justine Triet", "movie": "Anatomy of a Fall" }
+]

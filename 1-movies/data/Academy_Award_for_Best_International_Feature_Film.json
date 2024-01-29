@@ -1,0 +1,492 @@
+[
+  {
+    "year": 2010,
+    "movie": "In a Better World",
+    "originalName": "Hævnen",
+    "director": "Susanne Bier",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2010,
+    "movie": "Biutiful",
+    "originalName": "Biutiful",
+    "director": "Alejandro González Iñárritu",
+    "countries": "Mexico"
+  },
+  {
+    "year": 2010,
+    "movie": "Dogtooth",
+    "originalName": "Κυνόδοντας",
+    "director": "Yorgos Lanthimos",
+    "countries": "Greece"
+  },
+  {
+    "year": 2010,
+    "movie": "Incendies",
+    "originalName": "Incendies",
+    "director": "Denis Villeneuve",
+    "countries": "Canada"
+  },
+  {
+    "year": 2010,
+    "movie": "Outside the Law",
+    "originalName": "Hors-la-loi",
+    "director": "Rachid Bouchareb",
+    "countries": "Algeria"
+  },
+  {
+    "year": 2011,
+    "movie": "A Separation",
+    "originalName": "جدایی نادر از سیمین",
+    "director": "Asghar Farhadi",
+    "countries": "Iran"
+  },
+  {
+    "year": 2011,
+    "movie": "Bullhead",
+    "originalName": "Rundskop",
+    "director": "Michaël R. Roskam",
+    "countries": "Belgium"
+  },
+  {
+    "year": 2011,
+    "movie": "Footnote",
+    "originalName": "הערת שוליים",
+    "director": "Joseph Cedar",
+    "countries": "Israel"
+  },
+  {
+    "year": 2011,
+    "movie": "In Darkness",
+    "originalName": "W ciemności",
+    "director": "Agnieszka Holland",
+    "countries": "Poland"
+  },
+  {
+    "year": 2011,
+    "movie": "Monsieur Lazhar",
+    "originalName": "Monsieur Lazhar",
+    "director": "Philippe Falardeau",
+    "countries": "Canada"
+  },
+  {
+    "year": 2012,
+    "movie": "Amour",
+    "originalName": "Amour",
+    "director": "Michael Haneke",
+    "countries": "Austria"
+  },
+  {
+    "year": 2012,
+    "movie": "Kon-Tiki",
+    "originalName": "Kon-Tiki",
+    "director": "Joachim Rønning and Espen Sandberg",
+    "countries": "Norway"
+  },
+  {
+    "year": 2012,
+    "movie": "No",
+    "originalName": "No",
+    "director": "Pablo Larraín",
+    "countries": "Chile"
+  },
+  {
+    "year": 2012,
+    "movie": "A Royal Affair",
+    "originalName": "En kongelig affære",
+    "director": "Nikolaj Arcel",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2012,
+    "movie": "War Witch",
+    "originalName": "Rebelle",
+    "director": "Kim Nguyen",
+    "countries": "Canada"
+  },
+  {
+    "year": 2013,
+    "movie": "The Great Beauty",
+    "originalName": "La grande bellezza",
+    "director": "Paolo Sorrentino",
+    "countries": "Italy"
+  },
+  {
+    "year": 2013,
+    "movie": "The Broken Circle Breakdown",
+    "originalName": "The Broken Circle Breakdown",
+    "director": "Felix van Groeningen",
+    "countries": "Belgium"
+  },
+  {
+    "year": 2013,
+    "movie": "The Hunt",
+    "originalName": "Jagten",
+    "director": "Thomas Vinterberg",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2013,
+    "movie": "The Missing Picture",
+    "originalName": "L'image manquante",
+    "director": "Rithy Panh",
+    "countries": "Cambodia"
+  },
+  {
+    "year": 2013,
+    "movie": "Omar",
+    "originalName": "عمر",
+    "director": "Hany Abu-Assad",
+    "countries": "State of Palestine"
+  },
+  {
+    "year": 2014,
+    "movie": "Ida",
+    "originalName": "Ida",
+    "director": "Paweł Pawlikowski",
+    "countries": "Poland"
+  },
+  {
+    "year": 2014,
+    "movie": "Leviathan",
+    "originalName": "Левиафан",
+    "director": "Andrey Zvyagintsev",
+    "countries": "Russia"
+  },
+  {
+    "year": 2014,
+    "movie": "Tangerines",
+    "originalName": "Mandariinid",
+    "director": "Zaza Urushadze",
+    "countries": "Estonia"
+  },
+  {
+    "year": 2014,
+    "movie": "Timbuktu",
+    "originalName": "Timbuktu",
+    "director": "Abderrahmane Sissako",
+    "countries": "Mauritania"
+  },
+  {
+    "year": 2014,
+    "movie": "Wild Tales",
+    "originalName": "Relatos Salvajes",
+    "director": "Damián Szifron",
+    "countries": "Argentina"
+  },
+  {
+    "year": 2015,
+    "movie": "Son of Saul",
+    "originalName": "Saul fia",
+    "director": "László Nemes",
+    "countries": "Hungary"
+  },
+  {
+    "year": 2015,
+    "movie": "Embrace of the Serpent",
+    "originalName": "El abrazo de la serpiente",
+    "director": "Ciro Guerra",
+    "countries": "Colombia"
+  },
+  {
+    "year": 2015,
+    "movie": "Mustang",
+    "originalName": "Mustang",
+    "director": "Deniz Gamze Ergüven",
+    "countries": "France"
+  },
+  {
+    "year": 2015,
+    "movie": "Theeb",
+    "originalName": "ذيب",
+    "director": "Naji Abu Nowar",
+    "countries": "Jordan"
+  },
+  {
+    "year": 2015,
+    "movie": "A War",
+    "originalName": "Krigen",
+    "director": "Tobias Lindholm",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2016,
+    "movie": "The Salesman",
+    "originalName": "فروشنده",
+    "director": "Asghar Farhadi",
+    "countries": "Iran"
+  },
+  {
+    "year": 2016,
+    "movie": "Land of Mine",
+    "originalName": "Under sandet",
+    "director": "Martin Zandvliet",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2016,
+    "movie": "A Man Called Ove",
+    "originalName": "En man som heter Ove",
+    "director": "Hannes Holm",
+    "countries": "Sweden"
+  },
+  {
+    "year": 2016,
+    "movie": "Tanna",
+    "originalName": "Tanna",
+    "director": "Martin Butler and Bentley Dean",
+    "countries": "Australia"
+  },
+  {
+    "year": 2016,
+    "movie": "Toni Erdmann",
+    "originalName": "Toni Erdmann",
+    "director": "Maren Ade",
+    "countries": "Germany"
+  },
+  {
+    "year": 2017,
+    "movie": "A Fantastic Woman",
+    "originalName": "Una mujer fantástica",
+    "director": "Sebastián Lelio",
+    "countries": "Chile"
+  },
+  {
+    "year": 2017,
+    "movie": "The Insult",
+    "originalName": "قضية رقم ٢٣",
+    "director": "Ziad Doueiri",
+    "countries": "Lebanon"
+  },
+  {
+    "year": 2017,
+    "movie": "Loveless",
+    "originalName": "Нелюбовь",
+    "director": "Andrey Zvyagintsev",
+    "countries": "Russia"
+  },
+  {
+    "year": 2017,
+    "movie": "On Body and Soul",
+    "originalName": "Testről és lélekről",
+    "director": "Ildikó Enyedi",
+    "countries": "Hungary"
+  },
+  {
+    "year": 2017,
+    "movie": "The Square",
+    "originalName": "The Square",
+    "director": "Ruben Östlund",
+    "countries": "Sweden"
+  },
+  {
+    "year": 2018,
+    "movie": "Roma",
+    "originalName": "Roma",
+    "director": "Alfonso Cuarón",
+    "countries": "Mexico"
+  },
+  {
+    "year": 2018,
+    "movie": "Capernaum",
+    "originalName": "کفرناحوم",
+    "director": "Nadine Labaki",
+    "countries": "Lebanon"
+  },
+  {
+    "year": 2018,
+    "movie": "Cold War",
+    "originalName": "Zimna wojna",
+    "director": "Paweł Pawlikowski",
+    "countries": "Poland"
+  },
+  {
+    "year": 2018,
+    "movie": "Never Look Away",
+    "originalName": "Werk ohne Autor",
+    "director": "Florian Henckel von Donnersmarck",
+    "countries": "Germany"
+  },
+  {
+    "year": 2018,
+    "movie": "Shoplifters",
+    "originalName": "万引き家族",
+    "director": "Hirokazu Kore-eda",
+    "countries": "Japan"
+  },
+  {
+    "year": 2019,
+    "movie": "Parasite",
+    "originalName": "기생충",
+    "director": "Bong Joon-ho",
+    "countries": "South Korea"
+  },
+  {
+    "year": 2019,
+    "movie": "Corpus Christi",
+    "originalName": "Boże Ciało",
+    "director": "Jan Komasa",
+    "countries": "Poland"
+  },
+  {
+    "year": 2019,
+    "movie": "Honeyland",
+    "originalName": "Медена земја",
+    "director": "Tamara Kotevska and Ljubomir Stefanov",
+    "countries": "North Macedonia"
+  },
+  {
+    "year": 2019,
+    "movie": "Les Misérables",
+    "originalName": "Les Misérables",
+    "director": "Ladj Ly",
+    "countries": "France"
+  },
+  {
+    "year": 2019,
+    "movie": "Pain and Glory",
+    "originalName": "Dolor y Gloria",
+    "director": "Pedro Almodóvar",
+    "countries": "Spain"
+  },
+  {
+    "year": 2020,
+    "movie": "Another Round",
+    "originalName": "Druk",
+    "director": "Thomas Vinterberg",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2020,
+    "movie": "Better Days",
+    "originalName": "少年的你",
+    "director": "Derek Tsang",
+    "countries": "Hong Kong"
+  },
+  {
+    "year": 2020,
+    "movie": "Collective",
+    "originalName": "Colectiv",
+    "director": "Alexander Nanau",
+    "countries": "Romania"
+  },
+  {
+    "year": 2020,
+    "movie": "The Man Who Sold His Skin",
+    "originalName": "الرجل الذي باع ظهره",
+    "director": "Kaouther Ben Hania",
+    "countries": "Tunisia"
+  },
+  {
+    "year": 2020,
+    "movie": "Quo Vadis, Aida?",
+    "originalName": "Quo Vadis, Aida?",
+    "director": "Jasmila Žbanić",
+    "countries": "Bosnia and Herzegovina"
+  },
+  {
+    "year": 2021,
+    "movie": "Drive My Car",
+    "originalName": "ドライブ・マイ・カー",
+    "director": "Ryusuke Hamaguchi",
+    "countries": "Japan"
+  },
+  {
+    "year": 2021,
+    "movie": "Flee",
+    "originalName": "Flugt",
+    "director": "Jonas Poher Rasmussen",
+    "countries": "Denmark"
+  },
+  {
+    "year": 2021,
+    "movie": "The Hand of God",
+    "originalName": "È stata la mano di Dio",
+    "director": "Paolo Sorrentino",
+    "countries": "Italy"
+  },
+  {
+    "year": 2021,
+    "movie": "Lunana: A Yak in the Classroom",
+    "originalName": "ལུང་ནག་ན",
+    "director": "Pawo Choyning Dorji",
+    "countries": "Bhutan"
+  },
+  {
+    "year": 2021,
+    "movie": "The Worst Person in the World",
+    "originalName": "Verdens verste menneske",
+    "director": "Joachim Trier",
+    "countries": "Norway"
+  },
+  {
+    "year": 2022,
+    "movie": "All Quiet on the Western Front",
+    "originalName": "Im Westen nichts Neues",
+    "director": "Edward Berger",
+    "countries": "Germany"
+  },
+  {
+    "year": 2022,
+    "movie": "Argentina, 1985",
+    "originalName": "Argentina, 1985",
+    "director": "Santiago Mitre",
+    "countries": "Argentina"
+  },
+  {
+    "year": 2022,
+    "movie": "Close",
+    "originalName": "Lukas Dhont",
+    "director": "Lukas Dhont",
+    "countries": "Belgium"
+  },
+  {
+    "year": 2022,
+    "movie": "EO",
+    "originalName": "IO",
+    "director": "Jerzy Skolimowski",
+    "countries": "Poland"
+  },
+  {
+    "year": 2022,
+    "movie": "The Quiet Girl",
+    "originalName": "An Cailín Ciúin",
+    "director": "Colm Bairéad",
+    "countries": "Republic of Ireland"
+  },
+  {
+    "year": 2023,
+    "movie": "Io Capitano",
+    "originalName": "Io Capitano",
+    "director": "Matteo Garrone",
+    "countries": "Italy"
+  },
+  {
+    "year": 2023,
+    "movie": "Perfect Days",
+    "originalName": "Perfect Days",
+    "director": "Wim Wenders",
+    "countries": "Japan"
+  },
+  {
+    "year": 2023,
+    "movie": "Society of the Snow",
+    "originalName": "La sociedad de la nieve",
+    "director": "J.A. Bayona",
+    "countries": "Spain"
+  },
+  {
+    "year": 2023,
+    "movie": "The Teachers' Lounge",
+    "originalName": "Das Lehrerzimmer",
+    "director": "İlker Çatak",
+    "countries": "Germany"
+  },
+  {
+    "year": 2023,
+    "movie": "The Zone of Interest",
+    "originalName": "The Zone of Interest",
+    "director": "Jonathan Glazer",
+    "countries": "United Kingdom"
+  }
+]

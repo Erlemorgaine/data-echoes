@@ -16,7 +16,19 @@
       "lengkuas-laos": 112,
       "serai-sereh": 156,
       "kelapa-santan": 104
-    }
+    },
+    "links": [
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/14474922-tongseng-kambing-javanese-sweet-soy-sauce-lamb-stew"
+      },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/tongseng-kambing-javanese-spiced-mutton-soup/"
+      },
+      { "site": "indorecipe", "link": "https://www.indorecipe.com/2023/06/17/tongseng-kambing/" }
+    ],
+    "description": "Spicy goat stew with sweet soy sauce, coconut milk, and various spices."
   },
   {
     "recipe": "telur dadar",
@@ -34,7 +46,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 1,
       "kelapa-santan": 2
-    }
+    },
+    "links": [
+      {
+        "site": "saltnturmeric",
+        "link": "http://saltnturmeric.blogspot.com/2008/08/malay-styled-omelette-telur-dadar.html"
+      },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/dadar-telur-padang.html" },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/6490839-telur-dadar-daun-bawang-scallions-omelette"
+      }
+    ],
+    "description": "Indonesian omelette made with eggs, shallots, and ground meat or seafood."
   },
   {
     "recipe": "tempe bacem",
@@ -53,7 +77,16 @@
       "lengkuas-laos": 68,
       "serai-sereh": 36,
       "kelapa-santan": 9
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tahubacem.html" },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tahu-tempeh-bacem.html"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/13371338-tempeh-tempe-bacem" }
+    ],
+    "description": "Sweet and savory fried tempeh marinated in palm sugar, coriander, and galangal."
   },
   {
     "recipe": "orak arik telur",
@@ -69,7 +102,19 @@
       "lengkuas-laos": 4,
       "serai-sereh": 0,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "recipeswecherish",
+        "link": "https://recipeswecherish.com/2015/07/13/scrambled-eggs-with-cabbage-orak-arik-telur/"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/orak-arik-buncis-wortel-green-bean-carrot-and-egg-stir-fry.html"
+      },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/orak-arik-tahu-telur.html" }
+    ],
+    "description": "Stir-fried scrambled eggs with vegetables like tomatoes, onions, and green chilies."
   },
   {
     "recipe": "telur balado",
@@ -87,7 +132,19 @@
       "lengkuas-laos": 9,
       "serai-sereh": 11,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "vforveggy",
+        "link": "https://vforveggy.com/telur-balado-indonesian-spicy-eggs.html"
+      },
+      { "site": "poshjournal", "link": "https://poshjournal.com/telur-balado-recipe" },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/telur-balado-eggs-with-chili-sauce.html"
+      }
+    ],
+    "description": "Hard-boiled eggs cooked in a spicy chili sauce with tomatoes and shallots."
   },
   {
     "recipe": "kering tempe",
@@ -107,7 +164,19 @@
       "lengkuas-laos": 43,
       "serai-sereh": 18,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/kering-tempeh-fried-tempeh-with-sweet-and-spicy-glace.html"
+      },
+      {
+        "site": "lovethatbite",
+        "link": "http://lovethatbite.com/recipe/crispy-tempeh-kering-tempe/"
+      },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/kering-tempeh-kacang.html" }
+    ],
+    "description": "Crispy and savory tempeh dish cooked with sweet soy sauce, garlic, and shallots."
   },
   {
     "recipe": "gulai kambing",
@@ -126,7 +195,22 @@
       "lengkuas-laos": 52,
       "serai-sereh": 72,
       "kelapa-santan": 89
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/gulai-kambing-indonesian-lamb-curry.html"
+      },
+      {
+        "site": "lovethatbite",
+        "link": "http://lovethatbite.com/recipe/indonesian-lamb-curry-gulai-kambing/"
+      },
+      {
+        "site": "Guide Michelin",
+        "link": "https://guide.michelin.com/sg/en/article/dining-in/recipe-gulai-kambing"
+      }
+    ],
+    "description": "Spiced goat curry with coconut milk, turmeric, and various aromatic herbs."
   },
   {
     "recipe": "nasi kebuli",
@@ -144,7 +228,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 33,
       "kelapa-santan": 45
-    }
+    },
+    "links": [
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/nasi-kebuli-biryani-rice-with-fried-chicken.html"
+      },
+      { "site": "soyummyrecipes", "link": "https://soyummyrecipes.com/nasi-kebuli/" },
+      {
+        "site": "dasterkhawan",
+        "link": "https://dasterkhawan.com/recipe-of-nasi-kebuli-kebuli-rice/recipes395.html"
+      }
+    ],
+    "description": "Fragrant spiced rice dish, usually served with lamb or chicken, originated from Middle Eastern cuisine."
   },
   {
     "recipe": "orek tempe",
@@ -164,7 +260,19 @@
       "lengkuas-laos": 31,
       "serai-sereh": 12,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tempeh-kecap-fried-tempeh-in-sweet-soy-sauce.html"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
+      {
+        "site": "kitchenthinking",
+        "link": "https://kitchenthinking.home.blog/2020/03/10/tempe-orek-indonesian-tempeh-stir-fry/"
+      }
+    ],
+    "description": "Tempeh stir-fried with sweet soy sauce, garlic, shallots, and a hint of chili."
   },
   {
     "recipe": "oseng-oseng tempe",
@@ -181,7 +289,22 @@
       "lengkuas-laos": 25,
       "serai-sereh": 8,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "thefoodietakesflight",
+        "link": "https://thefoodietakesflight.com/stir-fried-tempeh-with-kecap-manis/"
+      },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/oseng-oseng-tempe-stir-fried-tempe/"
+      },
+      {
+        "site": "foodandspice",
+        "link": "https://www.foodandspice.com/2008/05/oseng-oseng-tempe.html"
+      }
+    ],
+    "description": "Stir-fried tempeh with various spices, vegetables, and sweet soy sauce."
   },
   {
     "recipe": "sapi lada hitam",
@@ -196,7 +319,19 @@
       "lengkuas-laos": 1,
       "serai-sereh": 1,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/sapi-lada-hitam-beef-with-black-pepper-sauce.html"
+      },
+      { "site": "bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
+      {
+        "site": "asiancook",
+        "link": "https://www.asiancook.eu/indonesian/daging/2705-sapi-lada-hitam-fried-beef-in-black-pepper-sauce"
+      }
+    ],
+    "description": "Beef cooked in a flavorful black pepper sauce."
   },
   {
     "recipe": "tempe mendoan",
@@ -214,7 +349,16 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
+      },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tempeh-mendoan.html" },
+      { "site": "protempeh", "link": "https://www.protempeh.com/tempeh-mendoan" }
+    ],
+    "description": "Crispy fried tempeh slices, often served as a snack."
   },
   {
     "recipe": "udang asam manis",
@@ -233,7 +377,19 @@
       "lengkuas-laos": 7,
       "serai-sereh": 3,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dentistvschef",
+        "link": "https://dentistvschef.wordpress.com/2013/01/11/resep-sate-udang-madu-asam-manis-asian-sweet-and-sour-grilled-shrimp-skewer/"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Acar%20Asam%20Manis%20(Pickle%20Sweet%20and%20Sour%20Shrimp)"
+      },
+      { "site": "cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753539" }
+    ],
+    "description": "Sweet and sour shrimp dish with a delicious tamarind-based sauce."
   },
   {
     "recipe": "opor ayam",
@@ -251,7 +407,16 @@
       "lengkuas-laos": 51,
       "serai-sereh": 60,
       "kelapa-santan": 67
-    }
+    },
+    "links": [
+      { "site": "soyummyrecipes", "link": "https://soyummyrecipes.com/opor-ayam-recipe/" },
+      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/opor-ayam.html" },
+      {
+        "site": "allrecipes",
+        "link": "https://www.allrecipes.com/recipe/264501/opor-ayam-chicken-in-coconut-milk/"
+      }
+    ],
+    "description": "Chicken cooked in a mild coconut milk-based soup with various spices."
   },
   {
     "recipe": "tongseng sapi",
@@ -269,7 +434,16 @@
       "lengkuas-laos": 44,
       "serai-sereh": 57,
       "kelapa-santan": 55
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tongseng-sapi.html" },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2021/07/05/tongseng-sapi-indonesian-sweet-and-creamy-beef-soup/"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/id/resep/10350170-tongseng-daging-sapi" }
+    ],
+    "description": "Spicy beef stew with sweet soy sauce, coconut milk, and a mix of spices."
   },
   {
     "recipe": "udang balado",
@@ -286,7 +460,22 @@
       "lengkuas-laos": 10,
       "serai-sereh": 7,
       "kelapa-santan": 2
-    }
+    },
+    "links": [
+      {
+        "site": "chilipeppermadness",
+        "link": "https://www.chilipeppermadness.com/recipes/udang-balado/"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/balado-udang-shrimps-in-spicy-chili-sauce.html"
+      },
+      {
+        "site": "mythirdculturekitchen",
+        "link": "https://mythirdculturekitchen.wordpress.com/2015/09/14/recipe-udang-balado-indonesian-spicy-tomato-shrimp/"
+      }
+    ],
+    "description": "Shrimp cooked in a spicy chili sauce with tomatoes and shallots."
   },
   {
     "recipe": "pepes tahu",
@@ -303,24 +492,22 @@
       "lengkuas-laos": 10,
       "serai-sereh": 23,
       "kelapa-santan": 5
-    }
-  },
-  {
-    "recipe": "pepes tahu ",
-    "amount": 71,
-    "ingredient_counts": {
-      "daunjeruk": 13,
-      "jahe": 13,
-      "kemiri": 23,
-      "ketumbar": 14,
-      "kunyit": 26,
-      "salam": 31,
-      "cabe-cabai-rawit": 144,
-      "lada-merica": 34,
-      "lengkuas-laos": 10,
-      "serai-sereh": 23,
-      "kelapa-santan": 5
-    }
+    },
+    "links": [
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2020/09/10/pepes-tahu-udang-jamur-steamed-and-grilled-mash-tofu-with-spices-in-banana-leaves/"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Pepes%20Tahu%20(Steamed%20Spiced%20Tofu%20Cooked%20in%20Banana%20Leave)"
+      },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/pepes-tahu-jamur-tofu-mushroom-steamed-in-banana-leaves/"
+      }
+    ],
+    "description": "Steamed tofu wrapped in banana leaves, often seasoned with various herbs and spices."
   },
   {
     "recipe": "udang saus tiram",
@@ -337,7 +524,19 @@
       "lengkuas-laos": 4,
       "serai-sereh": 3,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Saus%20Tiram%20(Shrimp%20in%20Oyster%20Sauce)"
+      },
+      {
+        "site": "bigoven",
+        "link": "https://www.bigoven.com/recipe/udang-saus-padang-tiram/2754321"
+      },
+      { "site": "bango", "link": "https://www.bango.co.id/r/resep-udang-saus-tiram.html/242813" }
+    ],
+    "description": "Shrimp cooked in a savory oyster sauce-based gravy."
   },
   {
     "recipe": "perkedel tahu",
@@ -353,7 +552,16 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/perkedel-tahu.html" },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/perkedel-tahu-deep-fried-tofu-fritters/"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/ke/search/perkedel%20tahu" }
+    ],
+    "description": "Fried tofu patties, typically mixed with vegetables and spices."
   },
   {
     "recipe": "nasi goreng kambing",
@@ -371,7 +579,16 @@
       "lengkuas-laos": 1,
       "serai-sereh": 7,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      { "site": "tasteatlas", "link": "https://www.tasteatlas.com/nasi-goreng-kambing/recipe" },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/nasi-goreng-kambing-mutton-or-lamb-fried-rice/"
+      },
+      { "site": "tasteatlas", "link": "https://www.tasteatlas.com/nasi-goreng-kambing" }
+    ],
+    "description": "Fried rice with goat meat, flavored with sweet soy sauce and various spices."
   },
   {
     "recipe": "tahu isi",
@@ -389,7 +606,22 @@
       "lengkuas-laos": 1,
       "serai-sereh": 2,
       "kelapa-santan": 2
-    }
+    },
+    "links": [
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/14459618-indonesian-deep-fried-stuffed-tofu-tahu-isi"
+      },
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/indonesian-stuffed-tofu-tahu-isi.html"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Tahu%20Isi%20(Deep%20Fried%20Tofu%20Stuffed%20with%20Vegetables)"
+      }
+    ],
+    "description": "Deep-fried stuffed tofu filled with a mixture of vegetables and sometimes minced meat."
   },
   {
     "recipe": "sate kambing",
@@ -408,7 +640,19 @@
       "lengkuas-laos": 6,
       "serai-sereh": 3,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/sate-kambing-lamb-satay.html"
+      },
+      {
+        "site": "petitchef",
+        "link": "https://en.petitchef.com/recipes/main-dish/lamb-satay-sate-kambing-fid-1502995"
+      },
+      { "site": "wikipedia", "link": "https://en.wikipedia.org/wiki/Sate_kambing" }
+    ],
+    "description": "Grilled skewers of marinated goat meat, often served with peanut sauce."
   },
   {
     "recipe": "asem-asem",
@@ -427,7 +671,19 @@
       "lengkuas-laos": 30,
       "serai-sereh": 12,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sayur-asem.html" },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/asem-asem-terong-sour-and-spicy-eggplant-stew.html"
+      },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2023/05/05/garang-asem-ayam-tanpa-santan-indonesia-traditional-chicken-soup-wrapped-in-banana-leaves/"
+      }
+    ],
+    "description": "Sweet and sour tamarind-based soup with various vegetables and protein."
   },
   {
     "recipe": "pindang ikan",
@@ -446,7 +702,22 @@
       "lengkuas-laos": 27,
       "serai-sereh": 36,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "pengskitchen",
+        "link": "https://pengskitchen.blogspot.com/2012/11/pindang-ikan.html"
+      },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/7412101-pindang-ikan-kembung-clear-turmeric-fish-soup"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/pindang-salmon-salmon-in-spicy-and-sour-soup.html"
+      }
+    ],
+    "description": "Spicy and sour fish soup, often made with freshwater fish."
   },
   {
     "recipe": "soto ayam",
@@ -465,7 +736,19 @@
       "lengkuas-laos": 31,
       "serai-sereh": 44,
       "kelapa-santan": 12
-    }
+    },
+    "links": [
+      {
+        "site": "cooking",
+        "link": "https://cooking.nytimes.com/recipes/1012384-indonesian-chicken-soup-with-noodles-turmeric-and-ginger-soto-ayam"
+      },
+      {
+        "site": "glebekitchen",
+        "link": "https://glebekitchen.com/soto-ayam-indonesian-chicken-noodle-soup/"
+      },
+      { "site": "foodandwine", "link": "https://www.foodandwine.com/recipes/soto-ayam" }
+    ],
+    "description": "Indonesian chicken soup with rice vermicelli, shredded chicken, and aromatic herbs."
   },
   {
     "recipe": "tahu cabe garam",
@@ -480,7 +763,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 2,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/salt-pepper-chili-tofu.html"
+      },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/6567234-tahu-cabai-garam-tofu-with-spicy-garlic-and-chilli"
+      },
+      { "site": "jrfood10", "link": "https://jrfood10.com/recipe/tahu-cabe-garam-salt-chili-tofu/" }
+    ],
+    "description": "Fried tofu with a spicy and savory chili and salt seasoning."
   },
   {
     "recipe": "tumis tempe kacang panjang",
@@ -498,7 +793,22 @@
       "lengkuas-laos": 16,
       "serai-sereh": 3,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/tumis-tempe-kacang-panjang-stir-fried-tempeh-with-long-beans-vegan/"
+      },
+      {
+        "site": "pinterest",
+        "link": "https://www.pinterest.ie/pin/tumis-tempe-kacang-panjang-stir-fried-tempeh-with-long-beans-vegan-cook-me-indonesian--798614946432103687/"
+      },
+      {
+        "site": "pinterest",
+        "link": "https://in.pinterest.com/pin/our-indonesian-tofu-tempeh-recipes--790311434610562847/"
+      }
+    ],
+    "description": "Stir-fried tempeh with long beans, seasoned with various spices."
   },
   {
     "recipe": "tongkol suwir",
@@ -515,7 +825,16 @@
       "lengkuas-laos": 14,
       "serai-sereh": 11,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      { "site": "shutterstock", "link": "https://www.shutterstock.com/search/tongkol" },
+      {
+        "site": "freepik",
+        "link": "https://www.freepik.com/premium-photo/ikan-tongkol-suwir-kemangi-spicy-shredded-tuna-with-sweet-basil-leaf-indonesian-popular-menu-served-bowl_21304164.htm"
+      },
+      { "site": "pinterest", "link": "https://www.pinterest.com/pin/660481101592042960/" }
+    ],
+    "description": "Shredded and spiced mackerel tuna dish, often served with rice."
   },
   {
     "recipe": "sambal goreng udang",
@@ -534,7 +853,19 @@
       "lengkuas-laos": 10,
       "serai-sereh": 8,
       "kelapa-santan": 6
-    }
+    },
+    "links": [
+      {
+        "site": "kitchenstories",
+        "link": "https://www.kitchenstories.com/en/recipes/sambal-goreng-udang-indonesian-sambal-shrimp"
+      },
+      {
+        "site": "nytimes",
+        "link": "https://cooking.nytimes.com/recipes/1018205-shrimp-and-potatoes-in-sambal-sambal-goreng-kentang-udang"
+      },
+      { "site": "pisangsusu", "link": "https://pisangsusu.com/sambal-goreng-udang-petai/" }
+    ],
+    "description": "Spicy shrimp cooked in a flavorful chili paste with coconut milk."
   },
   {
     "recipe": "udang saus padang",
@@ -552,7 +883,22 @@
       "lengkuas-laos": 3,
       "serai-sereh": 4,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/udang-saos-padang-shrimp-with-sweet-and-sour-chili-sauce.html"
+      },
+      {
+        "site": "bigoven",
+        "link": "https://www.bigoven.com/recipe/udang-saus-padang-tiram/2754321"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Saus%20Padang%20(Shrimp%20in%20Chili%20Sauce)"
+      }
+    ],
+    "description": "Shrimp cooked in a rich and spicy Padang-style sauce."
   },
   {
     "recipe": "rendang daging sapi",
@@ -572,7 +918,22 @@
       "lengkuas-laos": 27,
       "serai-sereh": 36,
       "kelapa-santan": 45
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/rendang-sapi-padang-padang-style-beef-rendang.html"
+      },
+      {
+        "site": "cooking",
+        "link": "https://cooking.nytimes.com/recipes/1021518-rendang-daging-beef-rendang"
+      },
+      {
+        "site": "rasamalaysia",
+        "link": "https://rasamalaysia.com/beef-rendang-recipe-rendang-daging/"
+      }
+    ],
+    "description": "Slow-cooked and flavorful beef stew, rich in coconut milk and various spices."
   },
   {
     "recipe": "mie ayam",
@@ -591,7 +952,16 @@
       "lengkuas-laos": 13,
       "serai-sereh": 21,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "angsarap", "link": "https://www.angsarap.net/2013/07/18/mie-ayam/" },
+      {
+        "site": "greedygourmet",
+        "link": "https://www.greedygourmet.com/recipes-by-course/main-course/mie-ayam/"
+      },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/mie-ayam-jamur.html" }
+    ],
+    "description": "Chicken noodle soup with shredded chicken, noodles, and savory broth."
   },
   {
     "recipe": "tumis udang",
@@ -609,7 +979,22 @@
       "lengkuas-laos": 7,
       "serai-sereh": 2,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "bakecookeat",
+        "link": "http://bakecookeat.blogspot.com/2013/04/sambal-tumis-udang-malaysian-spicy-stir.html"
+      },
+      {
+        "site": "aishahcooks",
+        "link": "https://aishahcooks.wordpress.com/2019/07/28/sambal-tumis-udang-petai/"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/udang-tumis-pedas-spicy-shrimp-stirfry.html"
+      }
+    ],
+    "description": "Stir-fried shrimp dish with garlic, shallots, and various spices."
   },
   {
     "recipe": "martabak tahu",
@@ -623,7 +1008,16 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/martabak-tahu-pancake-stuffed-tofu.html"
+      },
+      { "site": "beryl", "link": "https://www.beryl.nyc/index.php/2023/05/16/martabak-tahu/" },
+      { "site": "cookpad", "link": "https://cookpad.com/id/resep/799693-martabak-tahu-mini-crispy" }
+    ],
+    "description": "Fried stuffed tofu, often filled with a mixture of vegetables and sometimes meat."
   },
   {
     "recipe": "udang telur asin",
@@ -637,7 +1031,19 @@
       "lengkuas-laos": 1,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753540" },
+      {
+        "site": "fimela",
+        "link": "https://www.fimela.com/food/read/5226384/resep-udang-telur-asin-ala-dcost"
+      },
+      {
+        "site": "sbs",
+        "link": "https://www.sbs.com.au/food/recipe/salted-egg-yolk-prawns-udang-goreng-telur-masin/ffmvbbc9r"
+      }
+    ],
+    "description": "Shrimp cooked with salted duck eggs, creating a rich and savory flavor."
   },
   {
     "recipe": "tahu telur",
@@ -656,7 +1062,19 @@
       "lengkuas-laos": 3,
       "serai-sereh": 2,
       "kelapa-santan": 2
-    }
+    },
+    "links": [
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/tahu-telur-tofu-omelettes.html"
+      },
+      { "site": "bellycheapcook", "link": "https://www.bellycheapcook.com/tahu-telur/" },
+      {
+        "site": "amcarmenskitchen",
+        "link": "https://amcarmenskitchen.com/2021/06/10/tahu-telur-indonesian-tofu-omelette/"
+      }
+    ],
+    "description": "Fried tofu and egg dish, often served with a peanut sauce."
   },
   {
     "recipe": "telur bumbu bali",
@@ -674,7 +1092,22 @@
       "lengkuas-laos": 11,
       "serai-sereh": 7,
       "kelapa-santan": 3
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/telur-bumbu-bali-eggs-in-balinese-sauce.html"
+      },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/2832248-spiced-egg-and-tofu-telur-tahu-bumbu-bali"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Telur%20Bumbu%20Bali%20(Hard%20Boiled%20Egg%20in%20Balinese%20Spices)"
+      }
+    ],
+    "description": "Balinese-style eggs cooked in a flavorful and spicy chili sauce."
   },
   {
     "recipe": "tempe goreng tepung",
@@ -689,7 +1122,22 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "karinisafrauenfeld",
+        "link": "https://karinisafrauenfeld.blogspot.com/2012/07/tempe-goreng-tepung-flours-coating.html"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
+      },
+      {
+        "site": "tempebumbung",
+        "link": "https://tempebumbung.wordpress.com/2014/04/01/4-recipes-made-tempe-before-you-go/"
+      }
+    ],
+    "description": "Crispy fried tempeh coated in seasoned flour or batter."
   },
   {
     "recipe": "sapo tahu",
@@ -703,7 +1151,16 @@
       "lengkuas-laos": 1,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sapo-tahu-seafood.html" },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Sapo%20Tahu%20(Clay%20Pot%20Tofu)"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/16286082-sapo-tahu" }
+    ],
+    "description": "Tofu and vegetable stew, typically cooked in a clay pot."
   },
   {
     "recipe": "tempe melet",
@@ -718,7 +1175,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "mykeluarga",
+        "link": "http://mykeluarga.com/uncategorized/tempe-melet-or-tempe-mercun-explosive/"
+      },
+      {
+        "site": "steemit",
+        "link": "https://steemit.com/food/@popif3a/how-to-make-tempe-melet-tempe-presence-534a83b166ec6"
+      },
+      { "site": "pinterest", "link": "https://www.pinterest.com/pin/756956649847845685/" }
+    ],
+    "description": "Tempeh cooked in a thick and flavorful sauce, often spicy."
   },
   {
     "recipe": "rawon sapi",
@@ -737,7 +1206,19 @@
       "lengkuas-laos": 18,
       "serai-sereh": 24,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2020/01/25/rawon-daging-indonesian-herbed-black-beef-soup/"
+      },
+      {
+        "site": "ilovetoeatandcook",
+        "link": "https://ilovetoeatandcook.wordpress.com/2016/05/01/rawon-sapi-indonesian-beef-black-soup/"
+      },
+      { "site": "wikipedia", "link": "https://en.wikipedia.org/wiki/Rawon" }
+    ],
+    "description": "Black beef soup with a rich and aromatic broth, flavored with keluak nuts."
   },
   {
     "recipe": "udang crispy",
@@ -750,7 +1231,16 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "pisangsusu", "link": "https://pisangsusu.com/402-mireng-udang-shrimp-fritters/" },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/cucur-udang.html" },
+      {
+        "site": "lidiasianturi",
+        "link": "http://lidiasianturi.blogspot.com/2008/04/crispy-prawn-fritter-gimbal-udang.html"
+      }
+    ],
+    "description": "Crispy fried shrimp, often served as a crunchy snack or appetizer."
   },
   {
     "recipe": "pindang telur",
@@ -768,7 +1258,19 @@
       "lengkuas-laos": 9,
       "serai-sereh": 17,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/telur-pindang.html" },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/telur-pindang-javanese-braised-eggs.html"
+      },
+      {
+        "site": "food.com",
+        "link": "https://www.food.com/recipe/indonesian-marbled-hard-boiled-eggs-or-telur-pindang-462574"
+      }
+    ],
+    "description": "Eggs cooked in a savory and aromatic soup, sometimes with tamarind."
   },
   {
     "recipe": "sambal goreng tempe",
@@ -785,7 +1287,13 @@
       "lengkuas-laos": 2,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "bonappetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
+      { "site": "nomadette", "link": "https://nomadette.com/authentic-sambal-goreng/" },
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sambal-goreng-tempeh.html" }
+    ],
+    "description": "Spicy and aromatic fried tempeh dish, often served as a side dish."
   },
   {
     "recipe": "tempe goreng",
@@ -800,7 +1308,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/tempe-goreng-deep-fried-tempeh-vegan/"
+      },
+      { "site": "bonappetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
+      {
+        "site": "alphafoodie",
+        "link": "https://www.alphafoodie.com/simple-indonesian-fried-tempeh/"
+      }
+    ],
+    "description": "Simple and delicious deep-fried tempeh slices, often enjoyed as a snack."
   },
   {
     "recipe": "krengsengan kambing",
@@ -819,7 +1339,19 @@
       "lengkuas-laos": 7,
       "serai-sereh": 8,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "belindo",
+        "link": "http://www.belindo.com/indonesia/indonesian-recipes/lamb-and-goat/krengsengan-kambing/221"
+      },
+      { "site": "howtobali", "link": "https://howtobali.com/food/krengsengan-kambing/" },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/10235579-krengsengan-kambing-spicy-stir-fry-lamb"
+      }
+    ],
+    "description": "Sweet and savory shredded goat meat, typically cooked with sweet soy sauce and coconut milk."
   },
   {
     "recipe": "tengkleng kambing",
@@ -838,7 +1370,16 @@
       "lengkuas-laos": 21,
       "serai-sereh": 27,
       "kelapa-santan": 14
-    }
+    },
+    "links": [
+      {
+        "site": "indonesiaoriginalrecipes",
+        "link": "http://indonesiaoriginalrecipes.blogspot.com/2012/11/goat-tengkleng-tengkleng-kambing.html"
+      },
+      { "site": "shutterstock", "link": "https://www.shutterstock.com/search/tengkleng-lambing" },
+      { "site": "satebogem", "link": "https://satebogem.weebly.com/recipe.html" }
+    ],
+    "description": "Spicy soup made from goat meat, bones, and rich in aromatic spices."
   },
   {
     "recipe": "udang pedas manis",
@@ -854,7 +1395,16 @@
       "lengkuas-laos": 4,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/udang-pedas-manis-sweet-and-spicy-shrimps.html"
+      },
+      { "site": "pinterest", "link": "https://www.pinterest.com/pin/792844709375520909/" },
+      { "site": "cookpad", "link": "https://cookpad.com/id/cari/udang%20pedas%20manis" }
+    ],
+    "description": "Sweet and spicy shrimp dish with a delightful balance of flavors."
   },
   {
     "recipe": "mendol tempe",
@@ -870,7 +1420,22 @@
       "lengkuas-laos": 2,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/mendol-tempe-deep-fried-spicy-soy-bean-cake.html"
+      },
+      {
+        "site": "pinterest",
+        "link": "https://www.pinterest.com/pin/mendol-tempe-deep-fried-spicy-soy-bean-cake--479000110362647760/"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
+      }
+    ],
+    "description": "Tempeh cooked in a savory and mildly sweet soy-based sauce."
   },
   {
     "recipe": "nugget tempe",
@@ -885,7 +1450,13 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "youtube", "link": "https://www.youtube.com/watch?v=iIs_I0tcofE" },
+      { "site": "pinterest", "link": "https://www.pinterest.com/pin/362258363749751567/" },
+      { "site": "youtube", "link": "https://www.youtube.com/watch?v=2hfqvcUFrtA" }
+    ],
+    "description": "Tempeh-based nuggets, often seasoned and deep-fried for a tasty snack."
   },
   {
     "recipe": "perkedel tempe",
@@ -899,7 +1470,19 @@
       "lengkuas-laos": 2,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "soyummyrecipes",
+        "link": "https://soyummyrecipes.com/perkedel-tempe-indonesian-tempeh-fritters/"
+      },
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/tempeh-cake-perkedel-tempeh.html"
+      },
+      { "site": "pisangsusu", "link": "https://pisangsusu.com/tempeh-balls/" }
+    ],
+    "description": "Fried tempeh fritters, typically made with a mixture of tempeh and spices."
   },
   {
     "recipe": "daging sapi lada hitam",
@@ -912,7 +1495,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/sapi-lada-hitam-beef-with-black-pepper-sauce.html"
+      },
+      { "site": "bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/id/resep/15081984-sapi-lada-hitam-beef-blackpepper-ala-resto"
+      }
+    ],
+    "description": "Beef cooked in a flavorful black pepper sauce, creating a bold and spicy taste."
   },
   {
     "recipe": "tongseng ayam",
@@ -929,7 +1524,19 @@
       "lengkuas-laos": 7,
       "serai-sereh": 21,
       "kelapa-santan": 17
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tongseng-ayam-javanese-sweet-soy-sauce-chicken-stew.html"
+      },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2020/12/20/tongseng-ayam/"
+      },
+      { "site": "pinterest", "link": "https://www.pinterest.com/pin/561120434831724349/" }
+    ],
+    "description": "Spicy and savory chicken stew with sweet soy sauce, coconut milk, and various spices."
   },
   {
     "recipe": "tahu gejrot",
@@ -943,7 +1550,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tahu-gejrot-cirebon-fried-tofu-in-chili-soy-sauce.html"
+      },
+      { "site": "thesimplesprinkle", "link": "https://thesimplesprinkle.com/tahu-gejrot/" },
+      {
+        "site": "notsolittletummy",
+        "link": "https://notsolittletummy.wordpress.com/2014/06/29/recipe-tahu-gejrot-tofu-fritters-with-indonesian-spicy-tamarind-sauce/"
+      }
+    ],
+    "description": "Fried tofu served with a spicy and tangy soy-based sauce, a specialty from Cirebon."
   },
   {
     "recipe": "udang goreng tepung",
@@ -958,7 +1577,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "petitchef",
+        "link": "https://en.petitchef.com/recipes/main-dish/fried-shrimps-with-indonesian-sweet-soy-sauce-udang-goreng-tepung-saus-kecap-manis-fid-761522"
+      },
+      {
+        "site": "luveenalee",
+        "link": "https://luveenalee.com/fried-prawns-recipe-fried-shrimp-recipe-fried-prawns-recipe-chinese-udang-goreng-tepung/"
+      },
+      { "site": "modirosa", "link": "https://www.modirosa.com/resepi/udang-goreng-tepung/" }
+    ],
+    "description": "Crispy fried battered shrimp, often served with a dipping sauce."
   },
   {
     "recipe": "udang saus mentega",
@@ -972,7 +1603,22 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/udang-saus-mentega-butter-prawns/"
+      },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/id/resep/533486-udang-saus-mentega-enak-kilat"
+      },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/tag/udang-mentega-saos-inggris/"
+      }
+    ],
+    "description": "Shrimp cooked in a rich and buttery sauce, creating a savory and flavorful dish."
   },
   {
     "recipe": "kari kambing",
@@ -991,7 +1637,22 @@
       "lengkuas-laos": 11,
       "serai-sereh": 13,
       "kelapa-santan": 24
-    }
+    },
+    "links": [
+      {
+        "site": "brilliant-online",
+        "link": "https://www.brilliant-online.com/post/kari-kambing-recipe"
+      },
+      {
+        "site": "3hungrytummies",
+        "link": "http://3hungrytummies.blogspot.com/2011/05/kari-kambing-malaysian-goat-curry.html"
+      },
+      {
+        "site": "nava-k",
+        "link": "https://www.nava-k.com/2020/03/kari-kambing-malaysia-malaysian-mutton.html"
+      }
+    ],
+    "description": "Spiced goat curry, often cooked with coconut milk and a blend of aromatic spices."
   },
   {
     "recipe": "orek tempe basah",
@@ -1007,7 +1668,19 @@
       "lengkuas-laos": 7,
       "serai-sereh": 3,
       "kelapa-santan": 1
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/tempeh-kecap-fried-tempeh-in-sweet-soy-sauce.html"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
+      {
+        "site": "bango",
+        "link": "https://www.bango.co.id/r/resep-orek-tempe-manis-pedas.html/242800"
+      }
+    ],
+    "description": "Tempeh stir-fried with a wet or saucy mixture, typically made with sweet soy sauce."
   },
   {
     "recipe": "tempe jeletot",
@@ -1022,7 +1695,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "lemon8-app",
+        "link": "https://www.lemon8-app.com/discover/tempe%20jeletot%20goreng?region=us"
+      },
+      { "site": "instagram", "link": "https://www.instagram.com/anavia_/" },
+      {
+        "site": "lemon8-app",
+        "link": "https://www.lemon8-app.com/sulviaanidahanum/7297440721890787842?region=us"
+      }
+    ],
+    "description": "Spicy and flavorful tempeh dish, often cooked with a generous amount of chili."
   },
   {
     "recipe": "mangut lele",
@@ -1039,7 +1724,22 @@
       "lengkuas-laos": 11,
       "serai-sereh": 14,
       "kelapa-santan": 19
-    }
+    },
+    "links": [
+      {
+        "site": "original-indonesian-recipe",
+        "link": "http://original-indonesian-recipe.blogspot.com/2009/11/mangut-lele-fried-catfish-in-spicy.html"
+      },
+      {
+        "site": "indonesiaoriginalrecipes",
+        "link": "http://indonesiaoriginalrecipes.blogspot.com/2012/11/dazed-catfish-mangut-lele.html"
+      },
+      {
+        "site": "kitchenesia",
+        "link": "https://kitchenesia.grid.id/read/382147209/rich-flavored-lele-goreng-mangut-makes-a-satisfying-lunch-dish"
+      }
+    ],
+    "description": "Catfish cooked in a rich and aromatic coconut milk-based sauce, commonly from Central Java."
   },
   {
     "recipe": "nasi goreng udang",
@@ -1053,7 +1753,22 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "petitchef",
+        "link": "https://en.petitchef.com/recipes/main-dish/nasi-goreng-belacan-udang-shrimp-paste-and-prawn-fried-rice-fid-1523541"
+      },
+      {
+        "site": "chilipeppermadness",
+        "link": "https://www.chilipeppermadness.com/recipes/nasi-goreng/"
+      },
+      {
+        "site": "cookinggallery",
+        "link": "http://cookinggallery.blogspot.com/2010/03/nasi-goreng-belanda.html"
+      }
+    ],
+    "description": "Fried rice with shrimp, typically seasoned with sweet soy sauce and various spices."
   },
   {
     "recipe": "oseng-oseng tempe kacang panjang",
@@ -1069,7 +1784,19 @@
       "lengkuas-laos": 7,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/id/resep/14965148-tumis-tempe-kacang-panjang"
+      },
+      { "site": "www", "link": "https://www.royco.co.id/r/oseng-tempe-kacang-panjang.html/242008" },
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/id/resep/297902-oseng-tempe-kacang-panjang-simple"
+      }
+    ],
+    "description": "Stir-fried tempeh with long beans, cooked in a flavorful blend of spices."
   },
   {
     "recipe": "tahu fantasi",
@@ -1081,7 +1808,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "cookpad",
+        "link": "https://cookpad.com/us/recipes/11664406-tahu-fantasi-fried-tofu-with-quail-egg"
+      },
+      {
+        "site": "lemon8-app",
+        "link": "https://www.lemon8-app.com/zhea_zee/7205225791720931842?region=us"
+      },
+      { "site": "pinterest", "link": "https://www.pinterest.com/justdhee/indonesian-snacks/" }
+    ],
+    "description": "Creative and flavorful tofu dish, often prepared with a variety of seasonings."
   },
   {
     "recipe": "gurame asam manis",
@@ -1096,7 +1835,19 @@
       "lengkuas-laos": 1,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "myhomediaryinturkey",
+        "link": "https://myhomediaryinturkey.blogspot.com/2014/11/gurame-asam-manis-carp-sea-bream-in.html"
+      },
+      {
+        "site": "pinterest",
+        "link": "https://www.pinterest.com/pin/gurame-asam-manis-carp-or-sea-bream-in-sweet-and-sour-sauce-indonesianfood-asian-s--116108496626557677/"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/id/resep/5710691-gurame-asam-manis" }
+    ],
+    "description": "Sweet and sour gourami fish, cooked in a delicious tamarind-based sauce."
   },
   {
     "recipe": "udang goreng mentega",
@@ -1111,7 +1862,22 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2022/02/15/udang-goreng-mentega-stir-fry-butter-prawn-with-worcester-sauce/"
+      },
+      {
+        "site": "jessicaneva",
+        "link": "http://www.jessicaneva.com/2014/04/udang-goreng-mentega-recipe/"
+      },
+      {
+        "site": "indonesiancooking101",
+        "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Ayam%20Goreng%20Mentega%20(Chicken%20in%20Sweet%20Butter%20Sauce)"
+      }
+    ],
+    "description": "Fried shrimp coated in a buttery and savory sauce, creating a delightful combination of flavors."
   },
   {
     "recipe": "ayam goreng",
@@ -1128,7 +1894,19 @@
       "lengkuas-laos": 17,
       "serai-sereh": 15,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "recipetineats",
+        "link": "https://www.recipetineats.com/ayam-goreng-malaysian-fried-chicken/"
+      },
+      {
+        "site": "yummytummyaarthi",
+        "link": "https://www.yummytummyaarthi.com/ayam-goreng-malaysian-fried-chicken/"
+      },
+      { "site": "nomadette", "link": "https://nomadette.com/ayam-goreng/" }
+    ],
+    "description": "Crispy and flavorful Indonesian fried chicken, often seasoned with a blend of spices."
   },
   {
     "recipe": "tempe goreng telur",
@@ -1139,7 +1917,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "lemon8-app",
+        "link": "https://www.lemon8-app.com/nurulayunishafie/7196491747227124226?region=us"
+      },
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/tahu-telur-tofu-omelettes.html"
+      },
+      { "site": "cookpad", "link": "https://cookpad.com/id/resep/4465931-tempe-goreng-telur" }
+    ],
+    "description": "Fried tempeh with scrambled eggs, creating a delicious and protein-rich dish."
   },
   {
     "recipe": "kering tempe teri",
@@ -1155,7 +1945,22 @@
       "lengkuas-laos": 6,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/kering-tempeh-fried-tempeh-with-sweet-and-spicy-glace.html"
+      },
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/kering-tempeh-kacang.html"
+      },
+      {
+        "site": "cookmeindonesian",
+        "link": "https://www.cookmeindonesian.com/kering-tempe-glazed-fried-tempeh-vegan/"
+      }
+    ],
+    "description": "Crispy and savory tempeh cooked with small dried anchovies and sweet soy sauce."
   },
   {
     "recipe": "bakso ayam",
@@ -1167,7 +1972,16 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/bakso-ayam.html" },
+      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/bakso-ayam.html" },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2020/02/05/homemade-chicken-meatballs-soft-spongy-and-bouncy-bakso-ayam-kenyal-empuk/"
+      }
+    ],
+    "description": "Indonesian chicken meatball soup, often served with noodles and flavorful broth."
   },
   {
     "recipe": "ayam crispy",
@@ -1178,7 +1992,19 @@
       "lengkuas-laos": 0,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "recipetineats",
+        "link": "https://www.recipetineats.com/ayam-goreng-malaysian-fried-chicken/"
+      },
+      { "site": "nomadette", "link": "https://nomadette.com/ayam-goreng/" },
+      {
+        "site": "yummytummyaarthi",
+        "link": "https://www.yummytummyaarthi.com/ayam-goreng-malaysian-fried-chicken/"
+      }
+    ],
+    "description": "Crispy and seasoned fried chicken, creating a tasty and satisfying dish."
   },
   {
     "recipe": "ayam kecap",
@@ -1193,7 +2019,22 @@
       "lengkuas-laos": 1,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "soyummyrecipes",
+        "link": "https://soyummyrecipes.com/indonesian-sweet-soy-chicken-ayam-kecap/"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/ayam-kecap-pedas-chicken-in-spicy-sweet-soy-sauce.html"
+      },
+      {
+        "site": "tasteofmissions",
+        "link": "https://tasteofmissions.com/indonesian-soy-sauce-chicken/"
+      }
+    ],
+    "description": "Chicken cooked in a sweet soy sauce-based gravy, often served with rice."
   },
   {
     "recipe": "balado telur",
@@ -1206,7 +2047,19 @@
       "lengkuas-laos": 2,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      { "site": "poshjournal", "link": "https://poshjournal.com/telur-balado-recipe" },
+      {
+        "site": "vforveggy",
+        "link": "https://vforveggy.com/telur-balado-indonesian-spicy-eggs.html"
+      },
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/telur-balado-eggs-with-chili-sauce.html"
+      }
+    ],
+    "description": "Eggs cooked in a spicy chili and tomato-based sauce, creating a bold and flavorful dish."
   },
   {
     "recipe": "semur daging sapi",
@@ -1221,7 +2074,22 @@
       "lengkuas-laos": 1,
       "serai-sereh": 0,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "whattocooktoday",
+        "link": "https://whattocooktoday.com/semur-daging-javanese-beef-stew.html"
+      },
+      {
+        "site": "pinterest",
+        "link": "https://www.pinterest.com/pin/semur-daging-sapi-indonesian-sweet-soy-beef-stew--956874252054328022/"
+      },
+      {
+        "site": "dentistvschef",
+        "link": "https://dentistvschef.wordpress.com/2013/01/04/resep-semur-daging-sapi-indonesian-braised-beef-shank-in-sweet-soy-sauce/"
+      }
+    ],
+    "description": "Braised beef in a sweet soy sauce-based stew, often cooked with potatoes and carrots."
   },
   {
     "recipe": "sop ayam",
@@ -1235,6 +2103,18 @@
       "lengkuas-laos": 0,
       "serai-sereh": 1,
       "kelapa-santan": 0
-    }
+    },
+    "links": [
+      {
+        "site": "dailycookingquest",
+        "link": "https://dailycookingquest.com/sop-ayam-indonesian-chicken-soup.html"
+      },
+      { "site": "bigoven", "link": "https://www.bigoven.com/recipe/chicken-soup-sop-ayam/446151" },
+      {
+        "site": "monicaisinthekitchen",
+        "link": "https://monicaisinthekitchen.wordpress.com/2020/03/05/sop-ayam-ala-klaten/"
+      }
+    ],
+    "description": "Indonesian chicken soup made with chicken, vegetables, and aromatic spices."
   }
 ]

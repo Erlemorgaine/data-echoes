@@ -1,0 +1,332 @@
+[
+  {
+    "year": 2010,
+    "film": "The Lost Thing",
+    "directorProducer": "Andrew Ruhemann & Shaun Tan"
+  },
+  {
+    "year": 2010,
+    "film": "Day & Night (2010 film)",
+    "directorProducer": "Teddy Newton"
+  },
+  {
+    "year": 2010,
+    "film": "The Gruffalo (film)",
+    "directorProducer": "Max Lang & Jakob Schuh"
+  },
+  {
+    "year": 2010,
+    "film": "Let's Pollute",
+    "directorProducer": "Geefwee Boedoe"
+  },
+  {
+    "year": 2010,
+    "film": "Madagascar, a Journey Diary",
+    "directorProducer": "Bastien Dubois"
+  },
+  {
+    "year": 2011,
+    "film": "The Fantastic Flying Books of Mr. Morris Lessmore",
+    "directorProducer": "William Joyce & Brandon Oldenburg"
+  },
+  {
+    "year": 2011,
+    "film": "La Luna (2011 film)",
+    "directorProducer": "Enrico Casarosa"
+  },
+  {
+    "year": 2011,
+    "film": "A Morning Stroll",
+    "directorProducer": "Sue Goffe & Grant Orchard"
+  },
+  {
+    "year": 2011,
+    "film": "Sunday (2011 film)",
+    "directorProducer": "Patrick Doyon"
+  },
+  {
+    "year": 2011,
+    "film": "Wild Life (2011 film)",
+    "directorProducer": "Wendy Tilby and Amanda Forbis"
+  },
+  { "year": 2012, "film": "Paperman", "directorProducer": "John Kahrs" },
+  { "year": 2012, "film": "Adam and Dog", "directorProducer": "Minkyu Lee" },
+  {
+    "year": 2012,
+    "film": "Fresh Guacamole",
+    "directorProducer": "PES (director)"
+  },
+  {
+    "year": 2012,
+    "film": "Head over Heels (2012 film)",
+    "directorProducer": "Fodhla Cronin O'Reilly & Timothy Reckart"
+  },
+  {
+    "year": 2012,
+    "film": "The Longest Daycare",
+    "directorProducer": "David Silverman (animator)"
+  },
+  {
+    "year": 2013,
+    "film": "Mr Hublot",
+    "directorProducer": "Laurent Witz & Alexandre Espigares"
+  },
+  {
+    "year": 2013,
+    "film": "Feral (2012 film)",
+    "directorProducer": "Daniel Sousa (director) & Dan Golden (filmmaker)"
+  },
+  {
+    "year": 2013,
+    "film": "Get a Horse!",
+    "directorProducer": "Lauren MacMullan & Dorothy McKim"
+  },
+  {
+    "year": 2013,
+    "film": "Short Peace#Possessions",
+    "directorProducer": "Shuhei Morita"
+  },
+  {
+    "year": 2013,
+    "film": "Room on the Broom (film)",
+    "directorProducer": "Max Lang & Jan Lachauer"
+  },
+  {
+    "year": 2014,
+    "film": "Feast (2014 film)",
+    "directorProducer": "Patrick Osborne (animator) & Kristina Reed"
+  },
+  {
+    "year": 2014,
+    "film": "The Bigger Picture (film)",
+    "directorProducer": "Christopher Hees & Daisy Jacobs"
+  },
+  {
+    "year": 2014,
+    "film": "The Dam Keeper",
+    "directorProducer": "Robert Kondo & Daisuke Tsutsumi"
+  },
+  {
+    "year": 2014,
+    "film": "Me and My Moulton",
+    "directorProducer": "Torill Kove"
+  },
+  {
+    "year": 2014,
+    "film": "A Single Life (2014 film)",
+    "directorProducer": "Joris Oprins"
+  },
+  {
+    "year": 2015,
+    "film": "Bear Story",
+    "directorProducer": "Pato Escala Pierart & Gabriel Osorio Vargas"
+  },
+  {
+    "year": 2015,
+    "film": "Prologue (2015 film)",
+    "directorProducer": "Imogen Sutton & Richard Williams (animator)"
+  },
+  {
+    "year": 2015,
+    "film": "Sanjay's Super Team",
+    "directorProducer": "Sanjay Patel & Nicole Paradis Grindle"
+  },
+  {
+    "year": 2015,
+    "film": "We Can't Live Without Cosmos",
+    "directorProducer": "Konstantin Bronzit"
+  },
+  {
+    "year": 2015,
+    "film": "World of Tomorrow (film)",
+    "directorProducer": "Don Hertzfeldt"
+  },
+  {
+    "year": 2016,
+    "film": "Piper (film)",
+    "directorProducer": "Alan Barillaro & Marc Sondheimer"
+  },
+  {
+    "year": 2016,
+    "film": "Blind Vaysha",
+    "directorProducer": "Theodore Ushev"
+  },
+  {
+    "year": 2016,
+    "film": "Borrowed Time (film)",
+    "directorProducer": "Andrew Coats (director) & Lou Hamou-Lhadj"
+  },
+  {
+    "year": 2016,
+    "film": "Pear Cider and Cigarettes",
+    "directorProducer": "Cara Speller & Robert Valley"
+  },
+  {
+    "year": 2016,
+    "film": "Pearl (2016 film)",
+    "directorProducer": "Patrick Osborne (animator)"
+  },
+  {
+    "year": 2017,
+    "film": "Dear Basketball",
+    "directorProducer": "Glen Keane & Kobe Bryant"
+  },
+  {
+    "year": 2017,
+    "film": "Garden Party (2017 film)",
+    "directorProducer": "Victor Caire & Gabriel Grapperon"
+  },
+  {
+    "year": 2017,
+    "film": "Lou (2017 film)",
+    "directorProducer": "Dave Mullins (animator) & Dana Murray"
+  },
+  {
+    "year": 2017,
+    "film": "Negative Space (film)",
+    "directorProducer": "Ru Kuwahata & Max Porter (animator)"
+  },
+  {
+    "year": 2017,
+    "film": "Revolting Rhymes (film)",
+    "directorProducer": "Jakob Schuh & Jan Lachauer"
+  },
+  {
+    "year": 2018,
+    "film": "Bao (film)",
+    "directorProducer": "Becky Neiman-Cobb & Domee Shi"
+  },
+  {
+    "year": 2018,
+    "film": "Animal Behaviour (film)",
+    "directorProducer": "David Fine (filmmaker) & Alison Snowden"
+  },
+  {
+    "year": 2018,
+    "film": "Late Afternoon (film)",
+    "directorProducer": "Louise Bagnall & Nuria González Blanco"
+  },
+  {
+    "year": 2018,
+    "film": "One Small Step (film)",
+    "directorProducer": "Andrew Chesworth & Bobby Pontillas"
+  },
+  {
+    "year": 2018,
+    "film": "Weekends (2017 film)",
+    "directorProducer": "Trevor Jimenez"
+  },
+  {
+    "year": 2019,
+    "film": "Hair Love",
+    "directorProducer": "Matthew A. Cherry & Karen Rupert Toliver"
+  },
+  {
+    "year": 2019,
+    "film": "Daughter (2019 film)",
+    "directorProducer": "Daria Kashcheeva"
+  },
+  {
+    "year": 2019,
+    "film": "Kitbull",
+    "directorProducer": "Kathryn Hendrickson & Rosana Sullivan"
+  },
+  {
+    "year": 2019,
+    "film": "Mémorable",
+    "directorProducer": "Bruno Collet & Jean-François Le Corre"
+  },
+  {
+    "year": 2019,
+    "film": "Sister (2018 film)",
+    "directorProducer": "Siqi Song"
+  },
+  {
+    "year": 2020,
+    "film": "If Anything Happens I Love You",
+    "directorProducer": "Michael Govier & Will McCormack"
+  },
+  {
+    "year": 2020,
+    "film": "Burrow (film)",
+    "directorProducer": "Michael Capbarat & Madeline Sharafian"
+  },
+  {
+    "year": 2020,
+    "film": "Genius Loci (film)",
+    "directorProducer": "Adrien Mérigeau & Amaury Ovise"
+  },
+  { "year": 2020, "film": "Opera (2020 film)", "directorProducer": "Erick Oh" },
+  {
+    "year": 2020,
+    "film": "Yes-People",
+    "directorProducer": "Arnar Gunnarsson & Gísli Darri Halldórsson"
+  },
+  {
+    "year": 2021,
+    "film": "The Windshield Wiper",
+    "directorProducer": "Alberto Mielgo & Leo Sanchez"
+  },
+  {
+    "year": 2021,
+    "film": "Affairs of the Art",
+    "directorProducer": "Joanna Quinn and Les Mills"
+  },
+  {
+    "year": 2021,
+    "film": "Bestia (2021 film)",
+    "directorProducer": "Hugo Covarrubias and Tevo Díaz"
+  },
+  { "year": 2021, "film": "Boxballet", "directorProducer": "Anton Dyakov" },
+  {
+    "year": 2021,
+    "film": "Robin Robin",
+    "directorProducer": "Dan Ojari and Mikey Please"
+  },
+  {
+    "year": 2022,
+    "film": "The Boy, the Mole, the Fox and the Horse (film)",
+    "directorProducer": "Charlie Mackesy and Matthew Freud"
+  },
+  {
+    "year": 2022,
+    "film": "The Flying Sailor",
+    "directorProducer": "Wendy Tilby and Amanda Forbis"
+  },
+  {
+    "year": 2022,
+    "film": "Ice Merchants",
+    "directorProducer": "João Gonzalez and Bruno Caetano"
+  },
+  {
+    "year": 2022,
+    "film": "My Year of Dicks",
+    "directorProducer": "Sara Gunnarsdóttir and Pamela Ribon"
+  },
+  {
+    "year": 2022,
+    "film": "An Ostrich Told Me the World Is Fake and I Think I Believe It",
+    "directorProducer": "Lachlan Pendragon (animator)"
+  },
+  { "year": 2023, "film": "Letter to a Pig", "directorProducer": "Tal Kantor" },
+  {
+    "year": 2023,
+    "film": "Ninety-Five Senses",
+    "directorProducer": "Jared and Jerusha Hess"
+  },
+  {
+    "year": 2023,
+    "film": "Our Uniform",
+    "directorProducer": "Yegane’s Moghaddam"
+  },
+  {
+    "year": 2023,
+    "film": "Pachyderme",
+    "directorProducer": "Stéphanie Clément"
+  },
+  {
+    "year": 2023,
+    "film": "War Is Over!",
+    "directorProducer": "Dave Mullins (animator)"
+  }
+]

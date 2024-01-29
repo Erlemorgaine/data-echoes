@@ -1,0 +1,260 @@
+[
+  { "year": 2010, "film": "The Social Network", "nominee": "Aaron Sorkin" },
+  {
+    "year": 2010,
+    "film": "127 Hours",
+    "nominee": "Simon Beaufoy & Danny Boyle"
+  },
+  {
+    "year": 2010,
+    "film": "Toy Story 3",
+    "nominee": "Screenplay: Michael Arndt; Story: John Lasseter, Andrew Stanton & Lee Unkrich"
+  },
+  { "year": 2010, "film": "True Grit (2010 film)", "nominee": "Coen brothers" },
+  {
+    "year": 2010,
+    "film": "Winter's Bone",
+    "nominee": "Debra Granik & Anne Rosellini"
+  },
+  {
+    "year": 2011,
+    "film": "The Descendants",
+    "nominee": "Nat Faxon, Alexander Payne & Jim Rash"
+  },
+  { "year": 2011, "film": "Hugo (film)", "nominee": "John Logan (writer)" },
+  {
+    "year": 2011,
+    "film": "The Ides of March (2011 film)",
+    "nominee": "George Clooney, Grant Heslov & Beau Willimon"
+  },
+  {
+    "year": 2011,
+    "film": "Moneyball (film)",
+    "nominee": "Screenplay: Aaron Sorkin & Steven Zaillian; Story: Stan Chervin"
+  },
+  {
+    "year": 2011,
+    "film": "Tinker Tailor Soldier Spy (film)",
+    "nominee": "Bridget O'Connor & Peter Straughan"
+  },
+  { "year": 2012, "film": "Argo (2012 film)", "nominee": "Chris Terrio" },
+  {
+    "year": 2012,
+    "film": "Beasts of the Southern Wild",
+    "nominee": "Lucy Alibar & Benh Zeitlin"
+  },
+  { "year": 2012, "film": "Life of Pi (film)", "nominee": "David Magee" },
+  { "year": 2012, "film": "Lincoln (film)", "nominee": "Tony Kushner" },
+  {
+    "year": 2012,
+    "film": "Silver Linings Playbook",
+    "nominee": "David O. Russell"
+  },
+  { "year": 2013, "film": "12 Years a Slave (film)", "nominee": "John Ridley" },
+  {
+    "year": 2013,
+    "film": "Before Midnight (2013 film)",
+    "nominee": "Julie Delpy, Ethan Hawke & Richard Linklater"
+  },
+  {
+    "year": 2013,
+    "film": "Captain Phillips (film)",
+    "nominee": "Billy Ray (screenwriter)"
+  },
+  {
+    "year": 2013,
+    "film": "Philomena (film)",
+    "nominee": "Steve Coogan & Jeff Pope"
+  },
+  {
+    "year": 2013,
+    "film": "The Wolf of Wall Street (2013 film)",
+    "nominee": "Terence Winter"
+  },
+  {
+    "year": 2014,
+    "film": "The Imitation Game",
+    "nominee": "Graham Moore (writer)"
+  },
+  {
+    "year": 2014,
+    "film": "American Sniper",
+    "nominee": "Jason Hall (screenwriter)"
+  },
+  {
+    "year": 2014,
+    "film": "Inherent Vice (film)",
+    "nominee": "Paul Thomas Anderson"
+  },
+  {
+    "year": 2014,
+    "film": "The Theory of Everything (2014 film)",
+    "nominee": "Anthony McCarten"
+  },
+  {
+    "year": 2014,
+    "film": "Whiplash (2014 film)",
+    "nominee": "Damien Chazelle"
+  },
+  {
+    "year": 2015,
+    "film": "The Big Short (film)",
+    "nominee": "Charles Randolph & Adam McKay"
+  },
+  { "year": 2015, "film": "Brooklyn (film)", "nominee": "Nick Hornby" },
+  { "year": 2015, "film": "Carol (film)", "nominee": "Phyllis Nagy" },
+  { "year": 2015, "film": "The Martian (film)", "nominee": "Drew Goddard" },
+  { "year": 2015, "film": "Room (2015 film)", "nominee": "Emma Donoghue" },
+  {
+    "year": 2016,
+    "film": "Moonlight (2016 film)",
+    "nominee": "Screenplay: Barry Jenkins; Story: Tarell Alvin McCraney"
+  },
+  { "year": 2016, "film": "Arrival (film)", "nominee": "Eric Heisserer" },
+  { "year": 2016, "film": "Fences (film)", "nominee": "August Wilson" },
+  {
+    "year": 2016,
+    "film": "Hidden Figures",
+    "nominee": "Theodore Melfi & Allison Schroeder"
+  },
+  { "year": 2016, "film": "Lion (2016 film)", "nominee": "Luke Davies" },
+  {
+    "year": 2017,
+    "film": "Call Me by Your Name (film)",
+    "nominee": "James Ivory"
+  },
+  {
+    "year": 2017,
+    "film": "The Disaster Artist (film)",
+    "nominee": "Scott Neustadter & Michael H. Weber"
+  },
+  {
+    "year": 2017,
+    "film": "Logan (film)",
+    "nominee": "Screenplay: Scott Frank, Michael Green & James Mangold; Story: Mangold"
+  },
+  { "year": 2017, "film": "Molly's Game", "nominee": "Aaron Sorkin" },
+  {
+    "year": 2017,
+    "film": "Mudbound (film)",
+    "nominee": "Dee Rees & Virgil Williams"
+  },
+  {
+    "year": 2018,
+    "film": "BlacKkKlansman",
+    "nominee": "Spike Lee, David Rabinowitz, Charlie Wachtel & Kevin Willmott"
+  },
+  {
+    "year": 2018,
+    "film": "The Ballad of Buster Scruggs",
+    "nominee": "Coen brothers"
+  },
+  {
+    "year": 2018,
+    "film": "Can You Ever Forgive Me?",
+    "nominee": "Nicole Holofcener & Jeff Whitty"
+  },
+  {
+    "year": 2018,
+    "film": "If Beale Street Could Talk (film)",
+    "nominee": "Barry Jenkins"
+  },
+  {
+    "year": 2018,
+    "film": "A Star Is Born (2018 film)",
+    "nominee": "Bradley Cooper, Will Fetters & Eric Roth"
+  },
+  { "year": 2019, "film": "Jojo Rabbit", "nominee": "Taika Waititi" },
+  { "year": 2019, "film": "The Irishman", "nominee": "Steven Zaillian" },
+  {
+    "year": 2019,
+    "film": "Joker (2019 film)",
+    "nominee": "Todd Phillips & Scott Silver"
+  },
+  {
+    "year": 2019,
+    "film": "Little Women (2019 film)",
+    "nominee": "Greta Gerwig"
+  },
+  { "year": 2019, "film": "The Two Popes", "nominee": "Anthony McCarten" },
+  {
+    "year": 2020,
+    "film": "The Father (2020 film)",
+    "nominee": "Christopher Hampton & Florian Zeller"
+  },
+  {
+    "year": 2020,
+    "film": "Borat Subsequent Moviefilm",
+    "nominee": "Screenplay: Sacha Baron Cohen, Peter Baynham, Jena Friedman, Anthony Hines, Lee Kern, Dan Mazer, Erica Rivinoja & Dan Swimer; Story: Baron Cohen, Hines, Nina Pedrad & Swimer"
+  },
+  { "year": 2020, "film": "Nomadland", "nominee": "Chloé Zhao" },
+  { "year": 2020, "film": "One Night in Miami...", "nominee": "Kemp Powers" },
+  {
+    "year": 2020,
+    "film": "The White Tiger (2021 film)",
+    "nominee": "Ramin Bahrani"
+  },
+  { "year": 2021, "film": "CODA (2021 film)", "nominee": "Sian Heder" },
+  {
+    "year": 2021,
+    "film": "Drive My Car (film)",
+    "nominee": "Ryusuke Hamaguchi & Takamasa Oe"
+  },
+  {
+    "year": 2021,
+    "film": "Dune (2021 film)",
+    "nominee": "Eric Roth, Jon Spaihts & Denis Villeneuve"
+  },
+  {
+    "year": 2021,
+    "film": "The Lost Daughter (film)",
+    "nominee": "Maggie Gyllenhaal"
+  },
+  {
+    "year": 2021,
+    "film": "The Power of the Dog (film)",
+    "nominee": "Jane Campion"
+  },
+  { "year": 2022, "film": "Women Talking (film)", "nominee": "Sarah Polley" },
+  {
+    "year": 2022,
+    "film": "All Quiet on the Western Front (2022 film)",
+    "nominee": "Edward Berger, Lesley Paterson & Ian Stokell"
+  },
+  {
+    "year": 2022,
+    "film": "Glass Onion: A Knives Out Mystery",
+    "nominee": "Rian Johnson"
+  },
+  { "year": 2022, "film": "Living (2022 film)", "nominee": "Kazuo Ishiguro" },
+  {
+    "year": 2022,
+    "film": "Top Gun: Maverick",
+    "nominee": "Screenplay: Ehren Kruger, Christopher McQuarrie & Eric Warren Singer; Story: Peter Craig & Justin Marks (writer)"
+  },
+  {
+    "year": 2023,
+    "film": "American Fiction (film)",
+    "nominee": "Cord Jefferson"
+  },
+  {
+    "year": 2023,
+    "film": "Barbie (film)",
+    "nominee": "Noah Baumbach & Greta Gerwig"
+  },
+  {
+    "year": 2023,
+    "film": "Oppenheimer (film)",
+    "nominee": "Christopher Nolan"
+  },
+  {
+    "year": 2023,
+    "film": "Poor Things (film)",
+    "nominee": "Tony McNamara (writer)"
+  },
+  {
+    "year": 2023,
+    "film": "The Zone of Interest (film)",
+    "nominee": "Jonathan Glazer"
+  }
+]

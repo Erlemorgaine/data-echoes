@@ -1,0 +1,108 @@
+[
+  { "year": 2010, "actor": "Melissa Leo", "movie": "The Fighter" },
+  { "year": 2010, "actor": "Amy Adams", "movie": "The Fighter" },
+  {
+    "year": 2010,
+    "actor": "Helena Bonham Carter",
+    "movie": "The King's Speech"
+  },
+  { "year": 2010, "actor": "Hailee Steinfeld", "movie": "True Grit" },
+  { "year": 2010, "actor": "Jacki Weaver", "movie": "Animal Kingdom" },
+  { "year": 2011, "actor": "Octavia Spencer", "movie": "The Help" },
+  { "year": 2011, "actor": "Bérénice Bejo", "movie": "The Artist" },
+  { "year": 2011, "actor": "Jessica Chastain", "movie": "The Help" },
+  { "year": 2011, "actor": "Melissa McCarthy", "movie": "Bridesmaids" },
+  { "year": 2011, "actor": "Janet McTeer", "movie": "Albert Nobbs" },
+  { "year": 2012, "actor": "Anne Hathaway", "movie": "Les Misérables" },
+  { "year": 2012, "actor": "Amy Adams", "movie": "The Master" },
+  { "year": 2012, "actor": "Sally Field", "movie": "Lincoln" },
+  { "year": 2012, "actor": "Helen Hunt", "movie": "The Sessions" },
+  { "year": 2012, "actor": "Jacki Weaver", "movie": "Silver Linings Playbook" },
+  { "year": 2013, "actor": "Lupita Nyong'o", "movie": "12 Years a Slave" },
+  { "year": 2013, "actor": "Sally Hawkins", "movie": "Blue Jasmine" },
+  { "year": 2013, "actor": "Jennifer Lawrence", "movie": "American Hustle" },
+  { "year": 2013, "actor": "Julia Roberts", "movie": "August: Osage County" },
+  { "year": 2013, "actor": "June Squibb", "movie": "Nebraska" },
+  { "year": 2014, "actor": "Patricia Arquette", "movie": "Boyhood" },
+  { "year": 2014, "actor": "Laura Dern", "movie": "Wild" },
+  { "year": 2014, "actor": "Keira Knightley", "movie": "The Imitation Game" },
+  { "year": 2014, "actor": "Emma Stone", "movie": "Birdman" },
+  { "year": 2014, "actor": "Meryl Streep", "movie": "Into the Woods" },
+  { "year": 2015, "actor": "Alicia Vikander", "movie": "The Danish Girl" },
+  {
+    "year": 2015,
+    "actor": "Jennifer Jason Leigh",
+    "movie": "The Hateful Eight"
+  },
+  { "year": 2015, "actor": "Rooney Mara", "movie": "Carol" },
+  { "year": 2015, "actor": "Rachel McAdams", "movie": "Spotlight" },
+  { "year": 2015, "actor": "Kate Winslet", "movie": "Steve Jobs" },
+  { "year": 2016, "actor": "Viola Davis", "movie": "Fences" },
+  { "year": 2016, "actor": "Naomie Harris", "movie": "Moonlight" },
+  { "year": 2016, "actor": "Nicole Kidman", "movie": "Lion" },
+  { "year": 2016, "actor": "Octavia Spencer", "movie": "Hidden Figures" },
+  {
+    "year": 2016,
+    "actor": "Michelle Williams",
+    "movie": "Manchester by the Sea"
+  },
+  { "year": 2017, "actor": "Allison Janney", "movie": "I, Tonya" },
+  { "year": 2017, "actor": "Mary J. Blige", "movie": "Mudbound" },
+  { "year": 2017, "actor": "Lesley Manville", "movie": "Phantom Thread" },
+  { "year": 2017, "actor": "Laurie Metcalf", "movie": "Lady Bird" },
+  { "year": 2017, "actor": "Octavia Spencer", "movie": "The Shape of Water" },
+  {
+    "year": 2018,
+    "actor": "Regina King",
+    "movie": "If Beale Street Could Talk"
+  },
+  { "year": 2018, "actor": "Amy Adams", "movie": "Vice" },
+  { "year": 2018, "actor": "Marina de Tavira", "movie": "Roma" },
+  { "year": 2018, "actor": "Emma Stone", "movie": "The Favourite" },
+  { "year": 2018, "actor": "Rachel Weisz", "movie": "The Favourite" },
+  { "year": 2019, "actor": "Laura Dern", "movie": "Marriage Story" },
+  { "year": 2019, "actor": "Kathy Bates", "movie": "Richard Jewell" },
+  { "year": 2019, "actor": "Scarlett Johansson", "movie": "Jojo Rabbit" },
+  { "year": 2019, "actor": "Florence Pugh", "movie": "Little Women" },
+  { "year": 2019, "actor": "Margot Robbie", "movie": "Bombshell" },
+  { "year": 2020, "actor": "Youn Yuh-Jung", "movie": "Minari" },
+  {
+    "year": 2020,
+    "actor": "Maria Bakalova",
+    "movie": "Borat Subsequent Moviefilm"
+  },
+  { "year": 2020, "actor": "Glenn Close", "movie": "Hillbilly Elegy" },
+  { "year": 2020, "actor": "Olivia Colman", "movie": "The Father" },
+  { "year": 2020, "actor": "Amanda Seyfried", "movie": "Mank" },
+  { "year": 2021, "actor": "Ariana DeBose", "movie": "West Side Story" },
+  { "year": 2021, "actor": "Jessie Buckley", "movie": "The Lost Daughter" },
+  { "year": 2021, "actor": "Judi Dench", "movie": "Belfast" },
+  { "year": 2021, "actor": "Kirsten Dunst", "movie": "The Power of the Dog" },
+  { "year": 2021, "actor": "Aunjanue Ellis", "movie": "King Richard" },
+  {
+    "year": 2022,
+    "actor": "Jamie Lee Curtis",
+    "movie": "Everything Everywhere All at Once"
+  },
+  {
+    "year": 2022,
+    "actor": "Angela Bassett",
+    "movie": "Black Panther: Wakanda Forever"
+  },
+  { "year": 2022, "actor": "Hong Chau", "movie": "The Whale" },
+  {
+    "year": 2022,
+    "actor": "Kerry Condon",
+    "movie": "The Banshees of Inisherin"
+  },
+  {
+    "year": 2022,
+    "actor": "Stephanie Hsu",
+    "movie": "Everything Everywhere All at Once"
+  },
+  { "year": 2023, "actor": "Emily Blunt", "movie": "Oppenheimer" },
+  { "year": 2023, "actor": "Danielle Brooks", "movie": "The Color Purple" },
+  { "year": 2023, "actor": "America Ferrera", "movie": "Barbie" },
+  { "year": 2023, "actor": "Jodie Foster", "movie": "Nyad" },
+  { "year": 2023, "actor": "Da'Vine Joy Randolph", "movie": "The Holdovers" }
+]

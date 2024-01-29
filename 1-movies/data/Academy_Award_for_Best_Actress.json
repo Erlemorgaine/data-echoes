@@ -1,0 +1,120 @@
+[
+  { "year": 2010, "actor": "Natalie Portman", "movie": "Black Swan" },
+  {
+    "year": 2010,
+    "actor": "Annette Bening",
+    "movie": "The Kids Are All Right"
+  },
+  { "year": 2010, "actor": "Nicole Kidman", "movie": "Rabbit Hole" },
+  { "year": 2010, "actor": "Jennifer Lawrence", "movie": "Winter's Bone" },
+  { "year": 2010, "actor": "Michelle Williams", "movie": "Blue Valentine" },
+  { "year": 2011, "actor": "Meryl Streep", "movie": "The Iron Lady" },
+  { "year": 2011, "actor": "Glenn Close", "movie": "Albert Nobbs" },
+  { "year": 2011, "actor": "Viola Davis", "movie": "The Help" },
+  {
+    "year": 2011,
+    "actor": "Rooney Mara",
+    "movie": "The Girl with the Dragon Tattoo"
+  },
+  {
+    "year": 2011,
+    "actor": "Michelle Williams",
+    "movie": "My Week with Marilyn"
+  },
+  {
+    "year": 2012,
+    "actor": "Jennifer Lawrence",
+    "movie": "Silver Linings Playbook"
+  },
+  { "year": 2012, "actor": "Jessica Chastain", "movie": "Zero Dark Thirty" },
+  { "year": 2012, "actor": "Emmanuelle Riva", "movie": "Amour" },
+  {
+    "year": 2012,
+    "actor": "Quvenzhané Wallis",
+    "movie": "Beasts of the Southern Wild"
+  },
+  { "year": 2012, "actor": "Naomi Watts", "movie": "The Impossible" },
+  { "year": 2013, "actor": "Cate Blanchett", "movie": "Blue Jasmine" },
+  { "year": 2013, "actor": "Amy Adams", "movie": "American Hustle" },
+  { "year": 2013, "actor": "Sandra Bullock", "movie": "Gravity" },
+  { "year": 2013, "actor": "Judi Dench", "movie": "Philomena" },
+  { "year": 2013, "actor": "Meryl Streep", "movie": "August: Osage County" },
+  { "year": 2014, "actor": "Julianne Moore", "movie": "Still Alice" },
+  { "year": 2014, "actor": "Marion Cotillard", "movie": "Two Days, One Night" },
+  {
+    "year": 2014,
+    "actor": "Felicity Jones",
+    "movie": "The Theory of Everything"
+  },
+  { "year": 2014, "actor": "Rosamund Pike", "movie": "Gone Girl" },
+  { "year": 2014, "actor": "Reese Witherspoon", "movie": "Wild" },
+  { "year": 2015, "actor": "Brie Larson", "movie": "Room" },
+  { "year": 2015, "actor": "Cate Blanchett", "movie": "Carol" },
+  { "year": 2015, "actor": "Jennifer Lawrence", "movie": "Joy" },
+  { "year": 2015, "actor": "Charlotte Rampling", "movie": "45 Years" },
+  { "year": 2015, "actor": "Saoirse Ronan", "movie": "Brooklyn" },
+  { "year": 2016, "actor": "Emma Stone", "movie": "La La Land" },
+  { "year": 2016, "actor": "Isabelle Huppert", "movie": "Elle" },
+  { "year": 2016, "actor": "Ruth Negga", "movie": "Loving" },
+  { "year": 2016, "actor": "Natalie Portman", "movie": "Jackie" },
+  { "year": 2016, "actor": "Meryl Streep", "movie": "Florence Foster Jenkins" },
+  {
+    "year": 2017,
+    "actor": "Frances McDormand",
+    "movie": "Three Billboards Outside Ebbing, Missouri"
+  },
+  { "year": 2017, "actor": "Sally Hawkins", "movie": "The Shape of Water" },
+  { "year": 2017, "actor": "Margot Robbie", "movie": "I, Tonya" },
+  { "year": 2017, "actor": "Saoirse Ronan", "movie": "Lady Bird" },
+  { "year": 2017, "actor": "Meryl Streep", "movie": "The Post" },
+  { "year": 2018, "actor": "Olivia Colman", "movie": "The Favourite" },
+  { "year": 2018, "actor": "Yalitza Aparicio", "movie": "Roma" },
+  { "year": 2018, "actor": "Glenn Close", "movie": "The Wife" },
+  { "year": 2018, "actor": "Lady Gaga", "movie": "A Star Is Born" },
+  {
+    "year": 2018,
+    "actor": "Melissa McCarthy",
+    "movie": "Can You Ever Forgive Me?"
+  },
+  { "year": 2019, "actor": "Renée Zellweger", "movie": "Judy" },
+  { "year": 2019, "actor": "Cynthia Erivo", "movie": "Harriet" },
+  { "year": 2019, "actor": "Scarlett Johansson", "movie": "Marriage Story" },
+  { "year": 2019, "actor": "Saoirse Ronan", "movie": "Little Women" },
+  { "year": 2019, "actor": "Charlize Theron", "movie": "Bombshell" },
+  { "year": 2020, "actor": "Frances McDormand", "movie": "Nomadland" },
+  { "year": 2020, "actor": "Viola Davis", "movie": "Ma Rainey's Black Bottom" },
+  {
+    "year": 2020,
+    "actor": "Andra Day",
+    "movie": "The United States vs. Billie Holiday"
+  },
+  { "year": 2020, "actor": "Vanessa Kirby", "movie": "Pieces of a Woman" },
+  { "year": 2020, "actor": "Carey Mulligan", "movie": "Promising Young Woman" },
+  {
+    "year": 2021,
+    "actor": "Jessica Chastain",
+    "movie": "The Eyes of Tammy Faye"
+  },
+  { "year": 2021, "actor": "Olivia Colman", "movie": "The Lost Daughter" },
+  { "year": 2021, "actor": "Penélope Cruz", "movie": "Parallel Mothers" },
+  { "year": 2021, "actor": "Nicole Kidman", "movie": "Being the Ricardos" },
+  { "year": 2021, "actor": "Kristen Stewart", "movie": "Spencer" },
+  {
+    "year": 2022,
+    "actor": "Michelle Yeoh",
+    "movie": "Everything Everywhere All at Once"
+  },
+  { "year": 2022, "actor": "Cate Blanchett", "movie": "Tár" },
+  { "year": 2022, "actor": "Ana de Armas", "movie": "Blonde" },
+  { "year": 2022, "actor": "Andrea Riseborough", "movie": "To Leslie" },
+  { "year": 2022, "actor": "Michelle Williams", "movie": "The Fabelmans" },
+  { "year": 2023, "actor": "Annette Bening", "movie": "Nyad" },
+  {
+    "year": 2023,
+    "actor": "Lily Gladstone",
+    "movie": "Killers of the Flower Moon"
+  },
+  { "year": 2023, "actor": "Sandra Hüller", "movie": "Anatomy of a Fall" },
+  { "year": 2023, "actor": "Carey Mulligan", "movie": "Maestro" },
+  { "year": 2023, "actor": "Emma Stone", "movie": "Poor Things" }
+]

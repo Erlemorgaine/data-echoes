@@ -1,0 +1,319 @@
+[
+  [
+    { "year": "2010,83rd Academy Awards ," },
+    {
+      "year": "Toy Story 3",
+      "film": "\"We Belong Together (Randy Newman song)\"",
+      "song": "Randy Newman <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "127 Hours",
+      "film": "\"If I Rise\"",
+      "song": "A. R. Rahman <small>(music)</small>; Rollo Armstrong & Dido (singer) <small>(lyrics)</small>"
+    },
+    {
+      "year": "Country Strong",
+      "film": "\"Coming Home\"",
+      "song": "Tom Douglas, Hillary Lindsey & Troy Verges <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Tangled",
+      "film": "\"I See the Light\"",
+      "song": "Alan Menken <small>(music)</small>; Glenn Slater <small>(lyrics)</small>"
+    },
+    { "year": "2011,84th Academy Awards ," },
+    {
+      "year": "The Muppets (film)",
+      "film": "\"Man or Muppet\"",
+      "song": "Bret McKenzie <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Rio (2011 film)",
+      "film": "\"Real in Rio\"",
+      "song": "Carlinhos Brown & Sérgio Mendes <small>(music)</small>; Siedah Garrett <small>(lyrics)</small>"
+    },
+    { "year": "2012,85th Academy Awards ," },
+    {
+      "year": "Skyfall",
+      "film": "\"Skyfall (song)\"",
+      "song": "Adele & Paul Epworth <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Chasing Ice",
+      "film": "\"Before My Time\"",
+      "song": "J. Ralph <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Les Misérables (2012 film)",
+      "film": "\"Suddenly (Les Misérables)\"",
+      "song": "Claude-Michel Schönberg <small>(music)</small>; Alain Boublil & Herbert Kretzmer <small>(lyrics)</small>"
+    },
+    {
+      "year": "Life of Pi (film)",
+      "film": "\"Pi's Lullaby\"",
+      "song": "Mychael Danna <small>(music)</small>; Bombay Jayashri <small>(lyrics)</small>"
+    },
+    {
+      "year": "Ted (film)",
+      "film": "\"Everybody Needs a Best Friend\"",
+      "song": "Walter Murphy <small>(music)</small>; Seth MacFarlane <small>(lyrics)</small>"
+    },
+    { "year": "2013,86th Academy Awards ," },
+    {
+      "year": "Selma (film)",
+      "film": "\"Glory (Common and John Legend song)\"",
+      "song": "Common (rapper) & John Legend <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Begin Again (film)",
+      "film": "\"Lost Stars\"",
+      "song": "Gregg Alexander & Danielle Brisebois <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Beyond the Lights",
+      "film": "\"Grateful (Rita Ora song)\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Glen Campbell: I'll Be Me",
+      "film": "\"I'm Not Gonna Miss You\"",
+      "song": "Glen Campbell & Julian Raymond <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Lego Movie",
+      "film": "\"Everything Is Awesome\"",
+      "song": "Shawn Patterson (composer) <small>(music & lyrics)</small>"
+    },
+    { "year": "2015,88th Academy Awards ," },
+    {
+      "year": "Spectre (2015 film)",
+      "film": "\"Writing's on the Wall (Sam Smith song)\"",
+      "song": "Jimmy Napes & Sam Smith <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Fifty Shades of Grey (film)",
+      "film": "\"Earned It\"",
+      "song": "Belly (rapper), Jason Quenneville, Stephan Moccio & The Weeknd <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Hunting Ground",
+      "film": "\"Til It Happens to You\"",
+      "song": "Lady Gaga & Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Racing Extinction",
+      "film": "\"Manta Ray (song)\"",
+      "song": "J. Ralph <small>(music)</small>; Anohni <small>(lyrics)</small>"
+    },
+    {
+      "year": "Youth (2015 film)",
+      "film": "\"Simple Song Number 3\"",
+      "song": "David Lang (composer) <small>(music & lyrics)</small>"
+    },
+    { "year": "2016,89th Academy Awards ," },
+    {
+      "year": "La La Land",
+      "film": "\"City of Stars\"",
+      "song": "Justin Hurwitz <small>(music)</small>; Pasek and Paul <small>(lyrics)</small>"
+    },
+    {
+      "year": "Jim: The James Foley Story",
+      "film": "\"The Empty Chair (song)\"",
+      "song": "J. Ralph & Sting (musician) <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "La La Land",
+      "film": "\"Audition (The Fools Who Dream)\"",
+      "song": "Hurwitz <small>(music)</small>; Pasek & Paul <small>(lyrics)</small>"
+    },
+    {
+      "year": "Moana (2016 film)",
+      "film": "\"How Far I'll Go\"",
+      "song": "Lin-Manuel Miranda <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Trolls (film)",
+      "film": "\"Can't Stop the Feeling!\"",
+      "song": "Max Martin, Shellback (record producer) & Justin Timberlake <small>(music & lyrics)</small>"
+    },
+    { "year": "2017,90th Academy Awards ," },
+    {
+      "year": "Coco (2017 film)",
+      "film": "\"Remember Me (Coco song)\"",
+      "song": "Kristen Anderson-Lopez & Robert Lopez <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Call Me by Your Name (film)",
+      "film": "\"Mystery of Love\"",
+      "song": "Sufjan Stevens <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Greatest Showman",
+      "film": "\"This Is Me (Keala Settle song)\"",
+      "song": "Pasek and Paul <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Marshall (film)",
+      "film": "\"Stand Up for Something\"",
+      "song": "Diane Warren <small>(music)</small>; Common (rapper) & Warren <small>(lyrics)</small>"
+    },
+    {
+      "year": "Mudbound (film)",
+      "film": "\"Mighty River (song)\"",
+      "song": "Mary J. Blige, Raphael Saadiq & Taura Stinson <small>(music & lyrics)</small>"
+    },
+    { "year": "2018,91st Academy Awards ," },
+    {
+      "year": "A Star Is Born (2018 film)",
+      "film": "\"Shallow (Lady Gaga and Bradley Cooper song)\"",
+      "song": "Lady Gaga, Mark Ronson, Anthony Rossomando & Andrew Wyatt  <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Ballad of Buster Scruggs",
+      "film": "\"When a Cowboy Trades His Spurs for Wings\"",
+      "song": "David Rawlings & Gillian Welch <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Black Panther (film)",
+      "film": "\"All the Stars\"",
+      "song": "Kendrick Lamar, Sounwave & Anthony Tiffith <small>(music)</small>; Lamar, SZA (singer) & Tiffith <small>(lyrics)</small>"
+    },
+    {
+      "year": "Mary Poppins Returns",
+      "film": "\"The Place Where Lost Things Go\"",
+      "song": "Marc Shaiman <small>(music)</small>; Shaiman & Scott Wittman <small>(lyrics)</small>"
+    },
+    {
+      "year": "RBG (film)",
+      "film": "\"I'll Fight\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    { "year": "2019,92nd Academy Awards" },
+    {
+      "year": "Rocketman (film)",
+      "film": "\"(I'm Gonna) Love Me Again\"",
+      "song": "Elton John <small>(music)</small>; Bernie Taupin <small>(lyrics)</small>"
+    },
+    {
+      "year": "Breakthrough (2019 film)",
+      "film": "\"I'm Standing with You\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Frozen II",
+      "film": "\"Into the Unknown (song)\"",
+      "song": "Kristen Anderson-Lopez & Robert Lopez <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Harriet (film)",
+      "film": "\"Stand Up (Cynthia Erivo song)\"",
+      "song": "Joshuah Brian Campbell & Cynthia Erivo <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Toy Story 4",
+      "film": "\"I Can't Let You Throw Yourself Away\"",
+      "song": "Randy Newman <small>(music & lyrics)</small>"
+    }
+  ],
+  [
+    {
+      "year": "2020 in film,93rd Academy Awards ,",
+      "film": "Judas and the Black Messiah",
+      "song": "\"Fight for You (H.E.R. song)\"",
+      "nominees": "D'Mile & H.E.R. <small>(music)</small>; H.E.R. & Tiara Thomas <small>(lyrics)</small>"
+    },
+    {
+      "year": "Eurovision Song Contest: The Story of Fire Saga",
+      "film": "\"Husavik (song)\"",
+      "song": "Rickard Göransson, Fat Max Gsus & Savan Kotecha <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Life Ahead (film)",
+      "film": "\"Io sì (Seen)\"",
+      "song": "Diane Warren <small>(music)</small>; Laura Pausini & Warren <small>(lyrics)</small>"
+    },
+    {
+      "year": "One Night in Miami...",
+      "film": "\"Speak Now\"",
+      "song": "Sam Ashworth (songwriter) & Leslie Odom Jr. <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "The Trial of the Chicago 7",
+      "film": "\"Hear My Voice\"",
+      "song": "Daniel Pemberton <small>(music)</small>; Celeste (singer) & Pemberton <small>(lyrics)</small>"
+    },
+    {
+      "year": "2021 in film,94th Academy Awards ,",
+      "film": "No Time to Die",
+      "song": "\"No Time to Die (song)\"",
+      "nominees": "Billie Eilish & Finneas O'Connell <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Belfast (film)",
+      "film": "\"Down to Joy\"",
+      "song": "Van Morrison <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Encanto",
+      "film": "\"Dos Oruguitas\"",
+      "song": "Lin-Manuel Miranda <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Four Good Days",
+      "film": "\"Somehow You Do\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "King Richard (film)",
+      "film": "\"Be Alive\"",
+      "song": "Beyoncé & Darius Scott <small>(music & lyrics)</small>"
+    },
+    { "year": "2022 in film,95th Academy Awards ," },
+    {
+      "year": "RRR",
+      "film": "\"Naatu Naatu\"",
+      "song": "M. M. Keeravani <small>(music)</small>; Chandrabose (lyricist) <small>(lyrics)</small>"
+    },
+    {
+      "year": "Black Panther: Wakanda Forever",
+      "film": "\"Lift Me Up (Rihanna song)\"",
+      "song": "Ryan Coogler, Ludwig Göransson, Rihanna & Tems <small>(music)</small>; Coogler & Tems <small>(lyrics)</small>"
+    },
+    {
+      "year": "Everything Everywhere All at Once",
+      "film": "\"This Is a Life\"",
+      "song": "David Byrne, Ryan Lott & Mitski <small>(music)</small>; Byrne & Lott <small>(lyrics)</small>"
+    },
+    {
+      "year": "Tell It Like a Woman",
+      "film": "\"Applause\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Top Gun: Maverick",
+      "film": "\"Hold My Hand (Lady Gaga song)\"",
+      "song": "BloodPop & Lady Gaga <small>(music & lyrics)</small>"
+    },
+    { "year": "2023 in film,96th Academy Awards ," },
+    {
+      "year": "American Symphony (film)",
+      "film": "\"It Never Went Away\"",
+      "song": "Jon Batiste & Dan Wilson (musician) <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Barbie (film)",
+      "film": "\"I'm Just Ken\",\"What Was I Made For?\"",
+      "song": "Mark Ronson & Andrew Wyatt <small>(music & lyrics)</small>,Billie Eilish & Finneas O'Connell <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Flamin' Hot",
+      "film": "\"The Fire Inside\"",
+      "song": "Diane Warren <small>(music & lyrics)</small>"
+    },
+    {
+      "year": "Killers of the Flower Moon (film)",
+      "film": "\"Wahzhazhe (A Song for My People)\"",
+      "song": "Scott George <small>(music & lyrics)</small>"
+    }
+  ]
+]

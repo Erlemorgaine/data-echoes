@@ -1,0 +1,140 @@
+[
+  { "year": 2010, "actor": "Christian Bale", "movie": "The Fighter" },
+  { "year": 2010, "actor": "John Hawkes", "movie": "Winter's Bone" },
+  { "year": 2010, "actor": "Jeremy Renner", "movie": "The Town" },
+  { "year": 2010, "actor": "Mark Ruffalo", "movie": "The Kids Are All Right" },
+  { "year": 2010, "actor": "Geoffrey Rush", "movie": "The King's Speech" },
+  { "year": 2011, "actor": "Christopher Plummer", "movie": "Beginners" },
+  { "year": 2011, "actor": "Kenneth Branagh", "movie": "My Week with Marilyn" },
+  { "year": 2011, "actor": "Jonah Hill", "movie": "Moneyball" },
+  { "year": 2011, "actor": "Nick Nolte", "movie": "Warrior" },
+  {
+    "year": 2011,
+    "actor": "Max von Sydow",
+    "movie": "Extremely Loud & Incredibly Close"
+  },
+  { "year": 2012, "actor": "Christoph Waltz", "movie": "Django Unchained" },
+  { "year": 2012, "actor": "Alan Arkin", "movie": "Argo" },
+  {
+    "year": 2012,
+    "actor": "Robert De Niro",
+    "movie": "Silver Linings Playbook"
+  },
+  { "year": 2012, "actor": "Philip Seymour Hoffman", "movie": "The Master" },
+  { "year": 2012, "actor": "Tommy Lee Jones", "movie": "Lincoln" },
+  { "year": 2013, "actor": "Jared Leto", "movie": "Dallas Buyers Club" },
+  { "year": 2013, "actor": "Barkhad Abdi", "movie": "Captain Phillips" },
+  { "year": 2013, "actor": "Bradley Cooper", "movie": "American Hustle" },
+  { "year": 2013, "actor": "Michael Fassbender", "movie": "12 Years a Slave" },
+  { "year": 2013, "actor": "Jonah Hill", "movie": "The Wolf of Wall Street" },
+  { "year": 2014, "actor": "J. K. Simmons", "movie": "Whiplash" },
+  { "year": 2014, "actor": "Robert Duvall", "movie": "The Judge" },
+  { "year": 2014, "actor": "Ethan Hawke", "movie": "Boyhood" },
+  { "year": 2014, "actor": "Edward Norton", "movie": "Birdman" },
+  { "year": 2014, "actor": "Mark Ruffalo", "movie": "Foxcatcher" },
+  { "year": 2015, "actor": "Mark Rylance", "movie": "Bridge of Spies" },
+  { "year": 2015, "actor": "Christian Bale", "movie": "The Big Short" },
+  { "year": 2015, "actor": "Tom Hardy", "movie": "The Revenant" },
+  { "year": 2015, "actor": "Mark Ruffalo", "movie": "Spotlight" },
+  { "year": 2015, "actor": "Sylvester Stallone", "movie": "Creed" },
+  { "year": 2016, "actor": "Mahershala Ali", "movie": "Moonlight" },
+  { "year": 2016, "actor": "Jeff Bridges", "movie": "Hell or High Water" },
+  { "year": 2016, "actor": "Lucas Hedges", "movie": "Manchester by the Sea" },
+  { "year": 2016, "actor": "Dev Patel", "movie": "Lion" },
+  { "year": 2016, "actor": "Michael Shannon", "movie": "Nocturnal Animals" },
+  {
+    "year": 2017,
+    "actor": "Sam Rockwell",
+    "movie": "Three Billboards Outside Ebbing, Missouri"
+  },
+  { "year": 2017, "actor": "Willem Dafoe", "movie": "The Florida Project" },
+  {
+    "year": 2017,
+    "actor": "Woody Harrelson",
+    "movie": "Three Billboards Outside Ebbing, Missouri"
+  },
+  { "year": 2017, "actor": "Richard Jenkins", "movie": "The Shape of Water" },
+  {
+    "year": 2017,
+    "actor": "Christopher Plummer",
+    "movie": "All the Money in the World"
+  },
+  { "year": 2018, "actor": "Mahershala Ali", "movie": "Green Book" },
+  { "year": 2018, "actor": "Adam Driver", "movie": "BlacKkKlansman" },
+  { "year": 2018, "actor": "Sam Elliott", "movie": "A Star Is Born" },
+  {
+    "year": 2018,
+    "actor": "Richard E. Grant",
+    "movie": "Can You Ever Forgive Me?"
+  },
+  { "year": 2018, "actor": "Sam Rockwell", "movie": "Vice" },
+  {
+    "year": 2019,
+    "actor": "Brad Pitt",
+    "movie": "Once Upon a Time in Hollywood"
+  },
+  {
+    "year": 2019,
+    "actor": "Tom Hanks",
+    "movie": "A Beautiful Day in the Neighborhood"
+  },
+  { "year": 2019, "actor": "Anthony Hopkins", "movie": "The Two Popes" },
+  { "year": 2019, "actor": "Al Pacino", "movie": "The Irishman" },
+  { "year": 2019, "actor": "Joe Pesci", "movie": "The Irishman" },
+  {
+    "year": 2020,
+    "actor": "Daniel Kaluuya",
+    "movie": "Judas and the Black Messiah"
+  },
+  {
+    "year": 2020,
+    "actor": "Sacha Baron Cohen",
+    "movie": "The Trial of the Chicago 7"
+  },
+  {
+    "year": 2020,
+    "actor": "Leslie Odom Jr.",
+    "movie": "One Night in Miami..."
+  },
+  { "year": 2020, "actor": "Paul Raci", "movie": "Sound of Metal" },
+  {
+    "year": 2020,
+    "actor": "LaKeith Stanfield",
+    "movie": "Judas and the Black Messiah"
+  },
+  { "year": 2021, "actor": "Troy Kotsur", "movie": "CODA" },
+  { "year": 2021, "actor": "Ciarán Hinds", "movie": "Belfast" },
+  { "year": 2021, "actor": "Jesse Plemons", "movie": "The Power of the Dog" },
+  { "year": 2021, "actor": "J. K. Simmons", "movie": "Being the Ricardos" },
+  {
+    "year": 2021,
+    "actor": "Kodi Smit-McPhee",
+    "movie": "The Power of the Dog"
+  },
+  {
+    "year": 2022,
+    "actor": "Ke Huy Quan",
+    "movie": "Everything Everywhere All at Once"
+  },
+  {
+    "year": 2022,
+    "actor": "Brendan Gleeson",
+    "movie": "The Banshees of Inisherin"
+  },
+  { "year": 2022, "actor": "Brian Tyree Henry", "movie": "Causeway" },
+  { "year": 2022, "actor": "Judd Hirsch", "movie": "The Fabelmans" },
+  {
+    "year": 2022,
+    "actor": "Barry Keoghan",
+    "movie": "The Banshees of Inisherin"
+  },
+  { "year": 2023, "actor": "Sterling K. Brown", "movie": "American Fiction" },
+  {
+    "year": 2023,
+    "actor": "Robert De Niro",
+    "movie": "Killers of the Flower Moon"
+  },
+  { "year": 2023, "actor": "Robert Downey Jr.", "movie": "Oppenheimer" },
+  { "year": 2023, "actor": "Ryan Gosling", "movie": "Barbie" },
+  { "year": 2023, "actor": "Mark Ruffalo", "movie": "Poor Things" }
+]
