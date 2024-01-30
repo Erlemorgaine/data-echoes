@@ -37,14 +37,7 @@
     "successor": null,
     "url": "http://awoiaf.westeros.org/index.php/Addam_Velaryon"
   },
-  {
-    "name": "Addam Whitehead",
-    "allegiance": ["House Whitehead"],
-    "father": "House Whitehead",
-    "predecessor": null,
-    "successor": null,
-    "url": "http://awoiaf.westeros.org/index.php/Addam_Whitehead"
-  },
+  
   {
     "name": "Adrack Humble",
     "allegiance": ["House Humble", "House Greyjoy"],
@@ -355,7 +348,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Aerion_Targaryen"
   },
   {
-    "name": "Aerion Targaryen[1]",
+    "name": "Aerion Targaryen (son of Daemion)",
     "allegiance": ["House Targaryen"],
     "spouse": ["Valaena Velaryon"],
     "father": "Daemion Targaryen",
@@ -373,7 +366,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Aeron_Greyjoy"
   },
   {
-    "name": "Aerys Targaryen[1]",
+    "name": "Aerys Targaryen (son of Aegon)",
     "allegiance": ["House Targaryen"],
     "father": "Aegon Targaryen (son of Gaemon)",
     "mother": "Elaena Targaryen (daughter of Gaemon)",
@@ -1340,7 +1333,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Baela_Targaryen"
   },
   {
-    "name": "Baelon Targaryen[1]",
+    "name": "Baelon Targaryen (son of Aerys)",
     "allegiance": ["House Targaryen"],
     "father": "Aerys Targaryen (son of Aegon)",
     "predecessor": null,
@@ -2649,7 +2642,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Daemion_Velaryon"
   },
   {
-    "name": "Daemion Targaryen[1]",
+    "name": "Daemion Targaryen",
     "allegiance": ["House Targaryen"],
     "father": "Aerys Targaryen (son of Aegon)",
     "predecessor": null,
@@ -4028,7 +4021,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Gaemon_Palehair"
   },
   {
-    "name": "Gaemon Targaryen[1]",
+    "name": "Gaemon Targaryen (son of Aenar)",
     "allegiance": ["House Targaryen"],
     "spouse": ["Daenys Targaryen"],
     "father": "Aenar Targaryen",
@@ -6974,7 +6967,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Manfred_Hightower_(Aegon%27s_Conquest)"
   },
   {
-    "name": "Manfred Hightower",
+    "name": "Manfred Hightower (son of Addam)",
     "allegiance": ["House Hightower"],
     "father": "Addam Hightower",
     "predecessor": ["Addam Hightower"],
@@ -9221,7 +9214,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Rollam_Westerling"
   },
   {
-    "name": "Rolland Storm[1]",
+    "name": "Rolland Storm",
     "allegiance": ["House Caron", "House Baratheon of Dragonstone"],
     "father": "Bryen Caron",
     "predecessor": null,

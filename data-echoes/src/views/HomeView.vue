@@ -16,7 +16,7 @@ const themes = [
   'Olympics',
   'Fearless',
 ]
-const activeThemes = ['Nostalgia', 'Music', 'Culture']
+const activeThemes = ['Nostalgia', 'Music', 'Culture', 'Presidents & Royals']
 
 useMeta({
   title: 'Home',
@@ -69,7 +69,10 @@ onMounted(() =>
               'home-view__content__themes__link',
               { disabled: !activeThemes.includes(theme) },
             ]"
-            :to="{ name: 'theme', params: { theme: theme.toLowerCase() } }"
+            :to="{
+              name: 'theme',
+              params: { theme: theme.toLowerCase().replaceAll('& ', '').replaceAll(' ', '-') },
+            }"
           >
             <span>{{ `${i + 1}.` }}</span>
 

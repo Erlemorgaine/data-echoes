@@ -19,14 +19,14 @@
     },
     "links": [
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/14474922-tongseng-kambing-javanese-sweet-soy-sauce-lamb-stew"
       },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/tongseng-kambing-javanese-spiced-mutton-soup/"
       },
-      { "site": "indorecipe", "link": "https://www.indorecipe.com/2023/06/17/tongseng-kambing/" }
+      { "site": "Indo Recipe", "link": "https://www.indorecipe.com/2023/06/17/tongseng-kambing/" }
     ],
     "description": "Spicy goat stew with sweet soy sauce, coconut milk, and various spices."
   },
@@ -49,12 +49,15 @@
     },
     "links": [
       {
-        "site": "saltnturmeric",
+        "site": "Salt N Turmeric",
         "link": "http://saltnturmeric.blogspot.com/2008/08/malay-styled-omelette-telur-dadar.html"
       },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/dadar-telur-padang.html" },
       {
-        "site": "cookpad",
+        "site": "What to Cook Today",
+        "link": "https://whattocooktoday.com/dadar-telur-padang.html"
+      },
+      {
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/6490839-telur-dadar-daun-bawang-scallions-omelette"
       }
     ],
@@ -79,12 +82,12 @@
       "kelapa-santan": 9
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tahubacem.html" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/tahubacem.html" },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tahu-tempeh-bacem.html"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/13371338-tempeh-tempe-bacem" }
+      { "site": "Cookpad", "link": "https://cookpad.com/us/recipes/13371338-tempeh-tempe-bacem" }
     ],
     "description": "Sweet and savory fried tempeh marinated in palm sugar, coriander, and galangal."
   },
@@ -105,14 +108,17 @@
     },
     "links": [
       {
-        "site": "recipeswecherish",
+        "site": "Recipes We Cherish",
         "link": "https://recipeswecherish.com/2015/07/13/scrambled-eggs-with-cabbage-orak-arik-telur/"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/orak-arik-buncis-wortel-green-bean-carrot-and-egg-stir-fry.html"
       },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/orak-arik-tahu-telur.html" }
+      {
+        "site": "What to Cook Today",
+        "link": "https://whattocooktoday.com/orak-arik-tahu-telur.html"
+      }
     ],
     "description": "Stir-fried scrambled eggs with vegetables like tomatoes, onions, and green chilies."
   },
@@ -135,12 +141,12 @@
     },
     "links": [
       {
-        "site": "vforveggy",
+        "site": "V for Veggy",
         "link": "https://vforveggy.com/telur-balado-indonesian-spicy-eggs.html"
       },
-      { "site": "poshjournal", "link": "https://poshjournal.com/telur-balado-recipe" },
+      { "site": "Posh Journal", "link": "https://poshjournal.com/telur-balado-recipe" },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/telur-balado-eggs-with-chili-sauce.html"
       }
     ],
@@ -167,14 +173,17 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/kering-tempeh-fried-tempeh-with-sweet-and-spicy-glace.html"
       },
       {
-        "site": "lovethatbite",
+        "site": "Love That Bite",
         "link": "http://lovethatbite.com/recipe/crispy-tempeh-kering-tempe/"
       },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/kering-tempeh-kacang.html" }
+      {
+        "site": "What to Cook Today",
+        "link": "https://whattocooktoday.com/kering-tempeh-kacang.html"
+      }
     ],
     "description": "Crispy and savory tempeh dish cooked with sweet soy sauce, garlic, and shallots."
   },
@@ -198,11 +207,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/gulai-kambing-indonesian-lamb-curry.html"
       },
       {
-        "site": "lovethatbite",
+        "site": "Love That Bite",
         "link": "http://lovethatbite.com/recipe/indonesian-lamb-curry-gulai-kambing/"
       },
       {
@@ -231,12 +240,12 @@
     },
     "links": [
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/nasi-kebuli-biryani-rice-with-fried-chicken.html"
       },
-      { "site": "soyummyrecipes", "link": "https://soyummyrecipes.com/nasi-kebuli/" },
+      { "site": "So Yummy Recipes", "link": "https://soyummyrecipes.com/nasi-kebuli/" },
       {
-        "site": "dasterkhawan",
+        "site": "Daster Khawan",
         "link": "https://dasterkhawan.com/recipe-of-nasi-kebuli-kebuli-rice/recipes395.html"
       }
     ],
@@ -263,12 +272,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tempeh-kecap-fried-tempeh-in-sweet-soy-sauce.html"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
+      { "site": "Cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
       {
-        "site": "kitchenthinking",
+        "site": "Kitchen Thinking",
         "link": "https://kitchenthinking.home.blog/2020/03/10/tempe-orek-indonesian-tempeh-stir-fry/"
       }
     ],
@@ -292,15 +301,15 @@
     },
     "links": [
       {
-        "site": "thefoodietakesflight",
+        "site": "The Foodie Takes Flight",
         "link": "https://thefoodietakesflight.com/stir-fried-tempeh-with-kecap-manis/"
       },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/oseng-oseng-tempe-stir-fried-tempe/"
       },
       {
-        "site": "foodandspice",
+        "site": "Food and Spice",
         "link": "https://www.foodandspice.com/2008/05/oseng-oseng-tempe.html"
       }
     ],
@@ -322,12 +331,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/sapi-lada-hitam-beef-with-black-pepper-sauce.html"
       },
-      { "site": "bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
+      { "site": "Bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
       {
-        "site": "asiancook",
+        "site": "Asian Cook",
         "link": "https://www.asiancook.eu/indonesian/daging/2705-sapi-lada-hitam-fried-beef-in-black-pepper-sauce"
       }
     ],
@@ -352,11 +361,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
       },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tempeh-mendoan.html" },
-      { "site": "protempeh", "link": "https://www.protempeh.com/tempeh-mendoan" }
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/tempeh-mendoan.html" },
+      { "site": "Pro Tempeh", "link": "https://www.protempeh.com/tempeh-mendoan" }
     ],
     "description": "Crispy fried tempeh slices, often served as a snack."
   },
@@ -380,14 +389,14 @@
     },
     "links": [
       {
-        "site": "dentistvschef",
+        "site": "Dentist vs Chef",
         "link": "https://dentistvschef.wordpress.com/2013/01/11/resep-sate-udang-madu-asam-manis-asian-sweet-and-sour-grilled-shrimp-skewer/"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Acar%20Asam%20Manis%20(Pickle%20Sweet%20and%20Sour%20Shrimp)"
       },
-      { "site": "cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753539" }
+      { "site": "Cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753539" }
     ],
     "description": "Sweet and sour shrimp dish with a delicious tamarind-based sauce."
   },
@@ -409,8 +418,8 @@
       "kelapa-santan": 67
     },
     "links": [
-      { "site": "soyummyrecipes", "link": "https://soyummyrecipes.com/opor-ayam-recipe/" },
-      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/opor-ayam.html" },
+      { "site": "So Yummy Recipes", "link": "https://soyummyrecipes.com/opor-ayam-recipe/" },
+      { "site": "Daily Cooking Quest", "link": "https://dailycookingquest.com/opor-ayam.html" },
       {
         "site": "allrecipes",
         "link": "https://www.allrecipes.com/recipe/264501/opor-ayam-chicken-in-coconut-milk/"
@@ -436,12 +445,12 @@
       "kelapa-santan": 55
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/tongseng-sapi.html" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/tongseng-sapi.html" },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2021/07/05/tongseng-sapi-indonesian-sweet-and-creamy-beef-soup/"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/id/resep/10350170-tongseng-daging-sapi" }
+      { "site": "Cookpad", "link": "https://cookpad.com/id/resep/10350170-tongseng-daging-sapi" }
     ],
     "description": "Spicy beef stew with sweet soy sauce, coconut milk, and a mix of spices."
   },
@@ -463,11 +472,11 @@
     },
     "links": [
       {
-        "site": "chilipeppermadness",
+        "site": "Chili Pepper Madness",
         "link": "https://www.chilipeppermadness.com/recipes/udang-balado/"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/balado-udang-shrimps-in-spicy-chili-sauce.html"
       },
       {
@@ -495,15 +504,15 @@
     },
     "links": [
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2020/09/10/pepes-tahu-udang-jamur-steamed-and-grilled-mash-tofu-with-spices-in-banana-leaves/"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Pepes%20Tahu%20(Steamed%20Spiced%20Tofu%20Cooked%20in%20Banana%20Leave)"
       },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/pepes-tahu-jamur-tofu-mushroom-steamed-in-banana-leaves/"
       }
     ],
@@ -527,14 +536,14 @@
     },
     "links": [
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Saus%20Tiram%20(Shrimp%20in%20Oyster%20Sauce)"
       },
       {
-        "site": "bigoven",
+        "site": "Big Oven",
         "link": "https://www.bigoven.com/recipe/udang-saus-padang-tiram/2754321"
       },
-      { "site": "bango", "link": "https://www.bango.co.id/r/resep-udang-saus-tiram.html/242813" }
+      { "site": "Bango", "link": "https://www.bango.co.id/r/resep-udang-saus-tiram.html/242813" }
     ],
     "description": "Shrimp cooked in a savory oyster sauce-based gravy."
   },
@@ -554,12 +563,12 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/perkedel-tahu.html" },
+      { "site": "Daily Cooking Quest", "link": "https://dailycookingquest.com/perkedel-tahu.html" },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/perkedel-tahu-deep-fried-tofu-fritters/"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/ke/search/perkedel%20tahu" }
+      { "site": "Cookpad", "link": "https://cookpad.com/ke/search/perkedel%20tahu" }
     ],
     "description": "Fried tofu patties, typically mixed with vegetables and spices."
   },
@@ -583,7 +592,7 @@
     "links": [
       { "site": "tasteatlas", "link": "https://www.tasteatlas.com/nasi-goreng-kambing/recipe" },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/nasi-goreng-kambing-mutton-or-lamb-fried-rice/"
       },
       { "site": "tasteatlas", "link": "https://www.tasteatlas.com/nasi-goreng-kambing" }
@@ -609,15 +618,15 @@
     },
     "links": [
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/14459618-indonesian-deep-fried-stuffed-tofu-tahu-isi"
       },
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/indonesian-stuffed-tofu-tahu-isi.html"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Tahu%20Isi%20(Deep%20Fried%20Tofu%20Stuffed%20with%20Vegetables)"
       }
     ],
@@ -643,11 +652,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/sate-kambing-lamb-satay.html"
       },
       {
-        "site": "petitchef",
+        "site": "Petit Chef",
         "link": "https://en.petitchef.com/recipes/main-dish/lamb-satay-sate-kambing-fid-1502995"
       },
       { "site": "wikipedia", "link": "https://en.wikipedia.org/wiki/Sate_kambing" }
@@ -673,13 +682,13 @@
       "kelapa-santan": 1
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sayur-asem.html" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/sayur-asem.html" },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/asem-asem-terong-sour-and-spicy-eggplant-stew.html"
       },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2023/05/05/garang-asem-ayam-tanpa-santan-indonesia-traditional-chicken-soup-wrapped-in-banana-leaves/"
       }
     ],
@@ -709,11 +718,11 @@
         "link": "https://pengskitchen.blogspot.com/2012/11/pindang-ikan.html"
       },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/7412101-pindang-ikan-kembung-clear-turmeric-fish-soup"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/pindang-salmon-salmon-in-spicy-and-sour-soup.html"
       }
     ],
@@ -766,11 +775,11 @@
     },
     "links": [
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/salt-pepper-chili-tofu.html"
       },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/6567234-tahu-cabai-garam-tofu-with-spicy-garlic-and-chilli"
       },
       { "site": "jrfood10", "link": "https://jrfood10.com/recipe/tahu-cabe-garam-salt-chili-tofu/" }
@@ -796,7 +805,7 @@
     },
     "links": [
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/tumis-tempe-kacang-panjang-stir-fried-tempeh-with-long-beans-vegan/"
       },
       {
@@ -886,15 +895,15 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/udang-saos-padang-shrimp-with-sweet-and-sour-chili-sauce.html"
       },
       {
-        "site": "bigoven",
+        "site": "Big Oven",
         "link": "https://www.bigoven.com/recipe/udang-saus-padang-tiram/2754321"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Udang%20Saus%20Padang%20(Shrimp%20in%20Chili%20Sauce)"
       }
     ],
@@ -921,7 +930,7 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/rendang-sapi-padang-padang-style-beef-rendang.html"
       },
       {
@@ -959,7 +968,7 @@
         "site": "greedygourmet",
         "link": "https://www.greedygourmet.com/recipes-by-course/main-course/mie-ayam/"
       },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/mie-ayam-jamur.html" }
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/mie-ayam-jamur.html" }
     ],
     "description": "Chicken noodle soup with shredded chicken, noodles, and savory broth."
   },
@@ -990,7 +999,7 @@
         "link": "https://aishahcooks.wordpress.com/2019/07/28/sambal-tumis-udang-petai/"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/udang-tumis-pedas-spicy-shrimp-stirfry.html"
       }
     ],
@@ -1011,11 +1020,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/martabak-tahu-pancake-stuffed-tofu.html"
       },
       { "site": "beryl", "link": "https://www.beryl.nyc/index.php/2023/05/16/martabak-tahu/" },
-      { "site": "cookpad", "link": "https://cookpad.com/id/resep/799693-martabak-tahu-mini-crispy" }
+      { "site": "Cookpad", "link": "https://cookpad.com/id/resep/799693-martabak-tahu-mini-crispy" }
     ],
     "description": "Fried stuffed tofu, often filled with a mixture of vegetables and sometimes meat."
   },
@@ -1033,7 +1042,7 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753540" },
+      { "site": "Cookidoo", "link": "https://cookidoo.thermomix.com/recipes/recipe/en-US/r753540" },
       {
         "site": "fimela",
         "link": "https://www.fimela.com/food/read/5226384/resep-udang-telur-asin-ala-dcost"
@@ -1065,7 +1074,7 @@
     },
     "links": [
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/tahu-telur-tofu-omelettes.html"
       },
       { "site": "bellycheapcook", "link": "https://www.bellycheapcook.com/tahu-telur/" },
@@ -1095,15 +1104,15 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/telur-bumbu-bali-eggs-in-balinese-sauce.html"
       },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/2832248-spiced-egg-and-tofu-telur-tahu-bumbu-bali"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Telur%20Bumbu%20Bali%20(Hard%20Boiled%20Egg%20in%20Balinese%20Spices)"
       }
     ],
@@ -1129,7 +1138,7 @@
         "link": "https://karinisafrauenfeld.blogspot.com/2012/07/tempe-goreng-tepung-flours-coating.html"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
       },
       {
@@ -1153,12 +1162,15 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sapo-tahu-seafood.html" },
       {
-        "site": "indonesiancooking101",
+        "site": "What to Cook Today",
+        "link": "https://whattocooktoday.com/sapo-tahu-seafood.html"
+      },
+      {
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Sapo%20Tahu%20(Clay%20Pot%20Tofu)"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/16286082-sapo-tahu" }
+      { "site": "Cookpad", "link": "https://cookpad.com/us/recipes/16286082-sapo-tahu" }
     ],
     "description": "Tofu and vegetable stew, typically cooked in a clay pot."
   },
@@ -1182,7 +1194,7 @@
         "link": "http://mykeluarga.com/uncategorized/tempe-melet-or-tempe-mercun-explosive/"
       },
       {
-        "site": "steemit",
+        "site": "Steemit",
         "link": "https://steemit.com/food/@popif3a/how-to-make-tempe-melet-tempe-presence-534a83b166ec6"
       },
       { "site": "pinterest", "link": "https://www.pinterest.com/pin/756956649847845685/" }
@@ -1209,7 +1221,7 @@
     },
     "links": [
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2020/01/25/rawon-daging-indonesian-herbed-black-beef-soup/"
       },
       {
@@ -1233,8 +1245,8 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "pisangsusu", "link": "https://pisangsusu.com/402-mireng-udang-shrimp-fritters/" },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/cucur-udang.html" },
+      { "site": "Pisang Susu", "link": "https://pisangsusu.com/402-mireng-udang-shrimp-fritters/" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/cucur-udang.html" },
       {
         "site": "lidiasianturi",
         "link": "http://lidiasianturi.blogspot.com/2008/04/crispy-prawn-fritter-gimbal-udang.html"
@@ -1260,13 +1272,13 @@
       "kelapa-santan": 1
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/telur-pindang.html" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/telur-pindang.html" },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/telur-pindang-javanese-braised-eggs.html"
       },
       {
-        "site": "food.com",
+        "site": "Food.com",
         "link": "https://www.food.com/recipe/indonesian-marbled-hard-boiled-eggs-or-telur-pindang-462574"
       }
     ],
@@ -1289,9 +1301,12 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "bonappetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
-      { "site": "nomadette", "link": "https://nomadette.com/authentic-sambal-goreng/" },
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/sambal-goreng-tempeh.html" }
+      { "site": "Bon Appetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
+      { "site": "Nomadette", "link": "https://nomadette.com/authentic-sambal-goreng/" },
+      {
+        "site": "What to Cook Today",
+        "link": "https://whattocooktoday.com/sambal-goreng-tempeh.html"
+      }
     ],
     "description": "Spicy and aromatic fried tempeh dish, often served as a side dish."
   },
@@ -1311,10 +1326,10 @@
     },
     "links": [
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/tempe-goreng-deep-fried-tempeh-vegan/"
       },
-      { "site": "bonappetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
+      { "site": "Bon Appetit", "link": "https://www.bonappetit.com/recipe/sambal-goreng-tempe" },
       {
         "site": "alphafoodie",
         "link": "https://www.alphafoodie.com/simple-indonesian-fried-tempeh/"
@@ -1345,9 +1360,9 @@
         "site": "belindo",
         "link": "http://www.belindo.com/indonesia/indonesian-recipes/lamb-and-goat/krengsengan-kambing/221"
       },
-      { "site": "howtobali", "link": "https://howtobali.com/food/krengsengan-kambing/" },
+      { "site": "How to Bali", "link": "https://howtobali.com/food/krengsengan-kambing/" },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/10235579-krengsengan-kambing-spicy-stir-fry-lamb"
       }
     ],
@@ -1373,7 +1388,7 @@
     },
     "links": [
       {
-        "site": "indonesiaoriginalrecipes",
+        "site": "Indonesia Original Recipes",
         "link": "http://indonesiaoriginalrecipes.blogspot.com/2012/11/goat-tengkleng-tengkleng-kambing.html"
       },
       { "site": "shutterstock", "link": "https://www.shutterstock.com/search/tengkleng-lambing" },
@@ -1398,11 +1413,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/udang-pedas-manis-sweet-and-spicy-shrimps.html"
       },
       { "site": "pinterest", "link": "https://www.pinterest.com/pin/792844709375520909/" },
-      { "site": "cookpad", "link": "https://cookpad.com/id/cari/udang%20pedas%20manis" }
+      { "site": "Cookpad", "link": "https://cookpad.com/id/cari/udang%20pedas%20manis" }
     ],
     "description": "Sweet and spicy shrimp dish with a delightful balance of flavors."
   },
@@ -1423,7 +1438,7 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/mendol-tempe-deep-fried-spicy-soy-bean-cake.html"
       },
       {
@@ -1431,7 +1446,7 @@
         "link": "https://www.pinterest.com/pin/mendol-tempe-deep-fried-spicy-soy-bean-cake--479000110362647760/"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tempeh-mendoan-deep-fried-tempeh-with-spiced-batter.html"
       }
     ],
@@ -1473,11 +1488,11 @@
     },
     "links": [
       {
-        "site": "soyummyrecipes",
+        "site": "So Yummy Recipes",
         "link": "https://soyummyrecipes.com/perkedel-tempe-indonesian-tempeh-fritters/"
       },
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/tempeh-cake-perkedel-tempeh.html"
       },
       { "site": "pisangsusu", "link": "https://pisangsusu.com/tempeh-balls/" }
@@ -1498,12 +1513,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/sapi-lada-hitam-beef-with-black-pepper-sauce.html"
       },
-      { "site": "bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
+      { "site": "Bango", "link": "https://www.bango.co.id/r/resep-sapi-lada-hitam.html/242815" },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/id/resep/15081984-sapi-lada-hitam-beef-blackpepper-ala-resto"
       }
     ],
@@ -1527,11 +1542,11 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tongseng-ayam-javanese-sweet-soy-sauce-chicken-stew.html"
       },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2020/12/20/tongseng-ayam/"
       },
       { "site": "pinterest", "link": "https://www.pinterest.com/pin/561120434831724349/" }
@@ -1553,12 +1568,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tahu-gejrot-cirebon-fried-tofu-in-chili-soy-sauce.html"
       },
-      { "site": "thesimplesprinkle", "link": "https://thesimplesprinkle.com/tahu-gejrot/" },
+      { "site": "The Simple Sprinkle", "link": "https://thesimplesprinkle.com/tahu-gejrot/" },
       {
-        "site": "notsolittletummy",
+        "site": "Not So Little Tummy",
         "link": "https://notsolittletummy.wordpress.com/2014/06/29/recipe-tahu-gejrot-tofu-fritters-with-indonesian-spicy-tamarind-sauce/"
       }
     ],
@@ -1580,7 +1595,7 @@
     },
     "links": [
       {
-        "site": "petitchef",
+        "site": "Petit Chef",
         "link": "https://en.petitchef.com/recipes/main-dish/fried-shrimps-with-indonesian-sweet-soy-sauce-udang-goreng-tepung-saus-kecap-manis-fid-761522"
       },
       {
@@ -1606,15 +1621,15 @@
     },
     "links": [
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/udang-saus-mentega-butter-prawns/"
       },
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/id/resep/533486-udang-saus-mentega-enak-kilat"
       },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/tag/udang-mentega-saos-inggris/"
       }
     ],
@@ -1671,12 +1686,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/tempeh-kecap-fried-tempeh-in-sweet-soy-sauce.html"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
+      { "site": "Cookpad", "link": "https://cookpad.com/us/recipes/9403971-orek-tempe" },
       {
-        "site": "bango",
+        "site": "Bango",
         "link": "https://www.bango.co.id/r/resep-orek-tempe-manis-pedas.html/242800"
       }
     ],
@@ -1698,12 +1713,12 @@
     },
     "links": [
       {
-        "site": "lemon8-app",
+        "site": "Lemon8-app",
         "link": "https://www.lemon8-app.com/discover/tempe%20jeletot%20goreng?region=us"
       },
       { "site": "instagram", "link": "https://www.instagram.com/anavia_/" },
       {
-        "site": "lemon8-app",
+        "site": "Lemon8-app",
         "link": "https://www.lemon8-app.com/sulviaanidahanum/7297440721890787842?region=us"
       }
     ],
@@ -1731,11 +1746,11 @@
         "link": "http://original-indonesian-recipe.blogspot.com/2009/11/mangut-lele-fried-catfish-in-spicy.html"
       },
       {
-        "site": "indonesiaoriginalrecipes",
+        "site": "Indonesia Original Recipes",
         "link": "http://indonesiaoriginalrecipes.blogspot.com/2012/11/dazed-catfish-mangut-lele.html"
       },
       {
-        "site": "kitchenesia",
+        "site": "Kitchenesia",
         "link": "https://kitchenesia.grid.id/read/382147209/rich-flavored-lele-goreng-mangut-makes-a-satisfying-lunch-dish"
       }
     ],
@@ -1756,15 +1771,15 @@
     },
     "links": [
       {
-        "site": "petitchef",
+        "site": "Petit Chef",
         "link": "https://en.petitchef.com/recipes/main-dish/nasi-goreng-belacan-udang-shrimp-paste-and-prawn-fried-rice-fid-1523541"
       },
       {
-        "site": "chilipeppermadness",
+        "site": "Chili Pepper Madness",
         "link": "https://www.chilipeppermadness.com/recipes/nasi-goreng/"
       },
       {
-        "site": "cookinggallery",
+        "site": "Cooking Gallery",
         "link": "http://cookinggallery.blogspot.com/2010/03/nasi-goreng-belanda.html"
       }
     ],
@@ -1787,12 +1802,15 @@
     },
     "links": [
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/id/resep/14965148-tumis-tempe-kacang-panjang"
       },
-      { "site": "www", "link": "https://www.royco.co.id/r/oseng-tempe-kacang-panjang.html/242008" },
       {
-        "site": "cookpad",
+        "site": "Royco",
+        "link": "https://www.royco.co.id/r/oseng-tempe-kacang-panjang.html/242008"
+      },
+      {
+        "site": "Cookpad",
         "link": "https://cookpad.com/id/resep/297902-oseng-tempe-kacang-panjang-simple"
       }
     ],
@@ -1811,11 +1829,11 @@
     },
     "links": [
       {
-        "site": "cookpad",
+        "site": "Cookpad",
         "link": "https://cookpad.com/us/recipes/11664406-tahu-fantasi-fried-tofu-with-quail-egg"
       },
       {
-        "site": "lemon8-app",
+        "site": "Lemon8-app",
         "link": "https://www.lemon8-app.com/zhea_zee/7205225791720931842?region=us"
       },
       { "site": "pinterest", "link": "https://www.pinterest.com/justdhee/indonesian-snacks/" }
@@ -1845,7 +1863,7 @@
         "site": "pinterest",
         "link": "https://www.pinterest.com/pin/gurame-asam-manis-carp-or-sea-bream-in-sweet-and-sour-sauce-indonesianfood-asian-s--116108496626557677/"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/id/resep/5710691-gurame-asam-manis" }
+      { "site": "Cookpad", "link": "https://cookpad.com/id/resep/5710691-gurame-asam-manis" }
     ],
     "description": "Sweet and sour gourami fish, cooked in a delicious tamarind-based sauce."
   },
@@ -1865,7 +1883,7 @@
     },
     "links": [
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2022/02/15/udang-goreng-mentega-stir-fry-butter-prawn-with-worcester-sauce/"
       },
       {
@@ -1873,7 +1891,7 @@
         "link": "http://www.jessicaneva.com/2014/04/udang-goreng-mentega-recipe/"
       },
       {
-        "site": "indonesiancooking101",
+        "site": "Indonesian Cooking 101",
         "link": "https://www.indonesiancooking101.com/catalog/?recipe_name=Ayam%20Goreng%20Mentega%20(Chicken%20in%20Sweet%20Butter%20Sauce)"
       }
     ],
@@ -1897,14 +1915,14 @@
     },
     "links": [
       {
-        "site": "recipetineats",
+        "site": "Recipe Tin Eats",
         "link": "https://www.recipetineats.com/ayam-goreng-malaysian-fried-chicken/"
       },
       {
-        "site": "yummytummyaarthi",
+        "site": "Yummy Tummy Aarthi",
         "link": "https://www.yummytummyaarthi.com/ayam-goreng-malaysian-fried-chicken/"
       },
-      { "site": "nomadette", "link": "https://nomadette.com/ayam-goreng/" }
+      { "site": "Nomadette", "link": "https://nomadette.com/ayam-goreng/" }
     ],
     "description": "Crispy and flavorful Indonesian fried chicken, often seasoned with a blend of spices."
   },
@@ -1920,14 +1938,14 @@
     },
     "links": [
       {
-        "site": "lemon8-app",
+        "site": "Lemon8-app",
         "link": "https://www.lemon8-app.com/nurulayunishafie/7196491747227124226?region=us"
       },
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/tahu-telur-tofu-omelettes.html"
       },
-      { "site": "cookpad", "link": "https://cookpad.com/id/resep/4465931-tempe-goreng-telur" }
+      { "site": "Cookpad", "link": "https://cookpad.com/id/resep/4465931-tempe-goreng-telur" }
     ],
     "description": "Fried tempeh with scrambled eggs, creating a delicious and protein-rich dish."
   },
@@ -1948,15 +1966,15 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/kering-tempeh-fried-tempeh-with-sweet-and-spicy-glace.html"
       },
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/kering-tempeh-kacang.html"
       },
       {
-        "site": "cookmeindonesian",
+        "site": "Cook me Indonesian",
         "link": "https://www.cookmeindonesian.com/kering-tempe-glazed-fried-tempeh-vegan/"
       }
     ],
@@ -1974,10 +1992,10 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "whattocooktoday", "link": "https://whattocooktoday.com/bakso-ayam.html" },
-      { "site": "dailycookingquest", "link": "https://dailycookingquest.com/bakso-ayam.html" },
+      { "site": "What to Cook Today", "link": "https://whattocooktoday.com/bakso-ayam.html" },
+      { "site": "Daily Cooking Quest", "link": "https://dailycookingquest.com/bakso-ayam.html" },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2020/02/05/homemade-chicken-meatballs-soft-spongy-and-bouncy-bakso-ayam-kenyal-empuk/"
       }
     ],
@@ -1995,12 +2013,12 @@
     },
     "links": [
       {
-        "site": "recipetineats",
+        "site": "Recipe Tin Eats",
         "link": "https://www.recipetineats.com/ayam-goreng-malaysian-fried-chicken/"
       },
-      { "site": "nomadette", "link": "https://nomadette.com/ayam-goreng/" },
+      { "site": "Nomadette", "link": "https://nomadette.com/ayam-goreng/" },
       {
-        "site": "yummytummyaarthi",
+        "site": "Yummy Tummy Aarthi",
         "link": "https://www.yummytummyaarthi.com/ayam-goreng-malaysian-fried-chicken/"
       }
     ],
@@ -2022,15 +2040,15 @@
     },
     "links": [
       {
-        "site": "soyummyrecipes",
+        "site": "So Yummy Recipes",
         "link": "https://soyummyrecipes.com/indonesian-sweet-soy-chicken-ayam-kecap/"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/ayam-kecap-pedas-chicken-in-spicy-sweet-soy-sauce.html"
       },
       {
-        "site": "tasteofmissions",
+        "site": "Taste of Missions",
         "link": "https://tasteofmissions.com/indonesian-soy-sauce-chicken/"
       }
     ],
@@ -2049,13 +2067,13 @@
       "kelapa-santan": 0
     },
     "links": [
-      { "site": "poshjournal", "link": "https://poshjournal.com/telur-balado-recipe" },
+      { "site": "Posh Journal", "link": "https://poshjournal.com/telur-balado-recipe" },
       {
-        "site": "vforveggy",
+        "site": "V for Veggy",
         "link": "https://vforveggy.com/telur-balado-indonesian-spicy-eggs.html"
       },
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/telur-balado-eggs-with-chili-sauce.html"
       }
     ],
@@ -2077,7 +2095,7 @@
     },
     "links": [
       {
-        "site": "whattocooktoday",
+        "site": "What to Cook Today",
         "link": "https://whattocooktoday.com/semur-daging-javanese-beef-stew.html"
       },
       {
@@ -2085,7 +2103,7 @@
         "link": "https://www.pinterest.com/pin/semur-daging-sapi-indonesian-sweet-soy-beef-stew--956874252054328022/"
       },
       {
-        "site": "dentistvschef",
+        "site": "Dentist vs Chef",
         "link": "https://dentistvschef.wordpress.com/2013/01/04/resep-semur-daging-sapi-indonesian-braised-beef-shank-in-sweet-soy-sauce/"
       }
     ],
@@ -2106,12 +2124,12 @@
     },
     "links": [
       {
-        "site": "dailycookingquest",
+        "site": "Daily Cooking Quest",
         "link": "https://dailycookingquest.com/sop-ayam-indonesian-chicken-soup.html"
       },
-      { "site": "bigoven", "link": "https://www.bigoven.com/recipe/chicken-soup-sop-ayam/446151" },
+      { "site": "Big Oven", "link": "https://www.bigoven.com/recipe/chicken-soup-sop-ayam/446151" },
       {
-        "site": "monicaisinthekitchen",
+        "site": "Monica is in the Kitchen",
         "link": "https://monicaisinthekitchen.wordpress.com/2020/03/05/sop-ayam-ala-klaten/"
       }
     ],

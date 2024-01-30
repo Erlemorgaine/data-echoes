@@ -1,37 +1,38 @@
 <script lang="ts" setup>
 import { useRoute } from 'vue-router'
-import { defineAsyncComponent } from 'vue'
+import { computed, defineAsyncComponent } from 'vue'
 import { useMeta } from 'vue-meta'
 import capitalize from 'lodash/capitalize'
 
 const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
 const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
 const Culture = defineAsyncComponent(() => import('../components/culture/CulturePage.vue'))
+const PresidentsRoyals = defineAsyncComponent(
+  () => import('../components/presidents-royals/PresidentsRoyalsPage.vue'),
+)
 
 const route = useRoute()
 
 const themes = {
   nostalgia: { component: Nostalgia, dark: true },
-  
   music: { component: Music, dark: false },
   culture: { component: Culture, dark: true },
+  ['presidents-royals']: { component: PresidentsRoyals, dark: true },
 }
 
 type ThemesKey = keyof typeof themes
 
+const themesKey = computed(() => route.params.theme)
+
 useMeta({
-  title: capitalize(route.params.theme as string),
+  title: capitalize(route.params.theme as string).replaceAll('-', ' '),
 })
 </script>
 
 <template>
   <article
-  id="theme-view"
-    :class="[
-      'theme-view',
-      route.params.theme,
-      { dark: themes[route.params.theme as ThemesKey].dark },
-    ]"
+    id="theme-view"
+    :class="['theme-view', themesKey, { dark: themes[themesKey as ThemesKey].dark }]"
   >
     <h1 class="theme-view__theme">{{ route.params.theme }}</h1>
     <RouterLink class="theme-view__back-btn" :to="{ name: 'home' }">home</RouterLink>
