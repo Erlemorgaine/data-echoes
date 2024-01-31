@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "d3-force": "^3.0.0",
     "leaflet": "^1.9.4"
   }
 }

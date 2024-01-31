@@ -29,6 +29,7 @@ import { onMounted, ref } from 'vue'
 import { nodes, links } from './data/network-data.json'
 
 const canvasContainer = ref<HTMLElement | null>(null)
+const nodeObject = ref({})
 
 let renderer: WebGLRenderer | null
 let scene: Scene | null
@@ -36,8 +37,13 @@ let controls: OrbitControls | null
 let camera: PerspectiveCamera | null
 
 let nodePlanes: Mesh[] = []
+let linkLines: Line[] = []
 
 onMounted(() => {
+  nodeObject.value = nodes.reduce((prev, next) => {
+    prev[next.id] = next
+    return prev
+  }, {})
   createScene()
 })
 
@@ -67,7 +73,7 @@ function createScene() {
     const planeMaterial = new MeshBasicMaterial({ color: 0xffff00, side: DoubleSide })
 
     // Create planes for each node in the nodes array
-    nodePlanes = nodes.map((node) => {
+    nodePlanes = nodes.map(() => {
       const material = planeMaterial.clone()
       material.color.setRGB(Math.random(), Math.random(), Math.random())
 
@@ -78,18 +84,24 @@ function createScene() {
       return plane
     })
 
-    // const points: Vector3[] = []
-    // points.push(new Vector3(0, 0, 0))
-    // points.push(new Vector3(0, 0, -10))
+    // Create lines for each link in the links array
+    const points: Vector3[] = []
+    points.push(new Vector3(0, 0, 0))
+    points.push(new Vector3(0, 0, -10))
 
-    // const lineGeometry = new BufferGeometry().setFromPoints(points)
-    // const lineMaterial = new LineBasicMaterial({ color: 0x0000ff })
-    // const line = new Line(lineGeometry, lineMaterial)
+    const lineMaterial = new LineBasicMaterial({ color: 0xffffff })
 
-    // scene.add(line)
+    // TODO: Try to reuse the geometry somehow or at least make it more performant
+    linkLines = links.map(() => {
+      const lineGeometry = new BufferGeometry().setFromPoints(points)
+      const line = new Line(lineGeometry, lineMaterial)
+      scene.add(line)
+
+      return line
+    })
 
     animate()
-    forceNetwork(width, height)
+    forceNetwork()
   }
 }
 
@@ -103,13 +115,25 @@ function animate() {
   window.requestAnimationFrame(animate)
 }
 
-function forceNetwork(width, height) {
+function forceNetwork() {
   const ticked = () => {
-    // link
-    //   .attr('x1', (d) => d.source.x)
-    //   .attr('y1', (d) => d.source.y)
-    //   .attr('x2', (d) => d.target.x)
-    //   .attr('y2', (d) => d.target.y)
+    // Update link positions
+    linkLines.forEach((line, index) => {
+      const link = links[index]
+
+      const source = nodeObject.value[link.source.id]
+      const target = nodeObject.value[link.target.id]
+
+      if (source && target) {
+        // TODO: Find a way to take advantage of z to make it less of a mess
+        const updatedVertices = [
+          new Vector3(source.x, source.y, 0),
+          new Vector3(target.x, target.y, 0),
+        ]
+
+        line.geometry.setFromPoints(updatedVertices)
+      }
+    })
 
     nodes.forEach((node) => {
       nodePlanes[node.index].position.set(node.x, node.y, node.z || 0)
@@ -117,9 +141,9 @@ function forceNetwork(width, height) {
   }
 
   const simulation = forceSimulation(nodes)
-    .force('center', forceCenter(width / 2, height / 2))
-    .force('charge', forceManyBody().strength(-20))
-    .force('collide', forceCollide().radius(5).strength(1).iterations(2))
+    .force('center', forceCenter(0, 0))
+    .force('charge', forceManyBody().strength(0))
+    .force('collide', forceCollide().radius(0.5).strength(0.5).iterations(5))
     .force(
       'link',
       forceLink(links).id((d) => d.id),

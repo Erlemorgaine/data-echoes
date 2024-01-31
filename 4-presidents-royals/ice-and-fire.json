@@ -121,7 +121,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Aegon_V_Targaryen"
   },
   {
-    "name": "Aegon Targaryen[1]",
+    "name": "Aegon Targaryen (son of Gaemon)",
     "allegiance": ["House Targaryen"],
     "spouse": ["Elaena Targaryen (daughter of Gaemon)"],
     "father": "Gaemon Targaryen (son of Aenar)",
@@ -220,7 +220,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Aelora_Targaryen"
   },
   {
-    "name": "Aelyx Targaryen[1]",
+    "name": "Aelyx Targaryen",
     "allegiance": ["House Targaryen"],
     "father": "Aerys Targaryen (son of Aegon)",
     "predecessor": null,
@@ -6878,7 +6878,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Maegelle_Targaryen"
   },
   {
-    "name": "Maegon Targaryen[1]",
+    "name": "Maegon Targaryen",
     "allegiance": ["House Targaryen"],
     "father": "Aegon Targaryen (son of Gaemon)",
     "mother": "Elaena Targaryen (daughter of Gaemon)",
@@ -10774,7 +10774,7 @@
     "url": "http://awoiaf.westeros.org/index.php/Val"
   },
   {
-    "name": "Valaena Velaryon[1]",
+    "name": "Valaena Velaryon",
     "allegiance": ["House Velaryon", "House Targaryen"],
     "spouse": ["Aerion Targaryen (son of Daemion)"],
     "father": "House Velaryon",
