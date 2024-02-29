@@ -176,6 +176,11 @@ function animate() {
   window.requestAnimationFrame(animate)
 }
 
+function getYForNode(node) {
+  const generationsCount = Math.max(node.data.generationsBefore, node.data.mostGenerationsSpouse)
+  return -generationsCount
+}
+
 function forceNetwork() {
   const ticked = () => {
     // Update link positions
@@ -188,8 +193,8 @@ function forceNetwork() {
       if (source && target) {
         // TODO: Find a way to take advantage of z to make it less of a mess
         const updatedVertices = [
-          new Vector3(source.x, source.y, 0),
-          new Vector3(target.x, target.y, 0),
+          new Vector3(source.x, getYForNode(source), source.y),
+          new Vector3(target.x, getYForNode(target), target.y),
         ]
 
         line.geometry.setFromPoints(updatedVertices)
@@ -207,7 +212,7 @@ function forceNetwork() {
     // linksGeometry.attributes.positionOffset.needsUpdate = true
 
     nodes.forEach((node) => {
-      nodePlanes[node.index].position.set(node.x, node.y, node.z || 0)
+      nodePlanes[node.index].position.set(node.x, getYForNode(node), node.y)
     })
   }
 
