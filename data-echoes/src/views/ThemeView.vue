@@ -5,6 +5,7 @@ import { useMeta } from 'vue-meta'
 import capitalize from 'lodash/capitalize'
 
 const Nostalgia = defineAsyncComponent(() => import('../components/nostalgia/NostalgiaPage.vue'))
+const Movies = defineAsyncComponent(() => import('../components/movies/MoviesPage.vue'))
 const Music = defineAsyncComponent(() => import('../components/music/MusicPage.vue'))
 const Culture = defineAsyncComponent(() => import('../components/culture/CulturePage.vue'))
 const PresidentsRoyals = defineAsyncComponent(
@@ -18,6 +19,7 @@ const themes = {
   music: { component: Music, dark: false },
   culture: { component: Culture, dark: true },
   ['presidents-royals']: { component: PresidentsRoyals, dark: true },
+  movies: { component: Movies, dark: false },
 }
 
 type ThemesKey = keyof typeof themes
