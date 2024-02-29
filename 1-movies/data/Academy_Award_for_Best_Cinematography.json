@@ -1,82 +1,352 @@
 [
-
-    [
-      {
-        "year": "2010 in film,<small>83rd Academy Awards</small>",
-        "film": "Inception,Black Swan (film),The King's Speech,The Social Network,True Grit (2010 film)",
-        "nominees": "Wally Pfister,Matthew Libatique,Danny Cohen (cinematographer),Jeff Cronenweth,Roger Deakins"
-      },
-      {
-        "year": "2011 in film,<small>84th Academy Awards</small>",
-        "film": "Hugo (film),The Artist (film),The Girl with the Dragon Tattoo (2011 film),The Tree of Life (film),War Horse (film)",
-        "nominees": "Robert Richardson (cinematographer),Guillaume Schiffman,Jeff Cronenweth,Emmanuel Lubezki,Janusz Kamiński"
-      },
-      {
-        "year": "2012 in film,<small>85th Academy Awards</small>",
-        "film": "Life of Pi (film),Anna Karenina (2012 film),Django Unchained,Lincoln (film),Skyfall",
-        "nominees": "Claudio Miranda,Seamus McGarvey,Robert Richardson (cinematographer),Janusz Kamiński,Roger Deakins"
-      },
-      {
-        "year": "2013 in film,<small>86th Academy Awards</small>",
-        "film": "Gravity (2013 film),The Grandmaster (film),Inside Llewyn Davis,Nebraska (film),Prisoners (2013 film)",
-        "nominees": "Emmanuel Lubezki,Philippe Le Sourd,Bruno Delbonnel,Phedon Papamichael,Roger Deakins"
-      },
-      {
-        "year": "2014 in film,<small>87th Academy Awards</small>",
-        "film": "Birdman (film),The Grand Budapest Hotel,Ida (film),Mr. Turner,Unbroken (film)",
-        "nominees": "Emmanuel Lubezki,Robert Yeoman,Łukasz Żal and Ryszard Lenczewski,Dick Pope (cinematographer),Roger Deakins"
-      },
-      { "year": "2015 in film,<small>88th Academy Awards</small>" },
-      { "year": "The Revenant (2015 film)", "film": "Emmanuel Lubezki" },
-      { "year": "Carol (film)", "film": "Edward Lachman" },
-      {
-        "year": "The Hateful Eight",
-        "film": "Robert Richardson (cinematographer)"
-      },
-      { "year": "Mad Max: Fury Road", "film": "John Seale" },
-      { "year": "Sicario (2015 film)", "film": "Roger Deakins" },
-      { "year": "2016 in film,<small>89th Academy Awards</small> ," },
-      { "year": "La La Land", "film": "Linus Sandgren" },
-      { "year": "Arrival (film)", "film": "Bradford Young" },
-      { "year": "Lion (2016 film)", "film": "Greig Fraser" },
-      { "year": "Moonlight (2016 film)", "film": "James Laxton" },
-      { "year": "Silence (2016 film)", "film": "Rodrigo Prieto" },
-      {
-        "year": "2017 in film,<small>90th Academy Awards</small>",
-        "film": "Blade Runner 2049,Darkest Hour (film),Dunkirk (2017 film),Mudbound (film),The Shape of Water",
-        "nominees": "Roger Deakins,Bruno Delbonnel,Hoyte van Hoytema,Rachel Morrison,Dan Laustsen"
-      },
-      {
-        "year": "2018 in film,<small>91st Academy Awards</small>",
-        "film": "Roma (2018 film),Cold War (2018 film),The Favourite,Never Look Away,A Star Is Born (2018 film)",
-        "nominees": "Alfonso Cuarón,Łukasz Żal,Robbie Ryan (cinematographer),Caleb Deschanel,Matthew Libatique"
-      },
-      {
-        "year": "2019 in film,<small>92nd Academy Awards</small>",
-        "film": "1917 (2019 film),The Irishman,Joker (2019 film),The Lighthouse (2019 film),Once Upon a Time in Hollywood",
-        "nominees": "Roger Deakins,Rodrigo Prieto,Lawrence Sher,Jarin Blaschke,Robert Richardson (cinematographer)"
-      }
-    ],
-    [
-      {
-        "year": "2020 in film,<small>93rd Academy Awards</small>",
-        "film": "Mank,Judas and the Black Messiah,News of the World (film),Nomadland (film),The Trial of the Chicago 7",
-        "nominees": "Erik Messerschmidt,Sean Bobbitt,Dariusz Wolski,Joshua James Richards,Phedon Papamichael"
-      },
-      {
-        "year": "2020 in film,<small>94th Academy Awards</small>",
-        "film": "Dune (2021 film),Nightmare Alley (2021 film),The Power of the Dog (film),The Tragedy of Macbeth (2021 film),West Side Story (2021 film)",
-        "nominees": "Greig Fraser,Dan Laustsen,Ari Wegner,Bruno Delbonnel,Janusz Kamiński"
-      },
-      {
-        "year": "2022 in film,<small>95th Academy Awards</small>",
-        "film": "All Quiet on the Western Front (2022 film),Bardo, False Chronicle of a Handful of Truths,Elvis (2022 film),Empire of Light,Tár",
-        "nominees": "James Friend,Darius Khondji,Mandy Walker,Roger Deakins,Florian Hoffmeister"
-      },
-      {
-        "year": "2023 in film,<small>96th Academy Awards</small>",
-        "film": "El Conde (film),Killers of the Flower Moon (film),Maestro (2023 film),Oppenheimer (film),Poor Things (film)",
-        "nominees": "Edward Lachman,Rodrigo Prieto,Matthew Libatique,Hoyte van Hoytema,Robbie Ryan (cinematographer)"
-      }
-    ]
+  {
+    "year": 2010,
+    "film": "Inception",
+    "nominee": "Wally Pfister"
+  },
+  {
+    "year": 2010,
+    "film": "Black Swan (film)",
+    "nominee": "Matthew Libatique"
+  },
+  {
+    "year": 2010,
+    "film": "The King's Speech",
+    "nominee": "Danny Cohen (cinematographer)"
+  },
+  {
+    "year": 2010,
+    "film": "The Social Network",
+    "nominee": "Jeff Cronenweth"
+  },
+  {
+    "year": 2010,
+    "film": "True Grit (2010 film)",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2011,
+    "film": "Hugo (film)",
+    "nominee": "Robert Richardson (cinematographer)"
+  },
+  {
+    "year": 2011,
+    "film": "The Artist (film)",
+    "nominee": "Guillaume Schiffman"
+  },
+  {
+    "year": 2011,
+    "film": "The Girl with the Dragon Tattoo (2011 film)",
+    "nominee": "Jeff Cronenweth"
+  },
+  {
+    "year": 2011,
+    "film": "The Tree of Life (film)",
+    "nominee": "Emmanuel Lubezki"
+  },
+  {
+    "year": 2011,
+    "film": "War Horse (film)",
+    "nominee": "Janusz Kamiński"
+  },
+  {
+    "year": 2012,
+    "film": "Life of Pi (film)",
+    "nominee": "Claudio Miranda"
+  },
+  {
+    "year": 2012,
+    "film": "Anna Karenina (2012 film)",
+    "nominee": "Seamus McGarvey"
+  },
+  {
+    "year": 2012,
+    "film": "Django Unchained",
+    "nominee": "Robert Richardson (cinematographer)"
+  },
+  {
+    "year": 2012,
+    "film": "Lincoln (film)",
+    "nominee": "Janusz Kamiński"
+  },
+  {
+    "year": 2012,
+    "film": "Skyfall",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2013,
+    "film": "Gravity (2013 film)",
+    "nominee": "Emmanuel Lubezki"
+  },
+  {
+    "year": 2013,
+    "film": "The Grandmaster (film)",
+    "nominee": "Philippe Le Sourd"
+  },
+  {
+    "year": 2013,
+    "film": "Inside Llewyn Davis",
+    "nominee": "Bruno Delbonnel"
+  },
+  {
+    "year": 2013,
+    "film": "Nebraska (film)",
+    "nominee": "Phedon Papamichael"
+  },
+  {
+    "year": 2013,
+    "film": "Prisoners (2013 film)",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2014,
+    "film": "Birdman (film)",
+    "nominee": "Emmanuel Lubezki"
+  },
+  {
+    "year": 2014,
+    "film": "The Grand Budapest Hotel",
+    "nominee": "Robert Yeoman"
+  },
+  {
+    "year": 2014,
+    "film": "Ida (film)",
+    "nominee": "Łukasz Żal and Ryszard Lenczewski"
+  },
+  {
+    "year": 2014,
+    "film": "Mr. Turner",
+    "nominee": "Dick Pope (cinematographer)"
+  },
+  {
+    "year": 2014,
+    "film": "Unbroken (film)",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2015,
+    "film": "The Revenant (2015 film)",
+    "nominee": "no nominee"
+  },
+  {
+    "year": 2015,
+    "film": "Carol (film)",
+    "nominee": "Edward Lachman"
+  },
+  {
+    "year": 2015,
+    "film": "The Hateful Eight",
+    "nominee": "Robert Richardson (cinematographer)"
+  },
+  {
+    "year": 2015,
+    "film": "Mad Max: Fury Road",
+    "nominee": "John Seale"
+  },
+  {
+    "year": 2015,
+    "film": "Sicario (2015 film)",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2016,
+    "film": "La La Land",
+    "nominee": "Linus Sandgren"
+  },
+  {
+    "year": 2016,
+    "film": "Arrival (film)",
+    "nominee": "Bradford Young"
+  },
+  {
+    "year": 2016,
+    "film": "Lion (2016 film)",
+    "nominee": "Greig Fraser"
+  },
+  {
+    "year": 2016,
+    "film": "Moonlight (2016 film)",
+    "nominee": "James Laxton"
+  },
+  {
+    "year": 2016,
+    "film": "Silence (2016 film)",
+    "nominee": "Rodrigo Prieto"
+  },
+  {
+    "year": 2017,
+    "film": "Blade Runner 2049",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2017,
+    "film": "Darkest Hour (film)",
+    "nominee": "Bruno Delbonnel"
+  },
+  {
+    "year": 2017,
+    "film": "Dunkirk (2017 film)",
+    "nominee": "Hoyte van Hoytema"
+  },
+  {
+    "year": 2017,
+    "film": "Mudbound (film)",
+    "nominee": "Rachel Morrison"
+  },
+  {
+    "year": 2017,
+    "film": "The Shape of Water",
+    "nominee": "Dan Laustsen"
+  },
+  {
+    "year": 2018,
+    "film": "Roma (2018 film)",
+    "nominee": "Alfonso Cuarón"
+  },
+  {
+    "year": 2018,
+    "film": "Cold War (2018 film)",
+    "nominee": "Łukasz Żal"
+  },
+  {
+    "year": 2018,
+    "film": "The Favourite",
+    "nominee": "Robbie Ryan (cinematographer)"
+  },
+  {
+    "year": 2018,
+    "film": "Never Look Away",
+    "nominee": "Caleb Deschanel"
+  },
+  {
+    "year": 2018,
+    "film": "A Star Is Born (2018 film)",
+    "nominee": "Matthew Libatique"
+  },
+  {
+    "year": 2019,
+    "film": "1917 (2019 film)",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2019,
+    "film": "The Irishman",
+    "nominee": "Rodrigo Prieto"
+  },
+  {
+    "year": 2019,
+    "film": "Joker (2019 film)",
+    "nominee": "Lawrence Sher"
+  },
+  {
+    "year": 2019,
+    "film": "The Lighthouse (2019 film)",
+    "nominee": "Jarin Blaschke"
+  },
+  {
+    "year": 2019,
+    "film": "Once Upon a Time in Hollywood",
+    "nominee": "Robert Richardson (cinematographer)"
+  },
+  {
+    "year": 2020,
+    "film": "Mank",
+    "nominee": "Erik Messerschmidt"
+  },
+  {
+    "year": 2020,
+    "film": "Judas and the Black Messiah",
+    "nominee": "Sean Bobbitt"
+  },
+  {
+    "year": 2020,
+    "film": "News of the World (film)",
+    "nominee": "Dariusz Wolski"
+  },
+  {
+    "year": 2020,
+    "film": "Nomadland (film)",
+    "nominee": "Joshua James Richards"
+  },
+  {
+    "year": 2020,
+    "film": "The Trial of the Chicago 7",
+    "nominee": "Phedon Papamichael"
+  },
+  {
+    "year": 2020,
+    "film": "Dune (2021 film)",
+    "nominee": "Greig Fraser"
+  },
+  {
+    "year": 2020,
+    "film": "Nightmare Alley (2021 film)",
+    "nominee": "Dan Laustsen"
+  },
+  {
+    "year": 2020,
+    "film": "The Power of the Dog (film)",
+    "nominee": "Ari Wegner"
+  },
+  {
+    "year": 2020,
+    "film": "The Tragedy of Macbeth (2021 film)",
+    "nominee": "Bruno Delbonnel"
+  },
+  {
+    "year": 2020,
+    "film": "West Side Story (2021 film)",
+    "nominee": "Janusz Kamiński"
+  },
+  {
+    "year": 2022,
+    "film": "All Quiet on the Western Front (2022 film)",
+    "nominee": "James Friend"
+  },
+  {
+    "year": 2022,
+    "film": "Bardo, False Chronicle of a Handful of Truths",
+    "nominee": "Darius Khondji"
+  },
+  {
+    "year": 2022,
+    "film": "Elvis (2022 film)",
+    "nominee": "Mandy Walker"
+  },
+  {
+    "year": 2022,
+    "film": "Empire of Light",
+    "nominee": "Roger Deakins"
+  },
+  {
+    "year": 2022,
+    "film": "Tár",
+    "nominee": "Florian Hoffmeister"
+  },
+  {
+    "year": 2023,
+    "film": "El Conde (film)",
+    "nominee": "Edward Lachman"
+  },
+  {
+    "year": 2023,
+    "film": "Killers of the Flower Moon (film)",
+    "nominee": "Rodrigo Prieto"
+  },
+  {
+    "year": 2023,
+    "film": "Maestro (2023 film)",
+    "nominee": "Matthew Libatique"
+  },
+  {
+    "year": 2023,
+    "film": "Oppenheimer (film)",
+    "nominee": "Hoyte van Hoytema"
+  },
+  {
+    "year": 2023,
+    "film": "Poor Things (film)",
+    "nominee": "Robbie Ryan (cinematographer)"
+  }
 ]

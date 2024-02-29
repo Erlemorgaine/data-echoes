@@ -1,191 +1,352 @@
 [
-  [
-    { "year": "2010 in film,83rd Academy Awards" },
-    {
-      "year": "Inside Job (2010 film)",
-      "film": "Charles Ferguson (filmmaker) and Audrey Marrs"
-    },
-    {
-      "year": "Exit Through the Gift Shop",
-      "film": "Banksy and Jaimie D'Cruz"
-    },
-    { "year": "Gasland", "film": "Josh Fox and ill" },
-    {
-      "year": "Restrepo (film)",
-      "film": "Tim Hetherington and Sebastian Junger"
-    },
-    { "year": "Waste Land (film)", "film": "Lucy Walker (director) and ill" },
-    { "year": "2011 in film,84th Academy Awards" },
-    {
-      "year": "Undefeated (2011 film)",
-      "film": "T. J. Martin, Daniel Lindsay and Rich Middlemas"
-    },
-    {
-      "year": "Hell and Back Again",
-      "film": "Danfung Dennis and Mike Lerner (filmmaker)"
-    },
-    { "year": "If a Tree Falls", "film": "Marshall Curry and Sam Cullman" },
-    {
-      "year": "Paradise Lost 3: Purgatory",
-      "film": "Joe Berlinger and Bruce Sinofsky"
-    },
-    { "year": "Pina (film)", "film": "Wim Wenders and Gian-Piero Ringel" },
-    { "year": "2012 in film,85th Academy Awards" },
-    {
-      "year": "Searching for Sugar Man",
-      "film": "Malik Bendjelloul and Simon Chinn"
-    },
-    { "year": "5 Broken Cameras", "film": "Emad Burnat and Guy Davidi" },
-    { "year": "The Gatekeepers (film)", "film": "Dror Moreh, ill, and ill" },
-    {
-      "year": "How to Survive a Plague",
-      "film": "David France (writer) and Howard Gertler"
-    },
-    { "year": "The Invisible War", "film": "Kirby Dick and Amy Ziering" },
-    { "year": "2013 in film,86th Academy Awards" },
-    {
-      "year": "20 Feet from Stardom",
-      "film": "Morgan Neville, Gil Friesen and Caitrin Rogers"
-    },
-    {
-      "year": "The Act of Killing",
-      "film": "Joshua Oppenheimer and Signe Byrge Sørensen"
-    },
-    {
-      "year": "Cutie and the Boxer",
-      "film": "Zachary Heinzerling and Lydia Dean Pilcher"
-    },
-    {
-      "year": "Dirty Wars",
-      "film": "Richard Rowley (film director) and Jeremy Scahill"
-    },
-    {
-      "year": "The Square (2013 film)",
-      "film": "Jehane Noujaim and Karim Amer"
-    },
-    { "year": "2014 in film,87th Academy Awards" },
-    {
-      "year": "Citizenfour",
-      "film": "Laura Poitras, Mathilde Bonnefoy and Dirk Wilutzky"
-    },
-    { "year": "Finding Vivian Maier", "film": "ill and ill" },
-    {
-      "year": "Last Days in Vietnam",
-      "film": "Rory Kennedy and Kevin McAlester"
-    },
-    {
-      "year": "The Salt of the Earth (2014 film)",
-      "film": "Wim Wenders, Juliano Ribeiro Salgado and David Rosier"
-    },
-    {
-      "year": "Virunga (film)",
-      "film": "Orlando von Einsiedel and Joanna Natasegara"
-    },
-    { "year": "2015 in film,88th Academy Awards" },
-    { "year": "Amy (2015 film)", "film": "Asif Kapadia and James Gay-Rees" },
-    { "year": "Cartel Land", "film": "Matthew Heineman and Tom Yellin" },
-    {
-      "year": "The Look of Silence",
-      "film": "Joshua Oppenheimer and Signe Byrge Sørensen"
-    },
-    {
-      "year": "What Happened, Miss Simone?",
-      "film": "Liz Garbus, Amy Hobby and Justin Wilkes"
-    },
-    {
-      "year": "Winter on Fire: Ukraine's Fight for Freedom",
-      "film": "Evgeny Afineevsky and Den Tolmor"
-    },
-    { "year": "2016 in film,89th Academy Awards ," },
-    {
-      "year": "O.J.: Made in America",
-      "film": "Ezra Edelman and Caroline Waterlow"
-    },
-    {
-      "year": "Fire at Sea",
-      "film": "Gianfranco Rosi (director) and Donatella Palermo"
-    },
-    {
-      "year": "I Am Not Your Negro",
-      "film": "Raoul Peck, ill and Hébert Peck"
-    },
-    {
-      "year": "Life, Animated",
-      "film": "Roger Ross Williams and Julie Goldman (producer)"
-    },
-    {
-      "year": "13th (film)",
-      "film": "Ava DuVernay, Spencer Averick and Howard Barish"
-    },
-    {
-      "year": "2017 in film,<small>90th Academy Awards</small> ,",
-      "film": "Icarus (2017 film),Abacus: Small Enough to Jail,Faces Places (film),Last Men in Aleppo,Strong Island (film)",
-      "nominees": "Bryan Fogel and Dan Cogan,Steve James (producer), Mark Mitten and Julie Goldman (producer),Agnès Varda, JR (artist) and Rosalie Varda,Feras Fayyad, Kareem Abeed and Søren Steen Jespersen,Yance Ford and Joslyn Barnes"
-    },
-    {
-      "year": "2018 in film,<small>91st Academy Awards</small>",
-      "film": "Free Solo,Hale County This Morning, This Evening,Minding the Gap,Of Fathers and Sons,RBG (film)",
-      "nominees": "Elizabeth Chai Vasarhelyi, Jimmy Chin, Evan Hayes, and ill,ill, Joslyn Barnes, and Su Kim,Bing Liu (filmmaker) and Diane Moy Quon,Talal Derki, ill, ill, and ill,Betsy West and ill"
-    },
-    {
-      "year": "2019 in film,<small>92nd Academy Awards</small>",
-      "film": "American Factory,The Cave (2019 Syrian film),The Edge of Democracy,For Sama,Honeyland",
-      "nominees": "Steven Bognar, Julia Reichert and Jeff Reichert,Feras Fayyad, ill and ill,Petra Costa, Joanna Natasegara, Shane Boris and ill,Waad al-Kateab and Edward Watts (director),Ljubomir Stefanov, Tamara Kotevska and Atanas Georgiev"
-    }
-  ],
-  [
-    { "year": "2020 in film,93rd Academy Awards" },
-    {
-      "year": "My Octopus Teacher",
-      "film": "ill, James Reed and Craig Foster (filmmaker)"
-    },
-    { "year": "Collective (2019 film)", "film": "Alexander Nanau and ill" },
-    {
-      "year": "Crip Camp",
-      "film": "Nicole Newnham, James LeBrecht and Sara Bolder"
-    },
-    { "year": "The Mole Agent", "film": "Maite Alberdi and ill" },
-    {
-      "year": "Time (2020 film)",
-      "film": "Garrett Bradley (filmmaker), ill and Kellen Quinn"
-    },
-    { "year": "2021 in film,94th Academy Awards" },
-    { "year": "Summer of Soul", "film": "Questlove, ill, ill and ill" },
-    {
-      "year": "Ascension (film)",
-      "film": "Jessica Kingdon, Kira Simon-Kennedy and Nathan Truesdell"
-    },
-    { "year": "Attica (2021 film)", "film": "Stanley Nelson Jr. and ill" },
-    {
-      "year": "Flee (film)",
-      "film": "Jonas Poher Rasmussen, Monica Hellström, Signe Byrge Sørensen and Charlotte de la Gournerie"
-    },
-    { "year": "Writing with Fire", "film": "Rintu Thomas and Sushmit Ghosh" },
-    { "year": "2022 in film,95th Academy Awards" },
-    {
-      "year": "Navalny (film)",
-      "film": "Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller and Shane Boris"
-    },
-    {
-      "year": "All That Breathes",
-      "film": "Shaunak Sen, Aman Mann and Teddy Leifer"
-    },
-    {
-      "year": "All the Beauty and the Bloodshed",
-      "film": "Laura Poitras, Howard Gertler, John Lyons, Nan Goldin and Yoni Golijov"
-    },
-    {
-      "year": "Fire of Love (2022 film)",
-      "film": "Sara Dosa, Shane Boris and Ina Fichman"
-    },
-    {
-      "year": "A House Made of Splinters",
-      "film": "Simon Lereng Wilmont and Monica Hellström"
-    },
-    {
-      "year": "2023 in film\n96th Academy Awards,",
-      "film": "Bobi Wine: The People's President,The Eternal Memory,Four Daughters (2023 film),To Kill a Tiger,20 Days in Mariupol",
-      "nominees": "Moses Bwayo, Christopher Sharp and John Battsek,Maite Alberdi, Juan de Dios Larraín, Pablo Larraín and Rocio Jadue,Kaouther Ben Hania and Nadim Cheikhrouha,Nisha Pahuja, Cornelia Principe and David Oppenheim,Mstyslav Chernov, Michelle Mizner and Raney Aronson-Rath"
-    }
-  ]
+  {
+    "year": 2010,
+    "film": "Inside Job (2010 film)",
+    "nominee": "Charles Ferguson (filmmaker) and Audrey Marrs"
+  },
+  {
+    "year": 2010,
+    "film": "Exit Through the Gift Shop",
+    "nominee": "Banksy and Jaimie D'Cruz"
+  },
+  {
+    "year": 2010,
+    "film": "Gasland",
+    "nominee": "Josh Fox and ill"
+  },
+  {
+    "year": 2010,
+    "film": "Restrepo (film)",
+    "nominee": "Tim Hetherington and Sebastian Junger"
+  },
+  {
+    "year": 2010,
+    "film": "Waste Land (film)",
+    "nominee": "Lucy Walker (director) and ill"
+  },
+  {
+    "year": 2011,
+    "film": "Undefeated (2011 film)",
+    "nominee": "T. J. Martin, Daniel Lindsay and Rich Middlemas"
+  },
+  {
+    "year": 2011,
+    "film": "Hell and Back Again",
+    "nominee": "Danfung Dennis and Mike Lerner (filmmaker)"
+  },
+  {
+    "year": 2011,
+    "film": "If a Tree Falls",
+    "nominee": "Marshall Curry and Sam Cullman"
+  },
+  {
+    "year": 2011,
+    "film": "Paradise Lost 3: Purgatory",
+    "nominee": "Joe Berlinger and Bruce Sinofsky"
+  },
+  {
+    "year": 2011,
+    "film": "Pina (film)",
+    "nominee": "Wim Wenders and Gian-Piero Ringel"
+  },
+  {
+    "year": 2012,
+    "film": "Searching for Sugar Man",
+    "nominee": "Malik Bendjelloul and Simon Chinn"
+  },
+  {
+    "year": 2012,
+    "film": "5 Broken Cameras",
+    "nominee": "Emad Burnat and Guy Davidi"
+  },
+  {
+    "year": 2012,
+    "film": "The Gatekeepers (film)",
+    "nominee": "Dror Moreh, ill, and ill"
+  },
+  {
+    "year": 2012,
+    "film": "How to Survive a Plague",
+    "nominee": "David France (writer) and Howard Gertler"
+  },
+  {
+    "year": 2012,
+    "film": "The Invisible War",
+    "nominee": "Kirby Dick and Amy Ziering"
+  },
+  {
+    "year": 2013,
+    "film": "20 Feet from Stardom",
+    "nominee": "Morgan Neville, Gil Friesen and Caitrin Rogers"
+  },
+  {
+    "year": 2013,
+    "film": "The Act of Killing",
+    "nominee": "Joshua Oppenheimer and Signe Byrge Sørensen"
+  },
+  {
+    "year": 2013,
+    "film": "Cutie and the Boxer",
+    "nominee": "Zachary Heinzerling and Lydia Dean Pilcher"
+  },
+  {
+    "year": 2013,
+    "film": "Dirty Wars",
+    "nominee": "Richard Rowley (film director) and Jeremy Scahill"
+  },
+  {
+    "year": 2013,
+    "film": "The Square (2013 film)",
+    "nominee": "Jehane Noujaim and Karim Amer"
+  },
+  {
+    "year": 2014,
+    "film": "Citizenfour",
+    "nominee": "Laura Poitras, Mathilde Bonnefoy and Dirk Wilutzky"
+  },
+  {
+    "year": 2014,
+    "film": "Finding Vivian Maier",
+    "nominee": "ill and ill"
+  },
+  {
+    "year": 2014,
+    "film": "Last Days in Vietnam",
+    "nominee": "Rory Kennedy and Kevin McAlester"
+  },
+  {
+    "year": 2014,
+    "film": "The Salt of the Earth (2014 film)",
+    "nominee": "Wim Wenders, Juliano Ribeiro Salgado and David Rosier"
+  },
+  {
+    "year": 2014,
+    "film": "Virunga (film)",
+    "nominee": "Orlando von Einsiedel and Joanna Natasegara"
+  },
+  {
+    "year": 2015,
+    "film": "Amy (2015 film)",
+    "nominee": "Asif Kapadia and James Gay-Rees"
+  },
+  {
+    "year": 2015,
+    "film": "Cartel Land",
+    "nominee": "Matthew Heineman and Tom Yellin"
+  },
+  {
+    "year": 2015,
+    "film": "The Look of Silence",
+    "nominee": "Joshua Oppenheimer and Signe Byrge Sørensen"
+  },
+  {
+    "year": 2015,
+    "film": "What Happened, Miss Simone?",
+    "nominee": "Liz Garbus, Amy Hobby and Justin Wilkes"
+  },
+  {
+    "year": 2015,
+    "film": "Winter on Fire: Ukraine's Fight for Freedom",
+    "nominee": "Evgeny Afineevsky and Den Tolmor"
+  },
+  {
+    "year": 2016,
+    "film": "O.J.: Made in America",
+    "nominee": "Ezra Edelman and Caroline Waterlow"
+  },
+  {
+    "year": 2016,
+    "film": "Fire at Sea",
+    "nominee": "Gianfranco Rosi (director) and Donatella Palermo"
+  },
+  {
+    "year": 2016,
+    "film": "I Am Not Your Negro",
+    "nominee": "Raoul Peck, ill and Hébert Peck"
+  },
+  {
+    "year": 2016,
+    "film": "Life, Animated",
+    "nominee": "Roger Ross Williams and Julie Goldman (producer)"
+  },
+  {
+    "year": 2016,
+    "film": "13th (film)",
+    "nominee": "Ava DuVernay, Spencer Averick and Howard Barish"
+  },
+  {
+    "year": 2017,
+    "film": "Icarus (2017 film)",
+    "nominee": "Bryan Fogel and Dan Cogan"
+  },
+  {
+    "year": 2017,
+    "film": "Abacus: Small Enough to Jail",
+    "nominee": "Steve James (producer), Mark Mitten and Julie Goldman (producer)"
+  },
+  {
+    "year": 2017,
+    "film": "Faces Places (film)",
+    "nominee": "Agnès Varda, JR (artist) and Rosalie Varda"
+  },
+  {
+    "year": 2017,
+    "film": "Last Men in Aleppo",
+    "nominee": "Feras Fayyad, Kareem Abeed and Søren Steen Jespersen"
+  },
+  {
+    "year": 2017,
+    "film": "Strong Island (film)",
+    "nominee": "Yance Ford and Joslyn Barnes"
+  },
+  {
+    "year": 2018,
+    "film": "Free Solo",
+    "nominee": "Elizabeth Chai Vasarhelyi, Jimmy Chin, Evan Hayes, and ill"
+  },
+  {
+    "year": 2018,
+    "film": "Hale County This Morning, This Evening",
+    "nominee": "Bing Liu (filmmaker) and Diane Moy Quon"
+  },
+  {
+    "year": 2018,
+    "film": "Minding the Gap",
+    "nominee": "Talal Derki, ill, ill, and ill"
+  },
+  {
+    "year": 2018,
+    "film": "Of Fathers and Sons",
+    "nominee": "Talal Derki, ill, ill, and ill"
+  },
+  {
+    "year": 2018,
+    "film": "RBG (film)",
+    "nominee": "Betsy West and ill"
+  },
+  {
+    "year": 2019,
+    "film": "American Factory",
+    "nominee": "Steven Bognar, Julia Reichert and Jeff Reichert"
+  },
+  {
+    "year": 2019,
+    "film": "The Cave (2019 Syrian film)",
+    "nominee": "Feras Fayyad, ill and ill"
+  },
+  {
+    "year": 2019,
+    "film": "The Edge of Democracy",
+    "nominee": "Petra Costa, Joanna Natasegara, Shane Boris and ill"
+  },
+  {
+    "year": 2019,
+    "film": "For Sama",
+    "nominee": "Waad al-Kateab and Edward Watts (director)"
+  },
+  {
+    "year": 2019,
+    "film": "Honeyland",
+    "nominee": "Ljubomir Stefanov, Tamara Kotevska and Atanas Georgiev"
+  },
+  {
+    "year": 2020,
+    "film": "My Octopus Teacher",
+    "nominee": "ill, James Reed and Craig Foster (filmmaker)"
+  },
+  {
+    "year": 2020,
+    "film": "Collective (2019 film)",
+    "nominee": "Alexander Nanau and ill"
+  },
+  {
+    "year": 2020,
+    "film": "Crip Camp",
+    "nominee": "Nicole Newnham, James LeBrecht and Sara Bolder"
+  },
+  {
+    "year": 2020,
+    "film": "The Mole Agent",
+    "nominee": "Maite Alberdi and ill"
+  },
+  {
+    "year": 2020,
+    "film": "Time (2020 film)",
+    "nominee": "Garrett Bradley (filmmaker), ill and Kellen Quinn"
+  },
+  {
+    "year": 2021,
+    "film": "Summer of Soul",
+    "nominee": "Questlove, ill, ill and ill"
+  },
+  {
+    "year": 2021,
+    "film": "Ascension (film)",
+    "nominee": "Jessica Kingdon, Kira Simon-Kennedy and Nathan Truesdell"
+  },
+  {
+    "year": 2021,
+    "film": "Attica (2021 film)",
+    "nominee": "Stanley Nelson Jr. and ill"
+  },
+  {
+    "year": 2021,
+    "film": "Flee (film)",
+    "nominee": "Jonas Poher Rasmussen, Monica Hellström, Signe Byrge Sørensen and Charlotte de la Gournerie"
+  },
+  {
+    "year": 2021,
+    "film": "Writing with Fire",
+    "nominee": "Rintu Thomas and Sushmit Ghosh"
+  },
+  {
+    "year": 2022,
+    "film": "Navalny (film)",
+    "nominee": "Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller and Shane Boris"
+  },
+  {
+    "year": 2022,
+    "film": "All That Breathes",
+    "nominee": "Shaunak Sen, Aman Mann and Teddy Leifer"
+  },
+  {
+    "year": 2022,
+    "film": "All the Beauty and the Bloodshed",
+    "nominee": "Laura Poitras, Howard Gertler, John Lyons, Nan Goldin and Yoni Golijov"
+  },
+  {
+    "year": 2022,
+    "film": "Fire of Love (2022 film)",
+    "nominee": "Sara Dosa, Shane Boris and Ina Fichman"
+  },
+  {
+    "year": 2022,
+    "film": "A House Made of Splinters",
+    "nominee": "Simon Lereng Wilmont and Monica Hellström"
+  },
+  {
+    "year": 2023,
+    "film": "Bobi Wine: The People's President",
+    "nominee": "Moses Bwayo, Christopher Sharp and John Battsek"
+  },
+  {
+    "year": 2023,
+    "film": "The Eternal Memory",
+    "nominee": "Maite Alberdi, Juan de Dios Larraín, Pablo Larraín and Rocio Jadue"
+  },
+  {
+    "year": 2023,
+    "film": "Four Daughters (2023 film)",
+    "nominee": "Kaouther Ben Hania and Nadim Cheikhrouha"
+  },
+  {
+    "year": 2023,
+    "film": "To Kill a Tiger",
+    "nominee": "Nisha Pahuja, Cornelia Principe and David Oppenheim"
+  },
+  {
+    "year": 2023,
+    "film": "20 Days in Mariupol",
+    "nominee": "Mstyslav Chernov, Michelle Mizner and Raney Aronson-Rath"
+  }
 ]

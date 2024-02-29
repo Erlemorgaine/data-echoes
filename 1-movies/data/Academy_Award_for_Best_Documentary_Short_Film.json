@@ -1,176 +1,347 @@
 [
-  [
-    { "year": "2010 in film,<small>83rd Academy Awards</small>" },
-    { "year": "Strangers No More", "film": "Karen Goodman and Kirk Simon" },
-    { "year": "Killing in the Name (film)", "film": "Jed Rothstein" },
-    {
-      "year": "Poster Girl (film)",
-      "film": "Sara Nesson and Mitchell Block"
-    },
-    {
-      "year": "Sun Come Up (film)",
-      "film": "Jennifer Redfearn and Tim Metzger"
-    },
-    {
-      "year": "The Warriors of Qiugang",
-      "film": "Ruby Yang and Thomas Lennon (filmmaker)"
-    },
-    { "year": "2011 in film,<small>84th Academy Awards</small>" },
-    {
-      "year": "Saving Face (2012 film)",
-      "film": "Daniel Junge and Sharmeen Obaid-Chinoy"
-    },
-    {
-      "year": "The Barber of Birmingham",
-      "film": "Robin Fryday and Gail Dolgin"
-    },
-    {
-      "year": "God Is the Bigger Elvis",
-      "film": "Rebecca Cammisa and Julie Anderson"
-    },
-    { "year": "Incident in New Baghdad", "film": "James Spione" },
-    {
-      "year": "The Tsunami and the Cherry Blossom",
-      "film": "Lucy Walker (director) and Kira Carstensen"
-    },
-    { "year": "2012 in film,<small>85th Academy Awards</small>" },
-    { "year": "Inocente", "film": "Sean Fine and Andrea Nix Fine" },
-    { "year": "Kings Point (film)", "film": "Sari Gilman and Jedd Wider" },
-    { "year": "Mondays at Racine", "film": "Cynthia Wade and Robin Honan" },
-    {
-      "year": "Open Heart (film)",
-      "film": "Kief Davidson and Cori Shepherd Stern"
-    },
-    {
-      "year": "Redemption (2012 film)",
-      "film": "Jon Alpert and Matthew O'Neill (filmmaker)"
-    },
-    { "year": "2013 in film,<small>86th Academy Awards</small>" },
-    {
-      "year": "The Lady in Number 6",
-      "film": "Malcolm Clarke (film maker) and Nicholas Reed"
-    },
-    { "year": "Cavedigger", "film": "Jeffrey Karoff" },
-    { "year": "Facing Fear", "film": "Jason Cohen" },
-    { "year": "Karama Has No Walls", "film": "Sara Ishaq" },
-    {
-      "year": "Prison Terminal: The Last Days of Private Jack Hall",
-      "film": "Edgar Barens"
-    },
-    { "year": "2014 in film,<small>87th Academy Awards</small>" },
-    {
-      "year": "Crisis Hotline: Veterans Press 1",
-      "film": "Ellen Goosenberg Kent and Dana Perry"
-    },
-    { "year": "Joanna (2013 film)", "film": "Aneta Kopacz" },
-    { "year": "Our Curse", "film": "Tomasz Śliwiński and Maciej Ślesicki" },
-    { "year": "The Reaper (2013 film)", "film": "Gabriel Serra Arguello" },
-    { "year": "White Earth (film)", "film": "J. Christian Jensen" },
-    { "year": "2015 in film,<small>88th Academy Awards</small>" },
-    {
-      "year": "A Girl in the River: The Price of Forgiveness",
-      "film": "Sharmeen Obaid-Chinoy"
-    },
-    { "year": "Body Team 12", "film": "David Darg and Bryn Mooser" },
-    {
-      "year": "Chau, Beyond the Lines",
-      "film": "Courtney Marsh and Jerry Franck"
-    },
-    {
-      "year": "Claude Lanzmann: Spectres of the Shoah",
-      "film": "Adam Benzine"
-    },
-    {
-      "year": "Last Day of Freedom",
-      "film": "Dee Hibbert-Jones and Nomi Talisman"
-    },
-    {
-      "year": "2016 in film,<small>89th Academy Awards</small> ,",
-      "film": "The White Helmets (film),Extremis (film),4.1 Miles,Joe's Violin,Watani: My Homeland",
-      "nominees": "Orlando von Einsiedel and Joanna Natasegara,Dan Krauss,Daphne Matziaraki,Kahane Cooperman and Raphaela Neihausen,Marcel Mettelsiefen and Stephen Ellis (film editor and producer)"
-    },
-    {
-      "year": "2017 in film,<small>90th Academy Awards</small> ,",
-      "film": "Heaven Is a Traffic Jam on the 405,Edith+Eddie,Heroin(e),Knife Skills,Traffic Stop",
-      "nominees": "Frank Stiefel,Laura Checkoway and Thomas Lee Wright,Elaine McMillion Sheldon and Kerrin Sheldon,Thomas Lennon (filmmaker),Kate Davis (director) and David Heilbroner"
-    },
-    {
-      "year": "2018 in film,<small>91st Academy Awards</small>",
-      "film": "Period. End of Sentence.,Black Sheep (2018 film),End Game (2018 film),Lifeboat (2018 film),A Night at the Garden",
-      "nominees": "Rayka Zehtabchi and Melissa Berton,Ed Perkins and Jonathan Chinn,Rob Epstein and Jeffrey Friedman (filmmaker),Skye Fitzgerald and Bryn Mooser,Marshall Curry"
-    },
-    {
-      "year": "2019 in film,<small>92nd Academy Awards</small>",
-      "film": "Learning to Skateboard in a Warzone (If You're a Girl),In the Absence,Life Overtakes Me,St. Louis Superman,Walk Run Cha-Cha",
-      "nominees": "Carol Dysinger and Elena Andreicheva,Yi Seung-Jun and Gary Byung-Seok Kam,John Haptas and Kristine Samuelson,Smriti Mundhra and Sami Khan (filmmaker),Laura Nix and Colette Sandstedt"
-    }
-  ],
-  [
-    { "year": "2020 in film,<small>93rd Academy Awards</small>" },
-    {
-      "year": "Colette (2020 film)",
-      "film": "Anthony Giacchino and Alice Doyard"
-    },
-    {
-      "year": "A Concerto Is a Conversation",
-      "film": "Ben Proudfoot and Kris Bowers"
-    },
-    {
-      "year": "Do Not Split",
-      "film": "Anders Sømme Hammer and Charlotte Cook"
-    },
-    {
-      "year": "Hunger Ward",
-      "film": "Skye Fitzgerald and Michael Scheuerman"
-    },
-    {
-      "year": "A Love Song for Latasha",
-      "film": "Sophia Nahli Allison and Janice Duncan"
-    },
-    { "year": "2021 in film,<small>94th Academy Awards</small>" },
-    { "year": "The Queen of Basketball", "film": "Ben Proudfoot" },
-    { "year": "Audible (film)", "film": "Matthew Ogens and Geoff McLean" },
-    { "year": "Lead Me Home", "film": "Pedro Kos and Jon Shenk" },
-    {
-      "year": "Three Songs for Benazir",
-      "film": "Elizabeth Mirzaei and Gulistan Mirzaei"
-    },
-    { "year": "When We Were Bullies", "film": "Jay Rosenblatt (filmmaker)" },
-    { "year": "2022 in film,<small>95th Academy Awards</small>" },
-    {
-      "year": "The Elephant Whisperers",
-      "film": "Kartiki Gonsalves and Guneet Monga"
-    },
-    {
-      "year": "Haulout (film)",
-      "film": "Evgenia Arbugaeva and Maxim Arbugaev"
-    },
-    {
-      "year": "How Do You Measure a Year?",
-      "film": "Jay Rosenblatt (filmmaker)"
-    },
-    {
-      "year": "The Martha Mitchell Effect",
-      "film": "Anne Alvergue and Beth Levison"
-    },
-    {
-      "year": "Stranger at the Gate",
-      "film": "Joshua Seftel and Conall Jones"
-    },
-    { "year": "2023 in film,<small>96th Academy Awards</small>" },
-    {
-      "year": "The ABCs of Book Banning",
-      "film": "Sheila Nevins and Trish Adlesic"
-    },
-    {
-      "year": "The Barber of Little Rock",
-      "film": "John Hoffman and Christine Turner"
-    },
-    { "year": "Island in Between", "film": "S. Leo Chiang and Jean Tsien" },
-    {
-      "year": "The Last Repair Shop",
-      "film": "Ben Proudfoot and Kris Bowers"
-    },
-    { "year": "Nǎi Nai & Wài Pó", "film": "Sean Wang and Sam Davis" }
-  ]
+  {
+    "year": 2010,
+    "film": "Strangers No More",
+    "nominee": "Karen Goodman and Kirk Simon"
+  },
+  {
+    "year": 2010,
+    "film": "Killing in the Name (film)",
+    "nominee": "Jed Rothstein"
+  },
+  {
+    "year": 2010,
+    "film": "Poster Girl (film)",
+    "nominee": "Sara Nesson and Mitchell Block"
+  },
+  {
+    "year": 2010,
+    "film": "Sun Come Up (film)",
+    "nominee": "Jennifer Redfearn and Tim Metzger"
+  },
+  {
+    "year": 2010,
+    "film": "The Warriors of Qiugang",
+    "nominee": "Ruby Yang and Thomas Lennon (filmmaker)"
+  },
+  {
+    "year": 2011,
+    "film": "Saving Face (2012 film)",
+    "nominee": "Daniel Junge and Sharmeen Obaid-Chinoy"
+  },
+  {
+    "year": 2011,
+    "film": "The Barber of Birmingham",
+    "nominee": "Robin Fryday and Gail Dolgin"
+  },
+  {
+    "year": 2011,
+    "film": "God Is the Bigger Elvis",
+    "nominee": "Rebecca Cammisa and Julie Anderson"
+  },
+  {
+    "year": 2011,
+    "film": "Incident in New Baghdad",
+    "nominee": "James Spione"
+  },
+  {
+    "year": 2011,
+    "film": "The Tsunami and the Cherry Blossom",
+    "nominee": "Lucy Walker (director) and Kira Carstensen"
+  },
+  {
+    "year": 2012,
+    "film": "Inocente",
+    "nominee": "Sean Fine and Andrea Nix Fine"
+  },
+  {
+    "year": 2012,
+    "film": "Kings Point (film)",
+    "nominee": "Sari Gilman and Jedd Wider"
+  },
+  {
+    "year": 2012,
+    "film": "Mondays at Racine",
+    "nominee": "Cynthia Wade and Robin Honan"
+  },
+  {
+    "year": 2012,
+    "film": "Open Heart (film)",
+    "nominee": "Kief Davidson and Cori Shepherd Stern"
+  },
+  {
+    "year": 2012,
+    "film": "Redemption (2012 film)",
+    "nominee": "Jon Alpert and Matthew O'Neill (filmmaker)"
+  },
+  {
+    "year": 2013,
+    "film": "The Lady in Number 6",
+    "nominee": "Malcolm Clarke (film maker) and Nicholas Reed"
+  },
+  {
+    "year": 2013,
+    "film": "Cavedigger",
+    "nominee": "Jeffrey Karoff"
+  },
+  {
+    "year": 2013,
+    "film": "Facing Fear",
+    "nominee": "Jason Cohen"
+  },
+  {
+    "year": 2013,
+    "film": "Karama Has No Walls",
+    "nominee": "Sara Ishaq"
+  },
+  {
+    "year": 2013,
+    "film": "Prison Terminal: The Last Days of Private Jack Hall",
+    "nominee": "Edgar Barens"
+  },
+  {
+    "year": 2014,
+    "film": "Crisis Hotline: Veterans Press 1",
+    "nominee": "Ellen Goosenberg Kent and Dana Perry"
+  },
+  {
+    "year": 2014,
+    "film": "Joanna (2013 film)",
+    "nominee": "Aneta Kopacz"
+  },
+  {
+    "year": 2014,
+    "film": "Our Curse",
+    "nominee": "Tomasz Śliwiński and Maciej Ślesicki"
+  },
+  {
+    "year": 2014,
+    "film": "The Reaper (2013 film)",
+    "nominee": "Gabriel Serra Arguello"
+  },
+  {
+    "year": 2014,
+    "film": "White Earth (film)",
+    "nominee": "J. Christian Jensen"
+  },
+  {
+    "year": 2015,
+    "film": "A Girl in the River: The Price of Forgiveness",
+    "nominee": "Sharmeen Obaid-Chinoy"
+  },
+  {
+    "year": 2015,
+    "film": "Body Team 12",
+    "nominee": "David Darg and Bryn Mooser"
+  },
+  {
+    "year": 2015,
+    "film": "Chau, Beyond the Lines",
+    "nominee": "Courtney Marsh and Jerry Franck"
+  },
+  {
+    "year": 2015,
+    "film": "Claude Lanzmann: Spectres of the Shoah",
+    "nominee": "Adam Benzine"
+  },
+  {
+    "year": 2015,
+    "film": "Last Day of Freedom",
+    "nominee": "Dee Hibbert-Jones and Nomi Talisman"
+  },
+  {
+    "year": 2016,
+    "film": "The White Helmets (film)",
+    "nominee": "Orlando von Einsiedel and Joanna Natasegara"
+  },
+  {
+    "year": 2016,
+    "film": "Extremis (film)",
+    "nominee": "Dan Krauss"
+  },
+  {
+    "year": 2016,
+    "film": "4.1 Miles",
+    "nominee": "Daphne Matziaraki"
+  },
+  {
+    "year": 2016,
+    "film": "Joe's Violin",
+    "nominee": "Kahane Cooperman and Raphaela Neihausen"
+  },
+  {
+    "year": 2016,
+    "film": "Watani: My Homeland",
+    "nominee": "Marcel Mettelsiefen and Stephen Ellis (film editor and producer)"
+  },
+  {
+    "year": 2017,
+    "film": "Heaven Is a Traffic Jam on the 405",
+    "nominee": "Frank Stiefel"
+  },
+  {
+    "year": 2017,
+    "film": "Edith+Eddie",
+    "nominee": "Laura Checkoway and Thomas Lee Wright"
+  },
+  {
+    "year": 2017,
+    "film": "Heroin(e)",
+    "nominee": "Elaine McMillion Sheldon and Kerrin Sheldon"
+  },
+  {
+    "year": 2017,
+    "film": "Knife Skills",
+    "nominee": "Thomas Lennon (filmmaker), Kate Davis (director) and David Heilbroner"
+  },
+  {
+    "year": 2018,
+    "film": "Period. End of Sentence.",
+    "nominee": "Rayka Zehtabchi and Melissa Berton"
+  },
+  {
+    "year": 2018,
+    "film": "Black Sheep (2018 film)",
+    "nominee": "Ed Perkins and Jonathan Chinn"
+  },
+  {
+    "year": 2018,
+    "film": "End Game (2018 film)",
+    "nominee": "Rob Epstein and Jeffrey Friedman (filmmaker)"
+  },
+  {
+    "year": 2018,
+    "film": "Lifeboat (2018 film)",
+    "nominee": "Skye Fitzgerald and Bryn Mooser"
+  },
+  {
+    "year": 2018,
+    "film": "A Night at the Garden",
+    "nominee": "Marshall Curry"
+  },
+  {
+    "year": 2019,
+    "film": "Learning to Skateboard in a Warzone (If You're a Girl)",
+    "nominee": "Carol Dysinger and Elena Andreicheva"
+  },
+  {
+    "year": 2019,
+    "film": "In the Absence",
+    "nominee": "Yi Seung-Jun and Gary Byung-Seok Kam"
+  },
+  {
+    "year": 2019,
+    "film": "Life Overtakes Me",
+    "nominee": "John Haptas and Kristine Samuelson"
+  },
+  {
+    "year": 2019,
+    "film": "St. Louis Superman",
+    "nominee": "Smriti Mundhra and Sami Khan (filmmaker)"
+  },
+  {
+    "year": 2019,
+    "film": "Walk Run Cha-Cha",
+    "nominee": "Laura Nix and Colette Sandstedt"
+  },
+  {
+    "year": 2020,
+    "film": "Colette (2020 film)",
+    "nominee": "Anthony Giacchino and Alice Doyard"
+  },
+  {
+    "year": 2020,
+    "film": "A Concerto Is a Conversation",
+    "nominee": "Ben Proudfoot and Kris Bowers"
+  },
+  {
+    "year": 2020,
+    "film": "Do Not Split",
+    "nominee": "Anders Sømme Hammer and Charlotte Cook"
+  },
+  {
+    "year": 2020,
+    "film": "Hunger Ward",
+    "nominee": "Skye Fitzgerald and Michael Scheuerman"
+  },
+  {
+    "year": 2020,
+    "film": "A Love Song for Latasha",
+    "nominee": "Sophia Nahli Allison and Janice Duncan"
+  },
+  {
+    "year": 2021,
+    "film": "The Queen of Basketball",
+    "nominee": "Ben Proudfoot"
+  },
+  {
+    "year": 2021,
+    "film": "Audible (film)",
+    "nominee": "Matthew Ogens and Geoff McLean"
+  },
+  {
+    "year": 2021,
+    "film": "Lead Me Home",
+    "nominee": "Pedro Kos and Jon Shenk"
+  },
+  {
+    "year": 2021,
+    "film": "Three Songs for Benazir",
+    "nominee": "Elizabeth Mirzaei and Gulistan Mirzaei"
+  },
+  {
+    "year": 2021,
+    "film": "When We Were Bullies",
+    "nominee": "Jay Rosenblatt (filmmaker)"
+  },
+  {
+    "year": 2022,
+    "film": "The Elephant Whisperers",
+    "nominee": "Kartiki Gonsalves and Guneet Monga"
+  },
+  {
+    "year": 2022,
+    "film": "Haulout (film)",
+    "nominee": "Evgenia Arbugaeva and Maxim Arbugaev"
+  },
+  {
+    "year": 2022,
+    "film": "How Do You Measure a Year?",
+    "nominee": "Jay Rosenblatt (filmmaker)"
+  },
+  {
+    "year": 2022,
+    "film": "The Martha Mitchell Effect",
+    "nominee": "Anne Alvergue and Beth Levison"
+  },
+  {
+    "year": 2022,
+    "film": "Stranger at the Gate",
+    "nominee": "Joshua Seftel and Conall Jones"
+  },
+  {
+    "year": 2023,
+    "film": "The ABCs of Book Banning",
+    "nominee": "Sheila Nevins and Trish Adlesic"
+  },
+  {
+    "year": 2023,
+    "film": "The Barber of Little Rock",
+    "nominee": "John Hoffman and Christine Turner"
+  },
+  {
+    "year": 2023,
+    "film": "Island in Between",
+    "nominee": "S. Leo Chiang and Jean Tsien"
+  },
+  {
+    "year": 2023,
+    "film": "The Last Repair Shop",
+    "nominee": "Ben Proudfoot and Kris Bowers"
+  },
+  {
+    "year": 2023,
+    "film": "Nǎi Nai & Wài Pó",
+    "nominee": "Sean Wang and Sam Davis"
+  }
 ]

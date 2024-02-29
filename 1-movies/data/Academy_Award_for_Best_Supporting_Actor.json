@@ -1,140 +1,492 @@
 [
-  { "year": 2010, "actor": "Christian Bale", "movie": "The Fighter" },
-  { "year": 2010, "actor": "John Hawkes", "movie": "Winter's Bone" },
-  { "year": 2010, "actor": "Jeremy Renner", "movie": "The Town" },
-  { "year": 2010, "actor": "Mark Ruffalo", "movie": "The Kids Are All Right" },
-  { "year": 2010, "actor": "Geoffrey Rush", "movie": "The King's Speech" },
-  { "year": 2011, "actor": "Christopher Plummer", "movie": "Beginners" },
-  { "year": 2011, "actor": "Kenneth Branagh", "movie": "My Week with Marilyn" },
-  { "year": 2011, "actor": "Jonah Hill", "movie": "Moneyball" },
-  { "year": 2011, "actor": "Nick Nolte", "movie": "Warrior" },
-  {
-    "year": 2011,
-    "actor": "Max von Sydow",
-    "movie": "Extremely Loud & Incredibly Close"
-  },
-  { "year": 2012, "actor": "Christoph Waltz", "movie": "Django Unchained" },
-  { "year": 2012, "actor": "Alan Arkin", "movie": "Argo" },
-  {
-    "year": 2012,
-    "actor": "Robert De Niro",
-    "movie": "Silver Linings Playbook"
-  },
-  { "year": 2012, "actor": "Philip Seymour Hoffman", "movie": "The Master" },
-  { "year": 2012, "actor": "Tommy Lee Jones", "movie": "Lincoln" },
-  { "year": 2013, "actor": "Jared Leto", "movie": "Dallas Buyers Club" },
-  { "year": 2013, "actor": "Barkhad Abdi", "movie": "Captain Phillips" },
-  { "year": 2013, "actor": "Bradley Cooper", "movie": "American Hustle" },
-  { "year": 2013, "actor": "Michael Fassbender", "movie": "12 Years a Slave" },
-  { "year": 2013, "actor": "Jonah Hill", "movie": "The Wolf of Wall Street" },
-  { "year": 2014, "actor": "J. K. Simmons", "movie": "Whiplash" },
-  { "year": 2014, "actor": "Robert Duvall", "movie": "The Judge" },
-  { "year": 2014, "actor": "Ethan Hawke", "movie": "Boyhood" },
-  { "year": 2014, "actor": "Edward Norton", "movie": "Birdman" },
-  { "year": 2014, "actor": "Mark Ruffalo", "movie": "Foxcatcher" },
-  { "year": 2015, "actor": "Mark Rylance", "movie": "Bridge of Spies" },
-  { "year": 2015, "actor": "Christian Bale", "movie": "The Big Short" },
-  { "year": 2015, "actor": "Tom Hardy", "movie": "The Revenant" },
-  { "year": 2015, "actor": "Mark Ruffalo", "movie": "Spotlight" },
-  { "year": 2015, "actor": "Sylvester Stallone", "movie": "Creed" },
-  { "year": 2016, "actor": "Mahershala Ali", "movie": "Moonlight" },
-  { "year": 2016, "actor": "Jeff Bridges", "movie": "Hell or High Water" },
-  { "year": 2016, "actor": "Lucas Hedges", "movie": "Manchester by the Sea" },
-  { "year": 2016, "actor": "Dev Patel", "movie": "Lion" },
-  { "year": 2016, "actor": "Michael Shannon", "movie": "Nocturnal Animals" },
-  {
-    "year": 2017,
-    "actor": "Sam Rockwell",
-    "movie": "Three Billboards Outside Ebbing, Missouri"
-  },
-  { "year": 2017, "actor": "Willem Dafoe", "movie": "The Florida Project" },
-  {
-    "year": 2017,
-    "actor": "Woody Harrelson",
-    "movie": "Three Billboards Outside Ebbing, Missouri"
-  },
-  { "year": 2017, "actor": "Richard Jenkins", "movie": "The Shape of Water" },
-  {
-    "year": 2017,
-    "actor": "Christopher Plummer",
-    "movie": "All the Money in the World"
-  },
-  { "year": 2018, "actor": "Mahershala Ali", "movie": "Green Book" },
-  { "year": 2018, "actor": "Adam Driver", "movie": "BlacKkKlansman" },
-  { "year": 2018, "actor": "Sam Elliott", "movie": "A Star Is Born" },
-  {
-    "year": 2018,
-    "actor": "Richard E. Grant",
-    "movie": "Can You Ever Forgive Me?"
-  },
-  { "year": 2018, "actor": "Sam Rockwell", "movie": "Vice" },
-  {
-    "year": 2019,
-    "actor": "Brad Pitt",
-    "movie": "Once Upon a Time in Hollywood"
-  },
-  {
-    "year": 2019,
-    "actor": "Tom Hanks",
-    "movie": "A Beautiful Day in the Neighborhood"
-  },
-  { "year": 2019, "actor": "Anthony Hopkins", "movie": "The Two Popes" },
-  { "year": 2019, "actor": "Al Pacino", "movie": "The Irishman" },
-  { "year": 2019, "actor": "Joe Pesci", "movie": "The Irishman" },
-  {
-    "year": 2020,
-    "actor": "Daniel Kaluuya",
-    "movie": "Judas and the Black Messiah"
-  },
-  {
-    "year": 2020,
-    "actor": "Sacha Baron Cohen",
-    "movie": "The Trial of the Chicago 7"
-  },
-  {
-    "year": 2020,
-    "actor": "Leslie Odom Jr.",
-    "movie": "One Night in Miami..."
-  },
-  { "year": 2020, "actor": "Paul Raci", "movie": "Sound of Metal" },
-  {
-    "year": 2020,
-    "actor": "LaKeith Stanfield",
-    "movie": "Judas and the Black Messiah"
-  },
-  { "year": 2021, "actor": "Troy Kotsur", "movie": "CODA" },
-  { "year": 2021, "actor": "Ciarán Hinds", "movie": "Belfast" },
-  { "year": 2021, "actor": "Jesse Plemons", "movie": "The Power of the Dog" },
-  { "year": 2021, "actor": "J. K. Simmons", "movie": "Being the Ricardos" },
-  {
-    "year": 2021,
-    "actor": "Kodi Smit-McPhee",
-    "movie": "The Power of the Dog"
-  },
-  {
-    "year": 2022,
-    "actor": "Ke Huy Quan",
-    "movie": "Everything Everywhere All at Once"
-  },
-  {
-    "year": 2022,
-    "actor": "Brendan Gleeson",
-    "movie": "The Banshees of Inisherin"
-  },
-  { "year": 2022, "actor": "Brian Tyree Henry", "movie": "Causeway" },
-  { "year": 2022, "actor": "Judd Hirsch", "movie": "The Fabelmans" },
-  {
-    "year": 2022,
-    "actor": "Barry Keoghan",
-    "movie": "The Banshees of Inisherin"
-  },
-  { "year": 2023, "actor": "Sterling K. Brown", "movie": "American Fiction" },
-  {
-    "year": 2023,
-    "actor": "Robert De Niro",
-    "movie": "Killers of the Flower Moon"
-  },
-  { "year": 2023, "actor": "Robert Downey Jr.", "movie": "Oppenheimer" },
-  { "year": 2023, "actor": "Ryan Gosling", "movie": "Barbie" },
-  { "year": 2023, "actor": "Mark Ruffalo", "movie": "Poor Things" }
+    {
+        "year": 2010,
+        "actor": "Christian Bale",
+        "movie": "The Fighter",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2010,
+        "actor": "John Hawkes",
+        "movie": "Winter's Bone",
+        "descent": "",
+        "identity": ""
+    },
+    {
+        "year": 2010,
+        "actor": "Jeremy Renner",
+        "movie": "The Town",
+        "descent": "German, Irish, Scottish, Swedish, English",
+        "identity": "white"
+    },
+    {
+        "year": 2010,
+        "actor": "Mark Ruffalo",
+        "movie": "The Kids Are All Right",
+        "descent": "Italian",
+        "identity": "white"
+    },
+    {
+        "year": 2010,
+        "actor": "Geoffrey Rush",
+        "movie": "The King's Speech",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2011,
+        "actor": "Christopher Plummer",
+        "movie": "Beginners",
+        "descent": "English, Scottish, German",
+        "identity": "white"
+    },
+    {
+        "year": 2011,
+        "actor": "Kenneth Branagh",
+        "movie": "My Week with Marilyn",
+        "descent": "English, Northern Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2011,
+        "actor": "Jonah Hill",
+        "movie": "Moneyball",
+        "descent": "Ashkenazi Jewish, Russian",
+        "identity": ""
+    },
+    {
+        "year": 2011,
+        "actor": "Nick Nolte",
+        "movie": "Warrior",
+        "descent": "German, Swiss-German, English, Scottish, Scots-Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2011,
+        "actor": "Max von Sydow",
+        "movie": "Extremely Loud & Incredibly Close",
+        "descent": "Swedish",
+        "identity": "white"
+    },
+    {
+        "year": 2012,
+        "actor": "Christoph Waltz",
+        "movie": "Django Unchained",
+        "descent": "Austrian, German",
+        "identity": "white"
+    },
+    {
+        "year": 2012,
+        "actor": "Alan Arkin",
+        "movie": "Argo",
+        "descent": "Ashkenazi Jewish, Russian",
+        "identity": ""
+    },
+    {
+        "year": 2012,
+        "actor": "Robert De Niro",
+        "movie": "Silver Linings Playbook",
+        "descent": "Italian, Irish, Dutch, English, French, German",
+        "identity": "white"
+    },
+    {
+        "year": 2012,
+        "actor": "Philip Seymour Hoffman",
+        "movie": "The Master",
+        "descent": "German, Irish, English",
+        "identity": "white"
+    },
+    {
+        "year": 2012,
+        "actor": "Tommy Lee Jones",
+        "movie": "Lincoln",
+        "descent": "English, Scottish, Irish, Welsh, German, and Belgian",
+        "identity": "white"
+    },
+    {
+        "year": 2013,
+        "actor": "Jared Leto",
+        "movie": "Dallas Buyers Club",
+        "descent": "French, Spanish, Cajun",
+        "identity": "white"
+    },
+    {
+        "year": 2013,
+        "actor": "Barkhad Abdi",
+        "movie": "Captain Phillips",
+        "descent": "Somali",
+        "identity": ""
+    },
+    {
+        "year": 2013,
+        "actor": "Bradley Cooper",
+        "movie": "American Hustle",
+        "descent": "Italian, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2013,
+        "actor": "Michael Fassbender",
+        "movie": "12 Years a Slave",
+        "descent": "Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2013,
+        "actor": "Jonah Hill",
+        "movie": "The Wolf of Wall Street",
+        "descent": "Ashkenazi Jewish, Russian",
+        "identity": ""
+    },
+    {
+        "year": 2014,
+        "actor": "J. K. Simmons",
+        "movie": "Whiplash",
+        "descent": "English, Scottish, German",
+        "identity": "white"
+    },
+    {
+        "year": 2014,
+        "actor": "Robert Duvall",
+        "movie": "The Judge",
+        "descent": "English, German, Swiss-German, Scottish, Scots-Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2014,
+        "actor": "Ethan Hawke",
+        "movie": "Boyhood",
+        "descent": "English, Scots-Irish, Irish, German, distant Dutch",
+        "identity": "white"
+    },
+    {
+        "year": 2014,
+        "actor": "Edward Norton",
+        "movie": "Birdman",
+        "descent": "English, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2014,
+        "actor": "Mark Ruffalo",
+        "movie": "Foxcatcher",
+        "descent": "Italian",
+        "identity": "white"
+    },
+    {
+        "year": 2015,
+        "actor": "Mark Rylance",
+        "movie": "Bridge of Spies",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2015,
+        "actor": "Christian Bale",
+        "movie": "The Big Short",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2015,
+        "actor": "Tom Hardy",
+        "movie": "The Revenant",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2015,
+        "actor": "Mark Ruffalo",
+        "movie": "Spotlight",
+        "descent": "Italian",
+        "identity": "white"
+    },
+    {
+        "year": 2015,
+        "actor": "Sylvester Stallone",
+        "movie": "Creed",
+        "descent": "Italian, French",
+        "identity": "white"
+    },
+    {
+        "year": 2016,
+        "actor": "Mahershala Ali",
+        "movie": "Moonlight",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2016,
+        "actor": "Jeff Bridges",
+        "movie": "Hell or High Water",
+        "descent": "English, Irish, Scottish, Swiss-German",
+        "identity": "white"
+    },
+    {
+        "year": 2016,
+        "actor": "Lucas Hedges",
+        "movie": "Manchester by the Sea",
+        "descent": "English, German, Scots-Irish, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2016,
+        "actor": "Dev Patel",
+        "movie": "Lion",
+        "descent": "Gujarati Indian",
+        "identity": "asian"
+    },
+    {
+        "year": 2016,
+        "actor": "Michael Shannon",
+        "movie": "Nocturnal Animals",
+        "descent": "English, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2017,
+        "actor": "Sam Rockwell",
+        "movie": "Three Billboards Outside Ebbing, Missouri",
+        "descent": "English, German, distant Dutch",
+        "identity": "white"
+    },
+    {
+        "year": 2017,
+        "actor": "Willem Dafoe",
+        "movie": "The Florida Project",
+        "descent": "English, French, German, Irish, Norwegian, Scottish",
+        "identity": "white"
+    },
+    {
+        "year": 2017,
+        "actor": "Woody Harrelson",
+        "movie": "Three Billboards Outside Ebbing, Missouri",
+        "descent": "English, Scottish, Dutch, German, Welsh",
+        "identity": "white"
+    },
+    {
+        "year": 2017,
+        "actor": "Richard Jenkins",
+        "movie": "The Shape of Water",
+        "descent": "English, Irish, German, distant French",
+        "identity": "white"
+    },
+    {
+        "year": 2017,
+        "actor": "Christopher Plummer",
+        "movie": "All the Money in the World",
+        "descent": "English, Scottish, German",
+        "identity": "white"
+    },
+    {
+        "year": 2018,
+        "actor": "Mahershala Ali",
+        "movie": "Green Book",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2018,
+        "actor": "Adam Driver",
+        "movie": "BlacKkKlansman",
+        "descent": "English, German, Dutch, Irish, Scottish",
+        "identity": "white"
+    },
+    {
+        "year": 2018,
+        "actor": "Sam Elliott",
+        "movie": "A Star Is Born",
+        "descent": "Scottish, English, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2018,
+        "actor": "Richard E. Grant",
+        "movie": "Can You Ever Forgive Me?",
+        "descent": "English",
+        "identity": "white"
+    },
+    {
+        "year": 2018,
+        "actor": "Sam Rockwell",
+        "movie": "Vice",
+        "descent": "English, German, distant Dutch",
+        "identity": "white"
+    },
+    {
+        "year": 2019,
+        "actor": "Brad Pitt",
+        "movie": "Once Upon a Time in Hollywood",
+        "descent": "English, Scottish, Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2019,
+        "actor": "Tom Hanks",
+        "movie": "A Beautiful Day in the Neighborhood",
+        "descent": "English, German, distant Dutch",
+        "identity": "white"
+    },
+    {
+        "year": 2019,
+        "actor": "Anthony Hopkins",
+        "movie": "The Two Popes",
+        "descent": "English, Welsh",
+        "identity": "white"
+    },
+    {
+        "year": 2019,
+        "actor": "Al Pacino",
+        "movie": "The Irishman",
+        "descent": "Italian",
+        "identity": "white"
+    },
+    {
+        "year": 2019,
+        "actor": "Joe Pesci",
+        "movie": "The Irishman",
+        "descent": "Italian",
+        "identity": "white"
+    },
+    {
+        "year": 2020,
+        "actor": "Daniel Kaluuya",
+        "movie": "Judas and the Black Messiah",
+        "descent": "Ugandan",
+        "identity": "african"
+    },
+    {
+        "year": 2020,
+        "actor": "Sacha Baron Cohen",
+        "movie": "The Trial of the Chicago 7",
+        "descent": "Ashkenazi Jewish",
+        "identity": ""
+    },
+    {
+        "year": 2020,
+        "actor": "Leslie Odom Jr.",
+        "movie": "One Night in Miami...",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2020,
+        "actor": "Paul Raci",
+        "movie": "Sound of Metal",
+        "descent": "Hungarian, Irish, Polish",
+        "identity": "white"
+    },
+    {
+        "year": 2020,
+        "actor": "LaKeith Stanfield",
+        "movie": "Judas and the Black Messiah",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2021,
+        "actor": "Troy Kotsur",
+        "movie": "CODA",
+        "descent": "Greek, Russian-Jewish",
+        "identity": ""
+    },
+    {
+        "year": 2021,
+        "actor": "Ciarán Hinds",
+        "movie": "Belfast",
+        "descent": "Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2021,
+        "actor": "Jesse Plemons",
+        "movie": "The Power of the Dog",
+        "descent": "English, German, Scottish, distant Swiss-German",
+        "identity": "white"
+    },
+    {
+        "year": 2021,
+        "actor": "J. K. Simmons",
+        "movie": "Being the Ricardos",
+        "descent": "English, Scottish, German",
+        "identity": "white"
+    },
+    {
+        "year": 2021,
+        "actor": "Kodi Smit-McPhee",
+        "movie": "The Power of the Dog",
+        "descent": "English, Scottish, Irish, distant Dutch, Cornish",
+        "identity": "white"
+    },
+    {
+        "year": 2022,
+        "actor": "Ke Huy Quan",
+        "movie": "Everything Everywhere All at Once",
+        "descent": "Vietnamese",
+        "identity": "asian"
+    },
+    {
+        "year": 2022,
+        "actor": "Brendan Gleeson",
+        "movie": "The Banshees of Inisherin",
+        "descent": "Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2022,
+        "actor": "Brian Tyree Henry",
+        "movie": "Causeway",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2022,
+        "actor": "Judd Hirsch",
+        "movie": "The Fabelmans",
+        "descent": "Ashkenazi Jewish",
+        "identity": ""
+    },
+    {
+        "year": 2022,
+        "actor": "Barry Keoghan",
+        "movie": "The Banshees of Inisherin",
+        "descent": "Irish",
+        "identity": "white"
+    },
+    {
+        "year": 2023,
+        "actor": "Sterling K. Brown",
+        "movie": "American Fiction",
+        "descent": "African-American",
+        "identity": "african"
+    },
+    {
+        "year": 2023,
+        "actor": "Robert De Niro",
+        "movie": "Killers of the Flower Moon",
+        "descent": "Italian, Irish, Dutch, English, French, German",
+        "identity": "white"
+    },
+    {
+        "year": 2023,
+        "actor": "Robert Downey Jr.",
+        "movie": "Oppenheimer",
+        "descent": "German, Scottish, Swiss-German, English, distant Dutch",
+        "identity": "white"
+    },
+    {
+        "year": 2023,
+        "actor": "Ryan Gosling",
+        "movie": "Barbie",
+        "descent": "French-Canadian, English, Scottish",
+        "identity": "white"
+    },
+    {
+        "year": 2023,
+        "actor": "Mark Ruffalo",
+        "movie": "Poor Things",
+        "descent": "Italian",
+        "identity": "white"
+    }
 ]

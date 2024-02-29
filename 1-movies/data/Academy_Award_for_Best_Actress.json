@@ -1,120 +1,492 @@
 [
-  { "year": 2010, "actor": "Natalie Portman", "movie": "Black Swan" },
+  {
+    "year": 2010,
+    "actor": "Natalie Portman",
+    "movie": "Black Swan",
+    "descent": "Jewish descent, Polish descent, Austrian descent, Russian descent, American descent",
+    "identity": "white"
+  },
   {
     "year": 2010,
     "actor": "Annette Bening",
-    "movie": "The Kids Are All Right"
+    "movie": "The Kids Are All Right",
+    "descent": "German descent, English descent",
+    "identity": "white"
   },
-  { "year": 2010, "actor": "Nicole Kidman", "movie": "Rabbit Hole" },
-  { "year": 2010, "actor": "Jennifer Lawrence", "movie": "Winter's Bone" },
-  { "year": 2010, "actor": "Michelle Williams", "movie": "Blue Valentine" },
-  { "year": 2011, "actor": "Meryl Streep", "movie": "The Iron Lady" },
-  { "year": 2011, "actor": "Glenn Close", "movie": "Albert Nobbs" },
-  { "year": 2011, "actor": "Viola Davis", "movie": "The Help" },
+  {
+    "year": 2010,
+    "actor": "Nicole Kidman",
+    "movie": "Rabbit Hole",
+    "descent": "English descent, Irish descent, Scottish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2010,
+    "actor": "Jennifer Lawrence",
+    "movie": "Winter's Bone",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2010,
+    "actor": "Michelle Williams",
+    "movie": "Blue Valentine",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2011,
+    "actor": "Meryl Streep",
+    "movie": "The Iron Lady",
+    "descent": "German descent, Swiss descent, English descent, Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2011,
+    "actor": "Glenn Close",
+    "movie": "Albert Nobbs",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2011,
+    "actor": "Viola Davis",
+    "movie": "The Help",
+    "descent": "",
+    "identity": "african"
+  },
   {
     "year": 2011,
     "actor": "Rooney Mara",
-    "movie": "The Girl with the Dragon Tattoo"
+    "movie": "The Girl with the Dragon Tattoo",
+    "descent": "Irish descent, German descent, French-Canadian descent, Italian descent",
+    "identity": "white"
   },
   {
     "year": 2011,
     "actor": "Michelle Williams",
-    "movie": "My Week with Marilyn"
+    "movie": "My Week with Marilyn",
+    "descent": "",
+    "identity": ""
   },
   {
     "year": 2012,
     "actor": "Jennifer Lawrence",
-    "movie": "Silver Linings Playbook"
+    "movie": "Silver Linings Playbook",
+    "descent": "",
+    "identity": ""
   },
-  { "year": 2012, "actor": "Jessica Chastain", "movie": "Zero Dark Thirty" },
-  { "year": 2012, "actor": "Emmanuelle Riva", "movie": "Amour" },
+  {
+    "year": 2012,
+    "actor": "Jessica Chastain",
+    "movie": "Zero Dark Thirty",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2012,
+    "actor": "Emmanuelle Riva",
+    "movie": "Amour",
+    "descent": "French descent, Italian descent",
+    "identity": "white"
+  },
   {
     "year": 2012,
     "actor": "Quvenzhané Wallis",
-    "movie": "Beasts of the Southern Wild"
+    "movie": "Beasts of the Southern Wild",
+    "descent": "",
+    "identity": "african"
   },
-  { "year": 2012, "actor": "Naomi Watts", "movie": "The Impossible" },
-  { "year": 2013, "actor": "Cate Blanchett", "movie": "Blue Jasmine" },
-  { "year": 2013, "actor": "Amy Adams", "movie": "American Hustle" },
-  { "year": 2013, "actor": "Sandra Bullock", "movie": "Gravity" },
-  { "year": 2013, "actor": "Judi Dench", "movie": "Philomena" },
-  { "year": 2013, "actor": "Meryl Streep", "movie": "August: Osage County" },
-  { "year": 2014, "actor": "Julianne Moore", "movie": "Still Alice" },
-  { "year": 2014, "actor": "Marion Cotillard", "movie": "Two Days, One Night" },
+  {
+    "year": 2012,
+    "actor": "Naomi Watts",
+    "movie": "The Impossible",
+    "descent": "British descent, Australian descent",
+    "identity": "white"
+  },
+  {
+    "year": 2013,
+    "actor": "Cate Blanchett",
+    "movie": "Blue Jasmine",
+    "descent": "",
+    "identity": "white"
+  },
+  {
+    "year": 2013,
+    "actor": "Amy Adams",
+    "movie": "American Hustle",
+    "descent": "American descent",
+    "identity": "white"
+  },
+  {
+    "year": 2013,
+    "actor": "Sandra Bullock",
+    "movie": "Gravity",
+    "descent": "German descent, American descent",
+    "identity": "white"
+  },
+  {
+    "year": 2013,
+    "actor": "Judi Dench",
+    "movie": "Philomena",
+    "descent": "Irish descent, English descent, Danish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2013,
+    "actor": "Meryl Streep",
+    "movie": "August: Osage County",
+    "descent": "German descent, Swiss descent, English descent, Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2014,
+    "actor": "Julianne Moore",
+    "movie": "Still Alice",
+    "descent": "Scottish descent, American descent",
+    "identity": "white"
+  },
+  {
+    "year": 2014,
+    "actor": "Marion Cotillard",
+    "movie": "Two Days, One Night",
+    "descent": "French descent",
+    "identity": "white"
+  },
   {
     "year": 2014,
     "actor": "Felicity Jones",
-    "movie": "The Theory of Everything"
+    "movie": "The Theory of Everything",
+    "descent": "",
+    "identity": ""
   },
-  { "year": 2014, "actor": "Rosamund Pike", "movie": "Gone Girl" },
-  { "year": 2014, "actor": "Reese Witherspoon", "movie": "Wild" },
-  { "year": 2015, "actor": "Brie Larson", "movie": "Room" },
-  { "year": 2015, "actor": "Cate Blanchett", "movie": "Carol" },
-  { "year": 2015, "actor": "Jennifer Lawrence", "movie": "Joy" },
-  { "year": 2015, "actor": "Charlotte Rampling", "movie": "45 Years" },
-  { "year": 2015, "actor": "Saoirse Ronan", "movie": "Brooklyn" },
-  { "year": 2016, "actor": "Emma Stone", "movie": "La La Land" },
-  { "year": 2016, "actor": "Isabelle Huppert", "movie": "Elle" },
-  { "year": 2016, "actor": "Ruth Negga", "movie": "Loving" },
-  { "year": 2016, "actor": "Natalie Portman", "movie": "Jackie" },
-  { "year": 2016, "actor": "Meryl Streep", "movie": "Florence Foster Jenkins" },
+  {
+    "year": 2014,
+    "actor": "Rosamund Pike",
+    "movie": "Gone Girl",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2014,
+    "actor": "Reese Witherspoon",
+    "movie": "Wild",
+    "descent": "Scottish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2015,
+    "actor": "Brie Larson",
+    "movie": "Room",
+    "descent": "Franco-Manitoban descent, Swedish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2015,
+    "actor": "Cate Blanchett",
+    "movie": "Carol",
+    "descent": "",
+    "identity": "white"
+  },
+  {
+    "year": 2015,
+    "actor": "Jennifer Lawrence",
+    "movie": "Joy",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2015,
+    "actor": "Charlotte Rampling",
+    "movie": "45 Years",
+    "descent": "English descent",
+    "identity": "white"
+  },
+  {
+    "year": 2015,
+    "actor": "Saoirse Ronan",
+    "movie": "Brooklyn",
+    "descent": "Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2016,
+    "actor": "Emma Stone",
+    "movie": "La La Land",
+    "descent": "Swedish descent, German descent, English descent, Scottish descent, Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2016,
+    "actor": "Isabelle Huppert",
+    "movie": "Elle",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2016,
+    "actor": "Ruth Negga",
+    "movie": "Loving",
+    "descent": "Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2016,
+    "actor": "Natalie Portman",
+    "movie": "Jackie",
+    "descent": "Jewish descent, Polish descent, Austrian descent, Russian descent, American descent",
+    "identity": "white"
+  },
+  {
+    "year": 2016,
+    "actor": "Meryl Streep",
+    "movie": "Florence Foster Jenkins",
+    "descent": "German descent, Swiss descent, English descent, Irish descent",
+    "identity": "white"
+  },
   {
     "year": 2017,
     "actor": "Frances McDormand",
-    "movie": "Three Billboards Outside Ebbing, Missouri"
+    "movie": "Three Billboards Outside Ebbing, Missouri",
+    "descent": "Canadian descent",
+    "identity": "white"
   },
-  { "year": 2017, "actor": "Sally Hawkins", "movie": "The Shape of Water" },
-  { "year": 2017, "actor": "Margot Robbie", "movie": "I, Tonya" },
-  { "year": 2017, "actor": "Saoirse Ronan", "movie": "Lady Bird" },
-  { "year": 2017, "actor": "Meryl Streep", "movie": "The Post" },
-  { "year": 2018, "actor": "Olivia Colman", "movie": "The Favourite" },
-  { "year": 2018, "actor": "Yalitza Aparicio", "movie": "Roma" },
-  { "year": 2018, "actor": "Glenn Close", "movie": "The Wife" },
-  { "year": 2018, "actor": "Lady Gaga", "movie": "A Star Is Born" },
+  {
+    "year": 2017,
+    "actor": "Sally Hawkins",
+    "movie": "The Shape of Water",
+    "descent": "Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2017,
+    "actor": "Margot Robbie",
+    "movie": "I, Tonya",
+    "descent": "Australian descent",
+    "identity": "white"
+  },
+  {
+    "year": 2017,
+    "actor": "Saoirse Ronan",
+    "movie": "Lady Bird",
+    "descent": "Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2017,
+    "actor": "Meryl Streep",
+    "movie": "The Post",
+    "descent": "German descent, Swiss descent, English descent, Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2018,
+    "actor": "Olivia Colman",
+    "movie": "The Favourite",
+    "descent": "European descent, potential Indian descent",
+    "identity": "white"
+  },
+  {
+    "year": 2018,
+    "actor": "Yalitza Aparicio",
+    "movie": "Roma",
+    "descent": "Indigenous Mexican descent, specifically Mixtec and Triqui",
+    "identity": "hispanic"
+  },
+  {
+    "year": 2018,
+    "actor": "Glenn Close",
+    "movie": "The Wife",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2018,
+    "actor": "Lady Gaga",
+    "movie": "A Star Is Born",
+    "descent": "",
+    "identity": ""
+  },
   {
     "year": 2018,
     "actor": "Melissa McCarthy",
-    "movie": "Can You Ever Forgive Me?"
+    "movie": "Can You Ever Forgive Me?",
+    "descent": "Irish descent, English descent, German descent",
+    "identity": "white"
   },
-  { "year": 2019, "actor": "Renée Zellweger", "movie": "Judy" },
-  { "year": 2019, "actor": "Cynthia Erivo", "movie": "Harriet" },
-  { "year": 2019, "actor": "Scarlett Johansson", "movie": "Marriage Story" },
-  { "year": 2019, "actor": "Saoirse Ronan", "movie": "Little Women" },
-  { "year": 2019, "actor": "Charlize Theron", "movie": "Bombshell" },
-  { "year": 2020, "actor": "Frances McDormand", "movie": "Nomadland" },
-  { "year": 2020, "actor": "Viola Davis", "movie": "Ma Rainey's Black Bottom" },
+  {
+    "year": 2019,
+    "actor": "Renée Zellweger",
+    "movie": "Judy",
+    "descent": "Swiss descent, Norwegian descent, Kven descent, Sámi descent",
+    "identity": "white"
+  },
+  {
+    "year": 2019,
+    "actor": "Cynthia Erivo",
+    "movie": "Harriet",
+    "descent": "Nigerian descent",
+    "identity": "african"
+  },
+  {
+    "year": 2019,
+    "actor": "Scarlett Johansson",
+    "movie": "Marriage Story",
+    "descent": "Danish descent, Ashkenazi Jewish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2019,
+    "actor": "Saoirse Ronan",
+    "movie": "Little Women",
+    "descent": "Irish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2019,
+    "actor": "Charlize Theron",
+    "movie": "Bombshell",
+    "descent": "Dutch descent, French descent, German descent",
+    "identity": "white"
+  },
+  {
+    "year": 2020,
+    "actor": "Frances McDormand",
+    "movie": "Nomadland",
+    "descent": "Canadian descent",
+    "identity": "white"
+  },
+  {
+    "year": 2020,
+    "actor": "Viola Davis",
+    "movie": "Ma Rainey's Black Bottom",
+    "descent": "",
+    "identity": "african"
+  },
   {
     "year": 2020,
     "actor": "Andra Day",
-    "movie": "The United States vs. Billie Holiday"
+    "movie": "The United States vs. Billie Holiday",
+    "descent": "",
+    "identity": ""
   },
-  { "year": 2020, "actor": "Vanessa Kirby", "movie": "Pieces of a Woman" },
-  { "year": 2020, "actor": "Carey Mulligan", "movie": "Promising Young Woman" },
+  {
+    "year": 2020,
+    "actor": "Vanessa Kirby",
+    "movie": "Pieces of a Woman",
+    "descent": "English descent",
+    "identity": "white"
+  },
+  {
+    "year": 2020,
+    "actor": "Carey Mulligan",
+    "movie": "Promising Young Woman",
+    "descent": "",
+    "identity": ""
+  },
   {
     "year": 2021,
     "actor": "Jessica Chastain",
-    "movie": "The Eyes of Tammy Faye"
+    "movie": "The Eyes of Tammy Faye",
+    "descent": "",
+    "identity": ""
   },
-  { "year": 2021, "actor": "Olivia Colman", "movie": "The Lost Daughter" },
-  { "year": 2021, "actor": "Penélope Cruz", "movie": "Parallel Mothers" },
-  { "year": 2021, "actor": "Nicole Kidman", "movie": "Being the Ricardos" },
-  { "year": 2021, "actor": "Kristen Stewart", "movie": "Spencer" },
+  {
+    "year": 2021,
+    "actor": "Olivia Colman",
+    "movie": "The Lost Daughter",
+    "descent": "European descent, potential Indian descent",
+    "identity": "white"
+  },
+  {
+    "year": 2021,
+    "actor": "Penélope Cruz",
+    "movie": "Parallel Mothers",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2021,
+    "actor": "Nicole Kidman",
+    "movie": "Being the Ricardos",
+    "descent": "English descent, Irish descent, Scottish descent",
+    "identity": "white"
+  },
+  {
+    "year": 2021,
+    "actor": "Kristen Stewart",
+    "movie": "Spencer",
+    "descent": "American descent, Australian descent, Ashkenazi Jewish descent",
+    "identity": "white"
+  },
   {
     "year": 2022,
     "actor": "Michelle Yeoh",
-    "movie": "Everything Everywhere All at Once"
+    "movie": "Everything Everywhere All at Once",
+    "descent": "Chinese descent",
+    "identity": "asian"
   },
-  { "year": 2022, "actor": "Cate Blanchett", "movie": "Tár" },
-  { "year": 2022, "actor": "Ana de Armas", "movie": "Blonde" },
-  { "year": 2022, "actor": "Andrea Riseborough", "movie": "To Leslie" },
-  { "year": 2022, "actor": "Michelle Williams", "movie": "The Fabelmans" },
-  { "year": 2023, "actor": "Annette Bening", "movie": "Nyad" },
+  {
+    "year": 2022,
+    "actor": "Cate Blanchett",
+    "movie": "Tár",
+    "descent": "",
+    "identity": "white"
+  },
+  {
+    "year": 2022,
+    "actor": "Ana de Armas",
+    "movie": "Blonde",
+    "descent": "Cuban descent, Spanish descent",
+    "identity": "hispanic"
+  },
+  {
+    "year": 2022,
+    "actor": "Andrea Riseborough",
+    "movie": "To Leslie",
+    "descent": "English descent",
+    "identity": "white"
+  },
+  {
+    "year": 2022,
+    "actor": "Michelle Williams",
+    "movie": "The Fabelmans",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2023,
+    "actor": "Annette Bening",
+    "movie": "Nyad",
+    "descent": "",
+    "identity": ""
+  },
   {
     "year": 2023,
     "actor": "Lily Gladstone",
-    "movie": "Killers of the Flower Moon"
+    "movie": "Killers of the Flower Moon",
+    "descent": "Piegan Blackfeet descent, Nez Perce descent, European descent",
+    "identity": "african"
   },
-  { "year": 2023, "actor": "Sandra Hüller", "movie": "Anatomy of a Fall" },
-  { "year": 2023, "actor": "Carey Mulligan", "movie": "Maestro" },
-  { "year": 2023, "actor": "Emma Stone", "movie": "Poor Things" }
+  {
+    "year": 2023,
+    "actor": "Sandra Hüller",
+    "movie": "Anatomy of a Fall",
+    "descent": "German descent",
+    "identity": "white"
+  },
+  {
+    "year": 2023,
+    "actor": "Carey Mulligan",
+    "movie": "Maestro",
+    "descent": "",
+    "identity": ""
+  },
+  {
+    "year": 2023,
+    "actor": "Emma Stone",
+    "movie": "Poor Things",
+    "descent": "Swedish descent, German descent, English descent, Scottish descent, Irish descent",
+    "identity": "white"
+  }
 ]
