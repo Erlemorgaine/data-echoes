@@ -1,7 +1,32 @@
-.movie-page {
+@font-face {
+    font-family: Miltonian;
+    src: url('@/assets/fonts/Miltonian-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: GravitasOne;
+    src: url('@/assets/fonts/GravitasOne-Regular.ttf') format('truetype');
+}
+
+.theme-view {
     --black: #1D1C1C;
     --white: #FFFDFD;
     --red: #981608;
     --gold: #EEAD2B;
-    --silver: #CEC2BB;
+    --silver: #beb2ab;
+
+    --african: var(--black);
+    --asian: color-mix(in srgb, var(--black) 20%, var(--white));
+    --latino: color-mix(in srgb, var(--black) 65%, var(--white));
+}
+
+.theme-view.movies {
+    background-color: var(--silver);
+}
+
+.dot {
+    width: 1.75rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--origin-color);
 }

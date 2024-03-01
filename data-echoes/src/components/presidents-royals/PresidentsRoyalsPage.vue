@@ -135,12 +135,15 @@ function createLinkLines(scene: Scene) {
   points.push(new Vector3(0, 0, 0))
   points.push(new Vector3(0, 0, -10))
 
-  const lineMaterial = new LineBasicMaterial({ color: 0xffffff })
+  const lines: Record<string, LineBasicMaterial> = {
+    spouse: new LineBasicMaterial({ color: 0xffffff }),
+    parent: new LineBasicMaterial({ color: 0x00ff00 }),
+  }
 
   // TODO: Try to reuse the geometry somehow or at least make it more performant
-  linkLines = links.map(() => {
+  linkLines = links.map((link) => {
     const lineGeometry = new BufferGeometry().setFromPoints(points)
-    const line = new Line(lineGeometry, lineMaterial)
+    const line = new Line(lineGeometry, lines[link.type])
     scene.add(line)
 
     return line
@@ -178,10 +181,13 @@ function animate() {
 
 function getYForNode(node) {
   const generationsCount = Math.max(node.data.generationsBefore, node.data.mostGenerationsSpouse)
-  return -generationsCount
+  return -generationsCount * 2 + 10
 }
 
+// TODO: Maybe just remove the entire force graph and do everything programmatically
 function forceNetwork() {
+  const alpha = -0.1
+
   const ticked = () => {
     // Update link positions
     linkLines.forEach((line, index) => {
@@ -212,6 +218,32 @@ function forceNetwork() {
     // linksGeometry.attributes.positionOffset.needsUpdate = true
 
     nodes.forEach((node) => {
+      if (node.data.spouse) {
+        // TODO: Handle for multiple spouses
+        const spouse = nodes.find((d) => d.id === node.data.spouse[0])
+        if (spouse) {
+          const dx = spouse.x - node.x
+          const dy = spouse.y - node.y
+          const distance = Math.sqrt(dx * dx + dy * dy)
+          const desiredDistance = 1 // Set your desired distance
+          const discrepancy = distance - desiredDistance
+
+          // Calculate the adjustment needed
+          const adjustmentRatio = (discrepancy / distance) * alpha
+          const adjustX = dx * adjustmentRatio
+          const adjustY = dy * adjustmentRatio
+
+          // Apply the adjustment
+          node.x -= adjustX
+          // node.y -= adjustY
+          spouse.x += adjustX
+          // spouse.y += adjustY
+
+          // node.x = adjustX - 5
+          node.y = spouse.y
+        }
+      }
+
       nodePlanes[node.index].position.set(node.x, getYForNode(node), node.y)
     })
   }

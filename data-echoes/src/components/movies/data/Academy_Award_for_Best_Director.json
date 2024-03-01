@@ -1,492 +1,492 @@
 [
   {
     "year": 2010,
-    "director": "Tom Hooper",
+    "name": "Tom Hooper",
     "movie": "The King's Speech",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2010,
-    "director": "Darren Aronofsky",
+    "name": "Darren Aronofsky",
     "movie": "Black Swan",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2010,
-    "director": "Joel Coen and Ethan Coen",
+    "name": "Joel Coen and Ethan Coen",
     "movie": "True Grit",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2010,
-    "director": "David Fincher",
+    "name": "David Fincher",
     "movie": "The Social Network",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2010,
-    "director": "David O. Russell",
+    "name": "David O. Russell",
     "movie": "The Fighter",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2011,
-    "director": "Michel Hazanavicius",
+    "name": "Michel Hazanavicius",
     "movie": "The Artist",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2011,
-    "director": "Woody Allen",
+    "name": "Woody Allen",
     "movie": "Midnight in Paris",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2011,
-    "director": "Terrence Malick",
+    "name": "Terrence Malick",
     "movie": "The Tree of Life",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2011,
-    "director": "Alexander Payne",
+    "name": "Alexander Payne",
     "movie": "The Descendants",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2011,
-    "director": "Martin Scorsese",
+    "name": "Martin Scorsese",
     "movie": "Hugo",
     "descent": "Italian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2012,
-    "director": "Ang Lee",
+    "name": "Ang Lee",
     "movie": "Life of Pi",
     "descent": "Taiwanese",
-    "identity": "asian"
+    "origin": "asian"
   },
   {
     "year": 2012,
-    "director": "Michael Haneke",
+    "name": "Michael Haneke",
     "movie": "Amour",
     "descent": "Austrian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2012,
-    "director": "David O. Russell",
+    "name": "David O. Russell",
     "movie": "Silver Linings Playbook",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2012,
-    "director": "Steven Spielberg",
+    "name": "Steven Spielberg",
     "movie": "Lincoln",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2012,
-    "director": "Benh Zeitlin",
+    "name": "Benh Zeitlin",
     "movie": "Beasts of the Southern Wild",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2013,
-    "director": "Alfonso Cuarón",
+    "name": "Alfonso Cuarón",
     "movie": "Gravity",
     "descent": "Mexican",
-    "identity": "hispanic"
+    "origin": "latino"
   },
   {
     "year": 2013,
-    "director": "Steve McQueen",
+    "name": "Steve McQueen",
     "movie": "12 Years a Slave",
     "descent": "",
-    "identity": "black"
+    "origin": "african"
   },
   {
     "year": 2013,
-    "director": "Alexander Payne",
+    "name": "Alexander Payne",
     "movie": "Nebraska",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2013,
-    "director": "David O. Russell",
+    "name": "David O. Russell",
     "movie": "American Hustle",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2013,
-    "director": "Martin Scorsese",
+    "name": "Martin Scorsese",
     "movie": "The Wolf of Wall Street",
     "descent": "Italian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2014,
-    "director": "Alejandro González Iñárritu",
+    "name": "Alejandro González Iñárritu",
     "movie": "Birdman",
     "descent": "Mexican",
-    "identity": "hispanic"
+    "origin": "latino"
   },
   {
     "year": 2014,
-    "director": "Wes Anderson",
+    "name": "Wes Anderson",
     "movie": "The Grand Budapest Hotel",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2014,
-    "director": "Richard Linklater",
+    "name": "Richard Linklater",
     "movie": "Boyhood",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2014,
-    "director": "Bennett Miller",
+    "name": "Bennett Miller",
     "movie": "Foxcatcher",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2014,
-    "director": "Morten Tyldum",
+    "name": "Morten Tyldum",
     "movie": "The Imitation Game",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2015,
-    "director": "Alejandro González Iñárritu",
+    "name": "Alejandro González Iñárritu",
     "movie": "The Revenant",
     "descent": "Mexican",
-    "identity": "hispanic"
+    "origin": "latino"
   },
   {
     "year": 2015,
-    "director": "Lenny Abrahamson",
+    "name": "Lenny Abrahamson",
     "movie": "Room",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2015,
-    "director": "Tom McCarthy",
+    "name": "Tom McCarthy",
     "movie": "Spotlight",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2015,
-    "director": "Adam McKay",
+    "name": "Adam McKay",
     "movie": "The Big Short",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2015,
-    "director": "George Miller",
+    "name": "George Miller",
     "movie": "Mad Max: Fury Road",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2016,
-    "director": "Damien Chazelle",
+    "name": "Damien Chazelle",
     "movie": "La La Land",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2016,
-    "director": "Mel Gibson",
+    "name": "Mel Gibson",
     "movie": "Hacksaw Ridge",
     "descent": "Irish",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2016,
-    "director": "Barry Jenkins",
+    "name": "Barry Jenkins",
     "movie": "Moonlight",
     "descent": "",
-    "identity": "black"
+    "origin": "african"
   },
   {
     "year": 2016,
-    "director": "Kenneth Lonergan",
+    "name": "Kenneth Lonergan",
     "movie": "Manchester by the Sea",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2016,
-    "director": "Denis Villeneuve",
+    "name": "Denis Villeneuve",
     "movie": "Arrival",
     "descent": "French-Canadian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2017,
-    "director": "Guillermo del Toro",
+    "name": "Guillermo del Toro",
     "movie": "The Shape of Water",
     "descent": "Mexican",
-    "identity": "hispanic"
+    "origin": "latino"
   },
   {
     "year": 2017,
-    "director": "Paul Thomas Anderson",
+    "name": "Paul Thomas Anderson",
     "movie": "Phantom Thread",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2017,
-    "director": "Greta Gerwig",
+    "name": "Greta Gerwig",
     "movie": "Lady Bird",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2017,
-    "director": "Christopher Nolan",
+    "name": "Christopher Nolan",
     "movie": "Dunkirk",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2017,
-    "director": "Jordan Peele",
+    "name": "Jordan Peele",
     "movie": "Get Out",
     "descent": "",
-    "identity": "black"
+    "origin": "african"
   },
   {
     "year": 2018,
-    "director": "Alfonso Cuarón",
+    "name": "Alfonso Cuarón",
     "movie": "Roma",
     "descent": "Mexican",
-    "identity": "hispanic"
+    "origin": "latino"
   },
   {
     "year": 2018,
-    "director": "Yorgos Lanthimos",
+    "name": "Yorgos Lanthimos",
     "movie": "The Favourite",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2018,
-    "director": "Spike Lee",
+    "name": "Spike Lee",
     "movie": "BlacKkKlansman",
     "descent": "",
-    "identity": "black"
+    "origin": "african"
   },
   {
     "year": 2018,
-    "director": "Adam McKay",
+    "name": "Adam McKay",
     "movie": "Vice",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2018,
-    "director": "Paweł Pawlikowski",
+    "name": "Paweł Pawlikowski",
     "movie": "Cold War",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2019,
-    "director": "Bong Joon-ho",
+    "name": "Bong Joon-ho",
     "movie": "Parasite",
     "descent": "Korean",
-    "identity": "asian"
+    "origin": "asian"
   },
   {
     "year": 2019,
-    "director": "Sam Mendes",
+    "name": "Sam Mendes",
     "movie": "1917",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2019,
-    "director": "Todd Phillips",
+    "name": "Todd Phillips",
     "movie": "Joker",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2019,
-    "director": "Martin Scorsese",
+    "name": "Martin Scorsese",
     "movie": "The Irishman",
     "descent": "Italian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2019,
-    "director": "Quentin Tarantino",
+    "name": "Quentin Tarantino",
     "movie": "Once Upon a Time in Hollywood",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2020,
-    "director": "Chloé Zhao",
+    "name": "Chloé Zhao",
     "movie": "Nomadland",
     "descent": "Chinese",
-    "identity": "asian"
+    "origin": "asian"
   },
   {
     "year": 2020,
-    "director": "Lee Isaac Chung",
+    "name": "Lee Isaac Chung",
     "movie": "Minari",
     "descent": "Korean",
-    "identity": "asian"
+    "origin": "asian"
   },
   {
     "year": 2020,
-    "director": "Emerald Fennell",
+    "name": "Emerald Fennell",
     "movie": "Promising Young Woman",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2020,
-    "director": "David Fincher",
+    "name": "David Fincher",
     "movie": "Mank",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2020,
-    "director": "Thomas Vinterberg",
+    "name": "Thomas Vinterberg",
     "movie": "Another Round",
     "descent": "Danish",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2021,
-    "director": "Jane Campion",
+    "name": "Jane Campion",
     "movie": "The Power of the Dog",
     "descent": "New Zealander",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2021,
-    "director": "Paul Thomas Anderson",
+    "name": "Paul Thomas Anderson",
     "movie": "Licorice Pizza",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2021,
-    "director": "Kenneth Branagh",
+    "name": "Kenneth Branagh",
     "movie": "Belfast",
     "descent": "Northern Irish",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2021,
-    "director": "Ryusuke Hamaguchi",
+    "name": "Ryusuke Hamaguchi",
     "movie": "Drive My Car",
     "descent": "Japanese",
-    "identity": "asian"
+    "origin": "asian"
   },
   {
     "year": 2021,
-    "director": "Steven Spielberg",
+    "name": "Steven Spielberg",
     "movie": "West Side Story",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2022,
-    "director": "Daniel Kwan and Daniel Scheinert",
+    "name": "Daniel Kwan and Daniel Scheinert",
     "movie": "Everything Everywhere All at Once",
     "descent": "",
-    "identity": "white"
+    "origin": "asian"
   },
   {
     "year": 2022,
-    "director": "Todd Field",
+    "name": "Todd Field",
     "movie": "Tár",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2022,
-    "director": "Martin McDonagh",
+    "name": "Martin McDonagh",
     "movie": "The Banshees of Inisherin",
     "descent": "Irish",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2022,
-    "director": "Ruben Östlund",
+    "name": "Ruben Östlund",
     "movie": "Triangle of Sadness",
     "descent": "Swedish",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2022,
-    "director": "Steven Spielberg",
+    "name": "Steven Spielberg",
     "movie": "The Fabelmans",
     "descent": "Jewish",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2023,
-    "director": "Jonathan Glazer",
+    "name": "Jonathan Glazer",
     "movie": "The Zone of Interest",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2023,
-    "director": "Yorgos Lanthimos",
+    "name": "Yorgos Lanthimos",
     "movie": "Poor Things",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2023,
-    "director": "Christopher Nolan",
+    "name": "Christopher Nolan",
     "movie": "Oppenheimer",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2023,
-    "director": "Martin Scorsese",
+    "name": "Martin Scorsese",
     "movie": "Killers of the Flower Moon",
     "descent": "Italian",
-    "identity": "white"
+    "origin": "white"
   },
   {
     "year": 2023,
-    "director": "Justine Triet",
+    "name": "Justine Triet",
     "movie": "Anatomy of a Fall",
     "descent": "",
-    "identity": "white"
+    "origin": "white"
   }
 ]

@@ -1,492 +1,492 @@
 [
   {
     "year": 2010,
-    "actor": "Colin Firth",
+    "name": "Colin Firth",
     "movie": "The King's Speech",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2010,
-    "actor": "Javier Bardem",
+    "name": "Javier Bardem",
     "movie": "Biutiful",
-    "descent": "Spanish descent",
-    "identity": "hispanic"
+    "descent": "Spanish",
+    "origin": "white"
   },
   {
     "year": 2010,
-    "actor": "Jeff Bridges",
+    "name": "Jeff Bridges",
     "movie": "True Grit",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2010,
-    "actor": "Jesse Eisenberg",
+    "name": "Jesse Eisenberg",
     "movie": "The Social Network",
-    "descent": "Polish descent, Ukrainian descent",
-    "identity": "white"
+    "descent": "Polish, Ukrainian",
+    "origin": "white"
   },
   {
     "year": 2010,
-    "actor": "James Franco",
+    "name": "James Franco",
     "movie": "127 Hours",
-    "descent": "Portuguese descent, Swedish descent, Russian Jewish descent",
-    "identity": "white"
+    "descent": "Portuguese, Swedish, Russian Jewish",
+    "origin": "white"
   },
   {
     "year": 2011,
-    "actor": "Jean Dujardin",
+    "name": "Jean Dujardin",
     "movie": "The Artist",
-    "descent": "",
-    "identity": ""
+    "descent": "French",
+    "origin": "white"
   },
   {
     "year": 2011,
-    "actor": "Demián Bichir",
+    "name": "Demián Bichir",
     "movie": "A Better Life",
-    "descent": "Mexican descent, Lebanese descent",
-    "identity": "hispanic"
+    "descent": "Mexican, Lebanese",
+    "origin": "latino"
   },
   {
     "year": 2011,
-    "actor": "George Clooney",
+    "name": "George Clooney",
     "movie": "The Descendants",
-    "descent": "Irish descent, German descent, English descent",
-    "identity": "white"
+    "descent": "Irish, German, English",
+    "origin": "white"
   },
   {
     "year": 2011,
-    "actor": "Gary Oldman",
+    "name": "Gary Oldman",
     "movie": "Tinker Tailor Soldier Spy",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2011,
-    "actor": "Brad Pitt",
+    "name": "Brad Pitt",
     "movie": "Moneyball",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2012,
-    "actor": "Daniel Day-Lewis",
+    "name": "Daniel Day-Lewis",
     "movie": "Lincoln",
-    "descent": "British and Irish descent, Jewish descent, Latvian descent, Polish descent",
-    "identity": "white"
+    "descent": "British and Irish, Jewish, Latvian, Polish",
+    "origin": "white"
   },
   {
     "year": 2012,
-    "actor": "Bradley Cooper",
+    "name": "Bradley Cooper",
     "movie": "Silver Linings Playbook",
-    "descent": "Irish descent, Italian descent",
-    "identity": "white"
+    "descent": "Irish, Italian",
+    "origin": "white"
   },
   {
     "year": 2012,
-    "actor": "Hugh Jackman",
+    "name": "Hugh Jackman",
     "movie": "Les Misérables",
-    "descent": "English descent, Greek descent",
-    "identity": "white"
+    "descent": "English, Greek",
+    "origin": "white"
   },
   {
     "year": 2012,
-    "actor": "Joaquin Phoenix",
+    "name": "Joaquin Phoenix",
     "movie": "The Master",
-    "descent": "",
-    "identity": ""
+    "descent": "English, German, French, Jewish",
+    "origin": "white"
   },
   {
     "year": 2012,
-    "actor": "Denzel Washington",
+    "name": "Denzel Washington",
     "movie": "Flight",
-    "descent": "",
-    "identity": ""
+    "descent": "African-American",
+    "origin": "african"
   },
   {
     "year": 2013,
-    "actor": "Matthew McConaughey",
+    "name": "Matthew McConaughey",
     "movie": "Dallas Buyers Club",
-    "descent": "Irish descent",
-    "identity": "white"
+    "descent": "Irish",
+    "origin": "white"
   },
   {
     "year": 2013,
-    "actor": "Christian Bale",
+    "name": "Christian Bale",
     "movie": "American Hustle",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2013,
-    "actor": "Bruce Dern",
+    "name": "Bruce Dern",
     "movie": "Nebraska",
-    "descent": "",
-    "identity": ""
+    "descent": "Scottish, American",
+    "origin": "white"
   },
   {
     "year": 2013,
-    "actor": "Leonardo DiCaprio",
+    "name": "Leonardo DiCaprio",
     "movie": "The Wolf of Wall Street",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2013,
-    "actor": "Chiwetel Ejiofor",
+    "name": "Chiwetel Ejiofor",
     "movie": "12 Years a Slave",
-    "descent": "Nigerian descent, specifically of Igbo descent",
-    "identity": "african"
+    "descent": "Nigerian, specifically of Igbo",
+    "origin": "african"
   },
   {
     "year": 2014,
-    "actor": "Eddie Redmayne",
+    "name": "Eddie Redmayne",
     "movie": "The Theory of Everything",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2014,
-    "actor": "Steve Carell",
+    "name": "Steve Carell",
     "movie": "Foxcatcher",
-    "descent": "Italian descent, German descent, Polish descent",
-    "identity": "white"
+    "descent": "Italian, German, Polish",
+    "origin": "white"
   },
   {
     "year": 2014,
-    "actor": "Bradley Cooper",
+    "name": "Bradley Cooper",
     "movie": "American Sniper",
-    "descent": "Irish descent, Italian descent",
-    "identity": "white"
+    "descent": "Irish, Italian",
+    "origin": "white"
   },
   {
     "year": 2014,
-    "actor": "Benedict Cumberbatch",
+    "name": "Benedict Cumberbatch",
     "movie": "The Imitation Game",
-    "descent": "British descent, Barbadian descent",
-    "identity": "white"
+    "descent": "British, Barbadian",
+    "origin": "white"
   },
   {
     "year": 2014,
-    "actor": "Michael Keaton",
+    "name": "Michael Keaton",
     "movie": "Birdman",
-    "descent": "Irish descent, Scottish descent, Scotch-Irish descent, German descent, English descent",
-    "identity": "white"
+    "descent": "Irish, Scottish, Scotch-Irish, German, English",
+    "origin": "white"
   },
   {
     "year": 2015,
-    "actor": "Leonardo DiCaprio",
+    "name": "Leonardo DiCaprio",
     "movie": "The Revenant",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2015,
-    "actor": "Bryan Cranston",
+    "name": "Bryan Cranston",
     "movie": "Trumbo",
-    "descent": "Irish descent, Austrian Ashkenazi Jewish descent, German descent",
-    "identity": "white"
+    "descent": "Irish, Austrian Ashkenazi Jewish, German",
+    "origin": "white"
   },
   {
     "year": 2015,
-    "actor": "Matt Damon",
+    "name": "Matt Damon",
     "movie": "The Martian",
-    "descent": "English descent, Scottish descent, Finnish descent, Swedish descent",
-    "identity": "white"
+    "descent": "English, Scottish, Finnish, Swedish",
+    "origin": "white"
   },
   {
     "year": 2015,
-    "actor": "Michael Fassbender",
+    "name": "Michael Fassbender",
     "movie": "Steve Jobs",
-    "descent": "German descent, Irish descent",
-    "identity": "white"
+    "descent": "German, Irish",
+    "origin": "white"
   },
   {
     "year": 2015,
-    "actor": "Eddie Redmayne",
+    "name": "Eddie Redmayne",
     "movie": "The Danish Girl",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2016,
-    "actor": "Casey Affleck",
+    "name": "Casey Affleck",
     "movie": "Manchester by the Sea",
-    "descent": "Scottish descent, Irish descent, German descent, English descent, Swiss descent",
-    "identity": "white"
+    "descent": "Scottish, Irish, German, English, Swiss",
+    "origin": "white"
   },
   {
     "year": 2016,
-    "actor": "Andrew Garfield",
+    "name": "Andrew Garfield",
     "movie": "Hacksaw Ridge",
-    "descent": "English descent, American descent, Jewish descent, Polish descent, Russian descent, Romanian descent",
-    "identity": "white"
+    "descent": "English, American, Jewish, Polish, Russian, Romanian",
+    "origin": "white"
   },
   {
     "year": 2016,
-    "actor": "Ryan Gosling",
+    "name": "Ryan Gosling",
     "movie": "La La Land",
-    "descent": "French Canadian descent, German descent, English descent, Scottish descent, Irish descent",
-    "identity": "white"
+    "descent": "French Canadian, German, English, Scottish, Irish",
+    "origin": "white"
   },
   {
     "year": 2016,
-    "actor": "Viggo Mortensen",
+    "name": "Viggo Mortensen",
     "movie": "Captain Fantastic",
-    "descent": "",
-    "identity": ""
+    "descent": "Amiercan, Danish, Canadian",
+    "origin": "white"
   },
   {
     "year": 2016,
-    "actor": "Denzel Washington",
+    "name": "Denzel Washington",
     "movie": "Fences",
-    "descent": "",
-    "identity": ""
+    "descent": "African-American",
+    "origin": "african"
   },
   {
     "year": 2017,
-    "actor": "Gary Oldman",
+    "name": "Gary Oldman",
     "movie": "Darkest Hour",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2017,
-    "actor": "Timothée Chalamet",
+    "name": "Timothée Chalamet",
     "movie": "Call Me by Your Name",
-    "descent": "French descent, Russian Jewish descent, Austrian Jewish descent, Canadian descent",
-    "identity": "white"
+    "descent": "French, Russian Jewish, Austrian Jewish, Canadian",
+    "origin": "white"
   },
   {
     "year": 2017,
-    "actor": "Daniel Day-Lewis",
+    "name": "Daniel Day-Lewis",
     "movie": "Phantom Thread",
-    "descent": "British and Irish descent, Jewish descent, Latvian descent, Polish descent",
-    "identity": "white"
+    "descent": "British and Irish, Jewish, Latvian, Polish",
+    "origin": "white"
   },
   {
     "year": 2017,
-    "actor": "Daniel Kaluuya",
+    "name": "Daniel Kaluuya",
     "movie": "Get Out",
-    "descent": "Ugandan descent",
-    "identity": "african"
+    "descent": "Ugandan",
+    "origin": "african"
   },
   {
     "year": 2017,
-    "actor": "Denzel Washington",
+    "name": "Denzel Washington",
     "movie": "Roman J. Israel, Esq.",
     "descent": "",
-    "identity": ""
+    "origin": "african"
   },
   {
     "year": 2018,
-    "actor": "Rami Malek",
+    "name": "Rami Malek",
     "movie": "Bohemian Rhapsody",
-    "descent": "Egyptian descent",
-    "identity": "african"
+    "descent": "Egyptian",
+    "origin": "african"
   },
   {
     "year": 2018,
-    "actor": "Christian Bale",
+    "name": "Christian Bale",
     "movie": "Vice",
-    "descent": "English descent",
-    "identity": "white"
+    "descent": "English",
+    "origin": "white"
   },
   {
     "year": 2018,
-    "actor": "Bradley Cooper",
+    "name": "Bradley Cooper",
     "movie": "A Star Is Born",
-    "descent": "Irish descent, Italian descent",
-    "identity": "white"
+    "descent": "Irish, Italian",
+    "origin": "white"
   },
   {
     "year": 2018,
-    "actor": "Willem Dafoe",
+    "name": "Willem Dafoe",
     "movie": "At Eternity's Gate",
-    "descent": "Swiss-French descent",
-    "identity": "white"
+    "descent": "Swiss-French",
+    "origin": "white"
   },
   {
     "year": 2018,
-    "actor": "Viggo Mortensen",
+    "name": "Viggo Mortensen",
     "movie": "Green Book",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2019,
-    "actor": "Joaquin Phoenix",
+    "name": "Joaquin Phoenix",
     "movie": "Joker",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2019,
-    "actor": "Antonio Banderas",
+    "name": "Antonio Banderas",
     "movie": "Pain and Glory",
-    "descent": "Spanish descent",
-    "identity": "hispanic"
+    "descent": "Spanish",
+    "origin": "latino"
   },
   {
     "year": 2019,
-    "actor": "Leonardo DiCaprio",
+    "name": "Leonardo DiCaprio",
     "movie": "Once Upon a Time in Hollywood",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2019,
-    "actor": "Adam Driver",
+    "name": "Adam Driver",
     "movie": "Marriage Story",
-    "descent": "American descent",
-    "identity": "white"
+    "descent": "American",
+    "origin": "white"
   },
   {
     "year": 2019,
-    "actor": "Jonathan Pryce",
+    "name": "Jonathan Pryce",
     "movie": "The Two Popes",
-    "descent": "Welsh descent",
-    "identity": "white"
+    "descent": "Welsh",
+    "origin": "white"
   },
   {
     "year": 2020,
-    "actor": "Anthony Hopkins",
+    "name": "Anthony Hopkins",
     "movie": "The Father",
-    "descent": "",
-    "identity": ""
+    "descent": "Welsh",
+    "origin": "white"
   },
   {
     "year": 2020,
-    "actor": "Riz Ahmed",
+    "name": "Riz Ahmed",
     "movie": "Sound of Metal",
-    "descent": "Pakistani descent, Indian descent",
-    "identity": "asian"
+    "descent": "Pakistani, Indian",
+    "origin": "asian"
   },
   {
     "year": 2020,
-    "actor": "Chadwick Boseman",
+    "name": "Chadwick Boseman",
     "movie": "Ma Rainey's Black Bottom",
-    "descent": "African-American descent, Jola descent from Guinea-Bissau, Krio and Limba descent from Sierra Leone, Yoruba descent from Nigeria",
-    "identity": "african"
+    "descent": "African-American, Jola from Guinea-Bissau, Krio and Limba from Sierra Leone, Yoruba from Nigeria",
+    "origin": "african"
   },
   {
     "year": 2020,
-    "actor": "Gary Oldman",
+    "name": "Gary Oldman",
     "movie": "Mank",
     "descent": "",
-    "identity": ""
+    "origin": "white"
   },
   {
     "year": 2020,
-    "actor": "Steven Yeun",
+    "name": "Steven Yeun",
     "movie": "Minari",
-    "descent": "Korean descent, American descent",
-    "identity": "asian"
+    "descent": "Korean, American",
+    "origin": "asian"
   },
   {
     "year": 2021,
-    "actor": "Will Smith",
+    "name": "Will Smith",
     "movie": "King Richard",
-    "descent": "",
-    "identity": ""
+    "descent": "African-American",
+    "origin": "african"
   },
   {
     "year": 2021,
-    "actor": "Javier Bardem",
+    "name": "Javier Bardem",
     "movie": "Being the Ricardos",
-    "descent": "Spanish descent",
-    "identity": "hispanic"
+    "descent": "Spanish",
+    "origin": "latino"
   },
   {
     "year": 2021,
-    "actor": "Benedict Cumberbatch",
+    "name": "Benedict Cumberbatch",
     "movie": "The Power of the Dog",
-    "descent": "Barbadian descent, British descent",
-    "identity": "white"
+    "descent": "Barbadian, British",
+    "origin": "white"
   },
   {
     "year": 2021,
-    "actor": "Andrew Garfield",
+    "name": "Andrew Garfield",
     "movie": "Tick, Tick... Boom!",
-    "descent": "English descent, American descent, Jewish descent, Polish descent, Russian descent, Romanian descent",
-    "identity": "white"
+    "descent": "English, American, Jewish, Polish, Russian, Romanian",
+    "origin": "white"
   },
   {
     "year": 2021,
-    "actor": "Denzel Washington",
+    "name": "Denzel Washington",
     "movie": "The Tragedy of Macbeth",
-    "descent": "",
-    "identity": ""
+    "descent": "African-American",
+    "origin": "african"
   },
   {
     "year": 2022,
-    "actor": "Brendan Fraser",
+    "name": "Brendan Fraser",
     "movie": "The Whale",
-    "descent": "Irish descent, Scottish descent, German descent, Czech descent, French-Canadian descent",
-    "identity": "white"
+    "descent": "Irish, Scottish, German, Czech, French-Canadian",
+    "origin": "white"
   },
   {
     "year": 2022,
-    "actor": "Austin Butler",
+    "name": "Austin Butler",
     "movie": "Elvis",
-    "descent": "",
-    "identity": ""
+    "descent": "American, Finnish",
+    "origin": "white"
   },
   {
     "year": 2022,
-    "actor": "Colin Farrell",
+    "name": "Colin Farrell",
     "movie": "The Banshees of Inisherin",
-    "descent": "Irish descent",
-    "identity": "white"
+    "descent": "Irish",
+    "origin": "white"
   },
   {
     "year": 2022,
-    "actor": "Paul Mescal",
+    "name": "Paul Mescal",
     "movie": "Aftersun",
-    "descent": "Irish descent",
-    "identity": "white"
+    "descent": "Irish",
+    "origin": "white"
   },
   {
     "year": 2022,
-    "actor": "Bill Nighy",
+    "name": "Bill Nighy",
     "movie": "Living",
-    "descent": "English descent, Irish descent",
-    "identity": "white"
+    "descent": "English, Irish",
+    "origin": "white"
   },
   {
     "year": 2023,
-    "actor": "Bradley Cooper",
+    "name": "Bradley Cooper",
     "movie": "Maestro",
-    "descent": "",
-    "identity": ""
+    "descent": "American, Italian",
+    "origin": "white"
   },
   {
     "year": 2023,
-    "actor": "Colman Domingo",
+    "name": "Colman Domingo",
     "movie": "Rustin",
-    "descent": "Belizean descent, Guatemalan descent",
-    "identity": "hispanic"
+    "descent": "Belizean, Guatemalan",
+    "origin": "latino"
   },
   {
     "year": 2023,
-    "actor": "Paul Giamatti",
+    "name": "Paul Giamatti",
     "movie": "The Holdovers",
-    "descent": "Italian descent, New England descent",
-    "identity": "white"
+    "descent": "Italian, New England",
+    "origin": "white"
   },
   {
     "year": 2023,
-    "actor": "Cillian Murphy",
+    "name": "Cillian Murphy",
     "movie": "Oppenheimer",
-    "descent": "Irish descent",
-    "identity": "white"
+    "descent": "Irish",
+    "origin": "white"
   },
   {
     "year": 2023,
-    "actor": "Jeffrey Wright",
+    "name": "Jeffrey Wright",
     "movie": "American Fiction",
-    "descent": "African-American descent",
-    "identity": "african"
+    "descent": "African-American",
+    "origin": "african"
   }
 ]

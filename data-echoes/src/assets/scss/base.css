@@ -50,7 +50,8 @@ ul,
 li,
 dl,
 dd,
-dt {
+dt,
+figure {
   margin: 0;
 }
 
@@ -94,4 +95,8 @@ li {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+fieldset {
+  border: none;
 }
