@@ -13,7 +13,16 @@ const allOrigins = Object.values(Origin)
         class="legend__items__item"
         :style="{ '--origin-color': `var(--${origin})` }"
       >
+        <div class="dot" />
         {{ origin }}
+      </li>
+
+      <li class="legend__items__item">
+        <div class="won-shadow">
+          <div class="won" />
+        </div>
+
+        winner
       </li>
     </ul>
   </figure>
@@ -21,30 +30,26 @@ const allOrigins = Object.values(Origin)
 
 <style scoped lang="scss">
 .legend {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__title {
+    font-weight: bold;
+  }
+
   &__items {
     display: flex;
-    font-size: 0.8rem;
-    font-weight: bold;
+    gap: 0.75rem;
 
     &__item {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: var(--origin-color);
-      width: 5rem;
-      height: 1.75rem;
+      gap: 0.3rem;
 
-      &:first-child {
-        border-radius: 1rem 0 0 1rem;
-      }
-
-      &:last-child {
-        border-radius: 0 1rem 1rem 0;
-      }
-
-      &:nth-child(1),
-      &:nth-child(2) {
-        color: #fff;
+      .won-shadow {
+        filter: drop-shadow(0 0 0.2rem var(--gold-light)) drop-shadow(0 0 0.4rem var(--gold-light));
       }
     }
   }

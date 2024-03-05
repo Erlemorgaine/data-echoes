@@ -12,9 +12,12 @@ defineProps<{ title: string; nominees: MoviePerson[] }>()
       <li
         v-for="nominee of nominees"
         :key="`${nominee.name}-${nominee.year}`"
-        class="dot"
         :style="{ '--origin-color': `var(--${nominee.origin})` }"
-      ></li>
+      >
+        <button :aria-label="nominee.name" class="dot">
+          <div v-if="nominee.won" class="won" />
+        </button>
+      </li>
     </ul>
   </figure>
 </template>
@@ -36,6 +39,10 @@ defineProps<{ title: string; nominees: MoviePerson[] }>()
     grid-template-columns: repeat(5, 1fr);
     gap: 0.5rem;
     margin-bottom: 0.5rem;
+
+    .dot {
+      
+    }
   }
 }
 </style>

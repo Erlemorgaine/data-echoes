@@ -4,7 +4,8 @@
     "name": "Tom Hooper",
     "movie": "The King's Speech",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2010,
@@ -39,7 +40,8 @@
     "name": "Michel Hazanavicius",
     "movie": "The Artist",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2011,
@@ -74,7 +76,8 @@
     "name": "Ang Lee",
     "movie": "Life of Pi",
     "descent": "Taiwanese",
-    "origin": "asian"
+    "origin": "asian",
+    "won": true
   },
   {
     "year": 2012,
@@ -109,7 +112,8 @@
     "name": "Alfonso Cuarón",
     "movie": "Gravity",
     "descent": "Mexican",
-    "origin": "latino"
+    "origin": "latino",
+    "won": true
   },
   {
     "year": 2013,
@@ -144,7 +148,8 @@
     "name": "Alejandro González Iñárritu",
     "movie": "Birdman",
     "descent": "Mexican",
-    "origin": "latino"
+    "origin": "latino",
+    "won": true
   },
   {
     "year": 2014,
@@ -179,7 +184,8 @@
     "name": "Alejandro González Iñárritu",
     "movie": "The Revenant",
     "descent": "Mexican",
-    "origin": "latino"
+    "origin": "latino",
+    "won": true
   },
   {
     "year": 2015,
@@ -214,7 +220,8 @@
     "name": "Damien Chazelle",
     "movie": "La La Land",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2016,
@@ -249,7 +256,8 @@
     "name": "Guillermo del Toro",
     "movie": "The Shape of Water",
     "descent": "Mexican",
-    "origin": "latino"
+    "origin": "latino",
+    "won": true
   },
   {
     "year": 2017,
@@ -284,7 +292,8 @@
     "name": "Alfonso Cuarón",
     "movie": "Roma",
     "descent": "Mexican",
-    "origin": "latino"
+    "origin": "latino",
+    "won": true
   },
   {
     "year": 2018,
@@ -319,7 +328,8 @@
     "name": "Bong Joon-ho",
     "movie": "Parasite",
     "descent": "Korean",
-    "origin": "asian"
+    "origin": "asian",
+    "won": true
   },
   {
     "year": 2019,
@@ -354,7 +364,8 @@
     "name": "Chloé Zhao",
     "movie": "Nomadland",
     "descent": "Chinese",
-    "origin": "asian"
+    "origin": "asian",
+    "won": true
   },
   {
     "year": 2020,
@@ -389,7 +400,8 @@
     "name": "Jane Campion",
     "movie": "The Power of the Dog",
     "descent": "New Zealander",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2021,
@@ -421,10 +433,18 @@
   },
   {
     "year": 2022,
-    "name": "Daniel Kwan and Daniel Scheinert",
+    "name": "Daniel Kwan",
     "movie": "Everything Everywhere All at Once",
     "descent": "",
-    "origin": "asian"
+    "origin": "asian",
+    "won": true
+  },
+  {
+    "year": 2022,
+    "name": "Daniel Scheinert",
+    "movie": "Everything Everywhere All at Once",
+    "descent": "",
+    "origin": "white"
   },
   {
     "year": 2022,

@@ -37,9 +37,11 @@ watch(sortKey, sortData)
 // https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States
 
 // TODO: Also add percentages
-// TODO: Also add winners with a yellow mark in the circle
 // TODO: What about middle eastern or native american? Add OTHER category
 // TODO: Let balls fly in, and animate order
+// TODO: Tooltip for each datapoints
+// TODO: After each dot chart, write some insights.
+// TODO: Always sort in the same way?
 function sortData(sortKey: MoviePersonKey) {
   categories.value.forEach((category) => {
     category.data.sort((a: MoviePerson, b: MoviePerson) => {
@@ -60,15 +62,21 @@ function sortData(sortKey: MoviePersonKey) {
     <div class="movie-page__top">
       <MoviesLegend />
 
-      <fieldset class="movie-page__sort-options">
+      <div role="group" class="movie-page__sort-options">
         <legend>Sort data by</legend>
 
         <label v-for="option of sortKeys" :key="option">
-          <input type="radio" name="sortKey" v-model="sortKey" :value="option" />
+          <input
+            type="radio"
+            name="sort"
+            v-model="sortKey"
+            :value="option"
+            :checked="sortKey === option"
+          />
 
           {{ option }}
         </label>
-      </fieldset>
+      </div>
     </div>
 
     <div class="movie-page__categories">
@@ -103,15 +111,77 @@ function sortData(sortKey: MoviePersonKey) {
     justify-content: center;
     align-items: center;
     gap: 5vw;
+    margin: 0 auto;
     margin-bottom: 2rem;
+    // background-color: var(--white-20);
+    padding: 1rem;
+    width: fit-content;
+    // border: 4px solid var(--white-50);
+    border-radius: 1rem;
   }
 
   &__sort-options {
+    --border-image: conic-gradient(
+      var(--black) 5%,
+      var(--white) 5% 10%,
+      var(--black) 10% 15%,
+      var(--white) 15% 20%,
+      var(--black) 20% 25%,
+      var(--white) 25% 30%,
+      var(--black) 30% 35%,
+      var(--white) 35% 40%,
+      var(--black) 40% 45%,
+      var(--white) 45% 50%,
+      var(--black) 50% 55%,
+      var(--white) 55% 60%,
+      var(--black) 60% 65%,
+      var(--white) 65% 70%,
+      var(--black) 70% 75%,
+      var(--white) 75% 80%,
+      var(--black) 80% 85%,
+      var(--white) 85% 90%,
+      var(--black) 90% 95%,
+      var(--white) 95%
+    );
+
     display: flex;
+    align-items: center;
 
     legend {
       font-weight: bold;
-      // font-size: 0.8rem;
+      margin-right: 1rem;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-right: 0.75rem;
+
+      input[type='radio'] {
+        -webkit-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        width: 1.25rem;
+        aspect-ratio: 1;
+        border: double 0.2em transparent;
+        border-radius: 50%;
+        background-image: conic-gradient(var(--white), var(--white)), var(--border-image);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        transition: background-color 0.3s ease-in-out;
+
+        &:checked {
+          background-image: conic-gradient(var(--black), var(--black)), var(--border-image);
+          border-image-slice: 1;
+        }
+
+        &:focus-visible {
+          outline: none;
+          // Outer blue border
+          box-shadow: 0 0 0 0.2em var(--black);
+        }
+      }
     }
   }
 

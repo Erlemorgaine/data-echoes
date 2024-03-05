@@ -4,7 +4,8 @@
     "name": "Natalie Portman",
     "movie": "Black Swan",
     "descent": "Jewish descent, Polish descent, Austrian descent, Russian descent, American descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2010,
@@ -39,7 +40,8 @@
     "name": "Meryl Streep",
     "movie": "The Iron Lady",
     "descent": "German descent, Swiss descent, English descent, Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2011,
@@ -74,7 +76,8 @@
     "name": "Jennifer Lawrence",
     "movie": "Silver Linings Playbook",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2012,
@@ -109,7 +112,8 @@
     "name": "Cate Blanchett",
     "movie": "Blue Jasmine",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2013,
@@ -144,7 +148,8 @@
     "name": "Julianne Moore",
     "movie": "Still Alice",
     "descent": "Scottish descent, American descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2014,
@@ -179,7 +184,8 @@
     "name": "Brie Larson",
     "movie": "Room",
     "descent": "Franco-Manitoban descent, Swedish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2015,
@@ -214,7 +220,8 @@
     "name": "Emma Stone",
     "movie": "La La Land",
     "descent": "Swedish descent, German descent, English descent, Scottish descent, Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2016,
@@ -249,7 +256,8 @@
     "name": "Frances McDormand",
     "movie": "Three Billboards Outside Ebbing, Missouri",
     "descent": "Canadian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2017,
@@ -284,7 +292,8 @@
     "name": "Olivia Colman",
     "movie": "The Favourite",
     "descent": "European descent, potential Indian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2018,
@@ -319,7 +328,8 @@
     "name": "Renée Zellweger",
     "movie": "Judy",
     "descent": "Swiss descent, Norwegian descent, Kven descent, Sámi descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2019,
@@ -354,7 +364,8 @@
     "name": "Frances McDormand",
     "movie": "Nomadland",
     "descent": "Canadian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2020,
@@ -389,7 +400,8 @@
     "name": "Jessica Chastain",
     "movie": "The Eyes of Tammy Faye",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2021,
@@ -424,7 +436,8 @@
     "name": "Michelle Yeoh",
     "movie": "Everything Everywhere All at Once",
     "descent": "Chinese descent",
-    "origin": "asian"
+    "origin": "asian",
+    "won": true
   },
   {
     "year": 2022,

@@ -11,6 +11,7 @@ export interface MoviePerson {
   movie: string
   origin: Origin
   descent: string // TODO: Array
+  won: boolean | undefined
 }
 
 export type MoviePersonKey = keyof MoviePerson

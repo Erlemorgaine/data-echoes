@@ -4,7 +4,8 @@
     "name": "Colin Firth",
     "movie": "The King's Speech",
     "descent": "English",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2010,
@@ -39,7 +40,8 @@
     "name": "Jean Dujardin",
     "movie": "The Artist",
     "descent": "French",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2011,
@@ -74,7 +76,8 @@
     "name": "Daniel Day-Lewis",
     "movie": "Lincoln",
     "descent": "British and Irish, Jewish, Latvian, Polish",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2012,
@@ -109,7 +112,8 @@
     "name": "Matthew McConaughey",
     "movie": "Dallas Buyers Club",
     "descent": "Irish",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2013,
@@ -144,7 +148,8 @@
     "name": "Eddie Redmayne",
     "movie": "The Theory of Everything",
     "descent": "English",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2014,
@@ -179,7 +184,8 @@
     "name": "Leonardo DiCaprio",
     "movie": "The Revenant",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2015,
@@ -214,7 +220,8 @@
     "name": "Casey Affleck",
     "movie": "Manchester by the Sea",
     "descent": "Scottish, Irish, German, English, Swiss",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2016,
@@ -249,7 +256,8 @@
     "name": "Gary Oldman",
     "movie": "Darkest Hour",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2017,
@@ -284,7 +292,8 @@
     "name": "Rami Malek",
     "movie": "Bohemian Rhapsody",
     "descent": "Egyptian",
-    "origin": "african"
+    "origin": "african",
+    "won": true
   },
   {
     "year": 2018,
@@ -319,7 +328,8 @@
     "name": "Joaquin Phoenix",
     "movie": "Joker",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2019,
@@ -354,7 +364,8 @@
     "name": "Anthony Hopkins",
     "movie": "The Father",
     "descent": "Welsh",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2020,
@@ -389,7 +400,8 @@
     "name": "Will Smith",
     "movie": "King Richard",
     "descent": "African-American",
-    "origin": "african"
+    "origin": "african",
+    "won": true
   },
   {
     "year": 2021,
@@ -424,7 +436,8 @@
     "name": "Brendan Fraser",
     "movie": "The Whale",
     "descent": "Irish, Scottish, German, Czech, French-Canadian",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2022,

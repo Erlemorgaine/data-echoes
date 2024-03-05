@@ -1,32 +1,59 @@
 @font-face {
-    font-family: Miltonian;
-    src: url('@/assets/fonts/Miltonian-Regular.ttf') format('truetype');
+  font-family: Miltonian;
+  src: url('@/assets/fonts/Miltonian-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: GravitasOne;
-    src: url('@/assets/fonts/GravitasOne-Regular.ttf') format('truetype');
+  font-family: GravitasOne;
+  src: url('@/assets/fonts/GravitasOne-Regular.ttf') format('truetype');
 }
 
 .theme-view {
-    --black: #1D1C1C;
-    --white: #FFFDFD;
-    --red: #981608;
-    --gold: #EEAD2B;
-    --silver: #beb2ab;
+  --black: #1d1c1c;
+  --white: #fffdfd;
+  --red: #981608;
+  --gold: #eead2b;
+  --gold-light: #fffbf3;
+  --silver: #beb2ab;
 
-    --african: var(--black);
-    --asian: color-mix(in srgb, var(--black) 20%, var(--white));
-    --latino: color-mix(in srgb, var(--black) 65%, var(--white));
+  --african: var(--black);
+  --asian: color-mix(in srgb, var(--black) 20%, var(--white));
+  --latino: color-mix(in srgb, var(--black) 65%, var(--white));
+
+  --white-20: hsla(0, 100%, 100%, 0.2);
+  --white-30: hsla(0, 100%, 100%, 0.3);
+  --white-50: hsla(0, 100%, 100%, 0.5);
 }
 
 .theme-view.movies {
-    background-color: var(--silver);
+  background-color: var(--silver);
 }
 
 .dot {
-    width: 1.75rem;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background-color: var(--origin-color);
+  width: 1.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--origin-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.won {
+  background-color: var(--gold);
+  clip-path: polygon(
+    50% 0%,
+    66% 30%,
+    98% 33%,
+    73% 57%,
+    81% 91%,
+    50% 75%,
+    19% 91%,
+    27% 57%,
+    2% 33%,
+    34% 30%
+  );
+  width: 1.25rem;
+  aspect-ratio: 1;
 }
