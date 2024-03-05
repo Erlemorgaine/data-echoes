@@ -31,7 +31,6 @@ defineProps<{ title: string; nominees: MoviePerson[] }>()
     margin-bottom: 1rem;
     text-transform: uppercase;
     text-align: center;
-    // border-bottom: 1px solid var(--black);
   }
 
   &__chart {
@@ -39,10 +38,6 @@ defineProps<{ title: string; nominees: MoviePerson[] }>()
     grid-template-columns: repeat(5, 1fr);
     gap: 0.5rem;
     margin-bottom: 0.5rem;
-
-    .dot {
-      
-    }
   }
 }
 </style>

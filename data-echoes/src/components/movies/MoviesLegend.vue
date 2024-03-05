@@ -48,9 +48,7 @@ const allOrigins = Object.values(Origin)
       align-items: center;
       gap: 0.3rem;
 
-      .won-shadow {
-        filter: drop-shadow(0 0 0.2rem var(--gold-light)) drop-shadow(0 0 0.4rem var(--gold-light));
-      }
+      
     }
   }
 }

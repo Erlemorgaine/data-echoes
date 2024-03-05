@@ -29,17 +29,12 @@ sortData(sortKey.value)
 watch(sortKey, sortData)
 
 // TODO: I want to know how the data compares to the general american population
-
-// White	59.3%
-// Hispanic and Latino	18.9%
-// Black	12.6%
-// Asian	 5.9%
 // https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States
 
 // TODO: Also add percentages
 // TODO: What about middle eastern or native american? Add OTHER category
 // TODO: Let balls fly in, and animate order
-// TODO: Tooltip for each datapoints
+// TODO: Tooltip for each datapoint
 // TODO: After each dot chart, write some insights.
 // TODO: Always sort in the same way?
 function sortData(sortKey: MoviePersonKey) {
