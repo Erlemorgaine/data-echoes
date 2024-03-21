@@ -1,27 +1,47 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import type { MoviePerson, MoviePersonKey } from './types/types'
+import type { MovieBarData, MoviePerson, MoviePersonKey } from './types/types'
 
 import actors from './data/Academy_Award_for_Best_Actor.json'
 import actresses from './data/Academy_Award_for_Best_Actress.json'
 import directors from './data/Academy_Award_for_Best_Director.json'
 import supportingActors from './data/Academy_Award_for_Best_Supporting_Actor.json'
 import supportingActresses from './data/Academy_Award_for_Best_Supporting_Actress.json'
+import generalStats from './data/movie-stats.json'
 
 import MoviesDotChart from './MoviesDotChart.vue'
+import MoviesLegend from './MoviesLegend.vue'
+import MoviesStats from './MoviesStats.vue'
 
 import './movies.scss'
-import MoviesLegend from './MoviesLegend.vue'
+
+type StatKey = keyof typeof generalStats
 
 const sortKeys: MoviePersonKey[] = ['year', 'origin', 'name']
 
-const categories = ref([
-  { title: 'Best Director', data: directors as MoviePerson[] },
-  { title: 'Best Actor', data: actors as MoviePerson[] },
-  { title: 'Best Actress', data: actresses as MoviePerson[] },
-  { title: 'Best Supporting Actor', data: supportingActors as MoviePerson[] },
-  { title: 'Best Supporting Actress', data: supportingActresses as MoviePerson[] },
+const categories = ref<{ id: StatKey; title: string; data: MoviePerson[] }[]>([
+  { id: 'director', title: 'Best Director', data: directors as MoviePerson[] },
+  { id: 'actor', title: 'Best Actor', data: actors as MoviePerson[] },
+  { id: 'actress', title: 'Best Actress', data: actresses as MoviePerson[] },
+  {
+    id: 'supportingActor',
+    title: 'Best Supporting Actor',
+    data: supportingActors as MoviePerson[],
+  },
+  {
+    id: 'supportingActress',
+    title: 'Best Supporting Actress',
+    data: supportingActresses as MoviePerson[],
+  },
 ])
+
+const ethnicityLabels: Record<string, string> = {
+  fractionTotal: 'Total',
+  fractionAfrican: 'African',
+  fractionAsian: 'Asian',
+  fractionLatino: 'Latino',
+  fractionWonOfBIPOC: 'WonOfBIPOC',
+}
 
 const sortKey = ref<MoviePersonKey>('year')
 sortData(sortKey.value)
@@ -47,6 +67,20 @@ function sortData(sortKey: MoviePersonKey) {
       }
     })
   })
+}
+
+function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
+  const statsArray = Object.entries(generalStats[categoryId])
+    .filter(([key]) => !['fractionWonOfBIPOC', 'fractionTotal'].includes(key))
+    .map(([key, value]) => ({
+      value: value as number,
+      label: ethnicityLabels[key],
+      id: key.replace('fraction', '').toLowerCase(),
+    }))
+
+  statsArray.sort((a, b) => b.value - a.value)
+
+  return statsArray
 }
 </script>
 
@@ -75,12 +109,19 @@ function sortData(sortKey: MoviePersonKey) {
     </div>
 
     <div class="movie-page__categories">
-      <MoviesDotChart
+      <div
         v-for="category in categories"
-        :key="category.title"
-        :title="category.title"
-        :nominees="category.data"
-      />
+        :key="category.id"
+        class="movie-page__categories__category"
+      >
+        <MoviesDotChart :title="category.title" :nominees="category.data" />
+
+        <MoviesStats
+          :chartData="getGeneralCategoryStats(category.id)"
+          :total="generalStats[category.id].fractionTotal"
+          :bipocWon="generalStats[category.id].fractionWonOfBIPOC"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -88,6 +129,7 @@ function sortData(sortKey: MoviePersonKey) {
 <style scoped lang="scss">
 .movie-page {
   background-color: var(--silver);
+  padding-bottom: 2rem;
 
   &__title {
     text-align: center;
@@ -173,7 +215,6 @@ function sortData(sortKey: MoviePersonKey) {
 
         &:focus-visible {
           outline: none;
-          // Outer blue border
           box-shadow: 0 0 0 0.2em var(--black);
         }
       }
@@ -185,6 +226,13 @@ function sortData(sortKey: MoviePersonKey) {
     justify-content: space-between;
     max-width: 80rem;
     margin: 0 auto;
+
+    &__category {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
 </style>

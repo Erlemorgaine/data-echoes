@@ -15,3 +15,5 @@ export interface MoviePerson {
 }
 
 export type MoviePersonKey = keyof MoviePerson
+
+export type MovieBarData = { id: string; label: string; value: number }
