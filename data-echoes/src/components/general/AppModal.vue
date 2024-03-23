@@ -81,7 +81,6 @@ function closeModal() {
   }
 
   &[open] {
-    position: absolute;
     pointer-events: inherit;
     opacity: 1;
     width: fit-content;
