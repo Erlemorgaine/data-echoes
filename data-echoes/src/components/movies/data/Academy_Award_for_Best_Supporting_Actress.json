@@ -1,505 +1,506 @@
 [
-    {
-        "year": 2010,
-        "name": "Melissa Leo",
-        "movie": "The Fighter",
-        "descent": "",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2010,
-        "name": "Amy Adams",
-        "movie": "The Fighter",
-        "descent": "",
-        "origin": "white"
-    },
-    {
-        "year": 2010,
-        "name": "Helena Bonham Carter",
-        "movie": "The King's Speech",
-        "descent": "English",
-        "origin": "white"
-    },
-    {
-        "year": 2010,
-        "name": "Hailee Steinfeld",
-        "movie": "True Grit",
-        "descent": "",
-        "origin": "white"
-    },
-    {
-        "year": 2010,
-        "name": "Jacki Weaver",
-        "movie": "Animal Kingdom",
-        "descent": "",
-        "origin": "white"
-    },
-    {
-        "year": 2011,
-        "name": "Octavia Spencer",
-        "movie": "The Help",
-        "descent": "African-American",
-        "origin": "african",
-        "won": true
-    },
-    {
-        "year": 2011,
-        "name": "Bérénice Bejo",
-        "movie": "The Artist",
-        "descent": "Argentine",
-        "origin": "latino"
-    },
-    {
-        "year": 2011,
-        "name": "Jessica Chastain",
-        "movie": "The Help",
-        "descent": "French, Dutch, English, Scottish, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2011,
-        "name": "Melissa McCarthy",
-        "movie": "Bridesmaids",
-        "descent": "Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2011,
-        "name": "Janet McTeer",
-        "movie": "Albert Nobbs",
-        "descent": "English",
-        "origin": "white"
-    },
-    {
-        "year": 2012,
-        "name": "Anne Hathaway",
-        "movie": "Les Misérables",
-        "descent": "Irish, French, English",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2012,
-        "name": "Amy Adams",
-        "movie": "The Master",
-        "descent": "American",
-        "origin": "white"
-    },
-    {
-        "year": 2012,
-        "name": "Sally Field",
-        "movie": "Lincoln",
-        "descent": "English, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2012,
-        "name": "Helen Hunt",
-        "movie": "The Sessions",
-        "descent": "Jewish",
-        "origin": "white"
-    },
-    {
-        "year": 2012,
-        "name": "Jacki Weaver",
-        "movie": "Silver Linings Playbook",
-        "descent": "English, Scottish",
-        "origin": "white"
-    },
-    {
-        "year": 2013,
-        "name": "Lupita Nyong'o",
-        "movie": "12 Years a Slave",
-        "descent": "Kenyan",
-        "origin": "african",
-        "won": true
-    },
-    {
-        "year": 2013,
-        "name": "Sally Hawkins",
-        "movie": "Blue Jasmine",
-        "descent": "English",
-        "origin": "white"
-    },
-    {
-        "year": 2013,
-        "name": "Jennifer Lawrence",
-        "movie": "American Hustle",
-        "descent": "English, German",
-        "origin": "white"
-    },
-    {
-        "year": 2013,
-        "name": "Julia Roberts",
-        "movie": "August: Osage County",
-        "descent": "English, Irish, Swedish, German, Scottish, Welsh",
-        "origin": "white"
-    },
-    {
-        "year": 2013,
-        "name": "June Squibb",
-        "movie": "Nebraska",
-        "descent": "English, Scottish, German, Swiss-German",
-        "origin": "white"
-    },
-    {
-        "year": 2014,
-        "name": "Patricia Arquette",
-        "movie": "Boyhood",
-        "descent": "French-Canadian, English, German, Irish, Scottish",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2014,
-        "name": "Laura Dern",
-        "movie": "Wild",
-        "descent": "English, German, Norwegian, Scottish, Scots-Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2014,
-        "name": "Keira Knightley",
-        "movie": "The Imitation Game",
-        "descent": "English, Scottish, Welsh",
-        "origin": "white"
-    },
-    {
-        "year": 2014,
-        "name": "Emma Stone",
-        "movie": "Birdman",
-        "descent": "Swedish, German, English, Scottish, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2014,
-        "name": "Meryl Streep",
-        "movie": "Into the Woods",
-        "descent": "Swiss-German, German, English, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2015,
-        "name": "Alicia Vikander",
-        "movie": "The Danish Girl",
-        "descent": "Swedish",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2015,
-        "name": "Jennifer Jason Leigh",
-        "movie": "The Hateful Eight",
-        "descent": "Russian-Jewish",
-        "origin": "white"
-    },
-    {
-        "year": 2015,
-        "name": "Rooney Mara",
-        "movie": "Carol",
-        "descent": "Irish, German, French-Canadian",
-        "origin": "white"
-    },
-    {
-        "year": 2015,
-        "name": "Rachel McAdams",
-        "movie": "Spotlight",
-        "descent": "English, Scottish, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2015,
-        "name": "Kate Winslet",
-        "movie": "Steve Jobs",
-        "descent": "English, Swedish",
-        "origin": "white"
-    },
-    {
-        "year": 2016,
-        "name": "Viola Davis",
-        "movie": "Fences",
-        "descent": "African-American",
-        "origin": "african",
-        "won": true
-    },
-    {
-        "year": 2016,
-        "name": "Naomie Harris",
-        "movie": "Moonlight",
-        "descent": "Jamaican",
-        "origin": "african"
-    },
-    {
-        "year": 2016,
-        "name": "Nicole Kidman",
-        "movie": "Lion",
-        "descent": "Australian",
-        "origin": "white"
-    },
-    {
-        "year": 2016,
-        "name": "Octavia Spencer",
-        "movie": "Hidden Figures",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2016,
-        "name": "Michelle Williams",
-        "movie": "Manchester by the Sea",
-        "descent": "English, Scottish, German, Welsh",
-        "origin": "white"
-    },
-    {
-        "year": 2017,
-        "name": "Allison Janney",
-        "movie": "I, Tonya",
-        "descent": "German, English, Irish",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2017,
-        "name": "Mary J. Blige",
-        "movie": "Mudbound",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2017,
-        "name": "Lesley Manville",
-        "movie": "Phantom Thread",
-        "descent": "English",
-        "origin": "white"
-    },
-    {
-        "year": 2017,
-        "name": "Laurie Metcalf",
-        "movie": "Lady Bird",
-        "descent": "Irish, English",
-        "origin": "white"
-    },
-    {
-        "year": 2017,
-        "name": "Octavia Spencer",
-        "movie": "The Shape of Water",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2018,
-        "name": "Regina King",
-        "movie": "If Beale Street Could Talk",
-        "descent": "African-American",
-        "origin": "african",
-        "won": true
-    },
-    {
-        "year": 2018,
-        "name": "Amy Adams",
-        "movie": "Vice",
-        "descent": "American",
-        "origin": "white"
-    },
-    {
-        "year": 2018,
-        "name": "Marina de Tavira",
-        "movie": "Roma",
-        "descent": "Mexican",
-        "origin": "latino"
-    },
-    {
-        "year": 2018,
-        "name": "Emma Stone",
-        "movie": "The Favourite",
-        "descent": "Swedish, German, Dutch, English, Scottish",
-        "origin": "white"
-    },
-    {
-        "year": 2018,
-        "name": "Rachel Weisz",
-        "movie": "The Favourite",
-        "descent": "Jewish",
-        "origin": "white"
-    },
-    {
-        "year": 2019,
-        "name": "Laura Dern",
-        "movie": "Marriage Story",
-        "descent": "English, German, Norwegian, Scottish, Scots-Irish",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2019,
-        "name": "Kathy Bates",
-        "movie": "Richard Jewell",
-        "descent": "Irish, English",
-        "origin": "white"
-    },
-    {
-        "year": 2019,
-        "name": "Scarlett Johansson",
-        "movie": "Jojo Rabbit",
-        "descent": "Ashkenazi Jewish, Danish",
-        "origin": "white"
-    },
-    {
-        "year": 2019,
-        "name": "Florence Pugh",
-        "movie": "Little Women",
-        "descent": "English, Scottish, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2019,
-        "name": "Margot Robbie",
-        "movie": "Bombshell",
-        "descent": "Australian",
-        "origin": "white"
-    },
-    {
-        "year": 2020,
-        "name": "Youn Yuh-Jung",
-        "movie": "Minari",
-        "descent": "South Korean",
-        "origin": "asian",
-        "won": true
-    },
-    {
-        "year": 2020,
-        "name": "Maria Bakalova",
-        "movie": "Borat Subsequent Moviefilm",
-        "descent": "Bulgarian",
-        "origin": "white"
-    },
-    {
-        "year": 2020,
-        "name": "Glenn Close",
-        "movie": "Hillbilly Elegy",
-        "descent": "Welsh, English, German",
-        "origin": "white"
-    },
-    {
-        "year": 2020,
-        "name": "Olivia Colman",
-        "movie": "The Father",
-        "descent": "English",
-        "origin": "white"
-    },
-    {
-        "year": 2020,
-        "name": "Amanda Seyfried",
-        "movie": "Mank",
-        "descent": "German, English, Scottish",
-        "origin": "white"
-    },
-    {
-        "year": 2021,
-        "name": "Ariana DeBose",
-        "movie": "West Side Story",
-        "descent": "Afro-Latina",
-        "origin": "latino",
-        "won": true
-    },
-    {
-        "year": 2021,
-        "name": "Jessie Buckley",
-        "movie": "The Lost Daughter",
-        "descent": "Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2021,
-        "name": "Judi Dench",
-        "movie": "Belfast",
-        "descent": "English, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2021,
-        "name": "Kirsten Dunst",
-        "movie": "The Power of the Dog",
-        "descent": "German, English, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2021,
-        "name": "Aunjanue Ellis",
-        "movie": "King Richard",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2022,
-        "name": "Jamie Lee Curtis",
-        "movie": "Everything Everywhere All at Once",
-        "descent": "German, English, Swiss-German",
-        "origin": "white",
-        "won": true
-    },
-    {
-        "year": 2022,
-        "name": "Angela Bassett",
-        "movie": "Black Panther: Wakanda Forever",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2022,
-        "name": "Hong Chau",
-        "movie": "The Whale",
-        "descent": "Vietnamese",
-        "origin": "asian"
-    },
-    {
-        "year": 2022,
-        "name": "Kerry Condon",
-        "movie": "The Banshees of Inisherin",
-        "descent": "Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2022,
-        "name": "Stephanie Hsu",
-        "movie": "Everything Everywhere All at Once",
-        "descent": "Taiwanese-American",
-        "origin": "asian"
-    },
-    {
-        "year": 2023,
-        "name": "Emily Blunt",
-        "movie": "Oppenheimer",
-        "descent": "English, Irish",
-        "origin": "white"
-    },
-    {
-        "year": 2023,
-        "name": "Danielle Brooks",
-        "movie": "The Color Purple",
-        "descent": "African-American",
-        "origin": "african"
-    },
-    {
-        "year": 2023,
-        "name": "America Ferrera",
-        "movie": "Barbie",
-        "descent": "Honduran, Guatemalan",
-        "origin": "latino"
-    },
-    {
-        "year": 2023,
-        "name": "Jodie Foster",
-        "movie": "Nyad",
-        "descent": "English, Irish, French",
-        "origin": "white"
-    },
-    {
-        "year": 2023,
-        "name": "Da'Vine Joy Randolph",
-        "movie": "The Holdovers",
-        "descent": "African-American",
-        "origin": "african"
-    }
+  {
+    "year": 2010,
+    "name": "Melissa Leo",
+    "movie": "The Fighter",
+    "descent": "",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2010,
+    "name": "Amy Adams",
+    "movie": "The Fighter",
+    "descent": "",
+    "origin": "white"
+  },
+  {
+    "year": 2010,
+    "name": "Helena Bonham Carter",
+    "movie": "The King's Speech",
+    "descent": "English",
+    "origin": "white"
+  },
+  {
+    "year": 2010,
+    "name": "Hailee Steinfeld",
+    "movie": "True Grit",
+    "descent": "",
+    "origin": "white"
+  },
+  {
+    "year": 2010,
+    "name": "Jacki Weaver",
+    "movie": "Animal Kingdom",
+    "descent": "",
+    "origin": "white"
+  },
+  {
+    "year": 2011,
+    "name": "Octavia Spencer",
+    "movie": "The Help",
+    "descent": "African-American",
+    "origin": "african",
+    "won": true
+  },
+  {
+    "year": 2011,
+    "name": "Bérénice Bejo",
+    "movie": "The Artist",
+    "descent": "Argentine",
+    "origin": "latino"
+  },
+  {
+    "year": 2011,
+    "name": "Jessica Chastain",
+    "movie": "The Help",
+    "descent": "French, Dutch, English, Scottish, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2011,
+    "name": "Melissa McCarthy",
+    "movie": "Bridesmaids",
+    "descent": "Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2011,
+    "name": "Janet McTeer",
+    "movie": "Albert Nobbs",
+    "descent": "English",
+    "origin": "white"
+  },
+  {
+    "year": 2012,
+    "name": "Anne Hathaway",
+    "movie": "Les Misérables",
+    "descent": "Irish, French, English",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2012,
+    "name": "Amy Adams",
+    "movie": "The Master",
+    "descent": "American",
+    "origin": "white"
+  },
+  {
+    "year": 2012,
+    "name": "Sally Field",
+    "movie": "Lincoln",
+    "descent": "English, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2012,
+    "name": "Helen Hunt",
+    "movie": "The Sessions",
+    "descent": "Jewish",
+    "origin": "white"
+  },
+  {
+    "year": 2012,
+    "name": "Jacki Weaver",
+    "movie": "Silver Linings Playbook",
+    "descent": "English, Scottish",
+    "origin": "white"
+  },
+  {
+    "year": 2013,
+    "name": "Lupita Nyong'o",
+    "movie": "12 Years a Slave",
+    "descent": "Kenyan",
+    "origin": "african",
+    "won": true
+  },
+  {
+    "year": 2013,
+    "name": "Sally Hawkins",
+    "movie": "Blue Jasmine",
+    "descent": "English",
+    "origin": "white"
+  },
+  {
+    "year": 2013,
+    "name": "Jennifer Lawrence",
+    "movie": "American Hustle",
+    "descent": "English, German",
+    "origin": "white"
+  },
+  {
+    "year": 2013,
+    "name": "Julia Roberts",
+    "movie": "August: Osage County",
+    "descent": "English, Irish, Swedish, German, Scottish, Welsh",
+    "origin": "white"
+  },
+  {
+    "year": 2013,
+    "name": "June Squibb",
+    "movie": "Nebraska",
+    "descent": "English, Scottish, German, Swiss-German",
+    "origin": "white"
+  },
+  {
+    "year": 2014,
+    "name": "Patricia Arquette",
+    "movie": "Boyhood",
+    "descent": "French-Canadian, English, German, Irish, Scottish",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2014,
+    "name": "Laura Dern",
+    "movie": "Wild",
+    "descent": "English, German, Norwegian, Scottish, Scots-Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2014,
+    "name": "Keira Knightley",
+    "movie": "The Imitation Game",
+    "descent": "English, Scottish, Welsh",
+    "origin": "white"
+  },
+  {
+    "year": 2014,
+    "name": "Emma Stone",
+    "movie": "Birdman",
+    "descent": "Swedish, German, English, Scottish, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2014,
+    "name": "Meryl Streep",
+    "movie": "Into the Woods",
+    "descent": "Swiss-German, German, English, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2015,
+    "name": "Alicia Vikander",
+    "movie": "The Danish Girl",
+    "descent": "Swedish",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2015,
+    "name": "Jennifer Jason Leigh",
+    "movie": "The Hateful Eight",
+    "descent": "Russian-Jewish",
+    "origin": "white"
+  },
+  {
+    "year": 2015,
+    "name": "Rooney Mara",
+    "movie": "Carol",
+    "descent": "Irish, German, French-Canadian",
+    "origin": "white"
+  },
+  {
+    "year": 2015,
+    "name": "Rachel McAdams",
+    "movie": "Spotlight",
+    "descent": "English, Scottish, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2015,
+    "name": "Kate Winslet",
+    "movie": "Steve Jobs",
+    "descent": "English, Swedish",
+    "origin": "white"
+  },
+  {
+    "year": 2016,
+    "name": "Viola Davis",
+    "movie": "Fences",
+    "descent": "African-American",
+    "origin": "african",
+    "won": true
+  },
+  {
+    "year": 2016,
+    "name": "Naomie Harris",
+    "movie": "Moonlight",
+    "descent": "Jamaican",
+    "origin": "african"
+  },
+  {
+    "year": 2016,
+    "name": "Nicole Kidman",
+    "movie": "Lion",
+    "descent": "Australian",
+    "origin": "white"
+  },
+  {
+    "year": 2016,
+    "name": "Octavia Spencer",
+    "movie": "Hidden Figures",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2016,
+    "name": "Michelle Williams",
+    "movie": "Manchester by the Sea",
+    "descent": "English, Scottish, German, Welsh",
+    "origin": "white"
+  },
+  {
+    "year": 2017,
+    "name": "Allison Janney",
+    "movie": "I, Tonya",
+    "descent": "German, English, Irish",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2017,
+    "name": "Mary J. Blige",
+    "movie": "Mudbound",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2017,
+    "name": "Lesley Manville",
+    "movie": "Phantom Thread",
+    "descent": "English",
+    "origin": "white"
+  },
+  {
+    "year": 2017,
+    "name": "Laurie Metcalf",
+    "movie": "Lady Bird",
+    "descent": "Irish, English",
+    "origin": "white"
+  },
+  {
+    "year": 2017,
+    "name": "Octavia Spencer",
+    "movie": "The Shape of Water",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2018,
+    "name": "Regina King",
+    "movie": "If Beale Street Could Talk",
+    "descent": "African-American",
+    "origin": "african",
+    "won": true
+  },
+  {
+    "year": 2018,
+    "name": "Amy Adams",
+    "movie": "Vice",
+    "descent": "American",
+    "origin": "white"
+  },
+  {
+    "year": 2018,
+    "name": "Marina de Tavira",
+    "movie": "Roma",
+    "descent": "Mexican",
+    "origin": "latino"
+  },
+  {
+    "year": 2018,
+    "name": "Emma Stone",
+    "movie": "The Favourite",
+    "descent": "Swedish, German, Dutch, English, Scottish",
+    "origin": "white"
+  },
+  {
+    "year": 2018,
+    "name": "Rachel Weisz",
+    "movie": "The Favourite",
+    "descent": "Jewish",
+    "origin": "white"
+  },
+  {
+    "year": 2019,
+    "name": "Laura Dern",
+    "movie": "Marriage Story",
+    "descent": "English, German, Norwegian, Scottish, Scots-Irish",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2019,
+    "name": "Kathy Bates",
+    "movie": "Richard Jewell",
+    "descent": "Irish, English",
+    "origin": "white"
+  },
+  {
+    "year": 2019,
+    "name": "Scarlett Johansson",
+    "movie": "Jojo Rabbit",
+    "descent": "Ashkenazi Jewish, Danish",
+    "origin": "white"
+  },
+  {
+    "year": 2019,
+    "name": "Florence Pugh",
+    "movie": "Little Women",
+    "descent": "English, Scottish, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2019,
+    "name": "Margot Robbie",
+    "movie": "Bombshell",
+    "descent": "Australian",
+    "origin": "white"
+  },
+  {
+    "year": 2020,
+    "name": "Youn Yuh-Jung",
+    "movie": "Minari",
+    "descent": "South Korean",
+    "origin": "asian",
+    "won": true
+  },
+  {
+    "year": 2020,
+    "name": "Maria Bakalova",
+    "movie": "Borat Subsequent Moviefilm",
+    "descent": "Bulgarian",
+    "origin": "white"
+  },
+  {
+    "year": 2020,
+    "name": "Glenn Close",
+    "movie": "Hillbilly Elegy",
+    "descent": "Welsh, English, German",
+    "origin": "white"
+  },
+  {
+    "year": 2020,
+    "name": "Olivia Colman",
+    "movie": "The Father",
+    "descent": "English",
+    "origin": "white"
+  },
+  {
+    "year": 2020,
+    "name": "Amanda Seyfried",
+    "movie": "Mank",
+    "descent": "German, English, Scottish",
+    "origin": "white"
+  },
+  {
+    "year": 2021,
+    "name": "Ariana DeBose",
+    "movie": "West Side Story",
+    "descent": "Afro-Latina",
+    "origin": "latino",
+    "won": true
+  },
+  {
+    "year": 2021,
+    "name": "Jessie Buckley",
+    "movie": "The Lost Daughter",
+    "descent": "Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2021,
+    "name": "Judi Dench",
+    "movie": "Belfast",
+    "descent": "English, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2021,
+    "name": "Kirsten Dunst",
+    "movie": "The Power of the Dog",
+    "descent": "German, English, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2021,
+    "name": "Aunjanue Ellis",
+    "movie": "King Richard",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2022,
+    "name": "Jamie Lee Curtis",
+    "movie": "Everything Everywhere All at Once",
+    "descent": "German, English, Swiss-German",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2022,
+    "name": "Angela Bassett",
+    "movie": "Black Panther: Wakanda Forever",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2022,
+    "name": "Hong Chau",
+    "movie": "The Whale",
+    "descent": "Vietnamese",
+    "origin": "asian"
+  },
+  {
+    "year": 2022,
+    "name": "Kerry Condon",
+    "movie": "The Banshees of Inisherin",
+    "descent": "Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2022,
+    "name": "Stephanie Hsu",
+    "movie": "Everything Everywhere All at Once",
+    "descent": "Taiwanese-American",
+    "origin": "asian"
+  },
+  {
+    "year": 2023,
+    "name": "Da'Vine Joy Randolph",
+    "movie": "The Holdovers",
+    "descent": "African-American",
+    "origin": "african",
+    "won": true
+  },
+  {
+    "year": 2023,
+    "name": "Emily Blunt",
+    "movie": "Oppenheimer",
+    "descent": "English, Irish",
+    "origin": "white"
+  },
+  {
+    "year": 2023,
+    "name": "Danielle Brooks",
+    "movie": "The Color Purple",
+    "descent": "African-American",
+    "origin": "african"
+  },
+  {
+    "year": 2023,
+    "name": "America Ferrera",
+    "movie": "Barbie",
+    "descent": "Honduran, Guatemalan",
+    "origin": "latino"
+  },
+  {
+    "year": 2023,
+    "name": "Jodie Foster",
+    "movie": "Nyad",
+    "descent": "English, Irish, French",
+    "origin": "white"
+  }
 ]

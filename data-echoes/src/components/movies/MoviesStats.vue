@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { MovieBarData } from './types/types'
+import MoviesPieChart from './MoviesPieChart.vue'
 
 defineProps<{
   chartData: MovieBarData[]
@@ -24,15 +25,37 @@ defineProps<{
       </div>
     </div>
 
-    <!-- TODO: Do add bar charts here, makes it more visually clear -->
-    <div class="movies-stats__stat">
-      <dd>{{ Math.round(total * 100) }}%</dd>
-      <dt>of all nominees</dt>
+    <div class="movies-stats__pie-stat">
+      <MoviesPieChart
+        background-color="var(--white)"
+        :segments="[
+          { value: total, id: 'african' },
+          { value: 1 - total, id: 'white' },
+        ]"
+      >
+        <dd>
+          <span class="movies-stats__pie-stat__value">{{ Math.round(total * 100) }}%</span>
+          BIPOC
+        </dd>
+      </MoviesPieChart>
+
+      <dt>out of all nominees</dt>
     </div>
 
-    <div class="movies-stats__stat">
-      <dd>{{ Math.round(bipocWon * 100) }}%</dd>
-      <dt>of them won</dt>
+    <div class="movies-stats__pie-stat">
+      <MoviesPieChart
+        background-color="var(--african)"
+        :segments="[
+          { value: bipocWon, id: 'gold' },
+          { value: 1 - bipocWon, id: 'african' },
+        ]"
+      >
+        <dd>
+          <span class="movies-stats__pie-stat__value">{{ Math.round(bipocWon * 100) }}%</span> won
+        </dd>
+      </MoviesPieChart>
+
+      <dt>out of BIPOC nominees</dt>
     </div>
   </dl>
 </template>
@@ -40,11 +63,16 @@ defineProps<{
 <style scoped lang="scss">
 .movies-stats {
   margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.2rem hsla(26, 6%, 51%, 0.75);
+  padding: 0.5rem 0.75rem;
+  background-color: var(--silver-light);
 
   &__ethnicities {
     --dot-size: 1rem;
 
     display: flex;
+    justify-content: space-between;
     gap: 0.5rem;
   }
 
@@ -59,6 +87,22 @@ defineProps<{
 
     .dot {
       background-color: var(--bar-color);
+    }
+  }
+
+  &__pie-stat {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    max-width: calc(5 * var(--dot-size) + 4 * var(--dot-gap));
+
+    dd {
+      font-weight: 700;
+    }
+
+    &__value {
+      font-weight: 900;
+      font-size: 1.25rem;
+      margin-right: 0.2rem;
     }
   }
 }

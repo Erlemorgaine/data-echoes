@@ -469,6 +469,14 @@
   },
   {
     "year": 2023,
+    "name": "Cillian Murphy",
+    "movie": "Oppenheimer",
+    "descent": "Irish",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2023,
     "name": "Bradley Cooper",
     "movie": "Maestro",
     "descent": "American, Italian",
@@ -488,13 +496,7 @@
     "descent": "Italian, New England",
     "origin": "white"
   },
-  {
-    "year": 2023,
-    "name": "Cillian Murphy",
-    "movie": "Oppenheimer",
-    "descent": "Irish",
-    "origin": "white"
-  },
+
   {
     "year": 2023,
     "name": "Jeffrey Wright",

@@ -15,6 +15,7 @@
   --gold: #eead2b;
   --gold-light: #fffbf3;
   --silver: #afa29a;
+  --silver-light: #bdb2aa;
 
   --african: var(--black);
   --asian: color-mix(in srgb, var(--black) 20%, var(--white));
@@ -25,6 +26,7 @@
   --white-50: hsla(0, 100%, 100%, 0.5);
 
   --dot-size: 1.75rem;
+  --dot-gap: 0.5rem;
 }
 
 .theme-view.movies {

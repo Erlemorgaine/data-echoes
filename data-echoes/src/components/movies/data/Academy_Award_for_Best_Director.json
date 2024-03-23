@@ -476,6 +476,14 @@
   },
   {
     "year": 2023,
+    "name": "Christopher Nolan",
+    "movie": "Oppenheimer",
+    "descent": "",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2023,
     "name": "Jonathan Glazer",
     "movie": "The Zone of Interest",
     "descent": "",
@@ -488,13 +496,7 @@
     "descent": "",
     "origin": "white"
   },
-  {
-    "year": 2023,
-    "name": "Christopher Nolan",
-    "movie": "Oppenheimer",
-    "descent": "",
-    "origin": "white"
-  },
+
   {
     "year": 2023,
     "name": "Martin Scorsese",

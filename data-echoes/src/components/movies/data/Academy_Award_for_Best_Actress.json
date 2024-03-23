@@ -469,6 +469,14 @@
   },
   {
     "year": 2023,
+    "name": "Emma Stone",
+    "movie": "Poor Things",
+    "descent": "Swedish descent, German descent, English descent, Scottish descent, Irish descent",
+    "origin": "white",
+    "won": true
+  },
+  {
+    "year": 2023,
     "name": "Annette Bening",
     "movie": "Nyad",
     "descent": "German descent, English descent",
@@ -493,13 +501,6 @@
     "name": "Carey Mulligan",
     "movie": "Maestro",
     "descent": "",
-    "origin": "white"
-  },
-  {
-    "year": 2023,
-    "name": "Emma Stone",
-    "movie": "Poor Things",
-    "descent": "Swedish descent, German descent, English descent, Scottish descent, Irish descent",
     "origin": "white"
   }
 ]

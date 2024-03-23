@@ -7,6 +7,7 @@ import actresses from './data/Academy_Award_for_Best_Actress.json'
 import directors from './data/Academy_Award_for_Best_Director.json'
 import supportingActors from './data/Academy_Award_for_Best_Supporting_Actor.json'
 import supportingActresses from './data/Academy_Award_for_Best_Supporting_Actress.json'
+// TODO: Update according to 2023!!
 import generalStats from './data/movie-stats.json'
 
 import MoviesDotChart from './MoviesDotChart.vue'
