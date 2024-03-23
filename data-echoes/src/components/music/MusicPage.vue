@@ -6,7 +6,7 @@ import p5 from 'p5'
 type P5 = import('p5')
 import sumBy from 'lodash/sumBy'
 
-import { Flower, Snowflake } from './MusicObjects'
+import { Flower, Snowflake, Tree } from './MusicObjects'
 import type { FrequencySignal, VizTypes } from './types/types'
 
 const black = '#181818'
@@ -15,6 +15,7 @@ const black30 = '#18181833'
 const white = '#f2f2f2'
 const winterDuration = 1000 * 60 * 5.7
 const canvasWidth = window.innerWidth > 1024 ? window.innerWidth * 0.5 : window.innerWidth
+const treeTranslation = { x: canvasWidth * 0.18, y: window.innerHeight * 0.78 }
 
 const onboardingTexts = {
   winter: [
@@ -132,6 +133,13 @@ function setupCanvasWinterTrail(p: P5) {
   let startTime: number
   let odd = false
 
+  const trees = [
+    new Tree(p, treeTranslation.x, treeTranslation.y, 45, Math.PI * 0.15, 5),
+    new Tree(p, treeTranslation.x * 3.5, treeTranslation.y * -0.2, 35, Math.PI * 0.17, 4),
+    new Tree(p, treeTranslation.x * -3, treeTranslation.y * -0.25, 25, Math.PI * 0.13, 3),
+    new Tree(p, treeTranslation.x * 2.5, treeTranslation.y * -0.05, 20, Math.PI * 0.11, 2),
+  ]
+
   p.setup = () => {
     p.createCanvas(canvasWidth, window.innerHeight)
     p.background(white)
@@ -180,17 +188,22 @@ function setupCanvasWinterTrail(p: P5) {
           const flowerY = y // window.innerHeight * 0.5 + amplitudeSum * 20
           const flower = new Flower(p, flowerX, flowerY, 200 - Math.abs(randOffset))
 
-          flower.display() // draw snowflake
+          flower.display()
         }
 
         // These numbers approximate dots walking on the beat (tiny bit too slow though)
         if (onSecond && i == 1) {
           // Get the waveform
-
           const radius = p.map(Math.abs(amplitudeSum), 0, 25, 1, 25)
 
+          // Create a road
           p.circle(x, y, radius)
         }
+      })
+
+      trees.forEach((tree) => {
+        tree.update(elapsedTime)
+        tree.display()
       })
     }
   }
@@ -306,9 +319,15 @@ function setupCanvasPrecious(p: P5) {
           <strong>multi-sensory</strong> experience of the songs.
         </p>
 
-        <button class="music-page__intro-text__play-btn" @click="playAudio('winter')">
-          Start experience
-        </button>
+        <div class="music-page__intro-text__btns">
+          <button class="music-page__intro-text__play-btn" @click="playAudio('winter')">
+            Start Winter
+          </button>
+
+          <button class="music-page__intro-text__play-btn" @click="playAudio('winter')">
+            Start Precious Things
+          </button>
+        </div>
       </div>
     </Transition>
 
@@ -362,8 +381,14 @@ function setupCanvasPrecious(p: P5) {
       margin-bottom: 0.75rem;
     }
 
+    &__btns {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
     &__play-btn {
-      @include underline-hover;
+      // @include underline-hover;
 
       --line-color: var(--off-black);
 
@@ -373,6 +398,15 @@ function setupCanvasPrecious(p: P5) {
       z-index: 1;
       position: relative;
       margin-top: 1.5rem;
+      width: 17rem;
+      border: 1px solid;
+      border-image: linear-gradient(90deg, transparent, var(--off-black-10), transparent) 30;
+      box-shadow: 0.1rem 0.1rem 0.5rem 0.2rem rgb(228, 228, 228);
+      transition: box-shadow 0.3s;
+
+      &:hover {
+        box-shadow: 0.1rem 0.1rem 0.5rem 0.2rem rgb(215, 215, 215);
+      }
     }
   }
 
@@ -400,7 +434,8 @@ function setupCanvasPrecious(p: P5) {
   &__onboarding-text {
     position: absolute;
     max-width: 38vw;
-    top: 10vh;
+    top: 50vh;
+    transform: translateY(-50%);
     z-index: 1;
     background-color: var(--vt-c-white-mute);
 
