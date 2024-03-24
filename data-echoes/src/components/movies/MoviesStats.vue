@@ -4,13 +4,14 @@ import MoviesPieChart from './MoviesPieChart.vue'
 
 defineProps<{
   chartData: MovieBarData[]
-  total: number
-  bipocWon: number
+  bipcOfTotal: number
+  wonOfBipoc: number
+  bipocOfWon: number
 }>()
 </script>
 
 <template>
-  <dl class="movies-stats">
+  <dl>
     <div class="movies-stats__ethnicities">
       <div
         v-for="datum in chartData"
@@ -25,37 +26,57 @@ defineProps<{
       </div>
     </div>
 
-    <div class="movies-stats__pie-stat">
-      <MoviesPieChart
-        background-color="var(--white)"
-        :segments="[
-          { value: total, id: 'african' },
-          { value: 1 - total, id: 'white' },
-        ]"
-      >
-        <dd>
-          <span class="movies-stats__pie-stat__value">{{ Math.round(total * 100) }}%</span>
-          BIPOC
-        </dd>
-      </MoviesPieChart>
+    <div class="movies-stats">
+      <div class="movies-stats__pie-stat">
+        <MoviesPieChart
+          background-color="var(--white)"
+          :segments="[
+            { value: bipcOfTotal, id: 'african' },
+            { value: 1 - bipcOfTotal, id: 'white' },
+          ]"
+        >
+          <dd>
+            <span class="movies-stats__pie-stat__value">{{ Math.round(bipcOfTotal * 100) }}%</span>
+            BIPOC
+          </dd>
+        </MoviesPieChart>
 
-      <dt>out of all nominees</dt>
-    </div>
+        <dt>out of all nominees</dt>
+      </div>
 
-    <div class="movies-stats__pie-stat">
-      <MoviesPieChart
-        background-color="var(--african)"
-        :segments="[
-          { value: bipocWon, id: 'gold' },
-          { value: 1 - bipocWon, id: 'african' },
-        ]"
-      >
-        <dd>
-          <span class="movies-stats__pie-stat__value">{{ Math.round(bipocWon * 100) }}%</span> won
-        </dd>
-      </MoviesPieChart>
+      <div class="movies-stats__pie-stat">
+        <MoviesPieChart
+          background-color="var(--white)"
+          :segments="[
+            { value: bipocOfWon, id: 'african' },
+            { value: 1 - bipocOfWon, id: 'gold' },
+          ]"
+        >
+          <dd>
+            <span class="movies-stats__pie-stat__value">{{ Math.round(bipocOfWon * 100) }}%</span>
+            BIPOC
+          </dd>
+        </MoviesPieChart>
 
-      <dt>out of BIPOC nominees</dt>
+        <dt>out of all winners</dt>
+      </div>
+
+      <div class="movies-stats__pie-stat">
+        <MoviesPieChart
+          background-color="var(--african)"
+          :segments="[
+            { value: wonOfBipoc, id: 'gold' },
+            { value: 1 - wonOfBipoc, id: 'african' },
+          ]"
+        >
+          <dd>
+            <span class="movies-stats__pie-stat__value">{{ Math.round(wonOfBipoc * 100) }}%</span>
+            won
+          </dd>
+        </MoviesPieChart>
+
+        <dt>out of BIPOC nominees</dt>
+      </div>
     </div>
   </dl>
 </template>
@@ -74,6 +95,7 @@ defineProps<{
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
+    padding: 0 0.5rem;
   }
 
   &__stat {
@@ -92,8 +114,11 @@ defineProps<{
 
   &__pie-stat {
     font-size: 0.875rem;
-    margin-top: 1rem;
     max-width: calc(5 * var(--dot-size) + 4 * var(--dot-gap));
+
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
 
     dd {
       font-weight: 700;

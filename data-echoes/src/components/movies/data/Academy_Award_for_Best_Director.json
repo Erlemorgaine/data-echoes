@@ -12,28 +12,32 @@
     "name": "Darren Aronofsky",
     "movie": "Black Swan",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "Joel Coen and Ethan Coen",
     "movie": "True Grit",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "David Fincher",
     "movie": "The Social Network",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "David O. Russell",
     "movie": "The Fighter",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
@@ -48,28 +52,32 @@
     "name": "Woody Allen",
     "movie": "Midnight in Paris",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Terrence Malick",
     "movie": "The Tree of Life",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Alexander Payne",
     "movie": "The Descendants",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Martin Scorsese",
     "movie": "Hugo",
     "descent": "Italian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
@@ -84,28 +92,32 @@
     "name": "Michael Haneke",
     "movie": "Amour",
     "descent": "Austrian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
     "name": "David O. Russell",
     "movie": "Silver Linings Playbook",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
     "name": "Steven Spielberg",
     "movie": "Lincoln",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
     "name": "Benh Zeitlin",
     "movie": "Beasts of the Southern Wild",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
@@ -120,28 +132,32 @@
     "name": "Steve McQueen",
     "movie": "12 Years a Slave",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2013,
     "name": "Alexander Payne",
     "movie": "Nebraska",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
     "name": "David O. Russell",
     "movie": "American Hustle",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
     "name": "Martin Scorsese",
     "movie": "The Wolf of Wall Street",
     "descent": "Italian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
@@ -156,28 +172,32 @@
     "name": "Wes Anderson",
     "movie": "The Grand Budapest Hotel",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Richard Linklater",
     "movie": "Boyhood",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Bennett Miller",
     "movie": "Foxcatcher",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Morten Tyldum",
     "movie": "The Imitation Game",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
@@ -192,28 +212,32 @@
     "name": "Lenny Abrahamson",
     "movie": "Room",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "Tom McCarthy",
     "movie": "Spotlight",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "Adam McKay",
     "movie": "The Big Short",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "George Miller",
     "movie": "Mad Max: Fury Road",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
@@ -228,28 +252,32 @@
     "name": "Mel Gibson",
     "movie": "Hacksaw Ridge",
     "descent": "Irish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Barry Jenkins",
     "movie": "Moonlight",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Kenneth Lonergan",
     "movie": "Manchester by the Sea",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Denis Villeneuve",
     "movie": "Arrival",
     "descent": "French-Canadian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
@@ -264,28 +292,32 @@
     "name": "Paul Thomas Anderson",
     "movie": "Phantom Thread",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Greta Gerwig",
     "movie": "Lady Bird",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Christopher Nolan",
     "movie": "Dunkirk",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Jordan Peele",
     "movie": "Get Out",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2018,
@@ -300,28 +332,32 @@
     "name": "Yorgos Lanthimos",
     "movie": "The Favourite",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Spike Lee",
     "movie": "BlacKkKlansman",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Adam McKay",
     "movie": "Vice",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Paweł Pawlikowski",
     "movie": "Cold War",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
@@ -336,28 +372,32 @@
     "name": "Sam Mendes",
     "movie": "1917",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Todd Phillips",
     "movie": "Joker",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Martin Scorsese",
     "movie": "The Irishman",
     "descent": "Italian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Quentin Tarantino",
     "movie": "Once Upon a Time in Hollywood",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2020,
@@ -372,28 +412,32 @@
     "name": "Lee Isaac Chung",
     "movie": "Minari",
     "descent": "Korean",
-    "origin": "asian"
+    "origin": "asian",
+    "won": false
   },
   {
     "year": 2020,
     "name": "Emerald Fennell",
     "movie": "Promising Young Woman",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2020,
     "name": "David Fincher",
     "movie": "Mank",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2020,
     "name": "Thomas Vinterberg",
     "movie": "Another Round",
     "descent": "Danish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
@@ -408,28 +452,32 @@
     "name": "Paul Thomas Anderson",
     "movie": "Licorice Pizza",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Kenneth Branagh",
     "movie": "Belfast",
     "descent": "Northern Irish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Ryusuke Hamaguchi",
     "movie": "Drive My Car",
     "descent": "Japanese",
-    "origin": "asian"
+    "origin": "asian",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Steven Spielberg",
     "movie": "West Side Story",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
@@ -444,35 +492,40 @@
     "name": "Daniel Scheinert",
     "movie": "Everything Everywhere All at Once",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": true
   },
   {
     "year": 2022,
     "name": "Todd Field",
     "movie": "Tár",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Martin McDonagh",
     "movie": "The Banshees of Inisherin",
     "descent": "Irish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Ruben Östlund",
     "movie": "Triangle of Sadness",
     "descent": "Swedish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Steven Spielberg",
     "movie": "The Fabelmans",
     "descent": "Jewish",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
@@ -487,28 +540,31 @@
     "name": "Jonathan Glazer",
     "movie": "The Zone of Interest",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
     "name": "Yorgos Lanthimos",
     "movie": "Poor Things",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
-
   {
     "year": 2023,
     "name": "Martin Scorsese",
     "movie": "Killers of the Flower Moon",
     "descent": "Italian",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
     "name": "Justine Triet",
     "movie": "Anatomy of a Fall",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   }
 ]

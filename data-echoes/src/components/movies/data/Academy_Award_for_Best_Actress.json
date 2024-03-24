@@ -12,28 +12,32 @@
     "name": "Annette Bening",
     "movie": "The Kids Are All Right",
     "descent": "German descent, English descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "Nicole Kidman",
     "movie": "Rabbit Hole",
     "descent": "English descent, Irish descent, Scottish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "Jennifer Lawrence",
     "movie": "Winter's Bone",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2010,
     "name": "Michelle Williams",
     "movie": "Blue Valentine",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
@@ -48,28 +52,32 @@
     "name": "Glenn Close",
     "movie": "Albert Nobbs",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Viola Davis",
     "movie": "The Help",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Rooney Mara",
     "movie": "The Girl with the Dragon Tattoo",
     "descent": "Irish descent, German descent, French-Canadian descent, Italian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2011,
     "name": "Michelle Williams",
     "movie": "My Week with Marilyn",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
@@ -84,28 +92,32 @@
     "name": "Jessica Chastain",
     "movie": "Zero Dark Thirty",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
     "name": "Emmanuelle Riva",
     "movie": "Amour",
     "descent": "French descent, Italian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2012,
     "name": "Quvenzhané Wallis",
     "movie": "Beasts of the Southern Wild",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2012,
     "name": "Naomi Watts",
     "movie": "The Impossible",
     "descent": "British descent, Australian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
@@ -120,28 +132,32 @@
     "name": "Amy Adams",
     "movie": "American Hustle",
     "descent": "American descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
     "name": "Sandra Bullock",
     "movie": "Gravity",
     "descent": "German descent, American descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
     "name": "Judi Dench",
     "movie": "Philomena",
     "descent": "Irish descent, English descent, Danish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2013,
     "name": "Meryl Streep",
     "movie": "August: Osage County",
     "descent": "German descent, Swiss descent, English descent, Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
@@ -156,28 +172,32 @@
     "name": "Marion Cotillard",
     "movie": "Two Days, One Night",
     "descent": "French descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Felicity Jones",
     "movie": "The Theory of Everything",
     "descent": "English",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Rosamund Pike",
     "movie": "Gone Girl",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2014,
     "name": "Reese Witherspoon",
     "movie": "Wild",
     "descent": "Scottish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
@@ -192,28 +212,32 @@
     "name": "Cate Blanchett",
     "movie": "Carol",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "Jennifer Lawrence",
     "movie": "Joy",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "Charlotte Rampling",
     "movie": "45 Years",
     "descent": "English descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2015,
     "name": "Saoirse Ronan",
     "movie": "Brooklyn",
     "descent": "Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
@@ -228,28 +252,32 @@
     "name": "Isabelle Huppert",
     "movie": "Elle",
     "descent": "French",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Ruth Negga",
     "movie": "Loving",
     "descent": "Irish, Ehtiopian",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Natalie Portman",
     "movie": "Jackie",
     "descent": "Jewish descent, Polish descent, Austrian descent, Russian descent, American descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2016,
     "name": "Meryl Streep",
     "movie": "Florence Foster Jenkins",
     "descent": "German descent, Swiss descent, English descent, Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
@@ -264,28 +292,32 @@
     "name": "Sally Hawkins",
     "movie": "The Shape of Water",
     "descent": "Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Margot Robbie",
     "movie": "I, Tonya",
     "descent": "Australian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Saoirse Ronan",
     "movie": "Lady Bird",
     "descent": "Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2017,
     "name": "Meryl Streep",
     "movie": "The Post",
     "descent": "German descent, Swiss descent, English descent, Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2018,
@@ -300,28 +332,32 @@
     "name": "Yalitza Aparicio",
     "movie": "Roma",
     "descent": "Indigenous Mexican descent, specifically Mixtec and Triqui",
-    "origin": "latino"
+    "origin": "latino",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Glenn Close",
     "movie": "The Wife",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Lady Gaga",
     "movie": "A Star Is Born",
     "descent": "Italian, American",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2018,
     "name": "Melissa McCarthy",
     "movie": "Can You Ever Forgive Me?",
     "descent": "Irish descent, English descent, German descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
@@ -336,28 +372,32 @@
     "name": "Cynthia Erivo",
     "movie": "Harriet",
     "descent": "Nigerian descent",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Scarlett Johansson",
     "movie": "Marriage Story",
     "descent": "Danish descent, Ashkenazi Jewish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Saoirse Ronan",
     "movie": "Little Women",
     "descent": "Irish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2019,
     "name": "Charlize Theron",
     "movie": "Bombshell",
     "descent": "Dutch descent, French descent, German descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2020,
@@ -372,28 +412,32 @@
     "name": "Viola Davis",
     "movie": "Ma Rainey's Black Bottom",
     "descent": "",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2020,
     "name": "Andra Day",
     "movie": "The United States vs. Billie Holiday",
     "descent": "African-American, ",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2020,
     "name": "Vanessa Kirby",
     "movie": "Pieces of a Woman",
     "descent": "English descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2020,
     "name": "Carey Mulligan",
     "movie": "Promising Young Woman",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
@@ -408,28 +452,32 @@
     "name": "Olivia Colman",
     "movie": "The Lost Daughter",
     "descent": "European descent, potential Indian descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Penélope Cruz",
     "movie": "Parallel Mothers",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Nicole Kidman",
     "movie": "Being the Ricardos",
     "descent": "English descent, Irish descent, Scottish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2021,
     "name": "Kristen Stewart",
     "movie": "Spencer",
     "descent": "American descent, Australian descent, Ashkenazi Jewish descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
@@ -444,28 +492,32 @@
     "name": "Cate Blanchett",
     "movie": "Tár",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Ana de Armas",
     "movie": "Blonde",
     "descent": "Cuban descent, Spanish descent",
-    "origin": "latino"
+    "origin": "latino",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Andrea Riseborough",
     "movie": "To Leslie",
     "descent": "English descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2022,
     "name": "Michelle Williams",
     "movie": "The Fabelmans",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
@@ -480,27 +532,31 @@
     "name": "Annette Bening",
     "movie": "Nyad",
     "descent": "German descent, English descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
     "name": "Lily Gladstone",
     "movie": "Killers of the Flower Moon",
     "descent": "Piegan Blackfeet descent, Nez Perce descent, European descent",
-    "origin": "african"
+    "origin": "african",
+    "won": false
   },
   {
     "year": 2023,
     "name": "Sandra Hüller",
     "movie": "Anatomy of a Fall",
     "descent": "German descent",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   },
   {
     "year": 2023,
     "name": "Carey Mulligan",
     "movie": "Maestro",
     "descent": "",
-    "origin": "white"
+    "origin": "white",
+    "won": false
   }
 ]

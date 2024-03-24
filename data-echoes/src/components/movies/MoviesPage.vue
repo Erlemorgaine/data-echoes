@@ -7,7 +7,6 @@ import actresses from './data/Academy_Award_for_Best_Actress.json'
 import directors from './data/Academy_Award_for_Best_Director.json'
 import supportingActors from './data/Academy_Award_for_Best_Supporting_Actor.json'
 import supportingActresses from './data/Academy_Award_for_Best_Supporting_Actress.json'
-// TODO: Update according to 2023!!
 import generalStats from './data/movie-stats.json'
 
 import MoviesDotChart from './MoviesDotChart.vue'
@@ -19,6 +18,7 @@ import './movies.scss'
 type StatKey = keyof typeof generalStats
 
 const sortKeys: MoviePersonKey[] = ['year', 'origin', 'name']
+const sortOrderKeys = ['won', 'origin', 'year', 'name']
 
 const categories = ref<{ id: StatKey; title: string; data: MoviePerson[] }[]>([
   { id: 'director', title: 'Best Director', data: directors as MoviePerson[] },
@@ -42,6 +42,7 @@ const ethnicityLabels: Record<string, string> = {
   fractionAsian: 'Asian',
   fractionLatino: 'Latino',
   fractionWonOfBIPOC: 'WonOfBIPOC',
+  fractionBIPOCOfWon: 'BIPOCOfWon',
 }
 
 const sortKey = ref<MoviePersonKey>('year')
@@ -52,27 +53,50 @@ watch(sortKey, sortData)
 // TODO: I want to know how the data compares to the general american population
 // https://en.wikipedia.org/wiki/Race_and_ethnicity_in_the_United_States
 
-// TODO: Also add percentages
 // TODO: What about middle eastern or native american? Add OTHER category
 // TODO: Let balls fly in, and animate order
 // TODO: Tooltip for each datapoint
 // TODO: After each dot chart, write some insights.
-// TODO: Always sort in the same way?
-function sortData(sortKey: MoviePersonKey) {
+
+function sortData(key: MoviePersonKey) {
+  // Remove the provided key from the sortOrder array
+  const secondaryKeys = sortOrderKeys.filter((k) => k !== key)
+
+  const compareValues = (a: string | number | boolean, b: string | number | boolean) => {
+    if (typeof a === 'string' && typeof b === 'string') {
+      return a.localeCompare(b)
+    } else {
+      if (a < b) return -1
+      if (a > b) return 1
+    }
+    return 0
+  }
+
+  const sortFunction = (a: MoviePerson, b: MoviePerson) => {
+    // Primary sort
+    let result = compareValues(a[key], b[key])
+    if (result !== 0) return result
+
+    // Secondary sort based on remaining keys
+    for (let i = 0; i < secondaryKeys.length; i++) {
+      const secondaryKey = secondaryKeys[i]
+      result = compareValues(a[secondaryKey], b[secondaryKey])
+      if (result !== 0) return result
+    }
+
+    // Equal according to all criteria
+    return 0
+  }
+
+  // Return the sorted array
   categories.value.forEach((category) => {
-    category.data.sort((a: MoviePerson, b: MoviePerson) => {
-      if (typeof a[sortKey] === 'string') {
-        return a[sortKey].localeCompare(b[sortKey])
-      } else {
-        return a[sortKey] - b[sortKey]
-      }
-    })
+    category.data.sort(sortFunction)
   })
 }
 
 function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
   const statsArray = Object.entries(generalStats[categoryId])
-    .filter(([key]) => !['fractionWonOfBIPOC', 'fractionTotal'].includes(key))
+    .filter(([key]) => !['fractionWonOfBIPOC', 'fractionBIPOCOfWon', 'fractionTotal'].includes(key))
     .map(([key, value]) => ({
       value: value as number,
       label: ethnicityLabels[key],
@@ -119,8 +143,9 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
         <MoviesStats
           :chartData="getGeneralCategoryStats(category.id)"
-          :total="generalStats[category.id].fractionTotal"
-          :bipocWon="generalStats[category.id].fractionWonOfBIPOC"
+          :bipcOfTotal="generalStats[category.id].fractionTotal"
+          :wonOfBipoc="generalStats[category.id].fractionWonOfBIPOC"
+          :bipocOfWon="generalStats[category.id].fractionBIPOCOfWon"
         />
       </div>
     </div>

@@ -4,35 +4,40 @@
     "fractionAfrican": 0.1,
     "fractionAsian": 0.0142,
     "fractionLatino": 0.0285,
-    "fractionWonOfBIPOC": 0.1
+    "fractionWonOfBIPOC": 0.1,
+    "fractionBIPOCOfWon": 0.0714
   },
   "actor": {
     "fractionTotal": 0.2286,
     "fractionAfrican": 0.1428,
     "fractionAsian": 0.0285,
     "fractionLatino": 0.0571,
-    "fractionWonOfBIPOC": 0.125
+    "fractionWonOfBIPOC": 0.125,
+    "fractionBIPOCOfWon": 0.1428
   },
   "director": {
     "fractionTotal": 0.2112,
     "fractionAfrican": 0.0563,
     "fractionAsian": 0.0845,
     "fractionLatino": 0.0704,
-    "fractionWonOfBIPOC": 0.6
+    "fractionWonOfBIPOC": 0.6,
+    "fractionBIPOCOfWon": 0.6
   },
   "supportingActress": {
     "fractionTotal": 0.2714,
     "fractionAfrican": 0.1714,
     "fractionAsian": 0.0428,
     "fractionLatino": 0.0571,
-    "fractionWonOfBIPOC": 0.3157
+    "fractionWonOfBIPOC": 0.3684,
+    "fractionBIPOCOfWon": 0.5
   },
   "supportingActor": {
     "fractionTotal": 0.1428,
     "fractionAfrican": 0.1142,
     "fractionAsian": 0.0285,
     "fractionLatino": 0,
-    "fractionWonOfBIPOC": 0.4
+    "fractionWonOfBIPOC": 0.4,
+    "fractionBIPOCOfWon": 0.2857
   },
   "USA": {
     "fractionWhite": 59.3,

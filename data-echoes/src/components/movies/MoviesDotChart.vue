@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import type { MoviePerson } from './types/types.ts'
+import MovieDotTooltip from './MovieDotTooltip.vue'
+import { ref } from 'vue'
 
 defineProps<{ title: string; nominees: MoviePerson[] }>()
+
+const tooltipData = ref<MoviePerson | null>(null)
 </script>
 
 <template>
@@ -14,7 +18,20 @@ defineProps<{ title: string; nominees: MoviePerson[] }>()
         :key="`${nominee.name}-${nominee.year}`"
         :style="{ '--origin-color': `var(--${nominee.origin})` }"
       >
-        <button :aria-label="nominee.name" class="dot">
+        <button
+          :aria-label="nominee.name"
+          class="dot"
+          @mouseenter="tooltipData = nominee"
+          @focus="tooltipData = nominee"
+          @mouseleave="tooltipData = null"
+          @blur="tooltipData = null"
+        >
+          <MovieDotTooltip
+            v-if="
+              tooltipData && tooltipData.name + tooltipData.year === nominee.name + nominee.year
+            "
+            :dotData="nominee"
+          />
           <div v-if="nominee.won" class="won" />
         </button>
       </li>
