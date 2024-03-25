@@ -40,9 +40,9 @@
     "fractionBIPOCOfWon": 0.2857
   },
   "USA": {
-    "fractionWhite": 59.3,
-    "fractionHispanicLatino": 18.9,
-    "fractionBlack": 12.6,
-    "fractionAsian": 5.9
+    "fractionWhite": 0.593,
+    "fractionHispanicLatino": 0.189,
+    "fractionBlack": 0.126,
+    "fractionAsian": 0.059
   }
 }
