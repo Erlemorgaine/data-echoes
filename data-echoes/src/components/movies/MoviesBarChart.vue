@@ -31,7 +31,7 @@ defineProps<{
   &__title {
     font-weight: 900;
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
   }
 
   &__chart {

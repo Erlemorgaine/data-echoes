@@ -91,6 +91,27 @@ const bipocPercentage = computed(
     border-top: 2px solid var(--black);
     padding-top: 0.25rem;
     margin-top: 1rem;
+    position: relative;
+    padding-left: 0.5rem;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      transform: translateY(-50%);
+      height: 1rem;
+      width: 2px;
+      background-color: var(--black);
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
+    }
   }
 }
 </style>
