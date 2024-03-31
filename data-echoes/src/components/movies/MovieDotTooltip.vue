@@ -14,7 +14,7 @@ const tooltipData = computed(() => [
 </script>
 
 <template>
-  <div class="movies-tooltip">
+  <div class="movies-tooltip" aria-live="polite">
     <dl class="movies-tooltip__content">
       <div v-for="datum of tooltipData" :key="datum.label" class="movies-tooltip__content__datum">
         <dt>{{ datum.label }}:</dt>

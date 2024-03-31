@@ -14,7 +14,7 @@
   --red: #981608;
   --gold: #eead2b;
   --gold-light: #fffbf3;
-  --silver: #afa29a;
+  --silver: #9b928c;
   --silver-light: #bdb2aa;
 
   --african: var(--black);
@@ -27,6 +27,14 @@
 
   --dot-size: 1.75rem;
   --dot-gap: 0.5rem;
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+    text-shadow: 1px 1px 2px var(--black);
+  }
 }
 
 .theme-view.movies {

@@ -12,6 +12,7 @@ import generalStats from './data/movie-stats.json'
 import MoviesDotChart from './MoviesDotChart.vue'
 import MoviesLegend from './MoviesLegend.vue'
 import MoviesStats from './MoviesStats.vue'
+import USAChart from './USAChart.vue'
 
 import './movies.scss'
 
@@ -111,7 +112,7 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
 <template>
   <div class="movie-page">
-    <h1 class="movie-page__title">#OscarsSo<span>White</span></h1>
+    <h2 class="movie-page__title">#OscarsSo<span>White</span></h2>
 
     <div class="movie-page__top">
       <MoviesLegend />
@@ -133,7 +134,8 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
       </div>
     </div>
 
-    <div class="movie-page__categories">
+    <section class="movie-page__categories">
+      <h3 class="sr-only">Nominees for categories that get the most media visibility</h3>
       <div
         v-for="category in categories"
         :key="category.id"
@@ -148,7 +150,9 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
           :bipocOfWon="generalStats[category.id].fractionBIPOCOfWon"
         />
       </div>
-    </div>
+    </section>
+
+    <USAChart :stats="generalStats.USA" />
   </div>
 </template>
 

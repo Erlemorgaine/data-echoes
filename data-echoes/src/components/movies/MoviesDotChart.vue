@@ -19,13 +19,13 @@ const tooltipData = ref<MoviePerson | null>(null)
         :style="{ '--origin-color': `var(--${nominee.origin})` }"
       >
         <button
-          :aria-label="nominee.name"
           class="dot"
           @mouseenter="tooltipData = nominee"
           @focus="tooltipData = nominee"
           @mouseleave="tooltipData = null"
           @blur="tooltipData = null"
         >
+          <span class="sr-only">{{ nominee.name }}</span>
           <MovieDotTooltip
             v-if="
               tooltipData && tooltipData.name + tooltipData.year === nominee.name + nominee.year
