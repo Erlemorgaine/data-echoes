@@ -71,7 +71,7 @@ const bipocPercentage = computed(
 
 <style scoped lang="scss">
 .usa-chart {
-  padding-block: 3rem;
+  padding-block: 5rem;
 
   &__title {
     text-align: center;

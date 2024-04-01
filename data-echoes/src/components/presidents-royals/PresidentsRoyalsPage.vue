@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { random } from 'lodash'
 import {
   WebGLRenderer,
   PerspectiveCamera,
@@ -15,8 +14,14 @@ import {
   BufferAttribute,
   LineBasicMaterial,
   Line,
+  QuadraticBezierCurve3,
+  LineSegments,
+  CatmullRomCurve3,
 } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import { LineSegmentsGeometry } from 'three/examples/jsm/lines/LineSegmentsGeometry'
+import { LineMaterial } from 'three/examples/jsm/lines/LineMaterial.js'
+import { COLORS } from './data/presidentsRoyalsColors.ts'
 
 import {
   forceSimulation,
@@ -27,7 +32,7 @@ import {
   forceX,
   forceY,
 } from 'd3-force'
-import { onMounted, ref } from 'vue'
+import { onMounted, onBeforeUnmount, ref } from 'vue'
 
 import { nodes, links } from './data/network-data.json'
 
@@ -45,20 +50,40 @@ let nodePlanes: Mesh[] = []
 let linkLines: Line[] = []
 let linksGeometry: InstancedBufferGeometry | null
 
+let mouseDown = ref(false)
+let mouseY = ref(0)
+
 onMounted(() => {
   nodeObject.value = nodes.reduce((prev, next) => {
     prev[next.id] = next
     return prev
   }, {})
+
   createScene()
+
+  document.addEventListener('keydown', moveVizOnY)
 })
+
+onBeforeUnmount(() => {
+  document.removeEventListener('keydown', moveVizOnY)
+})
+
+function moveVizOnY(event: KeyboardEvent) {
+  if (event.key === 'ArrowDown') {
+    camera.position.y += 2
+  } else if (event.key === 'ArrowUp') {
+    camera.position.y -= 2
+  }
+
+  // controls.update()
+}
 
 function addRenderer(width: number, height: number) {
   if (canvasContainer.value) {
     const canvas = document.createElement('canvas')
     canvasContainer.value.appendChild(canvas)
 
-    renderer = new WebGLRenderer({ canvas })
+    renderer = new WebGLRenderer({ canvas, antialias: true })
     renderer.setSize(width, height)
   }
 }
@@ -71,8 +96,17 @@ function addCamera(scene: Scene, width: number, height: number) {
 
 function addControls(camera: PerspectiveCamera, renderer: WebGLRenderer) {
   controls = new OrbitControls(camera, renderer.domElement)
-  controls.enableDamping = true
   controls.enableZoom = true
+  controls.enablePan = true
+  controls.minPolarAngle = Math.PI / 2 // Limit rotation to vertical plane
+  controls.maxPolarAngle = Math.PI / 2 // Limit rotation to vertical plane
+
+  controls.keys = {
+    LEFT: 'ArrowLeft', //left arrow
+    UP: 'ArrowUp', // up arrow
+    RIGHT: 'ArrowRight', // right arrow
+    BOTTOM: 'ArrowDown', // down arrow
+  }
 
   controls.update()
 }
@@ -82,9 +116,12 @@ function createNodePlanes(scene: Scene) {
   const planeMaterial = new MeshBasicMaterial({ color: 0xffff00, side: DoubleSide })
 
   // Create planes for each node in the nodes array
-  nodePlanes = nodes.map(() => {
+  nodePlanes = nodes.map((node) => {
     const material = planeMaterial.clone()
-    material.color.setRGB(Math.random(), Math.random(), Math.random())
+    const allegiances = node.data.allegiance
+    const color: number[] = COLORS[allegiances && allegiances[0]] || COLORS.Other
+
+    material.color.setRGB(color[0] / 255, color[1] / 255, color[2] / 255)
 
     const plane = new Mesh(planeGeometry, material)
     plane.position.set(Math.random() * 2, Math.random() * 2, Math.random() * 2)
@@ -125,7 +162,7 @@ function createLinkLines(scene: Scene) {
   //     new InstancedBufferAttribute(instancePositions, 3),
   //   )
 
-  //   const lineMaterial = new LineBasicMaterial({ color: 0xffffff })
+  //   const lineMaterial = new LineMaterial({ color: 0xffffff })
   //   const lines = new Line(instancedGeometry, lineMaterial)
   //   scene.add(lines)
   //   linksGeometry = instancedGeometry
@@ -135,19 +172,28 @@ function createLinkLines(scene: Scene) {
   points.push(new Vector3(0, 0, 0))
   points.push(new Vector3(0, 0, -10))
 
-  const lines: Record<string, LineBasicMaterial> = {
+  const lines: Record<string, LineMaterial> = {
     spouse: new LineBasicMaterial({ color: 0xffffff }),
-    parent: new LineBasicMaterial({ color: 0x00ff00 }),
+    parent: new LineBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 0.3 }),
   }
 
   // TODO: Try to reuse the geometry somehow or at least make it more performant
   linkLines = links.map((link) => {
-    const lineGeometry = new BufferGeometry().setFromPoints(points)
+    const lineGeometry = new BufferGeometry()
+    setCurvePoints(points, lineGeometry)
+
     const line = new Line(lineGeometry, lines[link.type])
     scene.add(line)
 
     return line
   })
+}
+
+function setCurvePoints(points: Vector3[], geometry: BufferGeometry) {
+  let curve = new CatmullRomCurve3(points, false, 'catmullrom', 0.2)
+  const curvePoints = curve.getPoints(30)
+
+  geometry.setFromPoints(curvePoints)
 }
 
 function createScene() {
@@ -179,9 +225,13 @@ function animate() {
   window.requestAnimationFrame(animate)
 }
 
+/**
+ * Determines y position of nodes, based on generation of person in node
+ * @param node
+ */
 function getYForNode(node) {
   const generationsCount = Math.max(node.data.generationsBefore, node.data.mostGenerationsSpouse)
-  return -generationsCount * 2 + 10
+  return -generationsCount * 4 + 30
 }
 
 // TODO: Maybe just remove the entire force graph and do everything programmatically
@@ -200,10 +250,18 @@ function forceNetwork() {
         // TODO: Find a way to take advantage of z to make it less of a mess
         const updatedVertices = [
           new Vector3(source.x, getYForNode(source), source.y),
+          new Vector3(source.x, getYForNode(target), source.y),
           new Vector3(target.x, getYForNode(target), target.y),
         ]
 
-        line.geometry.setFromPoints(updatedVertices)
+        setCurvePoints(updatedVertices, line.geometry)
+
+        // for (let i = 0; i < updatedVertices.length; i++) {
+        //   const point = updatedVertices[i]
+        //   line.geometry.attributes.position.setXYZ(i, point.x, point.y, point.z)
+        // }
+
+        // line.geometry.attributes.position.needsUpdate = true
       }
     })
 

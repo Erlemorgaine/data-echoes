@@ -1,162 +1,822 @@
 [
-  [
-    {
-      "yearOfFilmRelease": "2010 in film,83rd Academy Awards",
-      "film": "The King's Speech,Black Swan (film),The Fighter,Inception,The Kids Are All Right (film),127 Hours,The Social Network,Toy Story 3,True Grit (2010 film),Winter's Bone",
-      "producer(s)": "Iain Canning, Emile Sherman, and Gareth Unwin,Scott Franklin, Mike Medavoy, and Brian Oliver (producer),David Hoberman, Todd Lieberman, and Mark Wahlberg,Christopher Nolan and Emma Thomas,Gary Gilbert, Jeff Levy-Hinte, and Celine Rattray,Danny Boyle, John Smithson, and Christian Colson,Dana Brunetti, Ceán Chaffin, Michael De Luca, and Scott Rudin,Darla K. Anderson,Coen brothers, Coen brothers, and Scott Rudin,Alix Madigan and Anne Rosellini"
-    },
-    {
-      "yearOfFilmRelease": "2011 in film,84th Academy Awards",
-      "film": "The Artist (film),The Descendants,Extremely Loud & Incredibly Close (film),The Help (film),Hugo (film),Midnight in Paris,Moneyball (film),The Tree of Life (film),War Horse (film)",
-      "producer(s)": "Thomas Langmann,Jim Burke (film producer), Alexander Payne, and Jim Taylor (writer),Scott Rudin,Brunson Green, Chris Columbus (filmmaker), and Michael Barnathan,Graham King and Martin Scorsese,Letty Aronson and Stephen Tenenbaum,Michael De Luca, Rachael Horovitz, and Brad Pitt,Sarah Green (film producer), Bill Pohlad, Dede Gardner, and Grant Hill (producer),Steven Spielberg and Kathleen Kennedy (producer)"
-    },
-    {
-      "yearOfFilmRelease": "2012 in film,85th Academy Awards",
-      "film": "Argo (2012 film),Amour (2012 film),Beasts of the Southern Wild,Django Unchained,Life of Pi (film),Lincoln (film),Les Misérables (2012 film),Silver Linings Playbook,Zero Dark Thirty",
-      "producer(s)": "Grant Heslov, Ben Affleck, and George Clooney,Margaret Menegoz, Stefan Arndt, Veit Heiduschka, and Michael Katz (producer),Dan Janvey, Josh Penn, and Michael Gottwald,Stacey Sher, Reginald Hudlin, and Pilar Savone,Gil Netter, Ang Lee, and David Womark,Steven Spielberg and Kathleen Kennedy (producer),Tim Bevan, Eric Fellner, Debra Hayward, and Cameron Mackintosh,Donna Gigliotti, Bruce Cohen, and Jonathan Gordon,Mark Boal, Kathryn Bigelow, and Megan Ellison"
-    },
-    {
-      "yearOfFilmRelease": "2013 in film,86th Academy Awards",
-      "film": "12 Years a Slave (film),American Hustle,Captain Phillips (film),Dallas Buyers Club,Gravity (2013 film),Her (film),Nebraska (film),Philomena (film),The Wolf of Wall Street (2013 film)",
-      "producer(s)": "Brad Pitt, Dede Gardner, Jeremy Kleiner, Steve McQueen (director), and Anthony Katagas,Charles Roven, Richard Suckle, Megan Ellison, and Jonathan Gordon,Scott Rudin, Dana Brunetti, and Michael De Luca,Robbie Brenner and Rachel Winter,Alfonso Cuarón and David Heyman,Megan Ellison, Spike Jonze, and Vincent Landay,Albert Berger and Ron Yerxa,Gabrielle Tana, Steve Coogan, and Tracey Seaward,Martin Scorsese, Leonardo DiCaprio, Joey McFarland, and Emma Tillinger Koskoff"
-    },
-    { "yearOfFilmRelease": "2014 in film,87th Academy Awards" },
-    {
-      "yearOfFilmRelease": "Birdman (film)",
-      "film": "Alejandro González Iñárritu, John Lesher (producer), and James W. Skotchdopole"
-    },
-    {
-      "yearOfFilmRelease": "American Sniper",
-      "film": "Clint Eastwood, Andrew Lazar, Robert Lorenz, Bradley Cooper, and Peter Morgan (producer)"
-    },
-    {
-      "yearOfFilmRelease": "Boyhood (2014 film)",
-      "film": "Richard Linklater and Cathleen Sutherland"
-    },
-    {
-      "yearOfFilmRelease": "The Grand Budapest Hotel",
-      "film": "Wes Anderson, Scott Rudin, Steven Rales, and Jeremy Dawson (producer)"
-    },
-    {
-      "yearOfFilmRelease": "The Imitation Game",
-      "film": "Nora Grossman, Ido Ostrowsky, and Teddy Schwarzman"
-    },
-    {
-      "yearOfFilmRelease": "Selma (film)",
-      "film": "Christian Colson, Oprah Winfrey, Dede Gardner, and Jeremy Kleiner"
-    },
-    {
-      "yearOfFilmRelease": "The Theory of Everything (2014 film)",
-      "film": "Tim Bevan, Eric Fellner, Lisa Bruce, and Anthony McCarten"
-    },
-    {
-      "yearOfFilmRelease": "Whiplash (2014 film)",
-      "film": "Jason Blum, Helen Estabrook, and David Lancaster (filmmaker)"
-    },
-    { "yearOfFilmRelease": "2015 in film,88th Academy Awards" },
-    {
-      "yearOfFilmRelease": "Spotlight (film)",
-      "film": "Blye Pagon Faust, Steve Golin, Nicole Rocklin, and Michael Sugar"
-    },
-    {
-      "yearOfFilmRelease": "The Big Short (film)",
-      "film": "Dede Gardner, Jeremy Kleiner, and Brad Pitt"
-    },
-    {
-      "yearOfFilmRelease": "Bridge of Spies (film)",
-      "film": "Steven Spielberg, Marc Platt (producer), and Kristie Macosko Krieger"
-    },
-    {
-      "yearOfFilmRelease": "Brooklyn (film)",
-      "film": "Finola Dwyer and Amanda Posey"
-    },
-    {
-      "yearOfFilmRelease": "Mad Max: Fury Road",
-      "film": "Doug Mitchell (film producer) and George Miller (filmmaker)"
-    },
-    {
-      "yearOfFilmRelease": "The Martian (film)",
-      "film": "Simon Kinberg, Ridley Scott, Michael Schaefer (producer), and Mark Huffam"
-    },
-    {
-      "yearOfFilmRelease": "The Revenant (2015 film)",
-      "film": "Arnon Milchan, Steve Golin, Alejandro González Iñárritu, Mary Parent, and Keith Redmon"
-    },
-    { "yearOfFilmRelease": "Room (2015 film)", "film": "Ed Guiney" },
-    { "yearOfFilmRelease": "2016 in film,89th Academy Awards" },
-    {
-      "yearOfFilmRelease": "Moonlight (2016 film)",
-      "film": "Adele Romanski, Dede Gardner, and Jeremy Kleiner"
-    },
-    {
-      "yearOfFilmRelease": "Arrival (film)",
-      "film": "Shawn Levy, Dan Levine, Aaron Ryder, and David Linde"
-    },
-    {
-      "yearOfFilmRelease": "Fences (film)",
-      "film": "Scott Rudin, Denzel Washington, and Todd Black"
-    },
-    {
-      "yearOfFilmRelease": "Hacksaw Ridge",
-      "film": "Bill Mechanic and David Permut"
-    },
-    {
-      "yearOfFilmRelease": "Hell or High Water (2016 film)",
-      "film": "Carla Hacken and Julie Yorn"
-    },
-    {
-      "yearOfFilmRelease": "Hidden Figures",
-      "film": "Donna Gigliotti, Peter Chernin, Jenno Topping, Pharrell Williams, and Theodore Melfi"
-    },
-    {
-      "yearOfFilmRelease": "La La Land",
-      "film": "Fred Berger (producer), Jordan Horowitz, and Marc Platt (producer)"
-    },
-    {
-      "yearOfFilmRelease": "Lion (2016 film)",
-      "film": "Emile Sherman, Iain Canning, and Angie Fielder"
-    },
-    {
-      "yearOfFilmRelease": "Manchester by the Sea (film)",
-      "film": "Matt Damon, Kimberly Steward, Chris Moore (film producer), Lauren Beck, and Kevin J. Walsh (film producer)"
-    },
-    {
-      "yearOfFilmRelease": "2017 in film,90th Academy Awards",
-      "film": "The Shape of Water,Call Me by Your Name (film),Darkest Hour (film),Dunkirk (2017 film),Get Out,Lady Bird (film),Phantom Thread,The Post (film),Three Billboards Outside Ebbing, Missouri",
-      "producer(s)": "Guillermo del Toro and J. Miles Dale,Peter Spears, Luca Guadagnino, Emilie Georges, and Marco Morabito,Tim Bevan, Eric Fellner, Lisa Bruce, Anthony McCarten, and Douglas Urbanski,Emma Thomas and Christopher Nolan,Sean McKittrick, Jason Blum, Edward H. Hamm Jr., and Jordan Peele,Scott Rudin, Eli Bush, and Evelyn O'Neill,JoAnne Sellar, Paul Thomas Anderson, Megan Ellison, and Daniel Lupi,Amy Pascal, Steven Spielberg, and Kristie Macosko Krieger,Graham Broadbent, Peter Czernin, and Martin McDonagh"
-    },
-    {
-      "yearOfFilmRelease": "2018 in film,91st Academy Awards",
-      "film": "Green Book (film),Black Panther (film),BlacKkKlansman,Bohemian Rhapsody (film),The Favourite,Roma (2018 film),A Star Is Born (2018 film),Vice (2018 film)",
-      "producer(s)": "Jim Burke (film producer), Charles B. Wessler, Brian Currie, Peter Farrelly, and Nick Vallelonga,Kevin Feige,Sean McKittrick, Jason Blum, Raymond Mansfield, Jordan Peele, and Spike Lee,Graham King,Ceci Dempsey, Ed Guiney, Lee Magiday, and Yorgos Lanthimos,Gabriela Rodríguez (producer) and Alfonso Cuarón,Bill Gerber, Bradley Cooper, and Lynette Howell Taylor,Dede Gardner, Jeremy Kleiner, Adam McKay, and Kevin Messick"
-    },
-    {
-      "yearOfFilmRelease": "2019 in film,92nd Academy Awards",
-      "film": "Parasite (2019 film),Ford v Ferrari,The Irishman,Jojo Rabbit,Joker (2019 film),Little Women (2019 film),Marriage Story,1917 (2019 film),Once Upon a Time in Hollywood",
-      "producer(s)": "Kwak Sin-ae and Bong Joon-ho,Peter Chernin, Jenno Topping, and James Mangold,Martin Scorsese, Robert De Niro, Jane Rosenthal, and Emma Tillinger Koskoff,Carthew Neal, Taika Waititi, and Chelsea Winstanley,Todd Phillips, Bradley Cooper, and Emma Tillinger Koskoff,Amy Pascal,Noah Baumbach and David Heyman,Sam Mendes, Pippa Harris, Jayne-Ann Tenggren, and Callum McDougall,David Heyman, Shannon McIntosh (filmmaker), and Quentin Tarantino"
-    }
-  ],
-  [
-    {
-      "yearOfFilmRelease": "2020 in film,<small>93rd Academy Awards</small>",
-      "film": "Nomadland,The Father (2020 film),Judas and the Black Messiah,Mank,Minari (film),Promising Young Woman,Sound of Metal,The Trial of the Chicago 7",
-      "producer(s)": "Frances McDormand, Peter Spears, Mollye Asher, Dan Janvey, and Chloé Zhao,David Parfitt, Jean-Louis Livi, and Philippe Carcassonne,Shaka King, Charles D. King, and Ryan Coogler,Ceán Chaffin, Eric Roth, and Douglas Urbanski,Christina Oh,Ben Browning, Ashley Fox, Emerald Fennell, and Josey McNamara,Bert Hamelinck and Sacha Ben Harroche,Marc Platt (producer) and Stuart M. Besser"
-    },
-    {
-      "yearOfFilmRelease": "2021 in film,<small>94th Academy Awards</small>",
-      "film": "CODA (2021 film),Belfast (film),Don't Look Up,Drive My Car (film),Dune (2021 film),King Richard (film),Licorice Pizza,Nightmare Alley (2021 film),The Power of the Dog (film),West Side Story (2021 film)",
-      "producer(s)": "Philippe Rousselet, Fabrice Gianfermi, and Patrick Wachsberger,Laura Berwick, Kenneth Branagh, Becca Kovacik, and Tamar Thomas,Adam McKay and Kevin Messick,Teruhisa Yamamoto,Mary Parent, Denis Villeneuve, and Cale Boyter,Tim White (producer), Trevor White (producer), and Will Smith,Sara Murphy, Adam Somner, and Paul Thomas Anderson,Guillermo del Toro, J. Miles Dale, and Bradley Cooper,Jane Campion, Tanya Seghatchian, Emile Sherman, Iain Canning, and Roger Frappier,Steven Spielberg and Kristie Macosko Krieger"
-    },
-    { "yearOfFilmRelease": "style=\"background:#eee;\"" },
-    {
-      "yearOfFilmRelease": "2022 in film,<small>95th Academy Awards</small>",
-      "film": "Everything Everywhere All at Once,All Quiet on the Western Front (2022 film),Avatar: The Way of Water,The Banshees of Inisherin,Elvis (2022 film),The Fabelmans,Tár,Top Gun: Maverick,Triangle of Sadness,Women Talking (film)",
-      "producer(s)": "Daniels (directors) and Jonathan Wang,Malte Grunert,James Cameron and Jon Landau (film producer),Graham Broadbent, Pete Czernin, and Martin McDonagh,Baz Luhrmann, Catherine Martin (designer), Gail Berman, Patrick McCormick and Schuyler Weiss,Kristie Macosko Krieger, Steven Spielberg, Tony Kushner,Todd Field, Alexandra Milchan, and Scott Lambert,Tom Cruise, Christopher McQuarrie, David Ellison and Jerry Bruckheimer,Erik Hemmendorff and Philippe Bober,Dede Gardner, Jeremy Kleiner, and Frances McDormand"
-    },
-    {
-      "yearOfFilmRelease": "2023 in film,<small>96th Academy Awards</small>",
-      "film": "American Fiction (film),Anatomy of a Fall,Barbie (film),The Holdovers,Killers of the Flower Moon (film),Maestro (2023 film),Oppenheimer (film),Past Lives (film),Poor Things (film),The Zone of Interest (film)",
-      "producer(s)": "Ben LeClair, Nikos Karamigios, Cord Jefferson and Jermaine Johnson,Marie-Ange Luciani and David Thion,David Heyman, Margot Robbie, Tom Ackerley and Robbie Brenner,Mark Johnson (producer),Dan Friedkin, Bradley Thomas (producer), Martin Scorsese and Daniel Lupi,Bradley Cooper, Steven Spielberg, Fred Berner, Amy Durning and Kristie Macosko Krieger,Emma Thomas, Charles Roven and Christopher Nolan,David Hinojosa, Christine Vachon and Pamela Koffler,Ed Guiney, Andrew Lowe, Yorgos Lanthimos and Emma Stone,James Wilson"
-    }
-  ]
+  {
+    "year": 2010,
+    "film": "The King's Speech",
+    "producers": ["Iain Canning", "Emile Sherman", "Gareth Unwin"]
+  },
+  {
+    "year": 2010,
+    "film": "Black Swan",
+    "producers": ["Scott Franklin", "Mike Medavoy", "Brian Oliver"]
+  },
+  {
+    "year": 2010,
+    "film": "The Fighter",
+    "producers": ["David Hoberman", "Todd Lieberman", "Mark Wahlberg"]
+  },
+  {
+    "year": 2010,
+    "film": "Inception",
+    "producers": ["Christopher Nolan", "Emma Thomas"]
+  },
+  {
+    "year": 2010,
+    "film": "The Kids Are All Right",
+    "producers": ["Gary Gilbert", "Jeff Levy-Hinte", "Celine Rattray"]
+  },
+  {
+    "year": 2010,
+    "film": "127 Hours",
+    "producers": ["Danny Boyle", "John Smithson", "Christian Colson"]
+  },
+  {
+    "year": 2010,
+    "film": "The Social Network",
+    "producers": [
+      "Dana Brunetti",
+      "Ceán Chaffin",
+      "Michael De Luca",
+      "Scott Rudin"
+    ]
+  },
+  {
+    "year": 2010,
+    "film": "Toy Story 3",
+    "producers": ["Darla K. Anderson"]
+  },
+  {
+    "year": 2010,
+    "film": "True Grit",
+    "producers": ["Coen brothers", "Coen brothers", "Scott Rudin"]
+  },
+  {
+    "year": 2010,
+    "film": "Winter's Bone",
+    "producers": ["Alix Madigan", "Anne Rosellini"]
+  },
+  {
+    "year": 2011,
+    "film": "The Artist",
+    "producers": ["Thomas Langmann"]
+  },
+  {
+    "year": 2011,
+    "film": "The Descendants",
+    "producers": ["Jim Burke", "Alexander Payne", "Jim Taylor"]
+  },
+  {
+    "year": 2011,
+    "film": "Extremely Loud & Incredibly Close",
+    "producers": ["Scott Rudin"]
+  },
+  {
+    "year": 2011,
+    "film": "The Help",
+    "producers": ["Brunson Green", "Chris Columbus", "Michael Barnathan"]
+  },
+  {
+    "year": 2011,
+    "film": "Hugo",
+    "producers": ["Graham King", "Martin Scorsese"]
+  },
+  {
+    "year": 2011,
+    "film": "Midnight in Paris",
+    "producers": ["Letty Aronson", "Stephen Tenenbaum"]
+  },
+  {
+    "year": 2011,
+    "film": "Moneyball",
+    "producers": ["Michael De Luca", "Rachael Horovitz", "Brad Pitt"]
+  },
+  {
+    "year": 2011,
+    "film": "The Tree of Life",
+    "producers": ["Sarah Green", "Bill Pohlad", "Dede Gardner", "Grant Hill"]
+  },
+  {
+    "year": 2011,
+    "film": "War Horse",
+    "producers": ["Steven Spielberg", "Kathleen Kennedy"]
+  },
+  {
+    "year": 2012,
+    "film": "Argo",
+    "producers": ["Grant Heslov", "Ben Affleck", "George Clooney"]
+  },
+  {
+    "year": 2012,
+    "film": "Amour",
+    "producers": [
+      "Margaret Menegoz",
+      "Stefan Arndt",
+      "Veit Heiduschka",
+      "Michael Katz"
+    ]
+  },
+  {
+    "year": 2012,
+    "film": "Beasts of the Southern Wild",
+    "producers": ["Dan Janvey", "Josh Penn", "Michael Gottwald"]
+  },
+  {
+    "year": 2012,
+    "film": "Django Unchained",
+    "producers": ["Stacey Sher", "Reginald Hudlin", "Pilar Savone"]
+  },
+  {
+    "year": 2012,
+    "film": "Life of Pi",
+    "producers": ["Gil Netter", "Ang Lee", "David Womark"]
+  },
+  {
+    "year": 2012,
+    "film": "Lincoln",
+    "producers": ["Steven Spielberg", "Kathleen Kennedy"]
+  },
+  {
+    "year": 2012,
+    "film": "Les Misérables",
+    "producers": [
+      "Tim Bevan",
+      "Eric Fellner",
+      "Debra Hayward",
+      "Cameron Mackintosh"
+    ]
+  },
+  {
+    "year": 2012,
+    "film": "Silver Linings Playbook",
+    "producers": ["Donna Gigliotti", "Bruce Cohen", "Jonathan Gordon"]
+  },
+  {
+    "year": 2012,
+    "film": "Zero Dark Thirty",
+    "producers": ["Mark Boal", "Kathryn Bigelow", "Megan Ellison"]
+  },
+  {
+    "year": 2013,
+    "film": "12 Years a Slave",
+    "producers": [
+      "Brad Pitt",
+      "Dede Gardner",
+      "Jeremy Kleiner",
+      "Steve McQueen",
+      "Anthony Katagas"
+    ]
+  },
+  {
+    "year": 2013,
+    "film": "American Hustle",
+    "producers": [
+      "Charles Roven",
+      "Richard Suckle",
+      "Megan Ellison",
+      "Jonathan Gordon"
+    ]
+  },
+  {
+    "year": 2013,
+    "film": "Captain Phillips",
+    "producers": ["Scott Rudin", "Dana Brunetti", "Michael De Luca"]
+  },
+  {
+    "year": 2013,
+    "film": "Dallas Buyers Club",
+    "producers": ["Robbie Brenner", "Rachel Winter"]
+  },
+  {
+    "year": 2013,
+    "film": "Gravity",
+    "producers": ["Alfonso Cuarón", "David Heyman"]
+  },
+  {
+    "year": 2013,
+    "film": "Her",
+    "producers": ["Megan Ellison", "Spike Jonze", "Vincent Landay"]
+  },
+  {
+    "year": 2013,
+    "film": "Nebraska",
+    "producers": ["Albert Berger", "Ron Yerxa"]
+  },
+  {
+    "year": 2013,
+    "film": "Philomena",
+    "producers": ["Gabrielle Tana", "Steve Coogan", "Tracey Seaward"]
+  },
+  {
+    "year": 2013,
+    "film": "The Wolf of Wall Street",
+    "producers": [
+      "Martin Scorsese",
+      "Leonardo DiCaprio",
+      "Joey McFarland",
+      "Emma Tillinger Koskoff"
+    ]
+  },
+  {
+    "year": 2014,
+    "film": "Birdman",
+    "producers": [
+      "Alejandro González Iñárritu",
+      "John Lesher",
+      "James W. Skotchdopole"
+    ]
+  },
+  {
+    "year": 2014,
+    "film": "American Sniper",
+    "producers": [
+      "Clint Eastwood",
+      "Andrew Lazar",
+      "Robert Lorenz",
+      "Bradley Cooper",
+      "Peter Morgan"
+    ]
+  },
+  {
+    "year": 2014,
+    "film": "Boyhood",
+    "producers": ["Richard Linklater", "Cathleen Sutherland"]
+  },
+  {
+    "year": 2014,
+    "film": "The Grand Budapest Hotel",
+    "producers": [
+      "Wes Anderson",
+      "Scott Rudin",
+      "Steven Rales",
+      "Jeremy Dawson"
+    ]
+  },
+  {
+    "year": 2014,
+    "film": "The Imitation Game",
+    "producers": ["Nora Grossman", "Ido Ostrowsky", "Teddy Schwarzman"]
+  },
+  {
+    "year": 2014,
+    "film": "Selma",
+    "producers": [
+      "Christian Colson",
+      "Oprah Winfrey",
+      "Dede Gardner",
+      "Jeremy Kleiner"
+    ]
+  },
+  {
+    "year": 2014,
+    "film": "The Theory of Everything",
+    "producers": ["Tim Bevan", "Eric Fellner", "Lisa Bruce", "Anthony McCarten"]
+  },
+  {
+    "year": 2014,
+    "film": "Whiplash",
+    "producers": ["Jason Blum", "Helen Estabrook", "David Lancaster"]
+  },
+  {
+    "year": 2015,
+    "film": "Spotlight",
+    "producers": [
+      "Blye Pagon Faust",
+      "Steve Golin",
+      "Nicole Rocklin",
+      "Michael Sugar"
+    ]
+  },
+  {
+    "year": 2015,
+    "film": "The Big Short",
+    "producers": ["Dede Gardner", "Jeremy Kleiner", "Brad Pitt"]
+  },
+  {
+    "year": 2015,
+    "film": "Bridge of Spies",
+    "producers": ["Steven Spielberg", "Marc Platt", "Kristie Macosko Krieger"]
+  },
+  {
+    "year": 2015,
+    "film": "Brooklyn",
+    "producers": ["Finola Dwyer", "Amanda Posey"]
+  },
+  {
+    "year": 2015,
+    "film": "Mad Max: Fury Road",
+    "producers": ["Doug Mitchell", "George Miller"]
+  },
+  {
+    "year": 2015,
+    "film": "The Martian",
+    "producers": [
+      "Simon Kinberg",
+      "Ridley Scott",
+      "Michael Schaefer",
+      "Mark Huffam"
+    ]
+  },
+  {
+    "year": 2015,
+    "film": "The Revenant",
+    "producers": [
+      "Arnon Milchan",
+      "Steve Golin",
+      "Alejandro González Iñárritu",
+      "Mary Parent",
+      "Keith Redmon"
+    ]
+  },
+  {
+    "year": 2015,
+    "film": "Room",
+    "producers": ["Ed Guiney"]
+  },
+  {
+    "year": 2016,
+    "film": "Moonlight",
+    "producers": ["Adele Romanski", "Dede Gardner", "Jeremy Kleiner"]
+  },
+  {
+    "year": 2016,
+    "film": "Arrival",
+    "producers": ["Shawn Levy", "Dan Levine", "Aaron Ryder", "David Linde"]
+  },
+  {
+    "year": 2016,
+    "film": "Fences",
+    "producers": ["Scott Rudin", "Denzel Washington", "Todd Black"]
+  },
+  {
+    "year": 2016,
+    "film": "Hacksaw Ridge",
+    "producers": ["Bill Mechanic", "David Permut"]
+  },
+  {
+    "year": 2016,
+    "film": "Hell or High Water",
+    "producers": ["Carla Hacken", "Julie Yorn"]
+  },
+  {
+    "year": 2016,
+    "film": "Hidden Figures",
+    "producers": [
+      "Donna Gigliotti",
+      "Peter Chernin",
+      "Jenno Topping",
+      "Pharrell Williams",
+      "Theodore Melfi"
+    ]
+  },
+  {
+    "year": 2016,
+    "film": "La La Land",
+    "producers": ["Fred Berger", "Jordan Horowitz", "Marc Platt"]
+  },
+  {
+    "year": 2016,
+    "film": "Lion",
+    "producers": ["Emile Sherman", "Iain Canning", "Angie Fielder"]
+  },
+  {
+    "year": 2016,
+    "film": "Manchester by the Sea",
+    "producers": [
+      "Matt Damon",
+      "Kimberly Steward",
+      "Chris Moore",
+      "Lauren Beck",
+      "Kevin J. Walsh"
+    ]
+  },
+  {
+    "year": 2017,
+    "film": "The Shape of Water",
+    "producers": ["Guillermo del Toro", "J. Miles Dale"]
+  },
+  {
+    "year": 2017,
+    "film": "Call Me by Your Name",
+    "producers": [
+      "Peter Spears",
+      "Luca Guadagnino",
+      "Emilie Georges",
+      "Marco Morabito"
+    ]
+  },
+  {
+    "year": 2017,
+    "film": "Darkest Hour",
+    "producers": [
+      "Tim Bevan",
+      "Eric Fellner",
+      "Lisa Bruce",
+      "Anthony McCarten",
+      "Douglas Urbanski"
+    ]
+  },
+  {
+    "year": 2017,
+    "film": "Dunkirk",
+    "producers": ["Emma Thomas", "Christopher Nolan"]
+  },
+  {
+    "year": 2017,
+    "film": "Get Out",
+    "producers": [
+      "Sean McKittrick",
+      "Jason Blum",
+      "Edward H. Hamm Jr.",
+      "Jordan Peele"
+    ]
+  },
+  {
+    "year": 2017,
+    "film": "Lady Bird",
+    "producers": ["Scott Rudin", "Eli Bush", "Evelyn O'Neill"]
+  },
+  {
+    "year": 2017,
+    "film": "Phantom Thread",
+    "producers": [
+      "JoAnne Sellar",
+      "Paul Thomas Anderson",
+      "Megan Ellison",
+      "Daniel Lupi"
+    ]
+  },
+  {
+    "year": 2017,
+    "film": "The Post",
+    "producers": ["Amy Pascal", "Steven Spielberg", "Kristie Macosko Krieger"]
+  },
+  {
+    "year": 2017,
+    "film": "Three Billboards Outside Ebbing, Missouri",
+    "producers": ["Graham Broadbent", "Peter Czernin", "Martin McDonagh"]
+  },
+  {
+    "year": 2018,
+    "film": "Green Book",
+    "producers": [
+      "Jim Burke",
+      "Charles B. Wessler",
+      "Brian Currie",
+      "Peter Farrelly",
+      "Nick Vallelonga"
+    ]
+  },
+  {
+    "year": 2018,
+    "film": "Black Panther",
+    "producers": ["Kevin Feige"]
+  },
+  {
+    "year": 2018,
+    "film": "BlacKkKlansman",
+    "producers": [
+      "Sean McKittrick",
+      "Jason Blum",
+      "Raymond Mansfield",
+      "Jordan Peele",
+      "Spike Lee"
+    ]
+  },
+  {
+    "year": 2018,
+    "film": "Bohemian Rhapsody",
+    "producers": ["Graham King"]
+  },
+  {
+    "year": 2018,
+    "film": "The Favourite",
+    "producers": [
+      "Ceci Dempsey",
+      "Ed Guiney",
+      "Lee Magiday",
+      "Yorgos Lanthimos"
+    ]
+  },
+  {
+    "year": 2018,
+    "film": "Roma",
+    "producers": ["Gabriela Rodríguez", "Alfonso Cuarón"]
+  },
+  {
+    "year": 2018,
+    "film": "A Star Is Born",
+    "producers": ["Bill Gerber", "Bradley Cooper", "Lynette Howell Taylor"]
+  },
+  {
+    "year": 2018,
+    "film": "Vice",
+    "producers": [
+      "Dede Gardner",
+      "Jeremy Kleiner",
+      "Adam McKay",
+      "Kevin Messick"
+    ]
+  },
+  {
+    "year": 2019,
+    "film": "Parasite",
+    "producers": ["Kwak Sin-ae", "Bong Joon-ho"]
+  },
+  {
+    "year": 2019,
+    "film": "Ford v Ferrari",
+    "producers": ["Peter Chernin", "Jenno Topping", "James Mangold"]
+  },
+  {
+    "year": 2019,
+    "film": "The Irishman",
+    "producers": [
+      "Martin Scorsese",
+      "Robert De Niro",
+      "Jane Rosenthal",
+      "Emma Tillinger Koskoff"
+    ]
+  },
+  {
+    "year": 2019,
+    "film": "Jojo Rabbit",
+    "producers": ["Carthew Neal", "Taika Waititi", "Chelsea Winstanley"]
+  },
+  {
+    "year": 2019,
+    "film": "Joker",
+    "producers": ["Todd Phillips", "Bradley Cooper", "Emma Tillinger Koskoff"]
+  },
+  {
+    "year": 2019,
+    "film": "Little Women",
+    "producers": ["Amy Pascal"]
+  },
+  {
+    "year": 2019,
+    "film": "Marriage Story",
+    "producers": ["Noah Baumbach", "David Heyman"]
+  },
+  {
+    "year": 2019,
+    "film": "1917",
+    "producers": [
+      "Sam Mendes",
+      "Pippa Harris",
+      "Jayne-Ann Tenggren",
+      "Callum McDougall"
+    ]
+  },
+  {
+    "year": 2019,
+    "film": "Once Upon a Time in Hollywood",
+    "producers": ["David Heyman", "Shannon McIntosh", "Quentin Tarantino"]
+  },
+  {
+    "year": 2020,
+    "film": "Nomadland",
+    "producers": [
+      "Frances McDormand",
+      "Peter Spears",
+      "Mollye Asher",
+      "Dan Janvey",
+      "Chloé Zhao"
+    ]
+  },
+  {
+    "year": 2020,
+    "film": "The Father",
+    "producers": ["David Parfitt", "Jean-Louis Livi", "Philippe Carcassonne"]
+  },
+  {
+    "year": 2020,
+    "film": "Judas and the Black Messiah",
+    "producers": ["Shaka King", "Charles D. King", "Ryan Coogler"]
+  },
+  {
+    "year": 2020,
+    "film": "Mank",
+    "producers": ["Ceán Chaffin", "Eric Roth", "Douglas Urbanski"]
+  },
+  {
+    "year": 2020,
+    "film": "Minari",
+    "producers": ["Christina Oh"]
+  },
+  {
+    "year": 2020,
+    "film": "Promising Young Woman",
+    "producers": [
+      "Josey McNamara",
+      "Ben Browning",
+      "Ashley Fox",
+      "Emerald Fennell"
+    ]
+  },
+  {
+    "year": 2020,
+    "film": "Sound of Metal",
+    "producers": ["Bert Hamelinck", "Sacha Ben Harroche"]
+  },
+  {
+    "year": 2020,
+    "film": "The Trial of the Chicago 7",
+    "producers": ["Marc Platt", "Stuart Besser"]
+  },
+  {
+    "year": 2021,
+    "film": "CODA",
+    "producers": [
+      "Philippe Rousselet",
+      "Fabrice Gianfermi",
+      "Patrick Wachsberger"
+    ]
+  },
+  {
+    "year": 2021,
+    "film": "Belfast",
+    "producers": [
+      "Laura Berwick",
+      "Kenneth Branagh",
+      "Becca Kovacik",
+      "Tamar Thomas"
+    ]
+  },
+  {
+    "year": 2021,
+    "film": "Don't Look Up",
+    "producers": ["Adam McKay", "Kevin Messick"]
+  },
+  {
+    "year": 2021,
+    "film": "Drive My Car",
+    "producers": ["Teruhisa Yamamoto"]
+  },
+  {
+    "year": 2021,
+    "film": "Dune",
+    "producers": ["Mary Parent", "Denis Villeneuve", "Cale Boyter"]
+  },
+  {
+    "year": 2021,
+    "film": "King Richard",
+    "producers": ["Tim White", "Trevor White", "Will Smith"]
+  },
+  {
+    "year": 2021,
+    "film": "Licorice Pizza",
+    "producers": ["Sara Murphy", "Adam Somner", "Paul Thomas Anderson"]
+  },
+  {
+    "year": 2021,
+    "film": "Nightmare Alley",
+    "producers": ["Guillermo del Toro", "J. Miles Dale", "Bradley Cooper"]
+  },
+  {
+    "year": 2021,
+    "film": "The Power of the Dog",
+    "producers": [
+      "Jane Campion",
+      "Tanya Seghatchian",
+      "Emile Sherman",
+      "Iain Canning",
+      "Roger Frappier"
+    ]
+  },
+  {
+    "year": 2021,
+    "film": "West Side Story",
+    "producers": ["Steven Spielberg", "Kristie Macosko Krieger"]
+  },
+  {
+    "year": 2022,
+    "film": "Everything Everywhere All at Once",
+    "producers": ["Daniels", "Jonathan Wang"]
+  },
+  {
+    "year": 2022,
+    "film": "All Quiet on the Western Front",
+    "producers": ["Malte Grunert"]
+  },
+  {
+    "year": 2022,
+    "film": "Avatar: The Way of Water",
+    "producers": ["James Cameron", "Jon Landau"]
+  },
+  {
+    "year": 2022,
+    "film": "The Banshees of Inisherin",
+    "producers": ["Graham Broadbent", "Pete Czernin", "Martin McDonagh"]
+  },
+  {
+    "year": 2022,
+    "film": "Elvis",
+    "producers": [
+      "Baz Luhrmann",
+      "Catherine Martin",
+      "Gail Berman",
+      "Patrick McCormick",
+      "Schuyler Weiss"
+    ]
+  },
+  {
+    "year": 2022,
+    "film": "The Fabelmans",
+    "producers": ["Kristie Macosko Krieger", "Steven Spielberg", "Tony Kushner"]
+  },
+  {
+    "year": 2022,
+    "film": "Tár",
+    "producers": ["Todd Field", "Alexandra Milchan", "Scott Lambert"]
+  },
+  {
+    "year": 2022,
+    "film": "Top Gun: Maverick",
+    "producers": [
+      "Tom Cruise",
+      "Christopher McQuarrie",
+      "David Ellison",
+      "Jerry Bruckheimer"
+    ]
+  },
+  {
+    "year": 2022,
+    "film": "Triangle of Sadness",
+    "producers": ["Erik Hemmendorff", "Philippe Bober"]
+  },
+  {
+    "year": 2022,
+    "film": "Women Talking",
+    "producers": ["Dede Gardner", "Jeremy Kleiner", "Frances McDormand"]
+  },
+  {
+    "year": 2023,
+    "film": "American Fiction",
+    "producers": [
+      "Ben LeClair",
+      "Nikos Karamigios",
+      "Cord Jefferson",
+      "Jermaine Johnson"
+    ]
+  },
+  {
+    "year": 2023,
+    "film": "Anatomy of a Fall",
+    "producers": ["Marie-Ange Luciani", "David Thion"]
+  },
+  {
+    "year": 2023,
+    "film": "Barbie",
+    "producers": [
+      "David Heyman",
+      "Margot Robbie",
+      "Tom Ackerley",
+      "Robbie Brenner"
+    ]
+  },
+  {
+    "year": 2023,
+    "film": "The Holdovers",
+    "producers": ["Mark Johnson"]
+  },
+  {
+    "year": 2023,
+    "film": "Killers of the Flower Moon",
+    "producers": [
+      "Bradley Thomas",
+      "Martin Scorsese",
+      "Daniel Lupi",
+      "Dan Friedkin"
+    ]
+  },
+  {
+    "year": 2023,
+    "film": "Maestro",
+    "producers": [
+      "Bradley Cooper",
+      "Steven Spielberg",
+      "Fred Berner",
+      "Amy Durning",
+      "Kristie Macosko Krieger"
+    ]
+  },
+  {
+    "year": 2023,
+    "film": "Oppenheimer",
+    "producers": ["Emma Thomas", "Charles Roven", "Christopher Nolan"]
+  },
+  {
+    "year": 2023,
+    "film": "Past Lives",
+    "producers": ["David Hinojosa", "Christine Vachon", "Pamela Koffler"]
+  },
+  {
+    "year": 2023,
+    "film": "Poor Things",
+    "producers": ["Yorgos Lanthimos", "Emma Stone", " Ed Guiney", "Andrew Lowe"]
+  },
+  {
+    "year": 2023,
+    "film": "The Zone of Interest",
+    "producers": ["James Wilson"]
+  }
 ]

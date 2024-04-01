@@ -160,6 +160,8 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 .movie-page {
   background-color: var(--silver);
   padding-bottom: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
 
   &__title {
     text-align: center;
@@ -179,7 +181,7 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
     align-items: center;
     gap: 5vw;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     // background-color: var(--white-20);
     padding: 1rem;
     width: fit-content;
