@@ -50,9 +50,6 @@ let nodePlanes: Mesh[] = []
 let linkLines: Line[] = []
 let linksGeometry: InstancedBufferGeometry | null
 
-let mouseDown = ref(false)
-let mouseY = ref(0)
-
 onMounted(() => {
   nodeObject.value = nodes.reduce((prev, next) => {
     prev[next.id] = next
@@ -60,23 +57,7 @@ onMounted(() => {
   }, {})
 
   createScene()
-
-  document.addEventListener('keydown', moveVizOnY)
 })
-
-onBeforeUnmount(() => {
-  document.removeEventListener('keydown', moveVizOnY)
-})
-
-function moveVizOnY(event: KeyboardEvent) {
-  if (event.key === 'ArrowDown') {
-    camera.position.y += 2
-  } else if (event.key === 'ArrowUp') {
-    camera.position.y -= 2
-  }
-
-  // controls.update()
-}
 
 function addRenderer(width: number, height: number) {
   if (canvasContainer.value) {
@@ -107,6 +88,8 @@ function addControls(camera: PerspectiveCamera, renderer: WebGLRenderer) {
     RIGHT: 'ArrowRight', // right arrow
     BOTTOM: 'ArrowDown', // down arrow
   }
+
+  controls.listenToKeyEvents(window)
 
   controls.update()
 }
