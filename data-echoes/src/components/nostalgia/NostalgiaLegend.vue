@@ -43,7 +43,7 @@ function getVillainGradient(speaker) {
       >
         <div :class="['nostalgia-legend__speaker', speaker]">
           <img
-            :src="`${baseUrl}images/small-${speaker.replaceAll(' ', '-')}.webp`"
+            :src="`${baseUrl}images/nostalgia/small-${speaker.replaceAll(' ', '-')}.webp`"
             alt=""
             class="nostalgia-legend__speaker__img"
           />

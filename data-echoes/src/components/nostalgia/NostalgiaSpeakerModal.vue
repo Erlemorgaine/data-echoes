@@ -74,7 +74,7 @@ const seriesTotal = 137275
 
         <picture>
           <img
-            :src="`${baseUrl}images/${data.speaker.replaceAll(' ', '-')}.webp`"
+            :src="`${baseUrl}images/nostalgia/${data.speaker.replaceAll(' ', '-')}.webp`"
             alt=""
             class="nostalgia-episode-modal__content__img"
           />

@@ -17,6 +17,9 @@ import {
   QuadraticBezierCurve3,
   LineSegments,
   CatmullRomCurve3,
+  TextureLoader,
+  SRGBColorSpace,
+  ColorManagement,
 } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { LineSegmentsGeometry } from 'three/examples/jsm/lines/LineSegmentsGeometry'
@@ -35,6 +38,7 @@ import {
 import { onMounted, onBeforeUnmount, ref } from 'vue'
 
 import { nodes, links } from './data/network-data.json'
+import { baseUrl } from '@/ultilities/globals'
 
 const canvasContainer = ref<HTMLElement | null>(null)
 const nodeObject = ref({})
@@ -45,6 +49,7 @@ let renderer: WebGLRenderer | null
 let scene: Scene | null
 let controls: OrbitControls | null
 let camera: PerspectiveCamera | null
+const textureLoader = new TextureLoader()
 
 let nodePlanes: Mesh[] = []
 let linkLines: Line[] = []
@@ -60,17 +65,20 @@ onMounted(() => {
 })
 
 function addRenderer(width: number, height: number) {
+  ColorManagement.enabled = true
   if (canvasContainer.value) {
     const canvas = document.createElement('canvas')
     canvasContainer.value.appendChild(canvas)
 
-    renderer = new WebGLRenderer({ canvas, antialias: true })
+    renderer = new WebGLRenderer({ canvas, antialias: true, alpha: true })
     renderer.setSize(width, height)
+    renderer.setPixelRatio(window.devicePixelRatio)
+    renderer.outputColorSpace = SRGBColorSpace
   }
 }
 
 function addCamera(scene: Scene, width: number, height: number) {
-  camera = new PerspectiveCamera(75, width / height, 0.1, 100)
+  camera = new PerspectiveCamera(75, width / height, 0.00001, 500)
   camera.position.set(0, 0, 5)
   scene.add(camera)
 }
@@ -81,13 +89,7 @@ function addControls(camera: PerspectiveCamera, renderer: WebGLRenderer) {
   controls.enablePan = true
   controls.minPolarAngle = Math.PI / 2 // Limit rotation to vertical plane
   controls.maxPolarAngle = Math.PI / 2 // Limit rotation to vertical plane
-
-  controls.keys = {
-    LEFT: 'ArrowLeft', //left arrow
-    UP: 'ArrowUp', // up arrow
-    RIGHT: 'ArrowRight', // right arrow
-    BOTTOM: 'ArrowDown', // down arrow
-  }
+  controls.keyPanSpeed = 30
 
   controls.listenToKeyEvents(window)
 
@@ -95,16 +97,32 @@ function addControls(camera: PerspectiveCamera, renderer: WebGLRenderer) {
 }
 
 function createNodePlanes(scene: Scene) {
-  const planeGeometry = new PlaneGeometry(0.5, 0.5)
-  const planeMaterial = new MeshBasicMaterial({ color: 0xffff00, side: DoubleSide })
+  const planeGeometry = new PlaneGeometry(1, 1)
+  const planeMaterial = new MeshBasicMaterial({
+    color: 0xffffff,
+    side: DoubleSide,
+    transparent: true,
+    depthWrite: false,
+  })
 
   // Create planes for each node in the nodes array
   nodePlanes = nodes.map((node) => {
     const material = planeMaterial.clone()
     const allegiances = node.data.allegiance
-    const color: number[] = COLORS[allegiances && allegiances[0]] || COLORS.Other
+    let texture
 
-    material.color.setRGB(color[0] / 255, color[1] / 255, color[2] / 255)
+    if (allegiances && allegiances[0]) {
+      texture = textureLoader.load(
+        `${baseUrl}images/presidents-royals/${allegiances[0].toLowerCase().replaceAll(' ', '-').replaceAll(`'`, '')}.png`,
+      )
+    }
+
+    if (texture) {
+      texture.colorSpace = SRGBColorSpace
+      material.map = texture
+    } else {
+      material.color.setRGB(1, 0, 0)
+    }
 
     const plane = new Mesh(planeGeometry, material)
     plane.position.set(Math.random() * 2, Math.random() * 2, Math.random() * 2)
@@ -156,8 +174,12 @@ function createLinkLines(scene: Scene) {
   points.push(new Vector3(0, 0, -10))
 
   const lines: Record<string, LineMaterial> = {
-    spouse: new LineBasicMaterial({ color: 0xffffff }),
-    parent: new LineBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 0.3 }),
+    spouse: new LineBasicMaterial({
+      color: 0xffffff,
+      transparent: true,
+      opacity: 0.2,
+    }),
+    parent: new LineBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 0.2 }),
   }
 
   // TODO: Try to reuse the geometry somehow or at least make it more performant
