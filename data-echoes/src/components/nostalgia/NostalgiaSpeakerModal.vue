@@ -22,7 +22,9 @@ const seriesTotal = 137275
       :style="{ '--speaker-color': `var(--${data.speaker.replaceAll(' ', '-')})` }"
     >
       <div class="nostalgia-episode-modal__bubbles">
-        <div class="nostalgia-episode-modal__bubbles__title">Top 5</div>
+        <div class="nostalgia-episode-modal__bubbles__title">
+          Top 5 <span>episodes with most words spoken</span>
+        </div>
         <button
           v-for="episode of data.episodes"
           :key="episode.episode"
@@ -122,6 +124,12 @@ const seriesTotal = 137275
       font-size: 1.5rem;
       position: relative;
       width: 100%;
+
+      span {
+        font-size: 1rem;
+        opacity: 0.7;
+        margin-left: 0.25rem;
+      }
     }
 
     &__bubble-content {
