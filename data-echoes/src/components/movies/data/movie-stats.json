@@ -43,6 +43,9 @@
     "fractionWhite": 0.593,
     "fractionHispanicLatino": 0.189,
     "fractionBlack": 0.126,
-    "fractionAsian": 0.059
+    "fractionAsian": 0.059,
+    "fractionTotal": null,
+    "fractionWonOfBIPOC": null,
+    "fractionBIPOCOfWon": null
   }
 }

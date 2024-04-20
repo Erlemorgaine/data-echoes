@@ -80,7 +80,7 @@ function sortData(key: MoviePersonKey) {
 
     // Secondary sort based on remaining keys
     for (let i = 0; i < secondaryKeys.length; i++) {
-      const secondaryKey = secondaryKeys[i]
+      const secondaryKey = secondaryKeys[i] as MoviePersonKey
       result = compareValues(a[secondaryKey], b[secondaryKey])
       if (result !== 0) return result
     }
@@ -145,9 +145,9 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
         <MoviesStats
           :chartData="getGeneralCategoryStats(category.id)"
-          :bipcOfTotal="generalStats[category.id].fractionTotal"
-          :wonOfBipoc="generalStats[category.id].fractionWonOfBIPOC"
-          :bipocOfWon="generalStats[category.id].fractionBIPOCOfWon"
+          :bipcOfTotal="generalStats[category.id].fractionTotal || 0"
+          :wonOfBipoc="generalStats[category.id].fractionWonOfBIPOC || 0"
+          :bipocOfWon="generalStats[category.id].fractionBIPOCOfWon || 0"
         />
       </div>
     </section>
@@ -166,7 +166,6 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
   &__title {
     text-align: center;
     margin-bottom: 1rem;
-    font-family: GravitasOne;
     font-family: Miltonian;
     font-size: 2rem;
 

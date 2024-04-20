@@ -67,7 +67,7 @@ const ingredientPercentages = computed(() => {
           <p class="recipe-modal__bottom__links__text">Check out how to cook this dish at:</p>
 
           <ul>
-            <li v-for="link of recipe.links" :key="link">
+            <li v-for="link of recipe.links" :key="link.site">
               <a
                 class="recipe-modal__bottom__links__link"
                 :href="link.link"

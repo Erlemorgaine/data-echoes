@@ -23,5 +23,5 @@ export type Recipe = {
   amount: number
   ingredient_counts: { [k: string]: number }
   description?: string
-  links: string[]
+  links: {link: string, site: string}[]
 }
