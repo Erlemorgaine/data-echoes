@@ -324,14 +324,14 @@ function showSpeakerModal(speaker: string) {
 
     <section class="nostalgia-page__content">
       <NostalgiaNotation
-        text="Each <strong>bar</strong> represents a full <strong>season</strong>. The length of the line is relative to the largest season."
+        text="Each <strong>bar</strong> represents a full <strong>season</strong>. The length of the line is relative to the largest season"
         :position="{ x: '0%', y: '-5rem' }"
         :line1Position="{ x: '0%', y: '100%' }"
         line-height="5rem"
       />
 
       <NostalgiaNotation
-        text="Each <strong>bubble</strong> represents an <strong>episode</strong>. The size of the bubble represents the amount of words spoken by the 5 major speakers."
+        text="Each <strong>bubble</strong> represents an <strong>episode</strong>. The size of the bubble represents the amount of words spoken by the 5 major speakers"
         :position="{ x: '25%', y: '-7rem' }"
         :line1Position="{ x: '45%', y: '100%' }"
         line-height="3.5rem"
@@ -346,16 +346,18 @@ function showSpeakerModal(speaker: string) {
       />
 
       <NostalgiaNotation
-        text="Each <strong>line color</strong> represents a <strong>villain</strong>. The lines connect the episodes in which this villain speaks."
+        text="Each <strong>line color</strong> represents a <strong>villain</strong>. The lines connect the episodes in which this villain speaks"
         :position="{ x: '52%', y: '12%' }"
         :line2Position="{ x: '-2.5rem', y: '0%' }"
         line-height="2rem"
       />
-      <!-- <NostalgiaNotation
-        text="Each bubble represents an episode"
-        :position="{ x: '100%', y: '0%' }"
-        position-type="right"
-      /> -->
+
+      <NostalgiaNotation
+        text="A <strong>single dot</strong> means the villain spoke only in one episode this season"
+        :position="{ x: '0%', y: '14.5%' }"
+        :line1Position="{ x: '30%', y: '-1.5rem' }"
+        line-height="1rem"
+      />
 
       <div
         class="nostalgia-page__season-wrapper"

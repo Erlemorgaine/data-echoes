@@ -77,7 +77,7 @@ const speakers = computed((): Speaker[] => {
       <div class="nostalgia-episode-modal__content">
         <h2 class="nostalgia-episode-modal__content__title">
           {{ data.episode }}
-          <span class="episode-sum">- {{ data.sumEpisode }} words</span>
+          <span class="episode-sum"> {{ data.sumEpisode }} words spoken in episode</span>
         </h2>
         <p class="nostalgia-episode-modal__content__description">{{ data.description }}</p>
 
@@ -194,14 +194,16 @@ const speakers = computed((): Speaker[] => {
     &__title {
       font-family: VinaSans;
       font-size: 2.4rem;
-      line-height: 1.1;
+      line-height: 80%;
       margin-bottom: 0.75rem;
       font-weight: 400;
 
       .episode-sum {
+        display: block;
         opacity: 0.7;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         letter-spacing: 0.03em;
+        margin-left: 0.15rem;
       }
     }
 
