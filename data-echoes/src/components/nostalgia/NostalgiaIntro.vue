@@ -31,8 +31,6 @@
     <!-- <button class="nostalgia-intro__scroll">
       &#8681; Scroll down for an explanation of the viz
     </button> -->
-
-    <div class="nostalgia-intro__cta">Click on a bubble to known more about the episode</div>
   </section>
 </template>
 
@@ -40,11 +38,21 @@
 
 <style lang="scss" scoped>
 .nostalgia-intro {
+  @include powerpuff-line;
+
+  &::after {
+    width: 80%;
+    left: 45%;
+    transform: translateX(-50%);
+  }
+
   width: 60%;
   max-width: 55rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 10rem;
   line-height: 140%;
   padding-top: 3rem;
+  position: relative;
 
   @include mobile {
     width: 100%;

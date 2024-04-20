@@ -4,6 +4,12 @@
   }
 }
 
+@mixin low-screen {
+  @media screen and (max-height: 700px) {
+    @content;
+  }
+}
+
 @mixin center {
   position: absolute;
   top: 50%;

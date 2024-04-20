@@ -24,6 +24,8 @@ function getVillainGradient(speaker) {
 
 <template>
   <aside class="nostalgia-legend">
+    <div class="nostalgia-legend__cta">Click on a character to see their top episodes</div>
+
     <div
       v-for="(group, i) of [keySpeakers, villains]"
       :key="'group-' + i"
@@ -51,15 +53,13 @@ function getVillainGradient(speaker) {
         </div>
       </button>
     </div>
-
-    <div class="nostalgia-legend__cta">Click on a character for more information</div>
   </aside>
 </template>
 
 <style lang="scss" scoped>
 .nostalgia-legend {
   position: fixed;
-  top: 9.5rem;
+  top: 11.5rem;
   right: 2rem;
   padding: 1rem 0.75rem 0.5rem 0.5rem;
   border-radius: 0.2rem;
@@ -74,6 +74,10 @@ function getVillainGradient(speaker) {
   flex-direction: column;
   gap: 3vh;
   transition: opacity 0.5s;
+
+  @include low-screen {
+    top: 9rem;
+  }
 
   @include mobile {
     position: relative;
@@ -148,7 +152,7 @@ function getVillainGradient(speaker) {
   &__cta {
     position: absolute;
     right: 0rem;
-    bottom: -1.75rem;
+    top: -1.75rem;
     font-size: 0.8rem;
     font-style: italic;
     font-family: Poppins;

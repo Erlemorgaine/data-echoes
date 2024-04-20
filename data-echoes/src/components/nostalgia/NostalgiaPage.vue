@@ -15,6 +15,7 @@ import sumBy from 'lodash/sumBy'
 import { computed, nextTick, onMounted, ref } from 'vue'
 
 import NostalgiaLegend from './NostalgiaLegend.vue'
+import NostalgiaNotation from './NostalgiaNotation.vue'
 import NostalgiaBubble from './NostalgiaBubble.vue'
 import NostalgiaVillainsSeason from './NostalgiaVillainsSeason.vue'
 import NostalgiaBarChart from './NostalgiaBarChart.vue'
@@ -43,6 +44,7 @@ import NostalgiaSources from './NostalgiaSources.vue'
 import NostalgiaSpeakerModal from './NostalgiaSpeakerModal.vue'
 
 import './nostalgia.scss'
+import { lowScreenHeight } from '@/ultilities/globals'
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
@@ -178,9 +180,13 @@ function getEpisodesWithAccumulatedSize(allEpisodes: Episode, seasonNr: string |
 }
 
 function getTitleTransform() {
+  const smallScale = window.innerHeight < lowScreenHeight ? 0.6 : 0.75
+
   titleTransform.value.scale =
-    Math.max(Math.pow((window.innerHeight - window.scrollY) / window.innerHeight, 1.95), 0.75) ||
-    0.75
+    Math.max(
+      Math.pow((window.innerHeight - window.scrollY) / window.innerHeight, 1.95),
+      smallScale,
+    ) || smallScale
 
   titleTransform.value.translate = (1 - titleTransform.value.scale) * -15 + 'rem'
   legendShown.value = window.scrollY > 100
@@ -317,6 +323,40 @@ function showSpeakerModal(speaker: string) {
     <NostalgiaIntro />
 
     <section class="nostalgia-page__content">
+      <NostalgiaNotation
+        text="Each <strong>bar</strong> represents a full <strong>season</strong>. The length of the line is relative to the largest season."
+        :position="{ x: '0%', y: '-5rem' }"
+        :line1Position="{ x: '0%', y: '100%' }"
+        line-height="5rem"
+      />
+
+      <NostalgiaNotation
+        text="Each <strong>bubble</strong> represents an <strong>episode</strong>. The size of the bubble represents the amount of words spoken by the 5 major speakers."
+        :position="{ x: '25%', y: '-7rem' }"
+        :line1Position="{ x: '45%', y: '100%' }"
+        line-height="3.5rem"
+      />
+
+      <NostalgiaNotation
+        text="Percentage spoken by the <strong>5 major speakers</strong> in the whole season"
+        :position="{ x: '51.5%', y: '-1rem' }"
+        :line1Position="{ x: '45%', y: '100%' }"
+        :line2Position="{ x: 'calc(45% - 3.75rem)', y: 'calc(100% + 3.75rem)' }"
+        line-height="3.75rem"
+      />
+
+      <NostalgiaNotation
+        text="Each <strong>line color</strong> represents a <strong>villain</strong>. The lines connect the episodes in which this villain speaks."
+        :position="{ x: '52%', y: '12%' }"
+        :line2Position="{ x: '-2.5rem', y: '0%' }"
+        line-height="2rem"
+      />
+      <!-- <NostalgiaNotation
+        text="Each bubble represents an episode"
+        :position="{ x: '100%', y: '0%' }"
+        position-type="right"
+      /> -->
+
       <div
         class="nostalgia-page__season-wrapper"
         v-for="(episodes, season, seasonIndex) of seasonsWithEpisodes"
@@ -445,6 +485,10 @@ function showSpeakerModal(speaker: string) {
         font-size: 1rem;
       }
     }
+  }
+
+  &__content {
+    position: relative;
   }
 
   &__season-wrapper {
