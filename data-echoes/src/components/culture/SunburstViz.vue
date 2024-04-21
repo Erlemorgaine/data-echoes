@@ -206,6 +206,18 @@ function createSunburst(data: RecursiveSunburstData) {
       --node-opacity: calc(var(--sunburst-ratio) * 0.36 / var(--depth));
 
       opacity: calc(var(--node-opacity) * var(--node-opacity) * var(--node-opacity));
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:focus-visible {
+        outline: 1px solid steelblue;
+      }
     }
   }
 

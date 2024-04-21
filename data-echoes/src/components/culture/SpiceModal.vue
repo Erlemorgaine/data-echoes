@@ -57,9 +57,13 @@ const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
           </div>
         </dl>
 
-        <div class="spice-modal__bottom__description">
-          {{ spice.description }}
+        <div class="spice-modal__bottom__description-wrapper">
+          <div class="spice-modal__bottom__description">
+            {{ spice.description }}
+          </div>
         </div>
+
+        <a class="spice-link" target="__blank" :href="spice.source">Source: Wikipedia</a>
       </div>
     </template>
   </AppModal>
@@ -175,9 +179,41 @@ const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
         }
       }
 
+      &__description-wrapper {
+        &::before {
+          content: '';
+          width: 50%;
+          height: calc(var(--modal-size) * 0.33);
+          float: left;
+          shape-outside: polygon(0 100%, 45% 100%, 20% 90%, 15% 76%, 0 50%);
+          shape-margin: 7%;
+        }
+      }
+
       &__description {
+        text-wrap: balance;
         padding-top: 1rem;
         text-align: center;
+        position: relative;
+
+        &::before {
+          content: '';
+          width: 50%;
+          height: calc(var(--modal-size) * 0.33);
+          float: right;
+          shape-outside: polygon(100% 100%, 45% 100%, 78% 80%, 92% 76%, 100% 50%);
+          shape-margin: 7%;
+        }
+      }
+
+      .spice-link {
+        --line-color: var(--text-color);
+
+        display: block;
+        width: fit-content;
+        margin-inline: auto;
+        color: var(--text-color);
+        margin-top: 0.25rem;
       }
     }
   }

@@ -77,7 +77,20 @@
   --spice-pala: var(--spice-nutmeg);
 
   --spice-peanut: rgb(167, 71, 50);
+  --spice-peanut-dark: rgb(25, 25, 23);
   --spice-kacang: var(--spice-peanut);
+
+ 
+  // --spice-peanut: rgb(238, 213, 159);
+  //  --spice-peanut: rgb( 52, 42, 33);
+  //  --spice-peanut: rgb(157, 112, 70);
+  //  --spice-peanut: rgb(108, 88, 66);
+  //  --spice-peanut: rgb(188, 143, 92);
+  //  --spice-peanut: rgb(248, 245, 215);
+  //  --spice-peanut: rgb( 25, 25, 23);
+  //  --spice-peanut: rgb( 86, 57, 40);
+  //  --spice-peanut: rgb(132, 75, 42);
+  //  --spice-peanut: rgb(219, 177, 116);
 
   --bg-1: rgb(81, 104, 99);
   --bg-2: rgb(15, 60, 48);
@@ -91,4 +104,15 @@
 }
 .culture-page {
   background-image: linear-gradient(0deg, var(--bg-1), var(--bg-2));
+}
+
+.spice-link {
+  --line-color: var(--spice-coconut-dark);
+  
+    @include underline-hover;
+  
+    color: var(--spice-coconut-dark);
+    position: relative;
+    font-weight: 700;
+    transition: color 0.3s;
 }

@@ -68,13 +68,9 @@ const ingredientPercentages = computed(() => {
 
           <ul>
             <li v-for="link of recipe.links" :key="link.site">
-              <a
-                class="recipe-modal__bottom__links__link"
-                :href="link.link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >{{ link.site }}</a
-              >
+              <a class="spice-link" :href="link.link" target="_blank" rel="noopener noreferrer">{{
+                link.site
+              }}</a>
             </li>
           </ul>
         </div>
@@ -209,17 +205,6 @@ const ingredientPercentages = computed(() => {
 
         &__text {
           margin-bottom: 0.5rem;
-        }
-
-        &__link {
-          --line-color: var(--spice-coconut-dark);
-
-          @include underline-hover;
-
-          color: var(--spice-coconut-dark);
-          position: relative;
-          font-weight: 700;
-          transition: color 0.3s;
         }
       }
     }

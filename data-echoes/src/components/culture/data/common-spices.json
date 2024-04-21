@@ -1,19 +1,14 @@
 [
-  {
-    "translation": "kaffir lime leaf",
-    "name": "daun jeruk",
-    "count": 3006,
-    "color": [0.2901960784313726, 0.4627450980392157, 0.24313725490196078],
-    "regions": "jawa barat, bali",
-    "description": "The Kaffir lime, also known as Citrus hystrix or makrut lime, is a citrus fruit native to tropical Southeast Asia. It's widely used in Southeast Asian cuisine, particularly in Indonesia, where it's known as \"jêruk purut\" in Javanese. The fruit and leaves, known for their intense citrus fragrance, are used in dishes like soto ayam and are often paired with Indonesian bay leaf for chicken and fish. The fruit's rind and crushed leaves are also used in perfumery. The term \"Kaffir\" is thought to derive from the Arabic word for infidel, but its application to the lime is uncertain."
-  },
+ 
   {
     "translation": "chili",
     "name": "cabe/cabai/rawit",
     "count": 19748,
     "color": [0.6470588235294118, 0.13333333333333333, 0.11372549019607843],
     "regions": "jawa barat, jawa timur, sumatera utara, sulawesi tenggara, sulawesi utara",
-    "description": "Chili peppers, also spelled as chile or chilli, are fruits that are rich in vitamin C and B6. They are used in many cuisines around the world, especially in Chinese, Mexican, Thai, Indian, and New Mexican dishes. Chili peppers can be used fresh, dried, crushed into powder, preserved by brining, or pickled. They are known for their unique pungency, which varies in intensity among different types. The leaves of the chili pepper plant are also edible and used in Filipino cuisine."
+    "description": "Chili peppers are fruits that are rich in vitamin C and B6. They are used in many cuisines around the world, especially in Chinese, Mexican, Thai, Indian, and New Mexican dishes. Chili peppers can be used fresh, dried, crushed into powder, preserved by brining, or pickled. The leaves of the chili pepper plant are also edible, and nowhere near as hot as the fruit. They are used in Filipino cuisine.",
+    "source": "https://en.wikipedia.org/wiki/Chili_Pepper"
+    
   },
   {
     "translation": "pepper",
@@ -21,7 +16,8 @@
     "count": 7492,
     "color": [0.7843137254901961, 0.7215686274509804, 0.6549019607843137],
     "regions": "lampung, bangka belitung, sumatera utara, kalimantan barat, kalimantan timur, riau, jambi, kalimantan tengah",
-    "description": "Black pepper, native to South and Southeast Asia, has a rich history dating back to at least 2000 BCE. It was a highly prized trade good, often referred to as \"black gold\". Before the 16th century, pepper was grown in various regions including Java, Sunda, Sumatra, and other parts of Southeast Asia, including Indonesia. These areas mainly traded with China or used the pepper locally. In 2020, Indonesia was one of the major producers of black peppercorns. Black pepper has been integral to Indian cooking and was a significant export from the ancient port city of Muziris in Kerala, India."
+    "description": "Black pepper, native to South and Southeast Asia, has a rich history dating back to at least 2000 BCE. It was a highly prized trade good, often referred to as \"black gold\". Before the 16th century, pepper was grown in various regions including Java, Sunda, Sumatra, and other parts of Southeast Asia, including Indonesia. These areas mainly traded with China or used the pepper locally. In 2020, Indonesia was one of the major producers of black peppercorns.",
+    "source": "https://en.wikipedia.org/wiki/Black_pepper"
   },
   {
     "translation": "ginger",
@@ -29,7 +25,8 @@
     "count": 3858,
     "color": [0.8627450980392157, 0.7254901960784313, 0.23921568627450981],
     "regions": "jawa barat, sumatra, bali, riau, jambi, papua, papua pegunungan, papua selatan, papua barat, papua barat daya, kalimantan tengah, sulawesi tenggara, sulawesi utara",
-    "description": "Ginger is a perennial reed-like plant that originated from Maritime Southeast Asia and was cultivated and exploited since ancient times by the Austronesian peoples. It was used for flavoring food, in rituals, and for protection from spirits. Austronesian voyagers introduced ginger to the Pacific Islands, India, Madagascar, and the Comoros. It was primarily grown in southern India and the Greater Sunda Islands during the spice trade. In 2020, India led the global production of ginger with 43% of the world total. There is no specific information about Ginger in relation to Indonesia in the provided context."
+    "description": "Ginger is a perennial reed-like plant that originated from Maritime Southeast Asia and was cultivated and exploited since ancient times by the Austronesian peoples. It was used for flavoring food, in rituals, and for protection from spirits. Austronesian voyagers introduced ginger to the Pacific Islands, India, Madagascar, and the Comoros. It was primarily grown in southern India and the Greater Sunda Islands during the spice trade.",
+    "source": "https://en.wikipedia.org/wiki/Ginger"
   },
   {
     "translation": "bay leaf",
@@ -37,31 +34,8 @@
     "count": 3629,
     "color": [0.24313725490196078, 0.3568627450980392, 0.11372549019607843],
     "regions": "aceh",
-    "description": "Bay leaf, an aromatic herb, is commonly used in cooking worldwide. It can be used whole or ground, and is typically removed before consumption due to its abrasive nature. The flavor is subtle and the leaves contain essential oils contributing to their taste and aroma. They are used in various cuisines, including Indian, Filipino, European, and Caribbean. The Indonesian bay leaf or Indonesian laurel (salam leaf) is a variant not commonly found outside Indonesia, used mainly in meat dishes, and less often in rice and vegetables. Bay leaves are non-toxic but can pose a choking hazard if swallowed whole or in large pieces."
-  },
-  {
-    "translation": "turmeric",
-    "name": "kunyit",
-    "count": 3119,
-    "color": [0.8823529411764706, 0.4823529411764706, 0.0392156862745098],
-    "regions": "jawa barat, sumatera, bali, riau, jambi, kalimantan tengah",
-    "description": "Turmeric, or Curcuma longa, is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia. It thrives in temperatures between 20 and 30 °C and high annual rainfall. The plant's rhizomes are used to produce a deep orange-yellow powder, used as a coloring and flavoring agent in many Asian cuisines, especially for curries. The principal turmeric constituent, curcumin, is approved as a food additive globally. Turmeric has been used in Ayurvedic medicine, but there's no high-quality clinical evidence that it's effective for treating any disease. From India, turmeric spread to Southeast Asia with Hinduism and Buddhism."
-  },
-  {
-    "translation": "candlenut",
-    "name": "kemiri",
-    "count": 2970,
-    "color": [0.8784313725490196, 0.7215686274509804, 0.5411764705882353],
-    "regions": "sumatera utara, samosir island, gorontalo, camba district, sulawesi selatan",
-    "description": "The candlenut (aleurites moluccanus), is a flowering tree in the Euphorbiaceae family. It grows up to 30m high and produces a fruit that contains a kernel, which is the source of candlenut oil. The tree was first domesticated in Southeast Asia, with archaeological evidence of its cultivation found in eastern Indonesia and southern Sulawesi. The candlenut is used in Indonesian and Malaysian cuisine, often in curries or as a sauce with vegetables and rice. The tree's wood is also used for carving coffins among the Batak people."
-  },
-  {
-    "translation": "coriander",
-    "name": "ketumbar",
-    "count": 2821,
-    "color": [0.7019607843137254, 0.47058823529411764, 0.27058823529411763],
-    "regions": "sulawesi selatan",
-    "description": "Coriander, also known as cilantro, is an annual herb native to the Mediterranean Basin. All parts of the plant are edible, but the fresh leaves and dried seeds are most commonly used in cooking. The taste of coriander is perceived differently among individuals due to genetic variations. It is a key ingredient in various cuisines and is used in brewing certain beers and flavoring gin. Coriander seeds are also used in the secret formula for Coca-Cola. "
+    "description": "Bay leaf is commonly used in cooking worldwide. It can be used whole or ground, and is typically removed before consumption due to its abrasive nature. They are used in various cuisines, including Indian, Filipino, European, and Caribbean. The Indonesian bay leaf or Indonesian laurel (salam leaf) is a variant not commonly found outside Indonesia, used mainly in meat dishes, and less often in rice and vegetables. ",
+    "source": "https://en.wikipedia.org/wiki/Bay_Leaf"
   },
   {
     "translation": "galangal",
@@ -69,15 +43,47 @@
     "count": 3214,
     "color": [0.9647058823529412, 0.8627450980392157, 0.6549019607843137],
     "regions": "jawa barat, sumatera",
-    "description": "Galangal is a common name for several tropical rhizomatous spices from the Zingiberaceae (ginger) family. It includes species like Alpinia galanga, Alpinia officinarum, Boesenbergia rotunda, and Kaempferia galanga. Each variety has a unique taste and is not typically regarded as synonymous with ginger or each other in traditional Asian dishes. Galangal is widely used in Southeast Asian cuisine, including Indonesian dishes like soto and opor. It's also used in ethnobotany for promoting digestion and alleviating respiratory diseases and stomach problems. Galangals are commonly available in Asian markets in various forms."
+    "description": "Galangal is a common name for several tropical rhizomatous spices from the Zingiberaceae (ginger) family. It is widely used in Southeast Asian cuisine, including Indonesian dishes like soto and opor. It's also used in ethnobotany for promoting digestion and alleviating respiratory diseases and stomach problems. Galangals are commonly available in Asian markets in various forms.",
+    "source": "https://en.wikipedia.org/wiki/Galangal"
   },
+
+  {
+    "translation": "turmeric",
+    "name": "kunyit",
+    "count": 3119,
+    "color": [0.8823529411764706, 0.4823529411764706, 0.0392156862745098],
+    "regions": "jawa barat, sumatera, bali, riau, jambi, kalimantan tengah",
+    "description": "Turmeric, or Curcuma longa, is a plant native to the Indian subcontinent and Southeast Asia. It thrives in temperatures between 20 and 30 °C and high annual rainfall. The plant's rhizomes are used to produce a deep orange-yellow powder, used as a coloring and flavoring agent in many Asian cuisines, especially for curries. Turmeric has been used in Ayurvedic medicine. From India, turmeric spread to Southeast Asia with Hinduism and Buddhism.",
+    "source": "https://en.wikipedia.org/wiki/Turmeric"
+  },
+   {
+    "translation": "kaffir lime leaf",
+    "name": "daun jeruk",
+    "count": 3006,
+    "color": [0.2901960784313726, 0.4627450980392157, 0.24313725490196078],
+    "regions": "jawa barat, bali",
+    "description": "The Kaffir lime, also known as makrut lime, is a citrus fruit native to tropical Southeast Asia. It's widely used in Southeast Asian cuisine, particularly in Indonesia, where it's known as \"jêruk purut\" in Javanese. The fruit and leaves, known for their intense citrus fragrance, are used in dishes like soto ayam and are often paired with Indonesian bay leaf for chicken and fish. The fruit's rind and crushed leaves are also used in perfumery.",
+    "source": "https://en.wikipedia.org/wiki/Kaffir_Lime_Leaf"
+  },
+  {
+    "translation": "candlenut",
+    "name": "kemiri",
+    "count": 2970,
+    "color": [0.8784313725490196, 0.7215686274509804, 0.5411764705882353],
+    "regions": "sumatera utara, samosir island, gorontalo, camba district, sulawesi selatan",
+    "description": "The candlenut is a flowering tree in the Euphorbiaceae family. The tree was first domesticated in Southeast Asia, with archaeological evidence of its cultivation found in eastern Indonesia and southern Sulawesi. The candlenut is used in Indonesian and Malaysian cuisine, often in curries or as a sauce with vegetables and rice. The tree's wood is also used for carving coffins among the Batak people.",
+    "source": "https://en.wikipedia.org/wiki/Candlenut"
+  },
+ 
+  
   {
     "translation": "coconut",
     "name": "kelapa/santan",
     "count": 2939,
     "color": [0.8941176470588236, 0.8588235294117647, 0.8235294117647058],
     "regions": "sumatera selatan, sulawesi selatan, jawa timur, jawa tengah, maluku utara, sulawesi tengah",
-    "description": "Coconuts are tropical fruits that play a significant role in the economies of many countries. Indonesia is the world's largest producer of coconuts, with a gross production of 15 million tonnes. The production of coconuts is crucial to the Indonesian economy, with 25% of cultivated land used for coconut plantations. The fruit can only be grown in temperatures above 18 °C (64 °F) and needs a daily temperature above 22 °C (72 °F) to produce."
+    "description": "Coconuts are tropical fruits that play a significant role in the economies of many countries. Indonesia is the world's largest producer of coconuts, with a gross production of 15 million tonnes. The production of coconuts is crucial to the Indonesian economy, with 25% of cultivated land used for coconut plantations. The fruit can only be grown in temperatures above 18 °C (64 °F) and needs a daily temperature above 22 °C (72 °F) to produce.",
+    "source": "https://en.wikipedia.org/wiki/Coconut"
   },
   {
     "translation": "lemongrass",
@@ -85,16 +91,17 @@
     "count": 2865,
     "color": [0.7019607843137254, 0.6941176470588235, 0.34901960784313724],
     "regions": "aceh, jawa barat, jawa tengah, banten, jawa timur",
-    "description": "Lemongrass, or Cymbopogon, is a genus of plants found in Asian, African, Australian, and tropical island regions. It's known for its lemon-like scent and is often used as a culinary and medicinal herb. Some species, like Cymbopogon citratus, are particularly popular for these uses. Lemongrass oil is believed to have therapeutic properties and is used in soaps, insect repellents, and aromatherapy. In Indonesia, West Indian lemongrass (Cymbopogon citratus) is native and is more suitable for cooking compared to other species. The plant is also used in folk magic for protection and to attract good luck in love affairs."
+    "description": "Lemongrass, or Cymbopogon, is a genus of plants found in Asian, African, Australian, and tropical island regions. It's known for its lemon-like scent and is often used as a culinary and medicinal herb. Some species, like Cymbopogon citratus, are particularly popular for these uses. Lemongrass oil is believed to have therapeutic properties and is used in soaps, insect repellents, and aromatherapy. In Indonesia, West Indian lemongrass (Cymbopogon citratus) is native and is more suitable for cooking compared to other species. The plant is also used in folk magic for protection and to attract good luck in love affairs.",
+    "source": "https://en.wikipedia.org/wiki/Lemongrass"
   },
-  {
-    "translation": "tamarind",
-    "name": "asam",
-    "count": 880,
-    "color": [0.21568627450980393, 0.11372549019607843, 0.09019607843137255],
-    "regions": "sumatera barat, sumatera utara, jawa",
-
-    "description": "Tamarind (Tamarindus indica) is a leguminous tree native to tropical Africa and naturalized in Asia. It produces brown, pod-like fruits with a sweet, tangy pulp used in global cuisines, traditional medicine, and as a metal polish. The tree's wood is used for woodworking, and oil can be extracted from the seeds. In Indonesia, it's known as asam jawa or simply asam. The tree thrives in tropical and subtropical zones, and its young leaves are used in South Indian and Filipino cuisine. It's a long-lived, medium-growth tree, reaching a maximum crown height of 25 metres."
+   {
+    "translation": "coriander",
+    "name": "ketumbar",
+    "count": 2821,
+    "color": [0.7019607843137254, 0.47058823529411764, 0.27058823529411763],
+    "regions": "sulawesi selatan",
+    "description": "Coriander, also known as cilantro, is an annual herb native to the Mediterranean Basin. All parts of the plant are edible, but the fresh leaves and dried seeds are most commonly used in cooking. The taste of coriander is perceived differently among individuals due to genetic variations. It is a key ingredient in various cuisines and is used in brewing certain beers and flavoring gin. Coriander seeds are also used in the secret formula for Coca-Cola. ",
+    "source": "https://en.wikipedia.org/wiki/Coriander"
   },
   {
     "translation": "nutmeg",
@@ -102,7 +109,8 @@
     "count": 811,
     "color": [0.5568627450980392, 0.3058823529411765, 0.22745098039215686],
     "regions": "maluku utara, papua, aceh, sulawesi, maluku, sulawesi tenggara",
-    "description": "Nutmeg is a spice native to the Moluccas (or Spice Islands) of Indonesia, and is used in various dishes including soups and meat gravies. In the 17th century, the Dutch East India Company waged a bloody battle to obtain a monopoly on nutmeg production and trade, leading to a comprehensive nutmeg plantation system on the islands. The British later transplanted nutmeg trees to their other colonial holdings. As of 2019, Indonesia was a leading producer of nutmeg, contributing to 85% of the global production along with Guatemala and India."
+    "description": "Nutmeg is a spice native to the Moluccas (or Spice Islands) of Indonesia, and is used in various dishes including soups and meat gravies. In the 17th century, the Dutch East India Company waged a bloody battle to obtain a monopoly on nutmeg production and trade, leading to a comprehensive nutmeg plantation system on the islands. The British later transplanted nutmeg trees to their other colonial holdings. As of 2019, Indonesia was a leading producer of nutmeg, contributing to 85% of the global production along with Guatemala and India.",
+    "source": "https://en.wikipedia.org/wiki/Nutmeg"
   },
   {
     "translation": "peanut",
@@ -110,6 +118,16 @@
     "count": 811,
     "color": [1, 0, 0],
     "regions": "jawa timur, nusa tenggara barat, nusa tenggara timur",
-    "description": "Peanuts, also known as groundnuts, are a legume crop grown for their edible seeds, particularly in the tropics and subtropics. They are unique among legumes as their pods develop underground. Peanuts are rich in essential nutrients and provide significant food energy. They are an excellent source of several B vitamins, vitamin E, dietary minerals, and dietary fiber. Regular consumption of peanuts is associated with a lower specific risk of mortality from certain diseases."
+    "description": "Peanuts, also known as groundnuts, are a legume crop grown for their edible seeds, particularly in the tropics and subtropics. They are unique among legumes as their pods develop underground. Peanuts are rich in essential nutrients and provide significant food energy. They are an excellent source of several B vitamins, vitamin E, dietary minerals, and dietary fiber. Regular consumption of peanuts is associated with a lower specific risk of mortality from certain diseases.",
+    "source": "https://en.wikipedia.org/wiki/Peanut"
+  },
+  {
+    "translation": "tamarind",
+    "name": "asam",
+    "count": 880,
+    "color": [0.21568627450980393, 0.11372549019607843, 0.09019607843137255],
+    "regions": "sumatera barat, sumatera utara, jawa",
+    "description": "Tamarind (Tamarindus indica) is a leguminous tree native to tropical Africa and naturalized in Asia. It produces brown, pod-like fruits with a sweet, tangy pulp used in global cuisines, traditional medicine, and as a metal polish. The tree's wood is used for woodworking, and oil can be extracted from the seeds. In Indonesia, it's known as asam jawa or simply asam. The tree thrives in tropical and subtropical zones, and its young leaves are used in South Indian and Filipino cuisine. It's a long-lived, medium-growth tree, reaching a maximum crown height of 25 metres.",
+    "source": "https://en.wikipedia.org/wiki/Tamarind"
   }
 ]

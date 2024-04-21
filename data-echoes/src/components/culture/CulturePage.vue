@@ -159,8 +159,8 @@ watch(y, () => {
     y.value >= breakpoint * 2
       ? Sections.sunburst
       : y.value >= breakpoint
-      ? Sections.map
-      : Sections.intro
+        ? Sections.map
+        : Sections.intro
 
   const isIntro = currentSection.value === Sections.intro
   const isSunburst = currentSection.value === Sections.sunburst
@@ -360,7 +360,7 @@ function latLongToCartesian(polygon) {
       <VizTitle
         class="culture-page__content__title"
         :style="{ '--cta-opacity': mapPercentage && mapPercentage >= 0 ? 1 : 0 }"
-        title="The 14 most occurring spices"
+        title="The 14 spices most occurring in Indonesian recipes"
         subTitle="and the top 3 geographical locations where
         they are cultivated"
       />
@@ -460,9 +460,13 @@ function latLongToCartesian(polygon) {
       position: var(--el-position);
       display: grid;
       grid-template-columns: repeat(var(--amount-cols), 1fr);
-      gap: calc(100vh - 18rem) 0;
+      gap: calc(100vh - 17rem) 0;
       width: var(--el-standard-width);
       opacity: var(--map-opacity);
+
+      @include low-screen {
+        gap: calc(100vh - 15rem) 0;
+      }
 
       .sunburst & {
         grid-template-columns: none;
@@ -505,10 +509,9 @@ function latLongToCartesian(polygon) {
       position: var(--el-position);
       opacity: var(--cta-opacity);
       transition: opacity 0.5s;
-      max-width: 20rem;
 
       .map & {
-        top: calc(var(--fixed-viz-top) + 20vh);
+        top: calc(var(--fixed-viz-top) + 25vh);
         left: calc(50% - 47vw);
       }
     }

@@ -16,7 +16,7 @@
       Indonesian blood, and grew up in a culture that had distinct influences from both sides. The
       food that my grandmother used to cook, was not at all the same as the food that I ate in
       traditionally Dutch households: it contained a lot of spices, was extremely varied, and came
-      into overabundance.
+      in overabundance.
     </p>
     <p class="intro-text__paragraph">
       And it was delicious!! Sadly my grandma is too old to cook now, and besides, I live in Italy -
