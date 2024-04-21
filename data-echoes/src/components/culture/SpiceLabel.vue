@@ -79,7 +79,7 @@ const spiceKey = computed(() => props.translation.replaceAll(' ', '-'))
   }
 
   &__img {
-    width: 3rem;
+    width: 2.92rem;
     border-radius: 50% 0 0 50%;
     overflow: hidden;
   }

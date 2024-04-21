@@ -345,7 +345,7 @@ function showSpeakerModal(speaker: string) {
         line-height="3.75rem"
       />
 
-      <NostalgiaNotation
+    <NostalgiaNotation
         text="Each <strong>line color</strong> represents a <strong>villain</strong>. The lines connect the episodes in which this villain speaks"
         :position="{ x: '52%', y: '12%' }"
         :line2Position="{ x: '-2.5rem', y: '0%' }"
