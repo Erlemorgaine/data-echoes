@@ -26,6 +26,8 @@ import { LineSegmentsGeometry } from 'three/examples/jsm/lines/LineSegmentsGeome
 import { LineMaterial } from 'three/examples/jsm/lines/LineMaterial.js'
 import { COLORS } from './data/presidentsRoyalsColors.ts'
 
+import './presidents-royals.scss'
+
 import {
   forceSimulation,
   forceCenter,
@@ -102,7 +104,7 @@ function createNodePlanes(scene: Scene) {
     color: 0xffffff,
     side: DoubleSide,
     transparent: true,
-    depthWrite: false,
+    alphaTest: 0.1,
   })
 
   // Create planes for each node in the nodes array
@@ -175,11 +177,12 @@ function createLinkLines(scene: Scene) {
 
   const lines: Record<string, LineMaterial> = {
     spouse: new LineBasicMaterial({
-      color: 0xffffff,
+      color: 0xffaa00,
       transparent: true,
-      opacity: 0.2,
+      opacity: 0.5,
+      // depthWrite: false,
     }),
-    parent: new LineBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 0.2 }),
+    parent: new LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.2 }),
   }
 
   // TODO: Try to reuse the geometry somehow or at least make it more performant
@@ -196,7 +199,7 @@ function createLinkLines(scene: Scene) {
 
 function setCurvePoints(points: Vector3[], geometry: BufferGeometry) {
   let curve = new CatmullRomCurve3(points, false, 'catmullrom', 0.2)
-  const curvePoints = curve.getPoints(30)
+  const curvePoints = curve.getPoints(50)
 
   geometry.setFromPoints(curvePoints)
 }
