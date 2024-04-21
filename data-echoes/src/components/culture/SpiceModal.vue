@@ -80,6 +80,10 @@ const textColor = computed(() => getTextColorForCssBgColorVar(colorVar.value))
     background-color: var(--bg-1-70);
   }
 
+  &::backdrop {
+    backdrop-filter: blur(0.5rem);
+  }
+
   :deep(.app-modal) {
     width: var(--modal-size);
     aspect-ratio: 1;
