@@ -5,7 +5,15 @@ import recipes from './data/recipes.json'
 import indonesiaPolygons from './data/indonesia_provinces_polygons.json'
 import regl from 'regl'
 import { lookAt, perspective } from 'gl-mat4'
-import { Sections, type Spice, Position } from './types/types'
+import {
+  Sections,
+  type Spice,
+  type Recipe,
+  Position,
+  type CoordinatesArray,
+  type Coordinates,
+  type NumberArray,
+} from './types/types'
 import { useScroll } from '@vueuse/core'
 
 import SpiceLabel from './SpiceLabel.vue'
@@ -195,8 +203,10 @@ onMounted(() => {
 
     return {
       ...province,
-      polygons: unpackNestedToCoordinatesArray(province.geometry.coordinates).map((coord) => ({
-        coordinates: latLongToCartesian(coord),
+      polygons: unpackNestedToCoordinatesArray(
+        province.geometry.coordinates as CoordinatesArray,
+      ).map((coord) => ({
+        coordinates: latLongToCartesian(coord as Coordinates[]),
         colors: spiceColors,
       })),
     }
@@ -204,7 +214,7 @@ onMounted(() => {
 
   const allPolygons = provincesWithPolygons.map((p) => p.polygons).flat(1)
 
-  const drawPolygon = (polygon) =>
+  const drawPolygon = (polygon: NumberArray) =>
     reglObj({
       vert: `
       precision mediump float;
@@ -227,9 +237,9 @@ onMounted(() => {
         position: polygon,
       },
       uniforms: {
-        view: reglObj.prop('view'),
-        projection: reglObj.prop('projection'),
-        fillColor: reglObj.prop('fillColor'),
+        view: reglObj.prop('view' as never),
+        projection: reglObj.prop('projection' as never),
+        fillColor: reglObj.prop('fillColor' as never),
       },
       // Array with counts of coordinates for each separate polygon
       count: polygon.length,
@@ -262,16 +272,17 @@ onMounted(() => {
   })
 })
 
-function unpackNestedToCoordinatesArray(coordinates) {
-  const coordinatesFlat: [number, number][][] = []
+function unpackNestedToCoordinatesArray(coordinates: CoordinatesArray) {
+  const coordinatesFlat: CoordinatesArray[] = []
 
-  const unpack = (coords) => {
+  const unpack = (coords: CoordinatesArray) => {
     if (!Array.isArray(coords[0][0])) {
       // TODO: Added final point so that polygon can be closed, but doesnt seem to work well.
 
-      coordinatesFlat.push([...coords, coords[coords.length - 1]])
+      const newCoordinates = [...coords, coords[coords.length - 1]] as CoordinatesArray[]
+      coordinatesFlat.push(newCoordinates)
     } else {
-      coords.forEach(unpack)
+      ;(coords as CoordinatesArray[]).forEach(unpack)
     }
   }
 
@@ -280,8 +291,8 @@ function unpackNestedToCoordinatesArray(coordinates) {
   return coordinatesFlat
 }
 
-function latLongToCartesian(polygon) {
-  return polygon.map(([lat, long]: [number, number]) => {
+function latLongToCartesian(polygon: Coordinates[]) {
+  return polygon.map(([lat, long]: Coordinates) => {
     const scale = 2.75
     // Convert to radians
     const latRad = (lat * Math.PI) / 180
@@ -377,7 +388,7 @@ function latLongToCartesian(polygon) {
         :style="{
           '--sunburst-ratio': sunburstPercentage,
         }"
-        :recipes="recipes"
+        :recipes="recipes as Recipe[]"
       />
     </div>
 

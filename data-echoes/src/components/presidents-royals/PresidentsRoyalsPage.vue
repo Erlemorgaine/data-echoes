@@ -25,6 +25,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { LineSegmentsGeometry } from 'three/examples/jsm/lines/LineSegmentsGeometry'
 import { LineMaterial } from 'three/examples/jsm/lines/LineMaterial.js'
 import { COLORS } from './data/presidentsRoyalsColors.ts'
+import type { TreeNode, GOTCharacter } from './types.ts'
 
 import './presidents-royals.scss'
 
@@ -43,7 +44,7 @@ import { nodes, links } from './data/network-data.json'
 import { baseUrl } from '@/ultilities/globals'
 
 const canvasContainer = ref<HTMLElement | null>(null)
-const nodeObject = ref({})
+const nodeObject = ref<Record<string, TreeNode>>({})
 
 const linksLength = links.length
 
@@ -175,7 +176,7 @@ function createLinkLines(scene: Scene) {
   points.push(new Vector3(0, 0, 0))
   points.push(new Vector3(0, 0, -10))
 
-  const lines: Record<string, LineMaterial> = {
+  const lines: Record<string, LineBasicMaterial> = {
     spouse: new LineBasicMaterial({
       color: 0xffaa00,
       transparent: true,
@@ -212,7 +213,7 @@ function createScene() {
 
     addRenderer(width, height)
     addCamera(scene, width, height)
-    addControls(camera, renderer)
+    if (camera && renderer) addControls(camera, renderer)
 
     // Objects in scene
     createNodePlanes(scene)
@@ -225,7 +226,7 @@ function createScene() {
 
 function animate() {
   // Render
-  if (renderer) renderer.render(scene, camera)
+  if (renderer && scene && camera) renderer.render(scene, camera)
 
   // controls && controls.update()
 
@@ -237,7 +238,7 @@ function animate() {
  * Determines y position of nodes, based on generation of person in node
  * @param node
  */
-function getYForNode(node) {
+function getYForNode(node: TreeNode) {
   const generationsCount = Math.max(node.data.generationsBefore, node.data.mostGenerationsSpouse)
   return -generationsCount * 4 + 30
 }
@@ -249,7 +250,8 @@ function forceNetwork() {
   const ticked = () => {
     // Update link positions
     linkLines.forEach((line, index) => {
-      const link = links[index]
+      // TODO: Types are weird for links
+      const link = links[index] as unknown as { source: TreeNode; target: TreeNode }
 
       const source = nodeObject.value[link.source.id]
       const target = nodeObject.value[link.target.id]
@@ -320,7 +322,7 @@ function forceNetwork() {
     .force('collide', forceCollide().radius(0.5).strength(0.5).iterations(5))
     .force(
       'link',
-      forceLink(links).id((d) => d.id),
+      forceLink(links).id((d: any) => d.id),
     )
     .force('x', forceX())
     .force('y', forceY())

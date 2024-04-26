@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { partition, stratify } from 'd3-hierarchy'
+import { partition, stratify, type HierarchyNode } from 'd3-hierarchy'
 import { arc } from 'd3-shape'
 import { select } from 'd3-selection'
 import { descending } from 'd3-array'
 import { computed, onMounted, ref } from 'vue'
 import VizTitle from './VizTitle.vue'
 import RecipeModal from './RecipeModal.vue'
-import type { Recipe } from './types/types'
+import type { Recipe, RecipeWithAmount } from './types/types'
 
 type SunburstData = {
   child: string
@@ -119,12 +119,14 @@ function createSunburst(data: RecursiveSunburstData) {
   // We can normalize the recipe proportions, but this will result in a donut-like chart, since all proportions will add up to 1.
   // Experiment to see what works best.
   const root = stratify()
-    .id((d) => d.child)
-    .parentId((d) => d.parent)(data)
+    .id((d: RecipeWithAmount) => d.child)
+    .parentId((d: RecipeWithAmount) => d.parent)(data) as HierarchyNode<RecipeWithAmount>
 
   // Compute the values of internal nodes by aggregating from the leaves.
   root.count()
-  root.sort((a, b) => descending(a.data.amountRecipe, b.data.amountRecipe))
+  root.sort((a: HierarchyNode<RecipeWithAmount>, b: HierarchyNode<RecipeWithAmount>) =>
+    descending(a.data.amountRecipe, b.data.amountRecipe),
+  )
 
   // Compute partition layout
   partition().size([endAngle - startAngle, radius])(root)
@@ -149,7 +151,7 @@ function createSunburst(data: RecursiveSunburstData) {
     .attr('role', 'button')
     .attr('tabindex', '0')
     .style('--depth', (d) => Math.max(d.depth - 1, 0) / 100)
-    .attr('fill', (d) => spiceToColor[d.data.ingredient] || 'transparent')
+    .attr('fill', (d) => spiceToColor[d.data.ingredient as keyof typeof spiceToColor] || 'transparent')
     .on('click', (e, d) => {
       modelContent.value = recipesObject.value[d.data.recipe]
     })
