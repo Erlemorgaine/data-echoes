@@ -81,11 +81,17 @@ const speakers = computed((): Speaker[] => {
         </h2>
         <p class="nostalgia-episode-modal__content__description">{{ data.description }}</p>
 
+        <p class="nostalgia-episode-modal__content__speaker-title">
+          Percentage and <span>word count </span> per character
+        </p>
         <ul class="nostalgia-episode-modal__content__speakers">
           <li
-            class="nostalgia-episode-modal__content__speakers__speaker"
-            v-for="speaker of [...speakers].reverse()"
+            v-for="(speaker, i) of [...speakers].reverse()"
             :key="speaker.speaker"
+            :class="[
+              'nostalgia-episode-modal__content__speakers__speaker',
+              { 'col-1': i < Math.ceil(speakers.length * 0.5) },
+            ]"
             :style="{
               '--speaker-color': speaker.speaker
                 ? `var(--${speaker.speaker.replaceAll(' ', '-')})`
@@ -186,6 +192,8 @@ const speakers = computed((): Speaker[] => {
   &__content {
     padding-left: 2rem;
     padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
 
     @include mobile {
       padding: 0;
@@ -207,29 +215,53 @@ const speakers = computed((): Speaker[] => {
       }
     }
 
-    &__speakers {
-      @include powerpuff-line;
-
-      position: relative;
+    &__speaker-title {
       font-family: VinaSans;
       margin-top: 1.5rem;
-      columns: 2;
-      column-fill: balance;
+      font-size: 1.1rem;
+
+      span {
+        opacity: 0.7;
+      }
+    }
+
+    &__speakers {
+      position: relative;
+      margin-top: 0.75rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-flow: column;
+      gap: 0rem 1rem;
       padding-bottom: 2rem;
+      margin-bottom: auto;
 
       &__speaker {
         display: flex;
         align-items: baseline;
         margin-bottom: 0.75rem;
-        font-size: 1.1rem;
+        text-transform: capitalize;
+        font-weight: 600;
+
+        &.col-1 {
+          grid-column: 1;
+          // order: 1;
+        }
+
+        &:not(.col-1) {
+          grid-column: 2;
+          // order: 2;
+        }
 
         .marker {
+          font-family: VinaSans;
           background-image: linear-gradient(90deg, transparent 10%, var(--speaker-color));
           margin-right: 0.5rem;
           width: 3rem;
+          font-size: 1.1rem;
         }
 
         .word-count {
+          font-family: VinaSans;
           opacity: 0.7;
           margin-left: 0.4rem;
           font-size: 0.9rem;
@@ -239,11 +271,19 @@ const speakers = computed((): Speaker[] => {
     }
 
     &__sources {
+      @include powerpuff-line;
+
+      &::after {
+        bottom: initial;
+        top: 0;
+      }
+
       display: flex;
       gap: 1rem;
       align-items: baseline;
       position: relative;
       z-index: 1;
+      padding-block: 0.25rem 1rem;
 
       @include mobile {
         padding-bottom: 3rem;

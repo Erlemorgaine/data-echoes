@@ -26,7 +26,8 @@ defineEmits(['closeModal'])
     border-image: linear-gradient(90deg, var(--off-white-30), transparent) 30;
     color: var(--off-white);
     padding: 1.5rem 2rem 2.5rem 2rem;
-    max-width: min(65vw, 55rem);
+    max-width: min(70vw, 60rem);
+    min-height: 33rem;
     display: flex;
 
     @include mobile {
