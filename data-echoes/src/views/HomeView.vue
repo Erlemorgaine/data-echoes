@@ -16,7 +16,11 @@ const themes = [
   'Olympics',
   'Fearless',
 ]
-const activeThemes = ['Nostalgia', 'Music', 'Culture', 'Presidents & Royals', 'Movies']
+const activeThemes = [
+  'Nostalgia',
+  'Music',
+  //  'Culture', 'Presidents & Royals', 'Movies'
+]
 
 useMeta({
   title: 'Home',

@@ -1,23 +1,12 @@
 <script setup lang="ts">
 import { partition, stratify, type HierarchyNode } from 'd3-hierarchy'
-import { arc } from 'd3-shape'
+import { arc, type Arc } from 'd3-shape'
 import { select } from 'd3-selection'
 import { descending } from 'd3-array'
 import { computed, onMounted, ref } from 'vue'
 import VizTitle from './VizTitle.vue'
 import RecipeModal from './RecipeModal.vue'
-import type { Recipe, RecipeWithAmount } from './types/types'
-
-type SunburstData = {
-  child: string
-  parent: string | undefined
-  amountRecipe: number | undefined
-  count: number
-  ingredient: string | undefined
-  recipe: string | undefined
-}[]
-
-type RecursiveSunburstData = SunburstData | RecursiveSunburstData[]
+import type { Recipe, RecipeNode, SunburstData, RecursiveSunburstData } from './types/types'
 
 const props = defineProps<{ recipes: Recipe[] }>()
 
@@ -118,21 +107,19 @@ function createSunburst(data: RecursiveSunburstData) {
   // !!IMPORTANT!! Good to realize that the sunburst will be more like a spiral, if we work from most to least recipes.
   // We can normalize the recipe proportions, but this will result in a donut-like chart, since all proportions will add up to 1.
   // Experiment to see what works best.
-  const root = stratify()
-    .id((d: RecipeWithAmount) => d.child)
-    .parentId((d: RecipeWithAmount) => d.parent)(data) as HierarchyNode<RecipeWithAmount>
+  const root = stratify<SunburstData>()
+    .id((d: SunburstData) => d.child)
+    .parentId((d: SunburstData) => d.parent)(data as SunburstData[]) // as HierarchyNode<RecipeWithAmount>
 
   // Compute the values of internal nodes by aggregating from the leaves.
   root.count()
-  root.sort((a: HierarchyNode<RecipeWithAmount>, b: HierarchyNode<RecipeWithAmount>) =>
-    descending(a.data.amountRecipe, b.data.amountRecipe),
-  )
+  root.sort((a, b) => descending(a.data.amountRecipe, b.data.amountRecipe))
 
   // Compute partition layout
-  partition().size([endAngle - startAngle, radius])(root)
+  partition<SunburstData>().size([endAngle - startAngle, radius])(root)
 
   // Construct an arc generator.
-  const vizArc = arc()
+  const vizArc = arc<RecipeNode>()
     .startAngle((d) => d.x0 + startAngle)
     .endAngle((d) => d.x1 + startAngle)
     .padAngle((d) => Math.min((d.x1 - d.x0) / 2, (2 * padding) / radius))
@@ -146,14 +133,18 @@ function createSunburst(data: RecursiveSunburstData) {
     .selectAll('path')
     .data(root.descendants())
     .join('path')
-    .attr('d', vizArc)
+    .attr('d', vizArc as any)
     .attr('class', 'sunburst-viz__viz__node')
     .attr('role', 'button')
     .attr('tabindex', '0')
     .style('--depth', (d) => Math.max(d.depth - 1, 0) / 100)
-    .attr('fill', (d) => spiceToColor[d.data.ingredient as keyof typeof spiceToColor] || 'transparent')
+    .attr(
+      'fill',
+      (d) => spiceToColor[d.data.ingredient as keyof typeof spiceToColor] || 'transparent',
+    )
     .on('click', (e, d) => {
-      modelContent.value = recipesObject.value[d.data.recipe]
+      const recipeKey = d.data.recipe
+      if (recipeKey) modelContent.value = recipesObject.value[recipeKey]
     })
 
   // // Add label

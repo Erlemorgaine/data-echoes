@@ -1,4 +1,4 @@
-import type { DefaultArcObject } from 'd3-shape'
+import type { HierarchyNode } from "d3-hierarchy"
 
 export type Spice = {
   regions: string[]
@@ -29,19 +29,23 @@ export interface Recipe {
   links: { link: string; site: string }[]
 }
 
-export type RecipeWithAmount = Recipe & {
-  amountRecipe: number
-  parent: string
+export type SunburstData = {
   child: string
-  ingredient: string
+  parent: string | undefined
+  amountRecipe: number | undefined
+  count: number
+  ingredient: string | undefined
+  recipe: string | undefined
 }
 
-export interface RecipeNode extends DefaultArcObject {
+export type RecursiveSunburstData = SunburstData | RecursiveSunburstData[]
+export interface RecipeNode extends HierarchyNode<SunburstData> {
   x0: number
   x1: number
   y0: number
   y1: number
-  data: RecipeWithAmount
+  id: string
+  data: SunburstData
 }
 
 export type NumberArray = number[][] | NumberArray[]
