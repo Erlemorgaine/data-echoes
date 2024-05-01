@@ -18,26 +18,26 @@ const seriesTotal = 137275
   <NostalgiaModal :show="!!data" @closeModal="$emit('closeModal')">
     <div
       v-if="data"
-      class="nostalgia-episode-modal"
+      class="nostalgia-speaker-modal"
       :style="{ '--speaker-color': `var(--${data.speaker.replaceAll(' ', '-')})` }"
     >
-      <div class="nostalgia-episode-modal__bubbles">
-        <div class="nostalgia-episode-modal__bubbles__title">
+      <div class="nostalgia-speaker-modal__bubbles">
+        <div class="nostalgia-speaker-modal__bubbles__title">
           Top 5 <span>episodes with most words spoken</span>
         </div>
         <button
           v-for="episode of data.episodes"
           :key="episode.episode"
-          class="nostalgia-episode-modal__bubbles__bubble-content"
+          class="nostalgia-speaker-modal__bubbles__bubble-content"
           @click="
             $emit('openEpisodeModal', { season: episode.season, episode: episode.episode_nr })
           "
         >
-          <span class="nostalgia-episode-modal__bubbles__bubble-content__episode-nr"
+          <span class="nostalgia-speaker-modal__bubbles__bubble-content__episode-nr"
             >s{{ episode.season }} E{{ episode.episode_nr }}</span
           >
           <NostalgiaBubble
-            class="nostalgia-episode-modal__bubble"
+            class="nostalgia-speaker-modal__bubble"
             :season="episode.season"
             :episodeData="{
               title: '',
@@ -48,10 +48,10 @@ const seriesTotal = 137275
             }"
           />
 
-          <div class="nostalgia-episode-modal__bubbles__bubble-content__episode">
+          <div class="nostalgia-speaker-modal__bubbles__bubble-content__episode">
             <span>{{ episode.episode }}</span>
           </div>
-          <div class="nostalgia-episode-modal__bubbles__bubble-content__numbers">
+          <div class="nostalgia-speaker-modal__bubbles__bubble-content__numbers">
             <span class="value">
               {{ episode.speakerAmount }}
             </span>
@@ -63,11 +63,11 @@ const seriesTotal = 137275
         </button>
       </div>
 
-      <div class="nostalgia-episode-modal__content">
-        <h2 class="nostalgia-episode-modal__content__title">
+      <div class="nostalgia-speaker-modal__content">
+        <h2 class="nostalgia-speaker-modal__content__title">
           {{ data.speaker }}
         </h2>
-        <div class="nostalgia-episode-modal__content__numbers">
+        <div class="nostalgia-speaker-modal__content__numbers">
           speaks
           <span class="value">{{ data.speakerTotal }}</span> words (<span class="value"
             >{{ Math.round((data.speakerTotal / seriesTotal) * 1000) / 10 }}%</span
@@ -78,9 +78,9 @@ const seriesTotal = 137275
           <img
             :src="`${baseUrl}images/nostalgia/${data.speaker.replaceAll(' ', '-')}.webp`"
             alt=""
-            class="nostalgia-episode-modal__content__img"
+            class="nostalgia-speaker-modal__content__img"
           />
-          <caption class="nostalgia-episode-modal__content__source">
+          <caption class="nostalgia-speaker-modal__content__source">
             Source:
             <a target="__blank" :href="data.imgLink">Powerpuff Wiki</a>
           </caption>
@@ -91,7 +91,7 @@ const seriesTotal = 137275
 </template>
 
 <style scoped lang="scss">
-.nostalgia-episode-modal {
+.nostalgia-speaker-modal {
   display: flex;
   flex-direction: row-reverse;
 
@@ -115,8 +115,9 @@ const seriesTotal = 137275
     position: relative;
     display: grid;
     // grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     font-family: VinaSans;
+    margin-bottom: auto;
 
     &__title {
       @include powerpuff-line;
@@ -124,6 +125,7 @@ const seriesTotal = 137275
       font-size: 1.5rem;
       position: relative;
       width: 100%;
+      padding-bottom: 1rem;
 
       span {
         font-size: 1rem;

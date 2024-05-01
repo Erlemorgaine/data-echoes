@@ -45,6 +45,14 @@ import NostalgiaSpeakerModal from './NostalgiaSpeakerModal.vue'
 
 import './nostalgia.scss'
 import { lowScreenHeight } from '@/ultilities/globals'
+import { useMeta } from 'vue-meta'
+
+useMeta({
+  metaInfo: {
+    title: 'Talk of the Townsville',
+    // meta: [{ property: 'og:image', content: `${baseUrl}opengraph.png` }],
+  },
+})
 
 // TODO: Later on, experiment also with mayor, Ms Keane, Ms Bellum
 const keySpeakers = ['blossom', 'bubbles', 'buttercup', 'professor', 'narrator']
@@ -331,7 +339,7 @@ function showSpeakerModal(speaker: string) {
       />
 
       <NostalgiaNotation
-        text="Each <strong>bubble</strong> represents an <strong>episode</strong>. The size of the bubble represents the amount of words spoken by the 5 major speakers"
+        text="Each <strong>bubble</strong> is an <strong>episode</strong>. The size of the bubble represents the amount of words spoken by the series' 5 major speakers"
         :position="{ x: '25%', y: '-7rem' }"
         :line1Position="{ x: '45%', y: '100%' }"
         line-height="3.5rem"
@@ -345,7 +353,7 @@ function showSpeakerModal(speaker: string) {
         line-height="3.75rem"
       />
 
-    <NostalgiaNotation
+      <NostalgiaNotation
         text="Each <strong>line color</strong> represents a <strong>villain</strong>. The lines connect the episodes in which this villain speaks"
         :position="{ x: '52%', y: '12%' }"
         :line2Position="{ x: '-2.5rem', y: '0%' }"

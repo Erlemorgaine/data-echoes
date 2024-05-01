@@ -10,8 +10,8 @@
     <p>
       Even years after having stopped watching <span class="color">Cartoon Network</span>, I
       remembered the series fondly. This was first of all because this was a rare instance of a
-      (Western kids) series that had multiple girl protagonists who were both girly and badass, and
-      didn't need any love interests. Second, I realized that the series used pretty adult humor
+      (Western kids) series that starred multiple girl protagonists who were both girly and badass, and
+      didn't need a love interest to drive their characterization. Second, I realized that the series used pretty adult humor
       sometimes, and could be downright hilarious also when watching it as a grown-up.
     </p>
     <p>
