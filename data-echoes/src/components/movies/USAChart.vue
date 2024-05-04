@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { computed, mergeProps } from 'vue'
+import { computed } from 'vue'
 import MoviesBarChart from './MoviesBarChart.vue'
+import MoviesTextBlock from './MoviesTextBlock.vue'
 
 const props = defineProps<{
   stats: {
@@ -31,18 +32,14 @@ const bipocPercentage = computed(
 
 <template>
   <section class="usa-chart">
-    <h3 class="usa-chart__title">So how does this compare to a national level?</h3>
+    <MoviesTextBlock
+      title="So how does this compare to a national level?"
+      :paragraphs="[
+        `Since the Oscars are an award show based in the USA, and mostly focused on the USA film industry (for some notable examples, see <a href='https://collider.com/foreign-movies-that-won-oscars/'>this Collider article</a>) I was interested in how these numbers compare to the general layout of the US population.`,
 
-    <p class="usa-chart__text">
-      Since the Oscars are an award show based in the USA, and mostly focused on the US film
-      industry - though to be fair, this has changed over the years - I was interested in how these
-      numbers compare to the general layout of the US population.
-    </p>
-    <p class="usa-chart__text">
-      The data comes from the 2021 estimates of the
-      <a href="https://usafacts.org/">"Race and ethnicity in the United States" Wikipedia article</a
-      >, which takes its data from the <a href="https://usafacts.org/">USA Facts</a> site.
-    </p>
+        `The data comes from the 2021 estimates of the <a href='https://usafacts.org/'><i>Race and ethnicity in the United States</i></a> Wikipedia article, which takes its data from the <a href='https://usafacts.org/'>USA Facts</a> site.`,
+      ]"
+    />
 
     <MoviesBarChart
       title="2021 estimates of self-identified ethnicity"
@@ -72,18 +69,6 @@ const bipocPercentage = computed(
 <style scoped lang="scss">
 .usa-chart {
   padding-block: 5rem;
-
-  &__title {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding-bottom: 2vh;
-  }
-
-  &__text {
-    max-width: 40rem;
-    margin-inline: auto;
-  }
 
   &__bipoc-line {
     width: var(--percentage-bipoc);

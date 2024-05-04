@@ -15,6 +15,7 @@ import MoviesStats from './MoviesStats.vue'
 import USAChart from './USAChart.vue'
 
 import './movies.scss'
+import MoviesTextBlock from './MoviesTextBlock.vue'
 
 type StatKey = keyof typeof generalStats
 
@@ -65,6 +66,12 @@ function sortData(key: MoviePersonKey) {
 
   const compareValues = (a: string | number | boolean, b: string | number | boolean) => {
     if (typeof a === 'string' && typeof b === 'string') {
+      // We prefix 'latino' and 'white' with a, as a trick to let latino come before 'asian',
+      // since this works better color-wise
+
+      a = a.startsWith('a') ? a : 'a' + a
+      b = b.startsWith('a') ? b : 'a' + b
+
       return a.localeCompare(b)
     } else {
       if (a < b) return -1
@@ -114,6 +121,14 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
   <div class="movie-page">
     <h2 class="movie-page__title">#OscarsSo<span>White</span></h2>
 
+    <MoviesTextBlock
+      :paragraphs="[
+        `On the 15th of January 2015, April Reign posted a hashtag on Twitter that would go viral: #OscarsSoWhite. It commented on the lack of representation of people with a BIPOC background among the nominees for the 87th Academy Awards, and was later revived to do the same for the nominees of the 88th Academy Awards. `,
+        `As someone who loves movies and always keeps an eye on what is going on with the Oscars, I was curious to see the patterns that would emerge once I put the data on Oscar nominees in a visualization. I decided to gather data starting from the year 2010 and ending in the year that I'm writing this, which is 2024, because I was curious how (not-)diverse the nominees had been in the ceremonies leading up to the year that the hashtag went viral, and how things have developed since. 2010 is a bit of an arbitrary cutoff point; my reasoning was that by that time, the dialogue concerning diversity had already been circulating in US society (and maybe also in Hollywood?), while if I would go back a whole lot of years more, the lack of diversity would probably be a given. I also wanted to keep the focal point on the years surrounding the hashtag moment - and 2010 is a nice round number 😄.`,
+        `In terms of categories, I chose to visualize the (usually) single-nominee categories that usually create the most buzz - the actor and director categories - as well as the cast of the Best Picture nominees. My original idea was to literally visualize every category, but gathering data on every nominee's background would have been a lot of work that I didn't really have space for at that moment 🙈.`,
+      ]"
+    />
+
     <div class="movie-page__top">
       <MoviesLegend />
 
@@ -137,11 +152,16 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
     <section class="movie-page__categories">
       <h3 class="sr-only">Nominees for categories that get the most media visibility</h3>
       <div
-        v-for="category in categories"
+        v-for="(category, i) in categories"
         :key="category.id"
         class="movie-page__categories__category"
       >
-        <MoviesDotChart :title="category.title" :nominees="category.data" />
+        <MoviesDotChart
+          :showHashtagLine="!i"
+          :title="category.title"
+          :nominees="category.data"
+          :yearSelected="sortKey === 'year'"
+        />
 
         <MoviesStats
           :chartData="getGeneralCategoryStats(category.id)"
@@ -153,6 +173,14 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
     </section>
 
     <USAChart :stats="generalStats.USA" />
+
+    <div class="movie-page__sources">
+      <a href="https://www.nytimes.com/2020/02/06/movies/oscarssowhite-history.html">
+        New York Times, "The Hashtag That Changed the Oscars: An Oral History"
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/April_Reign"> Wikipedia "April Reign" </a>
+    </div>
   </div>
 </template>
 
@@ -255,7 +283,7 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
   &__categories {
     display: flex;
     justify-content: space-between;
-    max-width: 80rem;
+    width: clamp(60rem, 78vw, 70rem);
     margin: 0 auto;
 
     &__category {

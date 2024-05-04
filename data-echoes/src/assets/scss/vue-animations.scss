@@ -5,5 +5,5 @@
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity var(--fade-duration, 0.5s);
 }

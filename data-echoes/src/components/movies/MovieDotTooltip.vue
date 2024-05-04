@@ -29,15 +29,16 @@ const tooltipData = computed(() => [
   text-align: left;
   position: absolute;
   font-size: 0.875rem;
-  bottom: calc(100% + 0.5rem);
+  top: calc(100% + 0.5rem);
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--black);
   border-top: 0.3rem solid;
   padding: 0.25rem 0.75rem;
   width: max-content;
+  z-index: 1;
   color: var(--white);
-  box-shadow: -2px -1px 5px 1px var(--off-black-30);
+  box-shadow: -2px 2px 10px 1px var(--off-black-50);
   border-image: linear-gradient(
       -45deg,
       var(--black) 5%,
