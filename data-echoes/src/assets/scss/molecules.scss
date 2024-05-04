@@ -47,6 +47,34 @@
   }
 }
 
+@mixin movies-border-top {
+  border-top: 0.3rem solid;
+  border-image: linear-gradient(
+      -45deg,
+      var(--black) 5%,
+      var(--white) 5% 10%,
+      var(--black) 10% 15%,
+      var(--white) 15% 20%,
+      var(--black) 20% 25%,
+      var(--white) 25% 30%,
+      var(--black) 30% 35%,
+      var(--white) 35% 40%,
+      var(--black) 40% 45%,
+      var(--white) 45% 50%,
+      var(--black) 50% 55%,
+      var(--white) 55% 60%,
+      var(--black) 60% 65%,
+      var(--white) 65% 70%,
+      var(--black) 70% 75%,
+      var(--white) 75% 80%,
+      var(--black) 80% 85%,
+      var(--white) 85% 90%,
+      var(--black) 90% 95%,
+      var(--white) 95%
+    )
+    1;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

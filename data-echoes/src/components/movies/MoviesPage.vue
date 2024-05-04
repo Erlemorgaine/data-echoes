@@ -174,20 +174,19 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
     <USAChart :stats="generalStats.USA" />
 
-    <div class="movie-page__sources">
+    <nav aria-label="Source links" class="movie-page__sources">
       <a href="https://www.nytimes.com/2020/02/06/movies/oscarssowhite-history.html">
         New York Times, "The Hashtag That Changed the Oscars: An Oral History"
       </a>
 
-      <a href="https://en.wikipedia.org/wiki/April_Reign"> Wikipedia "April Reign" </a>
-    </div>
+      <a href="https://en.wikipedia.org/wiki/April_Reign"> Wikipedia, "April Reign" </a>
+    </nav>
   </div>
 </template>
 
 <style scoped lang="scss">
 .movie-page {
   background-color: var(--silver);
-  padding-bottom: 2rem;
   max-width: 75rem;
   margin: 0 auto;
 
@@ -291,6 +290,34 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+    }
+  }
+
+  &__sources {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+    margin-top: 4rem;
+    background-color: var(--off-black);
+    color: var(--off-white);
+    margin-left: calc(max(100vw - 75rem, 5rem) / -2);
+    width: 100vw;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0.2rem;
+      background-image: repeating-linear-gradient(
+        -45deg,
+        var(--off-black) 0,
+        var(--off-black) 1rem,
+        var(--off-white) 1rem,
+        var(--off-white) 2rem
+      );
     }
   }
 }
