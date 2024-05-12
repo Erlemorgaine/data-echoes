@@ -119,7 +119,10 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
 <template>
   <div class="movie-page">
-    <h2 class="movie-page__title">#OscarsSo<span>White</span></h2>
+    <h2 class="movie-page__title">Movies in <span>Monochrome</span></h2>
+    <p class="movie-page__subtitle">
+      Diversity at the Academy Awards before and after #OscarsSoWhite
+    </p>
 
     <MoviesTextBlock
       :paragraphs="[
@@ -192,13 +195,24 @@ function getGeneralCategoryStats(categoryId: StatKey): MovieBarData[] {
 
   &__title {
     text-align: center;
-    margin-bottom: 1rem;
     font-family: Miltonian;
-    font-size: 2rem;
+    font-size: 2.2rem;
 
     span {
       color: #fff;
     }
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin-inline: auto;
+    // text-transform: uppercase;
+    // font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 0.25rem;
+    font-size: 1.15rem;
+    max-width: 24rem;
+    line-height: 130%;
   }
 
   &__top {

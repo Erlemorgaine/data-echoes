@@ -44,6 +44,8 @@ const statId = Math.round(Math.random() * 10000)
       "
     />
 
+    <!-- TODO: Before and after 2015 -->
+
     <MoviesBarChart
       :title="`${Math.round(bipocOfWon * 100)}% BIPOC`"
       subTitle="out of all winners"

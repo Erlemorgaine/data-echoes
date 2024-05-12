@@ -17,6 +17,8 @@ defineProps<{ title?: string; paragraphs: string[] }>()
 
 <style scoped lang="scss">
 .movies-text-block {
+  margin-bottom: 4rem;
+
   &__title {
     text-align: center;
     font-size: 1.5rem;
