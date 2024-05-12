@@ -54,6 +54,7 @@ const bipocPercentage = computed(
         { value: stats.fractionHispanicLatino, label: 'Hispanic and Latino', id: 'latino' },
         { value: stats.fractionWhite, label: 'White', id: 'white' },
       ]"
+      large
     />
 
     <div

@@ -19,8 +19,8 @@ import MoviesTextBlock from './MoviesTextBlock.vue'
 
 type StatKey = keyof typeof generalStats
 
-const sortKeys: MoviePersonKey[] = ['year', 'origin', 'name']
-const sortOrderKeys = ['won', 'origin', 'year', 'name']
+const sortKeys: MoviePersonKey[] = ['year', 'origin']
+const sortOrderKeys = ['won', 'origin', 'year']
 
 const categories = ref<{ id: StatKey; title: string; data: MoviePerson[] }[]>([
   { id: 'director', title: 'Best Director', data: directors as MoviePerson[] },
